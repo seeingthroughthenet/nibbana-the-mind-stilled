@@ -121,6 +121,12 @@ def convert():
     md['text'] = md['text'].replace('ṃ', 'ṁ')
     md['text'] = md['text'].replace('Ṃ', 'Ṁ')
 
+    md['text'] = md['text'].replace(' -- ', ' – ')
+
+    # Remove italics from common terms
+    for w in ["Nibbāna", "Buddha", "Dhamma", "Saṅgha", "Pāli"]:
+        md['text'] = md['text'].replace(f'*{w}*', w)
+
     """
     \"What is the \'two\'?\"
 
