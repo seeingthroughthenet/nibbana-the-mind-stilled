@@ -1,0 +1,20 @@
+[book]
+title = "Nibbāna - The Mind Stilled"
+authors = ["Bhikkhu K. Ñāṇananda"]
+language = "en"
+multilingual = false
+src = "manuscript/markdown"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.epub]
+additional-css = ["assets/stylesheets/output-epub.css"]
+epub-version = 3
+use-default-css = false
+no-section-label = true
+footnote-backrefs = true
+curly-quotes = true
+cover-image = "desktop-cover.png"
+additional-resources = []
