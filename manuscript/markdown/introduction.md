@@ -1,6 +1,6 @@
 # Introduction
 
-*Nibbāna* -- the ultimate goal of the Buddhist, has been variously understood
+Nibbāna – the ultimate goal of the Buddhist, has been variously understood
 and interpreted in the history of Buddhist thought. One who earnestly takes up
 the practice of the Noble Eightfold Path for the attainment of this goal, might
 sometimes be dismayed to find this medley of views confronting him. Right View,
@@ -8,7 +8,7 @@ as the first factor of that path, has always to be in the vanguard in one's
 practice. In the interests of this Right View, which one has to progressively
 'straighten-up', a need for clarification before purification might sometimes be
 strongly felt. It was in such a context that the present series of 33 sermons on
-*Nibbāna* came to be delivered.
+Nibbāna came to be delivered.
 
 The invitation for this series of sermons came from my revered teacher, the late
 Venerable Mātara Sri Ñāṇārāma Mahāthera, who was the resident meditation teacher
@@ -24,14 +24,14 @@ book-form only in 1997, when the first volume of the Sinhala series titled
 (Dhamma Publications Trust) setup for the purpose in the Department of the
 Public Trustee, Sri Lanka. The series is scheduled to comprise 11 volumes, of
 which so far 9 have come out. The entire series is for free distribution as
-*Dhamma dāna* -- 'the gift of truth that excels all other gifts'. The sister
+*Dhamma dāna* – 'the gift of truth that excels all other gifts'. The sister
 series to come out in English will comprise 7 volumes of 5 sermons each, which
-will likewise be strictly for free distribution since *Dhamma* is price-less.
+will likewise be strictly for free distribution since Dhamma is price-less.
 
 In these sermons I have attempted to trace the original meaning and significance
-of the Pali term *Nibbāna* (Skt. *Nirvāna*) based on the evidence from the
+of the Pali term Nibbāna (Skt. *Nirvāna*) based on the evidence from the
 discourses of the Pali Canon. This led to a detailed analysis and a re-appraisal
-of some of the most controversial *suttas* on *Nibbāna* often quoted by scholars
+of some of the most controversial *suttas* on Nibbāna often quoted by scholars
 in support of their interpretations. The findings, however, were not presented
 as a dry scholastic exposition of mere academic interest. Since the sermons were
 addressed to a meditative audience keen on *realizing Nibbāna*, edifying
@@ -65,7 +65,7 @@ To Mrs. Yukie Sirimane for making available this translation as well as our
 other publications to the world through the Internet under a special web site
 www.beyondthenet.net.
 
-And last but not least --
+And last but not least –
 
 To, Mr. Hideo Chihashi, Director, Green Hill Meditation Institute, Tokyo, Japan,
 and to his group of relatives, friends and pupils for their munificence in
@@ -75,7 +75,7 @@ sponsoring the publication of the first volume of *Nibbāna – The mind stilled
 >
 > Nibbāna is the supreme bliss
 
--- Bhikkhu K. Ñāṇananda
+– Bhikkhu K. Ñāṇananda
 
 Pothgulgala Aranyaya \
 'Pahankanuwa' \

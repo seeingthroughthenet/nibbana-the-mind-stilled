@@ -152,14 +152,14 @@ chosen at random. It echoes the idea behind the Buddha's statement already
 quoted, *kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sineho*. *Kamma* is the field,
 consciousness the seed, and craving the moisture.
 
-Here the venerable *Therī* is replying from the point of view of *Dhamma*, which
+Here the venerable *Therī* is replying from the point of view of Dhamma, which
 takes into account the mental aspect as well. It is not simply the outward
 visible image, as commonly understood by *nāma-rūpa*, but that image which falls
 on consciousness as its object. The reason for the arising and growth of
 *nāma-rūpa* is therefore the seed of consciousness. That consciousness seed
 grows in the field of *kamma*, with craving as the moisture. The outgrowth is in
 terms of aggregates, elements and bases. The cessation of consciousness is none
-other than *Nibbāna*.
+other than Nibbāna.
 
 Some seem to think that the cessation of consciousness occurs in an *arahant*
 only at the moment of his *parinibbāna*, at the end of his life span. But this
@@ -287,13 +287,13 @@ itself is the end of suffering.
 The *Udāna* version of the above passage has something significant about it.
 There the entire *sutta* consists of these few sentences. But the introductory
 part of it says that the Buddha was instructing, inciting and gladdening the
-monks with a *Dhamma* talk connected with *Nibbāna*:
+monks with a Dhamma talk connected with Nibbāna:
 
 > *Tena kho pana samayena Bhagavā bhikkhū nibbānapaṭisaṁyuttāya dhammiyā kathāya
 > sandasseti samādapeti samuttejeti sampahaṁseti*.[^fn134]
 
-This is a pointer to the fact that this sermon is on *Nibbāna*. So the
-implication is that in *Nibbāna* the *arahant's* mind is free from any
+This is a pointer to the fact that this sermon is on Nibbāna. So the
+implication is that in Nibbāna the *arahant's* mind is free from any
 attachments.
 
 There is a discourse in the *Nidāna* section of the *Saṁyutta Nikāya*, which
@@ -387,7 +387,7 @@ dependent arising:
 >
 > 'Everything exists', *Kaccāyana*, is one extreme. 'Nothing exists' is the
 > other extreme. Not approaching either of those extremes, *Kaccāyana*, the
-> *Tathāgata* teaches the *Dhamma* by the middle way:
+> *Tathāgata* teaches the Dhamma by the middle way:
 >
 > From ignorance as condition, preparations come to be; from preparations as
 > condition, consciousness comes to be; from consciousness as condition,
@@ -476,7 +476,7 @@ It is more plausible to conclude that the reference is to the six sense bases of
 contact, *phassāyatana*, which include both the internal and the external. In
 fact, at least two are necessary for something to be dependently arisen. The
 world does not arise in the six internal bases in isolation. It is precisely in
-this fact that the depth of this *Dhamma* is to be seen.
+this fact that the depth of this Dhamma is to be seen.
 
 In the *Samudayasutta* of the *Saḷāyatana *section in the *Saṁyutta Nikāya* this
 aspect of dependent arising is clearly brought out:
@@ -510,7 +510,7 @@ the world arises in the six sense bases. This fact is quite often expressed by
 the phrase *ariyassa vinaye loko*, the world in the noble one's
 discipline.[^fn139] According to this noble usage, the world is always defined
 in terms of the six sense bases, as if the world arises because of these six
-sense bases. This is a very deep idea. All other teachings in this *Dhamma* will
+sense bases. This is a very deep idea. All other teachings in this Dhamma will
 get obscured, if one fails to understand this basic fact, namely how the concept
 of the world is defined in this mode of noble usage.
 
@@ -692,7 +692,7 @@ pulling at one end with all his might, if the other suddenly lets go of its
 hold, one can well imagine the extent of the former's discomfiture, let alone
 victory. It was such a discomfiture that fell to *Māra's* lot, when the Buddha
 applied this extraordinary solution. All this goes to show the importance of
-such terms as *nissaya* and *idappaccayatā* in understanding this *Dhamma*.
+such terms as *nissaya* and *idappaccayatā* in understanding this Dhamma.
 
 We have already taken up the word *nissaya* for comment. Another aspect of its
 significance is revealed by the *Satipaṭṭhānasutta*. Some parts of this *sutta*,
@@ -826,7 +826,7 @@ last sentence brings out the net result of that way of developing insight:
 
 > He abides independent and does not cling to anything in the world.
 
-Not only in the section on the contemplation of the body, but also in the sections on feelings, mind, and mind objects in the *Satipaṭṭhānasutta*, we find this mode of insight development. None of the objects, taken up for the foundation of  mindfulness, is to be grasped tenaciously. Only their rise and fall is discerned. So it seems that, what is found in the *Satipaṭṭhānasutta*, is a group of concepts. These concepts serve only as a scaffolding for the systematic development of mindfulness and knowledge. The Buddha often compared his *Dhamma* to a raft:
+Not only in the section on the contemplation of the body, but also in the sections on feelings, mind, and mind objects in the *Satipaṭṭhānasutta*, we find this mode of insight development. None of the objects, taken up for the foundation of  mindfulness, is to be grasped tenaciously. Only their rise and fall is discerned. So it seems that, what is found in the *Satipaṭṭhānasutta*, is a group of concepts. These concepts serve only as a scaffolding for the systematic development of mindfulness and knowledge. The Buddha often compared his Dhamma to a raft:
 
 > *nittharaṇatthāya no gahaṇatthāya*
 >

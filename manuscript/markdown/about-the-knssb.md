@@ -30,6 +30,6 @@ K.N.S.S.B. \
 Acc. No. 007060000241 \
 Sampath Bank, SWIFT: BSAMLKLX \
 Branch Code: 070 \
-Branch: R.G. Senanayake Mawatha, Colombo -- 07 \
+Branch: R.G. Senanayake Mawatha, Colombo – 07 \
 Sri Lanka
 

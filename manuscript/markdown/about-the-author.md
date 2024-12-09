@@ -12,7 +12,7 @@ Already during the first phase of his life as a monk at Island Hermitage, Ven.
 Publication Society in Kandy under the titles:
 
 1. Concept and Reality in Early Buddhist Thought
-2. Saṁyutta Nikāya -- An Anthology (Part II)
+2. Saṁyutta Nikāya – An Anthology (Part II)
 3. Ideal Solitude
 4. The Magic of the Mind
 
@@ -42,7 +42,7 @@ We are already convinced of the immense potentialities of this magnanimous
 venture, having witnessed the extraordinary response of the Buddhist public in
 sending their contributions to the Trust to enable the publication of books.
 Though usually the names of donors are shown at the end of each publication,
-some donations -- even sizeable ones -- are conspicuous by their anonymity. This
+some donations – even sizeable ones – are conspicuous by their anonymity. This
 exemplary trait is symbolic of the implicit confidence of the donor in the
 Trust.
 

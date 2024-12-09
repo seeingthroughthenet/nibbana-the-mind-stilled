@@ -14,9 +14,9 @@ cessation, extinction".
 With the permission of the Most Venerable Great Preceptor and the assembly of
 the venerable meditative monks.
 
-Today we have before us the third sermon on *Nibbāna*. The other day, with the
+Today we have before us the third sermon on Nibbāna. The other day, with the
 help of the simile of a whirlpool, we attempted an explanation of the terms
-*saṁsāra* on the one hand, and *Nibbāna* on the other, that is to say 'going
+*saṁsāra* on the one hand, and Nibbāna on the other, that is to say 'going
 round', or *saṁsaraṇa*, and 'going out', or *nissaraṇa*.[^fn85] We also cited
 *suttas* to illustrate both the arising (*samudaya*) and cessation (*nirodha*)
 aspects of the law of dependent arising.
@@ -62,9 +62,9 @@ help of things thus grasped by the whirlpool. So this whirlpool or vortex simile
 gives us some idea of the law of dependent arising.
 
 The insight into the basic principle of dependent arising, is in fact regarded
-as the arising of the 'eye of *Dhamma*'. About the stream-winner it is said that
-the dustless stainless eye of *Dhamma* has arisen in him. The following phrase,
-which sums up the significance of that *Dhamma*-eye, comes up quite often in the
+as the arising of the 'eye of Dhamma'. About the stream-winner it is said that
+the dustless stainless eye of Dhamma has arisen in him. The following phrase,
+which sums up the significance of that Dhamma-eye, comes up quite often in the
 discourses:
 
 > *Yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhammaṁ*.[^fn88]
@@ -77,11 +77,11 @@ experience of that insight has found expression as an exclamation: "Arising,
 arising! Ceasing, ceasing!" The above phrase only connects up the two aspects of
 that experience.
 
-It seems then that what is called the '*Dhamma*-eye', is the ability to see the
+It seems then that what is called the 'Dhamma-eye', is the ability to see the
 *Nibbānic* solution in the very vortex of the *samsāric* problem. That way of
-analysis which puts *samsāra* and *Nibbāna* far apart, into two watertight
+analysis which puts *samsāra* and Nibbāna far apart, into two watertight
 compartments, as it were, gives rise to interminable problems. But here we see
-that, just as much as one could realize *Nibbāna* by discovering the cause of
+that, just as much as one could realize Nibbāna by discovering the cause of
 suffering and following the path to its cessation, which in effect is the
 understanding of the four noble truths, one could also put an end to this vortex
 by understanding its cause and applying the correct means for its cessation.
@@ -111,7 +111,7 @@ also we can see that it is in concepts that ignorance finds a camouflage.
 
 Being unaware of it the world goes on amassing concepts and even expects to see
 them in *Nibbāna.* There are some who fondly hope to get a vision of their lists
-of concepts when they realize *Nibbāna*. But that wisdom penetrates through even
+of concepts when they realize Nibbāna. But that wisdom penetrates through even
 the concepts and that is why it is called *udayatthagāminī paññā ariyā
 nibbedhikā*,[^fn91] "the *ariyan* penetrative wisdom that sees the rise and
 fall".
@@ -231,7 +231,7 @@ consciousness and name-and-form:
 > to be. Thus is the arising of this entire mass of suffering.
 
 The fact that this understanding of *paṭicca samuppāda* signified the arising of
-the *Dhamma*-eye in *Vipassī bodhisatta* is stated in the following words:
+the Dhamma-eye in *Vipassī bodhisatta* is stated in the following words:
 
 > *Samudayo samudayo'ti kho, bhikkhave, Vipassissa bodhisattassa pubbe
 > ananussutesu dhammesu cakkhum udapādi, ñāṇaṁ udapādi, paññā udapādi, vijjā
@@ -294,7 +294,7 @@ is kept going.
 
 Simply because the first two links are not mentioned in the *sutta*, the
 commentators give the explanation that they belong to the past. But it should be
-clear that the *bodhisatta Vipassī* could not have aroused the *Dhamma*-eye
+clear that the *bodhisatta Vipassī* could not have aroused the Dhamma-eye
 without those two links. Why they are not specially mentioned here is because
 they are in the background. It is true that there is a mode of exposition, in
 which *avijjā*, or ignorance, takes precedence. But what we have here is a
@@ -352,7 +352,7 @@ dependent on the name-and-form bundle.
 
 Now, as soon as the consciousness bundle is drawn out, all the others on the
 right side fall down immediately. There is no interval. True to the qualities of
-the *Dhamma*, summed up in the terms *sandiṭṭhika*, *akālika* and *ehipassika*,
+the Dhamma, summed up in the terms *sandiṭṭhika*, *akālika* and *ehipassika*,
 that is, to be seen here and now, not involving time, and inviting to come and
 see, the entire mass of *saṁsāric* suffering ceases immediately. So, this
 discourse is further proof of the fact that we have here quite a different state
@@ -382,19 +382,19 @@ statement of the Buddha on *paṭicca samuppāda*. It runs:
 > *Yo paṭiccasamuppādaṁ passati so dhammaṁ passati; yo dhammaṁ passati so
 > paṭiccasamuppādaṁ passati*.[^fn100]
 >
-> He who sees the law of dependent arising, sees the *Dhamma*; he who sees the
-> *Dhamma*, sees the law of dependent arising.
+> He who sees the law of dependent arising, sees the Dhamma; he who sees the
+> Dhamma, sees the law of dependent arising.
 
-This shows that the quintessence of the *Dhamma* is in fact the law of dependent
-arising itself. Now there are these six qualities of the *Dhamma*, summed up in
-the well know formula, which every Buddhist believes in. This *Dhamma* is
+This shows that the quintessence of the Dhamma is in fact the law of dependent
+arising itself. Now there are these six qualities of the Dhamma, summed up in
+the well know formula, which every Buddhist believes in. This Dhamma is
 well-preached, *svākkhāto*. It can be seen here and now, *sandiṭṭhiko*, that is,
 one can see it by oneself here in this very world. It is timeless, *akāliko*. It
 invites one to come and see, *ehipassiko*. It leads one on, *opanayiko*. It can
 be realized by the wise each one by himself, *paccattaṁ veditabbo
 viññūhi*.[^fn101]
 
-Though we all have faith in these qualities of the *Dhamma*, let us see whether
+Though we all have faith in these qualities of the Dhamma, let us see whether
 the traditionally accepted interpretation of *paṭicca samuppāda* is faithful to
 these qualities, particularly to the two qualities *sandiṭṭhiko* and *akāliko*.
 
@@ -492,7 +492,7 @@ of the Buddha in the following verses:
 > I did not delight therein.
 > 
 > But now to me, O! sage, \
-> Proclaim your *Dhamma*, \
+> Proclaim your Dhamma, \
 > That is destructive of craving, \
 > By knowing which and mindfully faring along, \
 > One might get beyond the world's viscosity.
@@ -515,12 +515,12 @@ Nikāya*.
 > future? (and so on)[^fn106]
 
 "But, I was not pleased with such teachings", says *Hemaka*, "It is only you, O!
-sage, who teaches the *Dhamma* that destroys the craving in the present,
+sage, who teaches the Dhamma that destroys the craving in the present,
 understanding which, and mindfully following it accordingly, one could go beyond
 the sticky craving in the world." *Hemaka's* praise of the Buddha was inspired
-by this most distinctive feature in the *Dhamma*.
+by this most distinctive feature in the Dhamma.
 
-We have already stated that by '*Dhamma*' is meant the law of dependent arising.
+We have already stated that by 'Dhamma' is meant the law of dependent arising.
 This is further proof that the basic principle underlying the formula of
 dependent arising could be traced to the constant relationship between
 consciousness and name-and-form, already present in one's mental continuum,
@@ -857,7 +857,7 @@ consciousness, it gravitates towards consciousness. It is because consciousness
 also has gone there that we say someone is 'immersed' or 'engrossed' in some
 thought. It is consciousness that carries more weight.
 
-This is sufficiently clear even from the *Dhamma* discussion of the Buddha,
+This is sufficiently clear even from the Dhamma discussion of the Buddha,
 quoted above. If consciousness does not descend into a mother's womb,
 name-and-form will not remain there. If consciousness does not join in to
 provide the opportunity, it will not grow. This is the nature of the

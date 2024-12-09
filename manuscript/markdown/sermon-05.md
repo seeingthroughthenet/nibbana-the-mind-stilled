@@ -62,7 +62,7 @@ arising, arising - ceasing, ceasing, ceasing - arising ceasing, arising ceasing.
 
 This is an illustration for the method of reflection, or *sammasana*, introduced
 by the Buddha in the *Satipaṭṭhānasutta*. Words and concepts have to be made use
-of, for attaining *Nibbāna*. But here the aim is only the up-building of
+of, for attaining Nibbāna. But here the aim is only the up-building of
 mindfulness and knowledge. Once their purpose is served, they can be dismantled
 without being a bother to the mind. This is the significance of the concluding
 phrase "He abides independent and does not cling to anything in the world".[^fn152]
@@ -113,7 +113,7 @@ This, too, is an important discourse, well worth remembering, because here the
 Buddha is dealing with the arising and cessation, or arising and going down, of
 the four objects used for establishing mindfulness.
 
-As we know, the concept of nutriment in this *Dhamma* is much broader than the
+As we know, the concept of nutriment in this Dhamma is much broader than the
 worldly concept of food. It does not imply merely the ordinary food, for which
 the term used is *kabaliṅkārāhāra*, or material food. Taken in a deeper sense,
 it includes the other three kinds of nutriment as well, namely *phassa*, or
@@ -133,7 +133,7 @@ The fact that the mind-objects arise due to attention is noteworthy. All the
 mind-objects mentioned in the fourth section of contemplation arise when there
 is attention. And they go down when attention is not there. In other words,
 attending makes objects out of them. This way, we are reminded that, apart from
-making use of these words and concepts for the purpose of attaining *Nibbāna*,
+making use of these words and concepts for the purpose of attaining Nibbāna,
 there is nothing worth holding on to or clinging to dogmatically. So if a
 meditator works with this aim in mind, he will be assured of a state of mind
 that is independent and clinging-free, *anissita*, *anupādāna*.
@@ -296,7 +296,7 @@ Now there is this term *sa-upādisesa Nibbāna dhātu*. Taking the term at its f
 value, some might think that the clinging is not yet over for the *arahants* -
 that there is still a little bit left.
 
-The *arahant*, though he has attained release and realized *Nibbāna*, so long as
+The *arahant*, though he has attained release and realized Nibbāna, so long as
 he is living in the world, has to relate to the external objects in the world
 somehow through his five senses, making use of them. Seeing it, some might
 conclude that it is because of some residual clinging. But we have to understand
@@ -318,9 +318,9 @@ whereas the *arahants* are free from it. This is the upshot of the above
 discussion on the terms *anusaya* and *nissaya*.[^fn165]
 
 Yet another important term that should receive attention in any discussion on
-*Nibbāna* is *āsava*. This is because the *arahant* is often called a
+Nibbāna is *āsava*. This is because the *arahant* is often called a
 *khīṇāsava*, one whose *āsavas* are extinct.[^fn166] *Āsavakkhayo*, extinction
-of *āsavas*, is an epithet of *Nibbāna*.[^fn167] So the distinct feature of an
+of *āsavas*, is an epithet of Nibbāna.[^fn167] So the distinct feature of an
 *arahant* is his extinction of *āsavas*.
 
 Now, what does *āsava* mean? In ordinary life, this word is used to denote
@@ -394,9 +394,9 @@ eye, by the divine eye, by those who have developed it. So also the fact of
 extirpating all influxes is to be realized by wisdom, and not by any other
 means. The fact that the influxes of sensuality, existence, ignorance, and
 views, will not flow in again, can be verified only by wisdom. That is why
-special mention is made of *Nibbāna* as something realizable.[^fn172]
+special mention is made of Nibbāna as something realizable.[^fn172]
 
-Because *Nibbāna* is said to be something realizable, some are of the opinion
+Because Nibbāna is said to be something realizable, some are of the opinion
 that nothing should be predicated about it. What is the reason for this special
 emphasis on its realizability? It is to bring into sharp relief the point of
 divergence, since the Buddha taught a way of realizing here and now something
@@ -407,7 +407,7 @@ existence, or *bhavanirodha*. How can one be certain here and now that this
 existence has ceased? This might sometimes appear as a big puzzle. But all the
 same, the *arahant* experiences the cessation of existence as a realization.
 That is why he even gives expression to it as: *Bhavanirodho Nibbānaṁ*,[^fn173]
-"cessation of existence is *Nibbāna*".
+"cessation of existence is Nibbāna".
 
 It comes about by this extinction of influxes. The very existence of 'existence'
 is especially due to the flowing in of influxes of existence. What is called
@@ -564,7 +564,7 @@ world around us appears so picturesque.
 Based on this particular *sutta*, with its reference to the *caraṇa* picture as
 a prototype, we may take a peep at the modern day's movie film, by way of an
 analogy. It might facilitate the understanding of the teachings on *paṭicca
-samuppāda* and *Nibbāna* in a way that is closer to our everyday life. The
+samuppāda* and Nibbāna in a way that is closer to our everyday life. The
 principles governing the film and the drama are part and parcel of the life
 outside cinema and the theatre. But since it is generally difficult to grasp
 them in the context of the life outside, we shall now try to elucidate them with
@@ -718,7 +718,7 @@ verse:
 It is all murky to those enveloped by the hindrance of ignorance, like the
 darkness for those who are unable to see. But for the noble ones, it is visible
 like an open space, even as the light to those with vision. Though it is near at
-hand, fools, inexpert in the *Dhamma*, do not understand. This same impression
+hand, fools, inexpert in the Dhamma, do not understand. This same impression
 of the Buddha comes up again in the following verse in the *Udāna*:
 
 > *Mohasambandhano loko,* \
@@ -745,7 +745,7 @@ on within the four walls of the cinema and the theatre. Just as, in the latter
 case, an enjoyable story is created out of a multitude of scenes, relayed at
 varying degrees of rapidity, backed by the delusive make-up of actors and
 actresses, so that one may lose oneself in a world of fantasy, even so,
-according to the point of view of *Dhamma*, the lifestyle outside is something
+according to the point of view of Dhamma, the lifestyle outside is something
 made up and concocted.
 
 However, the darkness within is much thicker than the darkness outside. The
@@ -778,7 +778,7 @@ levels of experience, mentioned above. But they on their own could not get at
 the principles underlying the delusion involved.
 
 Much later, as a wandering ascetic, when *Upatissa* met the Venerable *Assaji
-Thera* on his alms-round, he begged the latter to preach the *Dhamma* to him.
+Thera* on his alms-round, he begged the latter to preach the Dhamma to him.
 Venerable *Assaji* said: "I know only a little". *Upatissa* also assured him: "I
 need only a little". Venerable *Assaji* preached 'a little' and *Upatissa*, too,
 heard 'a little', but since there was much in it, the latter attained the Fruit
@@ -826,7 +826,7 @@ To sum up: Whatever phenomena that arise from a cause, their cause is
 > This not being, this does not exist, \
 > With the cessation of this, this ceases.
 
-And then the cessation of things arisen from a cause is ultimately *Nibbāna*
+And then the cessation of things arisen from a cause is ultimately Nibbāna
 itself. That is the implication of the oft recurrent phrase:
 
 > *avijjāya tveva asesavirāganirodhā*[^fn188]

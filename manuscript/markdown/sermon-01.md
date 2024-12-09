@@ -14,11 +14,11 @@ cessation, extinction".
 With the permission of the Most Venerable Great Preceptor and the assembly of
 the venerable meditative monks.
 
-Recently we have had an occasion to listen to a series of sermons on *Nibbāna*
+Recently we have had an occasion to listen to a series of sermons on Nibbāna
 and there have been differences of opinion regarding the interpretation of some
-deep *suttas* on *Nibbāna* in those sermons. And so the venerable Great
+deep *suttas* on Nibbāna in those sermons. And so the venerable Great
 Preceptor suggested to me that it would be useful to this group if I would give
-a set of sermons on *Nibbāna*, touching on those controversial points.
+a set of sermons on Nibbāna, touching on those controversial points.
 
 At first, for many reasons, I hesitated to accept this invitation for a serious
 task, but then, as the venerable Great Preceptor repeatedly encouraged me on
@@ -40,20 +40,20 @@ cessation, extinction".
 This in fact is a meditation subject in itself, a *kammaṭṭhāna*. This is the
 reflection on the peace of *Nibbāna, upasamānussati*. So if we can successfully
 make use of this as both the heading and the theme of these sermons, we would be
-in a position to understand those six qualities of the *Dhamma*. We are told
-that the *Dhamma* is *svākkhāta*, that it is well-proclaimed, *sandiṭṭhika*, can
+in a position to understand those six qualities of the Dhamma. We are told
+that the Dhamma is *svākkhāta*, that it is well-proclaimed, *sandiṭṭhika*, can
 be seen here and now, *akālika*, timeless, *ehipassika*, inviting one to come
 and see, *opanayika*, leading one onwards, *paccattaṁ veditabbo viññūhi*, that
 it can be understood by the wise each one by himself.[^fn2]
 
 This set of sermons would have fulfilled its purpose if it drives home the true
-significance of these six qualities of the *Dhamma*.
+significance of these six qualities of the Dhamma.
 
 Now at the very outset I would like to say a few things by way of preparing the
 background and I do hope that this assembly would bear with me for saying
 certain things that I will be compelled to say in this concern. By way of
 background something has to be said as to why there are so many complications
-with regard to the meaning of some of the deep *suttas* on *Nibbāna*.
+with regard to the meaning of some of the deep *suttas* on Nibbāna.
 
 There is a popular belief that the commentaries are finally traceable to a
 miscellany of the Buddha word scattered here and there, as *pakiṇṇakadesanā*.
@@ -96,12 +96,12 @@ of the Buddha word came to be passed on from hand to hand in the dark, so much
 so that there was the risk of some valuable things slipping out in the process.
 
 Also there have been certain semantic developments in the commentarial period,
-and this will be obvious to anyone searching for the genuine *Dhamma*. It seems
+and this will be obvious to anyone searching for the genuine Dhamma. It seems
 that there had been a tendency in the commentarial period to elaborate even on
 some lucid words in the *suttas*, simply as a commentarial requirement, and this
 led to the inclusion of many complicated ideas. By too much overdrawing in the
-commentaries, the deeper meanings of the *Dhamma* got obscured. As a matter of
-fact, the depth of the *Dhamma* has to be seen through lucidity, just as much as
+commentaries, the deeper meanings of the Dhamma got obscured. As a matter of
+fact, the depth of the Dhamma has to be seen through lucidity, just as much as
 one sees the bottom of a tank only when the water is lucid.
 
 > *Dve nāma kiṁ?* \
@@ -214,8 +214,8 @@ Even though he is able to recognize objects by their conventional names, for the
 purpose of comprehending name-and-form, a meditator makes use of those factors
 that are included under 'name': feeling, perception, intention, contact and
 attention. All these have a specific value to each individual and that is why
-the *Dhamma* has to be understood each one by himself - *paccattaṁ veditabbo*.
-This *Dhamma* has to be realized by oneself. One has to understand one's own
+the Dhamma has to be understood each one by himself - *paccattaṁ veditabbo*.
+This Dhamma has to be realized by oneself. One has to understand one's own
 world of name-and-form by oneself. No one else can do it for him. Nor can it be
 defined or denoted by technical terms.
 
@@ -231,7 +231,7 @@ called *taṇhāsallassa hantāraṁ*, one who removes the dart of craving.[^fn1
 the Buddha is the incomparable surgeon who pulls out the poison-tipped arrow of
 craving.
 
-We may say therefore that, according to the *Dhamma*, *nāma-rūpa*, or
+We may say therefore that, according to the Dhamma, *nāma-rūpa*, or
 name-and-form, is like the wound in which the arrow is embedded. When one is
 wounded by a poison-tipped arrow, the bandage has to be put, not on the archer
 or on his bow-string, but on the wound itself. First of all the wound has to be
@@ -249,7 +249,7 @@ knowledge.
 We find ourselves in a similar situation with regard to the significance of
 *rūpa* in *nāma-rūpa*. Here too we have something deep, but many take
 *nāma-rūpa* to mean 'mind and matter'. Like materialists, they think there is a
-contrast between mind and matter. But according to the *Dhamma* there is no such
+contrast between mind and matter. But according to the Dhamma there is no such
 rigid distinction. It is a pair that is interrelated and taken together it forms
 an important link in the chain of *paṭicca samuppāda*.
 
@@ -332,7 +332,7 @@ It is the third verse that is relevant to our topic.
 > Are completely cut off, \
 > It is there that the tangle gets snapped."
 
-The reference here is to *Nibbāna*. It is there that the tangle is disentangled.
+The reference here is to Nibbāna. It is there that the tangle is disentangled.
 
 The coupling of name-and-form with *paṭigha* and *rūpasaññā* in this context, is
 significant. Here *paṭigha* does not mean 'repugnance', but 'resistance'. It is
@@ -340,7 +340,7 @@ the resistance which comes as a reaction to inert matter. For instance, when one
 knocks against something in passing, one turns back to recognize it. Sense
 reaction is something like that.
 
-The Buddha has said that the worldling is blind until at least the *Dhamma*-eye
+The Buddha has said that the worldling is blind until at least the Dhamma-eye
 arises in him. So the blind worldling recognizes an object by the very
 resistance he experiences in knocking against that object.
 
@@ -371,11 +371,11 @@ Now if we are to summarise all what we have said in this connection, we may say:
 'name' in 'name-and-form' is a **formal** name. It is an apparent name. 'Form'
 in 'name-and-form' is a **nominal** form. It is a form only in name.
 
-We have to make a similar comment on the meaning of the word *Nibbāna*. Here too
+We have to make a similar comment on the meaning of the word Nibbāna. Here too
 one can see some unusual semantic developments in the commentarial period. It is
-very common these days to explain the etymology of the word *Nibbāna* with the
+very common these days to explain the etymology of the word Nibbāna with the
 help of a phrase like: *Vānasaṅkhātāya taṇhāya nikkhantattā*.[^fn15] And that is
-to say that *Nibbāna* is so called because it is an exit from craving which is a
+to say that Nibbāna is so called because it is an exit from craving which is a
 form of weaving.
 
 To take the element *vāna* in the word to mean a form of weaving is as good as
@@ -384,9 +384,9 @@ a kind of weaving in the sense that it connects up one form of existence with
 another and the prefix *ni* is said to signify the exit from that weaving.
 
 But nowhere in the *suttas* do we get this sort of etymology and interpretation.
-On the other hand it is obvious that the *suttas* use the word *Nibbāna* in the
+On the other hand it is obvious that the *suttas* use the word Nibbāna in the
 sense of 'extinguishing' or 'extinction'. In fact this is the sense that brings
-out the true essence of the *Dhamma*.
+out the true essence of the Dhamma.
 
 For instance the *Ratanasutta*, which is so often chanted as a *paritta*, says
 that the *Arahants* go out like a lamp: *Nibbanti dhīrā yathāyaṁ padīpo*.[^fn16]
@@ -398,7 +398,7 @@ of a torch going out: *Pajjotass'eva nibbānaṁ, vimokho cetaso ahu*, "the mind
 release was like the extinguishing of a torch."[^fn18]
 
 The simile of the extinction of a fire is very often brought in as an
-illustration of *Nibbāna* and in the *Aggivacchagottasutta* of the *Majjhima
+illustration of Nibbāna and in the *Aggivacchagottasutta* of the *Majjhima
 Nikāya* we find the Buddha presenting it as a sustained simile, giving it a
 deeper philosophical dimension.[^fn19] Now when a fire burns, it does so with
 the help of firewood. When a fire is burning, if someone were to ask us: "What
@@ -408,10 +408,10 @@ of the fire and the fire burns because of the wood. So it seems we already have
 here a case of relatedness of this to that, *idappaccayatā.* This itself shows
 that there is a very deep significance in the fire simile.
 
-*Nibbāna* as a term for the ultimate aim of this *Dhamma* is equally significant
+Nibbāna as a term for the ultimate aim of this Dhamma is equally significant
 because of its allusion to the going out of a fire. In the *Asaṅkhatasaṁyutta*
 of the *Saṁyutta Nikāya* as many as thirty-three terms are listed to denote this
-ultimate aim.[^fn20] But out of all these epithets, *Nibbāna* became the most
+ultimate aim.[^fn20] But out of all these epithets, Nibbāna became the most
 widely used, probably because of its significant allusion to the fire. The fire
 simile holds the answer to many questions relating to the ultimate goal.
 
@@ -427,7 +427,7 @@ is no fire in the abstract. And when the fire goes out, with the exhaustion of
 that fuel, you would know that it has gone out because the conditions for its
 existence are no more."
 
-As a sidelight to the depth of this argument it may be mentioned that the *Pāli*
+As a sidelight to the depth of this argument it may be mentioned that the Pāli
 word *upādāna* used in such contexts has the sense of both 'fuel' as well as
 'grasping', and in fact, fuel is something that the fire grasps for its burning.
 *Upādānapaccayā bhavo*, "dependent on grasping is existence".[^fn22] These are
@@ -488,21 +488,21 @@ Here the reckoning is to be understood in terms of the four propositions of the
 tetralemma. Such reckonings are based on a total misconception of the phenomenon
 of fire.
 
-It seems that the deeper connotations of the word *Nibbāna* in the context of
+It seems that the deeper connotations of the word Nibbāna in the context of
 *paṭicca samuppāda* were not fully appreciated by the commentators. And that is
 why they went in search of a new etymology. They were too shy of the
 implications of the word 'extinction'. Probably to avoid the charge of nihilism
-they felt compelled to reinterpret certain key passages on *Nibbāna*. They
-conceived *Nibbāna* as something existing out there in its own right. They would
+they felt compelled to reinterpret certain key passages on Nibbāna. They
+conceived Nibbāna as something existing out there in its own right. They would
 not say where, but sometimes they would even say that it is everywhere. With an
-undue grammatical emphasis they would say that it is on coming to that *Nibbāna*
+undue grammatical emphasis they would say that it is on coming to that Nibbāna
 that lust and other defilements are abandoned:
 
 > *Nibbānaṁ āgamma rāgādayo khīṇāti ekameva nibbānaṁ rāgakkhayo dosakkhayo
 > mohakkhayo ti vuccati.*[^fn27]
 
 But what do we find in the joyous utterances of the *theras* and *therīs* who
-had realized *Nibbāna*? As recorded in such texts as *Thera-* and *Therī-gāthā*
+had realized Nibbāna? As recorded in such texts as *Thera-* and *Therī-gāthā*
 they would say: *Sītibhūto'smi nibbuto*, "I am grown cool, extinguished as I
 am."[^fn28] The words *sītibhūta* and *nibbuta* had a cooling effect even to the
 listener, though later scholars found them inadequate.
@@ -517,12 +517,12 @@ From the worldly point of view 'extinction' means annihilation. It has
 connotations of a precipice that is much dreaded. That is why the commentators
 conceived of it as something out there, on reaching which the defilements are
 abandoned, *nibbānaṁ āgamma rāgādayo khīṇāti*. Sometimes they would say that it
-is on seeing *Nibbāna* that craving is destroyed.
+is on seeing Nibbāna that craving is destroyed.
 
 There seems to be some contradiction in the commentarial definitions of
-*Nibbāna*. On the one hand we have the definition of *Nibbāna* as the exit from
+Nibbāna. On the one hand we have the definition of Nibbāna as the exit from
 craving, which is called a 'weaving'. And on the other it is said that it is on
-seeing *Nibbāna* that craving is destroyed. To project *Nibbāna* into a distance
+seeing Nibbāna that craving is destroyed. To project Nibbāna into a distance
 and to hope that craving will be destroyed only on seeing it, is something like
 trying to build a staircase to a palace one cannot yet see. In fact this is a
 simile which the Buddha had used in his criticism of the *Brahmin's* point of
@@ -539,8 +539,8 @@ release from and non-attachment to that very craving. In other words it is the
 destruction of this very mass of suffering which is just before us.
 
 In the *suttas* the term *taṇhakkhayo*, the destruction of craving, is very
-often used as a term for *Nibbāna*.[^fn32] But the commentator says that
-destruction alone is not *Nibbāna*: *Khayamattaṁ na nibbānaṁ*.[^fn33] But the
+often used as a term for Nibbāna.[^fn32] But the commentator says that
+destruction alone is not Nibbāna: *Khayamattaṁ na nibbānaṁ*.[^fn33] But the
 destruction of craving itself is called the highest bliss in the following verse
 of the *Udāna*:
 
@@ -573,7 +573,7 @@ we get the following joyous utterance, coming from the Buddha himself:
 
 This shows that the destruction of craving is not a mere destruction.
 
-Craving is a form of thirst and that is why *Nibbāna* is sometimes called
+Craving is a form of thirst and that is why Nibbāna is sometimes called
 *pipāsavinayo*, the dispelling of the thirst.[^fn36] To think that the
 destruction of craving is not sufficient is like trying to give water to one who
 has already quenched his thirst. But the destruction of craving has been called
@@ -584,34 +584,34 @@ water, he looks within and sees the well-spring of his bliss.
 However to most of our scholars the term *taṇhakkhaya* appeared totally negative
 and that is why they hesitated to recognize its value. In such conventional
 usages as *Nibbānaṁ āgamma* they found a grammatical excuse to separate that
-term from *Nibbāna*.
+term from Nibbāna.
 
-According to the Buddha the cessation of existence is *Nibbāna* and that means
-*Nibbāna* is the realization of the cessation of existence. Existence is said to
+According to the Buddha the cessation of existence is Nibbāna and that means
+Nibbāna is the realization of the cessation of existence. Existence is said to
 be an eleven-fold fire. So the entire existence is a raging fire. Lust, hate,
-delusion - all these are fires. Therefore *Nibbāna* may be best rendered by the
+delusion - all these are fires. Therefore Nibbāna may be best rendered by the
 word 'extinction'. When once the fires are extinguished, what more is needed?
 
 But unfortunately Venerable *Buddhaghosa* was not prepared to appreciate this
 point of view. In his *Visuddhimagga* as well as in the commentaries
 *Sāratthappakāsinī* and *Sammohavinodanī*, he gives a long discussion on
-*Nibbāna* in the form of an argument with an imaginary heretic.[^fn37] Some of
+Nibbāna in the form of an argument with an imaginary heretic.[^fn37] Some of
 his arguments are not in keeping with either the letter or the spirit of the
-*Dhamma*.
+Dhamma.
 
 First of all he gets the heretic to put forward the idea that the destruction of
-lust, hate and delusion is *Nibbāna*. Actually the heretic is simply quoting the
+lust, hate and delusion is Nibbāna. Actually the heretic is simply quoting the
 Buddha word, for in the *Nibbānasutta* of the *Asaṅkhatasaṁyutta* the
-destruction of lust, hate and delusion is called *Nibbāna*: *Rāgakkhayo,
+destruction of lust, hate and delusion is called Nibbāna: *Rāgakkhayo,
 dosakkhayo, mohakkhayo - idaṁ vuccati nibbānaṁ*.[^fn38]
 
 The words *rāgakkhaya, dosakkhaya* and *mohakkhaya* together form a synonym of
-*Nibbāna*, but the commentator interprets it as three synonyms. Then he argues
-out with the imaginary heretic that if *Nibbāna* is the extinguishing of lust it
+Nibbāna, but the commentator interprets it as three synonyms. Then he argues
+out with the imaginary heretic that if Nibbāna is the extinguishing of lust it
 is something common even to the animals, for they also extinguish their fires of
 lust through enjoyment of the corresponding objects of sense.[^fn39] This
 argument ignores the deeper sense of the word extinction, as it is found in the
-*Dhamma*.
+Dhamma.
 
 In the *Māgaṇḍiyasutta* of the *Majjhima Nikāya* the Buddha gives the simile of
 a man with a skin disease sitting beside a pit of hot embers to explain the
@@ -625,32 +625,32 @@ As the phrase *nibbutiṁ bhuñjamānā* implies, that extinction is a blissful
 experience for the *Arahants*. It leaves a permanent effect on the *Arahant*, so
 much so that upon reflection he sees that his influxes are extinct, just as a
 man with his hands and feet cut off, knows upon reflection that his limbs are
-gone.[^fn41] It seems that the deeper implications of the word *Nibbāna* have
+gone.[^fn41] It seems that the deeper implications of the word Nibbāna have
 been obscured by a set of arguments which are rather misleading.
 
 In fact I came forward to give these sermons for three reasons: Firstly because
 the venerable Great Preceptor invited me to do so. Secondly in the hope that it
-will be of some benefit to my co-dwellers in the *Dhamma*. And thirdly because I
+will be of some benefit to my co-dwellers in the Dhamma. And thirdly because I
 myself felt rather concerned about the inadequacy of the existing
 interpretations.
 
-What we have said so far is just about the word *Nibbāna* as such. Quite a
-number of *suttas* on *Nibbāna* will be taken up for discussion. This is just a
-preamble to show that the word *Nibbāna* in the sense of 'extinction' has a
+What we have said so far is just about the word Nibbāna as such. Quite a
+number of *suttas* on Nibbāna will be taken up for discussion. This is just a
+preamble to show that the word Nibbāna in the sense of 'extinction' has a
 deeper dimension, which has some relevance to the law of dependent arising,
 *paṭicca samuppāda*.
 
 By bringing in an etymology based on the element *vāna*, much of the original
 significance of the word *Nibbāna *came to be undermined. On quite a number of
-occasions the Buddha has declared that the cessation of suffering is *Nibbāna*,
-or else that the destruction of craving is *Nibbāna*. Terms like *dukkhanirodho*
+occasions the Buddha has declared that the cessation of suffering is Nibbāna,
+or else that the destruction of craving is Nibbāna. Terms like *dukkhanirodho*
 and *taṇhakkhayo* have been used as synonyms. If they are synonyms, there is no
 need to make any discrimination with regard to some of them, by insisting on a
 periphrastic usage like *āgamma*.
 
-Yet another important aspect of the problem is the relation of *Nibbāna* to the
+Yet another important aspect of the problem is the relation of Nibbāna to the
 holy life or *brahmacariya*. It is said that when the holy life is lived out to
-the full, it culminates in *Nibbāna*.
+the full, it culminates in Nibbāna.
 
 In the *Rādhasaṁyutta* of the *Saṁyutta Nikāya* we find the Venerable *Rādha*
 putting a series of questions to the Buddha to get an explanation.[^fn42] First
@@ -664,9 +664,9 @@ say, disgust for *saṁsāra*.
 The next question is: for what purpose is disgust? And the Buddha answers:
 disgust is for dispassion. What is the purpose of dispassion? The purpose of
 dispassion is release. What is the purpose of release? The purpose of release is
-*Nibbāna*. Last of all Venerable *Rādha* puts the question:
+Nibbāna. Last of all Venerable *Rādha* puts the question:
 
-*Nibbānaṁ pana, bhante, kimatthiyaṁ*? "For what purpose is *Nibbāna*?" And the
+*Nibbānaṁ pana, bhante, kimatthiyaṁ*? "For what purpose is Nibbāna?" And the
 Buddha gives this answer:
 
 > *Accasarā, Rādha, pañhaṁ, nāsakkhi pañhassa pariyantaṁ gahetuṁ.
@@ -675,50 +675,50 @@ Buddha gives this answer:
 >
 > "*Rādha*, you have gone beyond the scope of your questions, you are unable to
 > grasp the limit of your questions. For, *Rādha*, the holy life is merged in
-> *Nibbāna*, its consummation is *Nibbāna*, its culmination is *Nibbāna*."
+> Nibbāna, its consummation is Nibbāna, its culmination is Nibbāna."
 
-This shows that the holy life gets merged in *Nibbāna*, just as rivers get
+This shows that the holy life gets merged in Nibbāna, just as rivers get
 merged in the sea. In other words, where the holy life is lived out to the full,
-*Nibbāna* is right there. That is why Venerable *Nanda*, who earnestly took up
+Nibbāna is right there. That is why Venerable *Nanda*, who earnestly took up
 the holy life encouraged by the Buddha's promise of heavenly nymphs, attained
 *Arahant*-hood almost in spite of himself. At last he approached the Buddha and
 begged to relieve him of the onus of his promise. This shows that when one
-completes the training in the Holy Life, one is already in *Nibbāna*. Only when
+completes the training in the Holy Life, one is already in Nibbāna. Only when
 the training is incomplete, can one go to heaven.
 
 Here, then, is a result which comes of its own accord. So there is no
-justification for a periphrastic usage like, "on reaching *Nibbāna*". No glimpse
+justification for a periphrastic usage like, "on reaching Nibbāna". No glimpse
 of a distant object is necessary. At whatever moment the Noble Eightfold Path is
-perfected, one attains *Nibbāna* then and there. Now, in the case of an
+perfected, one attains Nibbāna then and there. Now, in the case of an
 examination, after answering the question paper, one has to wait for the
 results - to get a pass.
 
 Here it is different. As soon as you have answered the paper correctly, you have
 passed im-mediately and the certificate is already there. This is the
 significance of the term *aññā* used in such contexts. *Aññā* stands for full
-certitude of the experience of *Nibbāna*.
+certitude of the experience of Nibbāna.
 
 The experience of the fruit of *Arahant*-ship gives him the final certificate of
-his attainment, *aññāphalo*.[^fn43] That is why *Nibbāna* is called something to
+his attainment, *aññāphalo*.[^fn43] That is why Nibbāna is called something to
 be realized. One gets the certitude that birth is extinct and that the holy life
 is lived out to the full, *khīṇā jāti, vusitaṁ brahmacariyaṁ*.[^fn44]
 
 Of course there are some who still go on asking: what is the purpose of
-*Nibbāna*? And it is to answer this type of question that many scholars go on
+Nibbāna? And it is to answer this type of question that many scholars go on
 hair splitting. Normally in the world, whatever one does has some purpose or
 other. All occupations, all trades and businesses, are for gain and profit.
 Thieves and burglars also have some purpose in mind. But what is the purpose of
-trying to attain *Nibbāna*? What is the purpose of *Nibbāna*? Why should one
-attain *Nibbāna*?
+trying to attain Nibbāna? What is the purpose of Nibbāna? Why should one
+attain Nibbāna?
 
 It is to give an answer to this question that scholars brought in such phrases
-as *Nibbānaṁ pana āgamma*, 'on reaching *Nibbāna*'. They would say that 'on
-reaching *Nibbāna*', craving would be destroyed. On closer analysis it would
+as *Nibbānaṁ pana āgamma*, 'on reaching Nibbāna'. They would say that 'on
+reaching Nibbāna', craving would be destroyed. On closer analysis it would
 appear that there is some fallacy in this question. For if there is any aim or
-purpose in attaining *Nibbāna*, *Nibbāna* would not be the ultimate aim. In
-other words, if *Nibbāna* is the ultimate aim, there should be no aim in
-attaining *Nibbāna*. Though it may well sound a tautology, one has to say that
-*Nibbāna* is the ultimate aim for the simple reason that there is no aim beyond
+purpose in attaining Nibbāna, Nibbāna would not be the ultimate aim. In
+other words, if Nibbāna is the ultimate aim, there should be no aim in
+attaining Nibbāna. Though it may well sound a tautology, one has to say that
+Nibbāna is the ultimate aim for the simple reason that there is no aim beyond
 it.
 
 However, this might need more explanation. Now as far as craving is concerned,
@@ -737,7 +737,7 @@ existence again and again.[^fn46]
 But this is not the case when one makes the destruction of craving one's aim.
 When that aim is attained, there is nothing more to be done. So this brings us
 to the conclusion that the term *taṇhakkhayo*, destruction of craving, is a
-full-fledged synonym of *Nibbāna*.
+full-fledged synonym of Nibbāna.
 
 Well, this much is enough for today. Time permitting and life permitting, I hope
 to continue with these sermons. I suppose the most Venerable Great Preceptor

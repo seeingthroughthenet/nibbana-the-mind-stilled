@@ -14,16 +14,16 @@ cessation, extinction".
 With the permission of the Most Venerable Great Preceptor and the assembly of
 the venerable meditative monks.
 
-The second sermon on *Nibbāna* has come up for today. Towards the end of our
+The second sermon on Nibbāna has come up for today. Towards the end of our
 sermon the other day we raised the point: Why is it improper to ask such
-questions as: 'What is the purpose of *Nibbāna*? Why should one attain
-*Nibbāna*?'[^fn48] Our explanation was that since the holy life or the Noble
-Eightfold Path has *Nibbāna* as its ultimate aim, since it gets merged in
-*Nibbāna*, any questions as to the ultimate purpose of *Nibbāna* would be
+questions as: 'What is the purpose of Nibbāna? Why should one attain
+Nibbāna?'[^fn48] Our explanation was that since the holy life or the Noble
+Eightfold Path has Nibbāna as its ultimate aim, since it gets merged in
+Nibbāna, any questions as to the ultimate purpose of Nibbāna would be
 inappropriate.
 
 In fact at some places in the canon we find the phrase *anuttara
-brahmacariyapariyosāna* used with reference to *Nibbāna*.[^fn49] It means that
+brahmacariyapariyosāna* used with reference to Nibbāna.[^fn49] It means that
 *Nibbāna *is the supreme consummation of the holy life. The following standard
 phrase announcing a new *Arahant* is very often found in the *suttas*:
 
@@ -35,7 +35,7 @@ phrase announcing a new *Arahant* is very often found in the *suttas*:
 > that supreme consummation of the holy life for the purpose of which clansmen
 > of good family rightly go forth from home to homelessness.
 
-Now what is the justification for saying that one attains to *Nibbāna* by the
+Now what is the justification for saying that one attains to Nibbāna by the
 very completion of the holy life? This Noble Eightfold Path is a straight path:
 
 > *Ujuko nāma so maggo, abhayā nāma sā disā*.[^fn51]
@@ -57,7 +57,7 @@ vividly:
 > And then immediately the certitude.
 
 It is the fruit of *Arahant*-ship which gives him the certitude of the
-attainment of *Nibbāna*.
+attainment of Nibbāna.
 
 Here the word *anantarā* has been used. That concentration proper to the fruit
 of *Arahant*-ship is called *ānantarikā samādhi*.[^fn53] This means that the
@@ -65,34 +65,34 @@ attainment of the fruit is immediate.
 
 Though it may be so in the case of the *Arahant*, what about the stream-winner,
 the *sotāpanna*, one may ask. There is a general belief that in the case of a
-*sotāpanna* the vision of *Nibbāna* is like a glimpse of a distant lamp on a
+*sotāpanna* the vision of Nibbāna is like a glimpse of a distant lamp on a
 road with many bends and the *sotāpanna* has just negotiated the first bend.
 
-But in accordance with the *Dhamma* it may be said that the norm of immediacy is
+But in accordance with the Dhamma it may be said that the norm of immediacy is
 applicable even to the knowledge of the first path. One who attains to the fruit
 of stream-winning may be a beggar, an illiterate person, or a seven year old
-child. It may be that he has heard the *Dhamma* for the first time. All the
+child. It may be that he has heard the Dhamma for the first time. All the
 same, a long line of epithets is used with reference to him in the *suttas* as
 his qualifications:
 
 > *Diṭṭhadhammo pattadhammo viditadhammo pariyogāḷhadhammo tiṇṇavicikiccho
 > vigatakathaṁkatho vesārajjappatto aparappaccayo satthusāsane*.[^fn54]
 
-*Diṭṭhadhammo*, he is one who has seen the *Dhamma*, the truth of *Nibbāna*. It
+*Diṭṭhadhammo*, he is one who has seen the Dhamma, the truth of Nibbāna. It
 is said in the *Ratanasutta* that along with the vision of the first path, three
 fetters are abandoned, namely *sakkāyadiṭṭhi*, the self-hood view, *vicikicchā*,
 sceptical doubt, and *sīlabbataparāmāsa*, attachment to holy vows and ascetic
 practices.[^fn55] Some might argue that only these fetters are abandoned at this
-stage, because it is a glimpse of *Nibbāna* from a distance.
+stage, because it is a glimpse of Nibbāna from a distance.
 
 But then there is this second epithet, *pattadhammo*, which means that he has
-reached the *Dhamma*, that he has arrived at *Nibbāna*.
+reached the Dhamma, that he has arrived at Nibbāna.
 
-Not only that, he is *viditadhammo*, he is one who has understood the *Dhamma*,
-which is *Nibbāna*.
+Not only that, he is *viditadhammo*, he is one who has understood the Dhamma,
+which is Nibbāna.
 
-He is *pariyogāḷhadhammo*, he has plunged into the *Dhamma*, he has dived into
-the *Dhamma*, which is *Nibbāna*.
+He is *pariyogāḷhadhammo*, he has plunged into the Dhamma, he has dived into
+the Dhamma, which is Nibbāna.
 
 He is *tiṇṇavicikiccho*, he has crossed over doubts.
 
@@ -101,13 +101,13 @@ He is *tiṇṇavicikiccho*, he has crossed over doubts.
 *Vesārajjappatto*, he has attained to proficiency.
 
 *Aparappaccayo satthusāsane*, in regard to the dispensation of the teacher he is
-not dependent on others. And that is to say that he could attain to *Nibbāna*
+not dependent on others. And that is to say that he could attain to Nibbāna
 even without another's help, though of course with the teacher's help he would
 attain it sooner.
 
 So this string of epithets testifies to the efficacy of the realization by the
-first path. It is not a mere glimpse of *Nibbāna* from a distance. It is a
-reaching, an arrival or a plunge into *Nibbāna*.
+first path. It is not a mere glimpse of Nibbāna from a distance. It is a
+reaching, an arrival or a plunge into Nibbāna.
 
 For purposes of illustration we may bring in a legend connected with the history
 of Sri Lanka. It is said that when King *Gajabāhu* invaded India, one of his
@@ -118,7 +118,7 @@ blow of *Nīla* with his iron bar. Even with the first blow the sea-water parted
 so that one could see the bottom.
 
 Similarly the sweeping influxes are parted for a moment when the transcendental
-path arises in a mind, enabling one to see the very bottom -- *Nibbāna*. In
+path arises in a mind, enabling one to see the very bottom – Nibbāna. In
 other words, all preparations (*saṅkhāras*) are stilled for a moment, enabling
 one to see the cessation of preparations.
 
@@ -155,7 +155,7 @@ clear away all possible influxes.
 
 What is called *akata* or *asaṅkhata*, the un-made or the un-prepared, is not
 something out there in a distance, as an object of thought. It is not a sign to
-be grasped by one who wants to attain *Nibbāna*.
+be grasped by one who wants to attain Nibbāna.
 
 Language encourages us to think in terms of signs. Very often we find it
 difficult to get rid of this habit. The worldlings with their defilements have
@@ -164,7 +164,7 @@ their needs. So the subject-object relationship has become a very significant
 feature in a language. It always carries the implication that there is a thing
 to be grasped and that there is someone who grasps, that there is a doer and a
 thing done. So it is almost impossible to avoid such usages as: 'I want to see
-*Nibbāna*, I want to attain *Nibbāna*'. We are made to think in terms of getting
+Nibbāna, I want to attain Nibbāna'. We are made to think in terms of getting
 and attaining.
 
 However sometimes the Buddha reminds us that this is only a conventional usage
@@ -178,15 +178,15 @@ Then the deity asks: "Then, recluse, do you grieve?" And the Buddha quips back:
 "On losing what, friend?" So the deity concludes: "Well then, recluse, you
 neither rejoice nor grieve!" And the Buddha replies: "That is so, friend."
 
-It seems, then, that though we say we 'attain' *Nibbāna* there is nothing to
+It seems, then, that though we say we 'attain' Nibbāna there is nothing to
 gain and nothing to lose. If anything - **what is lost is an ignorance that
 there is something, and a craving that there is not enough** - and that is all
 one loses.
 
-Now there are quite a number of synonyms for *Nibbāna*, such as *akata* and
+Now there are quite a number of synonyms for Nibbāna, such as *akata* and
 *asaṅkhata*. As already mentioned, there is even a list of thirty-three such
 epithets, out of which one is *dīpa*.[^fn58] Now *dīpa* means an island. When we
-are told that *Nibbāna* is an island, we tend to imagine some sort of existence
+are told that Nibbāna is an island, we tend to imagine some sort of existence
 in a beautiful island. But in the *Pārāyanavagga* of the *Sutta Nipāta* the
 Buddha gives a good corrective to that kind of imagining in his reply to a
 question put by the Brahmin youth *Kappa*, a pupil of *Bāvarī*. *Kappa* puts his
@@ -225,20 +225,20 @@ And the Buddha gives his answer in two inspiring verses:
 > 
 > Owning naught, grasping naught, \
 > The isle is this, none else besides. \
-> *Nibbāna*, that is how I call that isle, \
+> Nibbāna, that is how I call that isle, \
 > Wherein is decay decayed and death is dead."
 
 *Akiñcanaṁ* means 'owning nothing', *anādānaṁ* means 'grasping nothing'. *Etaṁ
 dīpaṁ anāparaṁ*, this is the island, nothing else. *Nibbānaṁ iti naṁ brūmi,
-jarāmaccuparikkhayaṁ*, "and that I call *Nibbāna*, which is the extinction of
+jarāmaccuparikkhayaṁ*, "and that I call Nibbāna, which is the extinction of
 decay-and-death."
 
 From this also we can infer that words like *akata*, *asaṅkhata* and
-*sabba-saṅkhārā-samatha* are full fledged synonyms of *Nibbāna*. *Nibbāna* is
+*sabba-saṅkhārā-samatha* are full fledged synonyms of Nibbāna. Nibbāna is
 not some mysterious state quite apart from them. It is not something to be
 projected into a distance.
 
-Some are in the habit of getting down to a discussion on *Nibbāna* by putting
+Some are in the habit of getting down to a discussion on Nibbāna by putting
 *saṅkhata* on one side and *asaṅkhata* on the other side. They start by saying
 that *saṅkhata*, or the 'prepared', is *anicca*, or impermanent. If *saṅkhata*
 is *anicca*, they conclude that *asaṅkhata* must be *nicca*, that is the
@@ -255,7 +255,7 @@ Arising, *paṭicca samuppāda*. Therefore, first of all, we have to say somethi
 about the doctrine of *paṭicca samuppāda*.
 
 According to the *Ariyapariyesanasutta* of the *Majjhima Nikāya*, the Buddha,
-soon after his enlightenment, reflected on the profundity of the *Dhamma* and
+soon after his enlightenment, reflected on the profundity of the Dhamma and
 was rather disinclined to preach it. He saw two points in the doctrine that are
 difficult for the world to see or grasp. One was *paṭicca samuppāda*:
 
@@ -264,7 +264,7 @@ difficult for the world to see or grasp. One was *paṭicca samuppāda*:
 > Hard to see is this point, namely dependent arising which is a relatedness of
 > this to that.
 
-And the second point was *Nibbāna*:
+And the second point was Nibbāna:
 
 > *Idampi kho ṭhānaṁ duddasaṁ yadidaṁ sabbasaṅkhārasamatho
 > sabbūpadhipaṭinissaggo taṇhakkhayo virāgo nirodho nibbānaṁ*.
@@ -381,7 +381,7 @@ and that is to say that decay-and-death has birth as its condition.
 an arising of the *Tathāgatās* or whether there be no such arising".
 
 *Ṭhitā va sā dhātu dhammaṭṭhitatā dhammaniyāmatā idappaccayatā*, "that elementary nature,
-that orderliness of the *Dhamma*, that norm of the *Dhamma*, the relatedness of
+that orderliness of the Dhamma, that norm of the Dhamma, the relatedness of
 this to that does stand as it is."
 
 So from this it is clear that the underlying principle could be understood even
@@ -817,8 +817,8 @@ lived for the abandonment of that very becoming or existence.
 So from this quotation it becomes clear that the nature of existence is
 'otherwise-ness'. It is the insight into this nature that is basic in the
 understanding of *idappaccayatā*. What is known as the arising of the
-*Dhamma*-eye is the understanding of this predicament in worldly existence. But
-that *Dhamma*-eye arises together with a solution for this predicament:
+Dhamma-eye is the understanding of this predicament in worldly existence. But
+that Dhamma-eye arises together with a solution for this predicament:
 
 > *Yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhammaṁ*.[^fn79]
 >
@@ -912,7 +912,7 @@ The Buddha gives the answer in the following verse:
 > And there it is that name-and-form \
 > Is held in check in a way complete.
 
-The reference here is to *Nibbāna*. Whether it is called *sabbasaṅkhārasamatha*,
+The reference here is to Nibbāna. Whether it is called *sabbasaṅkhārasamatha*,
 the stilling of all preparations, or *asaṅkhatadhātu*, the unprepared element,
 it means the state of cessation. And when the *Arahant's* mind is in that state,
 the four elements, which are like ghosts, do not haunt him. They do not get a
