@@ -111,7 +111,7 @@ one sees the bottom of a tank only when the water is lucid.
 > "Name and form."
 
 This is the second out of the ten questions Buddha had put to the Venerable
-Sāmanera Sopāka who had attained *arahantship* at the age of seven. It is
+*Sāmanera Sopāka* who had attained *arahantship* at the age of seven. It is
 like asking a child: "Can you count up to ten?" All the ten questions were deep,
 the tenth being on *arahantship*. But of course Venerable *Sopāka* gave the
 right answer each time. Now it is the second question and its answer that we are
