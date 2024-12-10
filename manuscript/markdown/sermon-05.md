@@ -16,7 +16,7 @@ the venerable meditative monks.
 
 Towards the end of our last sermon, we discussed, to some extent, a special mode
 of attention, regarding the four objects of contemplation in the
-*Satipaṭṭhānasutta* - body, feelings, mind, and mind-objects.[^fn149] That
+*Satipaṭṭhānasutta* – body, feelings, mind, and mind-objects.[^fn149] That
 discussion might have revealed a certain middle path indicated by the Buddha.
 
 We drew attention to a thematic paragraph, occurring throughout the
@@ -56,9 +56,9 @@ down, up down, up down. The third combined movement ensures that those parts of
 the blade still untouched by the stone will also get duly sharpened.
 
 It is in the same manner that the razor of insight wisdom has to be whetted on
-the sharpening stone of the *Satipaṭṭhānasutta*. Inward, inward, inward -
-outward, outward, outward - inward outward, inward outward. Or else: arising,
-arising, arising - ceasing, ceasing, ceasing - arising ceasing, arising ceasing.
+the sharpening stone of the *Satipaṭṭhānasutta*. Inward, inward, inward –
+outward, outward, outward – inward outward, inward outward. Or else: arising,
+arising, arising – ceasing, ceasing, ceasing – arising ceasing, arising ceasing.
 
 This is an illustration for the method of reflection, or *sammasana*, introduced
 by the Buddha in the *Satipaṭṭhānasutta*. Words and concepts have to be made use
@@ -67,9 +67,9 @@ mindfulness and knowledge. Once their purpose is served, they can be dismantled
 without being a bother to the mind. This is the significance of the concluding
 phrase "He abides independent and does not cling to anything in the world".[^fn152]
 
-There is another *sutta* in which the Buddha has touched upon this same point in
+There is another sutta in which the Buddha has touched upon this same point in
 particular. It is the *Samudayasutta* in the *Satipaṭṭhānasaṁyutta* of the
-*Saṁyutta Nikāya*. In that *sutta*, the Buddha has proclaimed the arising and
+*Saṁyutta Nikāya*. In that sutta, the Buddha has proclaimed the arising and
 the going down of the four foundations of mindfulness. He begins by saying:
 
 > Monks, I shall teach you the arising and the going down of the four
@@ -149,7 +149,7 @@ is ordinarily understood. Instead of leaving behind, it penetrates through. Here
 then, we have a transcendence that is in itself a penetration.
 
 So the terms *anissita* and *anupādāna* seem to have a significance of their
-own. More of it comes to light in quite a number of other *suttas*. Particularly
+own. More of it comes to light in quite a number of other suttas. Particularly
 in the *Dvayatānupassanāsutta* of the *Sutta Nipāta* we come across the
 following two verses, which throw more light on these two terms:
 
@@ -214,9 +214,9 @@ the *arahant's* attitude are:
 It is in order to explain why such references are used that we took all this
 trouble to discuss at length the significance of such terms as
 *nissaya*.[^fn159] Probably due to a lack of understanding in this respect, the
-deeper meanings of such *suttas* have got obscured. Not only that, even textual
+deeper meanings of such suttas have got obscured. Not only that, even textual
 corruption through distorted variant readings has set in, because they appeared
-like riddles. However, the deeper sense of these *suttas* sometimes emerges from
+like riddles. However, the deeper sense of these suttas sometimes emerges from
 certain strikingly strange statements like the following found in the
 *Khajjanīyasutta* of the *Saṁyutta Nikāya*. The reference here is to the
 *arahant*.
@@ -262,8 +262,8 @@ both. This might sometimes appear as a problem. Our usual concept of an
 *arahant* is of one who has crossed over the ocean of *saṁsāra* and is standing
 on the other shore. But here is something enigmatic.
 
-We come across a similar *sutta* in the *Sutta Nipāta* also, namely its very
-first, the *Uragasutta*. The extraordinary feature of this *sutta* is the
+We come across a similar sutta in the *Sutta Nipāta* also, namely its very
+first, the *Uragasutta*. The extraordinary feature of this sutta is the
 recurrence of the same refrain throughout its seventeen verses. The refrain is:
 
 > *So bhikkhu jahāti orapāraṁ,* \
@@ -293,7 +293,7 @@ with a remnant of its slough hanging on. We might even think that the snake is
 carrying its slough around. It is the same in the case of the *arahants*.
 
 Now there is this term *sa-upādisesa Nibbāna dhātu*. Taking the term at its face
-value, some might think that the clinging is not yet over for the *arahants* -
+value, some might think that the clinging is not yet over for the *arahants* –
 that there is still a little bit left.
 
 The *arahant*, though he has attained release and realized Nibbāna, so long as
@@ -428,19 +428,19 @@ longer influence one's mind.
 
 So all this goes to show the high degree of importance attached to the word
 *āsava*. The *Sammādiṭṭhisutta* of the *Majjhima Nikāya* seems to pose a problem
-regarding the significance of this term. At one place in the *sutta* it is said
+regarding the significance of this term. At one place in the sutta it is said
 that the arising of ignorance is due to the arising of influxes and that the
 cessation of ignorance is due to the cessation of influxes:
 
 > *Āsavasamudayā avijjāsamudayo, āsavanirodhā avijjānirodho*.[^fn174]
 
-If the *sutta* says only this much, it will not be such a problem, because it
+If the sutta says only this much, it will not be such a problem, because it
 appears as a puzzle to many nowadays, why ignorance is placed first. Various
 reasons are adduced and arguments put forward as to why it is stated first out
 of the twelve factors. The fact that there is still something to precede it
 could therefore be some consolation.
 
-But then, a little way off, in the selfsame *sutta*, we read:
+But then, a little way off, in the selfsame sutta, we read:
 
 > *Avijjāsamudayā āsavasamudayo, avijjanirodhā āsavanirodho,*[^fn175]
 >
@@ -521,7 +521,7 @@ But since those beings also are thought out by the mind, he declares that the
 mind is far more picturesque than them. Based on this conclusion, he repeats the
 same advice as before.
 
-At first sight the *sutta*, when it refers to a picture, seems to be speaking
+At first sight the sutta, when it refers to a picture, seems to be speaking
 about the man who drew it. But there is something deeper than that. When the
 Buddha says that the picture called *caraṇa* is also something thought out by
 the mind, he is not simply stating the fact that the artist drew it after
@@ -561,7 +561,7 @@ much for the concepts of beauty, ugliness, fierceness, and innocence of animals.
 It is because of the defiling influence of influxes, such as ignorance, that the
 world around us appears so picturesque.
 
-Based on this particular *sutta*, with its reference to the *caraṇa* picture as
+Based on this particular sutta, with its reference to the *caraṇa* picture as
 a prototype, we may take a peep at the modern day's movie film, by way of an
 analogy. It might facilitate the understanding of the teachings on *paṭicca
 samuppāda* and Nibbāna in a way that is closer to our everyday life. The
@@ -656,7 +656,7 @@ virāga*, disenchantment, dispassion, at least in a limited sense.
 A door suddenly flung open can push aside the delusion, at least temporarily.
 Let us consider the implications of this little event. The film show, in this
 case, ceases to be a film show because of a flash of light coming from outside.
-Now, what would have happened if this flash of light had come from within - from
+Now, what would have happened if this flash of light had come from within – from
 within one's mind? Then also something similar would have happened. If the light
 of wisdom dawns on one's mind while watching a film show or a drama, one would
 even wonder whether it is actually a film or a drama, while others are enjoying
@@ -686,7 +686,7 @@ preparations, *saṅkhāra*, became no-preparations, *visaṅkhāra*, and the
 prepared, *saṅkhata*, becomes a non-prepared, *asaṅkhata*.
 
 So what was true with regard to the film show, is also true, in a deeper sense,
-with regard to the events leading up to the attainment of *arahant*-hood. With
+with regard to the events leading up to the attainment of *arahanthood*. With
 the dawn of that light of wisdom, the preparations, or *saṅkhāra*, lose their
 significance and become *visaṅkhāra*.
 
@@ -764,7 +764,7 @@ by the path knowledge of the Stream-winner.
 
 As a side-light, we may cite an episode from the lives of the Venerables
 *Sāriputta* and *Mahā Moggalāna*, the two chief disciples of the Buddha.
-Formerly, as brahmin youths, they were known as *Upatissa *and *Kolita*. These
+Formerly, as brahmin youths, they were known as *Upatissa* and *Kolita*. These
 two young men once went to see a hill-top festival, called
 *giraggasamajja*.[^fn181]
 

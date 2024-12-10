@@ -35,7 +35,7 @@ a turning round, an alternation or a circuitous journey. It is like a rotation
 on the spot. It is an ambivalence between a here and a there.
 
 It is the relationship between this this-ness and otherwise-ness that we tried
-to illustrate with quotations from the *suttas*. We mentioned in particular that
+to illustrate with quotations from the suttas. We mentioned in particular that
 consciousness, when it leaves this body and gets well established on a
 preconceived object, which in fact is its name-and-form object, that
 name-and-form attains growth and maturity there itself.[^fn124] Obviously,
@@ -64,7 +64,7 @@ On the one hand, for the sustenance and growth of name-and-form in a mother's
 womb, consciousness is necessary. On the other hand, consciousness necessarily
 requires an object for its stability. It could be some times an intention, or
 else a thought construct. In the least, it needs a trace of latency, or
-*anusaya*. This fact is clear enough from the *sutta* quotations we brought up
+*anusaya*. This fact is clear enough from the sutta quotations we brought up
 towards the end of the previous sermon. From the *Cetanāsutta*, we happened to
 quote on an earlier occasion, it is obvious that at least a trace of latency is
 necessary for the sustenance of consciousness.[^fn126]
@@ -163,9 +163,9 @@ other than Nibbāna.
 
 Some seem to think that the cessation of consciousness occurs in an *arahant*
 only at the moment of his *parinibbāna*, at the end of his life span. But this
-is not the case. Very often, the deeper meanings of important *suttas* have been
+is not the case. Very often, the deeper meanings of important suttas have been
 obliterated by the tendency to interpret the references to consciousness in such
-contexts as the final occurrence of consciousness in an *arahant's* life -
+contexts as the final occurrence of consciousness in an *arahant's* life –
 *carimaka viññāṇa*.[^fn130]
 
 What is called the cessation of consciousness has a deeper sense here. It means
@@ -201,7 +201,7 @@ instrumental in giving one yet another birth to fare on in *saṁsāra*. There i
 also a tendency to ignorance, which forms the basis of the latency to craving.
 It is the tendency to get attached to worldly concepts, without understanding
 them for what they are. That tendency is a result of ignorance in the worldlings
-and it is in itself a latency. In the *sutta* terminology the word *nissaya* is
+and it is in itself a latency. In the sutta terminology the word *nissaya* is
 often used to denote it. The cognate word *nissita* is also used alongside. It
 means 'one who associates something', while *nissaya* means 'association'.
 
@@ -213,7 +213,7 @@ and lean on them. They believe that the words they use have a reality of their
 own, that they are categorically true in their own right. Their attitude towards
 concepts is tinctured by craving, conceit and views.
 
-We come across this word *nissita* in quite a number of important *suttas*. It
+We come across this word *nissita* in quite a number of important suttas. It
 almost sounds like a topic of meditation. In the *Channovādasutta* of the
 *Majjhima Nikāya* there is a cryptic passage, which at a glance looks more or
 less like a riddle:
@@ -246,7 +246,7 @@ reappearing. When there is neither a passing away nor a reappearing, there is
 neither a 'here', nor a 'there', nor any position in between. This itself is the
 end of suffering.
 
-The *sutta* passage, at a glance, appears like a jumble of words. It starts by
+The sutta passage, at a glance, appears like a jumble of words. It starts by
 saying something about the one attached, *nissita*. It is limited to just one
 sentence: 'To one attached, there is wavering.' But we can infer that, due to
 his wavering and unsteadiness or restlessness, there is inclination, *nati*. The
@@ -260,7 +260,7 @@ significance.
 
 The person who is attached is quite unlike the released person. Because he is
 not released, he always has a forward bent or inclination. In fact, this is the
-nature of craving. It bends one forward. In some *suttas* dealing with the
+nature of craving. It bends one forward. In some suttas dealing with the
 question of rebirth, such as the *Kutūhalasālāsutta*, craving itself is
 sometimes called the grasping, *upādāna*.[^fn133] So it is due to this very
 inclination or bent that the two concepts of coming and going, come in. Then, in
@@ -285,7 +285,7 @@ reappearing, there is neither a here, nor a there, nor any in between. That
 itself is the end of suffering.
 
 The *Udāna* version of the above passage has something significant about it.
-There the entire *sutta* consists of these few sentences. But the introductory
+There the entire sutta consists of these few sentences. But the introductory
 part of it says that the Buddha was instructing, inciting and gladdening the
 monks with a Dhamma talk connected with Nibbāna:
 
@@ -453,7 +453,7 @@ associations in the six, and that depending on those very six, the world comes
 to grief.
 
 Though the commentators advance an interpretation of this six, it does not seem
-to get the sanction of the *sutta* as it is. According to them, the first line
+to get the sanction of the sutta as it is. According to them, the first line
 speaks of the six internal sense bases, such as the eye, ear and nose.[^fn137]
 The world is said to arise in these six internal sense bases. The second line is
 supposed to refer to the six external sense bases. Again the third line is
@@ -478,7 +478,7 @@ fact, at least two are necessary for something to be dependently arisen. The
 world does not arise in the six internal bases in isolation. It is precisely in
 this fact that the depth of this Dhamma is to be seen.
 
-In the *Samudayasutta* of the *Saḷāyatana *section in the *Saṁyutta Nikāya* this
+In the *Samudayasutta* of the *Saḷāyatana* section in the *Saṁyutta Nikāya* this
 aspect of dependent arising is clearly brought out:
 
 > *Cakkhuñca paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso,
@@ -494,16 +494,16 @@ aspect of dependent arising is clearly brought out:
 > conditioned by birth, decay-and-death, sorrow, lamentation, pain, grief and
 > despair. Thus is the arising of this entire mass of suffering.
 
-Here the *sutta* starts with the arising of contact and branches off towards the
+Here the sutta starts with the arising of contact and branches off towards the
 standard formula of *paṭicca samuppāda*. Eye consciousness arises dependent on,
 *paṭicca*, two things, namely eye and forms. And the concurrence of the three is
 contact. This shows that two are necessary for a thing to be dependently arisen.
 
-So in fairness to the *sutta* version, we have to conclude that the reference in
+So in fairness to the sutta version, we have to conclude that the reference in
 all the four lines is to the bases of contact, comprising both the internal and
 the external. That is to say, we cannot discriminate between them and assert
 that the first line refers to one set of six, and the second line refers to
-another. We are forced to such a conclusion in fairness to the *sutta*.
+another. We are forced to such a conclusion in fairness to the sutta.
 
 So from this verse also we can see that according to the usage of the noble ones
 the world arises in the six sense bases. This fact is quite often expressed by
@@ -685,7 +685,7 @@ can either hide our property in an inaccessible place, or adopt security
 measures, or else we can come to terms and sign a treaty with the enemy. But all
 these measures can sometimes fail. However, there is one unfailing method, which
 in principle is bound to succeed. A method that prevents all possibilities of
-grabbing. And that is - letting go, giving up.
+grabbing. And that is – letting go, giving up.
 
 When one lets go, there is nothing to grab. In a tug-of-war, when someone is
 pulling at one end with all his might, if the other suddenly lets go of its
@@ -695,7 +695,7 @@ applied this extraordinary solution. All this goes to show the importance of
 such terms as *nissaya* and *idappaccayatā* in understanding this Dhamma.
 
 We have already taken up the word *nissaya* for comment. Another aspect of its
-significance is revealed by the *Satipaṭṭhānasutta*. Some parts of this *sutta*,
+significance is revealed by the *Satipaṭṭhānasutta*. Some parts of this sutta,
 though well known, are wonderfully deep. There is a certain thematic paragraph,
 which occurs at the end of each subsection in the *Satipaṭṭhānasutta*. For
 instance, in the section on the contemplation relating to body,
@@ -718,7 +718,7 @@ instance, in the section on the contemplation relating to body,
 > mindfulness. And he abides independent and does not cling to anything in the
 > world.
 
-A similar paragraph occurs throughout the *sutta* under all the four
+A similar paragraph occurs throughout the sutta under all the four
 contemplations, body, feeling, mind and mind objects. As a matter of fact, it is
 this paragraph that is called *satipaṭṭhāna bhāvanā*, or meditation on the
 foundation of mindfulness.[^fn146]
@@ -811,7 +811,8 @@ principle of *idappaccayatā*, one penetrates them both by that mode of
 contemplating the rise and fall of the body together, *samudayavayadhammānupassī
 vā kāyasmiṁ viharati*, and develops a penetrative insight.
 
-What comes next in the *satipaṭṭhāna* passage, is the outcome or net result of that insight. 
+What comes next in the *satipaṭṭhāna* passage, is the outcome or net result of
+that insight.
 
 > The mindfulness that 'there is a body' is established in him only to the
 > extent necessary for pure knowledge and further mindfulness,
@@ -826,7 +827,14 @@ last sentence brings out the net result of that way of developing insight:
 
 > He abides independent and does not cling to anything in the world.
 
-Not only in the section on the contemplation of the body, but also in the sections on feelings, mind, and mind objects in the *Satipaṭṭhānasutta*, we find this mode of insight development. None of the objects, taken up for the foundation of  mindfulness, is to be grasped tenaciously. Only their rise and fall is discerned. So it seems that, what is found in the *Satipaṭṭhānasutta*, is a group of concepts. These concepts serve only as a scaffolding for the systematic development of mindfulness and knowledge. The Buddha often compared his Dhamma to a raft:
+Not only in the section on the contemplation of the body, but also in the
+sections on feelings, mind, and mind objects in the *Satipaṭṭhānasutta*, we find
+this mode of insight development. None of the objects, taken up for the
+foundation of mindfulness, is to be grasped tenaciously. Only their rise and
+fall is discerned. So it seems that, what is found in the *Satipaṭṭhānasutta*,
+is a group of concepts. These concepts serve only as a scaffolding for the
+systematic development of mindfulness and knowledge. The Buddha often compared
+his Dhamma to a raft:
 
 > *nittharaṇatthāya no gahaṇatthāya*
 >

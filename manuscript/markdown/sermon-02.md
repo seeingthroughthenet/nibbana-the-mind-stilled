@@ -24,8 +24,8 @@ inappropriate.
 
 In fact at some places in the canon we find the phrase *anuttara
 brahmacariyapariyosāna* used with reference to Nibbāna.[^fn49] It means that
-*Nibbāna *is the supreme consummation of the holy life. The following standard
-phrase announcing a new *Arahant* is very often found in the *suttas*:
+Nibbāna is the supreme consummation of the holy life. The following standard
+phrase announcing a new *arahant* is very often found in the suttas:
 
 > *Yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ
 > brahmcariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja
@@ -56,14 +56,14 @@ vividly:
 > First comes the knowledge of destruction \
 > And then immediately the certitude.
 
-It is the fruit of *Arahant*-ship which gives him the certitude of the
+It is the fruit of *arahantship* which gives him the certitude of the
 attainment of Nibbāna.
 
 Here the word *anantarā* has been used. That concentration proper to the fruit
-of *Arahant*-ship is called *ānantarikā samādhi*.[^fn53] This means that the
+of *arahantship* is called *ānantarikā samādhi*.[^fn53] This means that the
 attainment of the fruit is immediate.
 
-Though it may be so in the case of the *Arahant*, what about the stream-winner,
+Though it may be so in the case of the *arahant*, what about the stream-winner,
 the *sotāpanna*, one may ask. There is a general belief that in the case of a
 *sotāpanna* the vision of Nibbāna is like a glimpse of a distant lamp on a
 road with many bends and the *sotāpanna* has just negotiated the first bend.
@@ -72,7 +72,7 @@ But in accordance with the Dhamma it may be said that the norm of immediacy is
 applicable even to the knowledge of the first path. One who attains to the fruit
 of stream-winning may be a beggar, an illiterate person, or a seven year old
 child. It may be that he has heard the Dhamma for the first time. All the
-same, a long line of epithets is used with reference to him in the *suttas* as
+same, a long line of epithets is used with reference to him in the suttas as
 his qualifications:
 
 > *Diṭṭhadhammo pattadhammo viditadhammo pariyogāḷhadhammo tiṇṇavicikiccho
@@ -138,7 +138,7 @@ We have just given a simile by way of illustration, but incidentally there is a
 So this verse clearly indicates what the knowledge of the path does when it
 arises. Just as one leaps forward and cuts off a stream of water, so it cuts
 off, even for a moment, the preparations connected with craving. Thereby one
-realizes the destruction of preparations - *saṅkhārānaṁ khayaṁ ñatvā*.
+realizes the destruction of preparations – *saṅkhārānaṁ khayaṁ ñatvā*.
 
 Like the sea water parted by the blow of the iron bar, preparations part for a
 moment to reveal the very bottom which is 'unprepared', the *asaṅkhata*.
@@ -148,7 +148,7 @@ course, after that experience, influxes flow in again. But one kind of influxes,
 namely *diṭṭhāsavā*, influxes of views, are gone for good and will never flow in
 again.
 
-Now how was it that some with keen wisdom like *Bāhiya* attained *Arahant*-ship
+Now how was it that some with keen wisdom like *Bāhiya* attained *arahantship*
 even while listening to a short sermon from the Buddha? They had dealt four
 powerful blows in quick succession with the iron bar of the path-knowledge to
 clear away all possible influxes.
@@ -179,8 +179,8 @@ Then the deity asks: "Then, recluse, do you grieve?" And the Buddha quips back:
 neither rejoice nor grieve!" And the Buddha replies: "That is so, friend."
 
 It seems, then, that though we say we 'attain' Nibbāna there is nothing to
-gain and nothing to lose. If anything - **what is lost is an ignorance that
-there is something, and a craving that there is not enough** - and that is all
+gain and nothing to lose. If anything – **what is lost is an ignorance that
+there is something, and a craving that there is not enough** – and that is all
 one loses.
 
 Now there are quite a number of synonyms for Nibbāna, such as *akata* and
@@ -248,7 +248,7 @@ that since *saṅkhata* is *dukkha*, *asaṅkhata* must be *sukha*.
 But when they come to the third step, they get into difficulties. If *saṅkhata*
 is *anattā*, or not-self, then surely *asaṅkhata* must be *attā*, or self. At
 this point they have to admit that their argument is too facile and so they end
-up by saying that after all *Nibbāna *is something to be realized.
+up by saying that after all Nibbāna is something to be realized.
 
 All this confusion arises due to a lack of understanding of the law of Dependent
 Arising, *paṭicca samuppāda*. Therefore, first of all, we have to say something
@@ -285,7 +285,7 @@ In quite a number of contexts, such as the *Bahudhātukasutta* of the *Majjhima
 Nikāya* and the *Bodhivagga* of the *Udāna* the law of *paṭicca samuppāda* is
 set out in the following manner:
 
-> *Iti imasmiṁ sati idaṁ hoti,*[^fn61] \
+> *Iti imasmiṁ sati idaṁ hoti,* \
 > *imassuppādā idaṁ uppajjati* \
 > *imasmiṁ asati idaṁ na hoti,* \
 > *imassa nirodhā idaṁ nirujjhati –*
@@ -303,12 +303,12 @@ set out in the following manner:
 > vedanānirodho, vedanānirodhā taṇhānirodho, taṇhānirodhā upādānanirodho,
 > upādānanirodhā bhavanirodho, bhavanirodhā jātinirodho, jātinirodhā jarāmaraṇaṁ
 > sokaparidevadukkhadomanassūpāyāsā nirujjhanti. Evametassa kevalassa
-> dukkhakkhandhassa nirodho hoti.*
+> dukkhakkhandhassa nirodho hoti.*[^fn61]
 > 
-> Thus: -This being - this comes to be \
-> With the arising of this - this arises \
-> This not being - this does not come to be \
-> With the cessation of this - this ceases.
+> Thus: – This being – this comes to be \
+> With the arising of this – this arises \
+> This not being – this does not come to be \
+> With the cessation of this – this ceases.
 > 
 > And that is to say, dependent on ignorance, preparations come to be;
 > dependent on preparations, consciousness; dependent on consciousness,
@@ -353,7 +353,7 @@ twelve-linked formula is impressive enough. But the important thing here is the
 basic principle involved, and that is the fourfold statement beginning with
 *imasmiṁ sati*.
 
-This fact is very clearly brought out in a certain *sutta* in the *Nidānavagga*
+This fact is very clearly brought out in a certain sutta in the *Nidānavagga*
 of the *Saṁyutta Nikāya*. There the Buddha addresses the monks and says:
 
 > *Paṭiccasamuppādañca vo, bhikkhave, desessāmi paṭiccasamuppanne ca
@@ -727,7 +727,7 @@ According to the teaching of the Buddha, the concept of birth is equivalent to
 the concept of a 'here'. As a matter of fact, this birth of a 'here' is like the
 first peg driven for the measurement of a world. Because of the pair-wise
 relationship, the very first '**birthday-present**' that one gets as soon as one
-is born, is - **death**. The inevitable death that he is entitled to. This way
+is born, is – **death**. The inevitable death that he is entitled to. This way
 we can understand the deeper significance of the two words *itthabhāva* and
 *aññathābhāva*, this-ness and otherwise-ness.
 
@@ -776,7 +776,7 @@ the *Nandavagga* of the *Udāna*.
 > What it fears from is a suffering. \
 > But then this holy life is lived for the abandoning of that very becoming.
 
-**Just a few lines - but how deep they go!** The world is in anguish and is
+**Just a few lines – but how deep they go!** The world is in anguish and is
 enslaved by contact. What it calls self is nothing but a disease.
 
 *Maññati* is a word of deeper significance. *Maññanā* is conceiving under the
@@ -851,8 +851,8 @@ nature of fading away is understood by one who has had an insight into the law
 of arising and cessation.
 
 *Saṁsāra* is a whirlpool as far as the ordinary beings caught up in it are
-concerned. Now what about the *Arahants*? How is the idea of this whirlpool
-presented in the case of the *Arahants*? It is simply said that for them there
+concerned. Now what about the *arahants*? How is the idea of this whirlpool
+presented in the case of the *arahants*? It is simply said that for them there
 is no whirling round for there to be a designation: *vaṭṭaṁ tesaṁ natthi
 paññāpanāya*.[^fn80] So in their case, there is no whirling round to justify a
 designation.
@@ -875,11 +875,11 @@ is beautifully presented in the following verse from the *Cūḷavagga* of the
 > The whirlpool cut off whirls no more. \
 > This, even this, is suffering's end.
 
-What has the *Arahant* done? He has cut off the whirlpool. He has breached it
+What has the *arahant* done? He has cut off the whirlpool. He has breached it
 and has reached the desireless state. The stream of craving is dried up and
 flows no more. The whirlpool cut off at the root no more whirls. And this is the
 end of suffering. The cutting off of the whirlpool is the realization of
-cessation, which is *Arahant*-hood.
+cessation, which is *arahanthood*.
 
 It is because of the accent on the arising aspect that the current tries to move
 against the main stream. When that attempt is given up, the rest happens as a
@@ -914,7 +914,7 @@ The Buddha gives the answer in the following verse:
 
 The reference here is to Nibbāna. Whether it is called *sabbasaṅkhārasamatha*,
 the stilling of all preparations, or *asaṅkhatadhātu*, the unprepared element,
-it means the state of cessation. And when the *Arahant's* mind is in that state,
+it means the state of cessation. And when the *arahant's* mind is in that state,
 the four elements, which are like ghosts, do not haunt him. They do not get a
 '**footing**' in that consciousness. When they fade away, due to detachment,
 those currents do not flow and the whirlpool whirls no more. Name and form are

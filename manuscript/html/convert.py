@@ -80,6 +80,20 @@ def convert():
     # Ṭhitā
     html['text'] = html['text'].replace('<span lang=ZH-TW>ò</span>', 'Ṭ')
 
+    html['text'] = html['text'].replace('&nbsp;', ' ')
+
+    # Fix space in italics:
+    # the<i> Dhamma</i> is
+    # the <i>Dhamma </i>is
+    re_sub(r'<i>\s+', ' <i>', html)
+    re_sub(r'\s+</i>', '</i> ', html)
+
+    # </span>ra-</i>element
+    re_sub(r'-</i>(\w)', r'</i>-\1', html)
+
+    # Fix possessive lowercase Arahant's here
+    html['text'] = html['text'].replace("<i>Arahant's</i>", "<i>arahant's</i>")
+
     # Remove superfluous HTML
 
     html['text'] = html['text'].replace('<body bgcolor="#FFCC66" lang=EN-GB link=blue vlink=purple>', '<body>')
@@ -121,11 +135,36 @@ def convert():
     md['text'] = md['text'].replace('ṃ', 'ṁ')
     md['text'] = md['text'].replace('Ṃ', 'Ṁ')
 
+    # Use unicode en-dash
     md['text'] = md['text'].replace(' -- ', ' – ')
+    md['text'] = md['text'].replace(' - ', ' – ')
+
+    md['text'] = md['text'].replace('sotāpannā', 'sotāpanna')
+
+    # Lowercase arahant. Include the italic syntax to exclude titles:
+    # *Arahantavagga*
+    # *Arahantsutta*
+    for w in ["*Arahant*", "*Anāgāmi*", "*Sotāpanna*", "*Bodhisatta*"]:
+        md['text'] = md['text'].replace(w, w.lower())
+
+    # Plural forms:
+    for w in ["*Arahants*", "*Anāgāmis*", "*Sotāpannas*", "*Bodhisattas*"]:
+        md['text'] = md['text'].replace(w, w.lower())
+
+    # Exception when 'Arahant' is used as a title, like Venerable:
+    # Venerable *arahant* Subhūti -> Venerable Arahant Subhūti
+    md['text'] = md['text'].replace('Venerable *arahant* Subhūti', 'Venerable Arahant Subhūti')
+
+    md['text'] = md['text'].replace('*arahant*-ship', '*arahantship*')
+    md['text'] = md['text'].replace("*Arahant-*ship", '*arahantship*')
+    md['text'] = md['text'].replace('*arahant*-hood', '*arahanthood*')
 
     # Remove italics from common terms
-    for w in ["Nibbāna", "Buddha", "Dhamma", "Saṅgha", "Pāli"]:
-        md['text'] = md['text'].replace(f'*{w}*', w)
+    # Keep in mind punctuation: ... to see them in *Nibbāna.*
+    for w in ["Nibbāna", "Buddha", "Dhamma", "Saṅgha", "Pāli", "sutta", "suttas"]:
+        re_sub(r'\*' + w + r"([\.,:;\!\?\'-]*)\*",
+               w + r'\1',
+               md)
 
     """
     \"What is the \'two\'?\"
@@ -206,6 +245,9 @@ def convert():
 
     # []{#_edn2}[2] D II 93 -> [^fn2]: D II 93
     re_sub(r'\[\]\{#_edn([0-9]+)\}\[[0-9]+\] *([^\n]+)\n', r'[^fn\1]: \2\n', md)
+
+    # Hyphen for numerical ranges: Dhp 92-93
+    re_sub(r'([0-9]) *[-–] *([0-9])', r'\1-\2', md)
 
     # Remove trailing spaces
     re_sub(r'\s+$', r'\n', md)

@@ -1,6 +1,8 @@
-# Nibbāna - The Mind Stilled
+# Nibbāna – The Mind Stilled
 
 *33 Sermons on Nibbāna*
+
+![Cover](desktop-cover.png)
 
 Library Edition
 

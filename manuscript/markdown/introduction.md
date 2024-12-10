@@ -31,7 +31,7 @@ will likewise be strictly for free distribution since Dhamma is price-less.
 In these sermons I have attempted to trace the original meaning and significance
 of the Pali term Nibbāna (Skt. *Nirvāna*) based on the evidence from the
 discourses of the Pali Canon. This led to a detailed analysis and a re-appraisal
-of some of the most controversial *suttas* on Nibbāna often quoted by scholars
+of some of the most controversial suttas on Nibbāna often quoted by scholars
 in support of their interpretations. The findings, however, were not presented
 as a dry scholastic exposition of mere academic interest. Since the sermons were
 addressed to a meditative audience keen on *realizing Nibbāna*, edifying

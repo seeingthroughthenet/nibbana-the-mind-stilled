@@ -16,7 +16,7 @@ the venerable meditative monks.
 
 Recently we have had an occasion to listen to a series of sermons on Nibbāna
 and there have been differences of opinion regarding the interpretation of some
-deep *suttas* on Nibbāna in those sermons. And so the venerable Great
+deep suttas on Nibbāna in those sermons. And so the venerable Great
 Preceptor suggested to me that it would be useful to this group if I would give
 a set of sermons on Nibbāna, touching on those controversial points.
 
@@ -25,7 +25,7 @@ task, but then, as the venerable Great Preceptor repeatedly encouraged me on
 this, I gave some thought as to how best I could set about doing it. And it
 occurred to me that it would be best if I could address these sermons directly
 to the task before us in this Nissarana Vanaya, and that is meditative
-attention, rather than dealing with those deep controversial *suttas* in
+attention, rather than dealing with those deep controversial suttas in
 academic isolation. And that is why I have selected the above quotation as the
 theme for the entire set of sermons, hoping that it would help create the
 correct atmosphere of meditative attention.
@@ -53,25 +53,25 @@ Now at the very outset I would like to say a few things by way of preparing the
 background and I do hope that this assembly would bear with me for saying
 certain things that I will be compelled to say in this concern. By way of
 background something has to be said as to why there are so many complications
-with regard to the meaning of some of the deep *suttas* on Nibbāna.
+with regard to the meaning of some of the deep suttas on Nibbāna.
 
 There is a popular belief that the commentaries are finally traceable to a
 miscellany of the Buddha word scattered here and there, as *pakiṇṇakadesanā*.
 But the true state of affairs seems to be rather different. Very often the
 commentaries are unable to say something conclusive regarding the meaning of
-deep *suttas*. So they simply give some possible interpretations and the reader
+deep suttas. So they simply give some possible interpretations and the reader
 finds himself at a loss to choose the correct one. Sometimes the commentaries go
 at a tangent and miss the correct interpretation. Why the commentaries are
-silent on some deep *suttas* is also a problem to modern day scholars. There are
+silent on some deep suttas is also a problem to modern day scholars. There are
 some historical reasons leading to this state of affairs in the commentaries.
 
 In the *Āṇisutta* of the *Nidānavagga* in the *Saṁyutta Nikāya* we find the
 Buddha making certain prophetic utterances regarding the dangers that will
 befall the *Sāsana* in the future. It is said that in times to come, monks will
-lose interest in those deep *suttas* which deal with matters transcendental,
-that they would not listen to those *suttas* that have to do with the idea of
+lose interest in those deep suttas which deal with matters transcendental,
+that they would not listen to those suttas that have to do with the idea of
 emptiness, *suññatā*. They would not think it even worthwhile learning or
-pondering over the meanings of those *suttas*:
+pondering over the meanings of those suttas:
 
 > *Ye te suttantā tathāgatabhāsitā gambhīrā gambhīratthā lokuttarā
 > suññatappaṭisaṁyuttā, tesu bhaññamānesu na sussūssisanti na sotaṁ odahissanti
@@ -81,8 +81,8 @@ pondering over the meanings of those *suttas*:
 There is also another historical reason that can be adduced. An idea got deeply
 rooted at a certain stage in the *Sāsana* history that what is contained in the
 *Sutta Piṭaka* is simply the conventional teaching and so it came to imply that
-there is nothing so deep in these *suttas*. This notion also had its share in
-the present lack of interest in these *suttas*. According to *Manorathapūraṇī*,
+there is nothing so deep in these suttas. This notion also had its share in
+the present lack of interest in these suttas. According to *Manorathapūraṇī*,
 the *Aṅguttara* commentary, already at an early stage in the *Sāsana* history of
 Sri Lanka, there had been a debate between those who upheld the precept and
 those who stood for realization.[^fn4] And it is said that those who upheld the
@@ -98,7 +98,7 @@ so that there was the risk of some valuable things slipping out in the process.
 Also there have been certain semantic developments in the commentarial period,
 and this will be obvious to anyone searching for the genuine Dhamma. It seems
 that there had been a tendency in the commentarial period to elaborate even on
-some lucid words in the *suttas*, simply as a commentarial requirement, and this
+some lucid words in the suttas, simply as a commentarial requirement, and this
 led to the inclusion of many complicated ideas. By too much overdrawing in the
 commentaries, the deeper meanings of the Dhamma got obscured. As a matter of
 fact, the depth of the Dhamma has to be seen through lucidity, just as much as
@@ -111,14 +111,14 @@ one sees the bottom of a tank only when the water is lucid.
 > "Name and form."
 
 This is the second out of the ten questions Buddha had put to the Venerable
-*sāmanera Sopāka* who had attained *Arahant*-ship at the age of seven. It is
+Sāmanera Sopāka who had attained *arahantship* at the age of seven. It is
 like asking a child: "Can you count up to ten?" All the ten questions were deep,
-the tenth being on *Arahant*-ship. But of course Venerable *Sopāka* gave the
+the tenth being on *arahantship*. But of course Venerable *Sopāka* gave the
 right answer each time. Now it is the second question and its answer that we are
 concerned with here: *nāmañca rūpañca*. In fact, this is a basic teaching in
 insight training.
 
-It is obvious that *nāma* means 'name', and in the *suttas* also, *nāma*, when
+It is obvious that *nāma* means 'name', and in the suttas also, *nāma*, when
 used by itself, means 'name'. However when we come to the commentaries we find
 some kind of hesitation to recognize this obvious meaning. Even in the present
 context, the commentary, *Paramatthajotikā*, explains the word 'name' so as to
@@ -133,7 +133,7 @@ And this is the standard definition of *nāma* in *Abhidhamma* compendiums and
 commentaries. The idea of bending towards an object is brought in to explain the
 word *nāma*. It may be that they thought it too simple an interpretation to
 explain *nāma* with reference to 'name', particularly because it is a term that
-has to do with deep insight. However as far as the teachings in the *suttas* are
+has to do with deep insight. However as far as the teachings in the suttas are
 concerned, *nāma* still has a great depth even when it is understood in the
 sense of 'name'.
 
@@ -168,15 +168,15 @@ But now let us see whether there is something wrong in rendering *nāma* by
 definition of *nāma-rūpa* as given by the Venerable *Sāriputta* in the
 *Sammādiṭṭhisutta* of the *Majjhima Nikāya*.
 
-> *Vedanā, saññā, cetanā, phasso, manasikāro - idaṁ vuccatāvuso, nāmaṁ*;
-> *cattāri ca mahābhūtāni, catunnañca mahābhūtānaṁ upādāyarūpaṁ - idaṁ
-> vuccatāvuso, rūpaṁ. Iti idañca nāmaṁ idañca rūpaṁ - idam vuccatāvuso
+> *Vedanā, saññā, cetanā, phasso, manasikāro – idaṁ vuccatāvuso, nāmaṁ*;
+> *cattāri ca mahābhūtāni, catunnañca mahābhūtānaṁ upādāyarūpaṁ – idaṁ
+> vuccatāvuso, rūpaṁ. Iti idañca nāmaṁ idañca rūpaṁ – idam vuccatāvuso
 > nāma-rūpaṁ.*[^fn9]
 >
-> "Feeling, perception, intention, contact, attention - this, friend, is called
+> "Feeling, perception, intention, contact, attention – this, friend, is called
 > 'name'. The four great primaries and form dependent on the four great
-> primaries - this, friend, is called 'form'. So this is 'name' and this is
-> 'form' - this, friend, is called 'name-and-form'."
+> primaries – this, friend, is called 'form'. So this is 'name' and this is
+> 'form' – this, friend, is called 'name-and-form'."
 
 Well, this seems lucid enough as a definition but let us see, whether there is
 any justification for regarding feeling, perception, intention, contact and
@@ -214,7 +214,7 @@ Even though he is able to recognize objects by their conventional names, for the
 purpose of comprehending name-and-form, a meditator makes use of those factors
 that are included under 'name': feeling, perception, intention, contact and
 attention. All these have a specific value to each individual and that is why
-the Dhamma has to be understood each one by himself - *paccattaṁ veditabbo*.
+the Dhamma has to be understood each one by himself – *paccattaṁ veditabbo*.
 This Dhamma has to be realized by oneself. One has to understand one's own
 world of name-and-form by oneself. No one else can do it for him. Nor can it be
 defined or denoted by technical terms.
@@ -240,8 +240,8 @@ the preliminary step in the treatment of the wound caused by the poison-tipped
 arrow of craving.
 
 And it is for that purpose that a meditator has to pay special attention to
-those basic components of 'name' - feeling, perception, intention, contact and
-attention - however much he may be proficient in words found in worldly usage.
+those basic components of 'name' – feeling, perception, intention, contact and
+attention – however much he may be proficient in words found in worldly usage.
 It may even appear as a process of unlearning down to childlike simplicity. But
 of course, the equanimity implied there, is not based on ignorance but on
 knowledge.
@@ -286,7 +286,7 @@ from the following verse:
 > *etthesā chijjate jaṭā.*[^fn14]
 
 This is a verse found in the *Jaṭāsutta* of the *Saṁyutta Nikāya*. In that
-*sutta* we find a deity putting a riddle before the Buddha for solution:
+sutta we find a deity putting a riddle before the Buddha for solution:
 
 > *Anto jaṭā bahi jaṭā,* \
 > *jaṭāya jaṭitā pajā,* \
@@ -317,7 +317,7 @@ is the second verse:
 >
 > "In whom lust, hate \
 > And ignorance have faded away, \
-> Those influx-free *Arahants*, \
+> Those influx-free *arahants*, \
 > It is in them that the tangle is disentangled."
 
 It is the third verse that is relevant to our topic.
@@ -383,13 +383,13 @@ taking *nāma* in *nāma-rūpa* as some kind of bending. It is said that craving
 a kind of weaving in the sense that it connects up one form of existence with
 another and the prefix *ni* is said to signify the exit from that weaving.
 
-But nowhere in the *suttas* do we get this sort of etymology and interpretation.
-On the other hand it is obvious that the *suttas* use the word Nibbāna in the
+But nowhere in the suttas do we get this sort of etymology and interpretation.
+On the other hand it is obvious that the suttas use the word Nibbāna in the
 sense of 'extinguishing' or 'extinction'. In fact this is the sense that brings
 out the true essence of the Dhamma.
 
 For instance the *Ratanasutta*, which is so often chanted as a *paritta*, says
-that the *Arahants* go out like a lamp: *Nibbanti dhīrā yathāyaṁ padīpo*.[^fn16]
+that the *arahants* go out like a lamp: *Nibbanti dhīrā yathāyaṁ padīpo*.[^fn16]
 "Those wise ones get extinguished even like this lamp."
 
 The simile of a lamp getting extinguished is also found in the
@@ -402,7 +402,7 @@ illustration of Nibbāna and in the *Aggivacchagottasutta* of the *Majjhima
 Nikāya* we find the Buddha presenting it as a sustained simile, giving it a
 deeper philosophical dimension.[^fn19] Now when a fire burns, it does so with
 the help of firewood. When a fire is burning, if someone were to ask us: "What
-is burning?" - what shall we say as a reply? Is it the wood that is burning or
+is burning?" – what shall we say as a reply? Is it the wood that is burning or
 the fire that is burning? The truth of the matter is that the wood burns because
 of the fire and the fire burns because of the wood. So it seems we already have
 here a case of relatedness of this to that, *idappaccayatā.* This itself shows
@@ -460,7 +460,7 @@ of existence. He pointed out that existence is a fire kept up by the fuel of
 grasping, so much so that, when grasping ceases, existence ceases as well.
 
 In fact the fire simile holds the answer to the tetralemma included among the
-ten unexplained points very often found mentioned in the *suttas*. It concerns
+ten unexplained points very often found mentioned in the suttas. It concerns
 the state of the *Tathāgata* after death, whether he exists, does not exist,
 both or neither. The presumption of the questioner is that one or the other of
 these four must be and could be answered in the affirmative.
@@ -479,10 +479,10 @@ In the *Upasīvasutta* of the *Pārāyaṇavagga* of the *Sutta Nipāta* we find
 lines:
 
 > *Accī yathā vātavegena khitto,* \
-> *atthaṁ paleti na upeti saṅkhaṁ*,
+> *atthaṁ paleti na upeti saṅkhaṁ*,[^fn26]
 >
 > "Like the flame thrown out by the force of the wind \
-> Reaches its end, it cannot be reckoned."[^fn26]
+> Reaches its end, it cannot be reckoned."
 
 Here the reckoning is to be understood in terms of the four propositions of the
 tetralemma. Such reckonings are based on a total misconception of the phenomenon
@@ -538,7 +538,7 @@ cessation, giving up, relinquishment of that very craving. That it is the
 release from and non-attachment to that very craving. In other words it is the
 destruction of this very mass of suffering which is just before us.
 
-In the *suttas* the term *taṇhakkhayo*, the destruction of craving, is very
+In the suttas the term *taṇhakkhayo*, the destruction of craving, is very
 often used as a term for Nibbāna.[^fn32] But the commentator says that
 destruction alone is not Nibbāna: *Khayamattaṁ na nibbānaṁ*.[^fn33] But the
 destruction of craving itself is called the highest bliss in the following verse
@@ -589,7 +589,7 @@ term from Nibbāna.
 According to the Buddha the cessation of existence is Nibbāna and that means
 Nibbāna is the realization of the cessation of existence. Existence is said to
 be an eleven-fold fire. So the entire existence is a raging fire. Lust, hate,
-delusion - all these are fires. Therefore Nibbāna may be best rendered by the
+delusion – all these are fires. Therefore Nibbāna may be best rendered by the
 word 'extinction'. When once the fires are extinguished, what more is needed?
 
 But unfortunately Venerable *Buddhaghosa* was not prepared to appreciate this
@@ -603,7 +603,7 @@ First of all he gets the heretic to put forward the idea that the destruction of
 lust, hate and delusion is Nibbāna. Actually the heretic is simply quoting the
 Buddha word, for in the *Nibbānasutta* of the *Asaṅkhatasaṁyutta* the
 destruction of lust, hate and delusion is called Nibbāna: *Rāgakkhayo,
-dosakkhayo, mohakkhayo - idaṁ vuccati nibbānaṁ*.[^fn38]
+dosakkhayo, mohakkhayo – idaṁ vuccati nibbānaṁ*.[^fn38]
 
 The words *rāgakkhaya, dosakkhaya* and *mohakkhaya* together form a synonym of
 Nibbāna, but the commentator interprets it as three synonyms. Then he argues
@@ -619,10 +619,10 @@ position of lustful beings in the world.[^fn40] That man is simply trying to
 assuage his pains by the heat of the fire. It is an attempt to warm up, not to
 cool down. Similarly what the lustful beings in the world are doing in the face
 of the fires of lust is a warming up. It can in no way be compared to the
-extinction and the cooling down of the *Arahants*.
+extinction and the cooling down of the *arahants*.
 
 As the phrase *nibbutiṁ bhuñjamānā* implies, that extinction is a blissful
-experience for the *Arahants*. It leaves a permanent effect on the *Arahant*, so
+experience for the *arahants*. It leaves a permanent effect on the *arahant*, so
 much so that upon reflection he sees that his influxes are extinct, just as a
 man with his hands and feet cut off, knows upon reflection that his limbs are
 gone.[^fn41] It seems that the deeper implications of the word Nibbāna have
@@ -635,13 +635,13 @@ myself felt rather concerned about the inadequacy of the existing
 interpretations.
 
 What we have said so far is just about the word Nibbāna as such. Quite a
-number of *suttas* on Nibbāna will be taken up for discussion. This is just a
+number of suttas on Nibbāna will be taken up for discussion. This is just a
 preamble to show that the word Nibbāna in the sense of 'extinction' has a
 deeper dimension, which has some relevance to the law of dependent arising,
 *paṭicca samuppāda*.
 
 By bringing in an etymology based on the element *vāna*, much of the original
-significance of the word *Nibbāna *came to be undermined. On quite a number of
+significance of the word Nibbāna came to be undermined. On quite a number of
 occasions the Buddha has declared that the cessation of suffering is Nibbāna,
 or else that the destruction of craving is Nibbāna. Terms like *dukkhanirodho*
 and *taṇhakkhayo* have been used as synonyms. If they are synonyms, there is no
@@ -653,13 +653,20 @@ holy life or *brahmacariya*. It is said that when the holy life is lived out to
 the full, it culminates in Nibbāna.
 
 In the *Rādhasaṁyutta* of the *Saṁyutta Nikāya* we find the Venerable *Rādha*
-putting a series of questions to the Buddha to get an explanation.[^fn42] First
+putting a series of questions to the Buddha to get an explanation. First
 of all he asks:
 
-*Sammādassanaṁ pana, bhante, kimatthiyaṁ*? "For what purpose is right vision?"
-And the Buddha gives the answer: *Sammādassanaṁ kho, Rādha, nibbidatthaṁ*,
-"*Rādha*, right vision is for purposes of disgust or dejection". And that is to
-say, disgust for *saṁsāra*.
+> *Sammādassanaṁ pana, bhante, kimatthiyaṁ?*[^fn42]
+>
+> For what purpose is right vision?
+
+And the Buddha gives the answer:
+
+> *Sammādassanaṁ kho, Rādha, nibbidatthaṁ*,
+>
+> *Rādha*, right vision is for purposes of disgust or dejection.
+
+And that is to say, disgust for *saṁsāra*.
 
 The next question is: for what purpose is disgust? And the Buddha answers:
 disgust is for dispassion. What is the purpose of dispassion? The purpose of
@@ -681,7 +688,7 @@ This shows that the holy life gets merged in Nibbāna, just as rivers get
 merged in the sea. In other words, where the holy life is lived out to the full,
 Nibbāna is right there. That is why Venerable *Nanda*, who earnestly took up
 the holy life encouraged by the Buddha's promise of heavenly nymphs, attained
-*Arahant*-hood almost in spite of himself. At last he approached the Buddha and
+*arahanthood* almost in spite of himself. At last he approached the Buddha and
 begged to relieve him of the onus of his promise. This shows that when one
 completes the training in the Holy Life, one is already in Nibbāna. Only when
 the training is incomplete, can one go to heaven.
@@ -691,14 +698,14 @@ justification for a periphrastic usage like, "on reaching Nibbāna". No glimpse
 of a distant object is necessary. At whatever moment the Noble Eightfold Path is
 perfected, one attains Nibbāna then and there. Now, in the case of an
 examination, after answering the question paper, one has to wait for the
-results - to get a pass.
+results – to get a pass.
 
 Here it is different. As soon as you have answered the paper correctly, you have
 passed im-mediately and the certificate is already there. This is the
 significance of the term *aññā* used in such contexts. *Aññā* stands for full
 certitude of the experience of Nibbāna.
 
-The experience of the fruit of *Arahant*-ship gives him the final certificate of
+The experience of the fruit of *arahantship* gives him the final certificate of
 his attainment, *aññāphalo*.[^fn43] That is why Nibbāna is called something to
 be realized. One gets the certitude that birth is extinct and that the holy life
 is lived out to the full, *khīṇā jāti, vusitaṁ brahmacariyaṁ*.[^fn44]

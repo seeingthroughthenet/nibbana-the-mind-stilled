@@ -18,13 +18,13 @@ Today we have before us the third sermon on Nibbāna. The other day, with the
 help of the simile of a whirlpool, we attempted an explanation of the terms
 *saṁsāra* on the one hand, and Nibbāna on the other, that is to say 'going
 round', or *saṁsaraṇa*, and 'going out', or *nissaraṇa*.[^fn85] We also cited
-*suttas* to illustrate both the arising (*samudaya*) and cessation (*nirodha*)
+suttas to illustrate both the arising (*samudaya*) and cessation (*nirodha*)
 aspects of the law of dependent arising.
 
 As regards this whirlpool, to show a parallel development with the links of the
 law of dependent arising, by way of a sustained simile, we may say that the
 ignorance in presuming that it is possible to go against the main stream of the
-three signata - impermanence, suffering and not-self - is the place of its
+three signata – impermanence, suffering and not-self – is the place of its
 origin. That heap of preparations impelled by ignorance, which takes the current
 forward, may be regarded as *saṅkhāras*. And where the current in its progress
 clashes with the main stream to become a whirlpool, that pushing forward against
@@ -38,7 +38,7 @@ whirlpool. As the whirlpool goes on for a long time, an abyss is formed, the
 functioning of which could be compared to the six sense-bases.
 
 As a matter of fact, bodily pains are comparable to an abyss. In a certain
-*sutta* in the *Saṁyutta Nikāya* the Buddha says:
+sutta in the *Saṁyutta Nikāya* the Buddha says:
 
 > *Sārīrikānaṁ kho etaṁ bhikkhave dukkhānaṁ vedanānaṁ adhivacanaṁ, yadidaṁ
 > pātālo'ti.*[^fn86]
@@ -110,7 +110,7 @@ affairs that arose due to causes and conditions, due to graspings. So from this
 also we can see that it is in concepts that ignorance finds a camouflage.
 
 Being unaware of it the world goes on amassing concepts and even expects to see
-them in *Nibbāna.* There are some who fondly hope to get a vision of their lists
+them in Nibbāna. There are some who fondly hope to get a vision of their lists
 of concepts when they realize Nibbāna. But that wisdom penetrates through even
 the concepts and that is why it is called *udayatthagāminī paññā ariyā
 nibbedhikā*,[^fn91] "the *ariyan* penetrative wisdom that sees the rise and
@@ -131,7 +131,7 @@ uttered by Venerable *Assaji*:
 When a wise man hears that something has arisen due to causes and conditions, he
 immediately understands that it could be made to cease by the removal of those
 conditions, even without further explanation. It is the dustless stainless
-*Dhamma-*eye that enables one to see the *Nibbānic* solution in the very
+Dhamma-eye that enables one to see the *Nibbānic* solution in the very
 structure of the *saṁsāric* problem.
 
 In our quotation from the *MahāNidānasutta* it was said that all pathways for
@@ -272,7 +272,7 @@ sense-bases, contact and feeling, come to cease immediately.
 The *MahāPadānasutta* goes on to say that the *bodhisatta Vipassī* continued to
 dwell seeing the arising and passing away of the five grasping groups and that
 before long his mind was fully emancipated from the influxes and that he
-attained to full enlightenment. It is also said in the *sutta* in this
+attained to full enlightenment. It is also said in the sutta in this
 connection that the *bodhisatta* followed this mode of reflection, because he
 understood that it is the way of insight leading to awakening:
 
@@ -287,12 +287,12 @@ of the first two links, *avijjā* and *saṅkhārā*, and gives the explanation 
 he could not see them, as they belong to the past.[^fn97]
 
 But this is not the reason. The very ignorance regarding the relationship
-between name-and-form and consciousness - is *avijjā*. And what accounts for the
-continuity of this relationship - is *saṅkhārā*. It is because of these
+between name-and-form and consciousness – is *avijjā*. And what accounts for the
+continuity of this relationship – is *saṅkhārā*. It is because of these
 preparations that the vortical interplay between consciousness and name-and-form
 is kept going.
 
-Simply because the first two links are not mentioned in the *sutta*, the
+Simply because the first two links are not mentioned in the sutta, the
 commentators give the explanation that they belong to the past. But it should be
 clear that the *bodhisatta Vipassī* could not have aroused the Dhamma-eye
 without those two links. Why they are not specially mentioned here is because
@@ -305,7 +305,7 @@ As to the cause of this mutual relationship, we have to go back to the vortex
 simile. Usually, the progress of a current of water is visible at some distance
 away from the vortex. In this case, the current of water forgets its own
 impermanent, suffering and not-self nature, and goes ahead in search of a
-permanent, pleasurable and self nature. And this itself - is *avijjā*, or
+permanent, pleasurable and self nature. And this itself – is *avijjā*, or
 ignorance. This very tendency of the narrow water current to push on against the
 main body of water, is itself what is called consciousness.
 
@@ -402,12 +402,12 @@ According to that accepted interpretation, presented by the venerable author of
 the *Visuddhimagga*, the first two links of the formula belong to the past, and
 the last two links belong to the future. The remaining eight links in the middle
 are taken to represent the present.[^fn102] That means, we have here the three
-periods of time. So it is not - timeless.
+periods of time. So it is not – timeless.
 
 And that is why they explained that the *bodhisatta Vipassī* did not see the
 first two links. Perhaps, the presumption is, that since these two links belong
 to the past, they can be seen only by the knowledge of the recollection of past
-lives. But on the other hand, the *suttas* tell us that even the stream-winner
+lives. But on the other hand, the suttas tell us that even the stream-winner
 has a clear understanding of *paṭicca samuppāda*:
 
 > *Ariyo c'assa ñāyo paññāya sudiṭṭho hoti suppaṭividdho*.[^fn103]
@@ -714,7 +714,7 @@ What is implied here is the established nature of consciousness. The
 consciousness of a *saṁsāric* individual is established both in this world and
 in the next.
 
-Another attainment of vision, mentioned in the *sutta*, concerns the seeing of a
+Another attainment of vision, mentioned in the sutta, concerns the seeing of a
 man's stream of consciousness not cut off on either side, and not established in
 this world or in the next. And that is a reference to the consciousness of an
 *arahant*. So an *arahant's* consciousness is an unestablished consciousness,
@@ -726,7 +726,7 @@ That is precisely why in the *Sagāthavagga* of the *Saṁyutta Nikāya* and in 
 mentioned, it is said that, though he cut his own neck intending to commit
 suicide, he was able to attain *parinibbāna* as an *arahant* by radically
 attending to the deadly pain.[^fn113] But *Māra* took him to be an ordinary
-person and hovered around in search of his consciousness - in vain. The Buddha,
+person and hovered around in search of his consciousness – in vain. The Buddha,
 on the other hand, declared that Venerable *Godhika* passed away with an
 unestablished consciousness:
 
