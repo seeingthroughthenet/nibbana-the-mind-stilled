@@ -28,7 +28,7 @@ Nibbāna is the supreme consummation of the holy life. The following standard
 phrase announcing a new *arahant* is very often found in the suttas:
 
 > *Yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ
-> brahmcariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja
+> brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja
 > vihāsi*.[^fn50]
 >
 > In this very life he realized by his own higher knowledge and attained to
