@@ -860,7 +860,7 @@ designation.
 This, then, is something deeper than the whirlpool itself. The whirlpool can be
 pointed out because of its activity. But not so easily the emancipated ones and
 that is why there is so much controversy regarding the nature of the
-*Tathāgatha*. The image of the whirlpool in its relation to the emancipated ones
+*Tathāgata*. The image of the whirlpool in its relation to the emancipated ones
 is beautifully presented in the following verse from the *Cūḷavagga* of the
 *Udāna*:
 

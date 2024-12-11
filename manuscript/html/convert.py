@@ -140,15 +140,30 @@ def convert():
     md['text'] = md['text'].replace(' - ', ' – ')
 
     md['text'] = md['text'].replace('sotāpannā', 'sotāpanna')
+    md['text'] = md['text'].replace('Tathāgatha', 'Tathāgata')
+    md['text'] = md['text'].replace('*Mara*', '*Māra*')
+    md['text'] = md['text'].replace('*MahāKaccānas*', "*MahāKaccāna's*")
+    md['text'] = md['text'].replace('*Sāvatthi*', "*Sāvatthī*")
+    md['text'] = md['text'].replace('Puṇṇa Mantāniputta', 'Puṇṇa Mantāṇiputta')
+    md['text'] = md['text'].replace('Nāthaputta', 'Nāṭaputta')
+    md['text'] = md['text'].replace('Moggalāna', 'Moggallāna')
+    md['text'] = md['text'].replace('Dhammadiṇṇā', 'Dhammadinnā')
+
+    md['text'] = md['text'].replace('MahāKaccāna', 'Mahā Kaccāna')
+    md['text'] = md['text'].replace('MahāMoggallāna', 'Mahā Moggallāna')
+    md['text'] = md['text'].replace('MahāTissa', 'Mahā Tissa')
+
+    # Revert this exception
+    md['text'] = md['text'].replace('Mahā Moggallānatheragāthā', 'Mahāmoggallānatheragāthā')
 
     # Lowercase arahant. Include the italic syntax to exclude titles:
     # *Arahantavagga*
     # *Arahantsutta*
-    for w in ["*Arahant*", "*Anāgāmi*", "*Sotāpanna*", "*Bodhisatta*"]:
+    for w in ["*Arahant*", "*Ariyan*", "*Anāgāmi*", "*Sotāpanna*", "*Bodhisatta*"]:
         md['text'] = md['text'].replace(w, w.lower())
 
     # Plural forms:
-    for w in ["*Arahants*", "*Anāgāmis*", "*Sotāpannas*", "*Bodhisattas*"]:
+    for w in ["*Suttas*", "*Arahants*", "*Ariyans*", "*Anāgāmis*", "*Sotāpannas*", "*Bodhisattas*"]:
         md['text'] = md['text'].replace(w, w.lower())
 
     # Exception when 'Arahant' is used as a title, like Venerable:

@@ -726,7 +726,7 @@ It seems that even the colour or shade of decay-and-death can fade away and that
 
 *Saṁsāra* is a whirlpool as far as the ordinary beings caught up in it are concerned. Now what about the *arahants*? How is the idea of this whirlpool presented in the case of the *arahants*? It is simply said that for them there is no whirling round for there to be a designation: *vaṭṭaṁ tesaṁ natthi paññāpanāya*.[^fn80] So in their case, there is no whirling round to justify a designation.
 
-This, then, is something deeper than the whirlpool itself. The whirlpool can be pointed out because of its activity. But not so easily the emancipated ones and that is why there is so much controversy regarding the nature of the *Tathāgatha*. The image of the whirlpool in its relation to the emancipated ones is beautifully presented in the following verse from the *Cūḷavagga* of the *Udāna*:
+This, then, is something deeper than the whirlpool itself. The whirlpool can be pointed out because of its activity. But not so easily the emancipated ones and that is why there is so much controversy regarding the nature of the *Tathāgata*. The image of the whirlpool in its relation to the emancipated ones is beautifully presented in the following verse from the *Cūḷavagga* of the *Udāna*:
 
 *Acchecchi vaṭṭaṁ byagā nirāsaṁ,*
 
@@ -1742,7 +1742,7 @@ All this goes to show that the life outside is not much different from what goes
 
 However, the darkness within is much thicker than the darkness outside. The darkness outside may be dispelled even by a door flung open, as we saw above. But not so easily the darkness within. That is why, in the psalms of the *Theras* and *Therīs*, it is said that they split or burst asunder the mass of delusion, *tamokkhandhaṁ padāliya*, *tamokkhandhaṁ padālayiṁ*.[^fn180] The pitchy black darkness of ignorance in the world is one that is thick enough to be split up and burst asunder. So it seems, the darkness within is almost tangibly thick. But the first incision on this thick curtain of darkness is made by the path knowledge of the Stream-winner.
 
-As a side-light, we may cite an episode from the lives of the Venerables *Sāriputta* and *Mahā Moggalāna*, the two chief disciples of the Buddha. Formerly, as brahmin youths, they were known as *Upatissa* and *Kolita*. These two young men once went to see a hill-top festival, called *giraggasamajja*.[^fn181] Since by then, their discerning wisdom was already matured, they suddenly developed a dejection about the entertainment going on. The hill-top festival, as it were, lost its festivity for them. They understood the vanity of it and could no longer enjoy it as before.
+As a side-light, we may cite an episode from the lives of the Venerables *Sāriputta* and *Mahā Moggallāna*, the two chief disciples of the Buddha. Formerly, as brahmin youths, they were known as *Upatissa* and *Kolita*. These two young men once went to see a hill-top festival, called *giraggasamajja*.[^fn181] Since by then, their discerning wisdom was already matured, they suddenly developed a dejection about the entertainment going on. The hill-top festival, as it were, lost its festivity for them. They understood the vanity of it and could no longer enjoy it as before.
 
 They may have already had a distant glimpse of the similarity between the two levels of experience, mentioned above. But they on their own could not get at the principles underlying the delusion involved.
 
@@ -2420,7 +2420,7 @@ In this drama of existence, too, there are similar tragic scenes. Now, in spite 
 
 As a matter of fact, both these words, tragic and comic, can be accommodated within the highly significant term *saṁvega*, anguish, sense of urgency. In trying to arouse *saṁvega* with regard to *saṅkhāras*, or preparations, we could bring in both these attitudes. The ordinary worldling sees only the tragic side of the drama of existence, and that because of his ignorance. But the *arahant*, the emancipated one, sees in this drama of existence a comic side as well.
 
-As an illustration we may allude to those occasions in which the Buddha himself and those disciples with psychic powers like Venerable *MahāMoggalāna*, are said to have shown a faint smile, *situppāda*, on seeing how beings in *saṁsāra* are reborn in high and low realms according to their deeds, as in a puppet show.[^fn266] Of course, that spontaneous smile has nothing sarcastic or unkind about it. But all the same, it gives us a certain hint. This spontaneous smile seems to be the outcome of an insight into the comic aspect of this existential drama. The faint smile is aroused by the conviction of the utter futility and insubstantiality of the existential drama, seeing how beings who enjoyed high positions come down to the level of hungry ghosts, *petas*, or even to lower realms in their very next birth. It is somewhat like the response of one who has correctly understood the impermanence and the illusory nature of things shown on a film screen.
+As an illustration we may allude to those occasions in which the Buddha himself and those disciples with psychic powers like Venerable *Mahā Moggallāna*, are said to have shown a faint smile, *situppāda*, on seeing how beings in *saṁsāra* are reborn in high and low realms according to their deeds, as in a puppet show.[^fn266] Of course, that spontaneous smile has nothing sarcastic or unkind about it. But all the same, it gives us a certain hint. This spontaneous smile seems to be the outcome of an insight into the comic aspect of this existential drama. The faint smile is aroused by the conviction of the utter futility and insubstantiality of the existential drama, seeing how beings who enjoyed high positions come down to the level of hungry ghosts, *petas*, or even to lower realms in their very next birth. It is somewhat like the response of one who has correctly understood the impermanence and the illusory nature of things shown on a film screen.
 
 When one comes to think of this drama of existence, *saṁsāric* beings appear like puppets drawn upwards by the five higher fetters, *uddhambhāgiya saṁyojana*, and drawn downwards by the five lower fetters, *orambhāgiya saṁyojana*. They reappear more or less like puppets, manipulated up and down by strings, which are but the results of their own deeds.
 
@@ -3536,25 +3536,25 @@ In the next act we find the Buddha seated in the company of the monks in the eve
 
 After making such a long and winding statement, the Buddha rose from his seat and went into his dwelling, as if it were the end of the second act. One can well imagine the consternation of the monks at this dramatic turn of events. The explanation looked even more astounding than the original statement, because of its elliptical character. So here is a case of a puzzle within a puzzle. It is the first few words that are most puzzling.
 
-Naturally, the monks were so perplexed that they decided to approach Venerable *MahāKaccāna* and request him to give them a detailed exposition of the Buddha's words, as he had been praised by the Buddha for his skill in this respect. When they went to him and made the request, Venerable *MahāKaccāna* showed some modest hesitation at first, but finally agreed to it.
+Naturally, the monks were so perplexed that they decided to approach Venerable *Mahā Kaccāna* and request him to give them a detailed exposition of the Buddha's words, as he had been praised by the Buddha for his skill in this respect. When they went to him and made the request, Venerable *Mahā Kaccāna* showed some modest hesitation at first, but finally agreed to it.
 
-Now we come to the third act, in which Venerable *MahāKaccāna* is giving the exposition.
+Now we come to the third act, in which Venerable *Mahā Kaccāna* is giving the exposition.
 
 *Cakkhuñc'āvuso paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso, phassapaccayā vedanā, yaṁ vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vitakketi, yaṁ vitakketi taṁ papañceti, yaṁ papañceti tatonidānaṁ purisaṁ papañcasaññāsaṅkhā samudācaranti atītānāgatapaccuppannesu cakkhuviññeyyesu rūpesu.* Not only with regard to eye and forms, but also with reference to all the other sense-faculties, including the mind, together with their respective sense-objects, a similar statement is made. Suffice it to translate the one quoted above as a paradigm.
 
-"Dependent on the eye and forms, brethren, arises eye-consciousness; the concurrence of the three is contact; because of contact, feeling; what one feels, one perceives; what one perceives, one reasons about; what one reasons about, one turns into *papañca*; what one turns into *papañca*, owing to that" (*tatonidānaṁ,* which is the correlative of *yatonidānaṁ* forming the key word in the Buddha's brief summary above) "*papañcasaññāsaṅkhā* beset him who directed his powers of sense-perception. They overwhelm him and subjugate him in respect of forms cognizable by the eye belonging to the past, the future and the present." It is the same with regard to the ear and sounds and the rest. Lastly, even about mind and mind-objects Venerable *MahāKaccāna* makes a similar statement.
+"Dependent on the eye and forms, brethren, arises eye-consciousness; the concurrence of the three is contact; because of contact, feeling; what one feels, one perceives; what one perceives, one reasons about; what one reasons about, one turns into *papañca*; what one turns into *papañca*, owing to that" (*tatonidānaṁ,* which is the correlative of *yatonidānaṁ* forming the key word in the Buddha's brief summary above) "*papañcasaññāsaṅkhā* beset him who directed his powers of sense-perception. They overwhelm him and subjugate him in respect of forms cognizable by the eye belonging to the past, the future and the present." It is the same with regard to the ear and sounds and the rest. Lastly, even about mind and mind-objects Venerable *Mahā Kaccāna* makes a similar statement.
 
 At this point, we are forced to say something about the commentarial explanation of this particular passage. It seems that the commentarial exegesis has failed to bring out the deeper implications of the term *papañcasaññāsaṅkhā*. The main reason for the confusion is the lack of attention on the part of the commentator to the peculiar syntax of the formula in question.
 
 The formula begins on an impersonal note, *cakkhuñc'āvuso paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ.* The word *paṭicca* is reminiscent of the law of dependent arising. *Tiṇṇaṁ saṅgati phasso,* "the concurrence of the three is contact". *Phassapaccayā vedanā,* "conditioned by contact is feeling". From here onwards the formula takes a different turn. *Yaṁ vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vitakketi, yaṁ vitakketi taṁ papañceti,* "what one feels, one perceives; what one perceives, one reasons about; what one reasons about, one turns into *papañca*".
 
-In this way, we can distinguish three phases in this description of the process of sense perception in Venerable *MahāKaccāna's* exposition. It begins with an impersonal note, but at the point of feeling it takes on a personal ending, suggestive of deliberate activity. *Yaṁ vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vitakketi, yaṁ vitakketi taṁ papañceti,* "what one feels, one perceives; what one perceives, one reasons about; what one reasons about, one turns into *papañca*".
+In this way, we can distinguish three phases in this description of the process of sense perception in Venerable *Mahā Kaccāna's* exposition. It begins with an impersonal note, but at the point of feeling it takes on a personal ending, suggestive of deliberate activity. *Yaṁ vedeti taṁ sañjānāti, yaṁ sañjānāti taṁ vitakketi, yaṁ vitakketi taṁ papañceti,* "what one feels, one perceives; what one perceives, one reasons about; what one reasons about, one turns into *papañca*".
 
 Though we render the formula in this way, the commentary explains it differently. It ignores the significance of the personal ending and interprets the sensory process periphrastically, for example as *saññā sañjānāti*, *vitakko vitakketi*, "perception perceives", "reasoning reasons about", etc.[^fn401] It amounts to saying that, when feeling occurs, perception comes forward and perceives it, then reasoning takes up the task of reasoning about perception. *Papañca* then steps in and converts that reasoning into *papañca*. This is how the commentary explains that formula. It has left out of account the significance of the use of the active voice in this section of the formula.
 
-There is a special purpose in using the active voice in this context. It is in order to explain how a man is overwhelmed by *papañcasaññāsaṅkhā* – whatever it may be – that Venerable *MahāKaccāna* has introduced this sequence of events in three phases. In fact, he is trying to fill in the gap in the rather elliptical statement of the Buddha, beginning with *yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti,* "monk, from whatever source *papañcasaññāsaṅkhā* beset a man". The initial phase is impersonal, but then comes the phase of active participation.
+There is a special purpose in using the active voice in this context. It is in order to explain how a man is overwhelmed by *papañcasaññāsaṅkhā* – whatever it may be – that Venerable *Mahā Kaccāna* has introduced this sequence of events in three phases. In fact, he is trying to fill in the gap in the rather elliptical statement of the Buddha, beginning with *yatonidānaṁ, bhikkhu, purisaṁ papañcasaññāsaṅkhā samudācaranti,* "monk, from whatever source *papañcasaññāsaṅkhā* beset a man". The initial phase is impersonal, but then comes the phase of active participation.
 
-From feeling onwards, the person behind it takes over. What one feels, one perceives; what one perceives, one reasons about; what one reasons about, one turns into *papañca*. The grossest phase is the third. Venerable *MahāKaccānas* formula shows how the process of sense-perception gradually assumes a gross form. This third phase is implicit in the words *yaṁ papañceti tatonidānaṁ purisaṁ papañcasaññāsaṅkhā samudācaranti*, "what one turns into *papañca*, owing to that *papañcasaññāsaṅkhā* beset that man". The word *purisaṁ* is in the accusative case here, implying that the person who directed sense-perception is now beset with, or overwhelmed by, *papañcasaññāsaṅkhā*, as a result of which all the evil unskilful mental states come to be. This itself is an index to the importance of the term *papañca*.
+From feeling onwards, the person behind it takes over. What one feels, one perceives; what one perceives, one reasons about; what one reasons about, one turns into *papañca*. The grossest phase is the third. Venerable *Mahā Kaccāna's* formula shows how the process of sense-perception gradually assumes a gross form. This third phase is implicit in the words *yaṁ papañceti tatonidānaṁ purisaṁ papañcasaññāsaṅkhā samudācaranti*, "what one turns into *papañca*, owing to that *papañcasaññāsaṅkhā* beset that man". The word *purisaṁ* is in the accusative case here, implying that the person who directed sense-perception is now beset with, or overwhelmed by, *papañcasaññāsaṅkhā*, as a result of which all the evil unskilful mental states come to be. This itself is an index to the importance of the term *papañca*.
 
 The course of events suggested by these three phases may be illustrated with the legend of the three magicians. While journeying through a forest, three men, skilled in magic, came upon a scattered heap of bones of a tiger. To display their skill, one of them converted the bones into a complete skeleton, the second gave it flesh and blood, and the third gave it life. The resurrected tiger devoured all three of them. It is such a predicament that is hinted at by the peculiar syntax of the formula in question.
 
@@ -4118,23 +4118,23 @@ Now leaving this as something of a riddle, let us try to analyse a certain fairy
 
 The main theme of the *Cūḷataṇhāsaṅkhayasutta* is as follows: Once *Sakka*, the king of the gods, came to see the Buddha when he was staying at *Pubbārāma* and asked the question: 'How does a monk attain deliverance by the complete destruction of craving?' The quintessence of the Buddha's brief reply to that question is the above mentioned dictum, *sabbe dhammā nālaṁ abhinivesāya*, "nothing is worth entering into dogmatically".
 
-*Sakka* rejoiced in this sermon approvingly and left. Venerable *MahāMoggallāna*, who was seated near the Buddha at that time, had the inquisitive thought: 'Did *Sakka* rejoice in this sermon having understood it, or did he rejoice without understanding it?' Being curious to find this out he vanished from *Pubbārāma* and appeared in the *Tāvatiṁsa* heaven as quickly as a strong man might stretch out his bent arm and bend back his outstretched arm.
+*Sakka* rejoiced in this sermon approvingly and left. Venerable *Mahā Moggallāna*, who was seated near the Buddha at that time, had the inquisitive thought: 'Did *Sakka* rejoice in this sermon having understood it, or did he rejoice without understanding it?' Being curious to find this out he vanished from *Pubbārāma* and appeared in the *Tāvatiṁsa* heaven as quickly as a strong man might stretch out his bent arm and bend back his outstretched arm.
 
-At that time *Sakka* was enjoying heavenly music. On seeing Venerable *MahāMoggallāna* coming at a distance he stopped the music and welcomed the latter, saying: 'Come good sir *Moggallāna*, welcome good sir *Moggallāna*! It is a long time, good sir *Moggallāna*, since you found an opportunity to come here.'
+At that time *Sakka* was enjoying heavenly music. On seeing Venerable *Mahā Moggallāna* coming at a distance he stopped the music and welcomed the latter, saying: 'Come good sir *Moggallāna*, welcome good sir *Moggallāna*! It is a long time, good sir *Moggallāna*, since you found an opportunity to come here.'
 
-He offered a high seat to Venerable *MahāMoggallāna* and took a low seat at one side. Then Venerable *MahāMoggallāna* asked *Sakka* what sort of a sermon the Buddha had preached to him on his recent visit, saying that he himself is curious on listening to it.
+He offered a high seat to Venerable *Mahā Moggallāna* and took a low seat at one side. Then Venerable *Mahā Moggallāna* asked *Sakka* what sort of a sermon the Buddha had preached to him on his recent visit, saying that he himself is curious on listening to it.
 
 *Sakka's* reply was: 'Good sir *Moggallāna*, we are so busy, we have so much to do, not only with our own business, but also with the business of other gods of *Tāvatiṁsa*. So it is not easy for us to remember such Dhamma discussions.' Then *Sakka* goes on to relate some other episode, which to him seems more important: 'After winning the war against the *asuras*, I had the *Vejayanti* palace built. Would you like to see it, good sir *Moggallāna*?'
 
-Probably as a part of etiquette, binding on a visitor, Venerable *MahāMoggallāna* agreed and *Sakka* conducted him around the *Vejayanti* palace in the company of his friend, king *Vessavaṇa*. It was a wonderful palace with hundreds of towers. *Sakka's* maids, seeing Venerable *MahāMoggallāna* coming in the distance, were embarrassed out of modest respect and went into their rooms. *Sakka* was taking Venerable *MahāMoggallāna* around, saying: 'See, good sir, how lovely this palace is.'
+Probably as a part of etiquette, binding on a visitor, Venerable *Mahā Moggallāna* agreed and *Sakka* conducted him around the *Vejayanti* palace in the company of his friend, king *Vessavaṇa*. It was a wonderful palace with hundreds of towers. *Sakka's* maids, seeing Venerable *Mahā Moggallāna* coming in the distance, were embarrassed out of modest respect and went into their rooms. *Sakka* was taking Venerable *Mahā Moggallāna* around, saying: 'See, good sir, how lovely this palace is.'
 
-Venerable *MahāMoggallāna* also courteously responded, saying that it is a fitting gift for his past merit. But then he thought of arousing a sense of urgency in *Sakka*, seeing: how negligent he has become now. And what did he do? He shook the *Vejayanti* palace with the point of his toe, using his supernormal power.
+Venerable *Mahā Moggallāna* also courteously responded, saying that it is a fitting gift for his past merit. But then he thought of arousing a sense of urgency in *Sakka*, seeing: how negligent he has become now. And what did he do? He shook the *Vejayanti* palace with the point of his toe, using his supernormal power.
 
 Since *Sakka* had 'entered into' the *Vejayanti* palace with his craving, conceit and views, he also was thoroughly shaken, along with the palace. That is to say, a sense of urgency was aroused in him, so much so that he remembered the sermon the Buddha had preached to him.
 
-It was then that Venerable *MahāMoggallāna* asked *Sakka* pointedly: 'How did the Exalted One state to you in brief the deliverance through the destruction of craving?' *Sakka* came out with the full account, creditably.
+It was then that Venerable *Mahā Moggallāna* asked *Sakka* pointedly: 'How did the Exalted One state to you in brief the deliverance through the destruction of craving?' *Sakka* came out with the full account, creditably.
 
-So after all it seems that the Venerable *MahāMoggallāna* took all this trouble to drive home into *Sakka* the moral of the sermon *sabbe dhammā nālaṁ abhinivesāya*, "nothing is worth clinging onto".
+So after all it seems that the Venerable *Mahā Moggallāna* took all this trouble to drive home into *Sakka* the moral of the sermon *sabbe dhammā nālaṁ abhinivesāya*, "nothing is worth clinging onto".
 
 If one goes through this discourse ignoring the deeper aspects of it, it appears merely as a fairy tale. Even as those heavenly maidens entered their rooms, *Sakka* also had entered into this *Vejayanti* palace of his own creation, while showing his distinguished visitor around, like a rich man these days after building his mansion.
 
@@ -4542,7 +4542,7 @@ Is aloof in regard to all phenomena."
 
 The idea of this aloofness can be presented in another way, that is as detachment from the seen, the heard, the sensed and the cognized, *diṭṭha, suta, muta, viññāta*. One of the most important suttas that merits discussion in this respect is the *Bāhiyasutta* in the *Bodhivagga* of the *Udāna*. It is generally acclaimed as an extremely profound discourse.
 
-The ascetic *Bāhiya Dārucīriya* came all the way from far off *Suppāraka* to see the Buddha. When he reached *Jetavana* monastery at *Sāvatthi*, he heard that the Buddha had just left on his alms-round. Due to his extreme eagerness, he ran behind the Buddha and, on meeting him, fell prostrate before him and begged: "May the Exalted One preach to me the Dhamma."
+The ascetic *Bāhiya Dārucīriya* came all the way from far off *Suppāraka* to see the Buddha. When he reached *Jetavana* monastery at *Sāvatthī*, he heard that the Buddha had just left on his alms-round. Due to his extreme eagerness, he ran behind the Buddha and, on meeting him, fell prostrate before him and begged: "May the Exalted One preach to me the Dhamma."
 
 The Buddha, however, seemed not so responsive, when he remarked: "Now it is untimely, *Bāhiya*, we are on our alms-round." Some might be puzzled by this attitude of the Buddha. But most probably it is one of those skilful means of the Buddha, suggestive of his great compassion and wisdom. It served to tone down the overenthusiastic haste of *Bāhiya* and to arouse a reverential respect for the Dhamma in him.
 
@@ -4560,7 +4560,7 @@ The discourse starts off abruptly, as if it had been wrested from the Buddha by 
 
 "In the seen there will be just the seen, in the heard there will be just the heard, in the sensed there will be just the sensed, in the cognized there will be just the cognized. Thus, *Bāhiya*, should you train yourself."
 
-It is as if the Buddha had addressed the ascetic *Bāhiya* in the terminology of the *Ariyans* and established him on the path to Nibbāna. Here the term *muta*, or "sensed", stands for whatever is experienced through the tongue, the nose, and the body.
+It is as if the Buddha had addressed the ascetic *Bāhiya* in the terminology of the *ariyans* and established him on the path to Nibbāna. Here the term *muta*, or "sensed", stands for whatever is experienced through the tongue, the nose, and the body.
 
 The basic principle in this training seems to be the discipline to stop short at bare awareness, *diṭṭhe diṭṭhamattaṁ, sute sutamattaṁ*, etc. The latter half of the discourse seems to indicate what happens when one goes through that training. The entire discourse is a presentation of the triple training of morality, concentration and wisdom in a nutshell.
 
@@ -4690,7 +4690,7 @@ Generally speaking, these four noble usages stand for the principle of truthfuln
 
 However, there are different levels of truth. In fact, truthfulness is a question of giving evidence that runs parallel with one's level of experience. At higher levels of experience or realization, the evidence one gives also changes accordingly.
 
-The episode of Venerable *MahāTissa Thera* is a case in view.[^fn523] When he met a certain woman on his way, who displayed her teeth in a wily giggle, he simply grasped the sign of her teeth. He did not totally refrain from grasping a sign, but took it as an illustration of his meditation subject. Later, when that woman's husband, searching for her, came up to him and asked whether he had seen a woman, he replied that all he saw was a skeleton. Now that is a certain level of experience.
+The episode of Venerable *Mahā Tissa Thera* is a case in view.[^fn523] When he met a certain woman on his way, who displayed her teeth in a wily giggle, he simply grasped the sign of her teeth. He did not totally refrain from grasping a sign, but took it as an illustration of his meditation subject. Later, when that woman's husband, searching for her, came up to him and asked whether he had seen a woman, he replied that all he saw was a skeleton. Now that is a certain level of experience.
 
 Similarly the concept of truthfulness is something that changes with levels of experience. There are various degrees of truth, based on realization. The highest among them is called *paramasacca*.[^fn524] As to what that is, the *Dhātuvibhaṅgasutta* itself provides the answer in the following statement of the Buddha.
 
@@ -5134,7 +5134,7 @@ It is true that in certain contexts *vibhūta* and *avibhūta* are taken to mean
 
 It is obvious enough by the recurrent negative particle in the first part of the *Sutta* (*neva paṭhaviṁ nissāya jhāyati, na āpaṁ nissāya jhāyati*, etc.) that all those perceptions are negated and not affirmed as manifest. The commentator seems to have missed the true import of the *Sutta* when he interprets *vibhūta* to mean 'manifest'.
 
-If further proof is required, we may quote instances where the word *vibhūta* is used in the *Suttas* to convey such senses as "gone", "departed" or "transcended". In one of the verses we happened to quote earlier from the *Kalahavivādasutta*, there was the question posed: *Kismiṁ vibhūte na phusanti phassā*?[^fn556] "When what is not there, do touches not touch?" The verse that follows gives the answer: *Rūpe vibhūte na phusanti phassā*. [^fn557] "When form is not there, touches do not touch." In this context, too, *vibhūta* implies absence.
+If further proof is required, we may quote instances where the word *vibhūta* is used in the suttas to convey such senses as "gone", "departed" or "transcended". In one of the verses we happened to quote earlier from the *Kalahavivādasutta*, there was the question posed: *Kismiṁ vibhūte na phusanti phassā*?[^fn556] "When what is not there, do touches not touch?" The verse that follows gives the answer: *Rūpe vibhūte na phusanti phassā*. [^fn557] "When form is not there, touches do not touch." In this context, too, *vibhūta* implies absence.
 
 A clearer instance comes in the *Posālamāṇavapucchā* of the *Pārāyanavagga* in the *Sutta Nipāta*, namely the term *vibhūtarūpasaññissa*, occurring in one of the verses there.[^fn558] The canonical commentary *Cūḷaniddesa*, which the commentator often draws upon, also paraphrases the term with the words *vigatā, atikkantā, samatikkantā, vītivattā*,[^fn559] "gone, transcended, fully transcended, and superseded".
 
@@ -5230,7 +5230,7 @@ Should you dare to challenge that monk,
 
 O Blackie, you only come to grief."
 
-*Kaṇha*, Blackie, is one of the epithets of *Mara*. Even gods and *Brahmas* are unable to find out the object of the *arahant's* mind when he is in the *phalasamāpatti*, the attainment to the fruit. *Māra* can never discover it. That is why this attainment is said to leave *Māra* clueless or deluded (*Mārassetaṁ pamohanaṁ*).[^fn568] All this is due to the uniqueness of this level of concentration.
+*Kaṇha*, Blackie, is one of the epithets of *Māra*. Even gods and *Brahmas* are unable to find out the object of the *arahant's* mind when he is in the *phalasamāpatti*, the attainment to the fruit. *Māra* can never discover it. That is why this attainment is said to leave *Māra* clueless or deluded (*Mārassetaṁ pamohanaṁ*).[^fn568] All this is due to the uniqueness of this level of concentration.
 
 The three deliverances *animitta, appaṇihita* and *suññata*, are indeed extraordinary and the verse *na saññā saññī* refers to this *arahattaphalasamādhi*, which is signless, undirected and void.
 
@@ -5302,7 +5302,7 @@ The bird's flight through the air symbolizes the flight of the mind. In the case
 
 Of course, they too consume food to maintain their bodies, but their true 'pasture' is the *arahattaphalasamādhi*. As soon as they get an opportunity, they take to this pasture. Once they are well within this pasture, neither gods nor *Brahmas* nor *Māra* can find them. That is why the path taken by the *arahants* in the *phalasamādhi* cannot be traced, like the track of birds in the sky.
 
-We have yet to discuss the subject of *sa-upādisesa* and *anupādisesa Nibbānadhātu*. But even at this point some clarity of understanding might emerge. When the *arahant* passes away, at the last moment of his life span, he brings his mind to this *arahattaphalasamādhi*. Then not even *Mara* can trace him. There is no possibility of a rebirth and that is the end of all. It is this 'extinction' that is referred to here.
+We have yet to discuss the subject of *sa-upādisesa* and *anupādisesa Nibbānadhātu*. But even at this point some clarity of understanding might emerge. When the *arahant* passes away, at the last moment of his life span, he brings his mind to this *arahattaphalasamādhi*. Then not even *Māra* can trace him. There is no possibility of a rebirth and that is the end of all. It is this 'extinction' that is referred to here.
 
 This extinction is not something one gets in a world beyond. It is a realization here and now, in this world. And the *arahant*, by way of blissful dwelling here and now, enjoys in his every day life the supreme bliss of Nibbāna that he had won through the incomparable deliverances of the mind.
 
@@ -5448,7 +5448,7 @@ As a matter of fact, we do come across an important discourse among the Tens of 
 
 Venerable *Sāriputta's* reply to it is: "There could be, friend *Ānanda*." Then Venerable *Ānanda* asks again: "But then, friend *Sāriputta*, in which manner could there be such an attainment of concentration for a monk?"
 
-At that point Venerable *Sāriputta* comes out with his own experience, revealing that he himself once attained to such a *samādhi*, when he was at *Andhavana* in *Sāvatthi*. Venerable *Ānanda*, however, is still curious to ascertain what sort of perception he was having, when he was in that *samādhi*. The explanation given by Venerable *Sāriputta* in response to it, is of utmost importance. It runs:
+At that point Venerable *Sāriputta* comes out with his own experience, revealing that he himself once attained to such a *samādhi*, when he was at *Andhavana* in *Sāvatthī*. Venerable *Ānanda*, however, is still curious to ascertain what sort of perception he was having, when he was in that *samādhi*. The explanation given by Venerable *Sāriputta* in response to it, is of utmost importance. It runs:
 
 Bhavanirodho nibbānaṁ, bhavanirodho nibbānan'ti kho me, avuso, aññā'va saññā uppajjati aññā'va saññā nirujjhati.
 
@@ -6116,9 +6116,9 @@ Since for the *arahant* this cooling off of feelings is a matter of experience i
 
 *Anupādisesa parinibbāna* comes at the last moment of the *arahant's* life, when this organic combination of elements, grasped par excellence, *upādiṇṇa*, is discarded for good. But *anupādā parinibbāna* refers to the *arahattaphalasamādhi* as such, for which even other terms like *anupādā vimokkha* are also applied on occasion.[^fn641]
 
-As the term *anupādā parinibbāna* signifies, the *arahant* experiences, even in this very life, that complete extinguishment, *parinibbāna*, in his *arahatta phalasamādhi*. This fact is clearly brought out in the dialogue between Venerable *Sāriputta* and Venerable *Puṇṇa Mantāniputta* in the *Rathavinītasutta* of the *Majjhima Nikāya*.
+As the term *anupādā parinibbāna* signifies, the *arahant* experiences, even in this very life, that complete extinguishment, *parinibbāna*, in his *arahatta phalasamādhi*. This fact is clearly brought out in the dialogue between Venerable *Sāriputta* and Venerable *Puṇṇa Mantāṇiputta* in the *Rathavinītasutta* of the *Majjhima Nikāya*.
 
-Venerable *Sāriputta's* exhaustive interrogation ending with *kim atthaṁ carahāvuso, bhagavati brahmacariyaṁ vussati*?[^fn642], "For the sake of what then, friend, is the holy life lived under the Exalted One?", gets the following conclusive answer from Venerable *Puṇṇa Mantāniputta*: *anupādāparinibbānatthaṁ kho, āvuso, bhagavati brahmacariyaṁ vussati*, "Friend, it is for the sake of perfect Nibbāna without grasping that the holy life is lived under the Exalted One".
+Venerable *Sāriputta's* exhaustive interrogation ending with *kim atthaṁ carahāvuso, bhagavati brahmacariyaṁ vussati*?[^fn642], "For the sake of what then, friend, is the holy life lived under the Exalted One?", gets the following conclusive answer from Venerable *Puṇṇa Mantāṇiputta*: *anupādāparinibbānatthaṁ kho, āvuso, bhagavati brahmacariyaṁ vussati*, "Friend, it is for the sake of perfect Nibbāna without grasping that the holy life is lived under the Exalted One".
 
 As the goal of endeavour, *anupādā parinibbāna* surely does not mean the ending of life. What it implies is the realization of Nibbāna. It is that experience of the cooling off of feelings the *arahant* goes through in the *arahattaphalasamādhi*. It is sometimes also called *nirupadhi*, the "asset-less".[^fn643] Here we have a problem of a semantic type. At a later date, even the term *nirupadhisesa* seems to have come into vogue, which is probably a cognate formed after the term *anupādisesa*.[^fn644]
 
@@ -7686,7 +7686,7 @@ This discourse is about two *Lokāyatikābrāhmins.* The term *Lokāyatika* is a
 
 *Ahaṁ anantena ñāṇena anantaṁ lokaṁ jānaṁ passaṁ viharāmi*.[^fn763] "I dwell knowing and seeing an infinite world with an infinite knowledge."
 
-"But then there is this teacher *Nigaṇṭha Nāthaputta* who also has similar claims to omniscience, but declares: *Ahaṁ antavantena ñāṇena antavantaṁ lokaṁ jānaṁ passaṁ viharāmi*. "I dwell knowing and seeing a finite world with a finite knowledge."
+"But then there is this teacher *Nigaṇṭha Nāṭaputta* who also has similar claims to omniscience, but declares: *Ahaṁ antavantena ñāṇena antavantaṁ lokaṁ jānaṁ passaṁ viharāmi*. "I dwell knowing and seeing a finite world with a finite knowledge."
 
 Then the two Brahmins ask the Buddha which of these two teachers claiming omniscience in such contradictory terms is correct. But the Buddha's reply was: *Alaṁ brāhmaṇā, tiṭṭhat' etaṁ \... Dhammaṁ vo desissāmi*, "enough, brahmins, let that question be \... I shall preach to you the Dhamma."
 
@@ -7694,7 +7694,7 @@ The expression used here is suggestive of the fact that the question belongs to 
 
 Why did the Buddha leave the question aside? We can guess the reason, though it is not stated as such. Now the standpoint of *Pūraṇa Kassapa* is: "I dwell knowing and seeing an infinite world with an infinite knowledge." One can question the validity of his claim with the objection: You see an infinite world, because your knowledge is not finite, that is to say, incomplete. If it is complete, there must be an end. Therefore, going by the sense of incompleteness in the word *anantaṁ*, one can refute the former view. Why you see the world as infinite is because your knowledge lacks finality.
 
-*Nigaṇṭha Nāthaputta*, on the other hand, is asserting that he sees a finite world with a finite knowledge. But the followers of *Pūraṇa Kassapa* can raise the objection: you are seeing the world as finite because your knowledge is limited. Your knowledge has an end, that is why you see a finite world. So here, too, we have a circle, or rather a circularity of argument. The two terms *anta* and *ananata* are ambiguous. That must be the reason why the Buddha rejected the two standpoints in question.
+*Nigaṇṭha Nāṭaputta*, on the other hand, is asserting that he sees a finite world with a finite knowledge. But the followers of *Pūraṇa Kassapa* can raise the objection: you are seeing the world as finite because your knowledge is limited. Your knowledge has an end, that is why you see a finite world. So here, too, we have a circle, or rather a circularity of argument. The two terms *anta* and *ananata* are ambiguous. That must be the reason why the Buddha rejected the two standpoints in question.
 
 Then he declares: "I shall preach to you the Dhamma", and brings up as a simile an illustration which could be summed up as follows. Four persons endowed with the highest ability to walk, the highest speed and the widest stride possible, stand in the four directions. Their speed is that of an arrow and their stride is as wide as the distance between the eastern ocean and the western ocean. Each of them tells himself: 'I will reach the end of the world by walking' and goes on walking for hundred years, that being his full life-span, resting just for eating, drinking, defecating, urinating and giving way to sleep or fatigue, only to die on the way without reaching the end of the world.
 
@@ -7712,13 +7712,13 @@ Then he goes on to proclaim the way of transcending this world of the five sense
 
 Going by these discourses, one might conclude that the cessation of perceptions and feelings is actually Nibbāna itself. But the most important part of the above quotation is the statement *paññāya c' assa disvā āsavā parikkhīṇā honti*, "having seen with wisdom, the influxes are made extinct in him". While in the attainment of the cessation of perceptions and feelings, all preparations subside and it is on rising from it that all influxes are made extinct by the vision of wisdom.
 
-This fact comes to light in the following answer of Venerable *Dhammadiṇṇā Therī* to the question raised by the lay-follower *Visākha*, her former husband, in the *Cūḷavedalla Sutta*.
+This fact comes to light in the following answer of Venerable *Dhammadinnā Therī* to the question raised by the lay-follower *Visākha*, her former husband, in the *Cūḷavedalla Sutta*.
 
 *Saññāvedayitanirodhasamāpattiyā vuṭṭhitaṁ, kho āvuso Visākha, bhikkhuṁ tayo phassā phusanti: suññato phasso, animitta phasso, appaṇihito phasso.*[^fn764] "Friend Visākha, when a monk has emerged from the attainment of the cessation of perceptions and feelings, three kinds of contact touch him: voidness contact, signless contact, desireless contact."
 
 On this point, the commentary too, gives the explanation *suññatā nāma phalasamāpatti*,[^fn765] "'voidness' means the attainment of the fruit of *arahanthood*".
 
-In answer to another question, Venerable *Dhammadiṇṇā Therī* says, *Saññāvedayitanirodhasamāpattiyā vuṭṭhitassa, kho āvuso Visākha, bhikkhuno vivekaninnaṁ cittaṁ hoti vivekapoṇaṁ vivekapabbhāraṁ*, "Friend Visākha, when a monk has emerged from the attainment of the cessation of perceptions and feelings, his mind inclines to seclusion, slants to seclusion, tends to seclusion".
+In answer to another question, Venerable *Dhammadinnā Therī* says, *Saññāvedayitanirodhasamāpattiyā vuṭṭhitassa, kho āvuso Visākha, bhikkhuno vivekaninnaṁ cittaṁ hoti vivekapoṇaṁ vivekapabbhāraṁ*, "Friend Visākha, when a monk has emerged from the attainment of the cessation of perceptions and feelings, his mind inclines to seclusion, slants to seclusion, tends to seclusion".
 
 Here the commentary explains *nibbānaṁ viveko nāma*, "what is called seclusion is Nibbāna".
 
@@ -8242,7 +8242,7 @@ So it seems, in this context too, we have the negation of the first alternative,
 
 "If I were to say, monks, whatsoever in the world, with its gods, *Māras* and Brahmas, among the progeny consisting of recluses and Brahmins, gods and men, whatsoever is seen, heard, sensed, and cognized, thought after and pondered over by the mind, all that I do not know, it would be a falsehood in me."
 
-There is a difference of opinion as to the correct reading of this second declaration. Deep *Suttas* often present difficulties in determining the exact reading, and this is especially the case with the *Kāḷakārāmasutta*.
+There is a difference of opinion as to the correct reading of this second declaration. Deep suttas often present difficulties in determining the exact reading, and this is especially the case with the *Kāḷakārāmasutta*.
 
 In this instance, the commentary has followed the reading *tam ahaṁ 'jānāmī'ti vadeyyaṁ, taṁ mama assa musā*, "if I were to say 'that I know', it would be a falsehood in me". But as we have pointed out earlier, this reading is not meaningful.[^fn812] That is probably why the *Chaṭṭhasaṅgīti-piṭaka* edition has followed the variant reading *tam ahaṁ 'na jānāmī'ti vadeyyaṁ*, "if I were to say 'that I do not know'. This departure from the commentarial tradition seems justifiable, since the Buddha has already declared that he knows all that.
 
@@ -9838,7 +9838,7 @@ As an illustration, let us take the case of a carpenter, planing a piece of wood
 
 In the two terms *vipassanā* and *anupassanā* we have a special way of seeing that is penetrative as well as contemplative. It is, in short, an **objective approach to understand the subjective in one's experience, with a view to attaining perfection**.
 
-In the *Theragāthā* we find Venerable MahāMoggallāna Thera stating the purpose of this special way of seeing in the following verse.
+In the *Theragāthā* we find Venerable Mahā Moggallāna Thera stating the purpose of this special way of seeing in the following verse.
 
 *Sukhumaṁ paṭivijjhanti*
 
@@ -13304,7 +13304,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn939]: See sermon 5.
 
-[^fn940]: Th 1160, *MahāMoggallānatheragāthā.*
+[^fn940]: Th 1160, *Mahāmoggallānatheragāthā.*
 
 [^fn941]: Thī 101, *Sakulātherīgāthā*.
 

@@ -763,7 +763,7 @@ tangibly thick. But the first incision on this thick curtain of darkness is made
 by the path knowledge of the Stream-winner.
 
 As a side-light, we may cite an episode from the lives of the Venerables
-*Sāriputta* and *Mahā Moggalāna*, the two chief disciples of the Buddha.
+*Sāriputta* and *Mahā Moggallāna*, the two chief disciples of the Buddha.
 Formerly, as brahmin youths, they were known as *Upatissa* and *Kolita*. These
 two young men once went to see a hill-top festival, called
 *giraggasamajja*.[^fn181]
