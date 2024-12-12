@@ -142,10 +142,10 @@ sense of 'name'.
 > *nāmassa ekadhammassa,* \
 > *sabbeva vasamanvagū*.[^fn7]
 > 
-> "Name has conquered everything, \
+> Name has conquered everything, \
 > There is nothing greater than name, \
 > All have gone under the sway \
-> Of this one thing called name."
+> Of this one thing called name.
 
 Also there is another verse of the same type, but unfortunately its original
 meaning is often ignored by the present day commentators:
@@ -155,10 +155,10 @@ meaning is often ignored by the present day commentators:
 > *akkheyyaṁ apariññāya,* \
 > *yogam āyanti maccuno*.[^fn8]
 > 
-> "Beings are conscious of what can be named, \
+> Beings are conscious of what can be named, \
 > They are established on the nameable, \
 > By not comprehending the nameable things, \
-> They come under the yoke of death."
+> They come under the yoke of death.
 
 All this shows that the word *nāma* has a deep significance even when it is
 taken in the sense of 'name'.
@@ -173,10 +173,10 @@ definition of *nāma-rūpa* as given by the Venerable Sāriputta in the
 > vuccatāvuso, rūpaṁ. Iti idañca nāmaṁ idañca rūpaṁ – idam vuccatāvuso
 > nāma-rūpaṁ.*[^fn9]
 >
-> "Feeling, perception, intention, contact, attention – this, friend, is called
+> Feeling, perception, intention, contact, attention – this, friend, is called
 > 'name'. The four great primaries and form dependent on the four great
 > primaries – this, friend, is called 'form'. So this is 'name' and this is
-> 'form' – this, friend, is called 'name-and-form'."
+> 'form' – this, friend, is called 'name-and-form'.
 
 Well, this seems lucid enough as a definition but let us see, whether there is
 any justification for regarding feeling, perception, intention, contact and
@@ -293,10 +293,10 @@ sutta we find a deity putting a riddle before the Buddha for solution:
 > *taṁ taṁ Gotama pucchāmi,* \
 > *ko imaṁ vijaṭaye jaṭaṁ*.
 >
-> "There is a tangle within, and a tangle without, \
+> There is a tangle within, and a tangle without, \
 > The world is entangled with a tangle. \
 > About that, oh Gotama, I ask you, \
-> Who can disentangle this tangle?"
+> Who can disentangle this tangle?
 
 The Buddha answers the riddle in three verses, the first of which is fairly well
 known, because it happens to be the opening verse of the *Visuddhimagga*:
@@ -315,10 +315,10 @@ is the second verse:
 > *khīṇāsavā arahanto,* \
 > *tesaṁ vijaṭitā jaṭā.*
 >
-> "In whom lust, hate \
+> In whom lust, hate \
 > And ignorance have faded away, \
 > Those influx-free *arahants*, \
-> It is in them that the tangle is disentangled."
+> It is in them that the tangle is disentangled.
 
 It is the third verse that is relevant to our topic.
 
@@ -327,10 +327,10 @@ It is the third verse that is relevant to our topic.
 > *paṭighaṁ rūpasaññā ca,* \
 > *etthesā chijjate jaṭā*.
 >
-> "Where name and form \
+> Where name and form \
 > As well as resistance and the perception of form \
 > Are completely cut off, \
-> It is there that the tangle gets snapped."
+> It is there that the tangle gets snapped.
 
 The reference here is to Nibbāna. It is there that the tangle is disentangled.
 
@@ -481,8 +481,8 @@ lines:
 > *Accī yathā vātavegena khitto,* \
 > *atthaṁ paleti na upeti saṅkhaṁ*,[^fn26]
 >
-> "Like the flame thrown out by the force of the wind \
-> Reaches its end, it cannot be reckoned."
+> Like the flame thrown out by the force of the wind \
+> Reaches its end, it cannot be reckoned.
 
 Here the reckoning is to be understood in terms of the four propositions of the
 tetralemma. Such reckonings are based on a total misconception of the phenomenon
@@ -549,10 +549,10 @@ of the *Udāna*:
 > *taṇhakkhaya sukhass'ete,* \
 > *kalaṁ n'agghanti soḷasiṁ*.[^fn34]
 >
-> "Whatever bliss from sense-desires there is in the world, \
+> Whatever bliss from sense-desires there is in the world, \
 > Whatever divine bliss there is, \
 > All these are not worth one-sixteenth \
-> Of the bliss of the destruction of craving."
+> Of the bliss of the destruction of craving.
 
 Many of the verses found in the *Udāna* are extremely deep and this is
 understandable, since *udāna* means a 'joyous utterance'. Generally a joyous
@@ -566,10 +566,10 @@ we get the following joyous utterance, coming from the Buddha himself:
 > *taṇhāya mūlato chetvā,* \
 > *kissa pariyesanaṁ care*.[^fn35]
 >
-> "What is the use of a well, \
+> What is the use of a well, \
 > If water is there all the time, \
 > Having cut craving at the root, \
-> In search of what should one wander?"
+> In search of what should one wander?
 
 This shows that the destruction of craving is not a mere destruction.
 
@@ -680,9 +680,9 @@ Buddha gives this answer:
 > Nibbānogadhañhi, Rādha, brahmacariyaṁ vussati, nibbānaparāyanaṁ
 > nibbānapariyosānaṁ.*
 >
-> "Rādha, you have gone beyond the scope of your questions, you are unable to
+> Rādha, you have gone beyond the scope of your questions, you are unable to
 > grasp the limit of your questions. For, Rādha, the holy life is merged in
-> Nibbāna, its consummation is Nibbāna, its culmination is Nibbāna."
+> Nibbāna, its consummation is Nibbāna, its culmination is Nibbāna.
 
 This shows that the holy life gets merged in Nibbāna, just as rivers get
 merged in the sea. In other words, where the holy life is lived out to the full,

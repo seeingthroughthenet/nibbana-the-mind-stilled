@@ -218,7 +218,7 @@ And the Buddha gives his answer in two inspiring verses:
 > *nibbānaṁ iti naṁ brūmi,* \
 > *jarāmaccuparikkhayaṁ*.
 > 
-> "Unto them that stand midstream, \
+> Unto them that stand midstream, \
 > When the frightful floods flow forth, \
 > To them in decay-and-death forlorn, \
 > An island, Kappa, I shall proclaim.
@@ -226,7 +226,7 @@ And the Buddha gives his answer in two inspiring verses:
 > Owning naught, grasping naught, \
 > The isle is this, none else besides. \
 > Nibbāna, that is how I call that isle, \
-> Wherein is decay decayed and death is dead."
+> Wherein is decay decayed and death is dead.
 
 *Akiñcanaṁ* means 'owning nothing', *anādānaṁ* means 'grasping nothing'. *Etaṁ
 dīpaṁ anāparaṁ*, this is the island, nothing else. *Nibbānaṁ iti naṁ brūmi,

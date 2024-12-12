@@ -80,10 +80,10 @@ the *Dhammapada*:
 > *evam pi taṇhānusaye anūhate* \
 > *nibbattati dukkham idaṁ punappunaṁ*.[^fn127]
 >
-> "Just as a tree, so long as its root is unharmed and firm, \
+> Just as a tree, so long as its root is unharmed and firm, \
 > Though once cut down, will none the less grow up again, \
 > Even so, when craving's latency is not yet rooted out, \
-> This suffering gets reborn again and again."
+> This suffering gets reborn again and again.
 
 It is clear from this verse too that the latency to craving holds a very
 significant place in the context of the *saṁsāric* journey of a being. In the

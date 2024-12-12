@@ -307,7 +307,7 @@ As a sidelight we may cite a remark of Venerable Sāriputta:
 
 > *Iminā pūtikāyena aṭṭiyāmi harāyāmi jigucchāmi,*[^fn164]
 >
-> "I am harassed and repelled by this body, I am ashamed of it".
+> I am harassed and repelled by this body, I am ashamed of it.
 
 This is because the body is for him something already abandoned. All this goes
 to show that the *arahant* has an unattached, unclinging attitude.
