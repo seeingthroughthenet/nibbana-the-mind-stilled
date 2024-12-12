@@ -110,11 +110,11 @@ first path. It is not a mere glimpse of Nibbāna from a distance. It is a
 reaching, an arrival or a plunge into Nibbāna.
 
 For purposes of illustration we may bring in a legend connected with the history
-of Sri Lanka. It is said that when King *Gajabāhu* invaded India, one of his
-soldiers, *Nīla*, who had Herculean strength, parted the seawater with a huge
+of Sri Lanka. It is said that when King Gajabāhu invaded India, one of his
+soldiers, Nīla, who had Herculean strength, parted the seawater with a huge
 iron bar in order to make way for the king and the army. Now when the
 supramundane path arises in the mind the power of thought is as mighty as the
-blow of *Nīla* with his iron bar. Even with the first blow the sea-water parted,
+blow of Nīla with his iron bar. Even with the first blow the sea-water parted,
 so that one could see the bottom.
 
 Similarly the sweeping influxes are parted for a moment when the transcendental
@@ -148,7 +148,7 @@ course, after that experience, influxes flow in again. But one kind of influxes,
 namely *diṭṭhāsavā*, influxes of views, are gone for good and will never flow in
 again.
 
-Now how was it that some with keen wisdom like *Bāhiya* attained *arahantship*
+Now how was it that some with keen wisdom like Bāhiya attained *arahantship*
 even while listening to a short sermon from the Buddha? They had dealt four
 powerful blows in quick succession with the iron bar of the path-knowledge to
 clear away all possible influxes.
@@ -170,7 +170,7 @@ and attaining.
 However sometimes the Buddha reminds us that this is only a conventional usage
 and that these worldly usages are not to be taken too seriously. We come across
 such an instance in the *Sagāthavagga* of the *Saṁyutta Nikāya* where the Buddha
-retorts to some questions put by a certain deity. The deity named *Kakudha* asks
+retorts to some questions put by a certain deity. The deity named Kakudha asks
 the Buddha:
 
 "Do you rejoice, oh recluse?"[^fn57] And the Buddha retorts: "On getting what, friend?"
@@ -189,7 +189,7 @@ epithets, out of which one is *dīpa*.[^fn58] Now *dīpa* means an island. When 
 are told that Nibbāna is an island, we tend to imagine some sort of existence
 in a beautiful island. But in the *Pārāyanavagga* of the *Sutta Nipāta* the
 Buddha gives a good corrective to that kind of imagining in his reply to a
-question put by the Brahmin youth *Kappa*, a pupil of *Bāvarī*. *Kappa* puts his
+question put by the Brahmin youth Kappa, a pupil of Bāvarī. Kappa puts his
 question in the following impressive verse:
 
 > *Majjhe sarasmiṁ tiṭṭhataṁ,* \
@@ -221,7 +221,7 @@ And the Buddha gives his answer in two inspiring verses:
 > "Unto them that stand midstream, \
 > When the frightful floods flow forth, \
 > To them in decay-and-death forlorn, \
-> An island, *Kappa*, I shall proclaim.
+> An island, Kappa, I shall proclaim.
 > 
 > Owning naught, grasping naught, \
 > The isle is this, none else besides. \
@@ -438,8 +438,8 @@ Similarly death is a passing away. But here we have to say that death itself
 answers to these questions.
 
 Now at this point let us take up for discussion a certain significant passage in
-the *MahāNidānasutta* of the *Dīgha Nikāya*. In the course of an exposition of
-the law of *paṭicca samuppāda*, addressed to Venerable *Ānanda*, the Buddha
+the *Mahānidānasutta* of the *Dīgha Nikāya*. In the course of an exposition of
+the law of *paṭicca samuppāda*, addressed to Venerable Ānanda, the Buddha
 makes the following statement:
 
 > *Ettāvatā kho, Ānanda, jāyetha vā jīyetha vā mīyetha vā cavetha vā upapajjetha
@@ -447,7 +447,7 @@ makes the following statement:
 > ettāvatā paññāvacaraṁ, ettāvatā vaṭṭaṁ vattati itthattaṁ paññāpanāya yadidaṁ
 > nāmarūpaṁ saha viññāṇena*.[^fn64]
 >
-> In so far only, *Ānanda*, can one be born, or grow old, or die, or pass away,
+> In so far only, Ānanda, can one be born, or grow old, or die, or pass away,
 > or reappear, in so far only is there any pathway for verbal expression, in so
 > far only is there any pathway for terminology, in so far only is there any
 > pathway for designation, in so far only is the range of wisdom, in so far only
@@ -795,7 +795,7 @@ as a '**thing'**. And that is why it is said:
 > *teneva Māro anveti jantuṁ.*[^fn78]
 > 
 > Whatever one grasps in the world, \
-> By that itself *Māra* pursues a being.
+> By that itself Māra pursues a being.
 
 The world is attached to becoming and is fully given to becoming. Therefore its
 very nature is otherwise-ness, *aññathābhāvī*.
@@ -860,7 +860,7 @@ designation.
 This, then, is something deeper than the whirlpool itself. The whirlpool can be
 pointed out because of its activity. But not so easily the emancipated ones and
 that is why there is so much controversy regarding the nature of the
-*Tathāgata*. The image of the whirlpool in its relation to the emancipated ones
+Tathāgata. The image of the whirlpool in its relation to the emancipated ones
 is beautifully presented in the following verse from the *Cūḷavagga* of the
 *Udāna*:
 
@@ -943,76 +943,76 @@ This sermon has served its purpose if it has drawn attention to the importance
 of the questions of duality, dichotomy and the relatedness of this to that,
 *idappaccayatā*. So this is enough for today.
 
-[^fn47]: M I 436, *MahāMālunkyasutta*.
+[^fn47]: M I 436, *Mahāmālunkyasutta*
 
-[^fn48]: See sermon 1.
+[^fn48]: See *Sermon 1*
 
-[^fn49]: D I 203, *Poṭṭhapādasutta*.
+[^fn49]: D I 203, *Poṭṭhapādasutta*
 
-[^fn50]: D I 177, *Kassapasīhanādasutta*.
+[^fn50]: D I 177, *Kassapasīhanādasutta*
 
-[^fn51]: S I 33, *Accharāsutta*.
+[^fn51]: S I 33, *Accharāsutta*
 
-[^fn52]: It 53, *Indriyasutta*.
+[^fn52]: It 53, *Indriyasutta*
 
 [^fn53]: Peṭ 188.
 
-[^fn54]: D I 110, *Ambaṭṭhasutta*.
+[^fn54]: D I 110, *Ambaṭṭhasutta*
 
-[^fn55]: Sn 231, *Ratanasutta*.
+[^fn55]: Sn 231, *Ratanasutta*
 
-[^fn56]: Dhp 383, *Brāhmaṇavagga*.
+[^fn56]: Dhp 383, *Brāhmaṇavagga*
 
-[^fn57]: S I 54, *Kakudhosutta*.
+[^fn57]: S I 54, *Kakudhosutta*
 
 [^fn58]: S IV 372.
 
-[^fn59]: Sn 1092, *Kappamāṇavapucchā*.
+[^fn59]: Sn 1092, *Kappamāṇavapucchā*
 
-[^fn60]: M I 167, *Ariyapariyesanasutta*.
+[^fn60]: M I 167, *Ariyapariyesanasutta*
 
-[^fn61]: M III 63, *Bahudhātukasutta*, and Ud 1, the *Bodhisuttas*.
+[^fn61]: M III 63, *Bahudhātukasutta*, and Ud 1, the *Bodhisuttas*
 
-[^fn62]: S II 25, *Paccayasutta*.
+[^fn62]: S II 25, *Paccayasutta*
 
 [^fn63]: Spk II 40.
 
-[^fn64]: D II 63, *MahāNidānasutta*.
+[^fn64]: D II 63, *Mahānidānasutta*
 
-[^fn65]: See sermon 1.
+[^fn65]: See *Sermon 1*
 
-[^fn66]: S I 13, *Jaṭāsutta*.
+[^fn66]: S I 13, *Jaṭāsutta*
 
-[^fn67]: Sn 729, *Dvayatānupassanāsutta*.
+[^fn67]: Sn 729, *Dvayatānupassanāsutta*
 
-[^fn68]: Sn 740, *Dvayatānupassanāsutta*.
+[^fn68]: Sn 740, *Dvayatānupassanāsutta*
 
 [^fn69]: Pj II 505.
 
-[^fn70]: D III 29, *Pāṭikasutta*.
+[^fn70]: D III 29, *Pāṭikasutta*
 
-[^fn71]: E.g. at M II 110, *Piyajātikasutta*.
+[^fn71]: E.g. at M II 110, *Piyajātikasutta*
 
-[^fn72]: A I 152, *Saṅkhatalakkhaṇasutta*.
+[^fn72]: A I 152, *Saṅkhatalakkhaṇasutta*
 
 [^fn73]: E.g. at Ps IV 88.
 
-[^fn74]: E.g. at M I 56, *Satipaṭṭhānasutta*.
+[^fn74]: E.g. at M I 56, *Satipaṭṭhānasutta*
 
 [^fn75]: This is found in the set of verses on *maraṇasati* among the *caturārakkhā-gāthā* (four protective *kamaṭṭhānas*) in standard *Paritta* books.
 
-[^fn76]: Dhp 62, *Bālavagga*.
+[^fn76]: Dhp 62, *Bālavagga*
 
-[^fn77]: Ud 32, *Lokasutta*.
+[^fn77]: Ud 32, *Lokasutta*
 
-[^fn78]: Sn 1103, *Bhadrāvudhamāṇavapucchā*.
+[^fn78]: Sn 1103, *Bhadrāvudhamāṇavapucchā*
 
-[^fn79]: S V 423, *Dhammacakkapavattanasutta*.
+[^fn79]: S V 423, *Dhammacakkapavattanasutta*
 
-[^fn80]: M I 141, *Alagaddūpamasutta*.
+[^fn80]: M I 141, *Alagaddūpamasutta*
 
-[^fn81]: Ud 75, *DutiyaLakuṇḍakabhaddiyasutta*.
+[^fn81]: Ud 75, *DutiyaLakuṇḍakabhaddiyasutta*
 
-[^fn82]: S I 15, *Sarasutta*.
+[^fn82]: S I 15, *Sarasutta*
 
-[^fn83]: M I 53, *Sammādiṭṭhisutta*.
+[^fn83]: M I 53, *Sammādiṭṭhisutta*

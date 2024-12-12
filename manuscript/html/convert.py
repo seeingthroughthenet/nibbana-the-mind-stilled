@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import re
+from itertools import chain
 import subprocess
 from typing import TypedDict
 
@@ -139,48 +140,6 @@ def convert():
     md['text'] = md['text'].replace(' -- ', ' – ')
     md['text'] = md['text'].replace(' - ', ' – ')
 
-    md['text'] = md['text'].replace('sotāpannā', 'sotāpanna')
-    md['text'] = md['text'].replace('Tathāgatha', 'Tathāgata')
-    md['text'] = md['text'].replace('*Mara*', '*Māra*')
-    md['text'] = md['text'].replace('*MahāKaccānas*', "*MahāKaccāna's*")
-    md['text'] = md['text'].replace('*Sāvatthi*', "*Sāvatthī*")
-    md['text'] = md['text'].replace('Puṇṇa Mantāniputta', 'Puṇṇa Mantāṇiputta')
-    md['text'] = md['text'].replace('Nāthaputta', 'Nāṭaputta')
-    md['text'] = md['text'].replace('Moggalāna', 'Moggallāna')
-    md['text'] = md['text'].replace('Dhammadiṇṇā', 'Dhammadinnā')
-
-    md['text'] = md['text'].replace('MahāKaccāna', 'Mahā Kaccāna')
-    md['text'] = md['text'].replace('MahāMoggallāna', 'Mahā Moggallāna')
-    md['text'] = md['text'].replace('MahāTissa', 'Mahā Tissa')
-
-    # Revert this exception
-    md['text'] = md['text'].replace('Mahā Moggallānatheragāthā', 'Mahāmoggallānatheragāthā')
-
-    # Lowercase arahant. Include the italic syntax to exclude titles:
-    # *Arahantavagga*
-    # *Arahantsutta*
-    for w in ["*Arahant*", "*Ariyan*", "*Anāgāmi*", "*Sotāpanna*", "*Bodhisatta*"]:
-        md['text'] = md['text'].replace(w, w.lower())
-
-    # Plural forms:
-    for w in ["*Suttas*", "*Arahants*", "*Ariyans*", "*Anāgāmis*", "*Sotāpannas*", "*Bodhisattas*"]:
-        md['text'] = md['text'].replace(w, w.lower())
-
-    # Exception when 'Arahant' is used as a title, like Venerable:
-    # Venerable *arahant* Subhūti -> Venerable Arahant Subhūti
-    md['text'] = md['text'].replace('Venerable *arahant* Subhūti', 'Venerable Arahant Subhūti')
-
-    md['text'] = md['text'].replace('*arahant*-ship', '*arahantship*')
-    md['text'] = md['text'].replace("*Arahant-*ship", '*arahantship*')
-    md['text'] = md['text'].replace('*arahant*-hood', '*arahanthood*')
-
-    # Remove italics from common terms
-    # Keep in mind punctuation: ... to see them in *Nibbāna.*
-    for w in ["Nibbāna", "Buddha", "Dhamma", "Saṅgha", "Pāli", "sutta", "suttas"]:
-        re_sub(r'\*' + w + r"([\.,:;\!\?\'-]*)\*",
-               w + r'\1',
-               md)
-
     """
     \"What is the \'two\'?\"
 
@@ -210,6 +169,87 @@ def convert():
     \\
     """
     md['text'] = md['text'].replace('\n\\\n', '\n')
+
+    # Consistent name spelling
+
+    md['text'] = md['text'].replace('sotāpannā', 'sotāpanna')
+    md['text'] = md['text'].replace('Tathāgatha', 'Tathāgata')
+    md['text'] = md['text'].replace('*Mara*', '*Māra*')
+    md['text'] = md['text'].replace('*MahāKaccānas*', "*MahāKaccāna's*")
+    md['text'] = md['text'].replace('*Sāvatthi*', "*Sāvatthī*")
+    md['text'] = md['text'].replace('Puṇṇa Mantāniputta', 'Puṇṇa Mantāṇiputta')
+    md['text'] = md['text'].replace('Nāthaputta', 'Nāṭaputta')
+    md['text'] = md['text'].replace('Moggalāna', 'Moggallāna')
+    md['text'] = md['text'].replace('Dhammadiṇṇā', 'Dhammadinnā')
+
+    md['text'] = md['text'].replace('MahāKaccāna', 'Mahā Kaccāna')
+    md['text'] = md['text'].replace('MahāMoggallāna', 'Mahā Moggallāna')
+    md['text'] = md['text'].replace('MahāTissa', 'Mahā Tissa')
+    md['text'] = md['text'].replace('Mahārakkhita', 'Mahā Rakkhita')
+    md['text'] = md['text'].replace('Mahākoṭṭhita', 'Mahā Koṭṭhita')
+
+    # Revert this exception
+    md['text'] = md['text'].replace('Mahā Moggallānatheragāthā', 'Mahāmoggallānatheragāthā')
+
+    # Lowercase arahant. Include the italic syntax to exclude titles:
+    # *Arahantavagga*
+    # *Arahantsutta*
+    for w in ["*Arahant*", "*Ariyan*", "*Anāgāmi*", "*Sotāpanna*", "*Bodhisatta*"]:
+        md['text'] = md['text'].replace(w, w.lower())
+
+    # Plural forms:
+    for w in ["*Suttas*", "*Arahants*", "*Ariyans*", "*Anāgāmis*", "*Sotāpannas*", "*Bodhisattas*"]:
+        md['text'] = md['text'].replace(w, w.lower())
+
+    # Exception when 'Arahant' is used as a title, like Venerable:
+    # Venerable *arahant* Subhūti -> Venerable Arahant Subhūti
+    md['text'] = md['text'].replace('Venerable *arahant* Subhūti', 'Venerable Arahant Subhūti')
+
+    md['text'] = md['text'].replace('*arahant*-ship', '*arahantship*')
+    md['text'] = md['text'].replace("*Arahant-*ship", '*arahantship*')
+    md['text'] = md['text'].replace('*arahant*-hood', '*arahanthood*')
+
+    # Remove italics from common terms
+    # Keep in mind punctuation: ... to see them in *Nibbāna.*
+    for w in ["Nibbāna", "Buddha", "Dhamma", "Saṅgha", "Pāli", "sutta", "suttas"]:
+        re_sub(r'\*' + w + r"([\.,:;\!\?\'-]*)\*",
+               w + r'\1',
+               md)
+
+    # Remove italics from names
+    names = []
+    with open('names.txt', 'r', encoding='utf-8') as f:
+        names = [i for i in f.read().split("\n") if len(i.strip()) > 0]
+
+    variations = ["", " Brahma", " Thera", " Therī", " Thero", " Deva",]
+    # Add plural and possesive forms: s 's
+    variations = list(chain.from_iterable([[i, f"{i}s", f"{i}'s"] for i in variations]))
+
+    for n in names:
+        for v in variations:
+            name_form = f"{n}{v}"
+            md['text'] = md['text'].replace(f"*{name_form}*", name_form)
+
+    # Vipassī cases
+    md['text'] = md['text'].replace("*bodhisatta Vipassī*", "*bodhisatta* Vipassī")
+    md['text'] = md['text'].replace("*Vipassī bodhisatta*", "Vipassī *bodhisatta*")
+
+    # Sutta titles
+    # MahāPadānasutta -> Mahāpadānasutta
+
+    while True:
+        m = re.search(r'Mahā([A-Z])', md['text'])
+        if m:
+            ch = m.group(1).lower()
+            md['text'] = md['text'].replace(m.group(0), f'Mahā{ch}')
+        else:
+            break
+
+    # MahāHatthipadopama Sutta -> Mahāhatthipadopamasutta
+    md['text'] = md['text'].replace(" Sutta*", "sutta*")
+
+    # see sermon 15 -> see *Sermon 15*
+    re_sub(r'([Ss]ee) sermon ([0-9]+)', r'\1 *Sermon \2*', md)
 
     # [back to top](#top)
     md['text'] = md['text'].replace('[back to top](#top)', '')
@@ -263,6 +303,9 @@ def convert():
 
     # Hyphen for numerical ranges: Dhp 92-93
     re_sub(r'([0-9]) *[-–] *([0-9])', r'\1-\2', md)
+
+    # No full stop after references in footnotes
+    md['text'] = re.sub(r'^(\[\^fn.*)(\.\*|\*\.)$', r'\1*', md['text'], flags=re.MULTILINE)
 
     # Remove trailing spaces
     re_sub(r'\s+$', r'\n', md)

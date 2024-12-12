@@ -111,9 +111,9 @@ one sees the bottom of a tank only when the water is lucid.
 > "Name and form."
 
 This is the second out of the ten questions Buddha had put to the Venerable
-*Sāmanera Sopāka* who had attained *arahantship* at the age of seven. It is
+Sāmanera Sopāka who had attained *arahantship* at the age of seven. It is
 like asking a child: "Can you count up to ten?" All the ten questions were deep,
-the tenth being on *arahantship*. But of course Venerable *Sopāka* gave the
+the tenth being on *arahantship*. But of course Venerable Sopāka gave the
 right answer each time. Now it is the second question and its answer that we are
 concerned with here: *nāmañca rūpañca*. In fact, this is a basic teaching in
 insight training.
@@ -165,7 +165,7 @@ taken in the sense of 'name'.
 
 But now let us see whether there is something wrong in rendering *nāma* by
 'name' in the case of the term *nāma-rūpa*. To begin with, let us turn to the
-definition of *nāma-rūpa* as given by the Venerable *Sāriputta* in the
+definition of *nāma-rūpa* as given by the Venerable Sāriputta in the
 *Sammādiṭṭhisutta* of the *Majjhima Nikāya*.
 
 > *Vedanā, saññā, cetanā, phasso, manasikāro – idaṁ vuccatāvuso, nāmaṁ*;
@@ -295,7 +295,7 @@ sutta we find a deity putting a riddle before the Buddha for solution:
 >
 > "There is a tangle within, and a tangle without, \
 > The world is entangled with a tangle. \
-> About that, oh *Gotama*, I ask you, \
+> About that, oh Gotama, I ask you, \
 > Who can disentangle this tangle?"
 
 The Buddha answers the riddle in three verses, the first of which is fairly well
@@ -415,7 +415,7 @@ ultimate aim.[^fn20] But out of all these epithets, Nibbāna became the most
 widely used, probably because of its significant allusion to the fire. The fire
 simile holds the answer to many questions relating to the ultimate goal.
 
-The wandering ascetic *Vacchagotta*, as well as many others, accused the Buddha
+The wandering ascetic Vacchagotta, as well as many others, accused the Buddha
 of teaching a doctrine of annihilation: *Sato sattassa ucchedaṁ vināsaṁ vibhavaṁ
 paññāpeti*.[^fn21] Their accusation was that the Buddha proclaims the
 annihilation, destruction and non-existence of a being that is existent. And the
@@ -461,7 +461,7 @@ grasping, so much so that, when grasping ceases, existence ceases as well.
 
 In fact the fire simile holds the answer to the tetralemma included among the
 ten unexplained points very often found mentioned in the suttas. It concerns
-the state of the *Tathāgata* after death, whether he exists, does not exist,
+the state of the Tathāgata after death, whether he exists, does not exist,
 both or neither. The presumption of the questioner is that one or the other of
 these four must be and could be answered in the affirmative.
 
@@ -473,7 +473,7 @@ say about it, is that the fire has gone out: *Nibbuto tveva saṅkhaṁ gacchati
 
 It is just a reckoning, an idiom, a worldly usage, which is not to be taken too
 literally. So this illustration through the fire simile drives home to the
-worldling the absurdity of his presumptuous tetralemma of the *Tathāgata*.
+worldling the absurdity of his presumptuous tetralemma of the Tathāgata.
 
 In the *Upasīvasutta* of the *Pārāyaṇavagga* of the *Sutta Nipāta* we find the
 lines:
@@ -525,7 +525,7 @@ craving, which is called a 'weaving'. And on the other it is said that it is on
 seeing Nibbāna that craving is destroyed. To project Nibbāna into a distance
 and to hope that craving will be destroyed only on seeing it, is something like
 trying to build a staircase to a palace one cannot yet see. In fact this is a
-simile which the Buddha had used in his criticism of the *Brahmin's* point of
+simile which the Buddha had used in his criticism of the Brahmin's point of
 view.[^fn30]
 
 In the *Dhammacakkappavattanasutta* we have a very clear statement of the third
@@ -592,7 +592,7 @@ be an eleven-fold fire. So the entire existence is a raging fire. Lust, hate,
 delusion – all these are fires. Therefore Nibbāna may be best rendered by the
 word 'extinction'. When once the fires are extinguished, what more is needed?
 
-But unfortunately Venerable *Buddhaghosa* was not prepared to appreciate this
+But unfortunately Venerable Buddhaghosa was not prepared to appreciate this
 point of view. In his *Visuddhimagga* as well as in the commentaries
 *Sāratthappakāsinī* and *Sammohavinodanī*, he gives a long discussion on
 Nibbāna in the form of an argument with an imaginary heretic.[^fn37] Some of
@@ -652,7 +652,7 @@ Yet another important aspect of the problem is the relation of Nibbāna to the
 holy life or *brahmacariya*. It is said that when the holy life is lived out to
 the full, it culminates in Nibbāna.
 
-In the *Rādhasaṁyutta* of the *Saṁyutta Nikāya* we find the Venerable *Rādha*
+In the *Rādhasaṁyutta* of the *Saṁyutta Nikāya* we find the Venerable Rādha
 putting a series of questions to the Buddha to get an explanation. First
 of all he asks:
 
@@ -664,14 +664,14 @@ And the Buddha gives the answer:
 
 > *Sammādassanaṁ kho, Rādha, nibbidatthaṁ*,
 >
-> *Rādha*, right vision is for purposes of disgust or dejection.
+> Rādha, right vision is for purposes of disgust or dejection.
 
 And that is to say, disgust for *saṁsāra*.
 
 The next question is: for what purpose is disgust? And the Buddha answers:
 disgust is for dispassion. What is the purpose of dispassion? The purpose of
 dispassion is release. What is the purpose of release? The purpose of release is
-Nibbāna. Last of all Venerable *Rādha* puts the question:
+Nibbāna. Last of all Venerable Rādha puts the question:
 
 *Nibbānaṁ pana, bhante, kimatthiyaṁ*? "For what purpose is Nibbāna?" And the
 Buddha gives this answer:
@@ -680,13 +680,13 @@ Buddha gives this answer:
 > Nibbānogadhañhi, Rādha, brahmacariyaṁ vussati, nibbānaparāyanaṁ
 > nibbānapariyosānaṁ.*
 >
-> "*Rādha*, you have gone beyond the scope of your questions, you are unable to
-> grasp the limit of your questions. For, *Rādha*, the holy life is merged in
+> "Rādha, you have gone beyond the scope of your questions, you are unable to
+> grasp the limit of your questions. For, Rādha, the holy life is merged in
 > Nibbāna, its consummation is Nibbāna, its culmination is Nibbāna."
 
 This shows that the holy life gets merged in Nibbāna, just as rivers get
 merged in the sea. In other words, where the holy life is lived out to the full,
-Nibbāna is right there. That is why Venerable *Nanda*, who earnestly took up
+Nibbāna is right there. That is why Venerable Nanda, who earnestly took up
 the holy life encouraged by the Buddha's promise of heavenly nymphs, attained
 *arahanthood* almost in spite of himself. At last he approached the Buddha and
 begged to relieve him of the onus of his promise. This shows that when one
@@ -752,11 +752,11 @@ made this invitation with the idea of seeing one of his children at play. For
 good or for bad, I have taken up the invitation. Let the future of the *Sāsana*
 be the final judge of its merits.
 
-[^fn1]: M I 436, *MahāMālunkyasutta*.
+[^fn1]: M I 436, *Mahāmālunkyasutta*
 
-[^fn2]: D II 93, *MahāParinibbānasutta*.
+[^fn2]: D II 93, *Mahāparinibbānasutta*
 
-[^fn3]: S II 267, *Āṇisutta*.
+[^fn3]: S II 267, *Āṇisutta*
 
 [^fn4]: Mp I 92.
 
@@ -764,82 +764,82 @@ be the final judge of its merits.
 
 [^fn6]: Pj I 78.
 
-[^fn7]: S I 39, *Nāmasutta*.
+[^fn7]: S I 39, *Nāmasutta*
 
-[^fn8]: S I 11, *Samiddhisutta*.
+[^fn8]: S I 11, *Samiddhisutta*
 
-[^fn9]: M I 53, *Sammādiṭṭhisutta*.
+[^fn9]: M I 53, *Sammādiṭṭhisutta*
 
 [^fn10]: Spk I 95 commenting on S I 39.
 
-[^fn11]: S I 12, *Samiddhisutta*.
+[^fn11]: S I 12, *Samiddhisutta*
 
-[^fn12]: Sn 560, *Selasutta*.
+[^fn12]: Sn 560, *Selasutta*
 
-[^fn13]: S I 192, *Pavāraṇāsutta*.
+[^fn13]: S I 192, *Pavāraṇāsutta*
 
-[^fn14]: S I 13, *Jaṭāsutta*.
+[^fn14]: S I 13, *Jaṭāsutta*
 
 [^fn15]: Abhidh-s VI ¡ 30.
 
-[^fn16]: Sn 235, *Ratanasutta*.
+[^fn16]: Sn 235, *Ratanasutta*
 
-[^fn17]: M III 245, *Dhātuvibhaṅgasutta*.
+[^fn17]: M III 245, *Dhātuvibhaṅgasutta*
 
-[^fn18]: D II 157, *MahāParinibbānasutta*.
+[^fn18]: D II 157, *Mahāparinibbānasutta*
 
-[^fn19]: M I 487, *Aggivacchagottasutta*.
+[^fn19]: M I 487, *Aggivacchagottasutta*
 
 [^fn20]: S IV 368-373.
 
-[^fn21]: M I 140, *Alagaddūpamasutta*.
+[^fn21]: M I 140, *Alagaddūpamasutta*
 
-[^fn22]: D II 57, *MahāNidānasutta*.
+[^fn22]: D II 57, *Mahānidānasutta*
 
 [^fn23]: Chāndogya-Upaniṣad 6.2.1,2.
 
-[^fn24]: ègveda X.129, *Nāsadīya Sūkta*.
+[^fn24]: ègveda X.129, *Nāsadīya Sūkta*
 
-[^fn25]: M I 487, *Aggivacchagottasutta*.
+[^fn25]: M I 487, *Aggivacchagottasutta*
 
-[^fn26]: Sn 1074, *Upasīvamāṇavapucchā*.
+[^fn26]: Sn 1074, *Upasīvamāṇavapucchā*
 
 [^fn27]: Vibh-a 53.
 
-[^fn28]: Th 298, *Rāhula Thera*.
+[^fn28]: Th 298, *Rāhula Thera*
 
-[^fn29]: Sn 228, *Ratanasutta.*
+[^fn29]: Sn 228, *Ratanasutta*
 
-[^fn30]: E.g. at D I 194, *Poṭṭhapādasutta*.
+[^fn30]: E.g. at D I 194, *Poṭṭhapādasutta*
 
-[^fn31]: E.g. at S V 421, *Dhammacakkappavattanasutta*.
+[^fn31]: E.g. at S V 421, *Dhammacakkappavattanasutta*
 
-[^fn32]: E.g. at It 88, *Aggappasādasutta*.
+[^fn32]: E.g. at It 88, *Aggappasādasutta*
 
 [^fn33]: Abhidh-av 138.
 
-[^fn34]: Ud 11, *Rājasutta*.
+[^fn34]: Ud 11, *Rājasutta*
 
-[^fn35]: Ud 79, *Udapānasutta*.
+[^fn35]: Ud 79, *Udapānasutta*
 
-[^fn36]: A II 34, *Aggappasādasutta*.
+[^fn36]: A II 34, *Aggappasādasutta*
 
 [^fn37]: Vism 508; Spk III 88; Vibh-a 51.
 
-[^fn38]: S IV 371, *Nibbānasutta*.
+[^fn38]: S IV 371, *Nibbānasutta*
 
 [^fn39]: Vibh-a 53.
 
-[^fn40]: M I 507, *Māgaṇḍiyasutta*.
+[^fn40]: M I 507, *Māgaṇḍiyasutta*
 
-[^fn41]: M I 523, *Saṇḍakasutta*.
+[^fn41]: M I 523, *Saṇḍakasutta*
 
-[^fn42]: S III 189, *Mārasutta*.
+[^fn42]: S III 189, *Mārasutta*
 
-[^fn43]: The term *aññāphalo* occurs at A IV 428, *Ānandasutta*.
+[^fn43]: The term *aññāphalo* occurs at A IV 428, *Ānandasutta*
 
-[^fn44]: E.g. at D I 84, *Sāmaññaphalasutta*.
+[^fn44]: E.g. at D I 84, *Sāmaññaphalasutta*
 
-[^fn45]: D II 90, *MahāParinibbānasutta*.
+[^fn45]: D II 90, *Mahāparinibbānasutta*
 
-[^fn46]: E.g. at S V 421, *Dhammacakkappavattanasutta*.
+[^fn46]: E.g. at S V 421, *Dhammacakkappavattanasutta*

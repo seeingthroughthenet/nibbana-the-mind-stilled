@@ -120,13 +120,13 @@ The idea of penetration is already implicit in the phrase *yaṁ kiñci
 samudayadhammaṁ sabbaṁ taṁ nirodhadhammaṁ*, "whatever is of a nature to arise,
 all that is of a nature to cease". If anything has the nature to arise, by that
 very nature it is bound to come to its end. And that is why the wandering
-ascetic *Upatissa*, who was to become Venerable *Sāriputta* later, attained the
+ascetic Upatissa, who was to become Venerable Sāriputta later, attained the
 fruit of a stream-winner even on hearing the first two lines of the verse
-uttered by Venerable *Assaji*:
+uttered by Venerable Assaji:
 
 > *Ye dhammā hetuppabhavā, tesaṁ hetuṁ tathāgato āha.*[^fn92]
 >
-> Of things that arise from a cause, their cause the *Tathāgata* has told.
+> Of things that arise from a cause, their cause the Tathāgata has told.
 
 When a wise man hears that something has arisen due to causes and conditions, he
 immediately understands that it could be made to cease by the removal of those
@@ -134,7 +134,7 @@ conditions, even without further explanation. It is the dustless stainless
 Dhamma-eye that enables one to see the *Nibbānic* solution in the very
 structure of the *saṁsāric* problem.
 
-In our quotation from the *MahāNidānasutta* it was said that all pathways for
+In our quotation from the *Mahānidānasutta* it was said that all pathways for
 verbal expression, terminology and designation exist so long as the vortex of
 *saṁsāra* is kept going.[^fn93] The implication, therefore, is that they have no
 existence beyond it. This is the significance of the word *ettāvatā*, "in so far
@@ -158,8 +158,8 @@ remains to be said, nothing remains to be predicated. And as it is said in the
 
 There are a number of Canonical passages that show us the relevance of this
 vortex simile to the understanding of the doctrine of *paṭicca samuppāda*. In
-the *MahāPadānasutta* of the *Dīgha Nikāya* we find a lengthy description of the
-manner in which the *bodhisatta Vipassī* got an insight into *paṭicca
+the *Mahāpadānasutta* of the *Dīgha Nikāya* we find a lengthy description of the
+manner in which the *bodhisatta* Vipassī got an insight into *paṭicca
 samuppāda*. We are told that his mode of approach was one of radical reflection,
 or *yoniso manasikāra*, literally: "attention by way of the matrix". One might
 as well say that it is an attention by way of the vortex. It is as if a man with
@@ -167,14 +167,14 @@ keen vision, sitting under a tree by a river, were to watch how a fallen leaf
 gets carried away by the water current, only to get whirled up and disappear in
 a vortex.
 
-It is clearly stated in the case of *Vipassī bodhisatta* that his understanding
+It is clearly stated in the case of Vipassī *bodhisatta* that his understanding
 through wisdom came as a result of 'radical reflection', *yoniso manasikārā ahu
 paññāya abhisamayo*.[^fn96] So his insight into *paṭicca samuppāda* was
 definitely not due to recollection of past lives. *Yoni* means the 'matrix', or
 the 'place of origin'. So in *yoniso manasikāra* always the attention has to
 turn towards the place of origin.
 
-So, true to this method, we find the *bodhisatta Vipassī* starting his reasoning
+So, true to this method, we find the *bodhisatta* Vipassī starting his reasoning
 from the very end of the *paṭicca samuppāda* formula:
 
 > *Kimhi nu kho sati jarāmaraṇaṁ hoti, kiṁ paccayā jarāmaraṇaṁ?*
@@ -216,7 +216,7 @@ significance of this discovery in the following words:
 > jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassūpāyāsā sambhavanti.
 > Evametassa kevalassa dukkhakkhandhassa samudayo hoti.*
 
-By means of radical reflection the *bodhisatta Vipassī* understood that all
+By means of radical reflection the *bodhisatta* Vipassī understood that all
 concepts of birth, decay-and-death converge on the relationship between
 consciousness and name-and-form:
 
@@ -231,14 +231,14 @@ consciousness and name-and-form:
 > to be. Thus is the arising of this entire mass of suffering.
 
 The fact that this understanding of *paṭicca samuppāda* signified the arising of
-the Dhamma-eye in *Vipassī bodhisatta* is stated in the following words:
+the Dhamma-eye in Vipassī *bodhisatta* is stated in the following words:
 
 > *Samudayo samudayo'ti kho, bhikkhave, Vipassissa bodhisattassa pubbe
 > ananussutesu dhammesu cakkhum udapādi, ñāṇaṁ udapādi, paññā udapādi, vijjā
 > udapādi, āloko udapādi*.
 >
 > 'Arising, arising', thus, O! monks, in regard to things unheard of before,
-> there arose in the *bodhisatta Vipassī* the eye, the knowledge, the wisdom,
+> there arose in the *bodhisatta* Vipassī the eye, the knowledge, the wisdom,
 > the science, the light.
 
 In the same way it is said that the *bodhisatta* clarified for himself the
@@ -269,7 +269,7 @@ cessation of name-and-form, and name-and-form ceases with the cessation of
 consciousness, then all the other links following name-and-form, such as the six
 sense-bases, contact and feeling, come to cease immediately.
 
-The *MahāPadānasutta* goes on to say that the *bodhisatta Vipassī* continued to
+The *Mahāpadānasutta* goes on to say that the *bodhisatta* Vipassī continued to
 dwell seeing the arising and passing away of the five grasping groups and that
 before long his mind was fully emancipated from the influxes and that he
 attained to full enlightenment. It is also said in the sutta in this
@@ -282,7 +282,7 @@ understood that it is the way of insight leading to awakening:
 
 And as we saw above the most important point, the pivotal point, in this path of
 insight, is the relationship between name-and-form and consciousness. The
-commentary raises the question, why the *bodhisatta* *Vipassī* makes no mention
+commentary raises the question, why the *bodhisatta* Vipassī makes no mention
 of the first two links, *avijjā* and *saṅkhārā*, and gives the explanation that
 he could not see them, as they belong to the past.[^fn97]
 
@@ -294,7 +294,7 @@ is kept going.
 
 Simply because the first two links are not mentioned in the sutta, the
 commentators give the explanation that they belong to the past. But it should be
-clear that the *bodhisatta Vipassī* could not have aroused the Dhamma-eye
+clear that the *bodhisatta* Vipassī could not have aroused the Dhamma-eye
 without those two links. Why they are not specially mentioned here is because
 they are in the background. It is true that there is a mode of exposition, in
 which *avijjā*, or ignorance, takes precedence. But what we have here is a
@@ -323,11 +323,11 @@ of name-and-form, or beyond it, we have all the other links of the *paṭicca
 samuppāda*. So in this way we can form a mental picture of the formula of
 *paṭicca samuppāda* by some sort of a pictorial explanation. It seems, then,
 that this discourse is further proof of the statements found in the
-*MahāNidānasutta*.
+*Mahānidānasutta*.
 
-There is yet another discourse, one preached by Venerable *Sāriputta*, which
+There is yet another discourse, one preached by Venerable Sāriputta, which
 supports our conclusions. It is found in the *Nidānasaṁyutta* of the *Saṁyutta
-Nikāya*. There Venerable *Sāriputta* brings out a simile that is even simpler
+Nikāya*. There Venerable Sāriputta brings out a simile that is even simpler
 than the vortex simile. He compares consciousness and name-and-form to two
 bundles of reeds. When two bundles of reeds stand, one supporting the other, if
 one of those is drawn out, the other would fall down. And if the latter is drawn
@@ -338,8 +338,8 @@ out, the former will fall down:
 
 The mutual interrelation between consciousness and name-and-form is like that of
 two bundles of reeds, mutually supporting each other. Having given this simile,
-Venerable *Sāriputta* goes on to mention the other links of the *paṭicca
-samuppāda* formula, as in the case of the *bodhisatta Vipassī's* insight. It
+Venerable Sāriputta goes on to mention the other links of the *paṭicca
+samuppāda* formula, as in the case of the *bodhisatta* Vipassī's insight. It
 runs: "Dependent on name-and-form, the six sense-bases; dependent on the six
 sense-bases, contact; dependent on contact, feelings" (and so on). And then the
 cessation aspect of these links is also given.
@@ -375,8 +375,8 @@ is to say that the entire mass of *saṁsāric* suffering ceases immediately, an
 the whirlpool of *saṁsāra* comes to an end.
 
 This, then, seems to be the most plausible conclusion. According to the
-interpretation we have adopted, in the *MahāHatthipadopamasutta* of the
-*Majjhima Nikāya* Venerable *Sāriputta* brings out as a quotation a certain
+interpretation we have adopted, in the *Mahāhatthipadopamasutta* of the
+*Majjhima Nikāya* Venerable Sāriputta brings out as a quotation a certain
 statement of the Buddha on *paṭicca samuppāda*. It runs:
 
 > *Yo paṭiccasamuppādaṁ passati so dhammaṁ passati; yo dhammaṁ passati so
@@ -404,7 +404,7 @@ the last two links belong to the future. The remaining eight links in the middle
 are taken to represent the present.[^fn102] That means, we have here the three
 periods of time. So it is not – timeless.
 
-And that is why they explained that the *bodhisatta Vipassī* did not see the
+And that is why they explained that the *bodhisatta* Vipassī did not see the
 first two links. Perhaps, the presumption is, that since these two links belong
 to the past, they can be seen only by the knowledge of the recollection of past
 lives. But on the other hand, the suttas tell us that even the stream-winner
@@ -466,10 +466,10 @@ of an individual.
 
 The distinctive feature of this law of dependent arising is its demonstrability
 in the present, as suggested by the terms 'to be seen here and now' and
-'timeless', even as the *bodhisatta Vipassī* discovered it, through radical
+'timeless', even as the *bodhisatta* Vipassī discovered it, through radical
 reflection itself. The salient characteristic of the teaching of the Buddha is
 its visibility here and now and timelessness. This fact is well revealed by the
-*Hemakasutta* of the *Sutta Nipāta*. The *brahmin* youth *Hemaka* sings praise
+*Hemakasutta* of the *Sutta Nipāta*. The *brahmin* youth Hemaka sings praise
 of the Buddha in the following verses:
 
 > *Ye me pubbe viyākaṁsu,* \
@@ -485,7 +485,7 @@ of the Buddha in the following verses:
 > *tare loke visattikaṁ*.[^fn105]
 > 
 > Those who explained to me before, \
-> Outside the dispensation of *Gotama*, \
+> Outside the dispensation of Gotama, \
 > All of them said: 'so it was, and so it will be', \
 > But all that is 'so and so' talk, \
 > All that is productive of logic, \
@@ -514,10 +514,10 @@ Nikāya*.
 > shall I be in the future? Having been what, what shall I become in the
 > future? (and so on)[^fn106]
 
-"But, I was not pleased with such teachings", says *Hemaka*, "It is only you, O!
+"But, I was not pleased with such teachings", says Hemaka, "It is only you, O!
 sage, who teaches the Dhamma that destroys the craving in the present,
 understanding which, and mindfully following it accordingly, one could go beyond
-the sticky craving in the world." *Hemaka's* praise of the Buddha was inspired
+the sticky craving in the world." Hemaka's praise of the Buddha was inspired
 by this most distinctive feature in the Dhamma.
 
 We have already stated that by 'Dhamma' is meant the law of dependent arising.
@@ -567,14 +567,14 @@ Then there is another question that crops up out of this traditional
 interpretation of the formula of dependent arising. That is, the reason why the
 two links, ignorance and preparations, are referred to the past.
 
-In some discourses, like the *MahāNidānasutta*, there is a discussion about a
+In some discourses, like the *Mahānidānasutta*, there is a discussion about a
 descent of consciousness into a mother's womb. Simply because there is such a
 discussion, one might think that the law of dependent arising has reference to a
 period beyond one's conception in a mother's womb.
 
 But if we carefully examine the trend of this discussion and analyse its
 purpose, such a conclusion will appear to be groundless. The point which the
-Buddha was trying to drive home into Venerable *Ānanda* by his catechism, is
+Buddha was trying to drive home into Venerable Ānanda by his catechism, is
 that the constant interrelation that exists between consciousness and
 name-and-form is present even during one's life in the mother's womb. This
 catechism can be analysed into four parts. The first question is:
@@ -582,11 +582,11 @@ catechism can be analysed into four parts. The first question is:
 > *Viññāṇaṁ va hi, Ānanda, mātukucchismiṁ na okkamissatha, api nu kho nāmarūpaṁ
 > mātukucchismiṁ samuccissatha*?[^fn110]
 
-And Venerable *Ānanda's* answer is:
+And Venerable Ānanda's answer is:
 
 > *No h'etaṁ, bhante*.
 >
-> "If, *Ānanda*, consciousness were not to descend into a mother's womb, would
+> "If, Ānanda, consciousness were not to descend into a mother's womb, would
 > name-and-form remain there?"
 >
 > "It would not, Lord."
@@ -610,7 +610,7 @@ It is not something that is to be found in trees and rocks. It always goes hand
 in hand with consciousness. So, the upshot of the above discussion is that
 name-and-form will not remain there without the support of consciousness.
 
-Venerable *Ānanda's* response to the first question, then, is:
+Venerable Ānanda's response to the first question, then, is:
 
 > "That indeed is not the case, O! Lord."
 
@@ -619,14 +619,14 @@ Then the Buddha asks:
 > *Viññāṇaṁ va hi, Ānanda, mātukucchismiṁ okkamitvā vokkamissatha, api nu kho
 > nāmarūpaṁ itthattāya abhinibbattissatha?*
 >
-> "If, *Ānanda*, consciousness, having descended into the mother's womb, were to
+> "If, Ānanda, consciousness, having descended into the mother's womb, were to
 > slip out of it, would name-and-form be born into this state of existence?"
 
-Venerable *Ānanda's* reply to it is again:
+Venerable Ānanda's reply to it is again:
 
 > "That indeed is not the case, Lord."
 
-Now the question is: *Ānanda*, if for some reason or other, consciousness,
+Now the question is: Ānanda, if for some reason or other, consciousness,
 having descended into the mother's womb, slips out of it, will name-and-form
 secure birth as a this-ness, or *itthatta*. We have mentioned above that
 *itthatta* is a term with some special significance.[^fn111] That is, how a
@@ -637,17 +637,17 @@ In other words, if consciousness, having descended into the mother's womb, slips
 out of it, that name-and-form will not mature into a this-ness and be born into
 a this-ness. There is no possibility of the this-ness coming into being. For
 there to be a this-ness, both consciousness and name-and-form must be there. We
-can understand, then, why Venerable *Ānanda* replied in the negative.
+can understand, then, why Venerable Ānanda replied in the negative.
 
 The next question the Buddha puts, is this:
 
 > *Viññāṇaṁ va hi, Ānanda, daharasseva sato vocchijjissatha kumārakassa vā
 > kumārikāya vā, api nu kho nāmarūpaṁ vuddhiṁ virūḷhiṁ vepullaṁ āpajjissatha?*
 >
-> "If, *Ānanda*, the consciousness of a boy or a girl were cut off when he or
+> "If, Ānanda, the consciousness of a boy or a girl were cut off when he or
 > she is still young, will name-and-form come to growth and maturity?"
 
-To that question too, Venerable *Ānanda* replies:
+To that question too, Venerable Ānanda replies:
 
 > "That indeed is not the case, Lord."
 
@@ -658,7 +658,7 @@ complete:
 > *Tasmātih'Ānanda, es' eva hetu etaṁ nidānaṁ esa samudayo esa paccayo
 > nāmarūpassa, yadidaṁ viññāṇaṁ*.
 >
-> "Therefore, *Ānanda*, this itself is the cause, this is the reason, origin and
+> "Therefore, Ānanda, this itself is the cause, this is the reason, origin and
 > condition for name-and-form, namely consciousness."
 
 What is emphasized here, is the importance of consciousness. Out of the two,
@@ -678,17 +678,17 @@ Buddha introduces the fourth step:
 > *Viññāṇaṁ va hi, Ānanda, nāmarūpe patiṭthaṁ na labhissatha, api no kho āyatiṁ
 > jātijarāmaraṇaṁ dukkhasamudayasambhavo paññāyetha?*
 >
-> "If, *Ānanda*, consciousness were not to find a footing, or get established
+> "If, Ānanda, consciousness were not to find a footing, or get established
 > in, name-and-form, would there be an arising or origin of birth, decay, death
 > and suffering in the future?"
 >
-> "No indeed, Lord", says Venerable *Ānanda*.
+> "No indeed, Lord", says Venerable Ānanda.
 
 Now this fourth point is extremely important. What it implies is that, though
 the aforesaid is the normal state of affairs in *saṁsāra*, if for some reason or
 other consciousness does not get established on name-and-form, if at all such a
 contrivance were possible, there will not be any *saṁsāric* suffering again. And
-this position, too, Venerable *Ānanda* grants.
+this position, too, Venerable Ānanda grants.
 
 So from this discussion, too, it is obvious that, simply because there is a
 reference to a mother's womb in it, we cannot conclude that ignorance and
@@ -722,18 +722,18 @@ whereas the consciousness of the *saṁsāric* individual is an established
 consciousness.
 
 That is precisely why in the *Sagāthavagga* of the *Saṁyutta Nikāya* and in the
-*Sāratthapakāsinī*, where the episode of Venerable *Godhika's* suicide is
+*Sāratthapakāsinī*, where the episode of Venerable Godhika's suicide is
 mentioned, it is said that, though he cut his own neck intending to commit
 suicide, he was able to attain *parinibbāna* as an *arahant* by radically
-attending to the deadly pain.[^fn113] But *Māra* took him to be an ordinary
+attending to the deadly pain.[^fn113] But Māra took him to be an ordinary
 person and hovered around in search of his consciousness – in vain. The Buddha,
-on the other hand, declared that Venerable *Godhika* passed away with an
+on the other hand, declared that Venerable Godhika passed away with an
 unestablished consciousness:
 
 > *Appatiṭṭhitena ca, bhikkhave, viññāṇena Godhiko kulaputto
 > parinibbuto*.[^fn114]
 >
-> O! monks, the clansman *Godhika* passed away with an unestablished
+> O! monks, the clansman Godhika passed away with an unestablished
 > consciousness.
 
 The consciousness of an ordinary *saṁsāric* individual is always established.
@@ -985,76 +985,76 @@ to be that cessation of name-and-form with which the six sense-bases, and all
 the rest of it, down to the entire mass of *saṁsāric* suffering, cease
 altogether then and there.
 
-[^fn84]: M I 436, *MahāMālunkyasutta*.
+[^fn84]: M I 436, *Mahāmālunkyasutta*
 
-[^fn85]: See sermon 2.
+[^fn85]: See *Sermon 2*
 
-[^fn86]: S IV 206, *Pātālasutta*.
+[^fn86]: S IV 206, *Pātālasutta*
 
-[^fn87]: S IV 208, *Sallattenasutta*.
+[^fn87]: S IV 208, *Sallattenasutta*
 
 [^fn88]: D I 110, D I 148, D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, S V 423, A IV 186, A IV 210, A IV 213, Ud 49.
 
 [^fn89]: D II 33, S II 7, S II 105.
 
-[^fn90]: See sermon 2.
+[^fn90]: See *Sermon 2*
 
-[^fn91]: E.g. at D III 237, *Sangītisutta*.
+[^fn91]: E.g. at D III 237, *Sangītisutta*
 
 [^fn92]: Vin I 40.
 
-[^fn93]: See sermon 2.
+[^fn93]: See *Sermon 2*
 
-[^fn94]: D II 63, *MahāNidānasutta*.
+[^fn94]: D II 63, *Mahānidānasutta*
 
-[^fn95]: Sn 1076, *Upasīvamāṇavapucchā*.
+[^fn95]: Sn 1076, *Upasīvamāṇavapucchā*
 
-[^fn96]: D II 31, *MahāPadānasutta*.
+[^fn96]: D II 31, *Mahāpadānasutta*
 
 [^fn97]: Sv II 459.
 
-[^fn98]: S II 114, *Naḷakalāpīsutta*.
+[^fn98]: S II 114, *Naḷakalāpīsutta*
 
-[^fn99]: S II 26, *Paccayasutta*.
+[^fn99]: S II 26, *Paccayasutta*
 
-[^fn100]: M I 190, *MahāHatthipadopamasutta*.
+[^fn100]: M I 190, *Mahāhatthipadopamasutta*
 
-[^fn101]: D II 93, *MahāParinibbānasutta*.
+[^fn101]: D II 93, *Mahāparinibbānasutta*
 
 [^fn102]: Vism 578.
 
-[^fn103]: S II 68, *Pañcaverabhayāsutta*.
+[^fn103]: S II 68, *Pañcaverabhayāsutta*
 
 [^fn104]: Paṭis I 52, Vism 579.
 
-[^fn105]: Sn 1084-1085, *Hemakamāṇavapucchā*.
+[^fn105]: Sn 1084-1085, *Hemakamāṇavapucchā*
 
-[^fn106]: M I 8, *Sabbāsavasutta*.
+[^fn106]: M I 8, *Sabbāsavasutta*
 
-[^fn107]: Th 1094, *Tālapuṭa Thera*.
+[^fn107]: Th 1094, *Tālapuṭa Thera*
 
 [^fn108]: See above footnote 4.
 
-[^fn109]: See sermon 1.
+[^fn109]: See *Sermon 1*
 
-[^fn110]: D II 63, *MahāNidānasutta*.
+[^fn110]: D II 63, *Mahānidānasutta*
 
-[^fn111]: See sermon 2.
+[^fn111]: See *Sermon 2*
 
-[^fn112]: D III 105, *Sampasādanīyasutta*.
+[^fn112]: D III 105, *Sampasādanīyasutta*
 
 [^fn113]: Spk I 183 commenting on S I 121.
 
-[^fn114]: S I 122, *Godhikasutta*.
+[^fn114]: S I 122, *Godhikasutta*
 
 [^fn115]: D II 305, M I 50, M I 62, M III 249, S II 3.
 
-[^fn116]: M II 156, *Ghoṭamukhasutta*.
+[^fn116]: M II 156, *Ghoṭamukhasutta*
 
-[^fn117]: A II 133, *Saṁyojanasutta*.
+[^fn117]: A II 133, *Saṁyojanasutta*
 
-[^fn118]: S I 13, *Jaṭāsutta*, see sermon 1.
+[^fn118]: S I 13, *Jaṭāsutta*, see *Sermon 1*
 
-[^fn119]: M III 18, *MahāPuṇṇamasutta*.
+[^fn119]: M III 18, *Mahāpuṇṇamasutta*
 
-[^fn120]: S II 66, *Cetanāsutta*.
+[^fn120]: S II 66, *Cetanāsutta*

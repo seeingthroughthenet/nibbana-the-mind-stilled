@@ -303,7 +303,7 @@ conclude that it is because of some residual clinging. But we have to understand
 this in the light of the simile of the worn-out skin. In the case of the
 *arahant*, too, the sloughed off skin is still hanging on.
 
-As a sidelight we may cite a remark of Venerable *Sāriputta*:
+As a sidelight we may cite a remark of Venerable Sāriputta:
 
 > *Iminā pūtikāyena aṭṭiyāmi harāyāmi jigucchāmi,*[^fn164]
 >
@@ -349,7 +349,7 @@ aim of the Buddha's teaching is one that in other systems of thought is
 generally regarded as attainable only after death. The Buddha, on the other
 hand, showed a way to its realization here and now.
 
-As a matter of fact, even brahmins like *Pokkharasāti* went about saying that it
+As a matter of fact, even brahmins like Pokkharasāti went about saying that it
 is impossible for a human being to attain something supramundane:
 
 > *Katham'hi nāma manussabhūto uttarimanussadhammā alamariyañāṇadassanavisesaṁ
@@ -448,7 +448,7 @@ But then, a little way off, in the selfsame sutta, we read:
 > of ignorance is the cessation of influxes.
 
 Apparently this contradicts the previous statement. The preacher of this
-discourse, Venerable *Sāriputta*, is not one who contradicts himself. So most
+discourse, Venerable Sāriputta, is not one who contradicts himself. So most
 probably there is some deep reason behind this.
 
 Another problem crops up, since ignorance is also counted among the different
@@ -751,7 +751,7 @@ made up and concocted.
 However, the darkness within is much thicker than the darkness outside. The
 darkness outside may be dispelled even by a door flung open, as we saw above.
 But not so easily the darkness within. That is why, in the psalms of the
-*Theras* and *Therīs*, it is said that they split or burst asunder the mass of
+Theras and Therīs, it is said that they split or burst asunder the mass of
 delusion:
 
 > *tamokkhandhaṁ padāliya*, \
@@ -763,8 +763,8 @@ tangibly thick. But the first incision on this thick curtain of darkness is made
 by the path knowledge of the Stream-winner.
 
 As a side-light, we may cite an episode from the lives of the Venerables
-*Sāriputta* and *Mahā Moggallāna*, the two chief disciples of the Buddha.
-Formerly, as brahmin youths, they were known as *Upatissa* and *Kolita*. These
+Sāriputta and Mahā Moggallāna, the two chief disciples of the Buddha.
+Formerly, as brahmin youths, they were known as Upatissa and Kolita. These
 two young men once went to see a hill-top festival, called
 *giraggasamajja*.[^fn181]
 
@@ -777,10 +777,10 @@ They may have already had a distant glimpse of the similarity between the two
 levels of experience, mentioned above. But they on their own could not get at
 the principles underlying the delusion involved.
 
-Much later, as a wandering ascetic, when *Upatissa* met the Venerable *Assaji
-Thera* on his alms-round, he begged the latter to preach the Dhamma to him.
-Venerable *Assaji* said: "I know only a little". *Upatissa* also assured him: "I
-need only a little". Venerable *Assaji* preached 'a little' and *Upatissa*, too,
+Much later, as a wandering ascetic, when Upatissa met the Venerable Assaji
+Thera on his alms-round, he begged the latter to preach the Dhamma to him.
+Venerable Assaji said: "I know only a little". Upatissa also assured him: "I
+need only a little". Venerable Assaji preached 'a little' and Upatissa, too,
 heard 'a little', but since there was much in it, the latter attained the Fruit
 of Stream-winning even on hearing the first two lines of the following verse:
 
@@ -790,11 +790,11 @@ of Stream-winning even on hearing the first two lines of the following verse:
 > *evaṁ vādi mahāsamaṇo*.[^fn182]
 > 
 > Of things that proceed from a cause, \
-> Their cause the *Tathāgata* has told, \
+> Their cause the Tathāgata has told, \
 > And also their cessation, \
 > Thus teaches the great ascetic.
 
-The verse gives in a nutshell the law of dependent arising. From it, *Upatissa*
+The verse gives in a nutshell the law of dependent arising. From it, Upatissa
 got the clue to his riddle of life.
 
 Some interpret the word *hetu*, cause, in this verse, as *avijjā*, or ignorance,
@@ -809,7 +809,7 @@ also the dependently arisen phenomena.
 
 We have already discussed the significance of these two terms.[^fn185] What is
 called *paṭicca samuppāda* is the basic principle itself. It is said that the
-wandering ascetic *Upatissa* was able to arouse the path of Stream-winning on
+wandering ascetic Upatissa was able to arouse the path of Stream-winning on
 hearing just the first two lines,[^fn186] and these state the basic principle as
 such.
 
@@ -838,84 +838,84 @@ help of the simile of the cinema and the theatre is of much relevance to an
 understanding of the law of dependent arising. With this much, we shall wind up
 today.
 
-[^fn148]: M I 436, *MahāMālunkyasutta*.
+[^fn148]: M I 436, *Mahāmālunkyasutta*
 
-[^fn149]: See sermon 4.
+[^fn149]: See *Sermon 4*
 
-[^fn150]: M I 56, *Satipaṭṭhānasutta*.
+[^fn150]: M I 56, *Satipaṭṭhānasutta*
 
-[^fn151]: See sermon 4.
+[^fn151]: See *Sermon 4*
 
-[^fn152]: M I 56, *Satipaṭṭhānasutta*.
+[^fn152]: M I 56, *Satipaṭṭhānasutta*
 
-[^fn153]: S V 184, *Samudayasutta.*
+[^fn153]: S V 184, *Samudayasutta*
 
-[^fn154]: Sn 752-753, *Dvayatānupassanāsutta*.
+[^fn154]: Sn 752-753, *Dvayatānupassanāsutta*
 
-[^fn155]: Sn 954, *Attadaṇḍasutta*.
+[^fn155]: Sn 954, *Attadaṇḍasutta*
 
-[^fn156]: Sn 787, *Duṭṭhaṭṭhakasutta*.
+[^fn156]: Sn 787, *Duṭṭhaṭṭhakasutta*
 
-[^fn157]: Sn 795, *Suddhaṭṭhakasutta*.
+[^fn157]: Sn 795, *Suddhaṭṭhakasutta*
 
-[^fn158]: Sn 813, *Jarāsutta*.
+[^fn158]: Sn 813, *Jarāsutta*
 
-[^fn159]: See sermon 4.
+[^fn159]: See *Sermon 4*
 
-[^fn160]: S III 90, *Khajjaniyasutta*.
+[^fn160]: S III 90, *Khajjaniyasutta*
 
-[^fn161]: Dhp 385, *Brāhmaṇavagga*.
+[^fn161]: Dhp 385, *Brāhmaṇavagga*
 
-[^fn162]: Sn 1-17 , *Uragasutta*.
+[^fn162]: Sn 1-17 , *Uragasutta*
 
-[^fn163]: Sn 5, *Uragasutta*.
+[^fn163]: Sn 5, *Uragasutta*
 
-[^fn164]: A IV 377, *Sīhanādasutta*.
+[^fn164]: A IV 377, *Sīhanādasutta*
 
-[^fn165]: See sermon 4.
+[^fn165]: See *Sermon 4*
 
-[^fn166]: E.g. at D III 83, *Aggaññasutta*.
+[^fn166]: E.g. at D III 83, *Aggaññasutta*
 
-[^fn167]: E.g. at Dhp 253, *Malavagga*.
+[^fn167]: E.g. at Dhp 253, *Malavagga*
 
 [^fn168]: E.g. the *pupphāsava, phalāsava, madhvāsava, guḷāsava* at Sv III 944.
 
-[^fn169]: M II 200, *Subhasutta*.
+[^fn169]: M II 200, *Subhasutta*
 
-[^fn170]: E.g. at D I 84, *Sāmaññaphalasutta*.
+[^fn170]: E.g. at D I 84, *Sāmaññaphalasutta*
 
-[^fn171]: A II 182, *Sacchikaraṇīyasutta*.
+[^fn171]: A II 182, *Sacchikaraṇīyasutta*
 
-[^fn172]: A I 159, *Nibbutasutta*.
+[^fn172]: A I 159, *Nibbutasutta*
 
-[^fn173]: A V 9, *Sāriputtasutta*.
+[^fn173]: A V 9, *Sāriputtasutta*
 
-[^fn174]: M I 54, *Sammādiṭṭhisutta*.
+[^fn174]: M I 54, *Sammādiṭṭhisutta*
 
-[^fn175]: M I 55, *Sammādiṭṭhisutta*.
+[^fn175]: M I 55, *Sammādiṭṭhisutta*
 
-[^fn176]: S III 151, *Gaddulasutta*.
+[^fn176]: S III 151, *Gaddulasutta*
 
 [^fn177]: Spk II 327.
 
-[^fn178]: Sn 763, *Dvayatānupassanāsutta*.
+[^fn178]: Sn 763, *Dvayatānupassanāsutta*
 
-[^fn179]: Ud 79, *Udenasutta*.
+[^fn179]: Ud 79, *Udenasutta*
 
-[^fn180]: Th 627, *Sunīto Thero*; Thī 3, *Puṇṇā Therī*; Thī 28, *Cittā Therī*; Thī 44, *Uttamā Therī*; Thī 120, *Tiṁsamattā Therī*; Thī 173-174, *Vijayā Therī*; Thī 180, *Uttarā Therī*.
+[^fn180]: Th 627, *Sunīto Thero*; Thī 3, *Puṇṇā Therī*; Thī 28, *Cittā Therī*; Thī 44, *Uttamā Therī*; Thī 120, *Tiṁsamattā Therī*; Thī 173-174, *Vijayā Therī*; Thī 180, *Uttarā Therī*
 
 [^fn181]: Dhp-a I 88.
 
 [^fn182]: Vin I 40.
 
-[^fn183]: *Idappaccayatā* is discussed in detail above, see sermon 2.
+[^fn183]: *Idappaccayatā* is discussed in detail above, see *Sermon 2*
 
-[^fn184]: A III 440, *CatutthaAbhabbaṭṭhānasutta*.
+[^fn184]: A III 440, *CatutthaAbhabbaṭṭhānasutta*
 
-[^fn185]: See sermon 2.
+[^fn185]: See *Sermon 2*
 
 [^fn186]: Sp-ṭ III 226 (Burmese ed.).
 
-[^fn187]: Ud 2, *DutiyaBodhisutta*.
+[^fn187]: Ud 2, *DutiyaBodhisutta*
 
-[^fn188]: M I 263, *MahāTaṇhāsaṅkhayasutta*.
+[^fn188]: M I 263, *Mahātaṇhāsaṅkhayasutta*

@@ -97,9 +97,9 @@ This, in effect, means that consciousness grows in the field of *kamma* with
 craving as the moisture.
 
 It is in accordance with this idea and in the context of this particular simile
-that we have to interpret the reply of *Selā Therī* to a question raised by
-*Māra*. In the *Sagātha Vagga* of the *Saṁyutta Nikāya* one comes across the
-following riddle put by *Māra* to the *arahant* nun *Selā*:
+that we have to interpret the reply of Selā Therī to a question raised by
+Māra. In the *Sagātha Vagga* of the *Saṁyutta Nikāya* one comes across the
+following riddle put by Māra to the *arahant* nun Selā:
 
 > *Ken'idaṁ pakataṁ bimbaṁ,* \
 > *ko nu bimbassa kārako,* \
@@ -112,7 +112,7 @@ following riddle put by *Māra* to the *arahant* nun *Selā*:
 > And where does the image cease?
 
 The image meant here is one's body, or one's outward appearance which, for the
-conventional world, is name-and-form. *Selā Therī* gives her answer in three
+conventional world, is name-and-form. Selā Therī gives her answer in three
 verses:
 
 > *Nayidaṁ attakataṁ bimbaṁ,* \
@@ -152,7 +152,7 @@ chosen at random. It echoes the idea behind the Buddha's statement already
 quoted, *kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sineho*. *Kamma* is the field,
 consciousness the seed, and craving the moisture.
 
-Here the venerable *Therī* is replying from the point of view of Dhamma, which
+Here the venerable Therī is replying from the point of view of Dhamma, which
 takes into account the mental aspect as well. It is not simply the outward
 visible image, as commonly understood by *nāma-rūpa*, but that image which falls
 on consciousness as its object. The reason for the arising and growth of
@@ -190,7 +190,7 @@ In support of this interpretation, we can quote the following verse in the
 By virtue of his masterly knowledge of the fields and his estimate of the seed
 of consciousness, he does not moisten it with craving. Thereby he sees the end
 of birth and transcends logic and worldly convention. This too shows that the
-deeper implications of the *MahāNidānasutta*, concerning the descent of
+deeper implications of the *Mahānidānasutta*, concerning the descent of
 consciousness into the mother's womb, have not been sufficiently appreciated so
 far.
 
@@ -306,15 +306,15 @@ right view. This is how the Buddha introduces the sermon:
 > natthitā sā na hoti. Lokanirodhaṁ kho, Kaccāyana, yathābhūtaṁ sammappaññāya
 > passato yā loke atthitā sā na hoti*.[^fn135]
 >
-> This world, *Kaccāyana*, for the most part, bases its views on two things: on
-> existence and non-existence. Now, *Kaccāyana*, to one who with right wisdom
+> This world, Kaccāyana, for the most part, bases its views on two things: on
+> existence and non-existence. Now, Kaccāyana, to one who with right wisdom
 > sees the arising of the world as it is, the view of non-existence regarding
 > the world does not occur. And to one who with right wisdom sees the cessation
 > of the world as it really is, the view of existence regarding the world does
 > not occur.
 
 The Buddha comes out with this discourse in answer to the following question
-raised by the *brahmin* *Kaccāyana*:
+raised by the *brahmin* Kaccāyana:
 
 > *Sammā diṭṭhi, sammā diṭṭhī'ti, bhante, vuccati. Kittāvatā nu kho, bhante,
 > sammā diṭṭhi hoti?*
@@ -338,13 +338,13 @@ Then the Buddha goes on to give a more detailed explanation of right view:
 > nirujjhamānaṁ nirujjhatī'ti na kaṅkhati na vicikicchati aparapaccayā ñāṇam ev'
 > assa ettha hoti. Ettāvatā kho, Kaccāyana, sammā diṭṭhi hoti.*
 >
-> The world, *Kaccāyana*, for the most part, is given to approaching, grasping,
+> The world, Kaccāyana, for the most part, is given to approaching, grasping,
 > entering into and getting entangled as regards views. Whoever does not
 > approach, grasp, and take his stand upon that proclivity towards approaching
 > and grasping, that mental standpoint, namely the idea: 'This is my soul', he
 > knows that what arises is just suffering and what ceases is just suffering.
 > Thus, he is not in doubt, is not perplexed, and herein he has the knowledge
-> that is not dependent on another. Thus far, *Kaccāyana*, he has right view.
+> that is not dependent on another. Thus far, Kaccāyana, he has right view.
 
 The passage starts with a string of terms which has a deep philosophical
 significance. *Upaya* means 'approaching', *upādāna* is 'grasping', *abhinivesa*
@@ -385,9 +385,9 @@ dependent arising:
 > sokaparidevadukkhadomanassūpāyāsā nirujjhanti. Evametassa kevalassa
 > dukkhakkhandhassa nirodho hoti*.
 >
-> 'Everything exists', *Kaccāyana*, is one extreme. 'Nothing exists' is the
-> other extreme. Not approaching either of those extremes, *Kaccāyana*, the
-> *Tathāgata* teaches the Dhamma by the middle way:
+> 'Everything exists', Kaccāyana, is one extreme. 'Nothing exists' is the
+> other extreme. Not approaching either of those extremes, Kaccāyana, the
+> Tathāgata teaches the Dhamma by the middle way:
 >
 > From ignorance as condition, preparations come to be; from preparations as
 > condition, consciousness comes to be; from consciousness as condition,
@@ -639,21 +639,21 @@ the two are a pair mutually conjoined. Generally, the worldlings are engaged in
 an attempt to separate the two in this conjoined pair. Before the Buddha came
 into the scene, all religious teachers were trying to hold on to birth, while
 rejecting decay-and-death. But it was a vain struggle. It is like the attempt of
-the miserly millionaire *Kosiya* to eat rice-cakes alone, to cite another
+the miserly millionaire Kosiya to eat rice-cakes alone, to cite another
 simile.
 
-According to that instructive story, the millionaire *Kosiya*, an extreme miser,
+According to that instructive story, the millionaire Kosiya, an extreme miser,
 once developed a strong desire to eat rice-cakes.[^fn144] As he did not wish to
 share them with anyone else, he climbed up to the topmost storey of his mansion
 with his wife and got her to cook rice-cakes for him.
 
-To teach him a lesson, Venerable *Mahā Moggallāna*, who excelled in psychic
+To teach him a lesson, Venerable Mahā Moggallāna, who excelled in psychic
 powers, went through the air and appeared at the window as if he is on his alms
-round. *Kosiya*, wishing to dismiss this intruder with a tiny rice-cake, asked
+round. Kosiya, wishing to dismiss this intruder with a tiny rice-cake, asked
 his wife to put a little bit of cake dough into the pan. She did so, but it
 became a big rice-cake through the venerable *thera's* psychic power. Further
 attempts to make tinier rice-cakes ended up in producing ever bigger and bigger
-ones. In the end, *Kosiya* thought of dismissing the monk with just one cake,
+ones. In the end, Kosiya thought of dismissing the monk with just one cake,
 but to his utter dismay, all the cakes got joined to each other to form a string
 of cakes. The couple then started pulling this string of cakes in either
 direction with all their might, to separate just one from it. But without
@@ -667,17 +667,17 @@ intertwined. This is a conjoined pair. So the solution here, is to let go. All
 those problems are due to taking up a standpoint. Therefore the kind of view
 sanctioned in this case, is one that leads to detachment and dispassion, one
 that goes against the tendency to grasp and hold on. It is by grasping and
-holding on that one comes into conflict with *Māra*.
+holding on that one comes into conflict with Māra.
 
-Now going by the story of the millionaire *Kosiya*, one might think that the
-Buddha was defeated by *Māra*. But the truth of the matter is that it is *Māra*
+Now going by the story of the millionaire Kosiya, one might think that the
+Buddha was defeated by Māra. But the truth of the matter is that it is Māra
 who suffered defeat by this sort of giving up. It is a very subtle point.
 
-*Māra's* forte lies in seizing and grabbing. He is always out to challenge.
+Māra's forte lies in seizing and grabbing. He is always out to challenge.
 Sometimes he takes delight in hiding himself to take one by surprise, to drive
-terror and cause horripilation. So when *Māra* comes round to grab, if we can
+terror and cause horripilation. So when Māra comes round to grab, if we can
 find some means of foiling his attempt, or make it impossible for him to grab,
-then *Māra* will have to accept defeat.
+then Māra will have to accept defeat.
 
 Now let us examine the Buddha's solution to this question. There are in the
 world various means of preventing others from grabbing something we possess. We
@@ -690,7 +690,7 @@ grabbing. And that is – letting go, giving up.
 When one lets go, there is nothing to grab. In a tug-of-war, when someone is
 pulling at one end with all his might, if the other suddenly lets go of its
 hold, one can well imagine the extent of the former's discomfiture, let alone
-victory. It was such a discomfiture that fell to *Māra's* lot, when the Buddha
+victory. It was such a discomfiture that fell to Māra's lot, when the Buddha
 applied this extraordinary solution. All this goes to show the importance of
 such terms as *nissaya* and *idappaccayatā* in understanding this Dhamma.
 
@@ -850,56 +850,56 @@ attempt to cling on to the scaffoldings and to live on in them. So with
 reference to the *Satipaṭṭhānasutta* also, we can understand the importance of
 the term *nissaya*.
 
-[^fn121]: M I 436, *Mahāmālunkyasutta*.
+[^fn121]: M I 436, *Mahāmālunkyasutta*
 
-[^fn122]: See sermon 3.
+[^fn122]: See *Sermon 3*
 
-[^fn123]: Sn 740, *Dvayatānupassanāsutta*; (see sermon 2, footnote 22).
+[^fn123]: Sn 740, *Dvayatānupassanāsutta*; (see *Sermon 2*, footnote 22).
 
-[^fn124]: See sermon 3.
+[^fn124]: See *Sermon 3*
 
-[^fn125]: M I 256, *Mahātaṇhāsaṅkhayasutta*.
+[^fn125]: M I 256, *Mahātaṇhāsaṅkhayasutta*
 
-[^fn126]: See sermon 3.
+[^fn126]: See *Sermon 3*
 
-[^fn127]: Dhp 338, *Taṇhāvagga*.
+[^fn127]: Dhp 338, *Taṇhāvagga*
 
-[^fn128]: A I 223, *Paṭhamabhavasutta*.
+[^fn128]: A I 223, *Paṭhamabhavasutta*
 
-[^fn129]: S I 134, *Selāsutta*.
+[^fn129]: S I 134, *Selāsutta*
 
 [^fn130]: E.g. at Sv-pṭ I 513.
 
-[^fn131]: Sn 209, *Munisutta*.
+[^fn131]: Sn 209, *Munisutta*
 
-[^fn132]: M III 266, *Channovādasutta*.
+[^fn132]: M III 266, *Channovādasutta*
 
 [^fn133]: S IV 400, *Kuthūhalasālāsutta*: '*taṇhupādāna*'.
 
-[^fn134]: Ud 81, *Catutthanibbānapaṭisaṁyuttasutta*.
+[^fn134]: Ud 81, *Catutthanibbānapaṭisaṁyuttasutta*
 
-[^fn135]: S II 17, *Kaccāyanagottasutta*.
+[^fn135]: S II 17, *Kaccāyanagottasutta*
 
-[^fn136]: S I 41, *Lokasutta*.
+[^fn136]: S I 41, *Lokasutta*
 
 [^fn137]: Spk I 96.
 
-[^fn138]: S IV 86, *Dukkhasutta*.
+[^fn138]: S IV 86, *Dukkhasutta*
 
-[^fn139]: S IV 95, *Lokakāmaguṇasutta*.
+[^fn139]: S IV 95, *Lokakāmaguṇasutta*
 
-[^fn140]: E.g. at D III 237, *Sangītisutta*.
+[^fn140]: E.g. at D III 237, *Sangītisutta*
 
-[^fn141]: See sermon 1.
+[^fn141]: See *Sermon 1*
 
-[^fn142]: See sermon 3.
+[^fn142]: See *Sermon 3*
 
-[^fn143]: S II 26, *Paccayasutta*.
+[^fn143]: S II 26, *Paccayasutta*
 
 [^fn144]: Dhp-a I 367.
 
-[^fn145]: M I 56, *Satipaṭṭhānasutta*.
+[^fn145]: M I 56, *Satipaṭṭhānasutta*
 
-[^fn146]: S V 183, *Vibhaṅgasutta*.
+[^fn146]: S V 183, *Vibhaṅgasutta*
 
-[^fn147]: M I 134, *Alagaddūpamasutta*.
+[^fn147]: M I 134, *Alagaddūpamasutta*
