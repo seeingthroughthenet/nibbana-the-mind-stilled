@@ -248,9 +248,6 @@ def convert():
     # MahāHatthipadopama Sutta -> Mahāhatthipadopamasutta
     md['text'] = md['text'].replace(" Sutta*", "sutta*")
 
-    # see sermon 15 -> see *Sermon 15*
-    re_sub(r'([Ss]ee) sermon ([0-9]+)', r'\1 *Sermon \2*', md)
-
     # [back to top](#top)
     md['text'] = md['text'].replace('[back to top](#top)', '')
 
@@ -304,8 +301,20 @@ def convert():
     # Hyphen for numerical ranges: Dhp 92-93
     re_sub(r'([0-9]) *[-–] *([0-9])', r'\1-\2', md)
 
+    # 'See' instead of Cf.
+    md['text'] = md['text'].replace(': Cf.', ': See')
+    md['text'] = md['text'].replace('cf. also', 'see also')
+    md['text'] = md['text'].replace('cf.', 'see')
+
+    # No volumes
+    re_sub(r' *volume I+ *', ' ', md)
+
+    # see sermon 15 -> see *Sermon 15*
+    re_sub(r'([Ss]ee) sermon ([0-9]+)', r'\1 *Sermon \2*', md)
+
     # No full stop after references in footnotes
     md['text'] = re.sub(r'^(\[\^fn.*)(\.\*|\*\.)$', r'\1*', md['text'], flags=re.MULTILINE)
+    md['text'] = re.sub(r'^(\[\^fn.*[0-9])\.$', r'\1', md['text'], flags=re.MULTILINE)
 
     # Remove trailing spaces
     re_sub(r'\s+$', r'\n', md)

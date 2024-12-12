@@ -854,7 +854,7 @@ the term *nissaya*.
 
 [^fn122]: See *Sermon 3*
 
-[^fn123]: Sn 740, *Dvayatānupassanāsutta*; (see *Sermon 2*, footnote 22).
+[^fn123]: Sn 740, *Dvayatānupassanāsutta*; see also *Sermon 2*, *Taṇhā dutiyo puriso...*
 
 [^fn124]: See *Sermon 3*
 
@@ -868,7 +868,7 @@ the term *nissaya*.
 
 [^fn129]: S I 134, *Selāsutta*
 
-[^fn130]: E.g. at Sv-pṭ I 513.
+[^fn130]: E.g. at Sv-pṭ I 513
 
 [^fn131]: Sn 209, *Munisutta*
 
@@ -882,7 +882,7 @@ the term *nissaya*.
 
 [^fn136]: S I 41, *Lokasutta*
 
-[^fn137]: Spk I 96.
+[^fn137]: Spk I 96
 
 [^fn138]: S IV 86, *Dukkhasutta*
 
@@ -896,7 +896,7 @@ the term *nissaya*.
 
 [^fn143]: S II 26, *Paccayasutta*
 
-[^fn144]: Dhp-a I 367.
+[^fn144]: Dhp-a I 367
 
 [^fn145]: M I 56, *Satipaṭṭhānasutta*
 

@@ -4926,7 +4926,7 @@ All these questions seem to have arisen due to an attitude of taking too serious
 
 All in all, we are now in a position to correctly assess the deep significance of the *Bāhiyasutta*. Here we have the quintessence of the entire *Saddhamma*. We are not confronted with heaps of perceptual data, which we are told today are essential requisites for admission into the 'city' of Nibbāna.
 
-For the ordinary worldling, amassing a particular set of percepts or concepts seems a qualification for entering Nibbāna. But what we have here, is a way of liberating the mind even from latencies to percepts, cf. *saññā nānusenti*, *Madhupiṇḍikasutta*, "perceptions do not lie latent.[^fn541] There is no heaping up anew.
+For the ordinary worldling, amassing a particular set of percepts or concepts seems a qualification for entering Nibbāna. But what we have here, is a way of liberating the mind even from latencies to percepts, see *saññā nānusenti*, *Madhupiṇḍikasutta*, "perceptions do not lie latent.[^fn541] There is no heaping up anew.
 
 What are called "extraneous taints", *āgantukā upakkilesā*,[^fn542] are not confined to the well known defilements in the world. They include all the rust and dust we have been collecting throughout this long *saṁsāra*, with the help of the influxes, *āsavā*. They include even the heap of percepts which the world calls 'knowledge'. Even numerals are part of it.
 
@@ -11432,11 +11432,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn3]: S II 267, *Āṇisutta*
 
-[^fn4]: Mp I 92.
+[^fn4]: Mp I 92
 
-[^fn5]: Khp 2.
+[^fn5]: Khp 2
 
-[^fn6]: Pj I 78.
+[^fn6]: Pj I 78
 
 [^fn7]: S I 39, *Nāmasutta*
 
@@ -11444,7 +11444,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn9]: M I 53, *Sammādiṭṭhisutta*
 
-[^fn10]: Spk I 95 commenting on S I 39.
+[^fn10]: Spk I 95 commenting on S I 39
 
 [^fn11]: S I 12, *Samiddhisutta*
 
@@ -11454,7 +11454,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn14]: S I 13, *Jaṭāsutta*
 
-[^fn15]: Abhidh-s VI ¡ 30.
+[^fn15]: Abhidh-s VI ¡ 30
 
 [^fn16]: Sn 235, *Ratanasutta*
 
@@ -11464,13 +11464,13 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn19]: M I 487, *Aggivacchagottasutta*
 
-[^fn20]: S IV 368-373.
+[^fn20]: S IV 368-373
 
 [^fn21]: M I 140, *Alagaddūpamasutta*
 
 [^fn22]: D II 57, *Mahānidānasutta*
 
-[^fn23]: Chāndogya-Upaniṣad 6.2.1,2.
+[^fn23]: Chāndogya-Upaniṣad 6.2.1,2
 
 [^fn24]: ègveda X.129, Nāsadīya Sūkta.
 
@@ -11478,7 +11478,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn26]: Sn 1074, *Upasīvamāṇavapucchā*
 
-[^fn27]: Vibh-a 53.
+[^fn27]: Vibh-a 53
 
 [^fn28]: Th 298, Rāhula Thera.
 
@@ -11490,7 +11490,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn32]: E.g. at It 88, *Aggappasādasutta*
 
-[^fn33]: Abhidh-av 138.
+[^fn33]: Abhidh-av 138
 
 [^fn34]: Ud 11, *Rājasutta*
 
@@ -11498,11 +11498,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn36]: A II 34, *Aggappasādasutta*
 
-[^fn37]: Vism 508; Spk III 88; Vibh-a 51.
+[^fn37]: Vism 508; Spk III 88; Vibh-a 51
 
 [^fn38]: S IV 371, *Nibbānasutta*
 
-[^fn39]: Vibh-a 53.
+[^fn39]: Vibh-a 53
 
 [^fn40]: M I 507, *Māgaṇḍiyasutta*
 
@@ -11530,7 +11530,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn52]: It 53, *Indriyasutta*
 
-[^fn53]: Peṭ 188.
+[^fn53]: Peṭ 188
 
 [^fn54]: D I 110, *Ambaṭṭhasutta*
 
@@ -11540,7 +11540,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn57]: S I 54, *Kakudhosutta*
 
-[^fn58]: S IV 372.
+[^fn58]: S IV 372
 
 [^fn59]: Sn 1092, *Kappamāṇavapucchā*
 
@@ -11550,7 +11550,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn62]: S II 25, *Paccayasutta*
 
-[^fn63]: Spk II 40.
+[^fn63]: Spk II 40
 
 [^fn64]: D II 63, *Mahānidānasutta*
 
@@ -11562,7 +11562,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn68]: Sn 740, *Dvayatānupassanāsutta*
 
-[^fn69]: Pj II 505.
+[^fn69]: Pj II 505
 
 [^fn70]: D III 29, *Pāṭikasutta*
 
@@ -11570,7 +11570,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn72]: A I 152, *Saṅkhatalakkhaṇasutta*
 
-[^fn73]: E.g. at Ps IV 88.
+[^fn73]: E.g. at Ps IV 88
 
 [^fn74]: E.g. at M I 56, *Satipaṭṭhānasutta*
 
@@ -11600,15 +11600,15 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn87]: S IV 208, *Sallattenasutta*
 
-[^fn88]: D I 110, D I 148, D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, S V 423, A IV 186, A IV 210, A IV 213, Ud 49.
+[^fn88]: D I 110, D I 148, D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, S V 423, A IV 186, A IV 210, A IV 213, Ud 49
 
-[^fn89]: D II 33, S II 7, S II 105.
+[^fn89]: D II 33, S II 7, S II 105
 
 [^fn90]: See *Sermon 2*
 
 [^fn91]: E.g. at D III 237, *Sangītisutta*
 
-[^fn92]: Vin I 40.
+[^fn92]: Vin I 40
 
 [^fn93]: See *Sermon 2*
 
@@ -11618,7 +11618,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn96]: D II 31, *Mahāpadānasutta*
 
-[^fn97]: Sv II 459.
+[^fn97]: Sv II 459
 
 [^fn98]: S II 114, *Naḷakalāpīsutta*
 
@@ -11628,11 +11628,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn101]: D II 93, *Mahāparinibbānasutta*
 
-[^fn102]: Vism 578.
+[^fn102]: Vism 578
 
 [^fn103]: S II 68, *Pañcaverabhayāsutta*
 
-[^fn104]: Paṭis I 52, Vism 579.
+[^fn104]: Paṭis I 52, Vism 579
 
 [^fn105]: Sn 1084-1085, *Hemakamāṇavapucchā*
 
@@ -11640,7 +11640,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn107]: Th 1094, Tālapuṭa Thera.
 
-[^fn108]: See above footnote 4.
+[^fn108]: See above footnote 4
 
 [^fn109]: See *Sermon 1*
 
@@ -11650,11 +11650,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn112]: D III 105, *Sampasādanīyasutta*
 
-[^fn113]: Spk I 183 commenting on S I 121.
+[^fn113]: Spk I 183 commenting on S I 121
 
 [^fn114]: S I 122, *Godhikasutta*
 
-[^fn115]: D II 305, M I 50, M I 62, M III 249, S II 3.
+[^fn115]: D II 305, M I 50, M I 62, M III 249, S II 3
 
 [^fn116]: M II 156, *Ghoṭamukhasutta*
 
@@ -11684,7 +11684,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn129]: S I 134, *Selāsutta*
 
-[^fn130]: E.g. at Sv-pṭ I 513.
+[^fn130]: E.g. at Sv-pṭ I 513
 
 [^fn131]: Sn 209, *Munisutta*
 
@@ -11698,7 +11698,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn136]: S I 41, *Lokasutta*
 
-[^fn137]: Spk I 96.
+[^fn137]: Spk I 96
 
 [^fn138]: S IV 86, *Dukkhasutta*
 
@@ -11712,7 +11712,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn143]: S II 26, *Paccayasutta*
 
-[^fn144]: Dhp-a I 367.
+[^fn144]: Dhp-a I 367
 
 [^fn145]: M I 56, *Satipaṭṭhānasutta*
 
@@ -11760,7 +11760,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn167]: E.g. at Dhp 253, *Malavagga*
 
-[^fn168]: E.g. the *pupphāsava, phalāsava, madhvāsava, guḷāsava* at Sv III 944.
+[^fn168]: E.g. the *pupphāsava, phalāsava, madhvāsava, guḷāsava* at Sv III 944
 
 [^fn169]: M II 200, *Subhasutta*
 
@@ -11778,7 +11778,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn176]: S III 151, *Gaddulasutta*
 
-[^fn177]: Spk II 327.
+[^fn177]: Spk II 327
 
 [^fn178]: Sn 763, *Dvayatānupassanāsutta*
 
@@ -11786,9 +11786,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn180]: Th 627, Sunīto Thero; Thī 3, Puṇṇā Therī; Thī 28, Cittā Therī; Thī 44, Uttamā Therī; Thī 120, Tiṁsamattā Therī; Thī 173-174, Vijayā Therī; Thī 180, Uttarā Therī.
 
-[^fn181]: Dhp-a I 88.
+[^fn181]: Dhp-a I 88
 
-[^fn182]: Vin I 40.
+[^fn182]: Vin I 40
 
 [^fn183]: *Idappaccayatā* is discussed in detail above, see *Sermon 2*
 
@@ -11860,13 +11860,13 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn217]: E.g. at M III 299, *Indriyabhāvanāsutta*
 
-[^fn218]: S III 58, *Udānasutta* (cf. *viññāṇaṁ \... anabhisaṅkhacca vimuttaṁ*).
+[^fn218]: S III 58, *Udānasutta* (see *viññāṇaṁ \... anabhisaṅkhacca vimuttaṁ*).
 
 [^fn219]: E.g. at M I 329, *Brahmanimantanikasutta*
 
 [^fn220]: D I 223, *Kevaḍḍhasutta*
 
-[^fn221]: Sv II 393.
+[^fn221]: Sv II 393
 
 [^fn222]: M I 436, *Mahāmālunkyasutta*
 
@@ -11884,7 +11884,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn229]: M I 415, *AmbalatthikāRāhulovādasutta*
 
-[^fn230]: See *Sermon 3* and 4.
+[^fn230]: See *Sermon 3* and 4
 
 [^fn231]: M III 17, *Mahāpuṇṇamasutta*
 
@@ -11894,11 +11894,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn234]: Ud 80, *DutiyaNibbānapaṭisaṁyuttasutta*
 
-[^fn235]: Ud-a 393.
+[^fn235]: Ud-a 393
 
 [^fn236]: Dhp 180, *Buddhavagga*
 
-[^fn237]: Dhp-a III 197.
+[^fn237]: Dhp-a III 197
 
 [^fn238]: Dhp 92-93, *Arahantavagga*
 
@@ -11906,7 +11906,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn240]: E.g. at S II 101, *Atthirāgasutta*
 
-[^fn241]: Dhp -a II 173.
+[^fn241]: Dhp -a II 173
 
 [^fn242]: Dhp 180, *Buddhavagga*
 
@@ -11928,7 +11928,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn251]: See *Sermon 5*
 
-[^fn252]: Nid II 110.
+[^fn252]: Nid II 110
 
 [^fn253]: See *Sermon 6*
 
@@ -11936,13 +11936,13 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn255]: D I 223, *Kevaḍḍhasutta*
 
-[^fn256]: Sv II 393.
+[^fn256]: Sv II 393
 
 [^fn257]: S IV 359, *Asaṅkhatasaṁyutta*
 
 [^fn258]: M I 329, *Brahmanimantanikasutta*
 
-[^fn259]: Ps II 413.
+[^fn259]: Ps II 413
 
 [^fn260]: S II 267, *Āṇisutta*; see *Sermon 1*
 
@@ -11956,7 +11956,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn265]: E.g. at M I 266, *Mahātaṇhāsaṅkhayasutta*
 
-[^fn266]: M II 45, M II 74, S I 24, S II 254-258, A III 214.
+[^fn266]: M II 45, M II 74, S I 24, S II 254-258, A III 214
 
 [^fn267]: S II 189-190, *Anamataggasaṁyutta*
 
@@ -11964,7 +11964,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn269]: It 37, *Ajātasutta*
 
-[^fn270]: Th-a III 12.
+[^fn270]: Th-a III 12
 
 [^fn271]: Th 707, *Adhimutta Theragāthā*
 
@@ -11986,7 +11986,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn280]: See *Sermon 2*
 
-[^fn281]: E.g. at Dhp-a III 320 when explaining *accutaṁ ṭhānaṁ* of Dhp 225.
+[^fn281]: E.g. at Dhp-a III 320 when explaining *accutaṁ ṭhānaṁ* of Dhp 225
 
 [^fn282]: S IV 370, *Asaṅkhatasaṁyutta*
 
@@ -12034,7 +12034,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn304]: A IV 100, *Sattasuriyasutta*; see *Sermon 8*
 
-[^fn305]: Mp IV 52.
+[^fn305]: Mp IV 52
 
 [^fn306]: S III 155, *Aniccasaññāsutta*
 
@@ -12054,13 +12054,13 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn314]: A IV 338, *Kiṁmūlakasutta*
 
-[^fn315]: Sv-pṭ I 138.
+[^fn315]: Sv-pṭ I 138
 
 [^fn316]: Dhp 1, 2, *Yamakavagga*
 
-[^fn317]: Cf. the discussion at As 250.
+[^fn317]: See the discussion at As 250
 
-[^fn318]: Vibh-a 289.
+[^fn318]: Vibh-a 289
 
 [^fn319]: E.g. at D II 58, *Mahānidānasutta*
 
@@ -12076,7 +12076,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn325]: M III 220, *Saḷāyatanavibhaṅgasutta*
 
-[^fn326]: D II 353, D III 254, 287, 290, 291, M I 118, M III 77, 140, S II 168, S III 109, S V 1, 12, 13, 16, 18-20, 23, 383, A II 220-229, A III 141, A IV 237, A V 212-248.
+[^fn326]: D II 353, D III 254, 287, 290, 291, M I 118, M III 77, 140, S II 168, S III 109, S V 1, 12, 13, 16, 18-20, 23, 383, A II 220-229, A III 141, A IV 237, A V 212-248
 
 [^fn327]: M I 197, *Mahāsāropamasutta*
 
@@ -12086,7 +12086,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn330]: Th 269-270, Nāgasamāla Thera.
 
-[^fn331]: Pj II 587.
+[^fn331]: Pj II 587
 
 [^fn332]: A IV 385, *Samiddhisutta*
 
@@ -12134,7 +12134,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn354]: See *Sermon 2*
 
-[^fn355]: Vism 569.
+[^fn355]: Vism 569
 
 [^fn356]: See *Sermon 8*
 
@@ -12166,7 +12166,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn370]: Sn 1121, *Piṅgiyamāṇavapucchā*
 
-[^fn371]: Nidd II 238.
+[^fn371]: Nidd II 238
 
 [^fn372]: A IV 386, *Gaṇḍasutta*
 
@@ -12184,7 +12184,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn379]: Sn 867, *Kalahavivādasutta*
 
-[^fn380]: S I 13, *Jaṭāsutta*; cf. volume I sermon 1.
+[^fn380]: S I 13, *Jaṭāsutta*; see *Sermon 1*
 
 [^fn381]: Sn 871-872, *Kalahavivādasutta*
 
@@ -12192,9 +12192,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn383]: Sn 874, *Kalahavivādasutta*
 
-[^fn384]: Nidd I 280.
+[^fn384]: Nidd I 280
 
-[^fn385]: Nidd I 280 and Pj II 553.
+[^fn385]: Nidd I 280 and Pj II 553
 
 [^fn386]: Sn 862, *Kalahavivādasutta*
 
@@ -12202,7 +12202,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn388]: Sn 875, *Kalahavivādasutta*
 
-[^fn389]: Similar connotations recur in the variant reading *paramayakkhavisuddhi* at A V 64, and in the expression *yakkhassa suddhi* at Sn 478.
+[^fn389]: Similar connotations recur in the variant reading *paramayakkhavisuddhi* at A V 64, and in the expression *yakkhassa suddhi* at Sn 478
 
 [^fn390]: Sn 1074, *Upasīvamāṇavapucchā*
 
@@ -12210,11 +12210,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn392]: D I 184, *Poṭṭhapādasutta*
 
-[^fn393]: S III 142, *Pheṇapiṇḍūpamasutta*.; cf. also volume II sermon 6.
+[^fn393]: S III 142, *Pheṇapiṇḍūpamasutta*.; see also sermon 6
 
-[^fn394]: M I 329, *Brahmanimantanikasutta*; cf. also volume II sermon 8
+[^fn394]: M I 329, *Brahmanimantanikasutta*; see also sermon 8
 
-[^fn395]: See sermons 5, 6 and 7.
+[^fn395]: See sermons 5, 6 and 7
 
 [^fn396]: D II 276, *Sakkapañhasutta*; D III 287, *Dasuttarasutta*; M I 65, *Cūḷasīhanādasutta*; M I 112 *Madhupiṇḍikasutta*; A III 293, *Bhaddakasutta*; A III 294, *Anutappiyasutta*; A IV 230, *Anuruddhamahāvitakkasutta*; A IV 331, *Parihānasutta*; Sn 874, *Kalahavivādasutta*
 
@@ -12226,7 +12226,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn400]: M I 114, *Madhupiṇḍikasutta*
 
-[^fn401]: Ps II 77.
+[^fn401]: Ps II 77
 
 [^fn402]: A II 135, *Ugghaṭitaññūsutta*
 
@@ -12234,21 +12234,21 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn404]: M I 436, *Mahāmālunkyasutta*
 
-[^fn405]: Sv III 721.
+[^fn405]: Sv III 721
 
-[^fn406]: Spk III 73.
+[^fn406]: Spk III 73
 
-[^fn407]: Mp III 348.
+[^fn407]: Mp III 348
 
 [^fn408]: A III 294, *Bhaddakasutta* and *Anutappiyasutta*
 
-[^fn409]: Ps II 10.
+[^fn409]: Ps II 10
 
 [^fn410]: M I 109, *Madhupiṇḍikasutta*
 
 [^fn411]: M I 112, *Madhupiṇḍikasutta*
 
-[^fn412]: Ps II 75.
+[^fn412]: Ps II 75
 
 [^fn413]: S III 71, *Niruttipathasutta*
 
@@ -12262,7 +12262,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn418]: *Paṭisotagāmi* at M I 168, *Ariyapariyesanasutta*
 
-[^fn419]: Dhp 37, *Cittavagga*; Dhp-a I 301.
+[^fn419]: Dhp 37, *Cittavagga*; Dhp-a I 301
 
 [^fn420]: Dhp 254, *Malavagga*
 
@@ -12274,9 +12274,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn424]: Ud 77, *Papañcakhayasutta*
 
-[^fn425]: Nett 37.
+[^fn425]: Nett 37
 
-[^fn426]: Ud-a 373.
+[^fn426]: Ud-a 373
 
 [^fn427]: S IV 71, *Adanta-aguttasutta*
 
@@ -12294,7 +12294,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn434]: M I 1, *Mūlapariyāyasutta*
 
-[^fn435]: Ps I 41.
+[^fn435]: Ps I 41
 
 [^fn436]: See *Sermon 9*
 
@@ -12304,11 +12304,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn439]: M I 1, *Mūlapariyāyasutta*
 
-[^fn440]: Ps I 41.
+[^fn440]: Ps I 41
 
 [^fn441]: A III 6, *Kāmasutta*; see also Dhp 379, *Bhikkhuvagga*
 
-[^fn442]: Ps I 28.
+[^fn442]: Ps I 28
 
 [^fn443]: E.g. D I 70, *Sāmaññaphalasutta*
 
@@ -12320,7 +12320,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn447]: See *Sermon 12*
 
-[^fn448]: Ps I 38.
+[^fn448]: Ps I 38
 
 [^fn449]: M I 266, *Mahātaṇhāsaṅkhayasutta*
 
@@ -12330,11 +12330,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn452]: S I 54, *Kakudhasutta*
 
-[^fn453]: Vibh-a 53.
+[^fn453]: Vibh-a 53
 
 [^fn454]: See *Sermon 12*
 
-[^fn455]: See sermons 9 and 12.
+[^fn455]: See sermons 9 and 12
 
 [^fn456]: A III 413, *Nibbedhikasutta*
 
@@ -12348,13 +12348,13 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn461]: M I 6, *Mūlapariyāyasutta*
 
-[^fn462]: Ps I 56.
+[^fn462]: Ps I 56
 
 [^fn463]: S IV 201, *Yavakalāpisutta*
 
 [^fn464]: Dhp 33, *Cittavagga*
 
-[^fn465]: See sermons 11 and 12.
+[^fn465]: See sermons 11 and 12
 
 [^fn466]: See *Sermon 10*
 
@@ -12416,7 +12416,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn495]: M III 240, *Dhātuvibhaṅgasutta*
 
-[^fn496]: See sermons 6 and 7.
+[^fn496]: See sermons 6 and 7
 
 [^fn497]: Th 1101, Tālapuṭa *Theragāthā*
 
@@ -12426,11 +12426,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn500]: S III 141, *Pheṇapiṇḍūpamasutta*
 
-[^fn501]: Vism 327.
+[^fn501]: Vism 327
 
-[^fn502]: Cf. *Asaṅkhatasaṁyutta*, S IV 359-373.
+[^fn502]: See *Asaṅkhatasaṁyutta*, S IV 359-373
 
-[^fn503]: Mil 268.
+[^fn503]: Mil 268
 
 [^fn504]: A IV 338, *Kiṁmūlakasutta*
 
@@ -12456,7 +12456,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn515]: A IV 386, *Samiddhisutta*; see *Sermon 12*
 
-[^fn516]: See sermons 12 and 13.
+[^fn516]: See sermons 12 and 13
 
 [^fn517]: M I 3, *Mūlapariyāyasutta*
 
@@ -12470,7 +12470,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn522]: A II 246, *Catutthavohārasutta*
 
-[^fn523]: Vism 21.
+[^fn523]: Vism 21
 
 [^fn524]: The term occurs e.g. at M I 480, *Tevijjavacchagottasutta*; at M II 173, *Cankīsutta*; and at A II 115, *Patodasutta*
 
@@ -12478,19 +12478,19 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn526]: M III 29, *Chabbisodhanasutta*
 
-[^fn527]: Ud-a 90.
+[^fn527]: Ud-a 90
 
 [^fn528]: S IV 174, *Āsīvisasutta*
 
 [^fn529]: Ud 9, *Bāhiyasutta*
 
-[^fn530]: Ud-a 98.
+[^fn530]: Ud-a 98
 
 [^fn531]: See *Sermon 1*
 
 [^fn532]: D I 223, *Kevaḍḍhasutta*
 
-[^fn533]: See sermons 5, 7 and 9.
+[^fn533]: See sermons 5, 7 and 9
 
 [^fn534]: S I 6, *Natthiputtasamasutta*
 
@@ -12518,7 +12518,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn546]: See *Sermon 8*
 
-[^fn547]: See sermons 5, 7, 9, 11, 15.
+[^fn547]: See sermons 5, 7, 9, 11, 15
 
 [^fn548]: Ud 9, *Bāhiyasutta*; see *Sermon 15*
 
@@ -12528,13 +12528,13 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn551]: It 53, *Indriyasutta*
 
-[^fn552]: Vin IV 82, *Pācittiya* 35.
+[^fn552]: Vin IV 82, *Pācittiya* 35
 
 [^fn553]: E.g. M I 167, *Ariyapariyesanasutta*
 
 [^fn554]: A V 324, *Sandhasutta*
 
-[^fn555]: Mp V 80.
+[^fn555]: Mp V 80
 
 [^fn556]: Sn 871, *Kalahavivādasutta*; see *Sermon 11*
 
@@ -12564,17 +12564,17 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn569]: Dhp 92-93, *Arahantavagga*
 
-[^fn570]: Dhp-a II 172.
+[^fn570]: Dhp-a II 172
 
 [^fn571]: M I 436, *Mahāmālunkyasutta*
 
-[^fn572]: See especially sermon 7.
+[^fn572]: See especially sermon 7
 
 [^fn573]: It 62, *Santatarasutta*
 
 [^fn574]: See *Sermon 7*
 
-[^fn575]: It-a II 42.
+[^fn575]: It-a II 42
 
 [^fn576]: Ud 12, *Sakkārasutta*; see *Sermon 16*
 
@@ -12594,19 +12594,19 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn584]: S IV 19, *Ādittasutta*
 
-[^fn585]: See sermons 9 and 15.
+[^fn585]: See sermons 9 and 15
 
 [^fn586]: S IV 98, *Kāmaguṇasutta*
 
 [^fn587]: See *Sermon 5*
 
-[^fn588]: Spk II 391.
+[^fn588]: Spk II 391
 
 [^fn589]: M III 217, *Saḷāyatanavibhaṅgasutta*
 
 [^fn590]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*
 
-[^fn591]: Ud-a 389.
+[^fn591]: Ud-a 389
 
 [^fn592]: A I 133, *Sāriputtasutta*
 
@@ -12632,9 +12632,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn603]: Sn 714, *Nālakasutta*
 
-[^fn604]: Cf. e.g. A II 149, *Saṁkhittasutta*
+[^fn604]: See e.g. A II 149, *Saṁkhittasutta*
 
-[^fn605]: Pj II 498.
+[^fn605]: Pj II 498
 
 [^fn606]: Sn 803, *Paramaṭṭhakasutta*
 
@@ -12678,9 +12678,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn626]: M I 197, *Mahāsāropamasutta*
 
-[^fn627]: It-a I 167.
+[^fn627]: It-a I 167
 
-[^fn628]: In the standard formula for recollecting the Dhamma, e.g. at D II 93.
+[^fn628]: In the standard formula for recollecting the Dhamma, e.g. at D II 93
 
 [^fn629]: S I 34, *Maccharisutta*
 
@@ -12712,7 +12712,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn643]: S I 194, *Moggallānasutta*
 
-[^fn644]: Bv-a 252.
+[^fn644]: Bv-a 252
 
 [^fn645]: It 62, *Santatarasutta*, see *Sermon 17*
 
@@ -12720,7 +12720,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn647]: Ps III 115, *aṭṭhakathā* on the *Bahuvedanīyasutta*
 
-[^fn648]: E.g. at Mp I 91.
+[^fn648]: E.g. at Mp I 91
 
 [^fn649]: M III 245, *Dhātuvibhaṅgasutta*
 
@@ -12730,9 +12730,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn652]: D II 157, *Mahāparinibbānasutta*
 
-[^fn653]: Sv II 595.
+[^fn653]: Sv II 595
 
-[^fn654]: *Devadattaṁ ārabbha* at Dhp-a I 133 and Ja I 142.
+[^fn654]: *Devadattaṁ ārabbha* at Dhp-a I 133 and Ja I 142
 
 [^fn655]: S IV 371, *Asaṅkhatasaṁyutta*
 
@@ -12748,7 +12748,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn661]: Ud 93, *Dutiyadabbasutta*
 
-[^fn662]: Ud-a 435.
+[^fn662]: Ud-a 435
 
 [^fn663]: Dhp 308, *Nirayavagga*
 
@@ -12756,7 +12756,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn665]: M I 140, *Alagaddūpamasutta*
 
-[^fn666]: Sv II 635.
+[^fn666]: Sv II 635
 
 [^fn667]: M I 436, *Mahāmālunkyasutta*
 
@@ -12776,7 +12776,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn675]: Dhp 225, *Kodhavagga*
 
-[^fn676]: Dhp-a III 321.
+[^fn676]: Dhp-a III 321
 
 [^fn677]: Sn 1086, *Hemakamāṇavapucchā*
 
@@ -12794,9 +12794,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn684]: This suggestion finds support in the Chinese parallel to the *Kutūhalasālāsutta*, *Saṁyukta Āgama* discourse 957 (Taishº II 244b2), which speaks of the being that has passed away as availing himself of a mind-made body. (Anālayo)
 
-[^fn685]: Spk III 114.
+[^fn685]: Spk III 114
 
-[^fn686]: Feer, L. (ed.): *Saṁyutta Nikāya*, PTS 1990 (1894), p 400 n 2.
+[^fn686]: Feer, L. (ed.): *Saṁyutta Nikāya*, PTS 1990 (1894), p 400 n 2
 
 [^fn687]: E.g. S III 190, *Bhavanettisutta*
 
@@ -12822,7 +12822,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn698]: M I 484, *Aggivacchagottasutta*
 
-[^fn699]: See sermons 1, 12 and 13.
+[^fn699]: See sermons 1, 12 and 13
 
 [^fn700]: S III 193, *Chandarāgasutta*
 
@@ -12832,7 +12832,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn703]: Th 120, *Isidattatheragāthā*
 
-[^fn704]: See sermons 12.
+[^fn704]: See sermons 12
 
 [^fn705]: Ud 75, *DutiyaLakuṇṭakabhaddiyasutta*, see *Sermon 2*
 
@@ -12850,7 +12850,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn712]: Sn 9, *Uragasutta*
 
-[^fn713]: See sermons 5 and 18.
+[^fn713]: See sermons 5 and 18
 
 [^fn714]: S II 26, *Paccayasutta*
 
@@ -12894,11 +12894,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn734]: M I 139, *Alagaddūpamasutta*
 
-[^fn735]: Ps II 117.
+[^fn735]: Ps II 117
 
-[^fn736]: See sermons 10 and 13.
+[^fn736]: See sermons 10 and 13
 
-[^fn737]: M I 141, *Alagaddūpamasutta*; see *Sermon 2* and sermon 21.
+[^fn737]: M I 141, *Alagaddūpamasutta*; see *Sermon 2* and sermon 21
 
 [^fn738]: D I 46, *Brahmajālasutta*
 
@@ -12908,7 +12908,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn741]: See *Sermon 21*
 
-[^fn742]: A III 107, *Tatiya-anāgatabhayasutta*; cf. also S II 267, *Āṇisutta*
+[^fn742]: A III 107, *Tatiya-anāgatabhayasutta*; see also S II 267, *Āṇisutta*
 
 [^fn743]: M I 167, *Ariyapariyesanasutta*
 
@@ -12918,11 +12918,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn746]: Dhp 62, *Bālavagga*
 
-[^fn747]: S I 41, *Lokasutta*, see also sermon 4; S IV 39, *Samiddhisutta*, see also sermon 20.
+[^fn747]: S I 41, *Lokasutta*, see also sermon 4; S IV 39, *Samiddhisutta*, see also sermon 20
 
 [^fn748]: E.g. at M I 426, *Mahāmālunkyasutta*
 
-[^fn749]: Spk I 116.
+[^fn749]: Spk I 116
 
 [^fn750]: S IV 93, *Lokakāmaguṇasutta*
 
@@ -12946,7 +12946,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn760]: See *Sermon 20*
 
-[^fn761]: See sermons 4 and 22.
+[^fn761]: See sermons 4 and 22
 
 [^fn762]: S II 17, *Kaccāyanagottasutta*
 
@@ -12954,19 +12954,19 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn764]: M I 302, *Cūḷavedallasutta*
 
-[^fn765]: Ps II 367.
+[^fn765]: Ps II 367
 
-[^fn766]: See sermons 16 and 17.
+[^fn766]: See sermons 16 and 17
 
 [^fn767]: S I 61 and A II 49 *Rohitassasutta*
 
-[^fn768]: Spk I 118 and Mp III 89.
+[^fn768]: Spk I 118 and Mp III 89
 
-[^fn769]: Mrs. Rhys Davids: *The Book of the Kindred Sayings*, PTS 1979, p 86 n 3.
+[^fn769]: Mrs. Rhys Davids: *The Book of the Kindred Sayings*, PTS 1979, p 86 n 3
 
-[^fn770]: A V 318, *Saññāsutta*, see also sermon 16.
+[^fn770]: A V 318, *Saññāsutta*, see also sermon 16
 
-[^fn771]: A V 9, *Sāriputtasutta*, see also sermon 17.
+[^fn771]: A V 9, *Sāriputtasutta*, see also sermon 17
 
 [^fn772]: A V 321, *Manasikārasutta*, see also sermon 16
 
@@ -12976,15 +12976,15 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn775]: A II 161, *Mahā Koṭṭhitasutta*
 
-[^fn776]: Mp III 150.
+[^fn776]: Mp III 150
 
 [^fn777]: A II 11, *Yogasutta*
 
-[^fn778]: See sermons 13 and 15.
+[^fn778]: See sermons 13 and 15
 
-[^fn779]: D I 223, *Kevaḍḍhasutta*, see also sermon 6.
+[^fn779]: D I 223, *Kevaḍḍhasutta*, see also sermon 6
 
-[^fn780]: S II 114, *Naḷakalāpīsutta*, see also sermon 3.
+[^fn780]: S II 114, *Naḷakalāpīsutta*, see also sermon 3
 
 [^fn781]: M I 436, *Mahāmālunkyasutta*
 
@@ -13020,7 +13020,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn797]: S III 155, *Aniccasaññāsutta*
 
-[^fn798]: S III 150, *Gaddulasutta*; see als sermons 5 and 6.
+[^fn798]: S III 150, *Gaddulasutta*; see als sermons 5 and 6
 
 [^fn799]: A I 10, *Paṇihita-acchavagga*
 
@@ -13028,15 +13028,15 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn801]: Ud 8, *Bāhiyasutta*, see *Sermon 14*
 
-[^fn802]: See sermons 12 to 15.
+[^fn802]: See sermons 12 to 15
 
-[^fn803]: See sermons 17 and 22.
+[^fn803]: See sermons 17 and 22
 
 [^fn804]: See *Sermon 20*
 
 [^fn805]: M I 1, *Mūlapariyāyasutta*
 
-[^fn806]: Mp III 38.
+[^fn806]: Mp III 38
 
 [^fn807]: M I 436, *Mahāmālunkyasutta*
 
@@ -13044,7 +13044,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn809]: Sn 908, *Mahāviyūhasutta*
 
-[^fn810]: See esp. sermon 20.
+[^fn810]: See esp. sermon 20
 
 [^fn811]: E.g. at M I 484, *Aggivacchagottasutta*
 
@@ -13054,9 +13054,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn814]: D I 58, *Sāmaññaphalasutta*
 
-[^fn815]: Mp III 38.
+[^fn815]: Mp III 38
 
-[^fn816]: Mp III 39.
+[^fn816]: Mp III 39
 
 [^fn817]: See *Sermon 15*
 
@@ -13070,11 +13070,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn822]: Ud 8, *Bāhiyasutta*
 
-[^fn823]: Mp III 40.
+[^fn823]: Mp III 40
 
 [^fn824]: A IV 157, *Paṭhamalokadhammasutta*
 
-[^fn825]: Nid II 459.
+[^fn825]: Nid II 459
 
 [^fn826]: See *Sermon 21*
 
@@ -13084,7 +13084,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn829]: Ud 81, *Catutthanibbānapaṭisaṁyuttasutta*
 
-[^fn830]: Mp III 41.
+[^fn830]: Mp III 41
 
 [^fn831]: Pj II 554
 
@@ -13112,7 +13112,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn843]: M I 292, *Mahāvedallasutta*
 
-[^fn844]: Th 716, *Adhimutta Theragāthā*; see also sermon 8.
+[^fn844]: Th 716, *Adhimutta Theragāthā*; see also sermon 8
 
 [^fn845]: S II 25, *Paccayasutta*; see *Sermon 2*
 
@@ -13156,7 +13156,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn865]: D II 130, *Mahāparinibbānasutta*
 
-[^fn866]: See sermons 16-19.
+[^fn866]: See sermons 16-19
 
 [^fn867]: Sn 874, *Kalahavivādasutta*
 
@@ -13202,7 +13202,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn888]: (Prose before) Sn 756, *Dvayatānupassanasutta*
 
-[^fn889]: See sermons 6 and 21.
+[^fn889]: See sermons 6 and 21
 
 [^fn890]: Th 717, *Adhimutta Theragāthā*, see *Sermon 8*
 
@@ -13216,9 +13216,9 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn895]: S I 13, *Jaṭāsutta*, see *Sermon 1*
 
-[^fn896]: Sn 270, *Sūcilomasutta*, cf. also SN I 207.
+[^fn896]: Sn 270, *Sūcilomasutta*, see also SN I 207
 
-[^fn897]: Spk I 304.
+[^fn897]: Spk I 304
 
 [^fn898]: Spk I 36, commenting on SN I 7, *Kummasutta*
 
@@ -13232,7 +13232,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn903]: Sn 273, *Sūcilomasutta*
 
-[^fn904]: Spk I 304.
+[^fn904]: Spk I 304
 
 [^fn905]: See *Sermon 27*
 
@@ -13244,11 +13244,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn909]: E.g. M I 263, *Mahātaṇhāsaṅkhayasutta*
 
-[^fn910]: D II 107, *Mahāparinibbānasutta*, see also A IV 312 and Ud 64.
+[^fn910]: D II 107, *Mahāparinibbānasutta*, see also A IV 312 and Ud 64
 
-[^fn911]: Sv II 557 and Mp IV 154.
+[^fn911]: Sv II 557 and Mp IV 154
 
-[^fn912]: Nett 61.
+[^fn912]: Nett 61
 
 [^fn913]: Sn 843, *Māgandiyasutta*
 
@@ -13260,7 +13260,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn917]: See *Sermon 2*
 
-[^fn918]: Dhp 385, *Brāhmaṇavagga*; see sermons 5, 18 and 19.
+[^fn918]: Dhp 385, *Brāhmaṇavagga*; see sermons 5, 18 and 19
 
 [^fn919]: Ud 75, *DutiyaLakuṇtakabhaddiyasutta*
 
@@ -13276,7 +13276,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn925]: Sn 203, *Vijayasutta*
 
-[^fn926]: Dhp-a III 117.
+[^fn926]: Dhp-a III 117
 
 [^fn927]: S II 171, *Acariṁsutta*
 
@@ -13294,7 +13294,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn934]: M I 185, *Mahāhatthipadopamasutta*
 
-[^fn935]: Sn 342, *Rāhulasutta*; cf. also S I 188, *Ānandasutta*; Th 1226, *Vaṅgīsatheragāthā*; Thī 20, *Abhirūpanandātherīgāthā*
+[^fn935]: Sn 342, *Rāhulasutta*; see also S I 188, *Ānandasutta*; Th 1226, *Vaṅgīsatheragāthā*; Thī 20, *Abhirūpanandātherīgāthā*
 
 [^fn936]: S III 93, *Piṇḍolyasutta*
 
@@ -13318,13 +13318,13 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn946]: DN II 277, *Sakkapañhasutta*
 
-[^fn947]: MN I 109, *Madhupiṇḍikasutta*; see *Sermon 11* and 12.
+[^fn947]: MN I 109, *Madhupiṇḍikasutta*; see *Sermon 11* and 12
 
 [^fn948]: MN I 112, *Madhupiṇḍikasutta*; see *Sermon 11*
 
 [^fn949]: Ud 71, *Subhūtisutta*
 
-[^fn950]: Ud-a 348.
+[^fn950]: Ud-a 348
 
 [^fn951]: S III 89, *Khajjanīyasutta*, see *Sermon 23*
 
@@ -13350,7 +13350,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn962]: Sn 472, *Sundarikabhāradvājasutta*
 
-[^fn963]: Pj II 409.
+[^fn963]: Pj II 409
 
 [^fn964]: M I 436, *Mahāmālunkyasutta*
 
@@ -13360,11 +13360,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn967]: See *Sermon 17*
 
-[^fn968]: See esp. sermons 14, 15, 24 and 25.
+[^fn968]: See esp. sermons 14, 15, 24 and 25
 
 [^fn969]: M III 44, *Sappurisasutta*
 
-[^fn970]: See sermons 13, 14 and 15.
+[^fn970]: See sermons 13, 14 and 15
 
 [^fn971]: M I 119, *Vitakkasanthānasutta*
 
@@ -13378,7 +13378,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn976]: Sn 838, *Māgandiyasutta*
 
-[^fn977]: Pj II 545.
+[^fn977]: Pj II 545
 
 [^fn978]: M III 266, *Channovādasutta*; see *Sermon 4*
 
@@ -13420,11 +13420,11 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn997]: e.g. D III, 221, *Saṅgītisutta*
 
-[^fn998]: e.g. Ps III 194.
+[^fn998]: e.g. Ps III 194
 
 [^fn999]: M I 481, *Kīṭāgirisutta*
 
-[^fn1000]: S V 276, *Bhikkhusutta*; S V 286, *Ānandasutta* 1&2; S V 287, *Bhikkhusutta* 1&2.
+[^fn1000]: S V 276, *Bhikkhusutta*; S V 286, *Ānandasutta* 1&2; S V 287, *Bhikkhusutta* 1&2
 
 [^fn1001]: S V 266, *Pubbesutta*
 
@@ -13454,7 +13454,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn1014]: M II 173, *Caṅkīsutta*
 
-[^fn1015]: Ps III 426.
+[^fn1015]: Ps III 426
 
 [^fn1016]: A IV 320, *Dutiyamaraṇasatisutta*
 

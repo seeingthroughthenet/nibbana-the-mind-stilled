@@ -993,15 +993,15 @@ altogether then and there.
 
 [^fn87]: S IV 208, *Sallattenasutta*
 
-[^fn88]: D I 110, D I 148, D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, S V 423, A IV 186, A IV 210, A IV 213, Ud 49.
+[^fn88]: D I 110, D I 148, D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, S V 423, A IV 186, A IV 210, A IV 213, Ud 49
 
-[^fn89]: D II 33, S II 7, S II 105.
+[^fn89]: D II 33, S II 7, S II 105
 
 [^fn90]: See *Sermon 2*
 
 [^fn91]: E.g. at D III 237, *Sangītisutta*
 
-[^fn92]: Vin I 40.
+[^fn92]: Vin I 40
 
 [^fn93]: See *Sermon 2*
 
@@ -1011,7 +1011,7 @@ altogether then and there.
 
 [^fn96]: D II 31, *Mahāpadānasutta*
 
-[^fn97]: Sv II 459.
+[^fn97]: Sv II 459
 
 [^fn98]: S II 114, *Naḷakalāpīsutta*
 
@@ -1021,11 +1021,11 @@ altogether then and there.
 
 [^fn101]: D II 93, *Mahāparinibbānasutta*
 
-[^fn102]: Vism 578.
+[^fn102]: Vism 578
 
 [^fn103]: S II 68, *Pañcaverabhayāsutta*
 
-[^fn104]: Paṭis I 52, Vism 579.
+[^fn104]: Paṭis I 52, Vism 579
 
 [^fn105]: Sn 1084-1085, *Hemakamāṇavapucchā*
 
@@ -1033,7 +1033,7 @@ altogether then and there.
 
 [^fn107]: Th 1094, *Tālapuṭa Thera*
 
-[^fn108]: See above footnote 4.
+[^fn108]: D I 110, D I 148, etc. see references above
 
 [^fn109]: See *Sermon 1*
 
@@ -1043,11 +1043,11 @@ altogether then and there.
 
 [^fn112]: D III 105, *Sampasādanīyasutta*
 
-[^fn113]: Spk I 183 commenting on S I 121.
+[^fn113]: Spk I 183 commenting on S I 121
 
 [^fn114]: S I 122, *Godhikasutta*
 
-[^fn115]: D II 305, M I 50, M I 62, M III 249, S II 3.
+[^fn115]: D II 305, M I 50, M I 62, M III 249, S II 3
 
 [^fn116]: M II 156, *Ghoṭamukhasutta*
 

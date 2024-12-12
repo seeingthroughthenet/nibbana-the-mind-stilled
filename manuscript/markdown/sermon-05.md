@@ -866,7 +866,7 @@ today.
 
 [^fn161]: Dhp 385, *Brāhmaṇavagga*
 
-[^fn162]: Sn 1-17 , *Uragasutta*
+[^fn162]: Sn 1-17, *Uragasutta*
 
 [^fn163]: Sn 5, *Uragasutta*
 
@@ -878,7 +878,7 @@ today.
 
 [^fn167]: E.g. at Dhp 253, *Malavagga*
 
-[^fn168]: E.g. the *pupphāsava, phalāsava, madhvāsava, guḷāsava* at Sv III 944.
+[^fn168]: E.g. the *pupphāsava, phalāsava, madhvāsava, guḷāsava* at Sv III 944
 
 [^fn169]: M II 200, *Subhasutta*
 
@@ -896,7 +896,7 @@ today.
 
 [^fn176]: S III 151, *Gaddulasutta*
 
-[^fn177]: Spk II 327.
+[^fn177]: Spk II 327
 
 [^fn178]: Sn 763, *Dvayatānupassanāsutta*
 
@@ -904,9 +904,9 @@ today.
 
 [^fn180]: Th 627, *Sunīto Thero*; Thī 3, *Puṇṇā Therī*; Thī 28, *Cittā Therī*; Thī 44, *Uttamā Therī*; Thī 120, *Tiṁsamattā Therī*; Thī 173-174, *Vijayā Therī*; Thī 180, *Uttarā Therī*
 
-[^fn181]: Dhp-a I 88.
+[^fn181]: Dhp-a I 88
 
-[^fn182]: Vin I 40.
+[^fn182]: Vin I 40
 
 [^fn183]: *Idappaccayatā* is discussed in detail above, see *Sermon 2*
 

@@ -758,11 +758,11 @@ be the final judge of its merits.
 
 [^fn3]: S II 267, *Āṇisutta*
 
-[^fn4]: Mp I 92.
+[^fn4]: Mp I 92
 
-[^fn5]: Khp 2.
+[^fn5]: Khp 2
 
-[^fn6]: Pj I 78.
+[^fn6]: Pj I 78
 
 [^fn7]: S I 39, *Nāmasutta*
 
@@ -770,7 +770,7 @@ be the final judge of its merits.
 
 [^fn9]: M I 53, *Sammādiṭṭhisutta*
 
-[^fn10]: Spk I 95 commenting on S I 39.
+[^fn10]: Spk I 95 commenting on S I 39
 
 [^fn11]: S I 12, *Samiddhisutta*
 
@@ -780,7 +780,7 @@ be the final judge of its merits.
 
 [^fn14]: S I 13, *Jaṭāsutta*
 
-[^fn15]: Abhidh-s VI ¡ 30.
+[^fn15]: Abhidh-s VI í 30
 
 [^fn16]: Sn 235, *Ratanasutta*
 
@@ -790,13 +790,13 @@ be the final judge of its merits.
 
 [^fn19]: M I 487, *Aggivacchagottasutta*
 
-[^fn20]: S IV 368-373.
+[^fn20]: S IV 368-373
 
 [^fn21]: M I 140, *Alagaddūpamasutta*
 
 [^fn22]: D II 57, *Mahānidānasutta*
 
-[^fn23]: Chāndogya-Upaniṣad 6.2.1,2.
+[^fn23]: Chāndogya-Upaniṣad 6.2.1,2
 
 [^fn24]: ègveda X.129, *Nāsadīya Sūkta*
 
@@ -804,7 +804,7 @@ be the final judge of its merits.
 
 [^fn26]: Sn 1074, *Upasīvamāṇavapucchā*
 
-[^fn27]: Vibh-a 53.
+[^fn27]: Vibh-a 53
 
 [^fn28]: Th 298, *Rāhula Thera*
 
@@ -816,7 +816,7 @@ be the final judge of its merits.
 
 [^fn32]: E.g. at It 88, *Aggappasādasutta*
 
-[^fn33]: Abhidh-av 138.
+[^fn33]: Abhidh-av 138
 
 [^fn34]: Ud 11, *Rājasutta*
 
@@ -824,11 +824,11 @@ be the final judge of its merits.
 
 [^fn36]: A II 34, *Aggappasādasutta*
 
-[^fn37]: Vism 508; Spk III 88; Vibh-a 51.
+[^fn37]: Vism 508; Spk III 88; Vibh-a 51
 
 [^fn38]: S IV 371, *Nibbānasutta*
 
-[^fn39]: Vibh-a 53.
+[^fn39]: Vibh-a 53
 
 [^fn40]: M I 507, *Māgaṇḍiyasutta*
 

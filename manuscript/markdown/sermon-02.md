@@ -955,7 +955,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn52]: It 53, *Indriyasutta*
 
-[^fn53]: Peṭ 188.
+[^fn53]: Peṭ 188
 
 [^fn54]: D I 110, *Ambaṭṭhasutta*
 
@@ -965,7 +965,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn57]: S I 54, *Kakudhosutta*
 
-[^fn58]: S IV 372.
+[^fn58]: S IV 372
 
 [^fn59]: Sn 1092, *Kappamāṇavapucchā*
 
@@ -975,7 +975,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn62]: S II 25, *Paccayasutta*
 
-[^fn63]: Spk II 40.
+[^fn63]: Spk II 40
 
 [^fn64]: D II 63, *Mahānidānasutta*
 
@@ -987,7 +987,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn68]: Sn 740, *Dvayatānupassanāsutta*
 
-[^fn69]: Pj II 505.
+[^fn69]: Pj II 505
 
 [^fn70]: D III 29, *Pāṭikasutta*
 
@@ -995,7 +995,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn72]: A I 152, *Saṅkhatalakkhaṇasutta*
 
-[^fn73]: E.g. at Ps IV 88.
+[^fn73]: E.g. at Ps IV 88
 
 [^fn74]: E.g. at M I 56, *Satipaṭṭhānasutta*
 
