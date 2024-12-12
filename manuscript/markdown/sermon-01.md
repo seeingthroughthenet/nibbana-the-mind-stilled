@@ -798,7 +798,7 @@ be the final judge of its merits.
 
 [^fn23]: Chāndogya-Upaniṣad 6.2.1,2
 
-[^fn24]: ègveda X.129, *Nāsadīya Sūkta*
+[^fn24]: Ṛgveda X.129, *Nāsadīya Sūkta*
 
 [^fn25]: M I 487, *Aggivacchagottasutta*
 
