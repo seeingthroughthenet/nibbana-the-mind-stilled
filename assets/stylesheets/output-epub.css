@@ -14,13 +14,15 @@ blockquote {
   background: none;
   border: none;
 }
-
-.english > blockquote p {
-  font-style: italic;
+blockquote p {
+  text-align: left;
+  text-indent: 0;
+  margin: 1em 0;
+  padding: 0;
+  font-style: normal;
 }
-
-.instr > blockquote p {
-  font-weight: bold;
+blockquote p em {
+  font-style: italic;
 }
 
 span.vin {
