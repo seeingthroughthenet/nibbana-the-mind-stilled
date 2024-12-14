@@ -31,6 +31,7 @@ tags
 *.lof
 *.fls
 *.fdb_latexmk
+*.xdv
 doc/_minted-prophecy/
 
 # General macOS

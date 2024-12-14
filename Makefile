@@ -1,5 +1,15 @@
-all:
-	@echo "Make what?"
+FILE=main
+
+LATEX=latexmk
+LATEX_OPTS=-interaction=nonstopmode -halt-on-error -lualatex
+
+all: document
+
+document:
+	$(LATEX) $(LATEX_OPTS) $(FILE).tex
+
+%.pdf: %.tex
+	$(LATEX) $(LATEX_OPTS) $<
 
 ebooks:
 	./helpers/ebooks.sh

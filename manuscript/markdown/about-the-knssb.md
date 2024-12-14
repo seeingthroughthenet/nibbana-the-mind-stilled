@@ -8,9 +8,9 @@ Accordingly, K.N.S.S.B. has taken upon itself the duties
 of publication and distribution of books written by the venerable
 author as well as the recording and distribution of his sermons on
 CDs, in addition to maintaining the website
-<https://seeingthroughthenet.net/>
+[www.seeingthroughthenet.net](https://seeingthroughthenet.net/)
 and the social networking site
-<https://www.facebook.com/seeingthrough>.
+[www.facebook.com/seeingthrough](https://www.facebook.com/seeingthrough).
 
 Those wishing to participate in this multifaceted Dhammadāna may note the
 account number of our Trust given below.

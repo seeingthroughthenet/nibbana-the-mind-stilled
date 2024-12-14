@@ -9,10 +9,10 @@ Library Edition
 By Bhikkhu K. Ñāṇananda
 
 Published by \
-Kaṭukurunde Ñāṇananda Sadaham Senasun Bhāraya \
+Kaṭukurunde Ñāṇananda Sadaham Senasun Bhāraya (KNSSB) \
 Sri Lanka
 
-Published strictly for free distribution.
+Published strictly for free distribution
 
 -----
 

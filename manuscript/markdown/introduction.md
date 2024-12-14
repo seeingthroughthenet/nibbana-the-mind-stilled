@@ -63,7 +63,7 @@ for his devoted services as the 'Settler' of the Trust.
 
 To Mrs. Yukie Sirimane for making available this translation as well as our
 other publications to the world through the Internet under a special web site
-www.beyondthenet.net.
+[www.beyondthenet.net]()https://beyondthenet.net/.
 
 And last but not least –
 

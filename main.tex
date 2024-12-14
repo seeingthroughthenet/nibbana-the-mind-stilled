@@ -1,0 +1,96 @@
+\documentclass[
+  final,
+  babelLanguage=british,
+  desktopVersion,
+  %showtrims,
+  %overleaf,
+]{anecdote}
+
+\graphicspath{{./assets/images/}}
+
+% Page size: 6x9 inch
+% Body text: 10.5 / 15 pt
+
+\usepackage{local}
+
+%% Details of the book
+%% ===================
+
+\title{Nibbāna -- The Mind Stilled}
+\subtitle{33 Sermons on Nibbāna}
+\author{Bhikkhu K. Ñāṇananda}
+\publisher{KNSSB}
+\date{2024-12-13}
+\editionInfo{\textit{Library Edition}, 2024}
+\ISBN{000-000-0000-00-0}
+
+% === Metadata ===
+
+\hypersetup{
+  pdftitle={\thetitle},
+  pdfauthor={\theauthor},
+  pdfcopyright={Copyright (C) 2024, \thePublisher},
+  pdfsubject={},% TODO subject
+  pdfkeywords={},% TODO keywords
+  pdflicenseurl={https://creativecommons.org/licenses/by-nc-nd/4.0/},
+  pdfcontacturl={},
+  pdflang={en},
+}
+
+% \pdfinfo{%
+%   /Title (\thetitle)%
+%   /Author (\theauthor)
+%   /Subject (subject)% TODO subject
+%   /Keywords (keywords)% TODO keywords
+%   /GTS_PDFXVersion (PDF/X-1:2001)%
+%   /GTS_PDFXConformance (PDF/X-1a:2001)%
+% }
+
+%% === Load further packages ===
+
+%% === Hyphenation exceptions and corrections ===
+
+\hyphenation{London giragga-samajja}
+
+\begin{document}
+
+\frontmatter
+
+\ifdesktopversion
+\desktopCover{\includegraphics[height=\paperheight]{./desktop-cover.png}}
+\fi
+
+\input{./manuscript/tex/titlepage.tex}
+
+\input{./manuscript/tex/copyright.tex}
+
+\input{./manuscript/tex/dedication.tex}
+
+\cleartorecto
+\tableofcontents*
+
+\input{./manuscript/tex/abbreviations.tex}
+
+\input{./manuscript/tex/about-the-author.tex}
+
+\input{./manuscript/tex/about-the-knssb.tex}
+
+\input{./manuscript/tex/introduction.tex}
+
+% Page 1 is the first page of the first chapter.
+\mainmatter
+
+\input{./manuscript/tex/sermon-01.tex}
+\input{./manuscript/tex/sermon-02.tex}
+\input{./manuscript/tex/sermon-03.tex}
+\input{./manuscript/tex/sermon-04.tex}
+\input{./manuscript/tex/sermon-05.tex}
+
+\backmatter
+
+% FIXME: review copyright
+% \input{./manuscript/tex/copyright-details.tex}
+
+\emptyUntilEven
+
+\end{document}

@@ -3,9 +3,14 @@
 > Namo tassa bhagavato arahato sammāsambuddhassa \
 > Namo tassa bhagavato arahato sammāsambuddhassa \
 > Namo tassa bhagavato arahato sammāsambuddhassa
-
-> *Etaṁ santaṁ, etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho
-> sabbūpadhipaṭinissaggo taṇhakkhayo virāgo nirodho nibbānaṁ*.[^fn148]
+>
+> *Etaṁ santaṁ, etaṁ paṇītaṁ, \
+> yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo \
+> taṇhakkhayo virāgo nirodho nibbānaṁ.*[^fn148]
+>
+> "This is peaceful, this is excellent, \
+> namely the stilling of all preparations, the relinquishment of all assets, \
+> the destruction of craving, detachment, cessation, extinction."
 
 "This is peaceful, this is excellent, namely the stilling of all preparations,
 the relinquishment of all assets, the destruction of craving, detachment,
