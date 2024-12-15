@@ -1650,10 +1650,11 @@ philo-sophical munindo amaravati thai-land}
 %\settypeblocksize{34\baselineskip + \topskip}{*}{0.599}% 1/1.667, 3:5, major 6th
 %\setlrmargins{*}{20mm}{*}% 22.71669mm and 19.99976mm
 
-\settypeblocksize{190mm}{110mm}{*}
+\settypeblocksize{193mm}{110mm}{*}
 \setlrmargins{*}{20mm}{*}
 
-\setulmargins{42pt}{*}{*}% Based on Tall Pentagon, 1.701
+\setulmargins{42pt}{*}{*}% 14.8mm, Based on Tall Pentagon, 1.701
+\setheaderspaces{*}{19pt}{*}
 \setlength{\footskip}{30pt}
 
 % Adjust spacing to avoid warning
