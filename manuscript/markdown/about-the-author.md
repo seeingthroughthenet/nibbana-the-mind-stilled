@@ -52,8 +52,8 @@ this Dhammadāna to a wider global audience through the new electronic
 technology. Recorded sermons on CDs are also being issued free as Dhammadāna by
 this Trust, while making available this Dhamma gift free through the internet.
 
-[seeingthroughthenet.net](https://seeingthroughthenet.net/)
+[www.seeingthroughthenet.net](https://seeingthroughthenet.net/)
 
-[facebook.com/seeingthrough](https://www.facebook.com/seeingthrough)
+[www.facebook.com/seeingthrough](https://www.facebook.com/seeingthrough)
 
 
