@@ -12,10 +12,6 @@
 > namely the stilling of all preparations, the relinquishment of all assets, \
 > the destruction of craving, detachment, cessation, extinction."
 
-"This is peaceful, this is excellent, namely the stilling of all preparations,
-the relinquishment of all assets, the destruction of craving, detachment,
-cessation, extinction".
-
 With the permission of the Most Venerable Great Preceptor and the assembly of
 the venerable meditative monks.
 
