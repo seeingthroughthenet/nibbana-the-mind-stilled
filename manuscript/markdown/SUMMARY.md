@@ -17,9 +17,10 @@
 - [Sermon 5](sermon-05.md)
 - [Sermon 6](sermon-06.md)
 - [Sermon 7](sermon-07.md)
-
-<!-- - [Sermon 8](sermon-08.md) -->
-<!-- - [Sermon 9](sermon-09.md) -->
-<!-- - [Sermon 10](sermon-10.md) -->
+- [Sermon 8](sermon-08.md)
+- [Sermon 9](sermon-09.md)
+- [Sermon 10](sermon-10.md)
+- [Sermon 11](sermon-11.md)
+- [Sermon 12](sermon-12.md)
 
 [Copyright](copyright.md)

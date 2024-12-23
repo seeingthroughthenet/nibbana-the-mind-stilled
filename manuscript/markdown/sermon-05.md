@@ -911,12 +911,12 @@ today.
 
 [^fn183]: *Idappaccayatā* is discussed in detail above, see *Sermon 2*
 
-[^fn184]: A III 440, *CatutthaAbhabbaṭṭhānasutta*
+[^fn184]: A III 440, *Catutthaabhabbaṭṭhānasutta*
 
 [^fn185]: See *Sermon 2*
 
-[^fn186]: Sp-ṭ III 226 (Burmese ed.).
+[^fn186]: Sp-ṭ III 226 (Burmese ed.)
 
-[^fn187]: Ud 2, *DutiyaBodhisutta*
+[^fn187]: Ud 2, *Dutiyabodhisutta*
 
 [^fn188]: M I 263, *Mahātaṇhāsaṅkhayasutta*

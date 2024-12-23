@@ -878,7 +878,7 @@ it. They are transcended.
 
 [^fn233]: S II 17, *Kaccāyanagottasutta*, see *Sermon 4*
 
-[^fn234]: Ud 80, *DutiyaNibbānapaṭisaṁyuttasutta*
+[^fn234]: Ud 80, *Dutiyanibbānapaṭisaṁyuttasutta*
 
 [^fn235]: Ud-a 393
 

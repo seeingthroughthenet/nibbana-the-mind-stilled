@@ -771,8 +771,8 @@ the *Nandavagga* of the *Udāna*.
 > In whatever terms it conceives of, \
 > Even thereby it turns otherwise.
 > 
-> The world, attached to becoming,Given fully to becoming, \
-> Though becoming otherwise, Yet delights in becoming. \
+> The world, attached to becoming, given fully to becoming, \
+> Though becoming otherwise, yet delights in becoming. \
 > What it delights in is a fear \
 > What it fears from is a suffering. \
 > But then this holy life is lived for the abandoning of that very becoming.
@@ -1012,7 +1012,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn80]: M I 141, *Alagaddūpamasutta*
 
-[^fn81]: Ud 75, *DutiyaLakuṇḍakabhaddiyasutta*
+[^fn81]: Ud 75, *Dutiyalakuṇḍakabhaddiyasutta*
 
 [^fn82]: S I 15, *Sarasutta*
 
