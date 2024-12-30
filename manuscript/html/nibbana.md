@@ -4344,7 +4344,7 @@ The word *nivesanaṁ*, occurring in the first verse, is also significant. It me
 
 The nature of consciousness in general is to abide or dwell in. That non-manifestative consciousness, *anidassana viññāṇa*, however, has got rid of the tendency to abide or dwell in.
 
-Now we can revert to the passage in the *Dhatuvibhaṅgasutta*, which speaks of an occurrence of tides of imaginings. The passage actually begins with the words *yatthaṭṭhitaṁ maññussavā nappavattanti*, "steadied whereon the tides of imaginings occur no more in him". The idea behind this occurrence of tides of imaginings is quite often represented by the concept of *āsava*, influx. Sensuality, *kāma*, existence, *bhava*, views, *diṭṭhi* and ignorance, *avijjā*, are referred to as "influxes", *āsavā*, or "floods", *oghā*. These are the four kinds of *samsāric* habits that continuously flow into the minds of beings.
+Now we can revert to the passage in the *Dhātuvibhaṅgasutta*, which speaks of an occurrence of tides of imaginings. The passage actually begins with the words *yatthaṭṭhitaṁ maññussavā nappavattanti*, "steadied whereon the tides of imaginings occur no more in him". The idea behind this occurrence of tides of imaginings is quite often represented by the concept of *āsava*, influx. Sensuality, *kāma*, existence, *bhava*, views, *diṭṭhi* and ignorance, *avijjā*, are referred to as "influxes", *āsavā*, or "floods", *oghā*. These are the four kinds of *samsāric* habits that continuously flow into the minds of beings.
 
 The above mentioned sutta passage refers to a place steadied whereon the tides of imaginings do not occur or flow in, a place that is free from their 'influence'. This is none other than Nibbāna, for which one of the epithets used is *dīpa*, or island.[^fn490]
 
@@ -4398,7 +4398,7 @@ The Buddha's reply makes it clear that the term Nibbāna stands for the extincti
 
 It is indubitably clear, then, that the epithet *dīpaṁ*, or island, has to be understood in a deeper sense when it refers to Nibbāna. It is that owning nothing and grasping nothing, that puts an end to decay and death.
 
-Though we have yet to finish the discussion of the *Dhatuvibhaṅgasutta*, the stage is already set now to understand the significance of a certain brief discourse in the *Udāna*, which is very often quoted in discussions on Nibbāna. For facility of understanding, we shall take it up now, as it somehow fits into the context.
+Though we have yet to finish the discussion of the *Dhātuvibhaṅgasutta*, the stage is already set now to understand the significance of a certain brief discourse in the *Udāna*, which is very often quoted in discussions on Nibbāna. For facility of understanding, we shall take it up now, as it somehow fits into the context.
 
 *Atthi, bhikkhave, ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ. No ce taṁ, bhikkhave, abhavissa ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, nayidha jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyetha. Yasmā ca kho, bhikkhave, atthi ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, tasmā jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyati*.[^fn493]
 
@@ -4412,11 +4412,11 @@ But the commentator, the Venerable *Dhammapāla*, pays little attention to the w
 
 The prospect of stepping out from decay and death here and now in this very world has to be asserted for its novelty, which is why the declaration opens with the word *atthi*, "there is". However, most of the scholars who tried to interpret this passage in their discussion on Nibbāna, instead of laying stress on the word *idha,* "here", emphasize the opening word *atthi*, "there is", to prove that Nibbāna is some form of reality absolutely existing somewhere.
 
-As that passage from the *Dhatuvibhaṅgasutta* on *maññanā*, which we discussed, has shown us, the terms *ajātaṁ abhūtaṁ akataṁ* and *asaṅkhataṁ* have to be understood in a deeper sense.
+As that passage from the *Dhātuvibhaṅgasutta* on *maññanā*, which we discussed, has shown us, the terms *ajātaṁ abhūtaṁ akataṁ* and *asaṅkhataṁ* have to be understood in a deeper sense.
 
 Existence is a conceit deep rooted in the mind, which gives rise to a heap of pervert notions. Its cessation, therefore, has also to be accomplished in the mind and by the mind. This is the gist of the Buddha's exhortation.
 
-Let us now come back to the *Dhatuvibhaṅgasutta* to discuss another facet of it. We started our discussion with the grand finale of that discourse, because of its relevance to the question of *maññanā*. However, as a matter of fact, this discourse preached by the Buddha to the Venerable Pukkusāti is an exposition of a systematic path of practice for the emancipation of the mind from imaginings or *maññanā*.
+Let us now come back to the *Dhātuvibhaṅgasutta* to discuss another facet of it. We started our discussion with the grand finale of that discourse, because of its relevance to the question of *maññanā*. However, as a matter of fact, this discourse preached by the Buddha to the Venerable Pukkusāti is an exposition of a systematic path of practice for the emancipation of the mind from imaginings or *maññanā*.
 
 The discourse begins with the declaration *chadhāturo ayaṁ, bhikkhu, puriso*, "monk, man as such is a combination of six elements".[^fn494] The worldling thinks that a being, *satta* (Sanskrit *sattva*), exists at a higher level of reality than inanimate objects.
 
@@ -4424,7 +4424,7 @@ Now what did the Buddha do to explode this concept of a being in his discourse t
 
 As the discourse proceeds, he explains in an extremely lucid manner how one can detach one's mind from each of these elements. We happened to mention at the very outset that the depth of the Dhamma has to be seen through lucidity and not through complicated over-drawings. In fact, this discourse exhibits such lucidity.
 
-The meditation subject of elements, which grew in complexity at the hands of later Buddhist philosophers, who took to atomistic analysis of a speculative sort, is presented here in this *Dhatuvibhaṅgasutta* with a refreshing clarity and lucidity. Here it is explained in such a way that one can directly experience it.
+The meditation subject of elements, which grew in complexity at the hands of later Buddhist philosophers, who took to atomistic analysis of a speculative sort, is presented here in this *Dhātuvibhaṅgasutta* with a refreshing clarity and lucidity. Here it is explained in such a way that one can directly experience it.
 
 For instance in describing the earth element, the Buddha gives as examples of the internal earth element such parts of the body as head hairs, body hairs, nails and teeth. Because the external earth element hardly needs illustration, nothing in particular has been mentioned as to that aspect. Anyone can easily understand what is meant by it. There is no attempt at atomistic analysis.
 
@@ -4508,7 +4508,7 @@ For instance, in the case of a pleasant feeling, it is said: *aniccā ti pajān�
 
 So the attainment of *arahanthood* is in effect the cessation of that consciousness itself. That consciousness is divested of its most primary function of discriminating between the three grades of feeling, pleasant, unpleasant and neither-unpleasant-nor-pleasant.
 
-The term *visaṁyutto* connotes disjunction, suggestive of dispassion and detachment. In this way, the *Dhatuvibhaṅgasutta* clearly brings out the relevance of the question of *maññanā* to the path leading to Nibbāna.
+The term *visaṁyutto* connotes disjunction, suggestive of dispassion and detachment. In this way, the *Dhātuvibhaṅgasutta* clearly brings out the relevance of the question of *maññanā* to the path leading to Nibbāna.
 
 In some contexts, this practice of desisting from me-thinking or imagining is called *atammayatā*, non-identification. This is the term used by the Buddha throughout the *Sappurisasutta* of the *Majjhima Nikāya*. For instance we read there:
 

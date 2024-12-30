@@ -79,8 +79,8 @@ arising! Ceasing, ceasing!" The above phrase only connects up the two aspects of
 that experience.
 
 It seems then that what is called the 'Dhamma-eye', is the ability to see the
-*Nibbānic* solution in the very vortex of the *samsāric* problem. That way of
-analysis which puts *samsāra* and Nibbāna far apart, into two watertight
+*Nibbānic* solution in the very vortex of the *saṁsāric* problem. That way of
+analysis which puts *saṁsāra* and Nibbāna far apart, into two watertight
 compartments, as it were, gives rise to interminable problems. But here we see
 that, just as much as one could realize Nibbāna by discovering the cause of
 suffering and following the path to its cessation, which in effect is the

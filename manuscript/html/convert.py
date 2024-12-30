@@ -188,6 +188,8 @@ def convert():
     md['text'] = md['text'].replace('Mahārakkhita', 'Mahā Rakkhita')
     md['text'] = md['text'].replace('Mahākoṭṭhita', 'Mahā Koṭṭhita')
 
+    md['text'] = md['text'].replace('Dhatuvibhaṅgasutta', 'Dhātuvibhaṅgasutta')
+
     # Revert this exception
     md['text'] = md['text'].replace('Mahā Moggallānatheragāthā', 'Mahāmoggallānatheragāthā')
 
