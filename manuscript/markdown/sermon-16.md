@@ -805,7 +805,7 @@ depth. The reference is to that unique *samādhi*.
 The bird's flight through the air symbolizes the flight of the mind. In the case
 of others, the path taken by the mind can be traced through the object it takes,
 but not in this case. The key word that highlights the metaphorical meaning of
-these verses is *gocaro*. *Gocara* means "pasture". Now, in the case of cattle
+these verses is *gocaro*. *Gocara* means 'pasture'. Now, in the case of cattle
 roaming in their pasture one can trace them by their footsteps, by the path
 trodden. What about the pasture of the *arahants*?
 

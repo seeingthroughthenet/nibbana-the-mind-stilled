@@ -713,7 +713,7 @@ found in the following dictum occurring in it:
 "nothing is worth entering into dogmatically".[^fn474]
 
 The word *abhinivesa*, suggestive of dogmatic adherence, literally means
-"entering into". Now based on this idea we can bring in a relevant metaphor.
+'entering into'. Now based on this idea we can bring in a relevant metaphor.
 
 We happened to mention earlier that as far as concepts are concerned, the
 *arahants* have no dogmatic adherence. Let us take, for instance, the concept of
@@ -941,7 +941,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn457]: Sn 874, *Kalahavivādasutta*; see *Sermon 11*
 
-[^fn458]: E.g. at Sn 219, *Munisutta*; and Th 748, *TelakāniTheragāthā*
+[^fn458]: E.g. at Sn 219, *Munisutta*; and Th 748, *Telakānittheragāthā*
 
 [^fn459]: Sn 68, *Khaggavisāṇasutta*
 
@@ -973,7 +973,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn473]: See *Sermon 8*; M I 329, *Brahmanimantanikasutta*
 
-[^fn474]: M I 251, *CūḷaTaṇhāsaṅkhayasutta*
+[^fn474]: M I 251, *Cūḷataṇhāsaṅkhayasutta*
 
 [^fn475]: S I 14, *Arahantasutta*
 

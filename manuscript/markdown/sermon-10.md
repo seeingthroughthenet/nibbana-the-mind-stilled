@@ -141,8 +141,8 @@ lines:
 
 > *Jātaṁ bhūtaṁ samuppannaṁ, kataṁ saṅkhatamaddhuvaṁ.*[^fn351]
 
-The reference here is to the five groups of grasping. They are "born", "become",
-"arisen" (that is conditionally arisen), "made up", "prepared", and "unstable".
+The reference here is to the five groups of grasping. They are 'born', 'become',
+'arisen' (that is conditionally arisen), 'made up', 'prepared', and 'unstable'.
 These words are suggestive of some artificiality. The word *addhuvaṁ* brings out
 their impermanence and insubstantiality. There is no eternal essence, like
 *sat*, or being. It is merely a self image, a reflection. So it seems that the
@@ -199,7 +199,7 @@ from which all measurings and surveyings of the world start, since the word
 else comes to be.
 
 Let us take an illustration. If, for instance, we say "there is something",
-someone will pose the question "where is it?" It should be either here or there
+someone will pose the question: "Where is it?" It should be either here or there
 or yonder, that is, over there. It can be in one of those three places. Now, if
 it is here, how does that place become a 'here'? That is where I am. 'There' is
 where he is, and 'yonder' is where you are.

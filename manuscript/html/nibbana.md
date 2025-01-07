@@ -832,7 +832,7 @@ The insight into the basic principle of dependent arising, is in fact regarded a
 
 Sometimes it is briefly alluded to with the couple of terms *samudaya* and *nirodha*, as *samudayo samudayo* and *nirodho nirodho*.[^fn89] It is as if the experience of that insight has found expression as an exclamation: "Arising, arising! Ceasing, ceasing!" The above phrase only connects up the two aspects of that experience.
 
-It seems then that what is called the 'Dhamma-eye', is the ability to see the *Nibbānic* solution in the very vortex of the *samsāric* problem. That way of analysis which puts *samsāra* and Nibbāna far apart, into two watertight compartments, as it were, gives rise to interminable problems. But here we see that, just as much as one could realize Nibbāna by discovering the cause of suffering and following the path to its cessation, which in effect is the understanding of the four noble truths, one could also put an end to this vortex by understanding its cause and applying the correct means for its cessation.
+It seems then that what is called the 'Dhamma-eye', is the ability to see the *Nibbānic* solution in the very vortex of the *saṁsāric* problem. That way of analysis which puts *saṁsāra* and Nibbāna far apart, into two watertight compartments, as it were, gives rise to interminable problems. But here we see that, just as much as one could realize Nibbāna by discovering the cause of suffering and following the path to its cessation, which in effect is the understanding of the four noble truths, one could also put an end to this vortex by understanding its cause and applying the correct means for its cessation.
 
 In the previous sermon we happened to quote some Canonical verses, which declared that the vortex does not exist for an *arahant*.[^fn90] Now as regards the condition after the cessation of the vortex, if someone asks where the vortex or the whirlpool has gone, what sort of answer can we give? It is the same difficulty that comes up in answering the question: "Where has the fire gone after it has gone out?" Because here too, what we call the whirlpool is that current of water which went against the main stream. It also consists of water, like the body of water outside it. So we cannot say that they united, nor can we say that it went and hid somewhere.
 
@@ -2272,7 +2272,7 @@ So now we have tackled most of the difficulties to the interpretation of this ve
 
 But for the present, let us proceed to say something about the last two lines as well. *Viññāṇassa nirodhena, etth'etaṁ uparujjhati*. As we saw above, for all practical purposes, name-and-form seem to cease, even like the fading away of the scenes on the cinema screen. Then what is meant by this phrase *viññāṇassa nirodhena*, with the cessation of consciousness? The reference here is to that *abhisaṅkhata viññāṇa*, or the specifically prepared consciousness. It is the cessation of that concocted type of consciousness which was formerly there, like the one directed on the cinema screen by the audience. With the cessation of that specifically prepared consciousness, all constituents of name-and-form are said to be held in check, *uparujjhati*.
 
-Here, too, we have a little problem. Generally, *nirujjhati* and *uparujjhati* are regarded as synonymous. The way these two verbs are used in some suttas would even suggest that they mean the same thing. As a matter of fact, even the *CūḷaNiddesa*, which is a very old commentary, paraphrases *uparujjhati* by *nirujjhati*: *uparujjhatī'ti nirujjhati*.[^fn252]
+Here, too, we have a little problem. Generally, *nirujjhati* and *uparujjhati* are regarded as synonymous. The way these two verbs are used in some suttas would even suggest that they mean the same thing. As a matter of fact, even the *Cūḷaniddesa*, which is a very old commentary, paraphrases *uparujjhati* by *nirujjhati*: *uparujjhatī'ti nirujjhati*.[^fn252]
 
 Nevertheless, in the context of this particular verse, there seems to be something deep involved in the distinction between these two verbs. Even at a glance, the two lines in question are suggestive of some distinction between them. *Viññāṇassa nirodhena, etth'etaṁ uparujjhati*, the *nirodha* of consciousness is said to result in the *uparodha* of whatever constitutes name-and-form. This is intriguing enough.
 
@@ -2762,7 +2762,7 @@ Him who thus looks upon the world,
 
 The king of death gets no chance to see."
 
-From this we can infer that the entire Dhamma, even like the world system itself, inclines towards voidness. This fact is borne out by the following significant quotation in the *CūḷaTaṇhāsaṅkhayasutta*, cited by Sakka as an aphorism given by the Buddha himself: *Sabbe dhammā nālaṁ abhinivesāya*.[^fn313] Though we may render it simply as "nothing is worth clinging on to", it has a deeper significance. The word *abhinivesa* is closely associated with the idea of entering into or getting entangled in views of one's own creation. The implication, then, is that not only the views as such, but nothing at all is worthwhile getting entangled in. This is suggestive of the emptiness of everything.
+From this we can infer that the entire Dhamma, even like the world system itself, inclines towards voidness. This fact is borne out by the following significant quotation in the *Cūḷataṇhāsaṅkhayasutta*, cited by Sakka as an aphorism given by the Buddha himself: *Sabbe dhammā nālaṁ abhinivesāya*.[^fn313] Though we may render it simply as "nothing is worth clinging on to", it has a deeper significance. The word *abhinivesa* is closely associated with the idea of entering into or getting entangled in views of one's own creation. The implication, then, is that not only the views as such, but nothing at all is worthwhile getting entangled in. This is suggestive of the emptiness of everything.
 
 This brings us to a very important sutta among the Eighths of the *Aṅguttara Nikāya*, namely the *Kiṁmūlakasutta*. In this particular sutta we find the Buddha asking the monks how they would answer a set of questions which wandering ascetics of other sects might put to them. The questions are as follows:
 
@@ -3798,7 +3798,7 @@ In the *Pupphasutta* of the *Khandhasaṁyutta* one comes across the following d
 
 This looks more or less like a contradictory statement, as if one would say 'he is quarrelling with me but I am not quarrelling with him'. However, the truth of the statement lies in the fact that the Buddha did not hold on to any view. Some might think that the Buddha also held on to some view or other. But he was simply using the child's language, for him there was nothing worth holding on to in it.
 
-There is a Canonical episode which is a good illustration of this fact. One of the most well-known among the debates the Buddha had with ascetics of other sects is the debate with Saccaka, the ascetic. An account of it is found in the *CūḷaSaccakasutta* of the *Majjhima Nikāya*. The debate had all the outward appearance of a hot dispute. However, towards the end of it, the Buddha makes the following challenge to Saccaka: "As for you, *Aggivessana,* drops of sweat have come down from your forehead, soaked through your upper robe and reached the ground. But, Aggivessana, there is no sweat on my body now." So saying he uncovered his golden-hued body in that assembly, *iti Bhagavā tasmiṁ parisatiṁ suvaṇṇavaṇṇaṁ kāyaṁ vivari*. [^fn431]
+There is a Canonical episode which is a good illustration of this fact. One of the most well-known among the debates the Buddha had with ascetics of other sects is the debate with Saccaka, the ascetic. An account of it is found in the *Cūḷasaccakasutta* of the *Majjhima Nikāya*. The debate had all the outward appearance of a hot dispute. However, towards the end of it, the Buddha makes the following challenge to Saccaka: "As for you, *Aggivessana,* drops of sweat have come down from your forehead, soaked through your upper robe and reached the ground. But, Aggivessana, there is no sweat on my body now." So saying he uncovered his golden-hued body in that assembly, *iti Bhagavā tasmiṁ parisatiṁ suvaṇṇavaṇṇaṁ kāyaṁ vivari*. [^fn431]
 
 Even in the midst of a hot debate, the Buddha had no agitation because he did not adhere to any views. There was for him no bondage in terms of craving, conceit and views. Even in the thick of a heated debate the Buddha was uniformly calm and cool.
 
@@ -4344,7 +4344,7 @@ The word *nivesanaṁ*, occurring in the first verse, is also significant. It me
 
 The nature of consciousness in general is to abide or dwell in. That non-manifestative consciousness, *anidassana viññāṇa*, however, has got rid of the tendency to abide or dwell in.
 
-Now we can revert to the passage in the *Dhātuvibhaṅgasutta*, which speaks of an occurrence of tides of imaginings. The passage actually begins with the words *yatthaṭṭhitaṁ maññussavā nappavattanti*, "steadied whereon the tides of imaginings occur no more in him". The idea behind this occurrence of tides of imaginings is quite often represented by the concept of *āsava*, influx. Sensuality, *kāma*, existence, *bhava*, views, *diṭṭhi* and ignorance, *avijjā*, are referred to as "influxes", *āsavā*, or "floods", *oghā*. These are the four kinds of *samsāric* habits that continuously flow into the minds of beings.
+Now we can revert to the passage in the *Dhātuvibhaṅgasutta*, which speaks of an occurrence of tides of imaginings. The passage actually begins with the words *yatthaṭṭhitaṁ maññussavā nappavattanti*, "steadied whereon the tides of imaginings occur no more in him". The idea behind this occurrence of tides of imaginings is quite often represented by the concept of *āsava*, influx. Sensuality, *kāma*, existence, *bhava*, views, *diṭṭhi* and ignorance, *avijjā*, are referred to as "influxes", *āsavā*, or "floods", *oghā*. These are the four kinds of *saṁsāric* habits that continuously flow into the minds of beings.
 
 The above mentioned sutta passage refers to a place steadied whereon the tides of imaginings do not occur or flow in, a place that is free from their 'influence'. This is none other than Nibbāna, for which one of the epithets used is *dīpa*, or island.[^fn490]
 
@@ -11586,7 +11586,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn80]: M I 141, *Alagaddūpamasutta*
 
-[^fn81]: Ud 75, *DutiyaLakuṇḍakabhaddiyasutta*
+[^fn81]: Ud 75, *Dutiyalakuṇḍakabhaddiyasutta*
 
 [^fn82]: S I 15, *Sarasutta*
 
@@ -11792,13 +11792,13 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn183]: *Idappaccayatā* is discussed in detail above, see *Sermon 2*
 
-[^fn184]: A III 440, *CatutthaAbhabbaṭṭhānasutta*
+[^fn184]: A III 440, *Catutthaabhabbaṭṭhānasutta*
 
 [^fn185]: See *Sermon 2*
 
 [^fn186]: Sp-ṭ III 226 (Burmese ed.).
 
-[^fn187]: Ud 2, *DutiyaBodhisutta*
+[^fn187]: Ud 2, *Dutiyabodhisutta*
 
 [^fn188]: M I 263, *Mahātaṇhāsaṅkhayasutta*
 
@@ -11892,7 +11892,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn233]: S II 17, *Kaccāyanagottasutta*, see *Sermon 4*
 
-[^fn234]: Ud 80, *DutiyaNibbānapaṭisaṁyuttasutta*
+[^fn234]: Ud 80, *Dutiyanibbānapaṭisaṁyuttasutta*
 
 [^fn235]: Ud-a 393
 
@@ -11992,7 +11992,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn283]: E.g. at M I 326, *Brahmanimantanikasutta*
 
-[^fn284]: Ud 93, *DutiyaDabbasutta*; Th 264, Vimala Thera.
+[^fn284]: Ud 93, *Dutiyadabbasutta*; Th 264, Vimala Thera.
 
 [^fn285]: M I 197, *Mahāsāropamasutta*
 
@@ -12050,7 +12050,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn312]: Sn 1119, ibid.
 
-[^fn313]: M I 251, *CūḷaTaṇhāsaṅkhayasutta*
+[^fn313]: M I 251, *Cūḷataṇhāsaṅkhayasutta*
 
 [^fn314]: A IV 338, *Kiṁmūlakasutta*
 
@@ -12286,7 +12286,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn430]: S III 138, *Pupphasutta*
 
-[^fn431]: M I 233, *CūḷaSaccakasutta*
+[^fn431]: M I 233, *Cūḷasaccakasutta*
 
 [^fn432]: Sn 530, *Sabhiyasutta*
 
@@ -12340,7 +12340,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn457]: Sn 874, *Kalahavivādasutta*; see *Sermon 11*
 
-[^fn458]: E.g. at Sn 219, *Munisutta*; and Th 748, *TelakāniTheragāthā*
+[^fn458]: E.g. at Sn 219, *Munisutta*; and Th 748, *Telakānittheragāthā*
 
 [^fn459]: Sn 68, *Khaggavisāṇasutta*
 
@@ -12372,7 +12372,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn473]: See *Sermon 8*; M I 329, *Brahmanimantanikasutta*
 
-[^fn474]: M I 251, *CūḷaTaṇhāsaṅkhayasutta*
+[^fn474]: M I 251, *Cūḷataṇhāsaṅkhayasutta*
 
 [^fn475]: S I 14, *Arahantasutta*
 
@@ -12504,7 +12504,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn539]: M III 71, *Mahācattārīsakasutta*
 
-[^fn540]: M I 301, *CūḷaVedallasutta*
+[^fn540]: M I 301, *Cūḷavedallasutta*
 
 [^fn541]: M I 108, *Madhupiṇḍikasutta*
 
@@ -12834,7 +12834,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn704]: See sermons 12
 
-[^fn705]: Ud 75, *DutiyaLakuṇṭakabhaddiyasutta*, see *Sermon 2*
+[^fn705]: Ud 75, *Dutiyalakuṇṭakabhaddiyasutta*, see *Sermon 2*
 
 [^fn706]: S III 59, *Upādānaparivaṭṭasutta* and S III 63, *Sattaṭṭhānasutta*
 
@@ -13262,7 +13262,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn918]: Dhp 385, *Brāhmaṇavagga*; see sermons 5, 18 and 19
 
-[^fn919]: Ud 75, *DutiyaLakuṇtakabhaddiyasutta*
+[^fn919]: Ud 75, *Dutiyalakuṇtakabhaddiyasutta*
 
 [^fn920]: D II 119, *Mahāparinibbānasutta*
 
@@ -13308,7 +13308,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn941]: Thī 101, *Sakulātherīgāthā*
 
-[^fn942]: E.g. M I 300, *CūlaVedallasutta*
+[^fn942]: E.g. M I 300, *Cūḷavedallasutta*
 
 [^fn943]: M I 56, *Satipaṭṭhānasutta*
 
@@ -13516,7 +13516,7 @@ May all gods and Brahmās and all beings rejoice in the merits accrued by these 
 
 [^fn1045]: M III 187, *Bhaddekarattasutta*
 
-[^fn1046]: M I 304, *CūlaVedallasutta*
+[^fn1046]: M I 304, *Cūḷavedallasutta*
 
 [^fn1047]: Sn 754-755, *Dvayatānupassanāsutta*, see *Sermon 15*
 

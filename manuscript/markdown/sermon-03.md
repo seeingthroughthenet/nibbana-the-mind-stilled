@@ -101,12 +101,12 @@ Here we find ourselves in a queer situation. All we can say in fairness to truth
 is that there had been a certain form of activity, a certain state of unrest,
 due to certain causes and conditions. Because of that activity that was going on
 there, it was possible to designate it, to give it a name. By worldly convention
-one could refer to it as "that place" or "this place".
+one could refer to it as 'that place' or 'this place'.
 
 The entire field of activity was called a whirlpool by worldly convention. But
 now, the so-called whirlpool is no more. The worldly convention is no more
-applicable as in the case of an extinguished fire. The word "fire" was
-introduced, the concept of "fire" was created, to designate a certain state of
+applicable as in the case of an extinguished fire. The word 'fire' was
+introduced, the concept of 'fire' was created, to designate a certain state of
 affairs that arose due to causes and conditions, due to graspings. So from this
 also we can see that it is in concepts that ignorance finds a camouflage.
 

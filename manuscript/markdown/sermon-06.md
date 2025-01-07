@@ -406,7 +406,7 @@ judging whether life is present or extinct in a person.
 That activity is something internal. But even at that level, defilements lie
 dormant, because ignorance is hiding there too. In fact, that is precisely why
 they are reckoned as *saṅkhāra*. Usually, one thinks in terms of 'I' and 'mine',
-as: "I breathe", "I speak", "I see", and "I feel". So, like the submerged
+as: 'I breathe', 'I speak', 'I see', and 'I feel'. So, like the submerged
 portion of an iceberg, these subtler layers of preparations also have ignorance
 hidden within them. That is why the attempt of pre-Buddhistic ascetics to solve
 this *saṁsāric* riddle by tranquillity alone met with failure.

@@ -603,12 +603,11 @@ less related to each other in sense.
 
 Then, in which sense is Nibbāna called *dhuva*? In the sense that the experience
 of Nibbāna is irreversible. That is why it is referred to as *acalaṁ
-sukhaṁ*,[^fn284] "unshakeable bliss".
+sukhaṁ*,[^fn284] 'unshakeable bliss'.
 
 The term *akuppā cetovimutti*, "unshakeable deliverance of the mind", expresses
 the same idea. Sometimes the Buddha refers to Nibbāna as *akuppā
 cetovimutti*.[^fn285] All other such deliverances are shakeable, or irritable.
-
 
 As the expression *kuppapaṭicca santi*, "peace dependent on
 irritability",[^fn286] implies, they are irritable and shakeable.

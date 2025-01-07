@@ -899,7 +899,7 @@ It indeed deserves a paean of joy.
 
 [^fn539]: M III 71, *Mahācattārīsakasutta*
 
-[^fn540]: M I 301, *CūḷaVedallasutta*
+[^fn540]: M I 301, *Cūḷavedallasutta*
 
 [^fn541]: M I 108, *Madhupiṇḍikasutta*
 

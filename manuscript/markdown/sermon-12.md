@@ -727,7 +727,7 @@ Here we are against a peculiar expression, which is rather problematic, that is,
 *mā maññi*.
 
 The commentary simply glosses over with the words *maññatī'ti maññi*, taking it
-to mean the same as *maññati,* "imagines".[^fn435] Its only explanation for the
+to mean the same as *maññati*, 'imagines'.[^fn435] Its only explanation for the
 use of this peculiar expression in this context is that the *sekha*, or the one
 in higher training, has already done away with *diṭṭhimaññanā* or imagining in
 terms of views, though he still has imaginings through craving and conceit. So,
@@ -741,7 +741,7 @@ means 'let one not imagine', or 'let one not entertain imaginings', *maññanā*
 A clear instance of the use of this expression in this sense is found at the end
 of the *Samiddhisutta*, discussed in an earlier sermon.[^fn436] Venerable
 Samiddhi answered Venerable Sāriputta's catechism creditably and the latter
-acknowledged it with a "well-done", *sādhu sādhu*, but cautioned him not to be
+acknowledged it with a 'well-done', *sādhu sādhu*, but cautioned him not to be
 proud of it, *tena ca mā maññi*, "but do not be vain on account of it".[^fn437]
 
 The use of the prohibitive particle with reference to the world-view of the monk

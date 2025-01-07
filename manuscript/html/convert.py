@@ -211,6 +211,9 @@ def convert():
     md['text'] = md['text'].replace("*Arahant-*ship", '*arahantship*')
     md['text'] = md['text'].replace('*arahant*-hood', '*arahanthood*')
 
+    # saṁsāra, saṁsāric
+    md['text'] = md['text'].replace('samsār', 'saṁsār')
+
     # Remove italics from common terms
     # Keep in mind punctuation: ... to see them in *Nibbāna.*
     for w in ["Nibbāna", "Buddha", "Dhamma", "Saṅgha", "Pāli", "sutta", "suttas"]:
@@ -236,16 +239,22 @@ def convert():
     md['text'] = md['text'].replace("*bodhisatta Vipassī*", "*bodhisatta* Vipassī")
     md['text'] = md['text'].replace("*Vipassī bodhisatta*", "Vipassī *bodhisatta*")
 
-    # Sutta titles
+    # Sutta titles: no SnakeCase
     # MahāPadānasutta -> Mahāpadānasutta
+    # CūḷaSaccakasutta -> Cūḷasaccakasutta
 
-    while True:
-        m = re.search(r'Mahā([A-Z])', md['text'])
-        if m:
-            ch = m.group(1).lower()
-            md['text'] = md['text'].replace(m.group(0), f'Mahā{ch}')
-        else:
-            break
+    md['text'] = md['text'].replace("Cūla", "Cūḷa")
+
+    for i in ["Mahā", "Cūḷa", "Dutiya", "Catuttha"]:
+        while True:
+            m = re.search(f'{i}([A-Z])', md['text'])
+            if m:
+                ch = m.group(1).lower()
+                md['text'] = md['text'].replace(m.group(0), f'{i}{ch}')
+            else:
+                break
+
+    md['text'] = md['text'].replace("TelakāniTheragāthā", "Telakānittheragāthā")
 
     # MahāHatthipadopama Sutta -> Mahāhatthipadopamasutta
     md['text'] = md['text'].replace(" Sutta*", "sutta*")

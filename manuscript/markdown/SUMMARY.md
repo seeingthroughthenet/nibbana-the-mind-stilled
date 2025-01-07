@@ -26,5 +26,9 @@
 - [Sermon 14](sermon-14.md)
 - [Sermon 15](sermon-15.md)
 - [Sermon 16](sermon-16.md)
+- [Sermon 17](sermon-17.md)
+- [Sermon 18](sermon-18.md)
+- [Sermon 19](sermon-19.md)
+- [Sermon 20](sermon-20.md)
 
 [Copyright](copyright.md)

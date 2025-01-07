@@ -720,7 +720,7 @@ suggestive of deliberate activity.
 Though we render the formula in this way, the commentary explains it
 differently. It ignores the significance of the personal ending and interprets
 the sensory process periphrastically, for example as *saññā sañjānāti, vitakko
-vitakketi*, "perception perceives", "reasoning reasons about", etc.[^fn401] It
+vitakketi*, 'perception perceives', 'reasoning reasons about', etc.[^fn401] It
 amounts to saying that, when feeling occurs, perception comes forward and
 perceives it, then reasoning takes up the task of reasoning about perception.
 *Papañca* then steps in and converts that reasoning into *papañca*. This is how

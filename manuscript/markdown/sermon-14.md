@@ -156,8 +156,8 @@ This declaration exemplifies the above statement. When all graspings are given
 up, there is no 'decay' or 'death'.
 
 *Amiyyamāno kiṁ kuppissati,* "not dying, how shall he be shaken?" The verb
-*kuppati* does not necessarily mean "getting annoyed". Here it means to be
-"shaken up" or "moved". When one holds on to a standpoint, one gets shaken up if
+*kuppati* does not necessarily mean 'getting annoyed'. Here it means to be
+'shaken up' or 'moved'. When one holds on to a standpoint, one gets shaken up if
 someone else tries to dislodge him from that standpoint.
 
 The deliverance in Nibbāna is called *akuppā cetovimutti*, the unshakeable
@@ -169,8 +169,8 @@ deliverance of the mind.
 So this peaceful sage, the *arahant*, established in that concentration of the
 fruit of *arahanthood*, *arahatta phalasamādhi*, which is known as the
 influx-free deliverance of the mind, *anāsavā cetovimutti*, and is endowed with
-the wisdom proper to *arahanthood*, *paññāvimutti*, "deliverance through
-wisdom", is unshaken before death. His mind remains unshaken. That is why the
+the wisdom proper to *arahanthood*, *paññāvimutti*, 'deliverance through
+wisdom', is unshaken before death. His mind remains unshaken. That is why the
 *arahant* Thera Venerable Adhimutta fearlessly made the above declaration to the
 bandits.
 
@@ -238,8 +238,8 @@ this world, the suchness, the norm. It can do us harm only when we grasp, just
 as in the case of that quasi rope.
 
 The tenseness between winding and unwinding, arising out of that grasp in the
-middle, is comparable to what is called *bhavasaṅkhāra*, "preparations for
-existence". *Saṅkhārā*, or preparations, are said to be dependent on *avijjā*,
+middle, is comparable to what is called *bhavasaṅkhāra*, 'preparations for
+existence'. *Saṅkhārā*, or preparations, are said to be dependent on *avijjā*,
 or ignorance.
 
 Now we can form an idea of the relationship between these two even from this
@@ -330,8 +330,8 @@ occurrence of tides of imaginings. The passage actually begins with the words:
 
 The idea behind this occurrence of tides of imaginings is quite often
 represented by the concept of *āsava*, influx. Sensuality, *kāma*, existence,
-*bhava*, views, *diṭṭhi* and ignorance, *avijjā*, are referred to as "influxes",
-*āsavā*, or "floods", *oghā*. These are the four kinds of *saṁsāric* habits that
+*bhava*, views, *diṭṭhi* and ignorance, *avijjā*, are referred to as 'influxes',
+*āsavā*, or 'floods', *oghā*. These are the four kinds of *saṁsāric* habits that
 continuously flow into the minds of beings.
 
 The above mentioned sutta passage refers to a place steadied whereon the tides

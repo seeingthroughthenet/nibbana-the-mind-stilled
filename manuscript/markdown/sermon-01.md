@@ -695,7 +695,7 @@ completes the training in the Holy Life, one is already in Nibbāna. Only when
 the training is incomplete, can one go to heaven.
 
 Here, then, is a result which comes of its own accord. So there is no
-justification for a periphrastic usage like, "on reaching Nibbāna". No glimpse
+justification for a periphrastic usage like, 'on reaching Nibbāna'. No glimpse
 of a distant object is necessary. At whatever moment the Noble Eightfold Path is
 perfected, one attains Nibbāna then and there. Now, in the case of an
 examination, after answering the question paper, one has to wait for the

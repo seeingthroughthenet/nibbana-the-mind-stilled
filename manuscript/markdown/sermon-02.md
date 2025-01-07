@@ -346,8 +346,8 @@ here in the form of a fundamental principle.
 
 It resembles an algebraical formula.
 
-And then we have the conjunctive *yadidaṁ*, which means "namely this" or "that
-is to say". This shows that the foregoing statement is axiomatic and implies
+And then we have the conjunctive *yadidaṁ*, which means 'namely this' or 'that
+is to say'. This shows that the foregoing statement is axiomatic and implies
 that what follows is an illustration. So the twelve linked formula beginning
 with the words *avijjāpaccayā saṅkhārā* is that illustration. No doubt the
 twelve-linked formula is impressive enough. But the important thing here is the
@@ -700,7 +700,7 @@ bhaṅga*,[^fn73] "arising, persistence and breaking up".
 However the law of impermanence could be sufficiently understood even with the
 help of two words, *itthabhāva* and *aññathābhāva*, this-ness and
 otherwise-ness. Very often we find the Buddha summing up the law of impermanence
-in the two words *samudaya* and *vaya*, "arising" and "passing away".[^fn74]
+in the two words *samudaya* and *vaya*, 'arising' and 'passing away'.[^fn74]
 
 There is an apparent contradiction in the phrase *ṭhitassa aññathatta*, but it
 reminds us of the fact that what the world takes as static or persisting is
