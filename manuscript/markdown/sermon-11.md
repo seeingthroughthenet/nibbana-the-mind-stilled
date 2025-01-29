@@ -27,7 +27,7 @@ by the Buddha to the word *rūpa*, quoting the relevant passage from the
 *Khajjanīyasutta* of the *Khandhasaṁyutta* in the *Saṁyutta Nikāya*. He has
 defined the form group with reference to 'affectation':
 
-> *Ruppatīti kho, bhikkhave, tasmā rūpan'ti vuccati.*[^fn378]
+> *Ruppatī'ti kho, bhikkhave, tasmā rūpan'ti vuccati.*[^fn378]
 >
 > It is affected, monks, that is why it is called form. By what is it affected?
 > By cold, heat, hunger, thirst, and the sting of gadflies, mosquitoes and the

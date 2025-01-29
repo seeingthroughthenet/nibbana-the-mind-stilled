@@ -619,10 +619,10 @@ The Buddha himself has explained the word, giving the following etymology in the
 *Khajjanīyasutta* of the *Khandhasaṁyutta* in the *Saṁyutta Nikāya*. While
 defining the five groups there, he defines the form group as follows:
 
-> *Kiñca, bhikkhave, rūpaṁ vadetha? Ruppatīti kho, bhikkhave, tasmā rūpan'ti
+> *Kiñca, bhikkhave, rūpaṁ vadetha? Ruppatī'ti kho, bhikkhave, tasmā rūpan'ti
 > vuccati. Kena ruppati? Sītena pi ruppati, uṇhena pi ruppati, jighacchāya pi
 > ruppati, pipāsāya pi ruppati, daṁsamakasavātātapasiriṁsapasamphassena pi
-> ruppati. Ruppatīti kho, bhikkhave, tasmā rūpan'ti vuccati.*[^fn368]
+> ruppati. Ruppatī'ti kho, bhikkhave, tasmā rūpan'ti vuccati.*[^fn368]
 >
 > And what, monks, do you call *rūpa*? It is affected, monks, that is why it is
 > called *rūpa*. Affected by what? Affected by cold, affected by heat, affected

@@ -288,7 +288,7 @@ giving the idea of impermanence. Let us now try to translate it.
 > Thus these things, too, are unstable, evanescent, impermanent, changing and
 > becoming otherwise.
 
-The *Sutta* proceeds in this way, stressing the impermanence of the other
+The sutta proceeds in this way, stressing the impermanence of the other
 sense-spheres as well, the ear, the nose, the tongue, the body and the mind. The
 entire discourse vibrates with the tone of impermanence.
 

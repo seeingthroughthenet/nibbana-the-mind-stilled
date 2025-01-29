@@ -873,7 +873,7 @@ has compared form to a mass of foam, feeling to a water bubble, perception to a
 mirage, preparations to a banana trunk, and consciousness to a magic show.
 
 What is of relevance to us here is the comparison of consciousness to a magic
-show. The simile of the magic show is presented in that *Sutta* in the following
+show. The simile of the magic show is presented in that sutta in the following
 words:
 
 > *Seyyathāpi, bhikkhave, māyākāro vā māyākārantevāsī vā cātummahāpathe māyaṁ

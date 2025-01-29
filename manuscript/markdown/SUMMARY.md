@@ -35,5 +35,13 @@
 - [Sermon 23](sermon-23.md)
 - [Sermon 24](sermon-24.md)
 - [Sermon 25](sermon-25.md)
+- [Sermon 26](sermon-26.md)
+- [Sermon 27](sermon-27.md)
+- [Sermon 28](sermon-28.md)
+- [Sermon 29](sermon-29.md)
+- [Sermon 30](sermon-30.md)
+- [Sermon 31](sermon-31.md)
+- [Sermon 32](sermon-32.md)
+- [Sermon 33](sermon-33.md)
 
 [Copyright](copyright.md)
