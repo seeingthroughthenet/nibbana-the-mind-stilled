@@ -798,7 +798,7 @@ death, a solution that completely outwits Māra.
 
 [^fn622]: See *Sermon 12*
 
-[^fn623]: E.g. Ps I 183, commenting on M I 40, *Sallekhasutta*: *n'etaṁ mama, n'eso ham asmi, na meso attā ti*
+[^fn623]: E.g. Ps I 183, commenting on M I 40, *Sallekhasutta*: *netaṁ mama, neso 'ham asmi, na meso attā ti*
 
 [^fn624]: M I 168, *Ariyapariyesanasutta*
 

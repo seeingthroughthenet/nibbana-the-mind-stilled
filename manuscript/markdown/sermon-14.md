@@ -485,7 +485,7 @@ understand what is meant by it. There is no attempt at atomistic analysis.
 However, the Buddha draws special attention to a certain first principle of great significance.
 
 > *Yā c'eva kho pana ajjhattikā paṭhavīdhātu, yā ca bāhirā paṭhavīdhātu,
-> paṭhavīdhātur ev'esā. Taṁ n'etaṁ mama, n'eso ham asmi, na me so attā ti evam
+> paṭhavīdhātur ev'esā. Taṁ netaṁ mama, neso 'ham asmi, na me so attā ti evam
 > etaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. Evam etaṁ yathābhūtaṁ sammappaññāya
 > disvā paṭhavīdhātuyā nibbindati, paṭhavīdhātuyā cittaṁ virājeti.*[^fn495]
 >

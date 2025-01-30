@@ -539,7 +539,7 @@ There are a number of definitions of the world given by the Buddha. We shall
 cite two of them. A certain monk directly asked the Buddha to give a definition
 of the world:
 
-> *'Loko, loko'ti bhante, vuccati. Kittāvatā nu kho, bhante, loko'ti vuccati?*
+> *'Loko, loko'ti bhante, vuccati. Kittāvatā nu kho, bhante, 'loko'ti vuccati?*
 >
 > 'The world, the world', so it is said. In what respect, Venerable sir, is it
 > called a world?
@@ -549,7 +549,7 @@ Then the Buddha makes the following significant declaration:
 > *'Lujjatī'ti kho, bhikkhu, tasmā 'loko'ti vuccati. Kiñca lujjati? Cakkhu kho,
 > bhikkhu, lujjati, rūpā lujjanti, cakkhuviññāṇaṁ lujjati, cakkhusamphasso
 > lujjati, yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ
-> vā adukkhamasukhaṁ vā tampi lujjati. Lujjatī'ti kho, bhikkhu, tasmā loko'ti
+> vā adukkhamasukhaṁ vā tampi lujjati. 'Lujjatī'ti kho, bhikkhu, tasmā 'loko'ti
 > vuccati.*[^fn695]
 >
 > It is disintegrating, monk, that is why it is called 'the world'. And what is

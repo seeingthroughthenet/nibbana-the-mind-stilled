@@ -492,7 +492,7 @@ following impressive declaration:
 > beings in the animal realm. Therefore, monks, should a monk reflect moment to
 > moment on one's own mind with the thought: For a long time has this mind been
 > defiled by lust, hate, and delusion. By the defilement of the mind, monks, are
-> beings defiled. By the purification of the mind, are beings purified.
+> beings defiled. By the purification of the mind, are beings purified.'
 
 Here the Buddha gives two illustrations to show how marvellous this mind is.
 First he asks the monks whether they have seen a picture called *caraṇa*. Though

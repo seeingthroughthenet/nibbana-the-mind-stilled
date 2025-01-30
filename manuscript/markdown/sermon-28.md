@@ -403,7 +403,7 @@ monks, Venerable Sāriputta says:
 > kharigataṁ upādiṇṇaṁ, ayaṁ vuccat'āvuso ajjhattikā paṭhavīdhātu.*
 >
 > *Yā c'eva kho pana ajjhattikā paṭhavīdhātu yā ca bāhirā paṭhavīdhātu
-> paṭhavīdhāturev'esā. Taṁ n'etaṁ mama n'eso 'ham asmi, na meso attā'ti evam
+> paṭhavīdhāturev'esā. Taṁ netaṁ mama neso 'ham asmi, na meso attā'ti evam
 > etaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. Evam etaṁ yathābhūtaṁ sammappaññāya
 > disvā paṭhavīdhatuyā nibbindati, paṭhavīdhatuyā cittaṁ virājeti*.[^fn922]
 >

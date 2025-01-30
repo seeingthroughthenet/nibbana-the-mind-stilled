@@ -375,7 +375,7 @@ in the *Dvayatānupassanāsutta* of the *Sutta Nipāta*.
 > sassamaṇabrāhmaṇiyā pajāya sadevamanussāya 'idaṁ saccan'ti upanijjhāyitaṁ,
 > tadam ariyānaṁ 'etaṁ musā'ti yathābhūtaṁ sammappaññāya suddiṭṭhaṁ – ayaṁ
 > ekānupassanā. Yaṁ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa
-> sassamaṇabrāhmaṇiyā pajāya sadevamanussāya 'idaṁ musā' ti upanijjhāyitaṁ,
+> sassamaṇabrāhmaṇiyā pajāya sadevamanussāya 'idaṁ musā'ti upanijjhāyitaṁ,
 > tadam ariyānaṁ 'etaṁ saccan'ti yathābhūtaṁ sammappaññāya suddiṭṭhaṁ – ayaṁ
 > dutiyānupassanā.*[^fn888]
 >

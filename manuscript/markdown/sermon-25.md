@@ -390,7 +390,7 @@ seeing just what the common people have seen. This is an oversimplification, a
 rather shallow interpretation.
 
 The next phrase, *adiṭṭhaṁ na maññati*, is similarly explained, *'adiṭṭhaṁ na
-maññatī'ti 'ahaṁ mahājanena adiṭṭhameva etaṁ passāmī' ti evampi taṇhādihi
+maññatī'ti 'ahaṁ mahājanena adiṭṭhameva etaṁ passāmī'ti evampi taṇhādihi
 maññanāhi na maññati*, "he does not imagine an unseen" means that the Tathāgata
 does not imagine by way of imaginings through craving etc. that he is seeing
 something unseen by the common people. The commentary, it seems, has gone at a
@@ -518,7 +518,7 @@ Now we come to the fifth section of the discourse, known as *tādibhūmi*, the
 
 > *Iti kho, bhikkhave, tathāgato diṭṭha-suta-muta-viññātabbesu dhammesu tādī
 > yeva tādī, tamhā ca pana tādimhā añño tādī uttaritaro vā paṇītataro vā
-> n'atthī'ti vadāmi*.
+> natthī'ti vadāmi*.
 >
 > Thus, monks, the Tathāgata, being such in regard to all phenomena, seen,
 > heard, sensed and cognized, is such. Moreover than he who is such there is
@@ -785,8 +785,8 @@ phrase *paraṁ daheyyaṁ*. It takes the word *paraṁ* in the sense of 'suprem
 count on the following two lines of the *Cūḷaviyūhasutta* of the *Suttanipāta*
 in support of our interpretation.
 
-> *Yen' eva 'bālo 'ti paraṁ dahāti,* \
-> *tenātumānaṁ 'kusalo 'ti cāha.*[^fn835]
+> *Yen' eva 'bālo'ti paraṁ dahāti,* \
+> *tenātumānaṁ 'kusalo'ti cāha.*[^fn835]
 >
 > That by which one dubs the other a fool, \
 > By that itself one calls oneself an expert.

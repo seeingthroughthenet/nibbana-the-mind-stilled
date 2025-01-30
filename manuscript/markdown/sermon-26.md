@@ -237,7 +237,7 @@ Now we come to the conclusive declaration:
 
 > *Iti kho, bhikkhave, tathāgato diṭṭha-suta-muta-viññātabbesu dhammesu tādī
 > yeva tādī, tamhā ca pana tādimhā añño tādī uttaritaro vā paṇītataro vā
-> n'atthī'ti vadāmi.*
+> natthī'ti vadāmi.*
 >
 > Thus, monks, the Tathāgata, being such in regard to all phenomena, seen,
 > heard, sensed and cognized, is such. Moreover than he who is such there is

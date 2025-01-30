@@ -337,7 +337,7 @@ In the *Mahāhatthipadopamasutta* of the *Majjhima Nikāya* we come across a way
 of reflection that leads to insight in the following instruction.
 
 > *Yā c' eva kho pana ajjhattikā paṭhavidhātu, yā ca bāhirā paṭhavidhātu,
-> paṭhavidhātur ev' esā. Taṁ n' etaṁ mama, n' eso 'haṁ asmi, na meso attā 'ti
+> paṭhavidhātur ev' esā. Taṁ netaṁ mama, neso 'haṁ asmi, na meso attā'ti
 > evam etaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ.*[^fn716]
 >
 > Now whatever earth element that is internal, and whatever earth element that
@@ -559,13 +559,13 @@ reflection leading to insight.
 
 > *Tasmā ti ha, Anurādha, yaṁ kiñci rūpam atītānāgatapaccuppannam ajjhattaṁ vā
 > bahiddhā vā oḷārikaṁ vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā, yaṁ dūre santike vā,
-> sabbaṁ rūpaṁ 'n'etaṁ mama, n'eso'ham asmi, na meso attā'ti
+> sabbaṁ rūpaṁ 'netaṁ mama, neso 'ham asmi, na meso attā'ti
 > evam etaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ.*
 >
 > *Yā kāci vedanā atītānāgatapaccuppannā ... yā kāci saññā ... ye keci saṅkhāra
 > ... yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannam ajjhattaṁ vā bahiddhā vā oḷārikaṁ
 > vā sukhumaṁ vā hīnaṁ vā paṇītaṁ vā, yaṁ dūre santike vā,
-> sabbaṁ viññāṇaṁ 'n'etaṁ mama, n'eso'ham asmi, na meso attā'ti
+> sabbaṁ viññāṇaṁ 'netaṁ mama, neso 'ham asmi, na meso attā'ti
 > evam etaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ.*
 >
 > *Evaṁ passaṁ, Anurādha, sutavā ariyasāvako rūpasmim pi nibbindati, vedanāya pi

@@ -185,7 +185,7 @@ verse.
 > *Saṅkhāre parato disvā* \
 > *hetujāte palokine* \
 > *pahāsiṁ āsave sabbe* \
-> *sītibhūta 'mhi nibbutā.*[^fn941]
+> *sītibhūta'mhi nibbutā.*[^fn941]
 >
 > By seeing as alien all preparations, \
 > As causally arisen and fragile, \

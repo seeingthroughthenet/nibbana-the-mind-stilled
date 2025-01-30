@@ -532,7 +532,7 @@ Let us now take up the relevant portions of this abstruse discourse.
 >
 > *Iti kho, bhikkhave, tathāgato diṭṭha-suta-muta-viññātabbesu dhammesu tādī,
 > yeva tādī tamhā ca pana tādimhā añño tādī uttaritaro vā paṇītataro vā
-> n'atthī'ti vadāmi.*
+> natthī'ti vadāmi.*
 >
 > *Yaṁ kiñci diṭṭhaṁ va sutaṁ mutaṁ vā,* \
 > *ajjhositaṁ saccamutaṁ paresaṁ,* \

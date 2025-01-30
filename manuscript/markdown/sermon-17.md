@@ -208,7 +208,7 @@ runs:
 >
 > *Seyyathāpi, āvuso, sakalikaggissa jhāyamānassa aññā'va acci uppajjati,
 > aññā'va acci nirujjhati, evam eva kho me āvuso bhavanirodho nibbānaṁ,
-> bhavanirodho nibbānam 'ti aññā'va saññā uppajjati aññā'va saññā nirujjhati,
+> bhavanirodho nibbānam'ti aññā'va saññā uppajjati aññā'va saññā nirujjhati,
 > bhavanirodho nibbānaṁ saññī ca panāhaṁ, āvuso, tasmiṁ samaye ahosiṁ.*
 >
 > One perception arises in me, friend: 'cessation of existence is Nibbāna',

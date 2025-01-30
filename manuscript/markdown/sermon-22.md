@@ -85,7 +85,7 @@ which this statement is made, when we quoted an extraordinary new etymology, the
 Buddha had advanced, for the term *satta* in the *Rādhasaṁyutta*.
 
 > *Rūpe kho, Rādha, yo chando yo rāgo yā nandī yā taṇhā, tatra satto, tatra
-> visatto, tasmā 'satto 'ti vuccati.*[^fn731]
+> visatto, tasmā 'satto'ti vuccati.*[^fn731]
 >
 > Rādha, that desire, that lust, that delight, that craving in form with which
 > one is attached and thoroughly attached, therefore is one called a 'being'.
@@ -203,7 +203,7 @@ existence. About this emancipated one, he now makes the following declaration:
 >
 > A monk, thus released in mind, O! monks, gods including Indra, Pajāpati and
 > Brahmā, are unable to trace in their search to be able to say of him: 'the
-> consciousness of this thus-gone-one is dependent on this. And why is that so?
+> consciousness of this thus-gone-one is dependent on this'. And why is that so?
 > Monks, I say, even here and now the Tathāgata is not to be found.
 >
 > When I say thus, when I teach thus, some recluses and brahmins wrongly and
@@ -407,11 +407,11 @@ the standard formula.
 
 > *Tasmātiha, āvuso Yamaka, yaṁ kiñci rūpaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā
 > bahiddhā vā oḷārikaṁ va sukhumaṁ vā hīnaṁ vā panītaṁ vā yaṁ dūre santike vā,
-> sabbaṁ rūpaṁ n'etaṁ mama n'eso 'ham asmi, na me so attā'ti evam etaṁ
+> sabbaṁ rūpaṁ netaṁ mama neso 'ham asmi, na me so attā'ti evam etaṁ
 > yathābhūtaṁ sammāpaññāya daṭṭhabbaṁ. Ya kāci vedanā ... ya kāci saññā ... ye
 > keci saṅkhāra ... yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ ajjhattaṁ vā
 > bahiddhā vā oḷārikaṁ va sukhumaṁ vā hīnaṁ vā panītaṁ vā yaṁ dūre santike vā,
-> sabbaṁ viññāṇaṁ n'etaṁ mama n'eso 'ham asmi, na me so attā'ti evam etaṁ
+> sabbaṁ viññāṇaṁ netaṁ mama neso 'ham asmi, na me so attā'ti evam etaṁ
 > yathābhūtaṁ sammāpaññāya daṭṭhabbaṁ.*
 >
 > *Evaṁ passaṁ, āvuso Yamaka, sutavā ariyasāvako rūpasmiṁ nibbindati, vedanāya
@@ -446,7 +446,7 @@ poses the same questions which the Buddha addressed to Venerable Anurādha.
 > consciousness as the Tathāgata?" "No, friend."
 >
 > "What do you think, friend Yamaka, do you regard the Tathāgata as in form?"
-> "No, friend." "Do you regard the Tathāgata as apart from form?" "No, friend.
+> "No, friend." "Do you regard the Tathāgata as apart from form?" "No, friend."
 > "Do you regard the Tathāgata as in feeling?" "No, friend." "Do you regard the
 > Tathāgata as apart from feeling?" "No, friend." "Do you regard the Tathāgata
 > as in perception?" "No, friend." "Do you regard the Tathāgata as apart from

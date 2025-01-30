@@ -99,12 +99,12 @@ of preparation in the word *saṅkhāra* is explicitly stated, namely the
 *Khajjanīyasutta*. In that discourse, each of the five grasping groups is
 defined, and the term *saṅkhāra* is defined as follows:
 
-> *Kiñca, bhikkhave, saṅkhāre vadetha? Saṅkhatam abhisaṅkharontī'ti kho,
+> *Kiñca, bhikkhave, saṅkhāre vadetha? 'Saṅkhatam abhisaṅkharontī'ti kho,
 > bhikkhave, tasmā 'saṅkhārā'ti vuccanti. Kiñca saṅkhatam abhisaṅkharonti? Rūpaṁ
 > rūpattāya saṅkhatam abhisaṅkharonti, vedanaṁ vedanattāya saṅkhatam
 > abhisaṅkharonti, saññaṁ saññattāya saṅkhatam abhisaṅkharonti, saṅkhāre
 > saṅkhārattāya saṅkhatam abhisaṅkharonti, viññāṇaṁ viññāṇattāya saṅkhatam
-> abhisaṅkharonti. Saṅkhatam abhisaṅkharontī'ti kho, bhikkhave, tasmā
+> abhisaṅkharonti. 'Saṅkhatam abhisaṅkharontī'ti kho, bhikkhave, tasmā
 > 'saṅkhārā'ti vuccanti.*[^fn195]
 >
 > And what, monks, would you say are 'preparations'? They prepare the prepared –
