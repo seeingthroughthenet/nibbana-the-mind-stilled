@@ -625,7 +625,7 @@ parinibbāna*. That becomes clear by the last three lines of the Buddha's reply,
 We came across the word *anissita* in our discussions about Nibbāna, for
 instance in the cryptic formula
 
-> *nissitassa calitaṁ, anissitassa calitaṁ n'atthi*,[^fn978]
+> *nissitassa calitaṁ, anissitassa calitaṁ natthi*,[^fn978]
 >
 > to the one attached there is wavering, to the unattached one, there is no
 > wavering.

@@ -252,7 +252,7 @@ dichotomy rather rhetorically:
 
 > *'Saccan'ti so brāhmaṇo kiṁ vadeyya* \
 > *'musā'ti vā so vivadetha kena* \
-> *yasmiṁ samaṁ visamañ cāpi n'atthi* \
+> *yasmiṁ samaṁ visamañ cāpi natthi* \
 > *sa kena vādaṁ paṭisamyujeyya.*[^fn913]
 >
 > What could that Brahmin speak of as 'truth', \
@@ -284,7 +284,7 @@ recollection of peace, *upasamānussati*.
 > *Ajjhattaṁ eva upasame,* \
 > *nāññato bhikkhu santiṁ eseyya* \
 > *ajjhattaṁ upasantassa* \
-> *n'atthi attaṁ, kuto nirattaṁ.*[^fn915]
+> *natthi attaṁ, kuto nirattaṁ.*[^fn915]
 >
 > Let the monk inwardly calm himself, \
 > Let him not seek peace from outside, \

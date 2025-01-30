@@ -136,7 +136,7 @@ To highlight this figure of the vortex, we can bring up another significant
 quotation from the *Upādānaparivaṭṭasutta* and the *Sattaṭṭhānasutta* of the
 *Saṁyutta Nikāya*.
 
-> *Ye suvimuttā te kevalino, ye kevalino vaṭṭaṁ tesaṁ n'atthi
+> *Ye suvimuttā te kevalino, ye kevalino vaṭṭaṁ tesaṁ natthi
 > paññāpanāya*.[^fn706]
 >
 > Those who are fully released, are truly alone, and for them who are truly

@@ -674,7 +674,7 @@ text.
 >
 > *Evaṁ sammāvimuttānaṁ,* \
 > *kāmabandhoghatārinaṁ,* \
-> *paññāpetuṁ gatī n'atthi,* \
+> *paññāpetuṁ gatī natthi,* \
 > *pattānaṁ acalaṁ sukhaṁ.*[^fn661]
 >
 > Just as in the case of a fire \

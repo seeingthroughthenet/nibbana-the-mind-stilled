@@ -293,7 +293,7 @@ So *asmi* is basic to the grammatical structure. When this basic peg is
 uprooted, the emancipated monk reaches that state of freedom from the vortex.
 There is no dichotomy to sustain a vortex, no two teams to keep up the vortical
 interplay. Where there is no turning round, there is no room for designation,
-and this is the implication of the phrase *vaṭṭaṁ tesaṁ n'atthi paññāpanāya*,
+and this is the implication of the phrase *vaṭṭaṁ tesaṁ natthi paññāpanāya*,
 which we happened to quote on a previous occasion.[^fn737] For the *arahants*
 there is no vortex whereby to designate.
 
@@ -730,7 +730,7 @@ fool".
 
 > *Puttā m'atthi, dhanam m'atthi,* \
 > *iti bālo vihaññati,* \
-> *attā hi attano n'atthi,* \
+> *attā hi attano natthi,* \
 > *kuto puttā, kuto dhanaṁ?*[^fn746]
 > 
 > 'Sons I have, wealth I have', \
@@ -739,7 +739,7 @@ fool".
 > Where then are sons, where is wealth?
 
 Whereas the former verse says *attā hi attano nātho*, here we find the statement
-*attā hi attano n'atthi*. If one ignores the reflexive sense and translates the
+*attā hi attano natthi*. If one ignores the reflexive sense and translates the
 former line with something like "self is the lord of self", one will be at a
 loss to translate the seemingly contradictory statement "even self is not owned
 by self".

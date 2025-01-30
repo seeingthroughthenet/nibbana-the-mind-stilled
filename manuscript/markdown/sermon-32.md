@@ -219,7 +219,7 @@ In others, they are weak and not properly harnessed. It is in the *arahant* that
 the wisdom faculty is found in its strongest form. In the other grades of
 supramundane attainment, they are weaker by degrees. The lowest grade is the one
 treading the path to stream-winning. In the worldling they are not at all to be
-found, in any way, *sabbena sabbaṁ sabbathā sabbaṁ n'atthi.*[^fn1019]
+found, in any way, *sabbena sabbaṁ sabbathā sabbaṁ natthi.*[^fn1019]
 
 Next comes the group of five powers. As to their function, some explanation
 might be necessary, though it seems simple enough. As we have already mentioned,

@@ -613,7 +613,7 @@ on or leans on something that there is dislodgement or instability.
 Now I am leaning on the wall, if someone does damage to the wall, I would get
 shaken, that is what is suggested by the axiom:
 
-> *nissitassa calitaṁ, anissitassa calitaṁ n'atthi*,[^fn829]
+> *nissitassa calitaṁ, anissitassa calitaṁ natthi*,[^fn829]
 >
 > to one who is attached, there is dislodgement, to the one detached, there is
 > no dislodgement.
@@ -655,7 +655,7 @@ forming the grand finale to the *Kāḷakārāmasutta*.
 > *Etañca sallaṁ paṭigacca disvā,* \
 > *ajjhositā yattha pajā visattā,* \
 > *jānāmi passāmi tath' eva etaṁ,* \
-> *ajjhositaṁ n'atthi tathāgatānaṁ.*
+> *ajjhositaṁ natthi tathāgatānaṁ.*
 
 In the first verse, we have the difficult term *sayasaṁvutesu*, which we
 rendered by "amidst those who are entrenched in their own views". The term
@@ -795,7 +795,7 @@ From this it is clear that the phrase *paraṁ dahāti* means 'dubs another'. Th
 last two lines of the *Kāḷakārāmasutta* are of utmost importance.
 
 > *Jānāmi passāmi tath' eva etaṁ,* \
-> *ajjhositaṁ n'atthi tathāgatānaṁ*.
+> *ajjhositaṁ natthi tathāgatānaṁ*.
 >
 > I know I see, it is verily so, \
 > No such clinging for the *tathāgatas*.

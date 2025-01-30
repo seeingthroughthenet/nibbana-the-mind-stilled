@@ -126,7 +126,7 @@ compact, *ghanasaññā*, but when it goes down and disappears, no one can say t
 it went in such and such a direction.
 
 Though this is the obvious meaning, some try to attribute quite a different
-meaning to the verse in question. The line *paññāpetuṁ gati n'atthi*, "there is
+meaning to the verse in question. The line *paññāpetuṁ gati natthi*, "there is
 no path to be pointed out", is interpreted even by the commentators (who take
 the word *gati* to mean some state of existence) as an assertion that, although
 such a bourne cannot be pointed out, the *arahants* pass away into some

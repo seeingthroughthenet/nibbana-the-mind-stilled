@@ -68,7 +68,7 @@ journeying, the Buddha pointed out in the cessation of the six sense-spheres.
 We come across the following passage in the fourth discourse on Nibbāna in the
 *Pāṭaligāmiyavagga* of the *Udāna*:
 
-> *Nissitassa calitaṁ, anissitassa calitaṁ n'atthi, calite asati passaddhi,
+> *Nissitassa calitaṁ, anissitassa calitaṁ natthi, calite asati passaddhi,
 > passaddhiyā sati nati no hoti, natiyā asati āgatigati na hoti, āgatigatiyā
 > asati cutūpapāto na hoti, cutūpapāte asati n' ev' idha na huraṁ na
 > ubhayamantare, es' ev' anto dukkhassa.*[^fn787]
@@ -183,14 +183,14 @@ following boast of his superiority:
 Now this is how the Buddha responded to that challenge:
 
 > *Taveva, pāpima, cakkhu, tava rūpā, tava cakkhusamphassaviññāṇāyatanaṁ, yattha
-> ca kho, pāpima, n'atthi cakkhu, n'atthi rūpā, n'atthi
+> ca kho, pāpima, natthi cakkhu, natthi rūpā, natthi
 > cakkhusamphassaviññāṇāyatanaṁ, agati tava tattha pāpima.*
 >
 > *Taveva, pāpima, sotaṁ ... Taveva, pāpima, ghāṇaṁ ... Taveva, pāpima, jivhaṁ
 > ... Taveva, pāpima, kāyaṁ ...*
 >
 > *Taveva, pāpima, mano, tava dhammā, tava manosamphassaviññāṇāyatanaṁ, yattha
-> ca kho, pāpima, n'atthi mano, n'atthi dhammā, n'atthi
+> ca kho, pāpima, natthi mano, natthi dhammā, natthi
 > manosamphassaviññāṇāyatanaṁ, agati tava tattha pāpima.*
 >
 > "Yours, O Evil One, is the eye, yours are the forms and yours the sphere of
@@ -542,7 +542,7 @@ Let us now take up the relevant portions of this abstruse discourse.
 > *Etañca sallaṁ paṭigacca disvā,* \
 > *ajjhositā yattha pajā visattā,* \
 > *jānāmi passāmi tath' eva etaṁ,* \
-> *ajjhositaṁ n'atthi tathāgatānaṁ.*[^fn800]
+> *ajjhositaṁ natthi tathāgatānaṁ.*[^fn800]
 >
 > Monks, whatsoever in the world, with its gods, Māras and Brahmas, among the
 > progeny consisting of recluses and Brahmins, gods and men, whatsoever is seen,

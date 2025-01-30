@@ -95,7 +95,7 @@ relevant couplet of verses.
 > *Yaṁ kiñci dukkhaṁ sambhoti,* \
 > *sabbaṁ viññāṇapaccayā,* \
 > *viññāṇassa nirodhena* \
-> *n'atthi dukkhassa sambhavo.*
+> *natthi dukkhassa sambhavo.*
 >
 > *Etam ādīnavaṁ ñatvā,* \
 > *'dukkhaṁ viññāṇapaccayā',* \
@@ -509,10 +509,10 @@ a duality is traceable to the vortex between consciousness and name-and-form.
 The same idea comes up in the following verse of the *Attadaṇḍasutta* in the
 *Sutta Nipāta*.
 
-> *Yassa n'atthi 'idaṁ me'ti* \
+> *Yassa natthi 'idaṁ me'ti* \
 > *'paresaṁ' vā pi kiñcanaṁ,* \
 > *mamattaṁ so asaṁvindaṁ,* \
-> *'n'atthi me'ti na socati.*[^fn892]
+> *'natthi me'ti na socati.*[^fn892]
 >
 > He who has nothing to call 'this is mine', \
 > Not even something to recognize as 'theirs', \

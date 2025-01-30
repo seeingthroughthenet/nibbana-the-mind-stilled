@@ -727,7 +727,7 @@ of the Buddha comes up again in the following verse in the *Udāna*:
 > *upadhibandhano bālo,* \
 > *tamasā parivārito,* \
 > *sassatoriva khāyati,* \
-> *passato n'atthi kiñcanaṁ*.[^fn179]
+> *passato natthi kiñcanaṁ*.[^fn179]
 > 
 > The world, enfettered to delusion, \
 > Feigns a promising mien, \
