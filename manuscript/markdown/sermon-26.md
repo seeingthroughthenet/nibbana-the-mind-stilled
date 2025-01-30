@@ -163,7 +163,7 @@ Unlike in the case of those worldly spectators, the released mind of the
 Tathāgata did not find anything substantial in the magic show of consciousness.
 That is why he refused to take his stand upon the sense-data, *taṁ tathāgato na
 upaṭṭhāsi*, "the Tathāgata has not taken his stand upon it". In contrast to the
-worldly philosophers, the Tathāgatas have no entanglement with all that,
+worldly philosophers, the *tathāgatas* have no entanglement with all that,
 *ajjhositaṁ n'atthi tathāgatānaṁ.*
 
 The dialogue we have given might highlight these distinctions regarding levels

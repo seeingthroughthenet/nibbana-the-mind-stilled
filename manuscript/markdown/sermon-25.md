@@ -47,7 +47,7 @@ highlighted by the concluding summary verses, particularly by the lines:
 > *ajjhositaṁ n' atthi tathāgatānaṁ.*
 >
 > I know, I see, 'tis verily so. \
-> No such clinging for the Tathāgatas.
+> No such clinging for the *tathāgatas*.
 
 In order to explain this strange difference of attitude, we quoted the other day
 two significant terms from the *Mūlapariyāyasutta* of the *Majjhima-nikāya*,
@@ -71,9 +71,9 @@ What is called *maññanā* is the imagining in egoistic terms, imparting realit
 to illusory things. It is this principle of refraining from vain imaginings that
 is indicated by the term *na upaṭṭhāsi*, "does not take his stand upon".
 
-Tathāgatas have no clinging or entanglement, *ajjhositaṁ*, precisely because
+*Tathāgatas* have no clinging or entanglement, *ajjhositaṁ*, precisely because
 they entertain no imaginings. In regard to things seen, heard, etc. the
-Tathāgatas have no clinging, binding or entanglement by way of craving, conceit
+*tathāgatas* have no clinging, binding or entanglement by way of craving, conceit
 and views, respectively.
 
 We happened to mention the other day that those peculiar declarations, with
@@ -591,7 +591,7 @@ This kind of adaptability and resilience is also implied by the term *tādī*.
 Though the term is sometimes rendered by the word 'steadfast', it does not stand
 for any rigidity. Instead, it carries implications of a non-rigid resilience.
 
-This is a wonderful quality in Tathāgatas and *arahants*. We may compare it to a
+This is a wonderful quality in *tathāgatas* and *arahants*. We may compare it to a
 revolving swing in a children's playground. One who is seated in a revolving
 swing has nothing to get upset about falling headlong when the swing goes up.
 The seats are hung in such a way that they also turn with the revolving motion
@@ -798,10 +798,10 @@ last two lines of the *Kāḷakārāmasutta* are of utmost importance.
 > *ajjhositaṁ n'atthi tathāgatānaṁ*.
 >
 > I know I see, it is verily so, \
-> No such clinging for the Tathāgatas.
+> No such clinging for the *tathāgatas*.
 
 Worldlings dogmatically grasp the data heaped up by their six sense-bases, but
-the Tathāgatas have no such entanglements in regard to sensory knowledge. Why
+the *tathāgatas* have no such entanglements in regard to sensory knowledge. Why
 so? It is because they have seen the cessation of the six sense-bases.
 
 By way of illustration, we may compare this seeing of the cessation of the six

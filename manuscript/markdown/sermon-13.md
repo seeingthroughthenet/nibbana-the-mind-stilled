@@ -823,7 +823,7 @@ It is the same in the case of Buddhas and *arahants.* To the Emancipated Ones,
 who have fully understood and comprehended the true meaning of concepts like
 'house', 'mansion' and 'palace', the sandcastles of adults appear no better than
 the playthings of little children. We have to grant it, therefore, that
-Tathāgatas, or Such-like Ones, cannot help making use of concepts in worldly
+*tathāgatas*, or Such-like Ones, cannot help making use of concepts in worldly
 usage.
 
 As a matter of fact, once a certain deity even raised the question whether the

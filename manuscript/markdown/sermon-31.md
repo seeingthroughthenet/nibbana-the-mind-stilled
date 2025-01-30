@@ -875,7 +875,7 @@ words:
 
 [^fn988]: A III 39, *Sīhasenāpattisutta*; see *Sermon 19*
 
-[^fn989]: e.g. M I 76, *Mahāsīhanādasutta*
+[^fn989]: E.g. M I 76, *Mahāsīhanādasutta*
 
 [^fn990]: S I 9, *Samiddhisutta*
 
@@ -887,13 +887,13 @@ words:
 
 [^fn994]: M I 60, *Satipaṭṭhānasutta*
 
-[^fn995]: e.g. D III, 221, *Saṅgītisutta*
+[^fn995]: E.g. D III, 221, *Saṅgītisutta*
 
 [^fn996]: M I 62, *Satipaṭṭhānasutta*
 
-[^fn997]: e.g. D III, 221, *Saṅgītisutta*
+[^fn997]: E.g. D III, 221, *Saṅgītisutta*
 
-[^fn998]: e.g. Ps III 194
+[^fn998]: E.g. Ps III 194
 
 [^fn999]: M I 481, *Kīṭāgirisutta*
 

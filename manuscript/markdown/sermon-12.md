@@ -419,7 +419,7 @@ So this is what is meant by *papañcasaññāsaṅkhasamudācāra*. So overwhelm
 reckonings born of prolific perception. As we saw above, the word *saṅkhā* is
 therefore nearer to the idea of reckoning than that of part or portion.
 
-Tathāgatas are free from such reckonings born of prolific perception,
+*Tathāgatas* are free from such reckonings born of prolific perception,
 *papañcasaññāsaṅkhā*, because they make use of worldly linguistic usages,
 conventions and designation, being fully aware of their worldly origin, as if
 they were using a child's language.
@@ -428,7 +428,7 @@ When an adult uses a child's language, he is not bound by it. Likewise, the
 Buddhas and *arahants* do not forget that these are worldly usages. They do not
 draw any distinction between the relative and the absolute with regard to those
 concepts. For them, they are merely concepts and designations in worldly usage.
-That is why the Tathāgatas are said to be free from *papañca*, that is to say
+That is why the *tathāgatas* are said to be free from *papañca*, that is to say
 they are *nippapañca*, whereas the world delights in *papañca.* This fact is
 clearly expressed in the following verse in the *Dhammapada*.
 
@@ -442,7 +442,7 @@ clearly expressed in the following verse in the *Dhammapada*.
 > This populace delights in prolificity, \
 > But 'Thus-gone-ones' are non-prolific.
 
-It is because the Tathāgatas are non-prolific that *nippapañca* is regarded as
+It is because the *tathāgatas* are non-prolific that *nippapañca* is regarded as
 one of the epithets of Nibbāna in a long list of thirty-three.[^fn421]
 
 Like *dukkhūpasama*, quelling of suffering, *papañcavūpasama,* 'quelling of
@@ -450,10 +450,10 @@ prolificity', is also recognized as an epithet of Nibbāna. It is also referred
 to as *papañcanirodha*, 'cessation of prolificity'. We come across such
 references to Nibbāna in terms of *papañca* quite often.
 
-The Tathāgatas are free from *papañcasaññāsaṅkhā*, although they make use of
+The *tathāgatas* are free from *papañcasaññāsaṅkhā*, although they make use of
 worldly concepts and designations. In the *Kalahavivādasutta* we come across the
 dictum *saññānidānā hi papañcasaṅkhā*,[^fn422] according to which reckonings
-through prolificity arise from perception. Now the Tathāgatas have gone beyond
+through prolificity arise from perception. Now the *tathāgatas* have gone beyond
 the pale of perception in attaining wisdom. That is why they are free from
 *papañcasaññāsaṅkhā*, reckonings born of prolific perception.
 

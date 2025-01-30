@@ -586,7 +586,7 @@ Let us now take up the relevant portions of this abstruse discourse.
 > This barb I beheld well in advance, \
 > Whereon mankind is hooked impaled, \
 > I know, I see, 'tis verily so, \
-> No such clinging for the Tathāgatas.
+> No such clinging for the *tathāgatas*.
 
 In the first statement the Buddha declares that he knows, *tam ahaṁ jānāmi*,
 whatever is seen, heard, sensed, cognized, thought after and pondered over by
