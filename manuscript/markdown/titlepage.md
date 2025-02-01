@@ -2,7 +2,7 @@
 
 *33 Sermons on Nibbāna*
 
-![Cover](desktop-cover.png)
+![Cover](desktop-cover.jpg)
 
 Library Edition
 

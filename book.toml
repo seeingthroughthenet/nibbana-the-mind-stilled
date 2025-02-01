@@ -16,5 +16,5 @@ use-default-css = false
 no-section-label = true
 footnote-backrefs = true
 curly-quotes = true
-cover-image = "desktop-cover.png"
+cover-image = "desktop-cover.jpg"
 additional-resources = []

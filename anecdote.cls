@@ -139,7 +139,7 @@
 % === Define colors ===
 
 % Define text colors as Gray color values.
-\definecolor{textbody}{gray}{0.05}% 95% is good for contrast, on yellowish paper it is not harsh.
+\definecolor{textbody}{gray}{0}% 100% is needed for good contrast with Blurb printing.
 \definecolor{footnoterule}{gray}{0.5}
 \definecolor{header}{gray}{0.2}
 \definecolor{footer}{gray}{0.2}
@@ -1150,6 +1150,12 @@ philo-sophical munindo amaravati thai-land}
 \newlength\chapterTitleLeftSkip
 \setlength{\chapterTitleLeftSkip}{0pt}
 
+\RequirePackage[outline]{contour}
+\newcommand\whiteContour[1]{%
+  \contourlength{1.0pt}%
+  \contour{white}{#1}%
+}
+
 \makechapterstyle{lowtitle}{
   \chapterstyle{default}
   \setlength{\beforechapskip}{0pt}
@@ -1161,15 +1167,23 @@ philo-sophical munindo amaravati thai-land}
   \renewcommand\printchapternonum{}
   \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
   \renewcommand*\printchaptertitle[1]{%
+    \ifnum \thechapter<33 %
+      \AddToShipoutPictureBG*{%
+        \put(\LenToUnit{-12mm},\LenToUnit{\paperheight - 78mm}){%
+          \includegraphics[width=\paperwidth+24mm]{moonstone-\thechapter}%
+        }%
+      }%
+    \fi
     {%
       \centering\chaptitlefont\color{chaptertitle}%
-      ##1\\
+      \vspace*{20pt}%
+      \whiteContour{##1}\\
       \vspace*{-0.5\baselineskip}%
       {\color{textbody}\rule{50mm}{0.5pt}}
       \par
     }%
   }
-  \setlength{\afterchapskip}{20pt}
+  \setlength{\afterchapskip}{0pt}
   \renewcommand\afterchaptertitle{\par\nobreak\vskip \afterchapskip}%
 }
 
