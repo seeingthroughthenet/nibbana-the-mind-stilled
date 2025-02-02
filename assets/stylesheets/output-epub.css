@@ -8,6 +8,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1pt;
   word-spacing: 2pt;
+  text-align: center;
 }
 
 blockquote {
@@ -23,6 +24,14 @@ blockquote p {
 }
 blockquote p em {
   font-style: italic;
+}
+
+.opening-quote blockquote p {
+  text-align: center;
+}
+
+.opening-image p {
+  text-align: center;
 }
 
 span.vin {

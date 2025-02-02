@@ -62,7 +62,7 @@ def adjust_levels(image: Image.Image, from_value: int) -> Image.Image:
 
     return Image.merge('RGB', (r_adj, g_adj, b_adj))
 
-def fade_with_exposure(input_path: Path, output_path: Path, exposure: float, level: int, opacity: float):
+def fade_with_exposure(input_path: Path, output_path: Path, cropped_dir: Path, exposure: float, level: int, opacity: float):
     """
     Fade out an image by combining two versions of an image:
     one levelled and exposed, and one faded, using opacity for blending.
@@ -101,13 +101,31 @@ def fade_with_exposure(input_path: Path, output_path: Path, exposure: float, lev
         faded_rgba = Image.merge('RGBA', (r, g, b, a))
 
         # Combine layers
-        combined = Image.alpha_composite(exposed_levelled_rgba, faded_rgba)
+        combined = Image.alpha_composite(exposed_levelled_rgba, faded_rgba).convert('RGB')
 
         # Save result.
         # Default is quality=75, moonstone-1.jpg 414.3 KiB, main.pdf 18.9 MiB
         #            quality=85, moonstone-1.jpg 547.0 KiB, main.pdf 22.4 MiB
         # 3.5 MB difference
-        combined.convert('RGB').save(output_path, optimize=True, quality=85)
+        combined.save(output_path, optimize=True, quality=85)
+
+        # Save a cropped version for the epub
+        cropped_output_path = cropped_dir.joinpath(output_path.stem + "-crop" + ".jpg")
+        cropped = combined.crop(
+            (
+                135,  # Left X
+                615,  # Upper Y
+                1864,  # Right X
+                1333,  # Lower Y
+            )
+        )
+
+        new_width = 500
+        aspect_ratio = cropped.height / cropped.width
+        new_height = int(new_width * aspect_ratio)
+        resized = cropped.resize((new_width, new_height), Image.Resampling.LANCZOS)
+
+        resized.save(cropped_output_path, optimize=True, quality=85)
 
 if __name__ == "__main__":
     input_path = Path(__file__).parent.joinpath("moonstone-polonnaruwa-bw.jpg")
@@ -134,4 +152,5 @@ if __name__ == "__main__":
         print(f"{i:02}: {exposure:.2f}, {level}, {opacity:.2f}")
 
         output_path = Path(f"./assets/images/moonstone-{i}.jpg")
-        fade_with_exposure(input_path, output_path, exposure, level, opacity)
+        cropped_dir = Path("./manuscript/markdown/assets/images/")
+        fade_with_exposure(input_path, output_path, cropped_dir, exposure, level, opacity)
