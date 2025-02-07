@@ -974,7 +974,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn56]: Dhp 383, *Brāhmaṇavagga*
 
-[^fn57]: S I 54, *Kakudhosutta*
+[^fn57]: S I 54, *Kakudhasutta*
 
 [^fn58]: S IV 372
 
