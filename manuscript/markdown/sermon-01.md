@@ -763,94 +763,94 @@ made this invitation with the idea of seeing one of his children at play. For
 good or for bad, I have taken up the invitation. Let the future of the *Sāsana*
 be the final judge of its merits.
 
-[^fn1]: M I 436, *Mahāmālunkyasutta*
+[^fn1]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn2]: D II 93, *Mahāparinibbānasutta*
+[^fn2]: [DN 16 / D II 93](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
-[^fn3]: S II 267, *Āṇisutta*
+[^fn3]: [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*
 
 [^fn4]: Mp I 92
 
-[^fn5]: Khp 2
+[^fn5]: [Kp 4 / Khp 2](https://suttacentral.net/kp4/pli/ms)
 
 [^fn6]: Pj I 78
 
-[^fn7]: S I 39, *Nāmasutta*
+[^fn7]: [SN 1.61 / S I 39](https://suttacentral.net/sn1.61/pli/ms), *Nāmasutta*
 
-[^fn8]: S I 11, *Samiddhisutta*
+[^fn8]: [SN 1.20 / S I 11](https://suttacentral.net/sn1.20/pli/ms), *Samiddhisutta*
 
-[^fn9]: M I 53, *Sammādiṭṭhisutta*
+[^fn9]: [MN 9 / M I 53](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*
 
-[^fn10]: Spk I 95 commenting on S I 39
+[^fn10]: Spk I 95 commenting on [SN 1.61 / S I 39](https://suttacentral.net/sn1.61/pli/ms)
 
-[^fn11]: S I 12, *Samiddhisutta*
+[^fn11]: [SN 1.20 / S I 12](https://suttacentral.net/sn1.20/pli/ms), *Samiddhisutta*
 
-[^fn12]: Sn 560, *Selasutta*
+[^fn12]: [Snp 3.7 / Sn 560](https://suttacentral.net/snp3.7/pli/ms), *Selasutta*
 
-[^fn13]: S I 192, *Pavāraṇāsutta*
+[^fn13]: [SN 8.7 / S I 192](https://suttacentral.net/sn8.7/pli/ms), *Pavāraṇāsutta*
 
-[^fn14]: S I 13, *Jaṭāsutta*
+[^fn14]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*
 
 [^fn15]: Abhidh-s VI í 30
 
-[^fn16]: Sn 235, *Ratanasutta*
+[^fn16]: [Snp 2.1 / Sn 235](https://suttacentral.net/snp2.1/pli/ms), *Ratanasutta*
 
-[^fn17]: M III 245, *Dhātuvibhaṅgasutta*
+[^fn17]: [MN 140 / M III 245](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
-[^fn18]: D II 157, *Mahāparinibbānasutta*
+[^fn18]: [DN 16 / D II 157](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
-[^fn19]: M I 487, *Aggivacchagottasutta*
+[^fn19]: [MN 72 / M I 487](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
-[^fn20]: S IV 368-373
+[^fn20]: [SN 43.13-44 / S IV 368-373](https://suttacentral.net/sn43.13/pli/ms)
 
-[^fn21]: M I 140, *Alagaddūpamasutta*
+[^fn21]: [MN 22 / M I 140](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
-[^fn22]: D II 57, *Mahānidānasutta*
+[^fn22]: [DN 15 / D II 57](https://suttacentral.net/dn15/pli/ms), *Mahānidānasutta*
 
 [^fn23]: Chāndogya-Upaniṣad 6.2.1,2
 
 [^fn24]: Ṛgveda X.129, *Nāsadīya Sūkta*
 
-[^fn25]: M I 487, *Aggivacchagottasutta*
+[^fn25]: [MN 72 / M I 487](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
-[^fn26]: Sn 1074, *Upasīvamāṇavapucchā*
+[^fn26]: [Snp 5.7 / Sn 1074](https://suttacentral.net/snp5.7/pli/ms), *Upasīvamāṇavapucchā*
 
 [^fn27]: Vibh-a 53
 
-[^fn28]: Th 298, *Rāhula Thera*
+[^fn28]: [Thag 4.8 / Th 298](https://suttacentral.net/thag4.8/pli/ms), *Rāhula Thera*
 
-[^fn29]: Sn 228, *Ratanasutta*
+[^fn29]: [Snp 2.1 / Sn 228](https://suttacentral.net/snp2.1/pli/ms), *Ratanasutta*
 
-[^fn30]: E.g. at D I 194, *Poṭṭhapādasutta*
+[^fn30]: E.g. at [DN 9 / D I 194](https://suttacentral.net/dn9/pli/ms), *Poṭṭhapādasutta*
 
-[^fn31]: E.g. at S V 421, *Dhammacakkappavattanasutta*
+[^fn31]: E.g. at [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*
 
-[^fn32]: E.g. at It 88, *Aggappasādasutta*
+[^fn32]: E.g. at [Iti 90 / It 88](https://suttacentral.net/iti90/pli/ms), *Aggappasādasutta*
 
 [^fn33]: Abhidh-av 138
 
-[^fn34]: Ud 11, *Rājasutta*
+[^fn34]: [Ud 2.2 / Ud 11](https://suttacentral.net/ud2.2/pli/ms), *Rājasutta*
 
-[^fn35]: Ud 79, *Udapānasutta*
+[^fn35]: [Ud 7.9 / Ud 79](https://suttacentral.net/ud7.9/pli/ms), *Udapānasutta*
 
-[^fn36]: A II 34, *Aggappasādasutta*
+[^fn36]: [AN 4.34 / A II 34](https://suttacentral.net/an4.34/pli/ms), *Aggappasādasutta*
 
 [^fn37]: Vism 508; Spk III 88; Vibh-a 51
 
-[^fn38]: S IV 371, *Nibbānasutta*
+[^fn38]: [SN 38.1 / S IV 371](https://suttacentral.net/sn38.1/pli/ms), *Nibbānasutta*
 
 [^fn39]: Vibh-a 53
 
-[^fn40]: M I 507, *Māgaṇḍiyasutta*
+[^fn40]: [MN 75 / M I 507](https://suttacentral.net/mn75/pli/ms), *Māgaṇḍiyasutta*
 
-[^fn41]: M I 523, *Saṇḍakasutta*
+[^fn41]: [MN 76 / M I 523](https://suttacentral.net/mn76/pli/ms), *Saṇḍakasutta*
 
-[^fn42]: S III 189, *Mārasutta*
+[^fn42]: [SN 23.1 / S III 189](https://suttacentral.net/sn23.1/pli/ms), *Mārasutta*
 
-[^fn43]: The term *aññāphalo* occurs at A IV 428, *Ānandasutta*
+[^fn43]: The term *aññāphalo* occurs at [AN 9.37 / A IV 428](https://suttacentral.net/an9.37/pli/ms), *Ānandasutta*
 
-[^fn44]: E.g. at D I 84, *Sāmaññaphalasutta*
+[^fn44]: E.g. at [DN 2 / D I 84](https://suttacentral.net/dn2/pli/ms), *Sāmaññaphalasutta*
 
-[^fn45]: D II 90, *Mahāparinibbānasutta*
+[^fn45]: [DN 16 / D II 90](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
-[^fn46]: E.g. at S V 421, *Dhammacakkappavattanasutta*
+[^fn46]: E.g. at [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*

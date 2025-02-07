@@ -846,7 +846,7 @@ In this way, the Buddha first of all delineates how the entire *saṁsāric*
 suffering arises in connection with the six-fold sense-sphere. We will discuss
 the rest of the discourse in our next sermon.
 
-[^fn1012]: M I 436, *Mahāmālunkyasutta*
+[^fn1012]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn1013]: S V 197, *Paṭhamavibhaṅgasutta*
 
@@ -876,11 +876,11 @@ the rest of the discourse in our next sermon.
 
 [^fn1026]: A I 32, *Ekadhammapāḷi*
 
-[^fn1027]: S V 421, *Dhammacakkappavattanasutta*
+[^fn1027]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*
 
 [^fn1028]: M III 203, *Cūḷakammavibhaṅgasutta*
 
-[^fn1029]: A II 34, *Aggappasādasutta*
+[^fn1029]: [AN 4.34 / A II 34](https://suttacentral.net/an4.34/pli/ms), *Aggappasādasutta*
 
 [^fn1030]: S V 49, *Ākāsasutta*
 

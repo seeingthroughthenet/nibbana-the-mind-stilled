@@ -822,7 +822,7 @@ So these lines could be rendered as follows:
 > Does not imagine 'in terms of' \
 > Whatever is seen, heard and sensed.
 
-[^fn477]: M I 436, *Mahāmālunkyasutta*
+[^fn477]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn478]: S IV 201, *Yavakalāpisutta*
 

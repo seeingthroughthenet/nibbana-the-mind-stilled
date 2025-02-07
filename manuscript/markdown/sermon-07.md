@@ -864,7 +864,7 @@ is above the worldly concepts of elements and divinity and the questionable
 reality attributed to them. In other words, they do not manifest themselves in
 it. They are transcended.
 
-[^fn222]: M I 436, *Mahāmālunkyasutta*
+[^fn222]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn223]: D I 223, *Kevaḍḍhasutta*
 
@@ -940,6 +940,6 @@ it. They are transcended.
 
 [^fn259]: Ps II 413
 
-[^fn260]: S II 267, *Āṇisutta*; see *Sermon 1*
+[^fn260]: [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*; see *Sermon 1*
 
 [^fn261]: M I 329, *Brahmanimantanikasutta*

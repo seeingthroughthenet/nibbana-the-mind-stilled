@@ -762,7 +762,7 @@ already discarded.
 This, then, is the Buddha's extraordinary solution to the problem of overcoming
 death, a solution that completely outwits Māra.
 
-[^fn600]: M I 436, *Mahāmālunkyasutta*
+[^fn600]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn601]: E.g. It 57, *Dutiyarāgasutta*: *tiṇṇo pāraṁ gato thale tiṭṭhati brāhmaṇo*
 
@@ -818,7 +818,7 @@ death, a solution that completely outwits Māra.
 
 [^fn627]: It-a I 167
 
-[^fn628]: In the standard formula for recollecting the Dhamma, e.g. at D II 93
+[^fn628]: In the standard formula for recollecting the Dhamma, e.g. at [DN 16 / D II 93](https://suttacentral.net/dn16/pli/ms)
 
 [^fn629]: S I 34, *Maccharisutta*
 

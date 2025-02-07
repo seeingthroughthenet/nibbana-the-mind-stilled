@@ -853,9 +853,9 @@ And then he winds up with that highly significant conclusive remark:
 >
 > For, the destruction of craving, Rādha, is Nibbāna.
 
-[^fn701]: M I 436, *Mahāmālunkyasutta*
+[^fn701]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn702]: M I 487, *Aggivacchagottasutta*
+[^fn702]: [MN 72 / M I 487](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
 [^fn703]: Th 120, *Isidattatheragāthā*
 
@@ -901,7 +901,7 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn724]: Sn 858, *Purābhedasutta*
 
-[^fn725]: A II 34, *Aggappasādasutta*
+[^fn725]: [AN 4.34 / A II 34](https://suttacentral.net/an4.34/pli/ms), *Aggappasādasutta*
 
 [^fn726]: See *Sermon 20*
 

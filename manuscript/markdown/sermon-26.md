@@ -933,7 +933,7 @@ the title of these series of sermons, namely:
 > the relinquishment of all assets, the destruction of craving, detachment,
 > cessation, extinction.
 
-[^fn838]: M I 436, *Mahāmālunkyasutta*
+[^fn838]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn839]: S III 142, *Pheṇapiṇḍūpamasutta*
 
@@ -969,7 +969,7 @@ the title of these series of sermons, namely:
 
 [^fn855]: See *Sermon 1*
 
-[^fn856]: S I 13, *Jaṭāsutta*
+[^fn856]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*
 
 [^fn857]: M III 273, *Nandakovādasutta*
 
@@ -995,4 +995,4 @@ the title of these series of sermons, namely:
 
 [^fn868]: A V 318, *Saññāsutta*, see *Sermon 16*
 
-[^fn869]: M I 436, *Mahāmālunkyasutta*
+[^fn869]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*

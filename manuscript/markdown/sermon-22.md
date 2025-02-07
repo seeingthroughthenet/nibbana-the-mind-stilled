@@ -883,7 +883,7 @@ redefined with reference to the six bases of sense-contact. This includes mind
 and mind-objects as well. In fact, the range of the six bases of sense-contact
 is all comprehending. Nothing falls outside of it.
 
-[^fn729]: M I 436, *Mahāmālunkyasutta*
+[^fn729]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn730]: S III 118 and S IV 384, *Anurādhasutta*
 
@@ -909,7 +909,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn741]: See *Sermon 21*
 
-[^fn742]: A III 107, *Tatiya-anāgatabhayasutta*; see also S II 267, *Āṇisutta*
+[^fn742]: A III 107, *Tatiya-anāgatabhayasutta*; see also [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*
 
 [^fn743]: M I 167, *Ariyapariyesanasutta*
 

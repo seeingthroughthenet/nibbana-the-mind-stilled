@@ -747,7 +747,7 @@ The last verse is of immense importance. It says: But those who know from where
 all these mental states arise, are able to dispel them. It is they who
 successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
-[^fn870]: M I 436, *Mahāmālunkyasutta*
+[^fn870]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn871]: Ud 1-2, *Bodhivagga*
 
@@ -761,7 +761,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn876]: D III 217, *Saṅgītisutta*
 
-[^fn877]: S I 13, *Jaṭāsutta*, see *Sermon 1*
+[^fn877]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*, see *Sermon 1*
 
 [^fn878]: See *Sermon 12*
 
@@ -797,7 +797,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn894]: MN I 111, *Madhupiṇḍikasutta*, see *Sermon 11*
 
-[^fn895]: S I 13, *Jaṭāsutta*, see *Sermon 1*
+[^fn895]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*, see *Sermon 1*
 
 [^fn896]: Sn 270, *Sūcilomasutta*, see also SN I 207
 

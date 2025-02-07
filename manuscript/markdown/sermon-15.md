@@ -851,7 +851,7 @@ This discourse in the *Udāna* is one that is truly 'up'-lifting.
 
 It indeed deserves a paean of joy.
 
-[^fn511]: M I 436, *Mahāmālunkyasutta*
+[^fn511]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn512]: Ud 8, *Bāhiyasutta*
 
@@ -879,7 +879,7 @@ It indeed deserves a paean of joy.
 
 [^fn524]: The term occurs e.g. at M I 480, *Tevijjavacchagottasutta*; at M II 173, *Cankīsutta*; and at A II 115, *Patodasutta*
 
-[^fn525]: M III 245, *Dhātuvibhaṅgasutta*
+[^fn525]: [MN 140 / M III 245](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
 [^fn526]: M III 29, *Chabbisodhanasutta*
 

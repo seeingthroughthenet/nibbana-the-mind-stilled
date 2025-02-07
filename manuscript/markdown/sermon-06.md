@@ -814,7 +814,7 @@ footing. Also, it is in this consciousness that long and short, fine and coarse,
 and pleasant and unpleasant, as well as name-and-form, are kept in check. It is
 by the cessation of consciousness that all these are held in check.
 
-[^fn189]: M I 436, *Mahāmālunkyasutta*
+[^fn189]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn190]: See *Sermon 5*
 
@@ -824,7 +824,7 @@ by the cessation of consciousness that all these are held in check.
 
 [^fn193]: S III 142, *Pheṇapiṇḍūpamasutta*
 
-[^fn194]: Ud 79, *Udenasutta*, see *Sermon 5*
+[^fn194]: [Ud 7.9 / Ud 79](https://suttacentral.net/ud7.9/pli/ms), *Udenasutta*, see *Sermon 5*
 
 [^fn195]: S III 87, *Khajjanīyasutta*
 
@@ -854,7 +854,7 @@ by the cessation of consciousness that all these are held in check.
 
 [^fn208]: See *Sermon 5*
 
-[^fn209]: S V 421, *Dhammacakkappavattanasutta*
+[^fn209]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*
 
 [^fn210]: E.g. at Nid I 54: *taṇhālepo*
 
@@ -866,7 +866,7 @@ by the cessation of consciousness that all these are held in check.
 
 [^fn214]: Sn 756, *Dvayatānupassanāsutta*
 
-[^fn215]: S V 421, *Dhammacakkappavattanasutta*
+[^fn215]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*
 
 [^fn216]: S II 41, *Upavāṇasutta*
 

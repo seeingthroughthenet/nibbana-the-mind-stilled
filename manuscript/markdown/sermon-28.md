@@ -749,7 +749,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 > get disenchanted with preparations, this is enough to get dispassionate with
 > them, this is enough to get released from them.
 
-[^fn899]: M I 436, *Mahāmālunkyasutta*
+[^fn899]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn900]: A I 87, *Āsāduppajahavagga*
 

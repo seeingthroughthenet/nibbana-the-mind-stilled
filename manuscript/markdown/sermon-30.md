@@ -865,7 +865,7 @@ Leaving them all behind and reaching the subtlest of them all, there comes the
 final 'let go' to attain that perfect extinction without clinging, *anupādā
 parinibbāna*. This is the subtlest truth in this Dhamma.
 
-[^fn964]: M I 436, *Mahāmālunkyasutta*
+[^fn964]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn965]: M III 217, *Saḷāyatanavibhaṅgasutta*
 
@@ -885,7 +885,7 @@ parinibbāna*. This is the subtlest truth in this Dhamma.
 
 [^fn973]: S I 1, *Oghataraṇasutta*
 
-[^fn974]: S V 421, *Dhammacakkapavattanasutta*
+[^fn974]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkapavattanasutta*
 
 [^fn975]: See *Sermon 3* etc.
 

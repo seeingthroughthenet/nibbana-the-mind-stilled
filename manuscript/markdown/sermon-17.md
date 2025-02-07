@@ -813,7 +813,7 @@ The steadfastness associated with the epithet *tādī* is reinforced in one
 The verse in question, then, points to the conclusion that the steadfast one,
 the *arahant*, who has attained supramundane freedom, does not come back.
 
-[^fn571]: M I 436, *Mahāmālunkyasutta*
+[^fn571]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn572]: See especially *Sermon 7*
 

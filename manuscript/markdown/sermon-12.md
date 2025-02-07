@@ -760,7 +760,7 @@ tendency to go on imagining. For him it is a step of training towards full
 comprehension. That is why the Buddha concludes with the words: "Why is that? I
 say it is because it should be well comprehended by him."
 
-[^fn404]: M I 436, *Mahāmālunkyasutta*
+[^fn404]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn405]: Sv III 721
 

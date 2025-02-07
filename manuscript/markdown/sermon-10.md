@@ -813,7 +813,7 @@ So the whole point of our discussion today has been the clarification of the
 mutual interrelation between name and form, to show that name-and-form itself is
 only an image, or a shadow, reflected on consciousness.
 
-[^fn348]: M I 436, *Mahāmālunkyasutta*
+[^fn348]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn349]: It 43, *Diṭṭhigatasutta*
 
@@ -865,7 +865,7 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn373]: Sn 331, *Uṭṭhānasutta*
 
-[^fn374]: S I 13, *Jaṭāsutta*; see *Sermon 1*
+[^fn374]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*; see *Sermon 1*
 
 [^fn375]: See *Sermon 7*
 

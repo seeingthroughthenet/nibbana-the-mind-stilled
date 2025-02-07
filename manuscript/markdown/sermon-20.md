@@ -890,7 +890,7 @@ too.
 This is the insinuation underlying the above quoted pronouncement. It has some
 profound implications, but time does not permit us to go into them today.
 
-[^fn667]: M I 436, *Mahāmālunkyasutta*
+[^fn667]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn668]: E.g. at M I 35, *Ākaṅkheyyasutta*
 
@@ -902,7 +902,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn672]: A III 354, *Iṇasutta*
 
-[^fn673]: Sn 235, *Ratanasutta*
+[^fn673]: [Snp 2.1 / Sn 235](https://suttacentral.net/snp2.1/pli/ms), *Ratanasutta*
 
 [^fn674]: Ud 93, *Dutiyadabbasutta*
 
@@ -914,7 +914,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn678]: See *Sermon 19*
 
-[^fn679]: M I 140, *Alagaddūpamasutta*
+[^fn679]: [MN 22 / M I 140](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
 [^fn680]: M I 137, *Alagaddūpamasutta*
 

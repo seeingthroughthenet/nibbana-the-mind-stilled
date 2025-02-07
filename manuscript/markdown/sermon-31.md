@@ -871,7 +871,7 @@ words:
 >
 > That wisdom of his, Venerable Sir, is his faculty of wisdom.
 
-[^fn982]: M I 436, *Mahāmālunkyasutta*
+[^fn982]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn983]: M I 134, *Alagaddūpamasutta*
 

@@ -814,13 +814,13 @@ and seek to perpetuate personality view by slanting towards eternalism.
 It is to highlight some extremely subtle aspects of the problem of Nibbāna that
 we brought out all these arguments today.
 
-[^fn637]: M I 436, *Mahāmālunkyasutta*
+[^fn637]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn638]: A III 347, *Nāgasutta*
 
-[^fn639]: M III 245, *Dhātuvibhaṅgasutta*
+[^fn639]: [MN 140 / M III 245](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
-[^fn640]: Th 298, *Rāhulatheragāthā*
+[^fn640]: [Thag 4.8 / Th 298](https://suttacentral.net/thag4.8/pli/ms), *Rāhulatheragāthā*
 
 [^fn641]: E.g. M II 265, *Āneñjasappāyasutta*
 
@@ -838,19 +838,19 @@ we brought out all these arguments today.
 
 [^fn648]: E.g. at Mp I 91
 
-[^fn649]: M III 245, *Dhātuvibhaṅgasutta*
+[^fn649]: [MN 140 / M III 245](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
 [^fn650]: It 39, *Nibbānadhātusutta*, see *Sermon 18*
 
 [^fn651]: A V 9, *Sāriputtasutta*
 
-[^fn652]: D II 157, *Mahāparinibbānasutta*
+[^fn652]: [DN 16 / D II 157](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
 [^fn653]: Sv II 595
 
 [^fn654]: *Devadattaṁ ārabbha* at Dhp-a I 133 and Ja I 142
 
-[^fn655]: S IV 371, *Asaṅkhatasaṁyutta*
+[^fn655]: [SN 38.1 / S IV 371](https://suttacentral.net/sn38.1/pli/ms), *Asaṅkhatasaṁyutta*
 
 [^fn656]: A III 39, *Sīhasenāpattisutta*
 
@@ -870,6 +870,6 @@ we brought out all these arguments today.
 
 [^fn664]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*, see *Sermon 17*
 
-[^fn665]: M I 140, *Alagaddūpamasutta*
+[^fn665]: [MN 22 / M I 140](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
 [^fn666]: Sv II 635

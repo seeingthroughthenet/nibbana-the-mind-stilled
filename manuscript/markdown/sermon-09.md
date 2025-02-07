@@ -991,11 +991,11 @@ This is how the *Itivuttaka*, the collection of the 'thus said' discourses, sums
 up the situation in the world. Some fall back and lag behind, while others
 overstep and overreach. It is only they that see, who have eyes to see.
 
-[^fn300]: M I 436, *Mahāmālunkyasutta*
+[^fn300]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn301]: M I 56, *Satipaṭṭhānasutta*
 
-[^fn302]: M I 53, *Sammādiṭṭhisutta*
+[^fn302]: [MN 9 / M I 53](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*
 
 [^fn303]: S IV 171, *Hatthapādopamasutta*
 
@@ -1011,7 +1011,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn309]: E.g. at M I 297, *Mahāvedallasutta*
 
-[^fn310]: S II 267, *Āṇisutta*; see *Sermon 1*
+[^fn310]: [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*; see *Sermon 1*
 
 [^fn311]: Sn 1118, *Mogharājamāṇavapucchā*
 

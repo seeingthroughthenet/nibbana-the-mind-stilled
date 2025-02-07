@@ -849,7 +849,7 @@ help of the simile of the cinema and the theatre is of much relevance to an
 understanding of the law of dependent arising. With this much, we shall wind up
 today.
 
-[^fn148]: M I 436, *Mahāmālunkyasutta*
+[^fn148]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn149]: See *Sermon 4*
 
@@ -893,7 +893,7 @@ today.
 
 [^fn169]: M II 200, *Subhasutta*
 
-[^fn170]: E.g. at D I 84, *Sāmaññaphalasutta*
+[^fn170]: E.g. at [DN 2 / D I 84](https://suttacentral.net/dn2/pli/ms), *Sāmaññaphalasutta*
 
 [^fn171]: A II 182, *Sacchikaraṇīyasutta*
 
@@ -911,7 +911,7 @@ today.
 
 [^fn178]: Sn 763, *Dvayatānupassanāsutta*
 
-[^fn179]: Ud 79, *Udenasutta*
+[^fn179]: [Ud 7.9 / Ud 79](https://suttacentral.net/ud7.9/pli/ms), *Udenasutta*
 
 [^fn180]: Th 627, *Sunīto Thero*; Thī 3, *Puṇṇā Therī*; Thī 28, *Cittā Therī*; Thī 44, *Uttamā Therī*; Thī 120, *Tiṁsamattā Therī*; Thī 173-174, *Vijayā Therī*; Thī 180, *Uttarā Therī*
 

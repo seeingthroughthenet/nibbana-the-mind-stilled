@@ -811,7 +811,7 @@ of the mind by making all signs fade away, so that the whole world appears like
 a blotched water-colour painting, thus freeing the mind from the perception of
 diversity, without even resorting to a perception of unity.
 
-[^fn933]: M I 436, *Mahāmālunkyasutta*
+[^fn933]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn934]: M I 185, *Mahāhatthipadopamasutta*
 
@@ -849,7 +849,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn951]: S III 89, *Khajjanīyasutta*, see *Sermon 23*
 
-[^fn952]: S I 13, *Jaṭāsutta*; see *Sermon 11*
+[^fn952]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*; see *Sermon 11*
 
 [^fn953]: Sn 436, *Padhānasutta*
 
@@ -867,7 +867,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn960]: Ud 77, *Papañcakhayasutta*
 
-[^fn961]: S I 39, *Saṁyojanasutta*
+[^fn961]: [SN 1.61 / S I 39](https://suttacentral.net/sn1.61/pli/ms), *Saṁyojanasutta*
 
 [^fn962]: Sn 472, *Sundarikabhāradvājasutta*
 

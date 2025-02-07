@@ -911,7 +911,7 @@ conceptual scaffolding only for the purpose of putting up the building. As the
 building comes up, the scaffolding has to leave. It has to be dismantled. If one
 simply clings onto the scaffolding, the building would never come up.
 
-[^fn438]: M I 436, *Mahāmālunkyasutta*
+[^fn438]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn439]: M I 1, *Mūlapariyāyasutta*
 
@@ -927,7 +927,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn445]: See *Sermon 1*
 
-[^fn446]: M I 487, *Aggivacchagottasutta*
+[^fn446]: [MN 72 / M I 487](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
 [^fn447]: See *Sermon 12*
 

@@ -787,7 +787,7 @@ said to be due to his freedom from influxes. He does not grasp them by way of
 craving, conceit and views. He does not take his stand upon things seen, heard,
 sensed and cognized. He has no inclination or clinging towards them.
 
-[^fn781]: M I 436, *Mahāmālunkyasutta*
+[^fn781]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn782]: S I 62 and A II 50 *Rohitassasutta*; see *Sermon 23*
 
@@ -801,7 +801,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn787]: Ud 81, *Pāṭaligāmiyavagga*
 
-[^fn788]: S III 189, *Mārosutta*
+[^fn788]: [SN 23.1 / S III 189](https://suttacentral.net/sn23.1/pli/ms), *Mārosutta*
 
 [^fn789]: See *Sermon 14*
 

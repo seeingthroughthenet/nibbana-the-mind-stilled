@@ -911,7 +911,7 @@ words:
 > finds it hollow, he finds it void of essence. What essence, monks, could there
 > be in a consciousness?
 
-[^fn807]: M I 436, *Mahāmālunkyasutta*
+[^fn807]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn808]: A II 25, *Kāḷakārāmasutta*
 

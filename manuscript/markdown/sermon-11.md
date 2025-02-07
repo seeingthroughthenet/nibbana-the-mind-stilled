@@ -805,13 +805,13 @@ ekacaraṁ*,[^fn403] through the medium of thought, or *vitakka*. When *vitakka*
 breaks loose and runs riot, it creates a certain deluded state of mind, which is
 *papañca*.
 
-[^fn377]: M I 436, *Mahāmālunkyasutta*
+[^fn377]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn378]: S III 86, *Khajjanīyasutta*
 
 [^fn379]: Sn 867, *Kalahavivādasutta*
 
-[^fn380]: S I 13, *Jaṭāsutta*; see *Sermon 1*
+[^fn380]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*; see *Sermon 1*
 
 [^fn381]: Sn 871-872, *Kalahavivādasutta*
 
@@ -831,9 +831,9 @@ breaks loose and runs riot, it creates a certain deluded state of mind, which is
 
 [^fn389]: Similar connotations recur in the variant reading *paramayakkhavisuddhi* at A V 64, and in the expression *yakkhassa suddhi* at Sn 478
 
-[^fn390]: Sn 1074, *Upasīvamāṇavapucchā*
+[^fn390]: [Snp 5.7 / Sn 1074](https://suttacentral.net/snp5.7/pli/ms), *Upasīvamāṇavapucchā*
 
-[^fn391]: M I 487, *Aggivacchagottasutta*
+[^fn391]: [MN 72 / M I 487](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
 [^fn392]: D I 184, *Poṭṭhapādasutta*
 

@@ -996,7 +996,7 @@ to be that cessation of name-and-form with which the six sense-bases, and all
 the rest of it, down to the entire mass of *saṁsāric* suffering, cease
 altogether then and there.
 
-[^fn84]: M I 436, *Mahāmālunkyasutta*
+[^fn84]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn85]: See *Sermon 2*
 
@@ -1030,7 +1030,7 @@ altogether then and there.
 
 [^fn100]: M I 190, *Mahāhatthipadopamasutta*
 
-[^fn101]: D II 93, *Mahāparinibbānasutta*
+[^fn101]: [DN 16 / D II 93](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
 [^fn102]: Vism 578
 
@@ -1064,7 +1064,7 @@ altogether then and there.
 
 [^fn117]: A II 133, *Saṁyojanasutta*
 
-[^fn118]: S I 13, *Jaṭāsutta*, see *Sermon 1*
+[^fn118]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*, see *Sermon 1*
 
 [^fn119]: M III 18, *Mahāpuṇṇamasutta*
 

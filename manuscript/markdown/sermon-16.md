@@ -837,7 +837,7 @@ here and now, in this world. And the *arahant*, by way of blissful dwelling here
 and now, enjoys in his every day life the supreme bliss of Nibbāna that he had
 won through the incomparable deliverances of the mind.
 
-[^fn543]: M I 436, *Mahāmālunkyasutta*
+[^fn543]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn544]: D I 223, *Kevaḍḍhasutta*
 

@@ -968,7 +968,7 @@ If one sits down to draw up lists of concepts and prescribe them, it would only
 lead to a mental constipation. Instead of release there will be entanglement.
 Such a predicament is not unlikely.
 
-[^fn262]: M I 436, *Mahāmālunkyasutta*
+[^fn262]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn263]: M I 329, *Brahmanimantanikasutta*
 
@@ -1002,7 +1002,7 @@ Such a predicament is not unlikely.
 
 [^fn278]: E.g. at S II 117, *Kosambisutta*
 
-[^fn279]: M I 140, *Alagaddūpamasutta*
+[^fn279]: [MN 22 / M I 140](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
 [^fn280]: See *Sermon 2*
 
@@ -1036,7 +1036,7 @@ Such a predicament is not unlikely.
 
 [^fn295]: A I 45, *Amatavagga*
 
-[^fn296]: Ud 79, *Udapānasutta*; see *Sermon 1*
+[^fn296]: [Ud 7.9 / Ud 79](https://suttacentral.net/ud7.9/pli/ms), *Udapānasutta*; see *Sermon 1*
 
 [^fn297]: Th 717, *Adhimutta Theragāthā*
 

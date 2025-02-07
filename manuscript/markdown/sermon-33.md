@@ -770,7 +770,7 @@ world! Let this garland of well preached Dhamma words be a humble offering at
 the foot of the Dhamma shrine, which received honour and worship even from the
 Buddha himself.
 
-[^fn1032]: M I 436, *Mahāmālunkyasutta*
+[^fn1032]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn1033]: M III 288, *Mahāsaḷāyatanikasutta*
 

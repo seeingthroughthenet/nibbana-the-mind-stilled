@@ -955,7 +955,7 @@ is drawn the other falls down. Even so, with the cessation of consciousness
 comes the cessation of name-and-form. With the cessation of name-and-form comes
 the cessation of consciousness. That is how the Buddha solved this problem.
 
-[^fn753]: M I 436, *Mahāmālunkyasutta*
+[^fn753]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn754]: S I 14, *Arahantasutta*, see *Sermon 13*
 
@@ -975,7 +975,7 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn762]: S II 17, *Kaccāyanagottasutta*
 
-[^fn763]: A IV 428, *Lokāyatikābrāhmaṇāsutta*
+[^fn763]: [AN 9.37 / A IV 428](https://suttacentral.net/an9.37/pli/ms), *Lokāyatikābrāhmaṇāsutta*
 
 [^fn764]: M I 302, *Cūḷavedallasutta*
 

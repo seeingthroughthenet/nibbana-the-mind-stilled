@@ -954,7 +954,7 @@ This sermon has served its purpose if it has drawn attention to the importance
 of the questions of duality, dichotomy and the relatedness of this to that,
 *idappaccayatā*. So this is enough for today.
 
-[^fn47]: M I 436, *Mahāmālunkyasutta*
+[^fn47]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn48]: See *Sermon 1*
 
@@ -992,7 +992,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn65]: See *Sermon 1*
 
-[^fn66]: S I 13, *Jaṭāsutta*
+[^fn66]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*
 
 [^fn67]: Sn 729, *Dvayatānupassanāsutta*
 
@@ -1026,4 +1026,4 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn82]: S I 15, *Sarasutta*
 
-[^fn83]: M I 53, *Sammādiṭṭhisutta*
+[^fn83]: [MN 9 / M I 53](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*

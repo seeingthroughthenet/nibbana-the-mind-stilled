@@ -861,7 +861,7 @@ attempt to cling on to the scaffoldings and to live on in them. So with
 reference to the *Satipaṭṭhānasutta* also, we can understand the importance of
 the term *nissaya*.
 
-[^fn121]: M I 436, *Mahāmālunkyasutta*
+[^fn121]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn122]: See *Sermon 3*
 
