@@ -42,13 +42,23 @@ def convert_references_in_file(ref_data: List[RefData], file_path: Path):
                 text = pat.sub(linked, text)
 
     elif file_path.suffix == ".tex":
+        # \footnote{M I 487, \emph{Aggivacchagottasutta}}
         # \footnote{S II 267, \emph{Āṇisutta}}
+        # \footnote{S IV 368-373}
         # to
         # \footnote{\href{https://suttacentral.net/sn20.7/pli/ms}{SN 20.7 / S II 267}, \emph{Āṇisutta}}
 
         for i in ref_data:
             pts_refs = [x.strip() for x in i['PTS'].split(",")]
             for pts in pts_refs:
+                # \footnote{S IV 368-373}
+                pat_str = r"\footnote{%s}" % pts
+                if pat_str in text:
+                    linked = r"\footnote{\href{https://suttacentral.net/%s/pli/ms}{%s / %s}}" % (sc_ref_uid(i['SC']), i['SC'], pts)
+                    text = text.replace(pat_str, linked)
+
+                # \footnote{M I 487, \emph{Aggivacchagottasutta}}
+                # \footnote{S II 267, \emph{Āṇisutta}}
                 pat = re.compile(pts + r"\b([^}])", flags=re.MULTILINE)
                 linked = r"\\href{https://suttacentral.net/%s/pli/ms}{%s / %s}\1" % (sc_ref_uid(i['SC']), i['SC'], pts)
                 text = pat.sub(linked, text)
