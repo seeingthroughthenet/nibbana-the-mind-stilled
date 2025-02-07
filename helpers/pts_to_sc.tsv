@@ -1,32 +1,55 @@
-PTS	SC	Title	Comments
-M I 436	MN 64	Mahāmālunkyasutta	
-D II 90, D II 93, D II 157	DN 16	Mahāparinibbānasutta	
-S II 267	SN 20.7	Āṇisutta	
-Khp 2	Kp 4	Kumārapañhā	
-S I 39	SN 1.61	Nāmasutta	
-S I 11	SN 1.20	Samiddhisutta	
-M I 53	MN 9	Sammādiṭṭhisutta	
-S I 12	SN 1.20	Samiddhisutta	
-Sn 560	Snp 3.7	Selasutta	
-S I 192	SN 8.7	Pavāraṇāsutta	
-S I 13	SN 1.23	Jaṭāsutta	
-Sn 228, Sn 235	Snp 2.1	Ratanasutta	
-M III 245	MN 140	Dhātuvibhaṅgasutta	
-M I 487	MN 72	Aggivacchagottasutta	
-S IV 368-373	SN 43.13-44	Asaṅkhatasaṁyutta	
-M I 140	MN 22	Alagaddūpamasutta	
-D II 57	DN 15	Mahānidānasutta	
-Sn 1074	Snp 5.7	Upasīvamāṇavapucchā	
-Th 298	Thag 4.8	Rāhula Thera	
-D I 194	DN 9	Poṭṭhapādasutta	
-S V 421	SN 56.11	Dhammacakkappavattanasutta	
-It 88	Iti 90	Aggappasādasutta	
-Ud 11	Ud 2.2	Rājasutta	
-Ud 79	Ud 7.9	Udapānasutta	
-A II 34	AN 4.34	Aggappasādasutta	
-S IV 371	SN 38.1	Nibbānasutta	Can't find the quote in Asaṅkhatasaṁyutta (SN 43)
-M I 507	MN 75	Māgaṇḍiyasutta	
-M I 523	MN 76	Saṇḍakasutta	
-S III 189	SN 23.1	Mārasutta	
-A IV 428	AN 9.37	Ānandasutta	
-D I 84	DN 2	Sāmaññaphalasutta	
+PTS	SC	Title	uid	Comments
+M I 436	MN 64	Mahāmālunkyasutta		
+D II 90, D II 93, D II 157	DN 16	Mahāparinibbānasutta		
+S II 267	SN 20.7	Āṇisutta		
+Khp 2	Kp 4	Kumārapañhā		
+S I 39	SN 1.61	Nāmasutta		
+S I 11	SN 1.20	Samiddhisutta		
+M I 53	MN 9	Sammādiṭṭhisutta		
+S I 12	SN 1.20	Samiddhisutta		
+Sn 560	Snp 3.7	Selasutta		
+S I 192	SN 8.7	Pavāraṇāsutta		
+S I 13	SN 1.23	Jaṭāsutta		
+Sn 228, Sn 231, Sn 235	Snp 2.1	Ratanasutta		
+M III 245	MN 140	Dhātuvibhaṅgasutta		
+M I 487	MN 72	Aggivacchagottasutta		
+S IV 368-373	SN 43.13-44	Asaṅkhatasaṁyutta		
+M I 140, M I 141	MN 22	Alagaddūpamasutta		
+D II 57, D II 63	DN 15	Mahānidānasutta		
+Sn 1074	Snp 5.7	Upasīvamāṇavapucchā		
+Th 298	Thag 4.8	Rāhula Thera		
+D I 194	DN 9	Poṭṭhapādasutta		
+S V 421, S V 423	SN 56.11	Dhammacakkappavattanasutta		
+It 88	Iti 90	Aggappasādasutta		
+Ud 11	Ud 2.2	Rājasutta		
+Ud 79	Ud 7.9	Udapānasutta		
+A II 34	AN 4.34	Aggappasādasutta		
+_X_ S IV 371	SN 38.1	Nibbānasutta		Can't find the quote in Asaṅkhatasaṁyutta (SN 43)
+_X_ S IV 372				Can't find 'dīpa' as nibbāna
+M I 507	MN 75	Māgaṇḍiyasutta		
+M I 523	MN 76	Saṇḍakasutta		
+S III 189	SN 23.1	Mārasutta		
+A IV 428	AN 9.37	Ānandasutta		
+D I 84	DN 2	Sāmaññaphalasutta		
+D I 203	DN 9	Poṭṭhapādasutta		
+D I 177	DN 8	Kassapasīhanādasutta		
+S I 33	SN 1.46	Accharāsutta		
+It 53	Iti 62	Indriyasutta		
+D I 110	DN 3	Ambaṭṭhasutta		
+Dhp 383		Brāhmaṇavagga	dhp383-423	
+S I 54	SN 2.18	Kakudhasutta		
+Sn 1092	Snp 5.11	Kappamāṇavapucchā		
+M I 167	MN 26	Ariyapariyesanasutta		
+M III 63	MN 115	Bahudhātukasutta		
+Ud 1	Ud 1.1-3	Bodhisuttas		
+S II 25	SN 12.20	Paccayasutta		
+Sn 729, Sn 740	Snp 3.12	Dvayatānupassanāsutta		
+D III 29	DN 24	Pāṭikasutta		
+M II 110	MN 87	Piyajātikasutta		
+A I 152	AN 3.47	Saṅkhatalakkhaṇasutta		
+M I 56	MN 10	Satipaṭṭhānasutta		
+Dhp 62		Bālavagga	dhp60-75	
+Ud 32	Ud 3.10	Lokasutta		
+Sn 1103	Snp 5.13	Bhadrāvudhamāṇavapucchā		
+Ud 75	Ud 7.2	Dutiyalakuṇḍakabhaddiyasutta		
+S I 15	SN 1.72	Sarasutta		

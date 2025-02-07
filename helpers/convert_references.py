@@ -12,6 +12,7 @@ class RefData(TypedDict):
     PTS: str
     SC: str
     Title: str
+    uid: str
     Comments: str
 
 def sc_ref_uid(ref: str) -> str:
@@ -35,10 +36,21 @@ def convert_references_in_file(ref_data: List[RefData], file_path: Path):
 
         for i in ref_data:
             pts_refs = [x.strip() for x in i['PTS'].split(",")]
+
+            if i["uid"] != "":
+                uid = i["uid"]
+            else:
+                uid = sc_ref_uid(i['SC'])
+
             for pts in pts_refs:
                 # NOTE: \b needed: S I 12 should not match S I 121
                 pat = re.compile(pts + r"\b([^]])", flags=re.MULTILINE)
-                linked = r"[%s / %s](https://suttacentral.net/%s/pli/ms)\1" % (i['SC'], pts, sc_ref_uid(i['SC']))
+
+                if i["SC"] == "":
+                    linked = r"[%s](https://suttacentral.net/%s/pli/ms)\1" % (pts, uid)
+                else:
+                    linked = r"[%s / %s](https://suttacentral.net/%s/pli/ms)\1" % (i["SC"], pts, uid)
+
                 text = pat.sub(linked, text)
 
     elif file_path.suffix == ".tex":
@@ -50,17 +62,30 @@ def convert_references_in_file(ref_data: List[RefData], file_path: Path):
 
         for i in ref_data:
             pts_refs = [x.strip() for x in i['PTS'].split(",")]
+
+            if i["uid"] != "":
+                uid = i["uid"]
+            else:
+                uid = sc_ref_uid(i['SC'])
+
             for pts in pts_refs:
                 # \footnote{S IV 368-373}
                 pat_str = r"\footnote{%s}" % pts
                 if pat_str in text:
-                    linked = r"\footnote{\href{https://suttacentral.net/%s/pli/ms}{%s / %s}}" % (sc_ref_uid(i['SC']), i['SC'], pts)
+                    if i["SC"] == "":
+                        linked = r"\footnote{\href{https://suttacentral.net/%s/pli/ms}{%s}}" % (uid, pts)
+                    else:
+                        linked = r"\footnote{\href{https://suttacentral.net/%s/pli/ms}{%s / %s}}" % (uid, i["SC"], pts)
+
                     text = text.replace(pat_str, linked)
 
                 # \footnote{M I 487, \emph{Aggivacchagottasutta}}
                 # \footnote{S II 267, \emph{Āṇisutta}}
                 pat = re.compile(pts + r"\b([^}])", flags=re.MULTILINE)
-                linked = r"\\href{https://suttacentral.net/%s/pli/ms}{%s / %s}\1" % (sc_ref_uid(i['SC']), i['SC'], pts)
+                if i["SC"] == "":
+                    linked = r"\\href{https://suttacentral.net/%s/pli/ms}{%s}\1" % (uid, pts)
+                else:
+                    linked = r"\\href{https://suttacentral.net/%s/pli/ms}{%s / %s}\1" % (uid, i["SC"], pts)
                 text = pat.sub(linked, text)
 
     else:
