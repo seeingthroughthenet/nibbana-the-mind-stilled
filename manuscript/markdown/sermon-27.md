@@ -749,7 +749,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn870]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn871]: Ud 1-2, *Bodhivagga*
+[^fn871]: [Ud 1.1-3 / Ud 1](https://suttacentral.net/ud1.1/pli/ms)-2, *Bodhivagga*
 
 [^fn872]: A III 378, *Soṇasutta*
 

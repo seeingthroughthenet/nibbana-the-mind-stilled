@@ -947,7 +947,7 @@ the title of these series of sermons, namely:
 
 [^fn844]: Th 716, *Adhimutta Theragāthā*; see also *Sermon 8*
 
-[^fn845]: S II 25, *Paccayasutta*; see *Sermon 2*
+[^fn845]: [SN 12.20 / S II 25](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*; see *Sermon 2*
 
 [^fn846]: A III 440, *Catuttha-abhabbaṭṭhānasutta*
 
@@ -957,7 +957,7 @@ the title of these series of sermons, namely:
 
 [^fn849]: M I 54, *Sammādiṭṭhisutta*
 
-[^fn850]: M III 63, *Bahudhātukasutta*
+[^fn850]: [MN 115 / M III 63](https://suttacentral.net/mn115/pli/ms), *Bahudhātukasutta*
 
 [^fn851]: Dhp 1, *Yamakavagga*
 

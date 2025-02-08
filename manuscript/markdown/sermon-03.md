@@ -1004,7 +1004,7 @@ altogether then and there.
 
 [^fn87]: S IV 208, *Sallattenasutta*
 
-[^fn88]: D I 110, D I 148, D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, S V 423, A IV 186, A IV 210, A IV 213, Ud 49
+[^fn88]: [DN 3 / D I 110](https://suttacentral.net/dn3/pli/ms), D I 148, D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, [SN 56.11 / S V 423](https://suttacentral.net/sn56.11/pli/ms), A IV 186, A IV 210, A IV 213, Ud 49
 
 [^fn89]: D II 33, S II 7, S II 105
 
@@ -1016,7 +1016,7 @@ altogether then and there.
 
 [^fn93]: See *Sermon 2*
 
-[^fn94]: D II 63, *Mahānidānasutta*
+[^fn94]: [DN 15 / D II 63](https://suttacentral.net/dn15/pli/ms), *Mahānidānasutta*
 
 [^fn95]: Sn 1076, *Upasīvamāṇavapucchā*
 
@@ -1044,11 +1044,11 @@ altogether then and there.
 
 [^fn107]: Th 1094, *Tālapuṭa Thera*
 
-[^fn108]: D I 110, D I 148, etc. see references above
+[^fn108]: [DN 3 / D I 110](https://suttacentral.net/dn3/pli/ms), D I 148, etc. see references above
 
 [^fn109]: See *Sermon 1*
 
-[^fn110]: D II 63, *Mahānidānasutta*
+[^fn110]: [DN 15 / D II 63](https://suttacentral.net/dn15/pli/ms), *Mahānidānasutta*
 
 [^fn111]: See *Sermon 2*
 

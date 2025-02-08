@@ -840,7 +840,7 @@ So these lines could be rendered as follows:
 
 [^fn485]: See *Sermon 8*
 
-[^fn486]: See *Sermon 2*; Ud 32, *Lokasutta*
+[^fn486]: See *Sermon 2*; [Ud 3.10 / Ud 32](https://suttacentral.net/ud3.10/pli/ms), *Lokasutta*
 
 [^fn487]: Sn 1055-1056, *Mettagūmāṇavapucchā*
 
@@ -850,7 +850,7 @@ So these lines could be rendered as follows:
 
 [^fn490]: S IV 372, *Asaṅkhatasaṁyutta*
 
-[^fn491]: Sn 1092, *Kappamāṇavapucchā*
+[^fn491]: [Snp 5.11 / Sn 1092](https://suttacentral.net/snp5.11/pli/ms), *Kappamāṇavapucchā*
 
 [^fn492]: Sn 1094, *Kappamāṇavapucchā*
 

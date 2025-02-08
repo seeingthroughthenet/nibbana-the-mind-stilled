@@ -789,7 +789,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn918]: Dhp 385, *Brāhmaṇavagga*; see *Sermons 5, 18 and 19*
 
-[^fn919]: Ud 75, *Dutiyalakuṇtakabhaddiyasutta*
+[^fn919]: [Ud 7.2 / Ud 75](https://suttacentral.net/ud7.2/pli/ms), *Dutiyalakuṇtakabhaddiyasutta*
 
 [^fn920]: D II 119, *Mahāparinibbānasutta*
 

@@ -894,7 +894,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn668]: E.g. at M I 35, *Ākaṅkheyyasutta*
 
-[^fn669]: E.g. at M I 167, *Ariyapariyesanasutta*
+[^fn669]: E.g. at [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
 [^fn670]: E.g. at M I 23, *Bhayabheravasutta*
 
@@ -932,7 +932,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn687]: E.g. S III 190, *Bhavanettisutta*
 
-[^fn688]: It 53, *Indriyasutta*; see *Sermon 16*,
+[^fn688]: [Iti 62 / It 53](https://suttacentral.net/iti62/pli/ms), *Indriyasutta*; see *Sermon 16*,
 
 [^fn689]: M I 484, *Aggivacchagottasutta*
 

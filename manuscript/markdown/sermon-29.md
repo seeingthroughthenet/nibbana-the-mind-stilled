@@ -831,7 +831,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn942]: E.g. M I 300, *Cūḷavedallasutta*
 
-[^fn943]: M I 56, *Satipaṭṭhānasutta*
+[^fn943]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn944]: S I 135, *Vajirāsutta*
 

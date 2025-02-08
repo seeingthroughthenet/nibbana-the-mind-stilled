@@ -807,7 +807,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn790]: See *Sermon 3*
 
-[^fn791]: Sn 1103, *Bhadrāvudhamāṇavappucchā*
+[^fn791]: [Snp 5.13 / Sn 1103](https://suttacentral.net/snp5.13/pli/ms), *Bhadrāvudhamāṇavappucchā*
 
 [^fn792]: S I 115, *Kassakasutta*
 

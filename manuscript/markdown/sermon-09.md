@@ -993,7 +993,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn300]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn301]: M I 56, *Satipaṭṭhānasutta*
+[^fn301]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn302]: [MN 9 / M I 53](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*
 
@@ -1007,7 +1007,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn307]: A IV 353, *Sambodhisutta*
 
-[^fn308]: Dhp 62, *Bālavagga*
+[^fn308]: [Dhp 62](https://suttacentral.net/dhp60-75/pli/ms), *Bālavagga*
 
 [^fn309]: E.g. at M I 297, *Mahāvedallasutta*
 

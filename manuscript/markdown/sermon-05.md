@@ -853,11 +853,11 @@ today.
 
 [^fn149]: See *Sermon 4*
 
-[^fn150]: M I 56, *Satipaṭṭhānasutta*
+[^fn150]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn151]: See *Sermon 4*
 
-[^fn152]: M I 56, *Satipaṭṭhānasutta*
+[^fn152]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn153]: S V 184, *Samudayasutta*
 

@@ -865,7 +865,7 @@ the term *nissaya*.
 
 [^fn122]: See *Sermon 3*
 
-[^fn123]: Sn 740, *Dvayatānupassanāsutta*; see also *Sermon 2*, *Taṇhā dutiyo puriso...*
+[^fn123]: [Snp 3.12 / Sn 740](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*; see also *Sermon 2*, *Taṇhā dutiyo puriso...*
 
 [^fn124]: See *Sermon 3*
 
@@ -909,7 +909,7 @@ the term *nissaya*.
 
 [^fn144]: Dhp-a I 367
 
-[^fn145]: M I 56, *Satipaṭṭhānasutta*
+[^fn145]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn146]: S V 183, *Vibhaṅgasutta*
 

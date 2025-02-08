@@ -939,7 +939,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn451]: See *Sermon 2*
 
-[^fn452]: S I 54, *Kakudhasutta*
+[^fn452]: [SN 2.18 / S I 54](https://suttacentral.net/sn2.18/pli/ms), *Kakudhasutta*
 
 [^fn453]: Vibh-a 53
 

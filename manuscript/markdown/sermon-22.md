@@ -899,7 +899,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn736]: See *Sermons 10 and 13*
 
-[^fn737]: M I 141, *Alagaddūpamasutta*; see *Sermon 2* and *Sermon 21*
+[^fn737]: [MN 22 / M I 141](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*; see *Sermon 2* and *Sermon 21*
 
 [^fn738]: D I 46, *Brahmajālasutta*
 
@@ -911,13 +911,13 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn742]: A III 107, *Tatiya-anāgatabhayasutta*; see also [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*
 
-[^fn743]: M I 167, *Ariyapariyesanasutta*
+[^fn743]: [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
 [^fn744]: Dhp 157-166 make up the 12th chapter of Dhp, the *Attavagga*
 
 [^fn745]: Dhp 160, *Attavagga*
 
-[^fn746]: Dhp 62, *Bālavagga*
+[^fn746]: [Dhp 62](https://suttacentral.net/dhp60-75/pli/ms), *Bālavagga*
 
 [^fn747]: S I 41, *Lokasutta*, see also *Sermon 4*; S IV 39, *Samiddhisutta*, see also *Sermon 20*
 

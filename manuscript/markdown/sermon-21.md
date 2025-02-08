@@ -861,7 +861,7 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn704]: See *Sermon 12*
 
-[^fn705]: Ud 75, *Dutiyalakuṇṭakabhaddiyasutta*, see *Sermon 2*
+[^fn705]: [Ud 7.2 / Ud 75](https://suttacentral.net/ud7.2/pli/ms), *Dutiyalakuṇṭakabhaddiyasutta*, see *Sermon 2*
 
 [^fn706]: S III 59, *Upādānaparivaṭṭasutta* and S III 63, *Sattaṭṭhānasutta*
 
