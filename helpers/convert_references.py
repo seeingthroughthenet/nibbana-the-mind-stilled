@@ -43,8 +43,9 @@ def convert_references_in_file(ref_data: List[RefData], file_path: Path):
                 uid = sc_ref_uid(i['SC'])
 
             for pts in pts_refs:
-                # NOTE: \b needed: S I 12 should not match S I 121
-                pat = re.compile(pts + r"\b([^]])", flags=re.MULTILINE)
+                # \b needed: S I 12 should not match S I 121
+                # Not '.': Ud 1 should not match Ud 1.1
+                pat = re.compile(pts + r"\b([^]\.])", flags=re.MULTILINE)
 
                 if i["SC"] == "":
                     linked = r"[%s](https://suttacentral.net/%s/pli/ms)\1" % (pts, uid)
@@ -81,7 +82,7 @@ def convert_references_in_file(ref_data: List[RefData], file_path: Path):
 
                 # \footnote{M I 487, \emph{Aggivacchagottasutta}}
                 # \footnote{S II 267, \emph{Āṇisutta}}
-                pat = re.compile(pts + r"\b([^}])", flags=re.MULTILINE)
+                pat = re.compile(pts + r"\b([^}\.])", flags=re.MULTILINE)
                 if i["SC"] == "":
                     linked = r"\\href{https://suttacentral.net/%s/pli/ms}{%s}\1" % (uid, pts)
                 else:
