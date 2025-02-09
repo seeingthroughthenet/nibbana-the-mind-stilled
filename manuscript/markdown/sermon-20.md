@@ -942,7 +942,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn692]: S V 437, *Sīsapāvanasutta*
 
-[^fn693]: S I 41, *Lokasutta*; see *Sermon 4*
+[^fn693]: [SN 1.70 / S I 41](https://suttacentral.net/sn1.70/pli/ms), *Lokasutta*; see *Sermon 4*
 
 [^fn694]: S IV 39, *Samiddhisutta*
 

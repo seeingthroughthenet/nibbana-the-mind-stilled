@@ -955,7 +955,7 @@ words:
 
 [^fn828]: Sn 268, *Mahāmaṅgalasutta*
 
-[^fn829]: Ud 81, *Catutthanibbānapaṭisaṁyuttasutta*
+[^fn829]: [Ud 8.4 / Ud 81](https://suttacentral.net/ud8.4/pli/ms), *Catutthanibbānapaṭisaṁyuttasutta*
 
 [^fn830]: Mp III 41
 

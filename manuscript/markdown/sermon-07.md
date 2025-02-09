@@ -886,7 +886,7 @@ it. They are transcended.
 
 [^fn232]: M III 240, *Dhātuvibhaṅgasutta*
 
-[^fn233]: S II 17, *Kaccāyanagottasutta*, see *Sermon 4*
+[^fn233]: [SN 12.15 / S II 17](https://suttacentral.net/sn12.15/pli/ms), *Kaccāyanagottasutta*, see *Sermon 4*
 
 [^fn234]: Ud 80, *Dutiyanibbānapaṭisaṁyuttasutta*
 

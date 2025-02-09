@@ -973,7 +973,7 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn761]: See *Sermons 4 and 22*
 
-[^fn762]: S II 17, *Kaccāyanagottasutta*
+[^fn762]: [SN 12.15 / S II 17](https://suttacentral.net/sn12.15/pli/ms), *Kaccāyanagottasutta*
 
 [^fn763]: [AN 9.37 / A IV 428](https://suttacentral.net/an9.37/pli/ms), *Lokāyatikābrāhmaṇāsutta*
 

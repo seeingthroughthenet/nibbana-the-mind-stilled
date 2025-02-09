@@ -893,10 +893,10 @@ parinibbāna*. This is the subtlest truth in this Dhamma.
 
 [^fn977]: Pj II 545
 
-[^fn978]: M III 266, *Channovādasutta*; see *Sermon 4*
+[^fn978]: [MN 144 / M III 266](https://suttacentral.net/mn144/pli/ms), *Channovādasutta*; see *Sermon 4*
 
 [^fn979]: See *Sermon 5*
 
 [^fn980]: M I 147, *Rathavinītasutta*
 
-[^fn981]: M I 134, *Alagaddūpamasutta*; see *Sermon 18*
+[^fn981]: [MN 22 / M I 134](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*; see *Sermon 18*

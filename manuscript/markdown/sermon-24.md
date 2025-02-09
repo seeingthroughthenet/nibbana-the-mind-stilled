@@ -791,7 +791,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn782]: S I 62 and A II 50 *Rohitassasutta*; see *Sermon 23*
 
-[^fn783]: S IV 95, *Lokakāmaguṇasutta*
+[^fn783]: [SN 35.116 / S IV 95](https://suttacentral.net/sn35.116/pli/ms), *Lokakāmaguṇasutta*
 
 [^fn784]: Ud 80, *Pāṭaligāmiyavagga*
 
@@ -799,7 +799,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn786]: Ud 80, *Pāṭaligāmiyavagga*
 
-[^fn787]: Ud 81, *Pāṭaligāmiyavagga*
+[^fn787]: [Ud 8.4 / Ud 81](https://suttacentral.net/ud8.4/pli/ms), *Pāṭaligāmiyavagga*
 
 [^fn788]: [SN 23.1 / S III 189](https://suttacentral.net/sn23.1/pli/ms), *Mārosutta*
 

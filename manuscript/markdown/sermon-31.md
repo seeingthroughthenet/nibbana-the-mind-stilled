@@ -873,7 +873,7 @@ words:
 
 [^fn982]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn983]: M I 134, *Alagaddūpamasutta*
+[^fn983]: [MN 22 / M I 134](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
 [^fn984]: M I 260, *Mahātaṇhāsaṅkhayasutta*
 

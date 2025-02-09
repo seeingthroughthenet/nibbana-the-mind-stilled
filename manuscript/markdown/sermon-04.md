@@ -869,35 +869,35 @@ the term *nissaya*.
 
 [^fn124]: See *Sermon 3*
 
-[^fn125]: M I 256, *Mahātaṇhāsaṅkhayasutta*
+[^fn125]: [MN 38 / M I 256](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*
 
 [^fn126]: See *Sermon 3*
 
-[^fn127]: Dhp 338, *Taṇhāvagga*
+[^fn127]: [Dhp 338](https://suttacentral.net/dhp334-359/pli/ms), *Taṇhāvagga*
 
-[^fn128]: A I 223, *Paṭhamabhavasutta*
+[^fn128]: [AN 3.76 / A I 223](https://suttacentral.net/an3.76/pli/ms), *Paṭhamabhavasutta*
 
-[^fn129]: S I 134, *Selāsutta*
+[^fn129]: [SN 5.9 / S I 134](https://suttacentral.net/sn5.9/pli/ms), *Selāsutta*
 
 [^fn130]: E.g. at Sv-pṭ I 513
 
-[^fn131]: Sn 209, *Munisutta*
+[^fn131]: [Snp 1.12 / Sn 209](https://suttacentral.net/snp1.12/pli/ms), *Munisutta*
 
-[^fn132]: M III 266, *Channovādasutta*
+[^fn132]: [MN 144 / M III 266](https://suttacentral.net/mn144/pli/ms), *Channovādasutta*
 
-[^fn133]: S IV 400, *Kuthūhalasālāsutta*: '*taṇhupādāna*'.
+[^fn133]: [SN 44.9 / S IV 400](https://suttacentral.net/sn44.9/pli/ms), *Kutūhalasālāsutta*: '*taṇhupādāna*'
 
-[^fn134]: Ud 81, *Catutthanibbānapaṭisaṁyuttasutta*
+[^fn134]: [Ud 8.4 / Ud 81](https://suttacentral.net/ud8.4/pli/ms), *Catutthanibbānapaṭisaṁyuttasutta*
 
-[^fn135]: S II 17, *Kaccāyanagottasutta*
+[^fn135]: [SN 12.15 / S II 17](https://suttacentral.net/sn12.15/pli/ms), *Kaccāyanagottasutta*
 
-[^fn136]: S I 41, *Lokasutta*
+[^fn136]: [SN 1.70 / S I 41](https://suttacentral.net/sn1.70/pli/ms), *Lokasutta*
 
 [^fn137]: Spk I 96
 
-[^fn138]: S IV 86, *Dukkhasutta*
+[^fn138]: [SN 35.106 / S IV 86](https://suttacentral.net/sn35.106/pli/ms), *Dukkhasutta*
 
-[^fn139]: S IV 95, *Lokakāmaguṇasutta*
+[^fn139]: [SN 35.116 / S IV 95](https://suttacentral.net/sn35.116/pli/ms), *Lokakāmaguṇasutta*
 
 [^fn140]: E.g. at [DN 33 / D III 237](https://suttacentral.net/dn33/pli/ms), *Sangītisutta*
 
@@ -911,6 +911,6 @@ the term *nissaya*.
 
 [^fn145]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn146]: S V 183, *Vibhaṅgasutta*
+[^fn146]: [SN 47.40 / S V 183](https://suttacentral.net/sn47.40/pli/ms), *Vibhaṅgasutta*
 
-[^fn147]: M I 134, *Alagaddūpamasutta*
+[^fn147]: [MN 22 / M I 134](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
