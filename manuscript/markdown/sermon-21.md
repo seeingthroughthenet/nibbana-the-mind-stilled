@@ -879,7 +879,7 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn713]: See sermons 5 and 18
 
-[^fn714]: S II 26, *Paccayasutta*
+[^fn714]: [SN 12.20 / S II 26](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 
 [^fn715]: Sv I 62: *tathalakkhaṇaṁ āgatoti tathāgato*
 

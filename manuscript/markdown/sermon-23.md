@@ -1009,4 +1009,4 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn779]: D I 223, *Kevaḍḍhasutta*, see also *Sermon 6*
 
-[^fn780]: S II 114, *Naḷakalāpīsutta*, see also *Sermon 3*
+[^fn780]: [SN 12.67 / S II 114](https://suttacentral.net/sn12.67/pli/ms), *Naḷakalāpīsutta*, see also *Sermon 3*

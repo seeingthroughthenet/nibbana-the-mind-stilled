@@ -753,7 +753,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn900]: A I 87, *Āsāduppajahavagga*
 
-[^fn901]: D II 31, *Mahāpadānasutta*, see *Sermon 3*
+[^fn901]: [DN 14 / D II 31](https://suttacentral.net/dn14/pli/ms), *Mahāpadānasutta*, see *Sermon 3*
 
 [^fn902]: Sn 270, *Sūcilomasutta*
 

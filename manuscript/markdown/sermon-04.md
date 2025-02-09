@@ -899,13 +899,13 @@ the term *nissaya*.
 
 [^fn139]: S IV 95, *Lokakāmaguṇasutta*
 
-[^fn140]: E.g. at D III 237, *Sangītisutta*
+[^fn140]: E.g. at [DN 33 / D III 237](https://suttacentral.net/dn33/pli/ms), *Sangītisutta*
 
 [^fn141]: See *Sermon 1*
 
 [^fn142]: See *Sermon 3*
 
-[^fn143]: S II 26, *Paccayasutta*
+[^fn143]: [SN 12.20 / S II 26](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 
 [^fn144]: Dhp-a I 367
 

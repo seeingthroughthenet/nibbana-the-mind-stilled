@@ -1000,51 +1000,51 @@ altogether then and there.
 
 [^fn85]: See *Sermon 2*
 
-[^fn86]: S IV 206, *Pātālasutta*
+[^fn86]: [SN 36.4 / S IV 206](https://suttacentral.net/sn36.4/pli/ms), *Pātālasutta*
 
-[^fn87]: S IV 208, *Sallattenasutta*
+[^fn87]: [SN 36.6 / S IV 208](https://suttacentral.net/sn36.6/pli/ms), *Sallattenasutta*
 
-[^fn88]: [DN 3 / D I 110](https://suttacentral.net/dn3/pli/ms), D I 148, D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, [SN 56.11 / S V 423](https://suttacentral.net/sn56.11/pli/ms), A IV 186, A IV 210, A IV 213, Ud 49
+[^fn88]: [DN 3 / D I 110](https://suttacentral.net/dn3/pli/ms), [DN 5 / D I 148](https://suttacentral.net/dn5/pli/ms), D II 41, D II 288, M I 380, M I 501, M II 145, M III 280, S IV 47, S IV 107, S IV 192, [SN 56.11 / S V 423](https://suttacentral.net/sn56.11/pli/ms), A IV 186, A IV 210, A IV 213, Ud 49
 
-[^fn89]: D II 33, S II 7, S II 105
+[^fn89]: [DN 14 / D II 33](https://suttacentral.net/dn14/pli/ms), [SN 12.4 / S II 7](https://suttacentral.net/sn12.4/pli/ms), [SN 12.65 / S II 105](https://suttacentral.net/sn12.65/pli/ms)
 
 [^fn90]: See *Sermon 2*
 
-[^fn91]: E.g. at D III 237, *Sangītisutta*
+[^fn91]: E.g. at [DN 33 / D III 237](https://suttacentral.net/dn33/pli/ms), *Sangītisutta*
 
-[^fn92]: Vin I 40
+[^fn92]: [Vin I 40](https://suttacentral.net/pli-tv-kd1/pli/ms)
 
 [^fn93]: See *Sermon 2*
 
 [^fn94]: [DN 15 / D II 63](https://suttacentral.net/dn15/pli/ms), *Mahānidānasutta*
 
-[^fn95]: Sn 1076, *Upasīvamāṇavapucchā*
+[^fn95]: [Snp 5.7 / Sn 1076](https://suttacentral.net/snp5.7/pli/ms), *Upasīvamāṇavapucchā*
 
-[^fn96]: D II 31, *Mahāpadānasutta*
+[^fn96]: [DN 14 / D II 31](https://suttacentral.net/dn14/pli/ms), *Mahāpadānasutta*
 
 [^fn97]: Sv II 459
 
-[^fn98]: S II 114, *Naḷakalāpīsutta*
+[^fn98]: [SN 12.67 / S II 114](https://suttacentral.net/sn12.67/pli/ms), *Naḷakalāpīsutta*
 
-[^fn99]: S II 26, *Paccayasutta*
+[^fn99]: [SN 12.20 / S II 26](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 
-[^fn100]: M I 190, *Mahāhatthipadopamasutta*
+[^fn100]: [MN 28 / M I 190](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 
 [^fn101]: [DN 16 / D II 93](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
 [^fn102]: Vism 578
 
-[^fn103]: S II 68, *Pañcaverabhayāsutta*
+[^fn103]: [SN 12.41 / S II 68](https://suttacentral.net/sn12.41/pli/ms), *Pañcaverabhayāsutta*
 
 [^fn104]: Paṭis I 52, Vism 579
 
-[^fn105]: Sn 1084-1085, *Hemakamāṇavapucchā*
+[^fn105]: [Snp 5.9 / Sn 1084-1085](https://suttacentral.net/snp5.9/pli/ms), *Hemakamāṇavapucchā*
 
-[^fn106]: M I 8, *Sabbāsavasutta*
+[^fn106]: [MN 2 / M I 8](https://suttacentral.net/mn2/pli/ms), *Sabbāsavasutta*
 
-[^fn107]: Th 1094, *Tālapuṭa Thera*
+[^fn107]: [Thag 19.1 / Th 1094](https://suttacentral.net/thag19.1/pli/ms), *Tālapuṭa Thera*
 
-[^fn108]: [DN 3 / D I 110](https://suttacentral.net/dn3/pli/ms), D I 148, etc. see references above
+[^fn108]: [DN 3 / D I 110](https://suttacentral.net/dn3/pli/ms), [DN 5 / D I 148](https://suttacentral.net/dn5/pli/ms), etc. see references above
 
 [^fn109]: See *Sermon 1*
 
@@ -1052,20 +1052,20 @@ altogether then and there.
 
 [^fn111]: See *Sermon 2*
 
-[^fn112]: D III 105, *Sampasādanīyasutta*
+[^fn112]: [DN 28 / D III 105](https://suttacentral.net/dn28/pli/ms), *Sampasādanīyasutta*
 
-[^fn113]: Spk I 183 commenting on S I 121
+[^fn113]: Spk I 183 commenting on [SN 4.23 / S I 121](https://suttacentral.net/sn4.23/pli/ms)
 
-[^fn114]: S I 122, *Godhikasutta*
+[^fn114]: [SN 4.23 / S I 122](https://suttacentral.net/sn4.23/pli/ms), *Godhikasutta*
 
-[^fn115]: D II 305, M I 50, M I 62, M III 249, S II 3
+[^fn115]: [DN 22 / D II 305](https://suttacentral.net/dn22/pli/ms), [MN 9 / M I 50](https://suttacentral.net/mn9/pli/ms), M I 62, [MN 141 / M III 249](https://suttacentral.net/mn141/pli/ms), [SN 12.2 / S II 3](https://suttacentral.net/sn12.2/pli/ms)
 
-[^fn116]: M II 156, *Ghoṭamukhasutta*
+[^fn116]: [MN 94 / M II 156](https://suttacentral.net/mn94/pli/ms), *Ghoṭamukhasutta*
 
 [^fn117]: A II 133, *Saṁyojanasutta*
 
 [^fn118]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*, see *Sermon 1*
 
-[^fn119]: M III 18, *Mahāpuṇṇamasutta*
+[^fn119]: [MN 109 / M III 18](https://suttacentral.net/mn109/pli/ms), *Mahāpuṇṇamasutta*
 
-[^fn120]: S II 66, *Cetanāsutta*
+[^fn120]: [SN 12.38 / S II 66](https://suttacentral.net/sn12.38/pli/ms), *Cetanāsutta*

@@ -953,7 +953,7 @@ the title of these series of sermons, namely:
 
 [^fn847]: See *Sermon 5*
 
-[^fn848]: Vin I 40, *Mahāvagga*
+[^fn848]: [Vin I 40](https://suttacentral.net/pli-tv-kd1/pli/ms), *Mahāvagga*
 
 [^fn849]: M I 54, *Sammādiṭṭhisutta*
 

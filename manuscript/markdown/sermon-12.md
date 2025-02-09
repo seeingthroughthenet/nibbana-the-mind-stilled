@@ -782,7 +782,7 @@ say it is because it should be well comprehended by him."
 
 [^fn414]: *Marīcikūpamā saññā* at S III 142, *Pheṇapiṇḍūpamasutta*
 
-[^fn415]: M I 190, *Mahāhatthipadopamasutta*
+[^fn415]: [MN 28 / M I 190](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 
 [^fn416]: D I 201, *Poṭṭhapādasutta*
 

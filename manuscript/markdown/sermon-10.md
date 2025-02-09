@@ -817,7 +817,7 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn349]: It 43, *Diṭṭhigatasutta*
 
-[^fn350]: E.g. at M I 8, *Sabbāsavasutta*; or at M I 135, *Alaggadūpamasutta*
+[^fn350]: E.g. at [MN 2 / M I 8](https://suttacentral.net/mn2/pli/ms), *Sabbāsavasutta*; or at M I 135, *Alaggadūpamasutta*
 
 [^fn351]: It 37, *Ajātasutta*
 

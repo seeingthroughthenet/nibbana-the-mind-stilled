@@ -917,7 +917,7 @@ today.
 
 [^fn181]: Dhp-a I 88
 
-[^fn182]: Vin I 40
+[^fn182]: [Vin I 40](https://suttacentral.net/pli-tv-kd1/pli/ms)
 
 [^fn183]: *Idappaccayatā* is discussed in detail above, see *Sermon 2*
 
