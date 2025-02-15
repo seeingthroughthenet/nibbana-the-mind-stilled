@@ -1,7 +1,8 @@
 \documentclass[
   final,
   babelLanguage=british,
-  desktopVersion,
+  % desktopVersion, % turned off for printing
+  printOnDemand,
 ]{anecdote}
 
 \graphicspath{{./assets/images/}}
@@ -16,7 +17,7 @@
 
 \title{Nibbāna -- The Mind Stilled}
 \subtitle{33 Sermons on Nibbāna}
-\volumeTitle{}
+\volumeTitle{Part II: Sermons 17-33}
 \author{Bhikkhu K. Ñāṇananda}
 \publisher{Kaṭukurunde Ñāṇananda Sadaham Senasun Bhāraya (KNSSB)}
 \date{2024-12-13}
@@ -74,33 +75,15 @@
 
 \input{./manuscript/tex/about-the-knssb.tex}
 
-\input{./manuscript/tex/introduction.tex}
-
 % \mainmatter is redefined so it doesn't add empty pages.
 % Move the first chapter page to the right side.
 \clearpage
-\thispagestyle{empty}\null
-\clearpage
 
-% Page 1 is the first page of the first chapter.
+% === NOTE: Part 2 mainmatter begins with Sermon 17 starting on page 395. ===
 \mainmatter
+\setcounter{chapter}{16}
+\setcounter{page}{394}
 
-\input{./manuscript/tex/sermon-01.tex}
-\input{./manuscript/tex/sermon-02.tex}
-\input{./manuscript/tex/sermon-03.tex}
-\input{./manuscript/tex/sermon-04.tex}
-\input{./manuscript/tex/sermon-05.tex}
-\input{./manuscript/tex/sermon-06.tex}
-\input{./manuscript/tex/sermon-07.tex}
-\input{./manuscript/tex/sermon-08.tex}
-\input{./manuscript/tex/sermon-09.tex}
-\input{./manuscript/tex/sermon-10.tex}
-\input{./manuscript/tex/sermon-11.tex}
-\input{./manuscript/tex/sermon-12.tex}
-\input{./manuscript/tex/sermon-13.tex}
-\input{./manuscript/tex/sermon-14.tex}
-\input{./manuscript/tex/sermon-15.tex}
-\input{./manuscript/tex/sermon-16.tex}
 \input{./manuscript/tex/sermon-17.tex}
 \input{./manuscript/tex/sermon-18.tex}
 \input{./manuscript/tex/sermon-19.tex}

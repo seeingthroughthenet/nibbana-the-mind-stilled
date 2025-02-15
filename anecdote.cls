@@ -32,6 +32,9 @@
 \newif\ifoverleaf
 \overleaffalse
 
+\newif\ifprintondemand
+\printondemandfalse
+
 % =======
 % Options
 % =======
@@ -45,6 +48,7 @@
   babelLanguage/.store in=\BOOK@babelLanguage,
   desktopVersion/.code=\desktopversiontrue,
   overleaf/.code=\overleaftrue,
+  printOnDemand/.code=\printondemandtrue,
 }
 
 % Pass all unknown options to memoir
@@ -422,12 +426,14 @@ philo-sophical munindo amaravati thai-land}
 }
 
 \newcommand*{\subtitle}[1]{\def\@thesubtitle{#1}}
+\newcommand*{\volumeTitle}[1]{\def\@theVolumeTitle{#1}}
 \newcommand*{\editionInfo}[1]{\def\@theEditionInfo{#1}}
 \newcommand*{\printedByInfo}[1]{\def\@thePrintedByInfo{#1}}
 \newcommand*{\publisher}[1]{\def\@thePublisher{#1}}
 \newcommand*{\ISBN}[1]{\def\@theISBN{#1}}
 
 \newcommand\thesubtitle{\@thesubtitle}
+\newcommand\theVolumeTitle{\@theVolumeTitle}
 \newcommand\theEditionInfo{\@theEditionInfo}
 \newcommand\thePrintedByInfo{\@thePrintedByInfo}
 \newcommand\thePublisher{\@thePublisher}
@@ -825,13 +831,13 @@ philo-sophical munindo amaravati thai-land}
 % Useful to insert a picture before the first chapter, which otherwise would
 % have a double blank page before it.
 
-% \renewcommand*{\@smemmain}{%
-%   \@mainmattertrue
-%   \setcounter{secnumdepth}{\value{maxsecnumdepth}}
-%   \ifartopt\relax
-%   \else
-%     \@memmain@floats
-%   \fi}
+\renewcommand*{\@smemmain}{%
+  \@mainmattertrue
+  \setcounter{secnumdepth}{\value{maxsecnumdepth}}
+  \ifartopt\relax
+  \else
+    \@memmain@floats
+  \fi}
 
 \ifthenelse{\equal{\BOOK@babelLanguage}{hungarian}}{
   % Turning off acute shorhand for hungarian. Turning off all shorhands with the
@@ -1656,10 +1662,20 @@ philo-sophical munindo amaravati thai-land}
   \quarkmarks
   \settrims{0.5\stockheight - 0.5\paperheight}{0.5\stockwidth - 0.5\paperwidth}
   \settrimmedsize{\BOOK@paperHeight}{\BOOK@paperWidth}{*}
-\else\relax
-  \setstocksize{\BOOK@paperHeight}{\BOOK@paperWidth}
-  \settrimmedsize{\stockheight}{\stockwidth}{*}
-  \settrims{0pt}{0pt}
+\else
+  \ifprintondemand
+    % 6.125 in x 9.250 in
+    \stockheight=9.25in
+    \stockwidth=6.125in
+    \setlength{\paperheight}{\BOOK@paperHeight}
+    \setlength{\paperwidth}{\BOOK@paperWidth}
+    \settrims{0.5\stockheight - 0.5\paperheight}{0.5\stockwidth - 0.5\paperwidth}
+    \settrimmedsize{\BOOK@paperHeight}{\BOOK@paperWidth}{*}
+  \else\relax
+    \setstocksize{\BOOK@paperHeight}{\BOOK@paperWidth}
+    \settrimmedsize{\stockheight}{\stockwidth}{*}
+    \settrims{0pt}{0pt}
+  \fi
 \fi
 
 % Text block for 10.5 / 15pt:

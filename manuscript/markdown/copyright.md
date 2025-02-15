@@ -18,6 +18,10 @@ Chapter heading background photo: \
 Sandakada Pahana (Moonstone) at the entrance to the Polonnaruwa Vatadage \
 12th century CE, Sri Lanka
 
+Download this book in PDF and EPUB formats at the following address:
+
+<https://seeingthroughthenet.github.io/nibbana-the-mind-stilled/>
+
 ## License
 
 This work is licensed under a Creative Commons \
