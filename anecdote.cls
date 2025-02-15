@@ -957,7 +957,7 @@ philo-sophical munindo amaravati thai-land}
 \contentsmargin{-5pt}
 
 \newlength\tocLeftWidth
-\setlength\tocLeftWidth{10mm}
+\setlength\tocLeftWidth{0pt}
 
 % Roman numerals in the chapter title TOC chapter entries.
 %\renewcommand\thechapter{\Roman{chapter}}
@@ -995,6 +995,9 @@ philo-sophical munindo amaravati thai-land}
      \par}%
     \vspace*{5pt}%
   \fi}
+
+\renewcommand*{\precistocfont}{\normalfont\fontsize{10}{14}\selectfont}
+\renewcommand*{\precistocformat}{\vspace*{0.5\baselineskip}\noindent}
 
 \def\tocChapterNote#1{%
     \addcontentsline{toc}{chapternote}{%
