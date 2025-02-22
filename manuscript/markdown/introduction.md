@@ -61,21 +61,17 @@ To Mr. G.T. Bandara, Director, Royal Institute, 191, Havelock Road, Colombo 5,
 for taking the lead in this Dhammadāna movement with his initial donation and
 for his devoted services as the 'Settler' of the Trust.
 
-To Mrs. Yukie Sirimane for making available this translation as well as our
-other publications to the world through the Internet under a special web site
-[www.beyondthenet.net]()https://beyondthenet.net/.
-
 And last but not least –
 
 To, Mr. Hideo Chihashi, Director, Green Hill Meditation Institute, Tokyo, Japan,
 and to his group of relatives, friends and pupils for their munificence in
-sponsoring the publication of the first volume of *Nibbāna – The mind stilled*.
+sponsoring the publication of the first volume of *Nibbāna – The Mind Stilled*.
 
 > *Nibbānaṁ paramaṁ sukhaṁ*
 >
 > Nibbāna is the supreme bliss
 
-– Bhikkhu K. Ñāṇananda
+– Bhikkhu Kaṭukurunde Ñāṇananda
 
 Pothgulgala Aranyaya \
 'Pahankanuwa' \
