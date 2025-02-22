@@ -6,7 +6,7 @@
 
 Library Edition
 
-By Bhikkhu K. Ñāṇananda
+By Bhikkhu Kaṭukurunde Ñāṇananda
 
 Published by \
 Kaṭukurunde Ñāṇananda Sadaham Senasun Bhāraya (KNSSB) \
@@ -16,8 +16,8 @@ Published strictly for free distribution
 
 -----
 
-> *Dedicated to my Upajjhāya*, \
-> *The late Venerable* \
+> *Dedicated to my Upajjhāya,* \
+> *the late Venerable* \
 > *Mātara Sri Ñāṇārāma Mahāthera* \
 > *of Meetirigala Nissarana Vanaya* \
 > *Sri Lanka*

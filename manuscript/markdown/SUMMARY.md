@@ -44,4 +44,6 @@
 - [Sermon 32](sermon-32.md)
 - [Sermon 33](sermon-33.md)
 
+[By the Same Author](by-the-same-author.md)
+
 [Copyright](copyright.md)

@@ -17,6 +17,9 @@ part-1:
 part-2:
 	$(LATEX) $(LATEX_OPTS) $(FILE)-part-2.tex
 
+part-covers:
+	./helpers/generate_part_covers.sh
+
 ebooks:
 	./helpers/ebooks.sh
 
