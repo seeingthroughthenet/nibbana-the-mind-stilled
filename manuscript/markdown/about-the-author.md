@@ -3,7 +3,7 @@
 Venerable Kaṭukurunde Ñāṇananda was born in 1940 to a family of Buddhist parents
 in Galle, Sri Lanka. He received his school education at Mahinda College, Galle,
 where he imbibed the true Buddhist values. In 1962 he graduated from the
-University of Peradeniya and served as an Assistant Lecturer in Pali at the same
+University of Peradeniya and served as an Assistant Lecturer in Pāli at the same
 University for a brief period. He renounced his post in 1967 to enter the Order
 of Buddhist monks at Island Hermitage, Dodanduwa.
 
@@ -53,6 +53,8 @@ technology. Recorded sermons on CDs are also being issued free as Dhammadāna by
 this Trust, while making available this Dhamma gift free through the internet.
 
 [www.seeingthroughthenet.net](https://seeingthroughthenet.net/)
+
+<https://seeingthroughthenet.github.io/>
 
 [www.facebook.com/seeingthrough](https://www.facebook.com/seeingthrough)
 

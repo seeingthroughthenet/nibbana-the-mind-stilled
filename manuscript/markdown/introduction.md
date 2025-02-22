@@ -29,8 +29,8 @@ series to come out in English will comprise 7 volumes of 5 sermons each, which
 will likewise be strictly for free distribution since Dhamma is price-less.
 
 In these sermons I have attempted to trace the original meaning and significance
-of the Pali term Nibbāna (Skt. *Nirvāna*) based on the evidence from the
-discourses of the Pali Canon. This led to a detailed analysis and a re-appraisal
+of the Pāli term Nibbāna (Skt. *Nirvāna*) based on the evidence from the
+discourses of the Pāli Canon. This led to a detailed analysis and a re-appraisal
 of some of the most controversial suttas on Nibbāna often quoted by scholars
 in support of their interpretations. The findings, however, were not presented
 as a dry scholastic exposition of mere academic interest. Since the sermons were
