@@ -858,7 +858,7 @@ by the cessation of consciousness that all these are held in check.
 
 [^fn210]: E.g. at Nid I 54: *taṇhālepo*
 
-[^fn211]: Dhp 335: *taṇhā loke visattikā*, (*Taṇhāvagga*)
+[^fn211]: Dhp 335: *taṇhā loke visattikā*, *Taṇhāvagga*
 
 [^fn212]: See *Sermon 5*
 

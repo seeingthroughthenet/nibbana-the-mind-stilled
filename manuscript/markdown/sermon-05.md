@@ -873,7 +873,7 @@ today.
 
 [^fn159]: See *Sermon 4*
 
-[^fn160]: [SN 22.79 / S III 90](https://suttacentral.net/sn22.79/pli/ms), *Khajjaniyasutta*
+[^fn160]: [SN 22.79 / S III 90](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*
 
 [^fn161]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*
 
