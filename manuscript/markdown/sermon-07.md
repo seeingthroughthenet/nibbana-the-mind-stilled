@@ -872,13 +872,13 @@ it. They are transcended.
 
 [^fn225]: M I 127, *Kakacūpamasutta*
 
-[^fn226]: M I 415, *AmbalatthikāRāhulovādasutta*
+[^fn226]: M I 415, *Ambalatthikārāhulovādasutta*
 
 [^fn227]: S III 105, *Ānandasutta*
 
 [^fn228]: See *Sermon 6*
 
-[^fn229]: M I 415, *AmbalatthikāRāhulovādasutta*
+[^fn229]: M I 415, *Ambalatthikārāhulovādasutta*
 
 [^fn230]: See *Sermon 3* and 4
 
