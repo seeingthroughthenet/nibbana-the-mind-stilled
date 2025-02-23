@@ -790,7 +790,7 @@ death, a solution that completely outwits Māra.
 
 [^fn613]: A IV 404, *Silāyūpasutta*
 
-[^fn614]: Dhp 385, *Brāhmaṇavagga*
+[^fn614]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*
 
 [^fn615]: See *Sermon 5*
 
@@ -802,7 +802,7 @@ death, a solution that completely outwits Māra.
 
 [^fn619]: See *Sermon 5*
 
-[^fn620]: Sn 1-17 , *Uragasutta*
+[^fn620]: [Snp 1.1 / Sn 1-17](https://suttacentral.net/snp1.1/pli/ms) , *Uragasutta*
 
 [^fn621]: Sn 8, *Uragasutta*
 
@@ -822,7 +822,7 @@ death, a solution that completely outwits Māra.
 
 [^fn629]: S I 34, *Maccharisutta*
 
-[^fn630]: A V 9, *Sāriputtasutta*
+[^fn630]: [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*
 
 [^fn631]: A III 347, *Nāgasutta* and Th 702, *Udāyitheragāthā*
 

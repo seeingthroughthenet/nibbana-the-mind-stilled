@@ -842,7 +842,7 @@ we brought out all these arguments today.
 
 [^fn650]: It 39, *Nibbānadhātusutta*, see *Sermon 18*
 
-[^fn651]: A V 9, *Sāriputtasutta*
+[^fn651]: [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*
 
 [^fn652]: [DN 16 / D II 157](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
@@ -858,7 +858,7 @@ we brought out all these arguments today.
 
 [^fn658]: It 39, *Nibbānadhātusutta*
 
-[^fn659]: Dhp 385, *Brāhmaṇavagga*; see *Sermon 18*
+[^fn659]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*; see *Sermon 18*
 
 [^fn660]: Ud 92, *Paṭhamadabbasutta*
 

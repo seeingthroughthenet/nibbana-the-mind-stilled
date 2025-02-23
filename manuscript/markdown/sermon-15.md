@@ -855,7 +855,7 @@ It indeed deserves a paean of joy.
 
 [^fn512]: Ud 8, *Bāhiyasutta*
 
-[^fn513]: Sn 813, *Jarāsutta*
+[^fn513]: [Snp 4.6 / Sn 813](https://suttacentral.net/snp4.6/pli/ms), *Jarāsutta*
 
 [^fn514]: Sn 757, *Dvayatānupassanāsutta*; see *Sermon 13*
 

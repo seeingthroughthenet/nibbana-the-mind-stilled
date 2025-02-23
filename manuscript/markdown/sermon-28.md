@@ -769,7 +769,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn908]: D II 32, *Mahāpadānasutta*
 
-[^fn909]: E.g. M I 263, *Mahātaṇhāsaṅkhayasutta*
+[^fn909]: E.g. [MN 38 / M I 263](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*
 
 [^fn910]: D II 107, *Mahāparinibbānasutta*, see also A IV 312 and Ud 64
 
@@ -779,15 +779,15 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn913]: Sn 843, *Māgandiyasutta*
 
-[^fn914]: Sn 954, *Attadaṇḍasutta*
+[^fn914]: [Snp 4.15 / Sn 954](https://suttacentral.net/snp4.15/pli/ms), *Attadaṇḍasutta*
 
 [^fn915]: Sn 919, *Tuvaṭakasutta*
 
-[^fn916]: See *Sermon 5* on Sn 787, *Duṭṭhaṭṭhakasutta*
+[^fn916]: See *Sermon 5* on [Snp 4.3 / Sn 787](https://suttacentral.net/snp4.3/pli/ms), *Duṭṭhaṭṭhakasutta*
 
 [^fn917]: See *Sermon 2*
 
-[^fn918]: Dhp 385, *Brāhmaṇavagga*; see *Sermons 5, 18 and 19*
+[^fn918]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*; see *Sermons 5, 18 and 19*
 
 [^fn919]: [Ud 7.2 / Ud 75](https://suttacentral.net/ud7.2/pli/ms), *Dutiyalakuṇtakabhaddiyasutta*
 

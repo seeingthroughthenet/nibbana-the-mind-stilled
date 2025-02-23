@@ -888,4 +888,4 @@ So these lines could be rendered as follows:
 
 [^fn509]: Ud 8, *Bāhiyasutta*
 
-[^fn510]: Sn 813, *Jarāsutta*
+[^fn510]: [Snp 4.6 / Sn 813](https://suttacentral.net/snp4.6/pli/ms), *Jarāsutta*

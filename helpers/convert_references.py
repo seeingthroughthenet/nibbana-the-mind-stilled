@@ -101,6 +101,8 @@ if __name__ == "__main__":
     with open(Path(__file__).parent.joinpath("pts_to_sc.tsv"), newline='') as f:
         reader = csv.DictReader(f, delimiter='\t')
         ref_data = list(reader) # type: ignore
+        # Filter out row that only have "Sermon X"
+        ref_data = [i for i in ref_data if i["PTS"] != ""]
 
     if len(sys.argv) > 1:
         files = sys.argv[1:]

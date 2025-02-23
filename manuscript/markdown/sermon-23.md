@@ -991,7 +991,7 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn770]: A V 318, *Saññāsutta*, see also *Sermon 16*
 
-[^fn771]: A V 9, *Sāriputtasutta*, see also *Sermon 17*
+[^fn771]: [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*, see also *Sermon 17*
 
 [^fn772]: A V 321, *Manasikārasutta*, see also *Sermon 16*
 

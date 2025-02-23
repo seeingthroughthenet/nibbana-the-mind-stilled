@@ -818,7 +818,7 @@ by the cessation of consciousness that all these are held in check.
 
 [^fn190]: See *Sermon 5*
 
-[^fn191]: S III 151, see *Sermon 5*
+[^fn191]: [SN 22.100 / S III 151](https://suttacentral.net/sn22.100/pli/ms), see *Sermon 5*
 
 [^fn192]: S III 152, *Gaddulasutta*
 

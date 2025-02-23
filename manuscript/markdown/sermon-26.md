@@ -949,13 +949,13 @@ the title of these series of sermons, namely:
 
 [^fn845]: [SN 12.20 / S II 25](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*; see *Sermon 2*
 
-[^fn846]: A III 440, *Catuttha-abhabbaṭṭhānasutta*
+[^fn846]: [AN 6.95 / A III 440](https://suttacentral.net/an6.95/pli/ms), *Catuttha-abhabbaṭṭhānasutta*
 
 [^fn847]: See *Sermon 5*
 
 [^fn848]: [Vin I 40](https://suttacentral.net/pli-tv-kd1/pli/ms), *Mahāvagga*
 
-[^fn849]: M I 54, *Sammādiṭṭhisutta*
+[^fn849]: [MN 9 / M I 54](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*
 
 [^fn850]: [MN 115 / M III 63](https://suttacentral.net/mn115/pli/ms), *Bahudhātukasutta*
 

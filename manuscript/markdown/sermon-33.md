@@ -774,7 +774,7 @@ Buddha himself.
 
 [^fn1033]: M III 288, *Mahāsaḷāyatanikasutta*
 
-[^fn1034]: M I 55, *Satipaṭṭhānasutta*
+[^fn1034]: [MN 9 / M I 55](https://suttacentral.net/mn9/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn1035]: S III 142, *Pheṇapiṇḍūpamasutta*
 

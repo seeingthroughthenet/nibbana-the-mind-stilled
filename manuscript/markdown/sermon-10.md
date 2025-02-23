@@ -821,7 +821,7 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn351]: It 37, *Ajātasutta*
 
-[^fn352]: E.g. at A V 9, *Sāriputtasutta*
+[^fn352]: E.g. at [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*
 
 [^fn353]: E.g. at S II 76, *Jāṇussoṇisutta*
 
