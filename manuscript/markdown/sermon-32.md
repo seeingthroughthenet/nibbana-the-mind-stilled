@@ -884,4 +884,4 @@ the rest of the discourse in our next sermon.
 
 [^fn1030]: S V 49, *Ākāsasutta*
 
-[^fn1031]: M III 287, *Mahāsaḷāyatanikasutta*
+[^fn1031]: [MN 149 / M III 287](https://suttacentral.net/mn149/pli/ms), *Mahāsaḷāyatanikasutta*

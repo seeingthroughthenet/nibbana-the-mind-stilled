@@ -833,7 +833,7 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn357]: [SN 56.11 / S V 423](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*
 
-[^fn358]: S III 105, *Ānandasutta*
+[^fn358]: [SN 22.83 / S III 105](https://suttacentral.net/sn22.83/pli/ms), *Ānandasutta*
 
 [^fn359]: M I 300, *Cūḷavedallasutta*
 

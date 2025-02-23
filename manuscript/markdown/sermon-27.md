@@ -781,7 +781,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn886]: Vin III 92, *Pārājikakaṇḍa*
 
-[^fn887]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*; see *Sermon 17*
+[^fn887]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*; see *Sermon 17*
 
 [^fn888]: (Prose before) [Snp 3.12 / Sn 756](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanasutta*
 

@@ -851,7 +851,7 @@ the *arahant*, who has attained supramundane freedom, does not come back.
 
 [^fn589]: M III 217, *Saḷāyatanavibhaṅgasutta*
 
-[^fn590]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*
+[^fn590]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*
 
 [^fn591]: Ud-a 389
 

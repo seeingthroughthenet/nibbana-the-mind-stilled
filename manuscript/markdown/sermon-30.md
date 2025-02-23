@@ -869,7 +869,7 @@ parinibbāna*. This is the subtlest truth in this Dhamma.
 
 [^fn965]: M III 217, *Saḷāyatanavibhaṅgasutta*
 
-[^fn966]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*
+[^fn966]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*
 
 [^fn967]: See *Sermon 17*
 

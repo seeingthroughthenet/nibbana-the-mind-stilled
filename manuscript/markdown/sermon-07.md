@@ -868,43 +868,43 @@ it. They are transcended.
 
 [^fn223]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
-[^fn224]: A V 61, *Kosalasutta*
+[^fn224]: [AN 5.49 / A V 61](https://suttacentral.net/an5.49/pli/ms), *Kosalasutta*
 
-[^fn225]: M I 127, *Kakacūpamasutta*
+[^fn225]: [MN 21 / M I 127](https://suttacentral.net/mn21/pli/ms), *Kakacūpamasutta*
 
-[^fn226]: M I 415, *Ambalatthikārāhulovādasutta*
+[^fn226]: [MN 61 / M I 415](https://suttacentral.net/mn61/pli/ms), *Ambalatthikārāhulovādasutta*
 
-[^fn227]: S III 105, *Ānandasutta*
+[^fn227]: [SN 22.83 / S III 105](https://suttacentral.net/sn22.83/pli/ms), *Ānandasutta*
 
 [^fn228]: See *Sermon 6*
 
-[^fn229]: M I 415, *Ambalatthikārāhulovādasutta*
+[^fn229]: [MN 61 / M I 415](https://suttacentral.net/mn61/pli/ms), *Ambalatthikārāhulovādasutta*
 
 [^fn230]: See *Sermon 3* and 4
 
-[^fn231]: M III 17, *Mahāpuṇṇamasutta*
+[^fn231]: [MN 109 / M III 17](https://suttacentral.net/mn109/pli/ms), *Mahāpuṇṇamasutta*
 
-[^fn232]: M III 240, *Dhātuvibhaṅgasutta*
+[^fn232]: [MN 140 / M III 240](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
 [^fn233]: [SN 12.15 / S II 17](https://suttacentral.net/sn12.15/pli/ms), *Kaccāyanagottasutta*, see *Sermon 4*
 
-[^fn234]: Ud 80, *Dutiyanibbānapaṭisaṁyuttasutta*
+[^fn234]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Dutiyanibbānapaṭisaṁyuttasutta*
 
 [^fn235]: Ud-a 393
 
-[^fn236]: Dhp 180, *Buddhavagga*
+[^fn236]: [Dhp 180](https://suttacentral.net/dhp179-196/pli/ms), *Buddhavagga*
 
 [^fn237]: Dhp-a III 197
 
-[^fn238]: Dhp 92-93, *Arahantavagga*
+[^fn238]: [Dhp 92-93](https://suttacentral.net/dhp90-99/pli/ms), *Arahantavagga*
 
-[^fn239]: E.g. at M III 287, *Mahāsaḷāyatanikasutta*
+[^fn239]: E.g. at [MN 149 / M III 287](https://suttacentral.net/mn149/pli/ms), *Mahāsaḷāyatanikasutta*
 
-[^fn240]: E.g. at S II 101, *Atthirāgasutta*
+[^fn240]: E.g. at [SN 12.64 / S II 101](https://suttacentral.net/sn12.64/pli/ms), *Atthirāgasutta*
 
 [^fn241]: Dhp-a II 173
 
-[^fn242]: Dhp 180, *Buddhavagga*
+[^fn242]: [Dhp 180](https://suttacentral.net/dhp179-196/pli/ms), *Buddhavagga*
 
 [^fn243]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
@@ -912,11 +912,11 @@ it. They are transcended.
 
 [^fn245]: See *Sermon 5*
 
-[^fn246]: M I 293, *Mahāvedallasutta*
+[^fn246]: [MN 43 / M I 293](https://suttacentral.net/mn43/pli/ms), *Mahāvedallasutta*
 
-[^fn247]: A II 139, *Pabhāsutta*
+[^fn247]: [AN 4.142 / A II 139](https://suttacentral.net/an4.142/pli/ms), *Pabhāsutta*
 
-[^fn248]: A I 10, *Accharāsaṅghātavagga*
+[^fn248]: [AN 1.51-52 / A I 10](https://suttacentral.net/an1.51-60/pli/ms), *Accharāsaṅghātavagga*
 
 [^fn249]: See *Sermon 5*
 
@@ -928,7 +928,7 @@ it. They are transcended.
 
 [^fn253]: See *Sermon 6*
 
-[^fn254]: D I 215, *Kevaḍḍhasutta*
+[^fn254]: [DN 11 / D I 215](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn255]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 

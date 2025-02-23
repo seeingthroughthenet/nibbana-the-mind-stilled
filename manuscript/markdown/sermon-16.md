@@ -883,12 +883,12 @@ won through the incomparable deliverances of the mind.
 
 [^fn565]: Ps III 115, *aṭṭhakathā* on the *Bahuvedanīyasutta*
 
-[^fn566]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*
+[^fn566]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*
 
 [^fn567]: Th 25, *Nandiyatheragāthā*
 
 [^fn568]: Dhp 274, *Maggavagga*
 
-[^fn569]: Dhp 92-93, *Arahantavagga*
+[^fn569]: [Dhp 92-93](https://suttacentral.net/dhp90-99/pli/ms), *Arahantavagga*
 
 [^fn570]: Dhp-a II 172

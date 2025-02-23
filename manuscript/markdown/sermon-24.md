@@ -793,11 +793,11 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn783]: [SN 35.116 / S IV 95](https://suttacentral.net/sn35.116/pli/ms), *Lokakāmaguṇasutta*
 
-[^fn784]: Ud 80, *Pāṭaligāmiyavagga*
+[^fn784]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Pāṭaligāmiyavagga*
 
 [^fn785]: See *Sermon 7*
 
-[^fn786]: Ud 80, *Pāṭaligāmiyavagga*
+[^fn786]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Pāṭaligāmiyavagga*
 
 [^fn787]: [Ud 8.4 / Ud 81](https://suttacentral.net/ud8.4/pli/ms), *Pāṭaligāmiyavagga*
 
@@ -811,7 +811,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn792]: S I 115, *Kassakasutta*
 
-[^fn793]: Ud 80, *Pāṭaligāmiyavagga*
+[^fn793]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Pāṭaligāmiyavagga*
 
 [^fn794]: A II 162, *Mahā Koṭṭhitasutta*; see *Sermon 23*
 
@@ -823,7 +823,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn798]: S III 150, *Gaddulasutta*; see also *Sermons 5 and 6*
 
-[^fn799]: A I 10, *Paṇihita-acchavagga*
+[^fn799]: [AN 1.51-52 / A I 10](https://suttacentral.net/an1.51-60/pli/ms), *Paṇihita-acchavagga*
 
 [^fn800]: A II 25, *Kāḷakārāmasutta*
 

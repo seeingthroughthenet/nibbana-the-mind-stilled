@@ -899,7 +899,7 @@ It indeed deserves a paean of joy.
 
 [^fn534]: S I 6, *Natthiputtasamasutta*
 
-[^fn535]: A II 139, *Pabhāsutta*; see *Sermon 7*
+[^fn535]: [AN 4.142 / A II 139](https://suttacentral.net/an4.142/pli/ms), *Pabhāsutta*; see *Sermon 7*
 
 [^fn536]: E.g. S II 45, *Bhikkhusutta*; or A II 178, *Ummaggasutta*
 
@@ -913,4 +913,4 @@ It indeed deserves a paean of joy.
 
 [^fn541]: M I 108, *Madhupiṇḍikasutta*
 
-[^fn542]: A I 10, *Accharāsaṅghātavagga*
+[^fn542]: [AN 1.51-52 / A I 10](https://suttacentral.net/an1.51-60/pli/ms), *Accharāsaṅghātavagga*

@@ -868,7 +868,7 @@ we brought out all these arguments today.
 
 [^fn663]: Dhp 308, *Nirayavagga*
 
-[^fn664]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*, see *Sermon 17*
+[^fn664]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*, see *Sermon 17*
 
 [^fn665]: [MN 22 / M I 140](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 

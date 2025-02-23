@@ -854,11 +854,11 @@ So these lines could be rendered as follows:
 
 [^fn492]: Sn 1094, *Kappamāṇavapucchā*
 
-[^fn493]: Ud 80, *Tatiyanibbānapaṭisaṁyuttasutta*
+[^fn493]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Tatiyanibbānapaṭisaṁyuttasutta*
 
 [^fn494]: M III 239, *Dhātuvibhaṅgasutta*
 
-[^fn495]: M III 240, *Dhātuvibhaṅgasutta*
+[^fn495]: [MN 140 / M III 240](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
 [^fn496]: See sermons 6 and 7
 
