@@ -907,7 +907,7 @@ the term *nissaya*.
 
 [^fn143]: [SN 12.20 / S II 26](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 
-[^fn144]: Dhp-a I 367
+[^fn144]: [Dhp 49 Commentary: Dhp-a I 367](https://www.digitalpalireader.online/_dprhtml/index.html?loc=k.1.0.0.4.4.0.a), *Macchariyakosiyaseṭṭhivatthu*
 
 [^fn145]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 

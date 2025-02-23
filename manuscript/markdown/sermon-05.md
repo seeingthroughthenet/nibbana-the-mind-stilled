@@ -765,8 +765,8 @@ But not so easily the darkness within. That is why, in the psalms of the
 Theras and Therīs, it is said that they split or burst asunder the mass of
 delusion:
 
-> *tamokkhandhaṁ padāliya*, \
-> *tamokkhandhaṁ padālayiṁ*.[^fn180]
+> *tamokhandhaṁ padāliya,* [and also as] \
+> *tamokhandhaṁ padālayiṁ.*[^fn180]
 
 The pitchy black darkness of ignorance in the world is one that is thick enough
 to be split up and burst asunder. So it seems, the darkness within is almost
@@ -915,7 +915,7 @@ today.
 
 [^fn180]: Th 627, *Sunīto Thero*; Thī 3, *Puṇṇā Therī*; Thī 28, *Cittā Therī*; Thī 44, *Uttamā Therī*; Thī 120, *Tiṁsamattā Therī*; Thī 173-174, *Vijayā Therī*; Thī 180, *Uttarā Therī*
 
-[^fn181]: Dhp-a I 88
+[^fn181]: [Dhp 11-12 Commentary: Dhp-a I 88](https://www.digitalpalireader.online/_dprhtml/index.html?loc=k.1.0.0.1.7.0.a&para=54&query=giraggasamajja), *Sāriputtattheravatthu*
 
 [^fn182]: [Vin I 40](https://suttacentral.net/pli-tv-kd1/pli/ms)
 
