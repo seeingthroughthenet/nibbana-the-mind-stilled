@@ -839,7 +839,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn543]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn544]: D I 223, *Kevaḍḍhasutta*
+[^fn544]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn545]: Ud 12, *Sakkārasutta*
 

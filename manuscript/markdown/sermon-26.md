@@ -935,7 +935,7 @@ the title of these series of sermons, namely:
 
 [^fn838]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn839]: S III 142, *Pheṇapiṇḍūpamasutta*
+[^fn839]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
 [^fn840]: A II 25, *Kāḷakārāmasutta*
 

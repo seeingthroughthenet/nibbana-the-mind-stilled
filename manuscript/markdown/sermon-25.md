@@ -971,4 +971,4 @@ words:
 
 [^fn836]: S IV 67, *Dutiyadvayamsutta*
 
-[^fn837]: S III 142, *Pheṇapiṇḍūpamasutta*, see *Sermon 11*
+[^fn837]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*, see *Sermon 11*

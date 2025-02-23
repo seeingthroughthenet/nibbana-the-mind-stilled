@@ -866,7 +866,7 @@ it. They are transcended.
 
 [^fn222]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn223]: D I 223, *Kevaḍḍhasutta*
+[^fn223]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn224]: A V 61, *Kosalasutta*
 
@@ -906,7 +906,7 @@ it. They are transcended.
 
 [^fn242]: Dhp 180, *Buddhavagga*
 
-[^fn243]: D I 223, *Kevaḍḍhasutta*
+[^fn243]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn244]: See *Sermon 5*
 
@@ -930,16 +930,16 @@ it. They are transcended.
 
 [^fn254]: D I 215, *Kevaḍḍhasutta*
 
-[^fn255]: D I 223, *Kevaḍḍhasutta*
+[^fn255]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn256]: Sv II 393
 
 [^fn257]: S IV 359, *Asaṅkhatasaṁyutta*
 
-[^fn258]: M I 329, *Brahmanimantanikasutta*
+[^fn258]: [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 
 [^fn259]: Ps II 413
 
 [^fn260]: [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*; see *Sermon 1*
 
-[^fn261]: M I 329, *Brahmanimantanikasutta*
+[^fn261]: [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*

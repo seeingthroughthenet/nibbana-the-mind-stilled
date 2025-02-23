@@ -873,7 +873,7 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn710]: See *Sermon 3*
 
-[^fn711]: Sn 756, *Dvayatānupassanāsutta*, see *Sermon 6*
+[^fn711]: [Snp 3.12 / Sn 756](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*, see *Sermon 6*
 
 [^fn712]: Sn 9, *Uragasutta*
 

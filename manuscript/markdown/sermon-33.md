@@ -776,7 +776,7 @@ Buddha himself.
 
 [^fn1034]: [MN 9 / M I 55](https://suttacentral.net/mn9/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn1035]: S III 142, *Pheṇapiṇḍūpamasutta*
+[^fn1035]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
 [^fn1036]: Ud 8, *Bāhiyasutta*
 

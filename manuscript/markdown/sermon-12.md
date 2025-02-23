@@ -780,7 +780,7 @@ say it is because it should be well comprehended by him."
 
 [^fn413]: S III 71, *Niruttipathasutta*
 
-[^fn414]: *Marīcikūpamā saññā* at S III 142, *Pheṇapiṇḍūpamasutta*
+[^fn414]: *Marīcikūpamā saññā* at [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
 [^fn415]: [MN 28 / M I 190](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 

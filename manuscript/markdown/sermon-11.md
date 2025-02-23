@@ -837,9 +837,9 @@ breaks loose and runs riot, it creates a certain deluded state of mind, which is
 
 [^fn392]: D I 184, *Poṭṭhapādasutta*
 
-[^fn393]: S III 142, *Pheṇapiṇḍūpamasutta*.; see also sermon 6
+[^fn393]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*.; see also sermon 6
 
-[^fn394]: M I 329, *Brahmanimantanikasutta*; see also sermon 8
+[^fn394]: [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*; see also sermon 8
 
 [^fn395]: See sermons 5, 6 and 7
 

@@ -893,7 +893,7 @@ It indeed deserves a paean of joy.
 
 [^fn531]: See *Sermon 1*
 
-[^fn532]: D I 223, *Kevaḍḍhasutta*
+[^fn532]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn533]: See sermons 5, 7 and 9
 
@@ -909,7 +909,7 @@ It indeed deserves a paean of joy.
 
 [^fn539]: M III 71, *Mahācattārīsakasutta*
 
-[^fn540]: M I 301, *Cūḷavedallasutta*
+[^fn540]: [MN 44 / M I 301](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
 [^fn541]: M I 108, *Madhupiṇḍikasutta*
 

@@ -783,7 +783,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn887]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*; see *Sermon 17*
 
-[^fn888]: (Prose before) Sn 756, *Dvayatānupassanasutta*
+[^fn888]: (Prose before) [Snp 3.12 / Sn 756](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanasutta*
 
 [^fn889]: See *Sermons 6 and 21*
 

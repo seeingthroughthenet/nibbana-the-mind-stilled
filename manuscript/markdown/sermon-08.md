@@ -970,7 +970,7 @@ Such a predicament is not unlikely.
 
 [^fn262]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn263]: M I 329, *Brahmanimantanikasutta*
+[^fn263]: [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 
 [^fn264]: ibid.
 

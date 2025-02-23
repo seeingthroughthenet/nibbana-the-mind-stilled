@@ -1063,7 +1063,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn335]: D I 1-46, *Brahmajālasutta*
 
-[^fn336]: D I 223, *Kevaḍḍhasutta*
+[^fn336]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn337]: See *Sermon 5*
 
@@ -1075,7 +1075,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn341]: D I 45, *Brahmajālasutta*
 
-[^fn342]: S II 4, *Vibhaṅgasutta*
+[^fn342]: [SN 12.2 / S II 4](https://suttacentral.net/sn12.2/pli/ms), *Vibhaṅgasutta*
 
 [^fn343]: Ja VI 129 (no 546), *Ummaggajātaka*
 
@@ -1083,6 +1083,6 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn345]: See *Sermon 1*
 
-[^fn346]: M I 329, *Brahmanimantanikasutta*
+[^fn346]: [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 
 [^fn347]: It 43, *Diṭṭhigatasutta*
