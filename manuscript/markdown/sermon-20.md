@@ -904,7 +904,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn673]: [Snp 2.1 / Sn 235](https://suttacentral.net/snp2.1/pli/ms), *Ratanasutta*
 
-[^fn674]: Ud 93, *Dutiyadabbasutta*
+[^fn674]: [Ud 8.10 / Ud 93](https://suttacentral.net/ud8.10/pli/ms), *Dutiyadabbasutta*
 
 [^fn675]: Dhp 225, *Kodhavagga*
 

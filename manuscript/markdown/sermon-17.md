@@ -861,7 +861,7 @@ the *arahant*, who has attained supramundane freedom, does not come back.
 
 [^fn594]: A IV 426, *Ānandasutta*
 
-[^fn595]: Sn 784, *Duṭṭhaṭṭhakasutta*
+[^fn595]: [Snp 4.3 / Sn 784](https://suttacentral.net/snp4.3/pli/ms), *Duṭṭhaṭṭhakasutta*
 
 [^fn596]: E.g. D I 156, *Mahālisutta*
 

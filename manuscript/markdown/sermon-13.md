@@ -933,7 +933,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn448]: Ps I 38
 
-[^fn449]: M I 266, *Mahātaṇhāsaṅkhayasutta*
+[^fn449]: [MN 38 / M I 266](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*
 
 [^fn450]: M II 265, *Āneñjasappāyasutta*
 
@@ -955,7 +955,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn459]: Sn 68, *Khaggavisāṇasutta*
 
-[^fn460]: E.g. at M I 12, *Sabbāsavasutta*
+[^fn460]: E.g. at [MN 2 / M I 12](https://suttacentral.net/mn2/pli/ms), *Sabbāsavasutta*
 
 [^fn461]: M I 6, *Mūlapariyāyasutta*
 
@@ -973,7 +973,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn468]: E.g. at D III 273, *Dasuttarasutta*
 
-[^fn469]: M I 197, *Mahāsāropamasutta*
+[^fn469]: [MN 29 / M I 197](https://suttacentral.net/mn29/pli/ms), *Mahāsāropamasutta*
 
 [^fn470]: See *Sermon 2*
 

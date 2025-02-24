@@ -999,13 +999,13 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn303]: S IV 171, *Hatthapādopamasutta*
 
-[^fn304]: A IV 100, *Sattasuriyasutta*; see *Sermon 8*
+[^fn304]: [AN 7.66 / A IV 100](https://suttacentral.net/an7.66/pli/ms), *Sattasuriyasutta*; see *Sermon 8*
 
 [^fn305]: Mp IV 52
 
 [^fn306]: S III 155, *Aniccasaññāsutta*
 
-[^fn307]: A IV 353, *Sambodhisutta*
+[^fn307]: [AN 9.1 / A IV 353](https://suttacentral.net/an9.1/pli/ms), *Sambodhisutta*
 
 [^fn308]: [Dhp 62](https://suttacentral.net/dhp60-75/pli/ms), *Bālavagga*
 
@@ -1045,7 +1045,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn326]: D II 353, D III 254, 287, 290, 291, M I 118, M III 77, 140, S II 168, S III 109, S V 1, 12, 13, 16, 18-20, 23, 383, A II 220-229, A III 141, A IV 237, A V 212-248
 
-[^fn327]: M I 197, *Mahāsāropamasutta*
+[^fn327]: [MN 29 / M I 197](https://suttacentral.net/mn29/pli/ms), *Mahāsāropamasutta*
 
 [^fn328]: Th 315-316, Rājadatta Thera
 

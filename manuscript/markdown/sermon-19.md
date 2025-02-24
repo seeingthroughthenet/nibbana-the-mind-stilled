@@ -862,7 +862,7 @@ we brought out all these arguments today.
 
 [^fn660]: Ud 92, *Paṭhamadabbasutta*
 
-[^fn661]: Ud 93, *Dutiyadabbasutta*
+[^fn661]: [Ud 8.10 / Ud 93](https://suttacentral.net/ud8.10/pli/ms), *Dutiyadabbasutta*
 
 [^fn662]: Ud-a 435
 

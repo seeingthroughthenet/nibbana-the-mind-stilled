@@ -945,7 +945,7 @@ the title of these series of sermons, namely:
 
 [^fn843]: M I 292, *Mahāvedallasutta*
 
-[^fn844]: Th 716, *Adhimutta Theragāthā*; see also *Sermon 8*
+[^fn844]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*; see also *Sermon 8*
 
 [^fn845]: [SN 12.20 / S II 25](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*; see *Sermon 2*
 
@@ -973,7 +973,7 @@ the title of these series of sermons, namely:
 
 [^fn857]: M III 273, *Nandakovādasutta*
 
-[^fn858]: Th 716, *Adhimutta Theragāthā*
+[^fn858]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
 [^fn859]: E.g. A V 120, *Niṭṭhaṅgatasutta*
 

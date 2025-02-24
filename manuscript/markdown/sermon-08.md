@@ -974,33 +974,33 @@ Such a predicament is not unlikely.
 
 [^fn264]: ibid.
 
-[^fn265]: E.g. at M I 266, *Mahātaṇhāsaṅkhayasutta*
+[^fn265]: E.g. at [MN 38 / M I 266](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*
 
-[^fn266]: M II 45, M II 74, S I 24, S II 254-258, A III 214
+[^fn266]: [MN 81 / M II 45](https://suttacentral.net/mn81/pli/ms), [MN 83 / M II 74](https://suttacentral.net/mn83/pli/ms), [SN 1.35 / S I 24](https://suttacentral.net/sn1.35/pli/ms), S II 254-258, A III 214
 
-[^fn267]: S II 189-190, *Anamataggasaṁyutta*
+[^fn267]: [SN 15.14-20 / S II 189-190](https://suttacentral.net/sn15.14/pli/ms), *Anamataggasaṁyutta*
 
-[^fn268]: A IV 100, *Sattasuriyasutta*
+[^fn268]: [AN 7.66 / A IV 100](https://suttacentral.net/an7.66/pli/ms), *Sattasuriyasutta*
 
-[^fn269]: It 37, *Ajātasutta*
+[^fn269]: [Iti 43 / It 37](https://suttacentral.net/iti43/pli/ms), *Ajātasutta*
 
 [^fn270]: Th-a III 12
 
-[^fn271]: Th 707, *Adhimutta Theragāthā*
+[^fn271]: [Thag 16.1 / Th 707](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
 [^fn272]: Th 715, ibid.
 
-[^fn273]: Th 716, ibid.
+[^fn273]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), ibid.
 
-[^fn274]: Th 717, ibid.
+[^fn274]: [Thag 16.1 / Th 717](https://suttacentral.net/thag16.1/pli/ms), ibid.
 
 [^fn275]: See *Sermon 6*
 
-[^fn276]: A II 158, *Cetanāsutta*
+[^fn276]: [AN 4.171 / A II 158](https://suttacentral.net/an4.171/pli/ms), *Cetanāsutta*
 
 [^fn277]: See *Sermon 6*
 
-[^fn278]: E.g. at S II 117, *Kosambisutta*
+[^fn278]: E.g. at [SN 12.68 / S II 117](https://suttacentral.net/sn12.68/pli/ms), *Kosambisutta*
 
 [^fn279]: [MN 22 / M I 140](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
@@ -1010,36 +1010,36 @@ Such a predicament is not unlikely.
 
 [^fn282]: S IV 370, *Asaṅkhatasaṁyutta*
 
-[^fn283]: E.g. at M I 326, *Brahmanimantanikasutta*
+[^fn283]: E.g. at [MN 49 / M I 326](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 
-[^fn284]: Ud 93, *Dutiyadabbasutta*; Th 264, *Vimala Thera*.
+[^fn284]: [Ud 8.10 / Ud 93](https://suttacentral.net/ud8.10/pli/ms), *Dutiyadabbasutta*; [Thag 3.16 / Th 264](https://suttacentral.net/thag3.16/pli/ms), *Vimala Thera*.
 
-[^fn285]: M I 197, *Mahāsāropamasutta*
+[^fn285]: [MN 29 / M I 197](https://suttacentral.net/mn29/pli/ms), *Mahāsāropamasutta*
 
-[^fn286]: Sn 784, *Duṭṭhaṭṭhakasutta*
+[^fn286]: [Snp 4.3 / Sn 784](https://suttacentral.net/snp4.3/pli/ms), *Duṭṭhaṭṭhakasutta*
 
-[^fn287]: M I 12, *Sabbāsavasutta*
+[^fn287]: [MN 2 / M I 12](https://suttacentral.net/mn2/pli/ms), *Sabbāsavasutta*
 
-[^fn288]: A IV 353, *Sambodhisutta*
+[^fn288]: [AN 9.1 / A IV 353](https://suttacentral.net/an9.1/pli/ms), *Sambodhisutta*
 
-[^fn289]: S II 185, *Puggalasutta*
+[^fn289]: [SN 15.10 / S II 185](https://suttacentral.net/sn15.10/pli/ms), *Puggalasutta*
 
-[^fn290]: S III 25, *Bhārasutta*
+[^fn290]: [SN 22.22 / S III 25](https://suttacentral.net/sn22.22/pli/ms), *Bhārasutta*
 
 [^fn291]: See *Sermon 5*
 
-[^fn292]: Th 716, *Adhimutta Theragāthā*
+[^fn292]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
-[^fn293]: M I 144, *Vammikasutta*
+[^fn293]: [MN 23 / M I 144](https://suttacentral.net/mn23/pli/ms), *Vammikasutta*
 
-[^fn294]: M I 162, *Ariyapariyesanasutta*
+[^fn294]: [MN 26 / M I 162](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
-[^fn295]: A I 45, *Amatavagga*
+[^fn295]: [AN 1.616-627 / A I 45](https://suttacentral.net/an1.616-627/pli/ms), *Amatavagga*
 
 [^fn296]: [Ud 7.9 / Ud 79](https://suttacentral.net/ud7.9/pli/ms), *Udapānasutta*; see *Sermon 1*
 
-[^fn297]: Th 717, *Adhimutta Theragāthā*
+[^fn297]: [Thag 16.1 / Th 717](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
 [^fn298]: See *Sermon 1*
 
-[^fn299]: M I 57, *Satipaṭṭhānasutta*
+[^fn299]: [MN 10 / M I 57](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*

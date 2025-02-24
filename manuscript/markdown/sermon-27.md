@@ -787,7 +787,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn889]: See *Sermons 6 and 21*
 
-[^fn890]: Th 717, *Adhimutta Theragāthā*, see *Sermon 8*
+[^fn890]: [Thag 16.1 / Th 717](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*, see *Sermon 8*
 
 [^fn891]: Dhp 201, *Sukhavagga*
 

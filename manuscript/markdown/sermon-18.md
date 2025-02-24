@@ -814,7 +814,7 @@ death, a solution that completely outwits Māra.
 
 [^fn625]: It 38, *Nibbānadhātusutta*
 
-[^fn626]: M I 197, *Mahāsāropamasutta*
+[^fn626]: [MN 29 / M I 197](https://suttacentral.net/mn29/pli/ms), *Mahāsāropamasutta*
 
 [^fn627]: It-a I 167
 

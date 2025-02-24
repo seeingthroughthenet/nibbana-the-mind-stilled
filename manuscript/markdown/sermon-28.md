@@ -799,7 +799,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn923]: See *Sermon 2*
 
-[^fn924]: M I 57, *Satipaṭṭhānasutta*
+[^fn924]: [MN 10 / M I 57](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn925]: Sn 203, *Vijayasutta*
 
