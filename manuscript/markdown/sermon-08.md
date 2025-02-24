@@ -1012,7 +1012,7 @@ Such a predicament is not unlikely.
 
 [^fn283]: E.g. at M I 326, *Brahmanimantanikasutta*
 
-[^fn284]: Ud 93, *Dutiyadabbasutta*; Th 264, Vimala Thera.
+[^fn284]: Ud 93, *Dutiyadabbasutta*; Th 264, *Vimala Thera*.
 
 [^fn285]: M I 197, *Mahāsāropamasutta*
 
