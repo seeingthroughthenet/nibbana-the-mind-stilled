@@ -765,13 +765,13 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn878]: See *Sermon 12*
 
-[^fn879]: M I 109, *Madhupiṇḍikasutta*
+[^fn879]: [MN 18 / M I 109](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
 [^fn880]: Sn 779, *Guhaṭṭhaka Sutta*
 
 [^fn881]: M I 298, *Mahāvedallasutta*
 
-[^fn882]: Sn 847, *Māgandiyasutta*
+[^fn882]: [Snp 4.9 / Sn 847](https://suttacentral.net/snp4.9/pli/ms), *Māgandiyasutta*
 
 [^fn883]: E.g. D I 156, *Mahāli Sutta*
 

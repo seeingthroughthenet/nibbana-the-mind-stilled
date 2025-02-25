@@ -811,7 +811,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn929]: [AN 4.159 / A II 145](https://suttacentral.net/an4.159/pli/ms), *Bhikkhunīsutta*
 
-[^fn930]: M I 108, *Madhupiṇḍikasutta*
+[^fn930]: [MN 18 / M I 108](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
 [^fn931]: D III 84, *Aggaññasutta*
 

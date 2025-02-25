@@ -911,6 +911,6 @@ It indeed deserves a paean of joy.
 
 [^fn540]: [MN 44 / M I 301](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
-[^fn541]: M I 108, *Madhupiṇḍikasutta*
+[^fn541]: [MN 18 / M I 108](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
 [^fn542]: [AN 1.51-52 / A I 10](https://suttacentral.net/an1.51-60/pli/ms), *Accharāsaṅghātavagga*

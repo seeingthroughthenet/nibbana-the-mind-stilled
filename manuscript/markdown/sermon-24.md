@@ -835,6 +835,6 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn804]: See *Sermon 20*
 
-[^fn805]: M I 1, *Mūlapariyāyasutta*
+[^fn805]: [MN 1 / M I 1](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*
 
 [^fn806]: Mp III 38

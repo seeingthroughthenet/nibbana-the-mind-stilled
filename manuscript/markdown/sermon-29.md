@@ -865,7 +865,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn959]: S I 126, *Dhītarosutta*
 
-[^fn960]: Ud 77, *Papañcakhayasutta*
+[^fn960]: [Ud 7.7 / Ud 77](https://suttacentral.net/ud7.7/pli/ms), *Papañcakhayasutta*
 
 [^fn961]: [SN 1.61 / S I 39](https://suttacentral.net/sn1.61/pli/ms), *Saṁyojanasutta*
 

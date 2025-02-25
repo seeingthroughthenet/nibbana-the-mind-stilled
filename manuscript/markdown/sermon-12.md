@@ -772,7 +772,7 @@ say it is because it should be well comprehended by him."
 
 [^fn409]: Ps II 10
 
-[^fn410]: M I 109, *Madhupiṇḍikasutta*
+[^fn410]: [MN 18 / M I 109](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
 [^fn411]: [MN 18 / M I 112](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
@@ -784,43 +784,43 @@ say it is because it should be well comprehended by him."
 
 [^fn415]: [MN 28 / M I 190](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 
-[^fn416]: D I 201, *Poṭṭhapādasutta*
+[^fn416]: [DN 9 / D I 201](https://suttacentral.net/dn9/pli/ms), *Poṭṭhapādasutta*
 
-[^fn417]: D I 195, *Poṭṭhapādasutta*
+[^fn417]: [DN 9 / D I 195](https://suttacentral.net/dn9/pli/ms), *Poṭṭhapādasutta*
 
-[^fn418]: *Paṭisotagāmi* at M I 168, *Ariyapariyesanasutta*
+[^fn418]: *Paṭisotagāmi* at [MN 26 / M I 168](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
 [^fn419]: [Dhp 37](https://suttacentral.net/dhp33-43/pli/ms), *Cittavagga*; Dhp-a I 301
 
-[^fn420]: Dhp 254, *Malavagga*
+[^fn420]: [Dhp 254](https://suttacentral.net/dhp235-255/pli/ms), *Malavagga*
 
 [^fn421]: S IV 370, *Asaṅkhatasaṁyutta*
 
 [^fn422]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn423]: Ud 77, *Papañcakhayasutta*
+[^fn423]: [Ud 7.7 / Ud 77](https://suttacentral.net/ud7.7/pli/ms), *Papañcakhayasutta*
 
-[^fn424]: Ud 77, *Papañcakhayasutta*
+[^fn424]: [Ud 7.7 / Ud 77](https://suttacentral.net/ud7.7/pli/ms), *Papañcakhayasutta*
 
 [^fn425]: Nett 37
 
 [^fn426]: Ud-a 373
 
-[^fn427]: S IV 71, *Adanta-aguttasutta*
+[^fn427]: [SN 35.94 / S IV 71](https://suttacentral.net/sn35.94/pli/ms), *Adanta-aguttasutta*
 
-[^fn428]: M I 108, *Madhupiṇḍikasutta*
+[^fn428]: [MN 18 / M I 108](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
-[^fn429]: Sn 847, *Māgandiyasutta*
+[^fn429]: [Snp 4.9 / Sn 847](https://suttacentral.net/snp4.9/pli/ms), *Māgandiyasutta*
 
-[^fn430]: S III 138, *Pupphasutta*
+[^fn430]: [SN 22.94 / S III 138](https://suttacentral.net/sn22.94/pli/ms), *Pupphasutta*
 
-[^fn431]: M I 233, *Cūḷasaccakasutta*
+[^fn431]: [MN 35 / M I 233](https://suttacentral.net/mn35/pli/ms), *Cūḷasaccakasutta*
 
-[^fn432]: Sn 530, *Sabhiyasutta*
+[^fn432]: [Snp 3.6 / Sn 530](https://suttacentral.net/snp3.6/pli/ms), *Sabhiyasutta*
 
 [^fn433]: See *Sermons 6 and 7* (dog simile) and *Sermon 9* (gem simile).
 
-[^fn434]: M I 1, *Mūlapariyāyasutta*
+[^fn434]: [MN 1 / M I 1](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*
 
 [^fn435]: Ps I 41
 

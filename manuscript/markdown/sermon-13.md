@@ -913,7 +913,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn438]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn439]: M I 1, *Mūlapariyāyasutta*
+[^fn439]: [MN 1 / M I 1](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*
 
 [^fn440]: Ps I 41
 

@@ -784,7 +784,7 @@ Buddha himself.
 
 [^fn1038]: Sn 757, *Dvayatānupassanāsutta*; see *Sermon 13*
 
-[^fn1039]: M I 1, *Mūlapariyāyasutta*; see *Sermon 12*
+[^fn1039]: [MN 1 / M I 1](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*; see *Sermon 12*
 
 [^fn1040]: [MN 18 / M I 111](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*; see *Sermon 11*
 

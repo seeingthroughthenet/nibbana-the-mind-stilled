@@ -810,7 +810,7 @@ death, a solution that completely outwits Māra.
 
 [^fn623]: E.g. Ps I 183, commenting on M I 40, *Sallekhasutta*: *netaṁ mama, neso 'ham asmi, na meso attā ti*
 
-[^fn624]: M I 168, *Ariyapariyesanasutta*
+[^fn624]: [MN 26 / M I 168](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
 [^fn625]: It 38, *Nibbānadhātusutta*
 
