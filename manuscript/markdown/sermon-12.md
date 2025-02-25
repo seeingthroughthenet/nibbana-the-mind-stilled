@@ -818,7 +818,7 @@ say it is because it should be well comprehended by him."
 
 [^fn432]: Sn 530, *Sabhiyasutta*
 
-[^fn433]: See sermons 6 and 7 (dog simile) and sermon 9 (gem simile).
+[^fn433]: See *Sermons 6 and 7* (dog simile) and *Sermon 9* (gem simile).
 
 [^fn434]: M I 1, *Mūlapariyāyasutta*
 
