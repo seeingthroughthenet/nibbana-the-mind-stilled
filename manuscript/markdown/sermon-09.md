@@ -777,7 +777,7 @@ allusion to this fact in the *Mahāviyūhasutta* of the *Sutta Nipāta*. There i
 is declared that those of other sects are not free from the limitations of
 name-and-form.
 
-> *Passaṁ naro dakkhiti nāmarūpaṁ,* \
+> *Passaṁ naro dakkhati nāmarūpaṁ,* \
 > *disvāna vā ñassati tānim eva,* \
 > *kāmaṁ bahuṁ passatu appakaṁ vā,* \
 > *na hi tena suddhiṁ kusalā vadanti.*[^fn338]
@@ -1037,7 +1037,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn322]: S V 272, *Uṇṇābhabrāhmaṇasutta*
 
-[^fn323]: A II 145, *Bhikkuṇīsutta*
+[^fn323]: A II 145, *Bhikkhuṇīsutta*
 
 [^fn324]: Dhp 187, *Buddhavagga*
 
