@@ -949,7 +949,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn456]: A III 413, *Nibbedhikasutta*
 
-[^fn457]: Sn 874, *Kalahavivādasutta*; see *Sermon 11*
+[^fn457]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*; see *Sermon 11*
 
 [^fn458]: E.g. at Sn 219, *Munisutta*; and Th 748, *Telakānittheragāthā*
 

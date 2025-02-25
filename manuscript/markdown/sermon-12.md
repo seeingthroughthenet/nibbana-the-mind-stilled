@@ -768,13 +768,13 @@ say it is because it should be well comprehended by him."
 
 [^fn407]: Mp III 348
 
-[^fn408]: A III 294, *Bhaddakasutta* and *Anutappiyasutta*
+[^fn408]: [AN 6.15 / A III 294](https://suttacentral.net/an6.15/pli/ms), *Bhaddakasutta* and *Anutappiyasutta*
 
 [^fn409]: Ps II 10
 
 [^fn410]: M I 109, *Madhupiṇḍikasutta*
 
-[^fn411]: M I 112, *Madhupiṇḍikasutta*
+[^fn411]: [MN 18 / M I 112](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
 [^fn412]: Ps II 75
 
@@ -790,13 +790,13 @@ say it is because it should be well comprehended by him."
 
 [^fn418]: *Paṭisotagāmi* at M I 168, *Ariyapariyesanasutta*
 
-[^fn419]: Dhp 37, *Cittavagga*; Dhp-a I 301
+[^fn419]: [Dhp 37](https://suttacentral.net/dhp33-43/pli/ms), *Cittavagga*; Dhp-a I 301
 
 [^fn420]: Dhp 254, *Malavagga*
 
 [^fn421]: S IV 370, *Asaṅkhatasaṁyutta*
 
-[^fn422]: Sn 874, *Kalahavivādasutta*
+[^fn422]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
 [^fn423]: Ud 77, *Papañcakhayasutta*
 

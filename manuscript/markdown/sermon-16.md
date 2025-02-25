@@ -877,7 +877,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn562]: See *Sermon 11*
 
-[^fn563]: Sn 874, *Kalahavivādasutta*
+[^fn563]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
 [^fn564]: Ud 9, *Bāhiyasutta*; see *Sermon 15*
 

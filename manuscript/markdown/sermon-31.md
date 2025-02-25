@@ -893,7 +893,7 @@ words:
 
 [^fn992]: D II 119, *Mahāparinibbānasutta*
 
-[^fn993]: D III 287, *Dasuttarasutta*
+[^fn993]: [DN 34 / D III 287](https://suttacentral.net/dn34/pli/ms), *Dasuttarasutta*
 
 [^fn994]: M I 60, *Satipaṭṭhānasutta*
 

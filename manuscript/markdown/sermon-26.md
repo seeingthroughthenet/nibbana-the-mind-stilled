@@ -991,7 +991,7 @@ the title of these series of sermons, namely:
 
 [^fn866]: See *Sermons 16-19*
 
-[^fn867]: Sn 874, *Kalahavivādasutta*
+[^fn867]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
 [^fn868]: A V 318, *Saññāsutta*, see *Sermon 16*
 

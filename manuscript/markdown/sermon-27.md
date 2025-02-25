@@ -755,7 +755,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn873]: Sn 734, *Dvāyatanānupassanasutta*
 
-[^fn874]: Sn 873, *Kalahavivādasutta*
+[^fn874]: [Snp 4.11 / Sn 873](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
 [^fn875]: Sn 871, *Kalahavivādasutta*
 
