@@ -853,7 +853,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn953]: Sn 436, *Padhānasutta*
 
-[^fn954]: S I 22, *Nasantisutta*
+[^fn954]: [SN 1.34 / S I 22](https://suttacentral.net/sn1.34/pli/ms), *Nasantisutta*
 
 [^fn955]: Sn 970, *Sāriputtasutta*
 

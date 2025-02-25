@@ -959,7 +959,7 @@ the title of these series of sermons, namely:
 
 [^fn850]: [MN 115 / M III 63](https://suttacentral.net/mn115/pli/ms), *Bahudhātukasutta*
 
-[^fn851]: Dhp 1, *Yamakavagga*
+[^fn851]: [Dhp 1](https://suttacentral.net/dhp1-20/pli/ms), *Yamakavagga*
 
 [^fn852]: S II 78, *Ariyasāvakasutta*
 
@@ -985,7 +985,7 @@ the title of these series of sermons, namely:
 
 [^fn863]: Ud 67, *Paṭhamanānātitthiyasutta*
 
-[^fn864]: D I 42, *Brahmajālasutta*
+[^fn864]: [DN 1 / D I 42](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
 [^fn865]: D II 130, *Mahāparinibbānasutta*
 

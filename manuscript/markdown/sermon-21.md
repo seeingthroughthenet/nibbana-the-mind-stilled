@@ -867,7 +867,7 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn707]: Pj II 152, commenting on Sn 82, *Kasibhāradvājasutta*
 
-[^fn708]: Dhp 221, *Kodhavagga*, see *Sermon 9*
+[^fn708]: [Dhp 221](https://suttacentral.net/dhp221-234/pli/ms), *Kodhavagga*, see *Sermon 9*
 
 [^fn709]: Sn 490, *Māghasutta*
 

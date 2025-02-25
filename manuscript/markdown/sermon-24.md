@@ -819,7 +819,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn796]: E.g. in D I 70, *Sāmaññaphalasutta*
 
-[^fn797]: S III 155, *Aniccasaññāsutta*
+[^fn797]: [SN 22.102 / S III 155](https://suttacentral.net/sn22.102/pli/ms), *Aniccasaññāsutta*
 
 [^fn798]: S III 150, *Gaddulasutta*; see also *Sermons 5 and 6*
 

@@ -808,4 +808,4 @@ Buddha himself.
 
 [^fn1050]: Sn 794, *Suddhaṭṭhakasutta*
 
-[^fn1051]: It 43, *Diṭṭhigatasutta*
+[^fn1051]: [Iti 49 / It 43](https://suttacentral.net/iti49/pli/ms), *Diṭṭhigatasutta*

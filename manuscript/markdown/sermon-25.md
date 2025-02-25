@@ -937,7 +937,7 @@ words:
 
 [^fn819]: See *Sermon 6*
 
-[^fn820]: D I 42, *Brahmajālasutta*
+[^fn820]: [DN 1 / D I 42](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
 [^fn821]: E.g. M I 111, *Madhupiṇḍikasutta*
 

@@ -901,7 +901,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn737]: [MN 22 / M I 141](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*; see *Sermon 2* and *Sermon 21*
 
-[^fn738]: D I 46, *Brahmajālasutta*
+[^fn738]: [DN 1 / D I 46](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
 [^fn739]: M I 139, *Alagaddūpamasutta*
 

@@ -876,7 +876,7 @@ So these lines could be rendered as follows:
 
 [^fn503]: Mil 268
 
-[^fn504]: A IV 338, *Kiṁmūlakasutta*
+[^fn504]: [AN 10.58 / A IV 338](https://suttacentral.net/an10.58/pli/ms), *Kiṁmūlakasutta*
 
 [^fn505]: M III 244, *Dhātuvibhaṅgasutta*
 

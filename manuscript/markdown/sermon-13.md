@@ -983,7 +983,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn473]: See *Sermon 8*; [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 
-[^fn474]: M I 251, *Cūḷataṇhāsaṅkhayasutta*
+[^fn474]: [MN 37 / M I 251](https://suttacentral.net/mn37/pli/ms), *Cūḷataṇhāsaṅkhayasutta*
 
 [^fn475]: S I 14, *Arahantasutta*
 

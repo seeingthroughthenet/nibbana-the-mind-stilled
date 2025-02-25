@@ -815,7 +815,7 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn348]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn349]: It 43, *Diṭṭhigatasutta*
+[^fn349]: [Iti 49 / It 43](https://suttacentral.net/iti49/pli/ms), *Diṭṭhigatasutta*
 
 [^fn350]: E.g. at [MN 2 / M I 8](https://suttacentral.net/mn2/pli/ms), *Sabbāsavasutta*; or at M I 135, *Alaggadūpamasutta*
 
@@ -843,11 +843,11 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn362]: S III 71, *Niruttipathasutta*
 
-[^fn363]: A IV 385, *Samiddhisutta*; A IV 338, *Kiṁmūlakasutta*; see *Sermon 9*
+[^fn363]: [AN 9.14 / A IV 385](https://suttacentral.net/an9.14/pli/ms), *Samiddhisutta*; [AN 10.58 / A IV 338](https://suttacentral.net/an10.58/pli/ms), *Kiṁmūlakasutta*; see *Sermon 9*
 
-[^fn364]: Dhp 1, *Yamakavagga*
+[^fn364]: [Dhp 1](https://suttacentral.net/dhp1-20/pli/ms), *Yamakavagga*
 
-[^fn365]: A IV 338, *Kiṁmūlakasutta*
+[^fn365]: [AN 10.58 / A IV 338](https://suttacentral.net/an10.58/pli/ms), *Kiṁmūlakasutta*
 
 [^fn366]: M I 111, *Madhupiṇḍikasutta*
 
