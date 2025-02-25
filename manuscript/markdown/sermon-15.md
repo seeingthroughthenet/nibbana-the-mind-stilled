@@ -859,7 +859,7 @@ It indeed deserves a paean of joy.
 
 [^fn514]: Sn 757, *Dvayatānupassanāsutta*; see *Sermon 13*
 
-[^fn515]: A IV 386, *Samiddhisutta*; see *Sermon 12*
+[^fn515]: [AN 9.15 / A IV 386](https://suttacentral.net/an9.15/pli/ms), *Samiddhisutta*; see *Sermon 12*
 
 [^fn516]: See sermons 12 and 13
 

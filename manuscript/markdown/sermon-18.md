@@ -798,7 +798,7 @@ death, a solution that completely outwits Māra.
 
 [^fn617]: See *Sermon 9*
 
-[^fn618]: M I 135, *Alagaddūpamasutta*
+[^fn618]: [MN 22 / M I 135](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
 [^fn619]: See *Sermon 5*
 

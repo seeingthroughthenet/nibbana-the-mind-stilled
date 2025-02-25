@@ -786,7 +786,7 @@ Buddha himself.
 
 [^fn1039]: M I 1, *Mūlapariyāyasutta*; see *Sermon 12*
 
-[^fn1040]: M I 111, *Madhupiṇḍikasutta*; see *Sermon 11*
+[^fn1040]: [MN 18 / M I 111](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*; see *Sermon 11*
 
 [^fn1041]: See *Sermon 10*
 

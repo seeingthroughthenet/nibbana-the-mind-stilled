@@ -817,13 +817,13 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn349]: [Iti 49 / It 43](https://suttacentral.net/iti49/pli/ms), *Diṭṭhigatasutta*
 
-[^fn350]: E.g. at [MN 2 / M I 8](https://suttacentral.net/mn2/pli/ms), *Sabbāsavasutta*; or at M I 135, *Alagaddūpamasutta*
+[^fn350]: E.g. at [MN 2 / M I 8](https://suttacentral.net/mn2/pli/ms), *Sabbāsavasutta*; or at [MN 22 / M I 135](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
 [^fn351]: [Iti 43 / It 37](https://suttacentral.net/iti43/pli/ms), *Ajātasutta*
 
 [^fn352]: E.g. at [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*
 
-[^fn353]: E.g. at S II 76, *Jāṇussoṇisutta*
+[^fn353]: E.g. at [SN 12.47 / S II 76](https://suttacentral.net/sn12.47/pli/ms), *Jāṇussoṇisutta*
 
 [^fn354]: See *Sermon 2*
 
@@ -835,13 +835,13 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn358]: [SN 22.83 / S III 105](https://suttacentral.net/sn22.83/pli/ms), *Ānandasutta*
 
-[^fn359]: M I 300, *Cūḷavedallasutta*
+[^fn359]: [MN 44 / M I 300](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
-[^fn360]: D II 62, *Mahānidānasutta*
+[^fn360]: [DN 15 / D II 62](https://suttacentral.net/dn15/pli/ms), *Mahānidānasutta*
 
 [^fn361]: See *Sermon 1*
 
-[^fn362]: S III 71, *Niruttipathasutta*
+[^fn362]: [SN 22.62 / S III 71](https://suttacentral.net/sn22.62/pli/ms), *Niruttipathasutta*
 
 [^fn363]: [AN 9.14 / A IV 385](https://suttacentral.net/an9.14/pli/ms), *Samiddhisutta*; [AN 10.58 / A IV 338](https://suttacentral.net/an10.58/pli/ms), *Kiṁmūlakasutta*; see *Sermon 9*
 
@@ -849,24 +849,24 @@ only an image, or a shadow, reflected on consciousness.
 
 [^fn365]: [AN 10.58 / A IV 338](https://suttacentral.net/an10.58/pli/ms), *Kiṁmūlakasutta*
 
-[^fn366]: M I 111, *Madhupiṇḍikasutta*
+[^fn366]: [MN 18 / M I 111](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
-[^fn367]: M III 242, *Dhātuvibhaṅgasutta*; S IV 215, *Phassamūlakasutta*
+[^fn367]: [MN 140 / M III 242](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*; [SN 36.10 / S IV 215](https://suttacentral.net/sn36.10/pli/ms), *Phassamūlakasutta*
 
-[^fn368]: S III 86, *Khajjanīyasutta*
+[^fn368]: [SN 22.79 / S III 86](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*
 
-[^fn369]: This expression occurs e.g. at D II 251, *Mahāgovindasutta*
+[^fn369]: This expression occurs e.g. at [DN 19 / D II 251](https://suttacentral.net/dn19/pli/ms), *Mahāgovindasutta*
 
-[^fn370]: Sn 1121, *Piṅgiyamāṇavapucchā*
+[^fn370]: [Snp 5.17 / Sn 1121](https://suttacentral.net/snp5.17/pli/ms), *Piṅgiyamāṇavapucchā*
 
 [^fn371]: Nidd II 238
 
-[^fn372]: A IV 386, *Gaṇḍasutta*
+[^fn372]: [AN 9.15 / A IV 386](https://suttacentral.net/an9.15/pli/ms), *Gaṇḍasutta*
 
-[^fn373]: Sn 331, *Uṭṭhānasutta*
+[^fn373]: [Snp 2.10 / Sn 331](https://suttacentral.net/snp2.10/pli/ms), *Uṭṭhānasutta*
 
 [^fn374]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*; see *Sermon 1*
 
 [^fn375]: See *Sermon 7*
 
-[^fn376]: Sn 867, *Kalahavivādasutta*
+[^fn376]: [Snp 4.11 / Sn 867](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*

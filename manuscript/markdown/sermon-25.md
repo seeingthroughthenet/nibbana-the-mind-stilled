@@ -939,7 +939,7 @@ words:
 
 [^fn820]: [DN 1 / D I 42](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
-[^fn821]: E.g. M I 111, *Madhupiṇḍikasutta*
+[^fn821]: E.g. [MN 18 / M I 111](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
 [^fn822]: Ud 8, *Bāhiyasutta*
 

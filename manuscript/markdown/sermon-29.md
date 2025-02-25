@@ -829,7 +829,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn941]: Thī 101, *Sakulātherīgāthā*
 
-[^fn942]: E.g. M I 300, *Cūḷavedallasutta*
+[^fn942]: E.g. [MN 44 / M I 300](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
 [^fn943]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 

@@ -807,9 +807,9 @@ breaks loose and runs riot, it creates a certain deluded state of mind, which is
 
 [^fn377]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn378]: S III 86, *Khajjanīyasutta*
+[^fn378]: [SN 22.79 / S III 86](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*
 
-[^fn379]: Sn 867, *Kalahavivādasutta*
+[^fn379]: [Snp 4.11 / Sn 867](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
 [^fn380]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*; see *Sermon 1*
 

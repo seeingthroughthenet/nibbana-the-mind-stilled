@@ -778,7 +778,7 @@ say it is because it should be well comprehended by him."
 
 [^fn412]: Ps II 75
 
-[^fn413]: S III 71, *Niruttipathasutta*
+[^fn413]: [SN 22.62 / S III 71](https://suttacentral.net/sn22.62/pli/ms), *Niruttipathasutta*
 
 [^fn414]: *Marīcikūpamā saññā* at [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
@@ -826,4 +826,4 @@ say it is because it should be well comprehended by him."
 
 [^fn436]: See *Sermon 9*
 
-[^fn437]: A IV 386, *Samiddhisutta*
+[^fn437]: [AN 9.15 / A IV 386](https://suttacentral.net/an9.15/pli/ms), *Samiddhisutta*
