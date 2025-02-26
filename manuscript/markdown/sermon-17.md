@@ -831,7 +831,7 @@ the *arahant*, who has attained supramundane freedom, does not come back.
 
 [^fn579]: Ps III 115, *aṭṭhakathā* on the *Bahuvedanīyasutta*
 
-[^fn580]: Ud 9, *Bāhiyasutta*; see *Sermon 15*
+[^fn580]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*; see *Sermon 15*
 
 [^fn581]: A V 8, *Sāriputtasutta*
 

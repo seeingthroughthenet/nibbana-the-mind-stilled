@@ -847,7 +847,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn547]: See *Sermons 5, 7, 9, 11, 15*
 
-[^fn548]: Ud 9, *Bāhiyasutta*; see *Sermon 15*
+[^fn548]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*; see *Sermon 15*
 
 [^fn549]: Sn 226, *Ratanasutta*
 
@@ -879,7 +879,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn563]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn564]: Ud 9, *Bāhiyasutta*; see *Sermon 15*
+[^fn564]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*; see *Sermon 15*
 
 [^fn565]: Ps III 115, *aṭṭhakathā* on the *Bahuvedanīyasutta*
 

@@ -782,7 +782,7 @@ Buddha himself.
 
 [^fn1037]: M III 30, *Chabbisodhanasutta*; see *Sermon 15*
 
-[^fn1038]: Sn 757, *Dvayatānupassanāsutta*; see *Sermon 13*
+[^fn1038]: [Snp 3.12 / Sn 757](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*; see *Sermon 13*
 
 [^fn1039]: [MN 1 / M I 1](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*; see *Sermon 12*
 

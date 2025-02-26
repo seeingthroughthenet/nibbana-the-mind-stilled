@@ -850,7 +850,7 @@ the rest of the discourse in our next sermon.
 
 [^fn1013]: S V 197, *Paṭhamavibhaṅgasutta*
 
-[^fn1014]: M II 173, *Caṅkīsutta*
+[^fn1014]: [MN 95 / M II 173](https://suttacentral.net/mn95/pli/ms), *Caṅkīsutta*
 
 [^fn1015]: Ps III 426
 
