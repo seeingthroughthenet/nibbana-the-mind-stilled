@@ -861,7 +861,7 @@ It indeed deserves a paean of joy.
 
 [^fn515]: [AN 9.15 / A IV 386](https://suttacentral.net/an9.15/pli/ms), *Samiddhisutta*; see *Sermon 12*
 
-[^fn516]: See sermons 12 and 13
+[^fn516]: See *Sermons 12 and 13*
 
 [^fn517]: M I 3, *Mūlapariyāyasutta*
 
@@ -895,7 +895,7 @@ It indeed deserves a paean of joy.
 
 [^fn532]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
-[^fn533]: See sermons 5, 7 and 9
+[^fn533]: See *Sermons 5, 7 and 9*
 
 [^fn534]: S I 6, *Natthiputtasamasutta*
 

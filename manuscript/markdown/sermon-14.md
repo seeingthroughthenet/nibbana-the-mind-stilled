@@ -860,7 +860,7 @@ So these lines could be rendered as follows:
 
 [^fn495]: [MN 140 / M III 240](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
-[^fn496]: See sermons 6 and 7
+[^fn496]: See *Sermons 6 and 7*
 
 [^fn497]: Th 1101, Tālapuṭa *Theragāthā*
 

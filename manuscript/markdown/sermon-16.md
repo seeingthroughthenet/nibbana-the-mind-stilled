@@ -845,7 +845,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn546]: See *Sermon 8*
 
-[^fn547]: See sermons 5, 7, 9, 11, 15
+[^fn547]: See *Sermons 5, 7, 9, 11, 15*
 
 [^fn548]: Ud 9, *Bāhiyasutta*; see *Sermon 15*
 

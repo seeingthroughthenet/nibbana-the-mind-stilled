@@ -877,7 +877,7 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn712]: Sn 9, *Uragasutta*
 
-[^fn713]: See sermons 5 and 18
+[^fn713]: See *Sermons 5 and 18*
 
 [^fn714]: [SN 12.20 / S II 26](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 

@@ -945,7 +945,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn454]: See *Sermon 12*
 
-[^fn455]: See sermons 9 and 12
+[^fn455]: See *Sermons 9 and 12*
 
 [^fn456]: A III 413, *Nibbedhikasutta*
 
@@ -965,7 +965,7 @@ simply clings onto the scaffolding, the building would never come up.
 
 [^fn464]: Dhp 33, *Cittavagga*
 
-[^fn465]: See sermons 11 and 12
+[^fn465]: See *Sermons 11 and 12*
 
 [^fn466]: See *Sermon 10*
 
