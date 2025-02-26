@@ -817,7 +817,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn795]: S IV 67, *Dutiyadvayamsutta*
 
-[^fn796]: E.g. in D I 70, *Sāmaññaphalasutta*
+[^fn796]: E.g. in [DN 2 / D I 70](https://suttacentral.net/dn2/pli/ms), *Sāmaññaphalasutta*
 
 [^fn797]: [SN 22.102 / S III 155](https://suttacentral.net/sn22.102/pli/ms), *Aniccasaññāsutta*
 

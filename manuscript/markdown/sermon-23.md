@@ -957,7 +957,7 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn753]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn754]: S I 14, *Arahantasutta*, see *Sermon 13*
+[^fn754]: [SN 1.25 / S I 14](https://suttacentral.net/sn1.25/pli/ms), *Arahantasutta*, see *Sermon 13*
 
 [^fn755]: Ud 3, *Bodhivagga*
 

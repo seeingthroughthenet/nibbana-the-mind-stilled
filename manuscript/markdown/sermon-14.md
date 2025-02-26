@@ -824,7 +824,7 @@ So these lines could be rendered as follows:
 
 [^fn477]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn478]: S IV 201, *Yavakalāpisutta*
+[^fn478]: [SN 35.248 / S IV 201](https://suttacentral.net/sn35.248/pli/ms), *Yavakalāpisutta*
 
 [^fn479]: M III 246, *Dhātuvibhaṅgasutta*
 
@@ -834,7 +834,7 @@ So these lines could be rendered as follows:
 
 [^fn482]: Th 715, *Adhimutta Theragāthā*
 
-[^fn483]: E.g. at D III 273, *Dasuttarasutta*
+[^fn483]: E.g. at [DN 34 / D III 273](https://suttacentral.net/dn34/pli/ms), *Dasuttarasutta*
 
 [^fn484]: The *vipallāsas* occur at A II 52, *Vipallāsasutta*
 

@@ -822,7 +822,7 @@ we brought out all these arguments today.
 
 [^fn640]: [Thag 4.8 / Th 298](https://suttacentral.net/thag4.8/pli/ms), *Rāhulatheragāthā*
 
-[^fn641]: E.g. M II 265, *Āneñjasappāyasutta*
+[^fn641]: E.g. [MN 106 / M II 265](https://suttacentral.net/mn106/pli/ms), *Āneñjasappāyasutta*
 
 [^fn642]: M I 147, *Rathavinītasutta*
 
