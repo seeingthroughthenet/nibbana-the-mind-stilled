@@ -862,7 +862,7 @@ So these lines could be rendered as follows:
 
 [^fn496]: See *Sermons 6 and 7*
 
-[^fn497]: Th 1101, Tālapuṭa *Theragāthā*
+[^fn497]: Th 1101, *Tālapuṭa Theragāthā*
 
 [^fn498]: [Thag 16.1 / Th 717](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā,* see *Sermon 8*
 
