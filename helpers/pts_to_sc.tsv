@@ -13,8 +13,15 @@ S I 192	SN 8.7	Pavāraṇāsutta
 S I 13	SN 1.23	Jaṭāsutta		
 Sn 228, Sn 231, Sn 235	Snp 2.1	Ratanasutta		
 M III 240, M III 242, M III 245	MN 140	Dhātuvibhaṅgasutta		
+M III 239, M III 244, M III 246	MN 140	Dhātuvibhaṅgasutta		
 M I 487	MN 72	Aggivacchagottasutta		
 S IV 368-373	SN 43.13-44	Asaṅkhatasaṁyutta		
+_X_ S IV 372		Asaṅkhatasaṁyutta		
+_X_ S IV 371	SN 38.1	Nibbānasutta		Can't find the quote in Asaṅkhatasaṁyutta (SN 43)
+_X_ S IV 372				Can't find 'dīpa' as nibbāna
+_X_ S IV 359		Asaṅkhatasaṁyutta		Can't find sutta
+_X_ S IV 370		Asaṅkhatasaṁyutta		
+_X_ S IV 359-373		Asaṅkhatasaṁyutta		
 M I 134, M I 135, M I 140, M I 141	MN 22	Alagaddūpamasutta		
 M I 130	MN 22	Alagaddūpamasutta		
 D II 57, D II 58, D II 62, D II 63	DN 15	Mahānidānasutta		
@@ -27,8 +34,6 @@ It 88	Iti 90	Aggappasādasutta
 Ud 11	Ud 2.2	Rājasutta		
 Ud 79	Ud 7.9	Udapānasutta		
 A II 34	AN 4.34	Aggappasādasutta		
-_X_ S IV 371	SN 38.1	Nibbānasutta		Can't find the quote in Asaṅkhatasaṁyutta (SN 43)
-_X_ S IV 372				Can't find 'dīpa' as nibbāna
 M I 507	MN 75	Māgaṇḍiyasutta		
 M I 523	MN 76	Saṇḍakasutta		
 S III 189	SN 23.1	Mārasutta		
@@ -42,7 +47,7 @@ It 53	Iti 62	Indriyasutta
 D I 110	DN 3	Ambaṭṭhasutta		
 Dhp 383		Brāhmaṇavagga	dhp383-423	
 S I 54	SN 2.18	Kakudhasutta		
-Sn 1092	Snp 5.11	Kappamāṇavapucchā		
+Sn 1092, Sn 1094	Snp 5.11	Kappamāṇavapucchā		
 M I 162, M I 167, M I 168	MN 26	Ariyapariyesanasutta		
 M III 63	MN 115	Bahudhātukasutta		
 Ud 1	Ud 1.1-3	Bodhisuttas		
@@ -121,7 +126,7 @@ Thī 28	Thig 2.5	Cittā Therī
 A III 440	AN 6.95	Catutthaabhabbaṭṭhānasutta		
 Ud 2	Ud 1.2	Dutiyabodhisutta		
 		Sermon 6		
-S III 142	SN 22.95	Pheṇapiṇḍūpamasutta		
+S III 141, S III 142	SN 22.95	Pheṇapiṇḍūpamasutta		
 M I 350	MN 52	Aṭṭhakanāgarasutta		
 A I 122	AN 3.23	Saṅkhārasutta		
 A II 157	AN 4.171	Cetanāsutta		
@@ -148,7 +153,6 @@ S II 101	SN 12.64	Atthirāgasutta
 M I 293, M I 297	MN 43	Mahāvedallasutta		
 A II 139	AN 4.142	Pabhāsutta		
 A I 10	AN 1.51-52	Accharāsaṅghātavagga	an1.51-60	
-_X_ S IV 359		Asaṅkhatasaṁyutta		Can't find sutta
 		Sermon 8		
 M II 45	MN 81			
 M II 74	MN 83			
@@ -156,10 +160,9 @@ S I 24	SN 1.35
 S II 189-190	SN 15.14-20		sn15.14	
 A IV 100	AN 7.66	Sattasuriyasutta		
 It 37	Iti 43	Ajātasutta		
-Th 707, Th 716, Th 717	Thag 16.1	Adhimutta Theragāthā		
+Th 707, Th 715, Th 716, Th 717	Thag 16.1	Adhimutta Theragāthā		
 A II 158	AN 4.171	Cetanāsutta		
 S II 117	SN 12.68	Kosambisutta		
-_X_ S IV 370		Asaṅkhatasaṁyutta		
 Ud 93	Ud 8.10	Dutiyadabbasutta		
 Th 264	Thag 3.16	Vimala Thera		
 M I 197	MN 29	Mahāsāropamasutta		
@@ -188,7 +191,7 @@ Th 267-268, Th 269-270	Thag 4.1	Nāgasamāla Thera
 A IV 385	AN 9.14	Samiddhisutta		
 Dhp 221		Kodhavagga	dhp221-234	
 D I 1-46, D I 42, D I 45, D I 46	DN 1	Brahmajālasutta		
-Sn 909	Snp 4.13	Mahāviyūhasutta		
+Sn 902, Sn 909	Snp 4.13	Mahāviyūhasutta		
 It 43	Iti 49	Diṭṭhigatasutta		
 		Sermon 10		
 S II 76	SN 12.47	Jāṇussoṇisutta		
@@ -235,3 +238,13 @@ S IV 201	SN 35.248	Yavakalāpisutta
 Dhp 33		Cittavagga	dhp33-43	
 M I 145	MN 24	Rathavinītasutta		
 S I 14	SN 1.25	Arahantasutta		
+		Sermon 14		
+A II 52	AN 4.49	Vipallāsasutta		
+Sn 1055-1056	Snp 5.5	Mettagūmāṇavapucchā		
+S III 9	SN 22.3	Hāliddikānisutta		
+Th 1101	Thag 19.1	Tālapuṭa Theragāthā		
+M III 44	MN 113	Sappurisasutta		
+A I 150	AN 3.40	Ādhipateyyasutta		
+_X_ A I 24		Etadaggavagga		
+Ud 8	Ud 1.10	Bāhiyasutta		
+		Sermon 15		

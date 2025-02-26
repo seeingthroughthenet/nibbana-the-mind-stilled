@@ -827,7 +827,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn800]: A II 25, *Kāḷakārāmasutta*
 
-[^fn801]: Ud 8, *Bāhiyasutta*, see *Sermon 14*
+[^fn801]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*, see *Sermon 14*
 
 [^fn802]: See *Sermons 12 to 15*
 

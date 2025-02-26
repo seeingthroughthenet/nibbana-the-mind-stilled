@@ -853,7 +853,7 @@ It indeed deserves a paean of joy.
 
 [^fn511]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn512]: Ud 8, *Bāhiyasutta*
+[^fn512]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn513]: [Snp 4.6 / Sn 813](https://suttacentral.net/snp4.6/pli/ms), *Jarāsutta*
 

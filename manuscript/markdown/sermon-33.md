@@ -778,7 +778,7 @@ Buddha himself.
 
 [^fn1035]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
-[^fn1036]: Ud 8, *Bāhiyasutta*
+[^fn1036]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn1037]: M III 30, *Chabbisodhanasutta*; see *Sermon 15*
 

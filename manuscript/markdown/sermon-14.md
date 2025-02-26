@@ -826,49 +826,49 @@ So these lines could be rendered as follows:
 
 [^fn478]: [SN 35.248 / S IV 201](https://suttacentral.net/sn35.248/pli/ms), *Yavakalāpisutta*
 
-[^fn479]: M III 246, *Dhātuvibhaṅgasutta*
+[^fn479]: [MN 140 / M III 246](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
 [^fn480]: See *Sermon 4*
 
 [^fn481]: See *Sermon 8*
 
-[^fn482]: Th 715, *Adhimutta Theragāthā*
+[^fn482]: [Thag 16.1 / Th 715](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
 [^fn483]: E.g. at [DN 34 / D III 273](https://suttacentral.net/dn34/pli/ms), *Dasuttarasutta*
 
-[^fn484]: The *vipallāsas* occur at A II 52, *Vipallāsasutta*
+[^fn484]: The *vipallāsas* occur at [AN 4.49 / A II 52](https://suttacentral.net/an4.49/pli/ms), *Vipallāsasutta*
 
 [^fn485]: See *Sermon 8*
 
 [^fn486]: See *Sermon 2*; [Ud 3.10 / Ud 32](https://suttacentral.net/ud3.10/pli/ms), *Lokasutta*
 
-[^fn487]: Sn 1055-1056, *Mettagūmāṇavapucchā*
+[^fn487]: [Snp 5.5 / Sn 1055-1056](https://suttacentral.net/snp5.5/pli/ms), *Mettagūmāṇavapucchā*
 
-[^fn488]: Sn 902, *Mahāviyūhasutta*
+[^fn488]: [Snp 4.13 / Sn 902](https://suttacentral.net/snp4.13/pli/ms), *Mahāviyūhasutta*
 
-[^fn489]: S III 9, *Hāliddikānisutta*
+[^fn489]: [SN 22.3 / S III 9](https://suttacentral.net/sn22.3/pli/ms), *Hāliddikānisutta*
 
 [^fn490]: S IV 372, *Asaṅkhatasaṁyutta*
 
 [^fn491]: [Snp 5.11 / Sn 1092](https://suttacentral.net/snp5.11/pli/ms), *Kappamāṇavapucchā*
 
-[^fn492]: Sn 1094, *Kappamāṇavapucchā*
+[^fn492]: [Snp 5.11 / Sn 1094](https://suttacentral.net/snp5.11/pli/ms), *Kappamāṇavapucchā*
 
 [^fn493]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Tatiyanibbānapaṭisaṁyuttasutta*
 
-[^fn494]: M III 239, *Dhātuvibhaṅgasutta*
+[^fn494]: [MN 140 / M III 239](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
 [^fn495]: [MN 140 / M III 240](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
 [^fn496]: See *Sermons 6 and 7*
 
-[^fn497]: Th 1101, *Tālapuṭa Theragāthā*
+[^fn497]: [Thag 19.1 / Th 1101](https://suttacentral.net/thag19.1/pli/ms), *Tālapuṭa Theragāthā*
 
 [^fn498]: [Thag 16.1 / Th 717](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā,* see *Sermon 8*
 
-[^fn499]: M III 244, *Dhātuvibhaṅgasutta*
+[^fn499]: [MN 140 / M III 244](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
-[^fn500]: S III 141, *Pheṇapiṇḍūpamasutta*
+[^fn500]: [SN 22.95 / S III 141](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
 [^fn501]: Vism 327
 
@@ -878,14 +878,14 @@ So these lines could be rendered as follows:
 
 [^fn504]: [AN 10.58 / A IV 338](https://suttacentral.net/an10.58/pli/ms), *Kiṁmūlakasutta*
 
-[^fn505]: M III 244, *Dhātuvibhaṅgasutta*
+[^fn505]: [MN 140 / M III 244](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
-[^fn506]: M III 44, *Sappurisasutta*
+[^fn506]: [MN 113 / M III 44](https://suttacentral.net/mn113/pli/ms), *Sappurisasutta*
 
-[^fn507]: A I 150, *Ādhipateyyasutta*
+[^fn507]: [AN 3.40 / A I 150](https://suttacentral.net/an3.40/pli/ms), *Ādhipateyyasutta*
 
 [^fn508]: A I 24, *Etadaggavagga*
 
-[^fn509]: Ud 8, *Bāhiyasutta*
+[^fn509]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn510]: [Snp 4.6 / Sn 813](https://suttacentral.net/snp4.6/pli/ms), *Jarāsutta*

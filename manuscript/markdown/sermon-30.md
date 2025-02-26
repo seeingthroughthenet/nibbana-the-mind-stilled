@@ -875,7 +875,7 @@ parinibbāna*. This is the subtlest truth in this Dhamma.
 
 [^fn968]: See esp. *Sermons 14, 15, 24 and 25*
 
-[^fn969]: M III 44, *Sappurisasutta*
+[^fn969]: [MN 113 / M III 44](https://suttacentral.net/mn113/pli/ms), *Sappurisasutta*
 
 [^fn970]: See *Sermons 13, 14 and 15*
 

@@ -988,7 +988,7 @@ Such a predicament is not unlikely.
 
 [^fn271]: [Thag 16.1 / Th 707](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
-[^fn272]: Th 715, ibid.
+[^fn272]: [Thag 16.1 / Th 715](https://suttacentral.net/thag16.1/pli/ms), ibid.
 
 [^fn273]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), ibid.
 

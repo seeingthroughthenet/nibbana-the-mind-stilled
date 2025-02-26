@@ -933,7 +933,7 @@ words:
 
 [^fn817]: See *Sermon 15*
 
-[^fn818]: Ud 8, *Bāhiyasutta*
+[^fn818]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn819]: See *Sermon 6*
 
@@ -941,7 +941,7 @@ words:
 
 [^fn821]: E.g. [MN 18 / M I 111](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
-[^fn822]: Ud 8, *Bāhiyasutta*
+[^fn822]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn823]: Mp III 40
 

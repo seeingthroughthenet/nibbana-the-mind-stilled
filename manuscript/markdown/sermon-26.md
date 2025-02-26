@@ -939,7 +939,7 @@ the title of these series of sermons, namely:
 
 [^fn840]: A II 25, *Kāḷakārāmasutta*
 
-[^fn841]: Ud 8, *Bāhiyasutta*
+[^fn841]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn842]: See *Sermon 25*
 
@@ -965,7 +965,7 @@ the title of these series of sermons, namely:
 
 [^fn853]: S II 27, *Paccayasutta*
 
-[^fn854]: Ud 8, *Bāhiyasutta*
+[^fn854]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn855]: See *Sermon 1*
 
@@ -977,7 +977,7 @@ the title of these series of sermons, namely:
 
 [^fn859]: E.g. A V 120, *Niṭṭhaṅgatasutta*
 
-[^fn860]: Ud 8, *Bāhiyasutta*
+[^fn860]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn861]: Sn 824, *Pasūrasutta*, see *Sermon 25*
 
