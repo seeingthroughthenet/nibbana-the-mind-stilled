@@ -823,7 +823,7 @@ the *arahant*, who has attained supramundane freedom, does not come back.
 
 [^fn575]: It-a II 42
 
-[^fn576]: Ud 12, *Sakkārasutta*; see *Sermon 16*
+[^fn576]: [Ud 2.4 / Ud 12](https://suttacentral.net/ud2.4/pli/ms), *Sakkārasutta*; see *Sermon 16*
 
 [^fn577]: This expression occurs e.g. at M I 35, *Ākaṅkheyyasutta*
 

@@ -989,11 +989,11 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn769]: Mrs. Rhys Davids: *The Book of the Kindred Sayings*, PTS 1979, p 86 n 3
 
-[^fn770]: A V 318, *Saññāsutta*, see also *Sermon 16*
+[^fn770]: [AN 11.7 / A V 318](https://suttacentral.net/an11.7/pli/ms), *Saññāsutta*, see also *Sermon 16*
 
 [^fn771]: [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*, see also *Sermon 17*
 
-[^fn772]: A V 321, *Manasikārasutta*, see also *Sermon 16*
+[^fn772]: [AN 11.8 / A V 321](https://suttacentral.net/an11.8/pli/ms), *Manasikārasutta*, see also *Sermon 16*
 
 [^fn773]: See *Sermon 17*
 

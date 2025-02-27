@@ -993,6 +993,6 @@ the title of these series of sermons, namely:
 
 [^fn867]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn868]: A V 318, *Saññāsutta*, see *Sermon 16*
+[^fn868]: [AN 11.7 / A V 318](https://suttacentral.net/an11.7/pli/ms), *Saññāsutta*, see *Sermon 16*
 
 [^fn869]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*

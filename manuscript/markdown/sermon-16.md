@@ -841,7 +841,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn544]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
-[^fn545]: Ud 12, *Sakkārasutta*
+[^fn545]: [Ud 2.4 / Ud 12](https://suttacentral.net/ud2.4/pli/ms), *Sakkārasutta*
 
 [^fn546]: See *Sermon 8*
 
@@ -849,7 +849,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn548]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*; see *Sermon 15*
 
-[^fn549]: Sn 226, *Ratanasutta*
+[^fn549]: [Snp 2.1 / Sn 226](https://suttacentral.net/snp2.1/pli/ms), *Ratanasutta*
 
 [^fn550]: See *Sermon 1*
 
@@ -859,21 +859,21 @@ won through the incomparable deliverances of the mind.
 
 [^fn553]: E.g. [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
-[^fn554]: A V 324, *Saddhasutta*
+[^fn554]: [AN 11.9 / A V 324](https://suttacentral.net/an11.9/pli/ms), *Saddhasutta*
 
 [^fn555]: Mp V 80
 
-[^fn556]: Sn 871, *Kalahavivādasutta*; see *Sermon 11*
+[^fn556]: [Snp 4.11 / Sn 871](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*; see *Sermon 11*
 
-[^fn557]: Sn 872, *Kalahavivādasutta*
+[^fn557]: [Snp 4.11 / Sn 872](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn558]: Sn 1113, *Posālamāṇavapucchā*
+[^fn558]: [Snp 5.15 / Sn 1113](https://suttacentral.net/snp5.15/pli/ms), *Posālamāṇavapucchā*
 
 [^fn559]: Nid II 166 (Burmese ed.)
 
-[^fn560]: A V 318, *Saññāsutta*
+[^fn560]: [AN 11.7 / A V 318](https://suttacentral.net/an11.7/pli/ms), *Saññāsutta*
 
-[^fn561]: A V 321, *Manasikārasutta*
+[^fn561]: [AN 11.8 / A V 321](https://suttacentral.net/an11.8/pli/ms), *Manasikārasutta*
 
 [^fn562]: See *Sermon 11*
 
@@ -885,9 +885,9 @@ won through the incomparable deliverances of the mind.
 
 [^fn566]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*
 
-[^fn567]: Th 25, *Nandiyatheragāthā*
+[^fn567]: [Thag 1.25 / Th 25](https://suttacentral.net/thag1.25/pli/ms), *Nandiyatheragāthā*
 
-[^fn568]: Dhp 274, *Maggavagga*
+[^fn568]: [Dhp 274](https://suttacentral.net/dhp273-289/pli/ms), *Maggavagga*
 
 [^fn569]: [Dhp 92-93](https://suttacentral.net/dhp90-99/pli/ms), *Arahantavagga*
 
