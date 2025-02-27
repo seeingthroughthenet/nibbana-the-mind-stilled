@@ -859,7 +859,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn553]: E.g. [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
-[^fn554]: A V 324, *Sandhasutta*
+[^fn554]: A V 324, *Saddhasutta*
 
 [^fn555]: Mp V 80
 
