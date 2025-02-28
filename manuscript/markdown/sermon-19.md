@@ -834,7 +834,7 @@ we brought out all these arguments today.
 
 [^fn646]: S IV 204, *Samādhisutta*
 
-[^fn647]: Ps III 115, *aṭṭhakathā* on the *Bahuvedanīyasutta*
+[^fn647]: Ps III 115, *aṭṭhakathā* on MN 59, *Bahuvedanīyasutta*
 
 [^fn648]: E.g. at Mp I 91
 
@@ -852,7 +852,7 @@ we brought out all these arguments today.
 
 [^fn655]: S IV 371, *Asaṅkhatasaṁyutta*
 
-[^fn656]: A III 39, *Sīhasenāpattisutta*
+[^fn656]: A III 39, *Sīhasenāpatisutta*
 
 [^fn657]: Dhp 97, *Arahantavagga*
 
