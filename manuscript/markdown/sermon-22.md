@@ -887,7 +887,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn730]: S III 118 and S IV 384, *Anurādhasutta*
 
-[^fn731]: S III 190, *Sattasutta*
+[^fn731]: [SN 23.3 / S III 190](https://suttacentral.net/sn23.3/pli/ms), *Sattasutta*
 
 [^fn732]: See *Sermon 4*
 
@@ -919,7 +919,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn746]: [Dhp 62](https://suttacentral.net/dhp60-75/pli/ms), *Bālavagga*
 
-[^fn747]: [SN 1.70 / S I 41](https://suttacentral.net/sn1.70/pli/ms), *Lokasutta*, see also *Sermon 4*; S IV 39, *Samiddhisutta*, see also *Sermon 20*
+[^fn747]: [SN 1.70 / S I 41](https://suttacentral.net/sn1.70/pli/ms), *Lokasutta*, see also *Sermon 4*; [SN 35.68 / S IV 39](https://suttacentral.net/sn35.68/pli/ms), *Samiddhisutta*, see also *Sermon 20*
 
 [^fn748]: E.g. at M I 426, *Mahāmālunkyasutta*
 
@@ -929,4 +929,4 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn751]: D I 17, *Brahmajālasutta*
 
-[^fn752]: S IV 52, *Lokapañhāsutta*, see *Sermon 20*
+[^fn752]: [SN 35.82 / S IV 52](https://suttacentral.net/sn35.82/pli/ms), *Lokapañhāsutta*, see *Sermon 20*

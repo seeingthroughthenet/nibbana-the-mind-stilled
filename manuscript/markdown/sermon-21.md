@@ -895,7 +895,7 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn721]: Sn 762, *Dvayatānupassanāsutta*
 
-[^fn722]: S III 116 and S IV 380, *Anurādhasutta*
+[^fn722]: [SN 22.86 / S III 116](https://suttacentral.net/sn22.86/pli/ms) and S IV 380, *Anurādhasutta*
 
 [^fn723]: S I 135, *Vajirāsutta*
 
@@ -905,6 +905,6 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn726]: See *Sermon 20*
 
-[^fn727]: S III 190, *Sattasutta*
+[^fn727]: [SN 23.3 / S III 190](https://suttacentral.net/sn23.3/pli/ms), *Sattasutta*
 
-[^fn728]: S IV 52, *Lokapañhāsutta*
+[^fn728]: [SN 35.82 / S IV 52](https://suttacentral.net/sn35.82/pli/ms), *Lokapañhāsutta*

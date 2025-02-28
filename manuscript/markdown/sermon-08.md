@@ -1006,7 +1006,7 @@ Such a predicament is not unlikely.
 
 [^fn280]: See *Sermon 2*
 
-[^fn281]: E.g. at Dhp-a III 320 when explaining *accutaṁ ṭhānaṁ* of Dhp 225
+[^fn281]: E.g. at Dhp-a III 320 when explaining *accutaṁ ṭhānaṁ* of [Dhp 225](https://suttacentral.net/dhp221-234/pli/ms)
 
 [^fn282]: S IV 370, *Asaṅkhatasaṁyutta*
 

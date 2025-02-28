@@ -919,11 +919,11 @@ words:
 
 [^fn810]: See esp. *Sermon 20*
 
-[^fn811]: E.g. at M I 484, *Aggivacchagottasutta*
+[^fn811]: E.g. at [MN 72 / M I 484](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
 [^fn812]: See *Sermon 24*
 
-[^fn813]: E.g. at M I 484, *Aggivacchagottasutta*
+[^fn813]: E.g. at [MN 72 / M I 484](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
 [^fn814]: D I 58, *Sāmaññaphalasutta*
 

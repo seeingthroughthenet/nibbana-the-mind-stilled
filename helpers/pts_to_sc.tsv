@@ -14,7 +14,7 @@ S I 13	SN 1.23	Jaṭāsutta
 Sn 226, Sn 228, Sn 231, Sn 235	Snp 2.1	Ratanasutta		
 M III 240, M III 242, M III 245	MN 140	Dhātuvibhaṅgasutta		
 M III 239, M III 244, M III 246	MN 140	Dhātuvibhaṅgasutta		
-M I 487	MN 72	Aggivacchagottasutta		
+M I 484, M I 487	MN 72	Aggivacchagottasutta		
 S IV 368-373	SN 43.13-44	Asaṅkhatasaṁyutta		
 _X_ S IV 372		Asaṅkhatasaṁyutta		
 _X_ S IV 371	SN 38.1	Nibbānasutta		Can't find the quote in Asaṅkhatasaṁyutta (SN 43)
@@ -23,7 +23,7 @@ _X_ S IV 359		Asaṅkhatasaṁyutta		Can't find sutta
 _X_ S IV 370		Asaṅkhatasaṁyutta		
 _X_ S IV 359-373		Asaṅkhatasaṁyutta		
 M I 134, M I 135, M I 140, M I 141	MN 22	Alagaddūpamasutta		
-M I 130	MN 22	Alagaddūpamasutta		
+M I 130, M I 137, M I 138	MN 22	Alagaddūpamasutta		
 D II 57, D II 58, D II 62, D II 63	DN 15	Mahānidānasutta		
 Sn 1074, Sn 1076	Snp 5.7	Upasīvamāṇavapucchā		
 Th 298	Thag 4.8	Rāhula Thera		
@@ -76,7 +76,7 @@ D II 31	DN 14	Mahāpadānasutta
 S II 114	SN 12.67	Naḷakalāpīsutta		
 M I 190	MN 28	Mahāhatthipadopamasutta		
 S II 68	SN 12.41	Pañcaverabhayāsutta		
-Sn 1084-1085	Snp 5.9	Hemakamāṇavapucchā		
+Sn 1084-1085, Sn 1086	Snp 5.9	Hemakamāṇavapucchā		
 M I 8, M I 12	MN 2	Sabbāsavasutta		
 Th 1094	Thag 19.1	Tālapuṭa Thera		
 D I 148	DN 5			
@@ -188,7 +188,7 @@ M III 71, M III 77	MN 117	Mahācattārīsakasutta
 Th 315-316	Thag 5.1	Rājadatta Thera		
 Th 267-268, Th 269-270	Thag 4.1	Nāgasamāla Thera		
 A IV 385	AN 9.14	Samiddhisutta		
-Dhp 221		Kodhavagga	dhp221-234	
+Dhp 221, Dhp 225		Kodhavagga	dhp221-234	
 D I 1-46, D I 42, D I 45, D I 46	DN 1	Brahmajālasutta		
 Sn 902, Sn 909	Snp 4.13	Mahāviyūhasutta		
 It 43	Iti 49	Diṭṭhigatasutta		
@@ -297,3 +297,16 @@ S I 194	SN 8.10	Moggallānasutta
 S IV 204	SN 36.1	Samādhisutta		
 A III 39	AN 5.34	Sīhasenāpatisutta		
 Dhp 308		Nirayavagga		
+		Sermon 20		
+M I 23	MN 4	Bhayabheravasutta		
+A III 354	AN 6.45	Iṇasutta		
+S III 116	SN 22.86	Anurādhasutta		
+S IV 399	SN 44.9	Kutūhalasālāsutta		
+S III 190	SN 23.3	Bhavanettisutta		
+M I 427	MN 63	Cūḷamāluṅkyāputtasutta		
+A IV 68	AN 7.54	Abyākatasutta		
+S V 437	SN 56.31	Sīsapāvanasutta		
+S IV 39	SN 35.68	Samiddhisutta		
+S IV 52	SN 35.82	Lokapañhāsutta		
+S IV 53	SN 35.84	Palokadhammasutta		
+S III 193	SN 23.9	Chandarāgasutta		
