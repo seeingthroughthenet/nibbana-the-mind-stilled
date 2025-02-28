@@ -830,7 +830,7 @@ we brought out all these arguments today.
 
 [^fn644]: Bv-a 252
 
-[^fn645]: It 62, *Santatarasutta*, see *Sermon 17*
+[^fn645]: [Iti 73 / It 62](https://suttacentral.net/iti73/pli/ms), *Santatarasutta*, see *Sermon 17*
 
 [^fn646]: S IV 204, *Samādhisutta*
 

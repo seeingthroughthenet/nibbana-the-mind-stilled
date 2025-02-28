@@ -766,7 +766,7 @@ death, a solution that completely outwits Māra.
 
 [^fn601]: E.g. It 57, *Dutiyarāgasutta*: *tiṇṇo pāraṁ gato thale tiṭṭhati brāhmaṇo*
 
-[^fn602]: Sn 803, *Paramaṭṭhakasutta*
+[^fn602]: [Snp 4.5 / Sn 803](https://suttacentral.net/snp4.5/pli/ms), *Paramaṭṭhakasutta*
 
 [^fn603]: Sn 714, *Nālakasutta*
 
@@ -774,7 +774,7 @@ death, a solution that completely outwits Māra.
 
 [^fn605]: Pj II 498
 
-[^fn606]: Sn 803, *Paramaṭṭhakasutta*
+[^fn606]: [Snp 4.5 / Sn 803](https://suttacentral.net/snp4.5/pli/ms), *Paramaṭṭhakasutta*
 
 [^fn607]: Sn 812, *Jarāsutta*
 

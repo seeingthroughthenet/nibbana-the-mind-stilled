@@ -773,7 +773,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn882]: [Snp 4.9 / Sn 847](https://suttacentral.net/snp4.9/pli/ms), *Māgandiyasutta*
 
-[^fn883]: E.g. D I 156, *Mahāli Sutta*
+[^fn883]: E.g. [DN 6 / D I 156](https://suttacentral.net/dn6/pli/ms), *Mahāli Sutta*
 
 [^fn884]: Ud 27, *Yasoja Sutta*
 

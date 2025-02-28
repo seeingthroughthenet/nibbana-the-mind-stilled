@@ -892,7 +892,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn667]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn668]: E.g. at M I 35, *Ākaṅkheyyasutta*
+[^fn668]: E.g. at [MN 6 / M I 35](https://suttacentral.net/mn6/pli/ms), *Ākaṅkheyyasutta*
 
 [^fn669]: E.g. at [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 

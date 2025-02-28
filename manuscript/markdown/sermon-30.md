@@ -867,7 +867,7 @@ parinibbāna*. This is the subtlest truth in this Dhamma.
 
 [^fn964]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn965]: M III 217, *Saḷāyatanavibhaṅgasutta*
+[^fn965]: [MN 137 / M III 217](https://suttacentral.net/mn137/pli/ms), *Saḷāyatanavibhaṅgasutta*
 
 [^fn966]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*
 
