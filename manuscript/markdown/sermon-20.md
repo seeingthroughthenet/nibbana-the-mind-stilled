@@ -898,7 +898,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn670]: E.g. at M I 23, *Bhayabheravasutta*
 
-[^fn671]: Ps III 115, *Aṭṭhakathā* on the *Bahuvedanīyasutta*
+[^fn671]: Ps III 115, *aṭṭhakathā* on MN 59, *Bahuvedanīyasutta*
 
 [^fn672]: A III 354, *Iṇasutta*
 
@@ -936,7 +936,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn689]: M I 484, *Aggivacchagottasutta*
 
-[^fn690]: M I 427, *Cūḷa-Māluṅkyāputtasutta*
+[^fn690]: M I 427, *Cūḷamāluṅkyāputtasutta*
 
 [^fn691]: The expression *abyākatavatthu* occurs e.g. at A IV 68, *Abyākatasutta*
 
