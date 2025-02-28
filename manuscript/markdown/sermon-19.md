@@ -816,7 +816,7 @@ we brought out all these arguments today.
 
 [^fn637]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn638]: A III 347, *Nāgasutta*
+[^fn638]: [AN 6.43 / A III 347](https://suttacentral.net/an6.43/pli/ms), *Nāgasutta*
 
 [^fn639]: [MN 140 / M III 245](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
@@ -860,7 +860,7 @@ we brought out all these arguments today.
 
 [^fn659]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*; see *Sermon 18*
 
-[^fn660]: Ud 92, *Paṭhamadabbasutta*
+[^fn660]: [Ud 8.9 / Ud 92](https://suttacentral.net/ud8.9/pli/ms), *Paṭhamadabbasutta*
 
 [^fn661]: [Ud 8.10 / Ud 93](https://suttacentral.net/ud8.10/pli/ms), *Dutiyadabbasutta*
 

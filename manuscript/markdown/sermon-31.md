@@ -899,7 +899,7 @@ words:
 
 [^fn995]: E.g. D III, 221, *Saṅgītisutta*
 
-[^fn996]: M I 62, *Satipaṭṭhānasutta*
+[^fn996]: [MN 10 / M I 62](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn997]: E.g. D III, 221, *Saṅgītisutta*
 

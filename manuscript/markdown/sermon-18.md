@@ -764,31 +764,31 @@ death, a solution that completely outwits Māra.
 
 [^fn600]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn601]: E.g. It 57, *Dutiyarāgasutta*: *tiṇṇo pāraṁ gato thale tiṭṭhati brāhmaṇo*
+[^fn601]: E.g. [Iti 69 / It 57](https://suttacentral.net/iti69/pli/ms), *Dutiyarāgasutta*: *tiṇṇo pāraṁ gato thale tiṭṭhati brāhmaṇo*
 
 [^fn602]: [Snp 4.5 / Sn 803](https://suttacentral.net/snp4.5/pli/ms), *Paramaṭṭhakasutta*
 
-[^fn603]: Sn 714, *Nālakasutta*
+[^fn603]: [Snp 3.11 / Sn 714](https://suttacentral.net/snp3.11/pli/ms), *Nālakasutta*
 
-[^fn604]: See e.g. A II 149, *Saṁkhittasutta*
+[^fn604]: See e.g. [AN 4.161 / A II 149](https://suttacentral.net/an4.161/pli/ms), *Saṁkhittasutta*
 
 [^fn605]: Pj II 498
 
 [^fn606]: [Snp 4.5 / Sn 803](https://suttacentral.net/snp4.5/pli/ms), *Paramaṭṭhakasutta*
 
-[^fn607]: Sn 812, *Jarāsutta*
+[^fn607]: [Snp 4.6 / Sn 812](https://suttacentral.net/snp4.6/pli/ms), *Jarāsutta*
 
-[^fn608]: Sn 845, *Māgandiyasutta*
+[^fn608]: [Snp 4.9 / Sn 845](https://suttacentral.net/snp4.9/pli/ms), *Māgandiyasutta*
 
-[^fn609]: A V 151, *Bāhunasutta*
+[^fn609]: [AN 10.81 / A V 151](https://suttacentral.net/an10.81/pli/ms), *Bāhunasutta*
 
 [^fn610]: See *Sermon 12*
 
-[^fn611]: S IV 164, *Koṭṭhikasutta*
+[^fn611]: [SN 35.232 / S IV 164](https://suttacentral.net/sn35.232/pli/ms), *Koṭṭhikasutta*
 
-[^fn612]: M II 138, *Brahmāyusutta*
+[^fn612]: [MN 91 / M II 138](https://suttacentral.net/mn91/pli/ms), *Brahmāyusutta*
 
-[^fn613]: A IV 404, *Silāyūpasutta*
+[^fn613]: [AN 9.26 / A IV 404](https://suttacentral.net/an9.26/pli/ms), *Silāyūpasutta*
 
 [^fn614]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*
 
@@ -804,15 +804,15 @@ death, a solution that completely outwits Māra.
 
 [^fn620]: [Snp 1.1 / Sn 1-17](https://suttacentral.net/snp1.1/pli/ms) , *Uragasutta*
 
-[^fn621]: Sn 8, *Uragasutta*
+[^fn621]: [Snp 1.1 / Sn 8](https://suttacentral.net/snp1.1/pli/ms), *Uragasutta*
 
 [^fn622]: See *Sermon 12*
 
-[^fn623]: E.g. Ps I 183, commenting on M I 40, *Sallekhasutta*: *netaṁ mama, neso 'ham asmi, na meso attā ti*
+[^fn623]: E.g. Ps I 183, commenting on [MN 8 / M I 40](https://suttacentral.net/mn8/pli/ms), *Sallekhasutta*: *netaṁ mama, neso 'ham asmi, na meso attā ti*
 
 [^fn624]: [MN 26 / M I 168](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
-[^fn625]: It 38, *Nibbānadhātusutta*
+[^fn625]: [Iti 44 / It 38](https://suttacentral.net/iti44/pli/ms), *Nibbānadhātusutta*
 
 [^fn626]: [MN 29 / M I 197](https://suttacentral.net/mn29/pli/ms), *Mahāsāropamasutta*
 
@@ -820,18 +820,18 @@ death, a solution that completely outwits Māra.
 
 [^fn628]: In the standard formula for recollecting the Dhamma, e.g. at [DN 16 / D II 93](https://suttacentral.net/dn16/pli/ms)
 
-[^fn629]: S I 34, *Maccharisutta*
+[^fn629]: [SN 1.49 / S I 34](https://suttacentral.net/sn1.49/pli/ms), *Maccharisutta*
 
 [^fn630]: [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*
 
-[^fn631]: A III 347, *Nāgasutta* and Th 702, *Udāyitheragāthā*
+[^fn631]: [AN 6.43 / A III 347](https://suttacentral.net/an6.43/pli/ms), *Nāgasutta* and [Thag 15.2 / Th 702](https://suttacentral.net/thag15.2/pli/ms), *Udāyitheragāthā*
 
 [^fn632]: The corresponding verse in the Chinese parallel, *Madhyama Āgama* discourse 118 (Taishº I 608c27), does not mention *saṅkhāra* at all. (Anālayo)
 
-[^fn633]: A II 1, *Anubuddhasutta*
+[^fn633]: [AN 4.1 / A II 1](https://suttacentral.net/an4.1/pli/ms), *Anubuddhasutta*
 
-[^fn634]: M I 62, *Satipaṭṭhānasutta*
+[^fn634]: [MN 10 / M I 62](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn635]: Th 1001, *Sāriputtatheragāthā*
+[^fn635]: [Thag 17.2 / Th 1001](https://suttacentral.net/thag17.2/pli/ms), *Sāriputtatheragāthā*
 
-[^fn636]: Ud 92, *Paṭhamadabbasutta*
+[^fn636]: [Ud 8.9 / Ud 92](https://suttacentral.net/ud8.9/pli/ms), *Paṭhamadabbasutta*

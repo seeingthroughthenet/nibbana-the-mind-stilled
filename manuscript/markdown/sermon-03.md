@@ -1058,7 +1058,7 @@ altogether then and there.
 
 [^fn114]: [SN 4.23 / S I 122](https://suttacentral.net/sn4.23/pli/ms), *Godhikasutta*
 
-[^fn115]: [DN 22 / D II 305](https://suttacentral.net/dn22/pli/ms), [MN 9 / M I 50](https://suttacentral.net/mn9/pli/ms), M I 62, [MN 141 / M III 249](https://suttacentral.net/mn141/pli/ms), [SN 12.2 / S II 3](https://suttacentral.net/sn12.2/pli/ms)
+[^fn115]: [DN 22 / D II 305](https://suttacentral.net/dn22/pli/ms), [MN 9 / M I 50](https://suttacentral.net/mn9/pli/ms), [MN 10 / M I 62](https://suttacentral.net/mn10/pli/ms), [MN 141 / M III 249](https://suttacentral.net/mn141/pli/ms), [SN 12.2 / S II 3](https://suttacentral.net/sn12.2/pli/ms)
 
 [^fn116]: [MN 94 / M II 156](https://suttacentral.net/mn94/pli/ms), *Ghoṭamukhasutta*
 

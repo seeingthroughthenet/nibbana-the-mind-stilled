@@ -57,7 +57,7 @@ Sn 756, Sn 763, Sn 757-758	Snp 3.12	Dvayatānupassanāsutta
 D III 29	DN 24	Pāṭikasutta		
 M II 110	MN 87	Piyajātikasutta		
 A I 152	AN 3.47	Saṅkhatalakkhaṇasutta		
-M I 56, M I 57	MN 10	Satipaṭṭhānasutta		
+M I 56, M I 57, M I 62	MN 10	Satipaṭṭhānasutta		
 _X_ M I 62				Can't find 'okkanti' in MN 10
 Dhp 62		Bālavagga	dhp60-75	
 Ud 32	Ud 3.10	Lokasutta		
@@ -108,10 +108,10 @@ S V 184	SN 47.42	Samudayasutta
 Sn 954	Snp 4.15	Attadaṇḍasutta		
 Sn 787, Sn 784	Snp 4.3	Duṭṭhaṭṭhakasutta		
 Sn 795	Snp 4.4	Suddhaṭṭhakasutta		
-Sn 813	Snp 4.6	Jarāsutta		
+Sn 812, Sn 813	Snp 4.6	Jarāsutta		
 S III 86, S III 87, S III 90	SN 22.79	Khajjanīyasutta		
 Dhp 385		Brāhmaṇavagga	dhp383-423	
-Sn 1-17, Sn 5	Snp 1.1	Uragasutta		
+Sn 1-17, Sn 5, Sn 8	Snp 1.1	Uragasutta		
 A IV 377	AN 9.11	Sīhanādasutta		
 D III 83	DN 27	Aggaññasutta		
 Dhp 253		Malavagga	dhp235-255	
@@ -221,7 +221,7 @@ Dhp 37		Cittavagga	dhp33-43
 Dhp 254		Malavagga	dhp235-255	
 Ud 77	Ud 7.7	Papañcakhayasutta		
 S IV 71	SN 35.94	Adanta-aguttasutta		
-Sn 847	Snp 4.9	Māgandiyasutta		
+Sn 845, Sn 847	Snp 4.9	Māgandiyasutta		
 S III 138	SN 22.94	Pupphasutta		
 M I 233	MN 35	Cūḷasaccakasutta		
 Sn 530	Snp 3.6	Sabhiyasutta		
@@ -278,3 +278,19 @@ D I 156	DN 6	Mahālisutta
 A II 5	AN 4.5	Anusotasutta		
 Sn 803	Snp 4.5	Paramaṭṭhakasutta		
 Dhp 95		Arahantavagga	dhp90-99	
+		Sermon 18		
+It 57	Iti 69	Dutiyarāgasutta		
+Sn 714	Snp 3.11	Nālakasutta		
+A II 149	AN 4.161	Saṁkhittasutta		
+A V 151	AN 10.81	Bāhunasutta		
+S IV 164	SN 35.232	Koṭṭhikasutta		
+M II 138	MN 91	Brahmāyusutta		
+A IV 404	AN 9.26	Silāyūpasutta		
+M I 40	MN 8	Sallekhasutta		
+It 38	Iti 44	Nibbānadhātusutta		
+S I 34	SN 1.49	Maccharisutta		
+A III 347	AN 6.43	Nāgasutta		
+Th 702	Thag 15.2	Udāyitheragāthā		
+A II 1	AN 4.1	Anubuddhasutta		
+Th 1001	Thag 17.2	Sāriputtatheragāthā		
+Ud 92	Ud 8.9	Paṭhamadabbasutta		
