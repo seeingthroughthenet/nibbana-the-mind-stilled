@@ -656,8 +656,8 @@ Theragāthā* as well.
 
 > *Mahāgini pajjalito,* \
 > *anāhārūpasammati,* \
-> *aṅgāresu ca santesu,,* \
-> *nibbuto ti pavuccati.*[^fn631]
+> *aṅgāresu ca santesu,* \
+> *nibbuto'ti pavuccati.*[^fn631]
 >
 > As a huge blazing fire, with no more firewood added, \
 > Goes down to reach a state of calm, \
