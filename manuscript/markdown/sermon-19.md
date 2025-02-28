@@ -824,15 +824,15 @@ we brought out all these arguments today.
 
 [^fn641]: E.g. [MN 106 / M II 265](https://suttacentral.net/mn106/pli/ms), *Āneñjasappāyasutta*
 
-[^fn642]: M I 147, *Rathavinītasutta*
+[^fn642]: [MN 24 / M I 147](https://suttacentral.net/mn24/pli/ms), *Rathavinītasutta*
 
-[^fn643]: S I 194, *Moggallānasutta*
+[^fn643]: [SN 8.10 / S I 194](https://suttacentral.net/sn8.10/pli/ms), *Moggallānasutta*
 
 [^fn644]: Bv-a 252
 
 [^fn645]: [Iti 73 / It 62](https://suttacentral.net/iti73/pli/ms), *Santatarasutta*, see *Sermon 17*
 
-[^fn646]: S IV 204, *Samādhisutta*
+[^fn646]: [SN 36.1 / S IV 204](https://suttacentral.net/sn36.1/pli/ms), *Samādhisutta*
 
 [^fn647]: Ps III 115, *aṭṭhakathā* on MN 59, *Bahuvedanīyasutta*
 
@@ -840,7 +840,7 @@ we brought out all these arguments today.
 
 [^fn649]: [MN 140 / M III 245](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
-[^fn650]: It 39, *Nibbānadhātusutta*, see *Sermon 18*
+[^fn650]: [Iti 44 / It 39](https://suttacentral.net/iti44/pli/ms), *Nibbānadhātusutta*, see *Sermon 18*
 
 [^fn651]: [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*
 
@@ -852,11 +852,11 @@ we brought out all these arguments today.
 
 [^fn655]: S IV 371, *Asaṅkhatasaṁyutta*
 
-[^fn656]: A III 39, *Sīhasenāpatisutta*
+[^fn656]: [AN 5.34 / A III 39](https://suttacentral.net/an5.34/pli/ms), *Sīhasenāpatisutta*
 
-[^fn657]: Dhp 97, *Arahantavagga*
+[^fn657]: [Dhp 97](https://suttacentral.net/dhp90-99/pli/ms), *Arahantavagga*
 
-[^fn658]: It 39, *Nibbānadhātusutta*
+[^fn658]: [Iti 44 / It 39](https://suttacentral.net/iti44/pli/ms), *Nibbānadhātusutta*
 
 [^fn659]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*; see *Sermon 18*
 
@@ -866,7 +866,7 @@ we brought out all these arguments today.
 
 [^fn662]: Ud-a 435
 
-[^fn663]: Dhp 308, *Nirayavagga*
+[^fn663]: [Dhp 308](https://suttacentral.net//pli/ms), *Nirayavagga*
 
 [^fn664]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*, see *Sermon 17*
 

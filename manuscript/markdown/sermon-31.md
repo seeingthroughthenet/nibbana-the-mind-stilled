@@ -883,7 +883,7 @@ words:
 
 [^fn987]: S IV 41, *Upavāṇasandiṭṭhikasutta*
 
-[^fn988]: A III 39, *Sīhasenāpattisutta*; see *Sermon 19*
+[^fn988]: [AN 5.34 / A III 39](https://suttacentral.net/an5.34/pli/ms), *Sīhasenāpattisutta*; see *Sermon 19*
 
 [^fn989]: E.g. M I 76, *Mahāsīhanādasutta*
 

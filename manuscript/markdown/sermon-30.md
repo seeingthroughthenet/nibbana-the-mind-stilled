@@ -897,6 +897,6 @@ parinibbāna*. This is the subtlest truth in this Dhamma.
 
 [^fn979]: See *Sermon 5*
 
-[^fn980]: M I 147, *Rathavinītasutta*
+[^fn980]: [MN 24 / M I 147](https://suttacentral.net/mn24/pli/ms), *Rathavinītasutta*
 
 [^fn981]: [MN 22 / M I 134](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*; see *Sermon 18*
