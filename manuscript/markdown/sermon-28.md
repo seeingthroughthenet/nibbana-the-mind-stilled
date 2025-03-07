@@ -795,7 +795,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn921]: See *Sermon 14*
 
-[^fn922]: M I 185, *Mahāhatthipadopamasutta*
+[^fn922]: [MN 28 / M I 185](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 
 [^fn923]: See *Sermon 2*
 

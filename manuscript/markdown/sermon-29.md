@@ -813,7 +813,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn933]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn934]: M I 185, *Mahāhatthipadopamasutta*
+[^fn934]: [MN 28 / M I 185](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 
 [^fn935]: Sn 342, *Rāhulasutta*; see also S I 188, *Ānandasutta*; Th 1226, *Vaṅgīsatheragāthā*; Thī 20, *Abhirūpanandātherīgāthā*
 
@@ -833,7 +833,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn943]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn944]: S I 135, *Vajirāsutta*
+[^fn944]: [SN 5.10 / S I 135](https://suttacentral.net/sn5.10/pli/ms), *Vajirāsutta*
 
 [^fn945]: Sn 920, *Tuvaṭakasutta*
 
