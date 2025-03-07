@@ -223,7 +223,7 @@ Nibbāna beginning with the words *atthi, bhikkhave, tad āyatanaṁ*,[^fn793]
 
 It is this same cessation of the six sense-spheres that is referred to as
 *papañcanirodha* and *papañcavūpasama*, cessation or appeasement of conceptual
-proliferation. In the *Mahā Koṭṭhitasutta* we discussed in our previous sermon,
+proliferation. In the *Mahākoṭṭhitasutta* we discussed in our previous sermon,
 we found Venerable Sāriputta making the following conclusive statement to the
 same effect:
 
@@ -813,7 +813,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn793]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Pāṭaligāmiyavagga*
 
-[^fn794]: A II 162, *Mahā Koṭṭhitasutta*; see *Sermon 23*
+[^fn794]: A II 162, *Mahākoṭṭhitasutta*; see *Sermon 23*
 
 [^fn795]: S IV 67, *Dutiyadvayamsutta*
 
