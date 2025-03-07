@@ -879,17 +879,17 @@ parinibbāna*. This is the subtlest truth in this Dhamma.
 
 [^fn970]: See *Sermons 13, 14 and 15*
 
-[^fn971]: M I 119, *Vitakkasanthānasutta*
+[^fn971]: [MN 20 / M I 119](https://suttacentral.net/mn20/pli/ms), *Vitakkasanthānasutta*
 
-[^fn972]: S IV 282, *Saṁyojanasutta*
+[^fn972]: [SN 41.1 / S IV 282](https://suttacentral.net/sn41.1/pli/ms), *Saṁyojanasutta*
 
-[^fn973]: S I 1, *Oghataraṇasutta*
+[^fn973]: [SN 1.1 / S I 1](https://suttacentral.net/sn1.1/pli/ms), *Oghataraṇasutta*
 
 [^fn974]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkapavattanasutta*
 
 [^fn975]: See *Sermon 3* etc.
 
-[^fn976]: Sn 838, *Māgandiyasutta*
+[^fn976]: [Snp 4.9 / Sn 838](https://suttacentral.net/snp4.9/pli/ms), *Māgandiyasutta*
 
 [^fn977]: Pj II 545
 
