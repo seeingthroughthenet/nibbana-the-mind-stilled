@@ -734,7 +734,7 @@ individual viewpoints, as the line *paccekasaccesu puthū niviṭṭhā*
 suggests.[^fn861] We explained the term *sayasaṁvuta* as on a par with the
 phrase *paccekasaccesu*. The problematic term *sayasaṁvuta* is suggestive of
 virulent self-opinionatedness. Why are they committed and limited by their own
-views? Our quotation from the *Cūḷa-Viyūhasutta* holds the answer.
+views? Our quotation from the *Cūḷaviyūhasutta* holds the answer.
 
 > *Na h'eva saccāni bahūni nānā,* \
 > *aññatra saññāya niccāni loke,*[^fn862]
@@ -981,7 +981,7 @@ the title of these series of sermons, namely:
 
 [^fn861]: [Snp 4.8 / Sn 824](https://suttacentral.net/snp4.8/pli/ms), *Pasūrasutta*, see *Sermon 25*
 
-[^fn862]: Sn 886, *Cūḷa-Viyūhasutta*
+[^fn862]: Sn 886, *Cūḷaviyūhasutta*
 
 [^fn863]: Ud 67, *Paṭhamanānātitthiyasutta*
 
