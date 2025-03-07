@@ -999,7 +999,7 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn774]: [SN 35.117 / S IV 98](https://suttacentral.net/sn35.117/pli/ms), *Kāmaguṇasutta*
 
-[^fn775]: A II 161, *Mahā Koṭṭhitasutta*
+[^fn775]: A II 161, *Mahākoṭṭhitasutta*
 
 [^fn776]: Mp III 150
 
