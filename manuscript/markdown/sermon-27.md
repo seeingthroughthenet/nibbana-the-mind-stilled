@@ -803,4 +803,4 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn897]: Spk I 304
 
-[^fn898]: Spk I 36, commenting on SN I 7, *Kummasutta*
+[^fn898]: Spk I 36, commenting on [SN 17.3 / SN I 7](https://suttacentral.net/sn17.3/pli/ms), *Kummasutta*
