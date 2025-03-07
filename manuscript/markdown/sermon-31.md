@@ -891,7 +891,7 @@ words:
 
 [^fn991]: S V 90, *Udāyisutta*
 
-[^fn992]: D II 119, *Mahāparinibbānasutta*
+[^fn992]: [DN 16 / D II 119](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
 [^fn993]: [DN 34 / D III 287](https://suttacentral.net/dn34/pli/ms), *Dasuttarasutta*
 

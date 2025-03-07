@@ -2,6 +2,7 @@ PTS	SC	Title	uid	Comments
 		Sermon 1		
 M I 426, M I 436	MN 64	Mahāmālunkyasutta		
 D II 90, D II 93, D II 130, D II 157	DN 16	Mahāparinibbānasutta		
+D II 107, D II 119	DN 16	Mahāparinibbānasutta		
 S II 267	SN 20.7	Āṇisutta		
 Khp 2	Kp 4	Kumārapañhā		
 S I 39	SN 1.61	Nāmasutta		
@@ -72,7 +73,7 @@ S II 7	SN 12.4
 S II 105	SN 12.65			
 D III 237	DN 33	Sangītisutta		
 Vin I 40			pli-tv-kd1	
-D II 31	DN 14	Mahāpadānasutta		
+D II 31, D II 32	DN 14	Mahāpadānasutta		
 S II 114	SN 12.67	Naḷakalāpīsutta		
 M I 185, M I 190	MN 28	Mahāhatthipadopamasutta		
 S II 68	SN 12.41	Pañcaverabhayāsutta		
@@ -94,7 +95,7 @@ M I 256, M I 263, M I 266	MN 38	Mahātaṇhāsaṅkhayasutta
 Dhp 338		Taṇhāvagga	dhp334-359	
 A I 223	AN 3.76	Paṭhamabhavasutta		
 S I 134	SN 5.9	Selāsutta		
-Sn 209	Snp 1.12	Munisutta		
+Sn 209, Sn 219	Snp 1.12	Munisutta		
 M III 266	MN 144	Channovādasutta		
 S IV 400	SN 44.9	Kuthūhalasālāsutta		
 Ud 81	Ud 8.4	Catutthanibbānapaṭisaṁyuttasutta		
@@ -114,7 +115,7 @@ S III 89	SN 22.79	Khajjanīyasutta
 Dhp 385		Brāhmaṇavagga	dhp383-423	
 Sn 1-17, Sn 5, Sn 8, Sn 9	Snp 1.1	Uragasutta		
 A IV 377	AN 9.11	Sīhanādasutta		
-D III 83	DN 27	Aggaññasutta		
+D III 83, D III 84	DN 27	Aggaññasutta		
 Dhp 253		Malavagga	dhp235-255	
 M II 200	MN 99	Subhasutta		
 A II 182	AN 4.189	Sacchikaraṇīyasutta		
@@ -159,7 +160,7 @@ M II 45	MN 81
 M II 74	MN 83			
 S I 24	SN 1.35			
 S II 189-190	SN 15.14-20		sn15.14	
-A IV 100	AN 7.66	Sattasuriyasutta		
+A IV 100, AN IV 103	AN 7.66	Sattasuriyasutta		
 It 37	Iti 43	Ajātasutta		
 Th 707, Th 715, Th 716, Th 717	Thag 16.1	Adhimutta Theragāthā		
 A II 158	AN 4.171	Cetanāsutta		
@@ -222,7 +223,7 @@ Dhp 37		Cittavagga	dhp33-43
 Dhp 254		Malavagga	dhp235-255	
 Ud 77	Ud 7.7	Papañcakhayasutta		
 S IV 71	SN 35.94	Adanta-aguttasutta		
-Sn 845, Sn 847	Snp 4.9	Māgandiyasutta		
+Sn 843, Sn 845, Sn 847	Snp 4.9	Māgandiyasutta		
 S III 138	SN 22.94	Pupphasutta		
 M I 233	MN 35	Cūḷasaccakasutta		
 Sn 530	Snp 3.6	Sabhiyasutta		
@@ -232,7 +233,6 @@ A III 6	AN 5.7	Kāmasutta
 Dhp 379		Bhikkhuvagga	dhp360-382	
 M II 261, M II 265	MN 106	Āneñjasappāyasutta		
 A III 413	AN 6.63	Nibbedhikasutta		
-Sn 219	Snp 1.12	Munisutta		
 Th 748	Thag 16.3	Telakānittheragāthā		
 Sn 68	Snp 1.3	Khaggavisāṇasutta		
 S IV 201	SN 35.248	Yavakalāpisutta		
@@ -357,5 +357,13 @@ Ud 27	Ud 3.3	Yasojasutta
 _X_ Vin III 92		Pārājikakaṇḍa		
 Dhp 201		Sukhavagga	dhp197-208	
 S I 70	SN 3.2	Purisasutta		
-Sn 270	Snp 2.5	Sūcilomasutta		
+Sn 270, Sn 273	Snp 2.5	Sūcilomasutta		
 S I 207	SN 10.3	Sūcilomasutta		
+		Sermon 28		
+A I 87	AN 2.126	Āsāduppajahavagga	an2.118-129	
+A IV 312	AN 8.70	Bhūmicālasutta		
+Ud 64	Ud 6.1	Āyusaṅkhārossajjanasutta		
+Sn 919	Snp 4.14	Tuvaṭakasutta		
+Sn 203	Snp 1.11	Vijayasutta		
+S II 171	SN 14.32	Acariṁsutta		
+A II 27	AN 4.28	Ariyavaṁsasutta		
