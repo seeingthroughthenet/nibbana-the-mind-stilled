@@ -763,7 +763,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn905]: See *Sermon 27*
 
-[^fn906]: SN I 70, *Purisasutta*
+[^fn906]: S I 70, *Purisasutta*
 
 [^fn907]: See *Sermon 3*
 
