@@ -789,7 +789,7 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn781]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn782]: S I 62 and A II 50 *Rohitassasutta*; see *Sermon 23*
+[^fn782]: [SN 2.26 / S I 62](https://suttacentral.net/sn2.26/pli/ms) and [AN 4.45 / A II 50](https://suttacentral.net/an4.45/pli/ms) *Rohitassasutta*; see *Sermon 23*
 
 [^fn783]: [SN 35.116 / S IV 95](https://suttacentral.net/sn35.116/pli/ms), *Lokakāmaguṇasutta*
 
@@ -809,23 +809,23 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn791]: [Snp 5.13 / Sn 1103](https://suttacentral.net/snp5.13/pli/ms), *Bhadrāvudhamāṇavappucchā*
 
-[^fn792]: S I 115, *Kassakasutta*
+[^fn792]: [SN 4.19 / S I 115](https://suttacentral.net/sn4.19/pli/ms), *Kassakasutta*
 
 [^fn793]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Pāṭaligāmiyavagga*
 
-[^fn794]: A II 162, *Mahākoṭṭhitasutta*; see *Sermon 23*
+[^fn794]: [AN 4.173 / A II 162](https://suttacentral.net/an4.173/pli/ms), *Mahākoṭṭhitasutta*; see *Sermon 23*
 
-[^fn795]: S IV 67, *Dutiyadvayamsutta*
+[^fn795]: [SN 35.93 / S IV 67](https://suttacentral.net/sn35.93/pli/ms), *Dutiyadvayamsutta*
 
 [^fn796]: E.g. in [DN 2 / D I 70](https://suttacentral.net/dn2/pli/ms), *Sāmaññaphalasutta*
 
 [^fn797]: [SN 22.102 / S III 155](https://suttacentral.net/sn22.102/pli/ms), *Aniccasaññāsutta*
 
-[^fn798]: S III 150, *Gaddulasutta*; see also *Sermons 5 and 6*
+[^fn798]: [SN 22.100 / S III 150](https://suttacentral.net/sn22.100/pli/ms), *Gaddulasutta*; see also *Sermons 5 and 6*
 
 [^fn799]: [AN 1.51-52 / A I 10](https://suttacentral.net/an1.51-60/pli/ms), *Paṇihita-acchavagga*
 
-[^fn800]: A II 25, *Kāḷakārāmasutta*
+[^fn800]: [AN 4.24 / A II 25](https://suttacentral.net/an4.24/pli/ms), *Kāḷakārāmasutta*
 
 [^fn801]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*, see *Sermon 14*
 

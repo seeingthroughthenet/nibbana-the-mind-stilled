@@ -913,7 +913,7 @@ words:
 
 [^fn807]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn808]: A II 25, *Kāḷakārāmasutta*
+[^fn808]: [AN 4.24 / A II 25](https://suttacentral.net/an4.24/pli/ms), *Kāḷakārāmasutta*
 
 [^fn809]: Sn 908, *Mahāviyūhasutta*
 
@@ -969,6 +969,6 @@ words:
 
 [^fn835]: Sn 888, *Cūḷaviyūhasutta*
 
-[^fn836]: S IV 67, *Dutiyadvayamsutta*
+[^fn836]: [SN 35.93 / S IV 67](https://suttacentral.net/sn35.93/pli/ms), *Dutiyadvayamsutta*
 
 [^fn837]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*, see *Sermon 11*

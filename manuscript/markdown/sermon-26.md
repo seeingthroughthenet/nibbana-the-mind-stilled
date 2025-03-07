@@ -937,7 +937,7 @@ the title of these series of sermons, namely:
 
 [^fn839]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
-[^fn840]: A II 25, *Kāḷakārāmasutta*
+[^fn840]: [AN 4.24 / A II 25](https://suttacentral.net/an4.24/pli/ms), *Kāḷakārāmasutta*
 
 [^fn841]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 

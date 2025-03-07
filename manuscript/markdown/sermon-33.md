@@ -802,7 +802,7 @@ Buddha himself.
 
 [^fn1047]: Sn 754-755, *Dvayatānupassanāsutta*, see *Sermon 15*
 
-[^fn1048]: S IV 67, *Dutiyadvayasutta*
+[^fn1048]: [SN 35.93 / S IV 67](https://suttacentral.net/sn35.93/pli/ms), *Dutiyadvayasutta*
 
 [^fn1049]: S III 159, *Sakkāyasutta*
 
