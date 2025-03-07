@@ -755,7 +755,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn901]: [DN 14 / D II 31](https://suttacentral.net/dn14/pli/ms), *Mahāpadānasutta*, see *Sermon 3*
 
-[^fn902]: Sn 270, *Sūcilomasutta*
+[^fn902]: [Snp 2.5 / Sn 270](https://suttacentral.net/snp2.5/pli/ms), *Sūcilomasutta*
 
 [^fn903]: Sn 273, *Sūcilomasutta*
 

@@ -751,15 +751,15 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn871]: [Ud 1.1-3 / Ud 1](https://suttacentral.net/ud1.1/pli/ms)-2, *Bodhivagga*
 
-[^fn872]: A III 378, *Soṇasutta*
+[^fn872]: [AN 6.55 / A III 378](https://suttacentral.net/an6.55/pli/ms), *Soṇasutta*
 
-[^fn873]: Sn 734, *Dvāyatanānupassanasutta*
+[^fn873]: [Snp 3.12 / Sn 734](https://suttacentral.net/snp3.12/pli/ms), *Dvāyatanānupassanasutta*
 
 [^fn874]: [Snp 4.11 / Sn 873](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
 [^fn875]: [Snp 4.11 / Sn 871](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn876]: D III 217, *Saṅgītisutta*
+[^fn876]: [DN 33 / D III 217](https://suttacentral.net/dn33/pli/ms), *Saṅgītisutta*
 
 [^fn877]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*, see *Sermon 1*
 
@@ -767,17 +767,17 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn879]: [MN 18 / M I 109](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
-[^fn880]: Sn 779, *Guhaṭṭhaka Sutta*
+[^fn880]: [Snp 4.2 / Sn 779](https://suttacentral.net/snp4.2/pli/ms), *Guhaṭṭhakasutta*
 
-[^fn881]: M I 298, *Mahāvedallasutta*
+[^fn881]: [MN 43 / M I 298](https://suttacentral.net/mn43/pli/ms), *Mahāvedallasutta*
 
 [^fn882]: [Snp 4.9 / Sn 847](https://suttacentral.net/snp4.9/pli/ms), *Māgandiyasutta*
 
 [^fn883]: E.g. [DN 6 / D I 156](https://suttacentral.net/dn6/pli/ms), *Mahāli Sutta*
 
-[^fn884]: Ud 27, *Yasoja Sutta*
+[^fn884]: [Ud 3.3 / Ud 27](https://suttacentral.net/ud3.3/pli/ms), *Yasojasutta*
 
-[^fn885]: M II 261, *Āneñjasappāyasutta*
+[^fn885]: [MN 106 / M II 261](https://suttacentral.net/mn106/pli/ms), *Āneñjasappāyasutta*
 
 [^fn886]: Vin III 92, *Pārājikakaṇḍa*
 
@@ -789,17 +789,17 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn890]: [Thag 16.1 / Th 717](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*, see *Sermon 8*
 
-[^fn891]: Dhp 201, *Sukhavagga*
+[^fn891]: [Dhp 201](https://suttacentral.net/dhp197-208/pli/ms), *Sukhavagga*
 
-[^fn892]: Sn 951, *Attadaṇḍasutta*
+[^fn892]: [Snp 4.15 / Sn 951](https://suttacentral.net/snp4.15/pli/ms), *Attadaṇḍasutta*
 
-[^fn893]: SN I 70, *Purisasutta*
+[^fn893]: [SN 3.2 / S I 70](https://suttacentral.net/sn3.2/pli/ms), *Purisasutta*
 
-[^fn894]: MN I 111, *Madhupiṇḍikasutta*, see *Sermon 11*
+[^fn894]: [MN 18 / M I 111](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*, see *Sermon 11*
 
 [^fn895]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*, see *Sermon 1*
 
-[^fn896]: Sn 270, *Sūcilomasutta*, see also SN I 207
+[^fn896]: [Snp 2.5 / Sn 270](https://suttacentral.net/snp2.5/pli/ms), *Sūcilomasutta*, see also [SN 10.3 / S I 207](https://suttacentral.net/sn10.3/pli/ms)
 
 [^fn897]: Spk I 304
 

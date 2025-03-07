@@ -105,7 +105,7 @@ S IV 93, S IV 95	SN 35.116	Lokakāmaguṇasutta
 S V 183	SN 47.40	Vibhaṅgasutta		
 		Sermon 5		
 S V 184	SN 47.42	Samudayasutta		
-Sn 954	Snp 4.15	Attadaṇḍasutta		
+Sn 951, Sn 954	Snp 4.15	Attadaṇḍasutta		
 Sn 787, Sn 784	Snp 4.3	Duṭṭhaṭṭhakasutta		
 Sn 795	Snp 4.4	Suddhaṭṭhakasutta		
 Sn 812, Sn 813	Snp 4.6	Jarāsutta		
@@ -151,7 +151,7 @@ Dhp 180, Dhp 187		Buddhavagga	dhp179-196
 Dhp 92-93, Dhp 95, Dhp 97		Arahantavagga	dhp90-99	
 M III 287	MN 149	Mahāsaḷāyatanikasutta		
 S II 101	SN 12.64	Atthirāgasutta		
-M I 292, M I 293, M I 297	MN 43	Mahāvedallasutta		
+M I 292, M I 293, M I 297, M I 298	MN 43	Mahāvedallasutta		
 A II 139	AN 4.142	Pabhāsutta		
 A I 10	AN 1.51-52	Accharāsaṅghātavagga	an1.51-60	
 		Sermon 8		
@@ -184,7 +184,7 @@ _X_ S V 253		Iddhipādasaṁyutta
 S V 272	SN 51.15	Uṇṇābhabrāhmaṇasutta		
 A II 145	AN 4.159	Bhikkhuṇīsutta		
 M III 220, M III 217	MN 137	Saḷāyatanavibhaṅgasutta		
-D III 254	DN 33	Saṅgītisutta		
+D III 254, D III 217	DN 33	Saṅgītisutta		
 M III 71, M III 77	MN 117	Mahācattārīsakasutta		
 Th 315-316	Thag 5.1	Rājadatta Thera		
 Th 267-268, Th 269-270	Thag 4.1	Nāgasamāla Thera		
@@ -230,7 +230,7 @@ M I 1, M I 3, M I 6	MN 1	Mūlapariyāyasutta
 		Sermon 13		
 A III 6	AN 5.7	Kāmasutta		
 Dhp 379		Bhikkhuvagga	dhp360-382	
-M II 265	MN 106	Āneñjasappāyasutta		
+M II 261, M II 265	MN 106	Āneñjasappāyasutta		
 A III 413	AN 6.63	Nibbedhikasutta		
 Sn 219	Snp 1.12	Munisutta		
 Th 748	Thag 16.3	Telakānittheragāthā		
@@ -270,7 +270,7 @@ Dhp 274		Maggavagga	dhp273-289
 It 62	Iti 73	Santatarasutta		
 M I 35	MN 6	Ākaṅkheyyasutta		
 S IV 297	SN 41.7	Godattasutta		
-A III 379	AN 6.55	Soṇasutta		
+A III 378, A III 379	AN 6.55	Soṇasutta		
 S IV 19	SN 35.28	Ādittasutta		
 S IV 98	SN 35.117	Kāmaguṇasutta		
 A I 133	AN 3.33	Sāriputtasutta		
@@ -350,3 +350,12 @@ S II 78	SN 12.49	Ariyasāvakasutta
 M III 273	MN 146	Nandakovādasutta		
 A V 120	AN 10.63	Niṭṭhaṅgatasutta		
 Ud 67	Ud 6.4	Paṭhamanānātitthiyasutta		
+		Sermon 27		
+Sn 734	Snp 3.12	Dvāyatanānupassanasutta		
+Sn 779	Snp 4.2	Guhaṭṭhakasutta		
+Ud 27	Ud 3.3	Yasojasutta		
+_X_ Vin III 92		Pārājikakaṇḍa		
+Dhp 201		Sukhavagga	dhp197-208	
+S I 70	SN 3.2	Purisasutta		
+Sn 270	Snp 2.5	Sūcilomasutta		
+S I 207	SN 10.3	Sūcilomasutta		
