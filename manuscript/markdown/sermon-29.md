@@ -837,11 +837,11 @@ diversity, without even resorting to a perception of unity.
 
 [^fn945]: Sn 920, *Tuvaṭakasutta*
 
-[^fn946]: DN II 277, *Sakkapañhasutta*
+[^fn946]: D II 277, *Sakkapañhasutta*
 
-[^fn947]: MN I 109, *Madhupiṇḍikasutta*; see *Sermon 11 and 12*
+[^fn947]: M I 109, *Madhupiṇḍikasutta*; see *Sermon 11 and 12*
 
-[^fn948]: MN I 112, *Madhupiṇḍikasutta*; see *Sermon 11*
+[^fn948]: M I 112, *Madhupiṇḍikasutta*; see *Sermon 11*
 
 [^fn949]: Ud 71, *Subhūtisutta*
 
