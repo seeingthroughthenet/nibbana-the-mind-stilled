@@ -959,11 +959,11 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn754]: [SN 1.25 / S I 14](https://suttacentral.net/sn1.25/pli/ms), *Arahantasutta*, see *Sermon 13*
 
-[^fn755]: Ud 3, *Bodhivagga*
+[^fn755]: [Ud 1.3 / Ud 3](https://suttacentral.net/ud1.3/pli/ms), *Bodhivagga*
 
-[^fn756]: S III 89, *Khajjanīyasutta*
+[^fn756]: [SN 22.79 / S III 89](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*
 
-[^fn757]: Dhp 58-59, *Pupphavagga*
+[^fn757]: [Dhp 58-59](https://suttacentral.net/dhp44-59/pli/ms), *Pupphavagga*
 
 [^fn758]: See *Sermon 22*
 
@@ -977,13 +977,13 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn763]: [AN 9.37 / A IV 428](https://suttacentral.net/an9.37/pli/ms), *Lokāyatikābrāhmaṇāsutta*
 
-[^fn764]: M I 302, *Cūḷavedallasutta*
+[^fn764]: [MN 44 / M I 302](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
 [^fn765]: Ps II 367
 
 [^fn766]: See *Sermons 16 and 17*
 
-[^fn767]: S I 61 and A II 49 *Rohitassasutta*
+[^fn767]: [SN 2.26 / S I 61](https://suttacentral.net/sn2.26/pli/ms) and [AN 4.45 / A II 49](https://suttacentral.net/an4.45/pli/ms) *Rohitassasutta*
 
 [^fn768]: Spk I 118 and Mp III 89
 
@@ -999,11 +999,11 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn774]: [SN 35.117 / S IV 98](https://suttacentral.net/sn35.117/pli/ms), *Kāmaguṇasutta*
 
-[^fn775]: A II 161, *Mahākoṭṭhitasutta*
+[^fn775]: [AN 4.173 / A II 161](https://suttacentral.net/an4.173/pli/ms), *Mahākoṭṭhitasutta*
 
 [^fn776]: Mp III 150
 
-[^fn777]: A II 11, *Yogasutta*
+[^fn777]: [AN 4.10 / A II 11](https://suttacentral.net/an4.10/pli/ms), *Yogasutta*
 
 [^fn778]: See *Sermons 13 and 15*
 

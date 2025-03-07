@@ -847,7 +847,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn950]: Ud-a 348
 
-[^fn951]: S III 89, *Khajjanīyasutta*, see *Sermon 23*
+[^fn951]: [SN 22.79 / S III 89](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*, see *Sermon 23*
 
 [^fn952]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*; see *Sermon 11*
 
@@ -857,7 +857,7 @@ diversity, without even resorting to a perception of unity.
 
 [^fn955]: Sn 970, *Sāriputtasutta*
 
-[^fn956]: Ud 3, *Bodhivagga*; see *Sermon 23*
+[^fn956]: [Ud 1.3 / Ud 3](https://suttacentral.net/ud1.3/pli/ms), *Bodhivagga*; see *Sermon 23*
 
 [^fn957]: Th 999, *Sāriputtatheragāthā*
 
