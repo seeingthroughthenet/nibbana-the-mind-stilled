@@ -915,7 +915,7 @@ words:
 
 [^fn808]: [AN 4.24 / A II 25](https://suttacentral.net/an4.24/pli/ms), *Kāḷakārāmasutta*
 
-[^fn809]: Sn 908, *Mahāviyūhasutta*
+[^fn809]: [Snp 4.13 / Sn 908](https://suttacentral.net/snp4.13/pli/ms), *Mahāviyūhasutta*
 
 [^fn810]: See esp. *Sermon 20*
 
@@ -925,7 +925,7 @@ words:
 
 [^fn813]: E.g. at [MN 72 / M I 484](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
-[^fn814]: D I 58, *Sāmaññaphalasutta*
+[^fn814]: [DN 2 / D I 58](https://suttacentral.net/dn2/pli/ms), *Sāmaññaphalasutta*
 
 [^fn815]: Mp III 38
 
@@ -945,15 +945,15 @@ words:
 
 [^fn823]: Mp III 40
 
-[^fn824]: A IV 157, *Paṭhamalokadhammasutta*
+[^fn824]: [AN 8.5 / A IV 157](https://suttacentral.net/an8.5/pli/ms), *Paṭhamalokadhammasutta*
 
 [^fn825]: Nid II 459
 
 [^fn826]: See *Sermon 21*
 
-[^fn827]: Sn 712, *Nālakasutta*
+[^fn827]: [Snp 3.11 / Sn 712](https://suttacentral.net/snp3.11/pli/ms), *Nālakasutta*
 
-[^fn828]: Sn 268, *Mahāmaṅgalasutta*
+[^fn828]: [Snp 2.4 / Sn 268](https://suttacentral.net/snp2.4/pli/ms), *Mahāmaṅgalasutta*
 
 [^fn829]: [Ud 8.4 / Ud 81](https://suttacentral.net/ud8.4/pli/ms), *Catutthanibbānapaṭisaṁyuttasutta*
 
@@ -961,13 +961,13 @@ words:
 
 [^fn831]: Pj II 554
 
-[^fn832]: Sn 885, *Cūḷaviyūhasutta*
+[^fn832]: [Snp 4.12 / Sn 885](https://suttacentral.net/snp4.12/pli/ms), *Cūḷaviyūhasutta*
 
-[^fn833]: Sn 905, *Mahāvyūhasutta*
+[^fn833]: [Snp 4.13 / Sn 905](https://suttacentral.net/snp4.13/pli/ms), *Mahāvyūhasutta*
 
-[^fn834]: Sn 824, *Pasūrasutta*
+[^fn834]: [Snp 4.8 / Sn 824](https://suttacentral.net/snp4.8/pli/ms), *Pasūrasutta*
 
-[^fn835]: Sn 888, *Cūḷaviyūhasutta*
+[^fn835]: [Snp 4.12 / Sn 888](https://suttacentral.net/snp4.12/pli/ms), *Cūḷaviyūhasutta*
 
 [^fn836]: [SN 35.93 / S IV 67](https://suttacentral.net/sn35.93/pli/ms), *Dutiyadvayamsutta*
 

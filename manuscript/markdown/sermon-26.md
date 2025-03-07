@@ -979,7 +979,7 @@ the title of these series of sermons, namely:
 
 [^fn860]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
-[^fn861]: Sn 824, *Pasūrasutta*, see *Sermon 25*
+[^fn861]: [Snp 4.8 / Sn 824](https://suttacentral.net/snp4.8/pli/ms), *Pasūrasutta*, see *Sermon 25*
 
 [^fn862]: Sn 886, *Cūḷa-Viyūhasutta*
 

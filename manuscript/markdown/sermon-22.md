@@ -909,7 +909,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn741]: See *Sermon 21*
 
-[^fn742]: A III 107, *Tatiya-anāgatabhayasutta*; see also [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*
+[^fn742]: [AN 5.79 / A III 107](https://suttacentral.net/an5.79/pli/ms), *Tatiya-anāgatabhayasutta*; see also [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*
 
 [^fn743]: [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
