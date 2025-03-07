@@ -943,7 +943,7 @@ the title of these series of sermons, namely:
 
 [^fn842]: See *Sermon 25*
 
-[^fn843]: M I 292, *Mahāvedallasutta*
+[^fn843]: [MN 43 / M I 292](https://suttacentral.net/mn43/pli/ms), *Mahāvedallasutta*
 
 [^fn844]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*; see also *Sermon 8*
 
@@ -961,9 +961,9 @@ the title of these series of sermons, namely:
 
 [^fn851]: [Dhp 1](https://suttacentral.net/dhp1-20/pli/ms), *Yamakavagga*
 
-[^fn852]: S II 78, *Ariyasāvakasutta*
+[^fn852]: [SN 12.49 / S II 78](https://suttacentral.net/sn12.49/pli/ms), *Ariyasāvakasutta*
 
-[^fn853]: S II 27, *Paccayasutta*
+[^fn853]: [SN 12.20 / S II 27](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 
 [^fn854]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
@@ -971,23 +971,23 @@ the title of these series of sermons, namely:
 
 [^fn856]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*
 
-[^fn857]: M III 273, *Nandakovādasutta*
+[^fn857]: [MN 146 / M III 273](https://suttacentral.net/mn146/pli/ms), *Nandakovādasutta*
 
 [^fn858]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
-[^fn859]: E.g. A V 120, *Niṭṭhaṅgatasutta*
+[^fn859]: E.g. [AN 10.63 / A V 120](https://suttacentral.net/an10.63/pli/ms), *Niṭṭhaṅgatasutta*
 
 [^fn860]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn861]: [Snp 4.8 / Sn 824](https://suttacentral.net/snp4.8/pli/ms), *Pasūrasutta*, see *Sermon 25*
 
-[^fn862]: Sn 886, *Cūḷaviyūhasutta*
+[^fn862]: [Snp 4.12 / Sn 886](https://suttacentral.net/snp4.12/pli/ms), *Cūḷaviyūhasutta*
 
-[^fn863]: Ud 67, *Paṭhamanānātitthiyasutta*
+[^fn863]: [Ud 6.4 / Ud 67](https://suttacentral.net/ud6.4/pli/ms), *Paṭhamanānātitthiyasutta*
 
 [^fn864]: [DN 1 / D I 42](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
-[^fn865]: D II 130, *Mahāparinibbānasutta*
+[^fn865]: [DN 16 / D II 130](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
 [^fn866]: See *Sermons 16-19*
 

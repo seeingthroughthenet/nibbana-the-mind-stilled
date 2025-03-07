@@ -1,7 +1,7 @@
 PTS	SC	Title	uid	Comments
 		Sermon 1		
 M I 426, M I 436	MN 64	Mahāmālunkyasutta		
-D II 90, D II 93, D II 157	DN 16	Mahāparinibbānasutta		
+D II 90, D II 93, D II 130, D II 157	DN 16	Mahāparinibbānasutta		
 S II 267	SN 20.7	Āṇisutta		
 Khp 2	Kp 4	Kumārapañhā		
 S I 39	SN 1.61	Nāmasutta		
@@ -51,7 +51,7 @@ Sn 1092, Sn 1094	Snp 5.11	Kappamāṇavapucchā
 M I 162, M I 167, M I 168	MN 26	Ariyapariyesanasutta		
 M III 63	MN 115	Bahudhātukasutta		
 Ud 1	Ud 1.1-3	Bodhisuttas		
-S II 25, S II 26	SN 12.20	Paccayasutta		
+S II 25, S II 26, S II 27	SN 12.20	Paccayasutta		
 Sn 729, Sn 740, Sn 752-753	Snp 3.12	Dvayatānupassanāsutta		
 Sn 756, Sn 762, Sn 763, Sn 757-758	Snp 3.12	Dvayatānupassanāsutta		
 D III 29	DN 24	Pāṭikasutta		
@@ -151,7 +151,7 @@ Dhp 180, Dhp 187		Buddhavagga	dhp179-196
 Dhp 92-93, Dhp 95, Dhp 97		Arahantavagga	dhp90-99	
 M III 287	MN 149	Mahāsaḷāyatanikasutta		
 S II 101	SN 12.64	Atthirāgasutta		
-M I 293, M I 297	MN 43	Mahāvedallasutta		
+M I 292, M I 293, M I 297	MN 43	Mahāvedallasutta		
 A II 139	AN 4.142	Pabhāsutta		
 A I 10	AN 1.51-52	Accharāsaṅghātavagga	an1.51-60	
 		Sermon 8		
@@ -342,6 +342,11 @@ A II 25	AN 4.24	Kāḷakārāmasutta
 		Sermon 25		
 A IV 157	AN 8.5	Paṭhamalokadhammasutta		
 Sn 268	Snp 2.4	Mahāmaṅgalasutta		
-Sn 885, Sn 888	Snp 4.12	Cūḷaviyūhasutta		
+Sn 885, Sn 886, Sn 888	Snp 4.12	Cūḷaviyūhasutta		
 Sn 905	Snp 4.13	Mahāvyūhasutta		
 Sn 824	Snp 4.8	Pasūrasutta		
+		Sermon 26		
+S II 78	SN 12.49	Ariyasāvakasutta		
+M III 273	MN 146	Nandakovādasutta		
+A V 120	AN 10.63	Niṭṭhaṅgatasutta		
+Ud 67	Ud 6.4	Paṭhamanānātitthiyasutta		
