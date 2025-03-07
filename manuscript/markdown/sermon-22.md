@@ -885,7 +885,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn729]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn730]: S III 118 and S IV 384, *Anurādhasutta*
+[^fn730]: [SN 22.86 / S III 118](https://suttacentral.net/sn22.86/pli/ms) and [SN 44.2 / S IV 384](https://suttacentral.net/sn44.2/pli/ms), *Anurādhasutta*
 
 [^fn731]: [SN 23.3 / S III 190](https://suttacentral.net/sn23.3/pli/ms), *Sattasutta*
 
@@ -893,7 +893,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn733]: [SN 12.15 / S II 17](https://suttacentral.net/sn12.15/pli/ms), *Kaccāyanagottasutta*
 
-[^fn734]: M I 139, *Alagaddūpamasutta*
+[^fn734]: [MN 22 / M I 139](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
 [^fn735]: Ps II 117
 
@@ -903,9 +903,9 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn738]: [DN 1 / D I 46](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
-[^fn739]: M I 139, *Alagaddūpamasutta*
+[^fn739]: [MN 22 / M I 139](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
-[^fn740]: S III 109, *Yamakasutta*
+[^fn740]: [SN 22.85 / S III 109](https://suttacentral.net/sn22.85/pli/ms), *Yamakasutta*
 
 [^fn741]: See *Sermon 21*
 
@@ -915,18 +915,18 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn744]: Dhp 157-166 make up the 12th chapter of Dhp, the *Attavagga*
 
-[^fn745]: Dhp 160, *Attavagga*
+[^fn745]: [Dhp 160](https://suttacentral.net/dhp157-166/pli/ms), *Attavagga*
 
 [^fn746]: [Dhp 62](https://suttacentral.net/dhp60-75/pli/ms), *Bālavagga*
 
 [^fn747]: [SN 1.70 / S I 41](https://suttacentral.net/sn1.70/pli/ms), *Lokasutta*, see also *Sermon 4*; [SN 35.68 / S IV 39](https://suttacentral.net/sn35.68/pli/ms), *Samiddhisutta*, see also *Sermon 20*
 
-[^fn748]: E.g. at M I 426, *Mahāmālunkyasutta*
+[^fn748]: E.g. at [MN 64 / M I 426](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn749]: Spk I 116
 
-[^fn750]: S IV 93, *Lokakāmaguṇasutta*
+[^fn750]: [SN 35.116 / S IV 93](https://suttacentral.net/sn35.116/pli/ms), *Lokakāmaguṇasutta*
 
-[^fn751]: D I 17, *Brahmajālasutta*
+[^fn751]: [DN 1 / D I 17](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
 [^fn752]: [SN 35.82 / S IV 52](https://suttacentral.net/sn35.82/pli/ms), *Lokapañhāsutta*, see *Sermon 20*

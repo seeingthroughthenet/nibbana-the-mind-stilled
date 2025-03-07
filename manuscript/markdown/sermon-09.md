@@ -1043,7 +1043,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn325]: [MN 137 / M III 220](https://suttacentral.net/mn137/pli/ms), *Saḷāyatanavibhaṅgasutta*
 
-[^fn326]: D II 353, [DN 33 / D III 254](https://suttacentral.net/dn33/pli/ms), 287, 290, 291, M I 118, [MN 117 / M III 77](https://suttacentral.net/mn117/pli/ms), 140, S II 168, S III 109, S V 1, 12, 13, 16, 18-20, 23, 383, A II 220-229, A III 141, A IV 237, A V 212-248
+[^fn326]: D II 353, [DN 33 / D III 254](https://suttacentral.net/dn33/pli/ms), 287, 290, 291, M I 118, [MN 117 / M III 77](https://suttacentral.net/mn117/pli/ms), 140, S II 168, [SN 22.85 / S III 109](https://suttacentral.net/sn22.85/pli/ms), S V 1, 12, 13, 16, 18-20, 23, 383, A II 220-229, A III 141, A IV 237, A V 212-248
 
 [^fn327]: [MN 29 / M I 197](https://suttacentral.net/mn29/pli/ms), *Mahāsāropamasutta*
 

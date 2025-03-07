@@ -967,7 +967,7 @@ the cessation of consciousness. That is how the Buddha solved this problem.
 
 [^fn758]: See *Sermon 22*
 
-[^fn759]: S IV 93, *Lokakāmaguṇasutta*
+[^fn759]: [SN 35.116 / S IV 93](https://suttacentral.net/sn35.116/pli/ms), *Lokakāmaguṇasutta*
 
 [^fn760]: See *Sermon 20*
 

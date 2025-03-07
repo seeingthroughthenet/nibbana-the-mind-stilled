@@ -1,6 +1,6 @@
 PTS	SC	Title	uid	Comments
 		Sermon 1		
-M I 436	MN 64	Mahāmālunkyasutta		
+M I 426, M I 436	MN 64	Mahāmālunkyasutta		
 D II 90, D II 93, D II 157	DN 16	Mahāparinibbānasutta		
 S II 267	SN 20.7	Āṇisutta		
 Khp 2	Kp 4	Kumārapañhā		
@@ -23,7 +23,7 @@ _X_ S IV 359		Asaṅkhatasaṁyutta		Can't find sutta
 _X_ S IV 370		Asaṅkhatasaṁyutta		
 _X_ S IV 359-373		Asaṅkhatasaṁyutta		
 M I 134, M I 135, M I 140, M I 141	MN 22	Alagaddūpamasutta		
-M I 130, M I 137, M I 138	MN 22	Alagaddūpamasutta		
+M I 130, M I 137, M I 138, M I 139	MN 22	Alagaddūpamasutta		
 D II 57, D II 58, D II 62, D II 63	DN 15	Mahānidānasutta		
 Sn 1074, Sn 1076	Snp 5.7	Upasīvamāṇavapucchā		
 Th 298	Thag 4.8	Rāhula Thera		
@@ -101,7 +101,7 @@ Ud 81	Ud 8.4	Catutthanibbānapaṭisaṁyuttasutta
 S II 17	SN 12.15	Kaccāyanagottasutta		
 S I 41	SN 1.70	Lokasutta		
 S IV 86	SN 35.106	Dukkhasutta		
-S IV 95	SN 35.116	Lokakāmaguṇasutta		
+S IV 93, S IV 95	SN 35.116	Lokakāmaguṇasutta		
 S V 183	SN 47.40	Vibhaṅgasutta		
 		Sermon 5		
 S V 184	SN 47.42	Samudayasutta		
@@ -190,6 +190,7 @@ Th 267-268, Th 269-270	Thag 4.1	Nāgasamāla Thera
 A IV 385	AN 9.14	Samiddhisutta		
 Dhp 221, Dhp 225		Kodhavagga	dhp221-234	
 D I 1-46, D I 42, D I 45, D I 46	DN 1	Brahmajālasutta		
+D I 17	DN 1	Brahmajālasutta		
 Sn 902, Sn 909	Snp 4.13	Mahāviyūhasutta		
 It 43	Iti 49	Diṭṭhigatasutta		
 		Sermon 10		
@@ -300,7 +301,8 @@ Dhp 308		Nirayavagga
 		Sermon 20		
 M I 23	MN 4	Bhayabheravasutta		
 A III 354	AN 6.45	Iṇasutta		
-S III 116	SN 22.86	Anurādhasutta		
+S III 116, S III 118	SN 22.86	Anurādhasutta		
+S IV 384	SN 44.2	Anurādhasutta		
 S IV 399	SN 44.9	Kutūhalasālāsutta		
 S III 190	SN 23.3	Bhavanettisutta		
 M I 427	MN 63	Cūḷamāluṅkyāputtasutta		
@@ -321,3 +323,6 @@ _X_ Ud 53		Uposathasutta
 _X_ Vin II 237				
 S I 135	SN 5.10	Vajirāsutta		
 Sn 858	Snp 4.10	Purābhedasutta		
+		Sermon 22		
+S III 109	SN 22.85	Yamakasutta		
+Dhp 160		Attavagga	dhp157-166	
