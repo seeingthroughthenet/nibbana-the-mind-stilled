@@ -254,8 +254,9 @@
 
 % === hyperref ===
 
-\RequirePackage{hyperxmp}
 \RequirePackage{hyperref}
+% hyperref must be loaded before hyperxmp
+\RequirePackage{hyperxmp}
 
 % https://tex.stackexchange.com/questions/32076/incorrect-toc-index-cross-references-when-resetting-memoir-class-counters
 % hypertexnames=true
@@ -1686,7 +1687,8 @@ philo-sophical munindo amaravati thai-land}
 \settypeblocksize{193mm}{110mm}{*}
 \setlrmargins{*}{20mm}{*}
 
-\setulmargins{42pt}{*}{*}% 14.8mm, Based on Tall Pentagon, 1.701
+% 42pt was too narrow when printed with Blurb.
+\setulmargins{48pt}{*}{*}% ~17mm, Based on Tall Pentagon, 1.701
 \setheaderspaces{*}{19pt}{*}
 \setlength{\footskip}{30pt}
 
