@@ -772,7 +772,7 @@ Buddha himself.
 
 [^fn1032]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn1033]: M III 288, *Mahāsaḷāyatanikasutta*
+[^fn1033]: [MN 149 / M III 288](https://suttacentral.net/mn149/pli/ms), *Mahāsaḷāyatanikasutta*
 
 [^fn1034]: [MN 9 / M I 55](https://suttacentral.net/mn9/pli/ms), *Satipaṭṭhānasutta*
 
@@ -780,7 +780,7 @@ Buddha himself.
 
 [^fn1036]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
-[^fn1037]: M III 30, *Chabbisodhanasutta*; see *Sermon 15*
+[^fn1037]: [MN 112 / M III 30](https://suttacentral.net/mn112/pli/ms), *Chabbisodhanasutta*; see *Sermon 15*
 
 [^fn1038]: [Snp 3.12 / Sn 757](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*; see *Sermon 13*
 
@@ -790,22 +790,22 @@ Buddha himself.
 
 [^fn1041]: See *Sermon 10*
 
-[^fn1042]: Sn 1042, *Tissametteyyamāṇavapucchā*
+[^fn1042]: [Snp 5.3 / Sn 1042](https://suttacentral.net/snp5.3/pli/ms), *Tissametteyyamāṇavapucchā*
 
-[^fn1043]: A III 399, *Majjhesutta*
+[^fn1043]: [AN 6.61 / A III 399](https://suttacentral.net/an6.61/pli/ms), *Majjhesutta*
 
-[^fn1044]: Sn 738-739, *Dvayatānupassanāsutta*
+[^fn1044]: [Snp 3.12 / Sn 738-739](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*
 
-[^fn1045]: M III 187, *Bhaddekarattasutta*
+[^fn1045]: [MN 131 / M III 187](https://suttacentral.net/mn131/pli/ms), *Bhaddekarattasutta*
 
-[^fn1046]: M I 304, *Cūḷavedallasutta*
+[^fn1046]: [MN 44 / M I 304](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
-[^fn1047]: Sn 754-755, *Dvayatānupassanāsutta*, see *Sermon 15*
+[^fn1047]: [Snp 3.12 / Sn 754-755](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*, see *Sermon 15*
 
 [^fn1048]: [SN 35.93 / S IV 67](https://suttacentral.net/sn35.93/pli/ms), *Dutiyadvayasutta*
 
-[^fn1049]: S III 159, *Sakkāyasutta*
+[^fn1049]: [SN 22.105 / S III 159](https://suttacentral.net/sn22.105/pli/ms), *Sakkāyasutta*
 
-[^fn1050]: Sn 794, *Suddhaṭṭhakasutta*
+[^fn1050]: [Snp 4.4 / Sn 794](https://suttacentral.net/snp4.4/pli/ms), *Suddhaṭṭhakasutta*
 
 [^fn1051]: [Iti 49 / It 43](https://suttacentral.net/iti49/pli/ms), *Diṭṭhigatasutta*
