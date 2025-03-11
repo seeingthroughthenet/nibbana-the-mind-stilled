@@ -6,9 +6,8 @@ D II 107, D II 119	DN 16	Mahāparinibbānasutta
 S II 267	SN 20.7	Āṇisutta		
 Khp 2	Kp 4	Kumārapañhā		
 S I 39	SN 1.61	Nāmasutta		
-S I 11	SN 1.20	Samiddhisutta		
+S I 9, S I 11, S I 12	SN 1.20	Samiddhisutta		
 M I 50, M I 53, M I 54, M I 55	MN 9	Sammādiṭṭhisutta		
-S I 12	SN 1.20	Samiddhisutta		
 Sn 560	Snp 3.7	Selasutta		
 S I 192	SN 8.7	Pavāraṇāsutta		
 S I 13	SN 1.23	Jaṭāsutta		
@@ -58,7 +57,7 @@ Sn 756, Sn 762, Sn 763, Sn 757-758	Snp 3.12	Dvayatānupassanāsutta
 D III 29	DN 24	Pāṭikasutta		
 M II 110	MN 87	Piyajātikasutta		
 A I 152	AN 3.47	Saṅkhatalakkhaṇasutta		
-M I 56, M I 57, M I 62	MN 10	Satipaṭṭhānasutta		
+M I 56, M I 57, M I 60, M I 62	MN 10	Satipaṭṭhānasutta		
 _X_ M I 62				Can't find 'okkanti' in MN 10
 Dhp 62		Bālavagga	dhp60-75	
 Ud 32	Ud 3.10	Lokasutta		
@@ -91,7 +90,7 @@ _X_ A II 133		Saṁyojanasutta		Can't find 'uppatti' in AN 4.131
 M III 17, M III 18	MN 109	Mahāpuṇṇamasutta		
 S II 65, S II 66	SN 12.38	Cetanāsutta		
 		Sermon 4		
-M I 256, M I 263, M I 266	MN 38	Mahātaṇhāsaṅkhayasutta		
+M I 256, M I 260, M I 263, M I 266	MN 38	Mahātaṇhāsaṅkhayasutta		
 Dhp 338		Taṇhāvagga	dhp334-359	
 A I 223	AN 3.76	Paṭhamabhavasutta		
 S I 134	SN 5.9	Selāsutta		
@@ -185,7 +184,7 @@ _X_ S V 253		Iddhipādasaṁyutta
 S V 272	SN 51.15	Uṇṇābhabrāhmaṇasutta		
 A II 145	AN 4.159	Bhikkhuṇīsutta		
 M III 220, M III 217	MN 137	Saḷāyatanavibhaṅgasutta		
-D III 254, D III 217	DN 33	Saṅgītisutta		
+D III 254, D III 217, D III 221	DN 33	Saṅgītisutta		
 M III 71, M III 77	MN 117	Mahācattārīsakasutta		
 Th 315-316	Thag 5.1	Rājadatta Thera		
 Th 267-268, Th 269-270	Thag 4.1	Nāgasamāla Thera		
@@ -387,3 +386,19 @@ Sn 472	Snp 3.4	Sundarikabhāradvājasutta
 M I 119	MN 20	Vitakkasanthānasutta		
 S IV 282	SN 41.1	Saṁyojanasutta		
 S I 1	SN 1.1	Oghataraṇasutta		
+		Sermon 31		
+S V 90	SN 46.30	Udāyisutta		
+A V 2	AN 10.2	Cetanākaraṇīyasutta		
+S IV 41	SN 35.70	Upavāṇasandiṭṭhikasutta		
+M I 76	MN 12	Mahāsīhanādasutta		
+M I 481	MN 70	Kīṭāgirisutta		
+S V 276	SN 51.20	Bhikkhusutta		
+S V 286	SN 51.27-28	Ānandasutta	sn51.27	
+S V 287	SN 51.29-30	Bhikkhusutta	sn51.29	
+S V 266	SN 51.11	Pubbasutta		
+S V 255	SN 51.1	Aparāsutta		
+S V 268	SN 51.13	Chandasutta		
+S V 196	SN 48.8	Daṭṭhabbasutta		
+S V 343	SN 55.2	Rājasutta		
+S V 197	SN 48.10	Vibhaṅgasutta		
+S V 225	SN 48.50	Āpaṇasutta		

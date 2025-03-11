@@ -848,7 +848,7 @@ the rest of the discourse in our next sermon.
 
 [^fn1012]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn1013]: S V 197, *Paṭhamavibhaṅgasutta*
+[^fn1013]: [SN 48.10 / S V 197](https://suttacentral.net/sn48.10/pli/ms), *Paṭhamavibhaṅgasutta*
 
 [^fn1014]: [MN 95 / M II 173](https://suttacentral.net/mn95/pli/ms), *Caṅkīsutta*
 
