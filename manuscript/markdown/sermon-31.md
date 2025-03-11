@@ -897,11 +897,11 @@ words:
 
 [^fn994]: M I 60, *Satipaṭṭhānasutta*
 
-[^fn995]: E.g. D III, 221, *Saṅgītisutta*
+[^fn995]: E.g. D III 221, *Saṅgītisutta*
 
 [^fn996]: [MN 10 / M I 62](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn997]: E.g. D III, 221, *Saṅgītisutta*
+[^fn997]: E.g. D III 221, *Saṅgītisutta*
 
 [^fn998]: E.g. Ps III 194
 
@@ -909,11 +909,11 @@ words:
 
 [^fn1000]: S V 276, *Bhikkhusutta*; S V 286, *Ānandasutta 1 and 2*; S V 287, *Bhikkhusutta 1 and 2* 
 
-[^fn1001]: S V 266, *Pubbesutta*
+[^fn1001]: S V 266, *Pubbasutta*
 
 [^fn1002]: Sv II 642, which further mentions Venerable Soṇa as an example for energy and Venerable Sambhūta as an example for the category of the mind.
 
-[^fn1003]: E.g. SN V 255, *Aparāsutta*
+[^fn1003]: E.g. S V 255, *Aparāsutta*
 
 [^fn1004]: S V 268, *Chandasutta*
 
