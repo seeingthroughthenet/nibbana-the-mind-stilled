@@ -851,19 +851,19 @@ This discourse in the *Udāna* is one that is truly 'up'-lifting.
 
 It indeed deserves a paean of joy.
 
-[^fn511]: M I 436, *Mahāmālunkyasutta*
+[^fn511]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn512]: Ud 8, *Bāhiyasutta*
+[^fn512]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
-[^fn513]: Sn 813, *Jarāsutta*
+[^fn513]: [Snp 4.6 / Sn 813](https://suttacentral.net/snp4.6/pli/ms), *Jarāsutta*
 
-[^fn514]: Sn 757, *Dvayatānupassanāsutta*; see *Sermon 13*
+[^fn514]: [Snp 3.12 / Sn 757](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*; see *Sermon 13*
 
-[^fn515]: A IV 386, *Samiddhisutta*; see *Sermon 12*
+[^fn515]: [AN 9.15 / A IV 386](https://suttacentral.net/an9.15/pli/ms), *Samiddhisutta*; see *Sermon 12*
 
-[^fn516]: See sermons 12 and 13
+[^fn516]: See *Sermons 12 and 13*
 
-[^fn517]: M I 3, *Mūlapariyāyasutta*
+[^fn517]: [MN 1 / M I 3](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*
 
 [^fn518]: See *Sermon 13*
 
@@ -873,44 +873,44 @@ It indeed deserves a paean of joy.
 
 [^fn521]: See *Sermon 10*
 
-[^fn522]: A II 246, *Catutthavohārasutta*
+[^fn522]: [AN 4.253 / A II 246](https://suttacentral.net/an4.253/pli/ms), *Catutthavohārasutta*
 
 [^fn523]: Vism 21
 
-[^fn524]: The term occurs e.g. at M I 480, *Tevijjavacchagottasutta*; at M II 173, *Cankīsutta*; and at A II 115, *Patodasutta*
+[^fn524]: The term occurs e.g. at [MN 71 / M I 480](https://suttacentral.net/mn71/pli/ms), *Tevijjavacchagottasutta*; at [MN 95 / M II 173](https://suttacentral.net/mn95/pli/ms), *Cankīsutta*; and at [AN 4.113 / A II 115](https://suttacentral.net/an4.113/pli/ms), *Patodasutta*
 
-[^fn525]: M III 245, *Dhātuvibhaṅgasutta*
+[^fn525]: [MN 140 / M III 245](https://suttacentral.net/mn140/pli/ms), *Dhātuvibhaṅgasutta*
 
-[^fn526]: M III 29, *Chabbisodhanasutta*
+[^fn526]: [MN 112 / M III 29](https://suttacentral.net/mn112/pli/ms), *Chabbisodhanasutta*
 
 [^fn527]: Ud-a 90
 
 [^fn528]: S IV 174, *Āsīvisasutta*
 
-[^fn529]: Ud 9, *Bāhiyasutta*
+[^fn529]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn530]: Ud-a 98
 
 [^fn531]: See *Sermon 1*
 
-[^fn532]: D I 223, *Kevaḍḍhasutta*
+[^fn532]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
-[^fn533]: See sermons 5, 7 and 9
+[^fn533]: See *Sermons 5, 7 and 9*
 
-[^fn534]: S I 6, *Natthiputtasamasutta*
+[^fn534]: [SN 1.13 / S I 6](https://suttacentral.net/sn1.13/pli/ms), *Natthiputtasamasutta*
 
-[^fn535]: A II 139, *Pabhāsutta*; see *Sermon 7*
+[^fn535]: [AN 4.142 / A II 139](https://suttacentral.net/an4.142/pli/ms), *Pabhāsutta*; see *Sermon 7*
 
-[^fn536]: E.g. S II 45, *Bhikkhusutta*; or A II 178, *Ummaggasutta*
+[^fn536]: E.g. [SN 12.28 / S II 45](https://suttacentral.net/sn12.28/pli/ms), *Bhikkhusutta*; or [AN 4.186 / A II 178](https://suttacentral.net/an4.186/pli/ms), *Ummaggasutta*
 
-[^fn537]: Ud 9, *Bāhiyasutta*
+[^fn537]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn538]: See *Sermon 9*
 
-[^fn539]: M III 71, *Mahācattārīsakasutta*
+[^fn539]: [MN 117 / M III 71](https://suttacentral.net/mn117/pli/ms), *Mahācattārīsakasutta*
 
-[^fn540]: M I 301, *Cūḷavedallasutta*
+[^fn540]: [MN 44 / M I 301](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
-[^fn541]: M I 108, *Madhupiṇḍikasutta*
+[^fn541]: [MN 18 / M I 108](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
-[^fn542]: A I 10, *Accharāsaṅghātavagga*
+[^fn542]: [AN 1.51-52 / A I 10](https://suttacentral.net/an1.51-60/pli/ms), *Accharāsaṅghātavagga*

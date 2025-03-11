@@ -765,8 +765,8 @@ But not so easily the darkness within. That is why, in the psalms of the
 Theras and Therīs, it is said that they split or burst asunder the mass of
 delusion:
 
-> *tamokkhandhaṁ padāliya*, \
-> *tamokkhandhaṁ padālayiṁ*.[^fn180]
+> *tamokhandhaṁ padāliya,* [and also as] \
+> *tamokhandhaṁ padālayiṁ.*[^fn180]
 
 The pitchy black darkness of ignorance in the world is one that is thick enough
 to be split up and burst asunder. So it seems, the darkness within is almost
@@ -849,84 +849,84 @@ help of the simile of the cinema and the theatre is of much relevance to an
 understanding of the law of dependent arising. With this much, we shall wind up
 today.
 
-[^fn148]: M I 436, *Mahāmālunkyasutta*
+[^fn148]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn149]: See *Sermon 4*
 
-[^fn150]: M I 56, *Satipaṭṭhānasutta*
+[^fn150]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn151]: See *Sermon 4*
 
-[^fn152]: M I 56, *Satipaṭṭhānasutta*
+[^fn152]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn153]: S V 184, *Samudayasutta*
+[^fn153]: [SN 47.42 / S V 184](https://suttacentral.net/sn47.42/pli/ms), *Samudayasutta*
 
-[^fn154]: Sn 752-753, *Dvayatānupassanāsutta*
+[^fn154]: [Snp 3.12 / Sn 752-753](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*
 
-[^fn155]: Sn 954, *Attadaṇḍasutta*
+[^fn155]: [Snp 4.15 / Sn 954](https://suttacentral.net/snp4.15/pli/ms), *Attadaṇḍasutta*
 
-[^fn156]: Sn 787, *Duṭṭhaṭṭhakasutta*
+[^fn156]: [Snp 4.3 / Sn 787](https://suttacentral.net/snp4.3/pli/ms), *Duṭṭhaṭṭhakasutta*
 
-[^fn157]: Sn 795, *Suddhaṭṭhakasutta*
+[^fn157]: [Snp 4.4 / Sn 795](https://suttacentral.net/snp4.4/pli/ms), *Suddhaṭṭhakasutta*
 
-[^fn158]: Sn 813, *Jarāsutta*
+[^fn158]: [Snp 4.6 / Sn 813](https://suttacentral.net/snp4.6/pli/ms), *Jarāsutta*
 
 [^fn159]: See *Sermon 4*
 
-[^fn160]: S III 90, *Khajjaniyasutta*
+[^fn160]: [SN 22.79 / S III 90](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*
 
-[^fn161]: Dhp 385, *Brāhmaṇavagga*
+[^fn161]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*
 
-[^fn162]: Sn 1-17, *Uragasutta*
+[^fn162]: [Snp 1.1 / Sn 1-17](https://suttacentral.net/snp1.1/pli/ms), *Uragasutta*
 
-[^fn163]: Sn 5, *Uragasutta*
+[^fn163]: [Snp 1.1 / Sn 5](https://suttacentral.net/snp1.1/pli/ms), *Uragasutta*
 
-[^fn164]: A IV 377, *Sīhanādasutta*
+[^fn164]: [AN 9.11 / A IV 377](https://suttacentral.net/an9.11/pli/ms), *Sīhanādasutta*
 
 [^fn165]: See *Sermon 4*
 
-[^fn166]: E.g. at D III 83, *Aggaññasutta*
+[^fn166]: E.g. at [DN 27 / D III 83](https://suttacentral.net/dn27/pli/ms), *Aggaññasutta*
 
-[^fn167]: E.g. at Dhp 253, *Malavagga*
+[^fn167]: E.g. at [Dhp 253](https://suttacentral.net/dhp235-255/pli/ms), *Malavagga*
 
 [^fn168]: E.g. the *pupphāsava, phalāsava, madhvāsava, guḷāsava* at Sv III 944
 
-[^fn169]: M II 200, *Subhasutta*
+[^fn169]: [MN 99 / M II 200](https://suttacentral.net/mn99/pli/ms), *Subhasutta*
 
-[^fn170]: E.g. at D I 84, *Sāmaññaphalasutta*
+[^fn170]: E.g. at [DN 2 / D I 84](https://suttacentral.net/dn2/pli/ms), *Sāmaññaphalasutta*
 
-[^fn171]: A II 182, *Sacchikaraṇīyasutta*
+[^fn171]: [AN 4.189 / A II 182](https://suttacentral.net/an4.189/pli/ms), *Sacchikaraṇīyasutta*
 
-[^fn172]: A I 159, *Nibbutasutta*
+[^fn172]: [AN 3.55 / A I 159](https://suttacentral.net/an3.55/pli/ms), *Nibbutasutta*
 
-[^fn173]: A V 9, *Sāriputtasutta*
+[^fn173]: [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*
 
-[^fn174]: M I 54, *Sammādiṭṭhisutta*
+[^fn174]: [MN 9 / M I 54](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*
 
-[^fn175]: M I 55, *Sammādiṭṭhisutta*
+[^fn175]: [MN 9 / M I 55](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*
 
-[^fn176]: S III 151, *Gaddulasutta*
+[^fn176]: [SN 22.100 / S III 151](https://suttacentral.net/sn22.100/pli/ms), *Gaddulasutta*
 
 [^fn177]: Spk II 327
 
-[^fn178]: Sn 763, *Dvayatānupassanāsutta*
+[^fn178]: [Snp 3.12 / Sn 763](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*
 
-[^fn179]: Ud 79, *Udenasutta*
+[^fn179]: [Ud 7.9 / Ud 79](https://suttacentral.net/ud7.9/pli/ms), *Udenasutta*
 
-[^fn180]: Th 627, *Sunīto Thero*; Thī 3, *Puṇṇā Therī*; Thī 28, *Cittā Therī*; Thī 44, *Uttamā Therī*; Thī 120, *Tiṁsamattā Therī*; Thī 173-174, *Vijayā Therī*; Thī 180, *Uttarā Therī*
+[^fn180]: [Thag 12.2 / Th 627](https://suttacentral.net/thag12.2/pli/ms), *Sunīto Thero*; [Thig 1.3 / Thī 3](https://suttacentral.net/thig1.3/pli/ms), *Puṇṇā Therī*; [Thig 2.5 / Thī 28](https://suttacentral.net/thig2.5/pli/ms), *Cittā Therī*; Thī 44, *Uttamā Therī*; Thī 120, *Tiṁsamattā Therī*; Thī 173-174, *Vijayā Therī*; Thī 180, *Uttarā Therī*
 
-[^fn181]: Dhp-a I 88
+[^fn181]: [Dhp 11-12 Commentary: Dhp-a I 88](https://www.digitalpalireader.online/_dprhtml/index.html?loc=k.1.0.0.1.7.0.a&para=54&query=giraggasamajja), *Sāriputtattheravatthu*
 
-[^fn182]: Vin I 40
+[^fn182]: [Vin I 40](https://suttacentral.net/pli-tv-kd1/pli/ms)
 
 [^fn183]: *Idappaccayatā* is discussed in detail above, see *Sermon 2*
 
-[^fn184]: A III 440, *Catutthaabhabbaṭṭhānasutta*
+[^fn184]: [AN 6.95 / A III 440](https://suttacentral.net/an6.95/pli/ms), *Catutthaabhabbaṭṭhānasutta*
 
 [^fn185]: See *Sermon 2*
 
 [^fn186]: Sp-ṭ III 226 (Burmese ed.)
 
-[^fn187]: Ud 2, *Dutiyabodhisutta*
+[^fn187]: [Ud 1.2 / Ud 2](https://suttacentral.net/ud1.2/pli/ms), *Dutiyabodhisutta*
 
-[^fn188]: M I 263, *Mahātaṇhāsaṅkhayasutta*
+[^fn188]: [MN 38 / M I 263](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*

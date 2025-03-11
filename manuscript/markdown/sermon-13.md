@@ -911,80 +911,80 @@ conceptual scaffolding only for the purpose of putting up the building. As the
 building comes up, the scaffolding has to leave. It has to be dismantled. If one
 simply clings onto the scaffolding, the building would never come up.
 
-[^fn438]: M I 436, *Mahāmālunkyasutta*
+[^fn438]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn439]: M I 1, *Mūlapariyāyasutta*
+[^fn439]: [MN 1 / M I 1](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*
 
 [^fn440]: Ps I 41
 
-[^fn441]: A III 6, *Kāmasutta*; see also Dhp 379, *Bhikkhuvagga*
+[^fn441]: [AN 5.7 / A III 6](https://suttacentral.net/an5.7/pli/ms), *Kāmasutta*; see also [Dhp 379](https://suttacentral.net/dhp360-382/pli/ms), *Bhikkhuvagga*
 
 [^fn442]: Ps I 28
 
-[^fn443]: E.g. D I 70, *Sāmaññaphalasutta*
+[^fn443]: E.g. [DN 2 / D I 70](https://suttacentral.net/dn2/pli/ms), *Sāmaññaphalasutta*
 
 [^fn444]: See *Sermon 11*
 
 [^fn445]: See *Sermon 1*
 
-[^fn446]: M I 487, *Aggivacchagottasutta*
+[^fn446]: [MN 72 / M I 487](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
 [^fn447]: See *Sermon 12*
 
 [^fn448]: Ps I 38
 
-[^fn449]: M I 266, *Mahātaṇhāsaṅkhayasutta*
+[^fn449]: [MN 38 / M I 266](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*
 
-[^fn450]: M II 265, *Āneñjasappāyasutta*
+[^fn450]: [MN 106 / M II 265](https://suttacentral.net/mn106/pli/ms), *Āneñjasappāyasutta*
 
 [^fn451]: See *Sermon 2*
 
-[^fn452]: S I 54, *Kakudhasutta*
+[^fn452]: [SN 2.18 / S I 54](https://suttacentral.net/sn2.18/pli/ms), *Kakudhasutta*
 
 [^fn453]: Vibh-a 53
 
 [^fn454]: See *Sermon 12*
 
-[^fn455]: See sermons 9 and 12
+[^fn455]: See *Sermons 9 and 12*
 
-[^fn456]: A III 413, *Nibbedhikasutta*
+[^fn456]: [AN 6.63 / A III 413](https://suttacentral.net/an6.63/pli/ms), *Nibbedhikasutta*
 
-[^fn457]: Sn 874, *Kalahavivādasutta*; see *Sermon 11*
+[^fn457]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*; see *Sermon 11*
 
-[^fn458]: E.g. at Sn 219, *Munisutta*; and Th 748, *Telakānittheragāthā*
+[^fn458]: E.g. at [Snp 1.12 / Sn 219](https://suttacentral.net/snp1.12/pli/ms), *Munisutta*; and [Thag 16.3 / Th 748](https://suttacentral.net/thag16.3/pli/ms), *Telakānittheragāthā*
 
-[^fn459]: Sn 68, *Khaggavisāṇasutta*
+[^fn459]: [Snp 1.3 / Sn 68](https://suttacentral.net/snp1.3/pli/ms), *Khaggavisāṇasutta*
 
-[^fn460]: E.g. at M I 12, *Sabbāsavasutta*
+[^fn460]: E.g. at [MN 2 / M I 12](https://suttacentral.net/mn2/pli/ms), *Sabbāsavasutta*
 
-[^fn461]: M I 6, *Mūlapariyāyasutta*
+[^fn461]: [MN 1 / M I 6](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*
 
 [^fn462]: Ps I 56
 
-[^fn463]: S IV 201, *Yavakalāpisutta*
+[^fn463]: [SN 35.248 / S IV 201](https://suttacentral.net/sn35.248/pli/ms), *Yavakalāpisutta*
 
-[^fn464]: Dhp 33, *Cittavagga*
+[^fn464]: [Dhp 33](https://suttacentral.net/dhp33-43/pli/ms), *Cittavagga*
 
-[^fn465]: See sermons 11 and 12
+[^fn465]: See *Sermons 11 and 12*
 
 [^fn466]: See *Sermon 10*
 
-[^fn467]: Sn 757-758, *Dvayatānupassanāsutta*
+[^fn467]: [Snp 3.12 / Sn 757-758](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*
 
-[^fn468]: E.g. at D III 273, *Dasuttarasutta*
+[^fn468]: E.g. at [DN 34 / D III 273](https://suttacentral.net/dn34/pli/ms), *Dasuttarasutta*
 
-[^fn469]: M I 197, *Mahāsāropamasutta*
+[^fn469]: [MN 29 / M I 197](https://suttacentral.net/mn29/pli/ms), *Mahāsāropamasutta*
 
 [^fn470]: See *Sermon 2*
 
-[^fn471]: M II 265, *Āneñjasappāyasutta*
+[^fn471]: [MN 106 / M II 265](https://suttacentral.net/mn106/pli/ms), *Āneñjasappāyasutta*
 
-[^fn472]: M I 145, *Rathavinītasutta*; M I 130, *Alagaddūpamasutta*
+[^fn472]: [MN 24 / M I 145](https://suttacentral.net/mn24/pli/ms), *Rathavinītasutta*; [MN 22 / M I 130](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
-[^fn473]: See *Sermon 8*; M I 329, *Brahmanimantanikasutta*
+[^fn473]: See *Sermon 8*; [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 
-[^fn474]: M I 251, *Cūḷataṇhāsaṅkhayasutta*
+[^fn474]: [MN 37 / M I 251](https://suttacentral.net/mn37/pli/ms), *Cūḷataṇhāsaṅkhayasutta*
 
-[^fn475]: S I 14, *Arahantasutta*
+[^fn475]: [SN 1.25 / S I 14](https://suttacentral.net/sn1.25/pli/ms), *Arahantasutta*
 
-[^fn476]: D I 202, *Poṭṭhapādasutta*
+[^fn476]: [DN 9 / D I 202](https://suttacentral.net/dn9/pli/ms), *Poṭṭhapādasutta*

@@ -853,58 +853,58 @@ And then he winds up with that highly significant conclusive remark:
 >
 > For, the destruction of craving, Rādha, is Nibbāna.
 
-[^fn701]: M I 436, *Mahāmālunkyasutta*
+[^fn701]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn702]: M I 487, *Aggivacchagottasutta*
+[^fn702]: [MN 72 / M I 487](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
-[^fn703]: Th 120, *Isidattatheragāthā*
+[^fn703]: [Thag 1.120 / Th 120](https://suttacentral.net/thag1.120/pli/ms), *Isidattatheragāthā*
 
 [^fn704]: See *Sermon 12*
 
-[^fn705]: Ud 75, *Dutiyalakuṇṭakabhaddiyasutta*, see *Sermon 2*
+[^fn705]: [Ud 7.2 / Ud 75](https://suttacentral.net/ud7.2/pli/ms), *Dutiyalakuṇṭakabhaddiyasutta*, see *Sermon 2*
 
-[^fn706]: S III 59, *Upādānaparivaṭṭasutta* and S III 63, *Sattaṭṭhānasutta*
+[^fn706]: [SN 22.56 / S III 59](https://suttacentral.net/sn22.56/pli/ms), *Upādānaparivaṭṭasutta* and [SN 22.57 / S III 63](https://suttacentral.net/sn22.57/pli/ms), *Sattaṭṭhānasutta*
 
-[^fn707]: Pj II 152, commenting on Sn 82, *Kasibhāradvājasutta*
+[^fn707]: Pj II 152, commenting on [Snp 1.4 / Sn 82](https://suttacentral.net/snp1.4/pli/ms), *Kasibhāradvājasutta*
 
-[^fn708]: Dhp 221, *Kodhavagga*, see *Sermon 9*
+[^fn708]: [Dhp 221](https://suttacentral.net/dhp221-234/pli/ms), *Kodhavagga*, see *Sermon 9*
 
-[^fn709]: Sn 490, *Māghasutta*
+[^fn709]: [SN 2.3 / Sn 490](https://suttacentral.net/sn2.3/pli/ms), *Māghasutta*
 
 [^fn710]: See *Sermon 3*
 
-[^fn711]: Sn 756, *Dvayatānupassanāsutta*, see *Sermon 6*
+[^fn711]: [Snp 3.12 / Sn 756](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*, see *Sermon 6*
 
-[^fn712]: Sn 9, *Uragasutta*
+[^fn712]: [Snp 1.1 / Sn 9](https://suttacentral.net/snp1.1/pli/ms), *Uragasutta*
 
-[^fn713]: See sermons 5 and 18
+[^fn713]: See *Sermons 5 and 18*
 
-[^fn714]: S II 26, *Paccayasutta*
+[^fn714]: [SN 12.20 / S II 26](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 
 [^fn715]: Sv I 62: *tathalakkhaṇaṁ āgatoti tathāgato*
 
-[^fn716]: M I 185, *Mahāhatthipadopamasutta*
+[^fn716]: [MN 28 / M I 185](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 
 [^fn717]: See *Sermon 19*
 
-[^fn718]: A IV 197, *Pahārādasutta*
+[^fn718]: [AN 8.19 / A IV 197](https://suttacentral.net/an8.19/pli/ms), *Pahārādasutta*
 
 [^fn719]: Vin II 237 and Ud 53, *Uposathasutta*
 
-[^fn720]: A IV 202, *Pahārādasutta*
+[^fn720]: [AN 8.19 / A IV 202](https://suttacentral.net/an8.19/pli/ms), *Pahārādasutta*
 
-[^fn721]: Sn 762, *Dvayatānupassanāsutta*
+[^fn721]: [Snp 3.12 / Sn 762](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*
 
-[^fn722]: S III 116 and S IV 380, *Anurādhasutta*
+[^fn722]: [SN 22.86 / S III 116](https://suttacentral.net/sn22.86/pli/ms) and S IV 380, *Anurādhasutta*
 
-[^fn723]: S I 135, *Vajirāsutta*
+[^fn723]: [SN 5.10 / S I 135](https://suttacentral.net/sn5.10/pli/ms), *Vajirāsutta*
 
-[^fn724]: Sn 858, *Purābhedasutta*
+[^fn724]: [Snp 4.10 / Sn 858](https://suttacentral.net/snp4.10/pli/ms), *Purābhedasutta*
 
-[^fn725]: A II 34, *Aggappasādasutta*
+[^fn725]: [AN 4.34 / A II 34](https://suttacentral.net/an4.34/pli/ms), *Aggappasādasutta*
 
 [^fn726]: See *Sermon 20*
 
-[^fn727]: S III 190, *Sattasutta*
+[^fn727]: [SN 23.3 / S III 190](https://suttacentral.net/sn23.3/pli/ms), *Sattasutta*
 
-[^fn728]: S IV 52, *Lokapañhāsutta*
+[^fn728]: [SN 35.82 / S IV 52](https://suttacentral.net/sn35.82/pli/ms), *Lokapañhāsutta*

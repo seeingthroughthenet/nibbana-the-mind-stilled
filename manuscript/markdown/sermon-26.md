@@ -734,7 +734,7 @@ individual viewpoints, as the line *paccekasaccesu puthū niviṭṭhā*
 suggests.[^fn861] We explained the term *sayasaṁvuta* as on a par with the
 phrase *paccekasaccesu*. The problematic term *sayasaṁvuta* is suggestive of
 virulent self-opinionatedness. Why are they committed and limited by their own
-views? Our quotation from the *Cūḷa-Viyūhasutta* holds the answer.
+views? Our quotation from the *Cūḷaviyūhasutta* holds the answer.
 
 > *Na h'eva saccāni bahūni nānā,* \
 > *aññatra saññāya niccāni loke,*[^fn862]
@@ -933,66 +933,66 @@ the title of these series of sermons, namely:
 > the relinquishment of all assets, the destruction of craving, detachment,
 > cessation, extinction.
 
-[^fn838]: M I 436, *Mahāmālunkyasutta*
+[^fn838]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn839]: S III 142, *Pheṇapiṇḍūpamasutta*
+[^fn839]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
-[^fn840]: A II 25, *Kāḷakārāmasutta*
+[^fn840]: [AN 4.24 / A II 25](https://suttacentral.net/an4.24/pli/ms), *Kāḷakārāmasutta*
 
-[^fn841]: Ud 8, *Bāhiyasutta*
+[^fn841]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn842]: See *Sermon 25*
 
-[^fn843]: M I 292, *Mahāvedallasutta*
+[^fn843]: [MN 43 / M I 292](https://suttacentral.net/mn43/pli/ms), *Mahāvedallasutta*
 
-[^fn844]: Th 716, *Adhimutta Theragāthā*; see also *Sermon 8*
+[^fn844]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*; see also *Sermon 8*
 
-[^fn845]: S II 25, *Paccayasutta*; see *Sermon 2*
+[^fn845]: [SN 12.20 / S II 25](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*; see *Sermon 2*
 
-[^fn846]: A III 440, *Catuttha-abhabbaṭṭhānasutta*
+[^fn846]: [AN 6.95 / A III 440](https://suttacentral.net/an6.95/pli/ms), *Catuttha-abhabbaṭṭhānasutta*
 
 [^fn847]: See *Sermon 5*
 
-[^fn848]: Vin I 40, *Mahāvagga*
+[^fn848]: [Vin I 40](https://suttacentral.net/pli-tv-kd1/pli/ms), *Mahāvagga*
 
-[^fn849]: M I 54, *Sammādiṭṭhisutta*
+[^fn849]: [MN 9 / M I 54](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*
 
-[^fn850]: M III 63, *Bahudhātukasutta*
+[^fn850]: [MN 115 / M III 63](https://suttacentral.net/mn115/pli/ms), *Bahudhātukasutta*
 
-[^fn851]: Dhp 1, *Yamakavagga*
+[^fn851]: [Dhp 1](https://suttacentral.net/dhp1-20/pli/ms), *Yamakavagga*
 
-[^fn852]: S II 78, *Ariyasāvakasutta*
+[^fn852]: [SN 12.49 / S II 78](https://suttacentral.net/sn12.49/pli/ms), *Ariyasāvakasutta*
 
-[^fn853]: S II 27, *Paccayasutta*
+[^fn853]: [SN 12.20 / S II 27](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 
-[^fn854]: Ud 8, *Bāhiyasutta*
+[^fn854]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
 [^fn855]: See *Sermon 1*
 
-[^fn856]: S I 13, *Jaṭāsutta*
+[^fn856]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*
 
-[^fn857]: M III 273, *Nandakovādasutta*
+[^fn857]: [MN 146 / M III 273](https://suttacentral.net/mn146/pli/ms), *Nandakovādasutta*
 
-[^fn858]: Th 716, *Adhimutta Theragāthā*
+[^fn858]: [Thag 16.1 / Th 716](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
-[^fn859]: E.g. A V 120, *Niṭṭhaṅgatasutta*
+[^fn859]: E.g. [AN 10.63 / A V 120](https://suttacentral.net/an10.63/pli/ms), *Niṭṭhaṅgatasutta*
 
-[^fn860]: Ud 8, *Bāhiyasutta*
+[^fn860]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
-[^fn861]: Sn 824, *Pasūrasutta*, see *Sermon 25*
+[^fn861]: [Snp 4.8 / Sn 824](https://suttacentral.net/snp4.8/pli/ms), *Pasūrasutta*, see *Sermon 25*
 
-[^fn862]: Sn 886, *Cūḷa-Viyūhasutta*
+[^fn862]: [Snp 4.12 / Sn 886](https://suttacentral.net/snp4.12/pli/ms), *Cūḷaviyūhasutta*
 
-[^fn863]: Ud 67, *Paṭhamanānātitthiyasutta*
+[^fn863]: [Ud 6.4 / Ud 67](https://suttacentral.net/ud6.4/pli/ms), *Paṭhamanānātitthiyasutta*
 
-[^fn864]: D I 42, *Brahmajālasutta*
+[^fn864]: [DN 1 / D I 42](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
-[^fn865]: D II 130, *Mahāparinibbānasutta*
+[^fn865]: [DN 16 / D II 130](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
 [^fn866]: See *Sermons 16-19*
 
-[^fn867]: Sn 874, *Kalahavivādasutta*
+[^fn867]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn868]: A V 318, *Saññāsutta*, see *Sermon 16*
+[^fn868]: [AN 11.7 / A V 318](https://suttacentral.net/an11.7/pli/ms), *Saññāsutta*, see *Sermon 16*
 
-[^fn869]: M I 436, *Mahāmālunkyasutta*
+[^fn869]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*

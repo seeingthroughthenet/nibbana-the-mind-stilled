@@ -955,58 +955,58 @@ is drawn the other falls down. Even so, with the cessation of consciousness
 comes the cessation of name-and-form. With the cessation of name-and-form comes
 the cessation of consciousness. That is how the Buddha solved this problem.
 
-[^fn753]: M I 436, *Mahāmālunkyasutta*
+[^fn753]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn754]: S I 14, *Arahantasutta*, see *Sermon 13*
+[^fn754]: [SN 1.25 / S I 14](https://suttacentral.net/sn1.25/pli/ms), *Arahantasutta*, see *Sermon 13*
 
-[^fn755]: Ud 3, *Bodhivagga*
+[^fn755]: [Ud 1.3 / Ud 3](https://suttacentral.net/ud1.3/pli/ms), *Bodhivagga*
 
-[^fn756]: S III 89, *Khajjanīyasutta*
+[^fn756]: [SN 22.79 / S III 89](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*
 
-[^fn757]: Dhp 58-59, *Pupphavagga*
+[^fn757]: [Dhp 58-59](https://suttacentral.net/dhp44-59/pli/ms), *Pupphavagga*
 
 [^fn758]: See *Sermon 22*
 
-[^fn759]: S IV 93, *Lokakāmaguṇasutta*
+[^fn759]: [SN 35.116 / S IV 93](https://suttacentral.net/sn35.116/pli/ms), *Lokakāmaguṇasutta*
 
 [^fn760]: See *Sermon 20*
 
 [^fn761]: See *Sermons 4 and 22*
 
-[^fn762]: S II 17, *Kaccāyanagottasutta*
+[^fn762]: [SN 12.15 / S II 17](https://suttacentral.net/sn12.15/pli/ms), *Kaccāyanagottasutta*
 
-[^fn763]: A IV 428, *Lokāyatikābrāhmaṇāsutta*
+[^fn763]: [AN 9.37 / A IV 428](https://suttacentral.net/an9.37/pli/ms), *Lokāyatikābrāhmaṇāsutta*
 
-[^fn764]: M I 302, *Cūḷavedallasutta*
+[^fn764]: [MN 44 / M I 302](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
 [^fn765]: Ps II 367
 
 [^fn766]: See *Sermons 16 and 17*
 
-[^fn767]: S I 61 and A II 49 *Rohitassasutta*
+[^fn767]: [SN 2.26 / S I 61](https://suttacentral.net/sn2.26/pli/ms) and [AN 4.45 / A II 49](https://suttacentral.net/an4.45/pli/ms) *Rohitassasutta*
 
 [^fn768]: Spk I 118 and Mp III 89
 
 [^fn769]: Mrs. Rhys Davids: *The Book of the Kindred Sayings*, PTS 1979, p 86 n 3
 
-[^fn770]: A V 318, *Saññāsutta*, see also *Sermon 16*
+[^fn770]: [AN 11.7 / A V 318](https://suttacentral.net/an11.7/pli/ms), *Saññāsutta*, see also *Sermon 16*
 
-[^fn771]: A V 9, *Sāriputtasutta*, see also *Sermon 17*
+[^fn771]: [AN 10.7 / A V 9](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*, see also *Sermon 17*
 
-[^fn772]: A V 321, *Manasikārasutta*, see also *Sermon 16*
+[^fn772]: [AN 11.8 / A V 321](https://suttacentral.net/an11.8/pli/ms), *Manasikārasutta*, see also *Sermon 16*
 
 [^fn773]: See *Sermon 17*
 
-[^fn774]: S IV 98, *Kāmaguṇasutta*
+[^fn774]: [SN 35.117 / S IV 98](https://suttacentral.net/sn35.117/pli/ms), *Kāmaguṇasutta*
 
-[^fn775]: A II 161, *Mahā Koṭṭhitasutta*
+[^fn775]: [AN 4.173 / A II 161](https://suttacentral.net/an4.173/pli/ms), *Mahākoṭṭhitasutta*
 
 [^fn776]: Mp III 150
 
-[^fn777]: A II 11, *Yogasutta*
+[^fn777]: [AN 4.10 / A II 11](https://suttacentral.net/an4.10/pli/ms), *Yogasutta*
 
 [^fn778]: See *Sermons 13 and 15*
 
-[^fn779]: D I 223, *Kevaḍḍhasutta*, see also *Sermon 6*
+[^fn779]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*, see also *Sermon 6*
 
-[^fn780]: S II 114, *Naḷakalāpīsutta*, see also *Sermon 3*
+[^fn780]: [SN 12.67 / S II 114](https://suttacentral.net/sn12.67/pli/ms), *Naḷakalāpīsutta*, see also *Sermon 3*

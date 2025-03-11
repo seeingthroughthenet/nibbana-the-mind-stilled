@@ -811,64 +811,64 @@ of the mind by making all signs fade away, so that the whole world appears like
 a blotched water-colour painting, thus freeing the mind from the perception of
 diversity, without even resorting to a perception of unity.
 
-[^fn933]: M I 436, *Mahāmālunkyasutta*
+[^fn933]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn934]: M I 185, *Mahāhatthipadopamasutta*
+[^fn934]: [MN 28 / M I 185](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 
-[^fn935]: Sn 342, *Rāhulasutta*; see also S I 188, *Ānandasutta*; Th 1226, *Vaṅgīsatheragāthā*; Thī 20, *Abhirūpanandātherīgāthā*
+[^fn935]: [Snp 2.11 / Sn 342](https://suttacentral.net/snp2.11/pli/ms), *Rāhulasutta*; see also [SN 8.4 / S I 188](https://suttacentral.net/sn8.4/pli/ms), *Ānandasutta*; [Thag 21.1 / Th 1226](https://suttacentral.net/thag21.1/pli/ms), *Vaṅgīsatheragāthā*; [Thig 2.1 / Thī 20](https://suttacentral.net/thig2.1/pli/ms), *Abhirūpanandātherīgāthā*
 
-[^fn936]: S III 93, *Piṇḍolyasutta*
+[^fn936]: [SN 22.80 / S III 93](https://suttacentral.net/sn22.80/pli/ms), *Piṇḍolyasutta*
 
-[^fn937]: E.g. M III 1, *Gaṇakamoggallānasutta*
+[^fn937]: E.g. [MN 107 / M III 1](https://suttacentral.net/mn107/pli/ms), *Gaṇakamoggallānasutta*
 
-[^fn938]: M I 149, *Rathavinītasutta*
+[^fn938]: [MN 24 / M I 149](https://suttacentral.net/mn24/pli/ms), *Rathavinītasutta*
 
 [^fn939]: See *Sermon 5*
 
-[^fn940]: Th 1160, *Mahāmoggallānatheragāthā*
+[^fn940]: [Thag 20.1 / Th 1160](https://suttacentral.net/thag20.1/pli/ms), *Mahāmoggallānatheragāthā*
 
-[^fn941]: Thī 101, *Sakulātherīgāthā*
+[^fn941]: [Thig 5.7 / Thī 101](https://suttacentral.net/thig5.7/pli/ms), *Sakulātherīgāthā*
 
-[^fn942]: E.g. M I 300, *Cūḷavedallasutta*
+[^fn942]: E.g. [MN 44 / M I 300](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
-[^fn943]: M I 56, *Satipaṭṭhānasutta*
+[^fn943]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn944]: S I 135, *Vajirāsutta*
+[^fn944]: [SN 5.10 / S I 135](https://suttacentral.net/sn5.10/pli/ms), *Vajirāsutta*
 
-[^fn945]: Sn 920, *Tuvaṭakasutta*
+[^fn945]: [Snp 4.14 / Sn 920](https://suttacentral.net/snp4.14/pli/ms), *Tuvaṭakasutta*
 
-[^fn946]: DN II 277, *Sakkapañhasutta*
+[^fn946]: [DN 21 / D II 277](https://suttacentral.net/dn21/pli/ms), *Sakkapañhasutta*
 
-[^fn947]: MN I 109, *Madhupiṇḍikasutta*; see *Sermon 11 and 12*
+[^fn947]: [MN 18 / M I 109](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*; see *Sermon 11 and 12*
 
-[^fn948]: MN I 112, *Madhupiṇḍikasutta*; see *Sermon 11*
+[^fn948]: [MN 18 / M I 112](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*; see *Sermon 11*
 
-[^fn949]: Ud 71, *Subhūtisutta*
+[^fn949]: [Ud 6.7 / Ud 71](https://suttacentral.net/ud6.7/pli/ms), *Subhūtisutta*
 
 [^fn950]: Ud-a 348
 
-[^fn951]: S III 89, *Khajjanīyasutta*, see *Sermon 23*
+[^fn951]: [SN 22.79 / S III 89](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*, see *Sermon 23*
 
-[^fn952]: S I 13, *Jaṭāsutta*; see *Sermon 11*
+[^fn952]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*; see *Sermon 11*
 
-[^fn953]: Sn 436, *Padhānasutta*
+[^fn953]: [Snp 3.2 / Sn 436](https://suttacentral.net/snp3.2/pli/ms), *Padhānasutta*
 
-[^fn954]: S I 22, *Nasantisutta*
+[^fn954]: [SN 1.34 / S I 22](https://suttacentral.net/sn1.34/pli/ms), *Nasantisutta*
 
-[^fn955]: Sn 970, *Sāriputtasutta*
+[^fn955]: [Snp 4.16 / Sn 970](https://suttacentral.net/snp4.16/pli/ms), *Sāriputtasutta*
 
-[^fn956]: Ud 3, *Bodhivagga*; see *Sermon 23*
+[^fn956]: [Ud 1.3 / Ud 3](https://suttacentral.net/ud1.3/pli/ms), *Bodhivagga*; see *Sermon 23*
 
-[^fn957]: Th 999, *Sāriputtatheragāthā*
+[^fn957]: [Thag 17.2 / Th 999](https://suttacentral.net/thag17.2/pli/ms), *Sāriputtatheragāthā*
 
-[^fn958]: Thī 75, *Vimalātherīgāthā*
+[^fn958]: [Thig 5.2 / Thī 75](https://suttacentral.net/thig5.2/pli/ms), *Vimalātherīgāthā*
 
-[^fn959]: S I 126, *Dhītarosutta*
+[^fn959]: [SN 4.25 / S I 126](https://suttacentral.net/sn4.25/pli/ms), *Dhītarosutta*
 
-[^fn960]: Ud 77, *Papañcakhayasutta*
+[^fn960]: [Ud 7.7 / Ud 77](https://suttacentral.net/ud7.7/pli/ms), *Papañcakhayasutta*
 
-[^fn961]: S I 39, *Saṁyojanasutta*
+[^fn961]: [SN 1.61 / S I 39](https://suttacentral.net/sn1.61/pli/ms), *Saṁyojanasutta*
 
-[^fn962]: Sn 472, *Sundarikabhāradvājasutta*
+[^fn962]: [Snp 3.4 / Sn 472](https://suttacentral.net/snp3.4/pli/ms), *Sundarikabhāradvājasutta*
 
 [^fn963]: Pj II 409

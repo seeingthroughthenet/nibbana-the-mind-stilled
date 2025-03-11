@@ -813,60 +813,60 @@ The steadfastness associated with the epithet *tādī* is reinforced in one
 The verse in question, then, points to the conclusion that the steadfast one,
 the *arahant*, who has attained supramundane freedom, does not come back.
 
-[^fn571]: M I 436, *Mahāmālunkyasutta*
+[^fn571]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn572]: See especially *Sermon 7*
 
-[^fn573]: It 62, *Santatarasutta*
+[^fn573]: [Iti 73 / It 62](https://suttacentral.net/iti73/pli/ms), *Santatarasutta*
 
 [^fn574]: See *Sermon 7*
 
 [^fn575]: It-a II 42
 
-[^fn576]: Ud 12, *Sakkārasutta*; see *Sermon 16*
+[^fn576]: [Ud 2.4 / Ud 12](https://suttacentral.net/ud2.4/pli/ms), *Sakkārasutta*; see *Sermon 16*
 
-[^fn577]: This expression occurs e.g. at M I 35, *Ākaṅkheyyasutta*
+[^fn577]: This expression occurs e.g. at [MN 6 / M I 35](https://suttacentral.net/mn6/pli/ms), *Ākaṅkheyyasutta*
 
-[^fn578]: This expression occurs e.g. at S IV 297, *Godattasutta*
+[^fn578]: This expression occurs e.g. at [SN 41.7 / S IV 297](https://suttacentral.net/sn41.7/pli/ms), *Godattasutta*
 
-[^fn579]: Ps III 115, *aṭṭhakathā* on the *Bahuvedanīyasutta*
+[^fn579]: Ps III 115, *aṭṭhakathā* on MN 59, *Bahuvedanīyasutta*
 
-[^fn580]: Ud 9, *Bāhiyasutta*; see *Sermon 15*
+[^fn580]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*; see *Sermon 15*
 
-[^fn581]: A V 8, *Sāriputtasutta*
+[^fn581]: [AN 10.7 / A V 8](https://suttacentral.net/an10.7/pli/ms), *Sāriputtasutta*
 
-[^fn582]: A III 379, *Soṇasutta*
+[^fn582]: [AN 6.55 / A III 379](https://suttacentral.net/an6.55/pli/ms), *Soṇasutta*
 
 [^fn583]: See *Sermon 1*
 
-[^fn584]: S IV 19, *Ādittasutta*
+[^fn584]: [SN 35.28 / S IV 19](https://suttacentral.net/sn35.28/pli/ms), *Ādittasutta*
 
 [^fn585]: See *Sermon 9 and 15*
 
-[^fn586]: S IV 98, *Kāmaguṇasutta*
+[^fn586]: [SN 35.117 / S IV 98](https://suttacentral.net/sn35.117/pli/ms), *Kāmaguṇasutta*
 
 [^fn587]: See *Sermon 5*
 
 [^fn588]: Spk II 391
 
-[^fn589]: M III 217, *Saḷāyatanavibhaṅgasutta*
+[^fn589]: [MN 137 / M III 217](https://suttacentral.net/mn137/pli/ms), *Saḷāyatanavibhaṅgasutta*
 
-[^fn590]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*
+[^fn590]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*
 
 [^fn591]: Ud-a 389
 
-[^fn592]: A I 133, *Sāriputtasutta*
+[^fn592]: [AN 3.33 / A I 133](https://suttacentral.net/an3.33/pli/ms), *Sāriputtasutta*
 
-[^fn593]: Sn 1106-1107, *Udayamāṇavapucchā*
+[^fn593]: [Snp 5.14 / Sn 1106-1107](https://suttacentral.net/snp5.14/pli/ms), *Udayamāṇavapucchā*
 
-[^fn594]: A IV 426, *Ānandasutta*
+[^fn594]: [AN 9.37 / A IV 426](https://suttacentral.net/an9.37/pli/ms), *Ānandasutta*
 
-[^fn595]: Sn 784, *Duṭṭhaṭṭhakasutta*
+[^fn595]: [Snp 4.3 / Sn 784](https://suttacentral.net/snp4.3/pli/ms), *Duṭṭhaṭṭhakasutta*
 
-[^fn596]: E.g. D I 156, *Mahālisutta*
+[^fn596]: E.g. [DN 6 / D I 156](https://suttacentral.net/dn6/pli/ms), *Mahālisutta*
 
-[^fn597]: A II 5, *Anusotasutta*
+[^fn597]: [AN 4.5 / A II 5](https://suttacentral.net/an4.5/pli/ms), *Anusotasutta*
 
-[^fn598]: Sn 803, *Paramaṭṭhakasutta*
+[^fn598]: [Snp 4.5 / Sn 803](https://suttacentral.net/snp4.5/pli/ms), *Paramaṭṭhakasutta*
 
-[^fn599]: Dhp 95, *Arahantavagga*
+[^fn599]: [Dhp 95](https://suttacentral.net/dhp90-99/pli/ms), *Arahantavagga*

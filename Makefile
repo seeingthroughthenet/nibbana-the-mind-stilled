@@ -11,6 +11,15 @@ document:
 %.pdf: %.tex
 	$(LATEX) $(LATEX_OPTS) $<
 
+part-1:
+	$(LATEX) $(LATEX_OPTS) $(FILE)-part-1.tex
+
+part-2:
+	$(LATEX) $(LATEX_OPTS) $(FILE)-part-2.tex
+
+part-covers:
+	./helpers/generate_part_covers.sh
+
 ebooks:
 	./helpers/ebooks.sh
 

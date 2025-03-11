@@ -865,38 +865,38 @@ Leaving them all behind and reaching the subtlest of them all, there comes the
 final 'let go' to attain that perfect extinction without clinging, *anupādā
 parinibbāna*. This is the subtlest truth in this Dhamma.
 
-[^fn964]: M I 436, *Mahāmālunkyasutta*
+[^fn964]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn965]: M III 217, *Saḷāyatanavibhaṅgasutta*
+[^fn965]: [MN 137 / M III 217](https://suttacentral.net/mn137/pli/ms), *Saḷāyatanavibhaṅgasutta*
 
-[^fn966]: Ud 80, *Paṭhamanibbānapaṭisaṁyuttasutta*
+[^fn966]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*
 
 [^fn967]: See *Sermon 17*
 
 [^fn968]: See esp. *Sermons 14, 15, 24 and 25*
 
-[^fn969]: M III 44, *Sappurisasutta*
+[^fn969]: [MN 113 / M III 44](https://suttacentral.net/mn113/pli/ms), *Sappurisasutta*
 
 [^fn970]: See *Sermons 13, 14 and 15*
 
-[^fn971]: M I 119, *Vitakkasanthānasutta*
+[^fn971]: [MN 20 / M I 119](https://suttacentral.net/mn20/pli/ms), *Vitakkasanthānasutta*
 
-[^fn972]: S IV 282, *Saṁyojanasutta*
+[^fn972]: [SN 41.1 / S IV 282](https://suttacentral.net/sn41.1/pli/ms), *Saṁyojanasutta*
 
-[^fn973]: S I 1, *Oghataraṇasutta*
+[^fn973]: [SN 1.1 / S I 1](https://suttacentral.net/sn1.1/pli/ms), *Oghataraṇasutta*
 
-[^fn974]: S V 421, *Dhammacakkapavattanasutta*
+[^fn974]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkapavattanasutta*
 
 [^fn975]: See *Sermon 3* etc.
 
-[^fn976]: Sn 838, *Māgandiyasutta*
+[^fn976]: [Snp 4.9 / Sn 838](https://suttacentral.net/snp4.9/pli/ms), *Māgandiyasutta*
 
 [^fn977]: Pj II 545
 
-[^fn978]: M III 266, *Channovādasutta*; see *Sermon 4*
+[^fn978]: [MN 144 / M III 266](https://suttacentral.net/mn144/pli/ms), *Channovādasutta*; see *Sermon 4*
 
 [^fn979]: See *Sermon 5*
 
-[^fn980]: M I 147, *Rathavinītasutta*
+[^fn980]: [MN 24 / M I 147](https://suttacentral.net/mn24/pli/ms), *Rathavinītasutta*
 
-[^fn981]: M I 134, *Alagaddūpamasutta*; see *Sermon 18*
+[^fn981]: [MN 22 / M I 134](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*; see *Sermon 18*

@@ -846,42 +846,42 @@ In this way, the Buddha first of all delineates how the entire *saṁsāric*
 suffering arises in connection with the six-fold sense-sphere. We will discuss
 the rest of the discourse in our next sermon.
 
-[^fn1012]: M I 436, *Mahāmālunkyasutta*
+[^fn1012]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn1013]: S V 197, *Paṭhamavibhaṅgasutta*
+[^fn1013]: [SN 48.10 / S V 197](https://suttacentral.net/sn48.10/pli/ms), *Paṭhamavibhaṅgasutta*
 
-[^fn1014]: M II 173, *Caṅkīsutta*
+[^fn1014]: [MN 95 / M II 173](https://suttacentral.net/mn95/pli/ms), *Caṅkīsutta*
 
 [^fn1015]: Ps III 426
 
-[^fn1016]: A IV 320, *Dutiyamaraṇasatisutta*
+[^fn1016]: [AN 8.74 / A IV 320](https://suttacentral.net/an8.74/pli/ms), *Dutiyamaraṇasatisutta*
 
-[^fn1017]: S V 227, *Sālasutta*; and S V 231, *Padasutta*
+[^fn1017]: [SN 48.51 / S V 227](https://suttacentral.net/sn48.51/pli/ms), *Sālasutta*; and [SN 48.54 / S V 231](https://suttacentral.net/sn48.54/pli/ms), *Padasutta*
 
-[^fn1018]: S V 228, *Mallikasutta*
+[^fn1018]: [SN 48.52 / S V 228](https://suttacentral.net/sn48.52/pli/ms), *Mallikasutta*
 
-[^fn1019]: S V 202, *Paṭipannasutta*
+[^fn1019]: [SN 48.18 / S V 202](https://suttacentral.net/sn48.18/pli/ms), *Paṭipannasutta*
 
-[^fn1020]: S V 72, *Bhikkhusutta*
+[^fn1020]: [SN 46.5 / S V 72](https://suttacentral.net/sn46.5/pli/ms), *Bhikkhusutta*
 
-[^fn1021]: S V 119, *Mettāsahagatasutta*
+[^fn1021]: [SN 46.54 / S V 119](https://suttacentral.net/sn46.54/pli/ms), *Mettāsahagatasutta*
 
-[^fn1022]: S V 331, *Paṭhamaānandasutta*
+[^fn1022]: [SN 54.13 / S V 331](https://suttacentral.net/sn54.13/pli/ms), *Paṭhamaānandasutta*
 
-[^fn1023]: M III 72, *Mahācattārīsakasutta*
+[^fn1023]: [MN 117 / M III 72](https://suttacentral.net/mn117/pli/ms), *Mahācattārīsakasutta*
 
-[^fn1024]: E.g. S V 2, *Upaḍḍhasutta*
+[^fn1024]: E.g. [SN 45.2 / S V 2](https://suttacentral.net/sn45.2/pli/ms), *Upaḍḍhasutta*
 
-[^fn1025]: M III 76, *Mahācattārīsakasutta*
+[^fn1025]: [MN 117 / M III 76](https://suttacentral.net/mn117/pli/ms), *Mahācattārīsakasutta*
 
-[^fn1026]: A I 32, *Ekadhammapāḷi*
+[^fn1026]: [AN 1.314 / A I 32](https://suttacentral.net/an1.306-315/pli/ms), *Ekadhammapāḷi*
 
-[^fn1027]: S V 421, *Dhammacakkappavattanasutta*
+[^fn1027]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*
 
-[^fn1028]: M III 203, *Cūḷakammavibhaṅgasutta*
+[^fn1028]: [MN 135 / M III 203](https://suttacentral.net/mn135/pli/ms), *Cūḷakammavibhaṅgasutta*
 
-[^fn1029]: A II 34, *Aggappasādasutta*
+[^fn1029]: [AN 4.34 / A II 34](https://suttacentral.net/an4.34/pli/ms), *Aggappasādasutta*
 
-[^fn1030]: S V 49, *Ākāsasutta*
+[^fn1030]: [SN 45.155 / S V 49](https://suttacentral.net/sn45.155/pli/ms), *Ākāsasutta*
 
-[^fn1031]: M III 287, *Mahāsaḷāyatanikasutta*
+[^fn1031]: [MN 149 / M III 287](https://suttacentral.net/mn149/pli/ms), *Mahāsaḷāyatanikasutta*

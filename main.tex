@@ -2,8 +2,6 @@
   final,
   babelLanguage=british,
   desktopVersion,
-  %showtrims,
-  %overleaf,
 ]{anecdote}
 
 \graphicspath{{./assets/images/}}
@@ -18,7 +16,8 @@
 
 \title{Nibbāna -- The Mind Stilled}
 \subtitle{33 Sermons on Nibbāna}
-\author{Bhikkhu K. Ñāṇananda}
+\volumeTitle{}
+\author{Bhikkhu Kaṭukurunde Ñāṇananda}
 \publisher{Kaṭukurunde Ñāṇananda Sadaham Senasun Bhāraya (KNSSB)}
 \date{2024-12-13}
 \editionInfo{\textit{Library Edition}, 2025}
@@ -50,26 +49,7 @@
 
 %% === Hyphenation exceptions and corrections ===
 
-\hyphenation{
-ādīnava-dassanato
-anaññā-taññā-ssāmīt
-aññā-phala-samādhi
-arahaṁ
-arahatta-phala-samādhi
-bhava-nirodha
-Brahma-nimantanika-sutta
-Chaṭṭha-saṅgīti
-Dhamma-dinnā
-et-y-mol-o-gy
-giragga-samajja
-London
-Mantāṇi-putta
-Mūla-pariyāya-sutta
-nekkhamma-sitā
-Sakka-pañha-sutta
-saṅkhāra-paccayā
-Vimalā-therī-gāthā
-}
+\input{./hyphenation.tex}
 
 \begin{document}
 
@@ -95,6 +75,12 @@ Vimalā-therī-gāthā
 \input{./manuscript/tex/about-the-knssb.tex}
 
 \input{./manuscript/tex/introduction.tex}
+
+% \mainmatter is redefined so it doesn't add empty pages.
+% Move the first chapter page to the right side.
+\clearpage
+\thispagestyle{empty}\null
+\clearpage
 
 % Page 1 is the first page of the first chapter.
 \mainmatter
@@ -134,6 +120,8 @@ Vimalā-therī-gāthā
 \input{./manuscript/tex/sermon-33.tex}
 
 \backmatter
+
+\input{./manuscript/tex/by-the-same-author.tex}
 
 \input{./manuscript/tex/copyright-details.tex}
 

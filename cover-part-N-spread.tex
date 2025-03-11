@@ -1,0 +1,55 @@
+\documentclass{article}
+
+% [Cover PDF] Page 1: Invalid dimensions, got [12.522 in x 9.215 in], expected [12.569 in x 9.250 in].
+%
+% Width: 0.047 in, 3.384 pt
+% Height: 0.035 in, 2.52 pt
+
+\newlength\totalCoverWidth
+\setlength{\totalCoverWidth}{905pt}
+\addtolength{\totalCoverWidth}{3.3pt}
+
+\newlength\totalCoverHeight
+\setlength{\totalCoverHeight}{666pt}
+\addtolength{\totalCoverHeight}{2.5pt}
+
+\newlength\frontCoverWidth
+\setlength{\frontCoverWidth}{441pt}
+
+\usepackage{geometry}
+
+\geometry{
+  paperwidth=\totalCoverWidth,
+  paperheight=\totalCoverHeight,
+  hmargin=0pt,
+  vmargin=0pt,
+  noheadfoot,
+}
+
+\usepackage{eso-pic}
+
+\usepackage{graphicx}
+\graphicspath{{./assets/cover/pdf/}}
+
+\pagestyle{empty}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\centering%
+\includegraphics[height=\paperheight]{cover-1-spine.pdf}%
+\par%
+
+\AddToShipoutPictureFG*{%
+  \put(0,0){%
+    \includegraphics[height=\paperheight]{cover-back.pdf}%
+  }%
+}%
+\AddToShipoutPictureFG*{%
+  \put(\LenToUnit{\totalCoverWidth - 441pt},0){%
+    \includegraphics[height=\paperheight]{cover-1-front.pdf}%
+  }%
+}%
+
+\end{document}

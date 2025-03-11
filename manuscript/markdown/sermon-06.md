@@ -814,68 +814,68 @@ footing. Also, it is in this consciousness that long and short, fine and coarse,
 and pleasant and unpleasant, as well as name-and-form, are kept in check. It is
 by the cessation of consciousness that all these are held in check.
 
-[^fn189]: M I 436, *Mahāmālunkyasutta*
+[^fn189]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn190]: See *Sermon 5*
 
-[^fn191]: S III 151, see *Sermon 5*
+[^fn191]: [SN 22.100 / S III 151](https://suttacentral.net/sn22.100/pli/ms), see *Sermon 5*
 
-[^fn192]: S III 152, *Gaddulasutta*
+[^fn192]: [SN 22.100 / S III 152](https://suttacentral.net/sn22.100/pli/ms), *Gaddulasutta*
 
-[^fn193]: S III 142, *Pheṇapiṇḍūpamasutta*
+[^fn193]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*
 
-[^fn194]: Ud 79, *Udenasutta*, see *Sermon 5*
+[^fn194]: [Ud 7.9 / Ud 79](https://suttacentral.net/ud7.9/pli/ms), *Udenasutta*, see *Sermon 5*
 
-[^fn195]: S III 87, *Khajjanīyasutta*
+[^fn195]: [SN 22.79 / S III 87](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*
 
-[^fn196]: E.g. at M I 350, *Aṭṭhakanāgarasutta*
+[^fn196]: E.g. at [MN 52 / M I 350](https://suttacentral.net/mn52/pli/ms), *Aṭṭhakanāgarasutta*
 
-[^fn197]: E.g. at S II 65, *Cetanāsutta*
+[^fn197]: E.g. at [SN 12.38 / S II 65](https://suttacentral.net/sn12.38/pli/ms), *Cetanāsutta*
 
-[^fn198]: E.g. at A I 122, *Saṅkhārasutta*
+[^fn198]: E.g. at [AN 3.23 / A I 122](https://suttacentral.net/an3.23/pli/ms), *Saṅkhārasutta*
 
-[^fn199]: A II 157, *Cetanāsutta*
+[^fn199]: [AN 4.171 / A II 157](https://suttacentral.net/an4.171/pli/ms), *Cetanāsutta*
 
 [^fn200]: See *Sermon 2*
 
-[^fn201]: A II 157, *Cetanāsutta*
+[^fn201]: [AN 4.171 / A II 157](https://suttacentral.net/an4.171/pli/ms), *Cetanāsutta*
 
 [^fn202]: See *Sermon 5*
 
 [^fn203]: See *Sermon 1*
 
-[^fn204]: S II 4, *Vibhaṅgasutta*
+[^fn204]: [SN 12.2 / S II 4](https://suttacentral.net/sn12.2/pli/ms), *Vibhaṅgasutta*
 
-[^fn205]: M I 301, *Cūḷavedallasutta*
+[^fn205]: [MN 44 / M I 301](https://suttacentral.net/mn44/pli/ms), *Cūḷavedallasutta*
 
-[^fn206]: M II 231, *Pañcattayasutta*
+[^fn206]: [MN 102 / M II 231](https://suttacentral.net/mn102/pli/ms), *Pañcattayasutta*
 
-[^fn207]: A I 261, *Ruṇṇasutta*
+[^fn207]: [AN 3.107 / A I 261](https://suttacentral.net/an3.107/pli/ms), *Ruṇṇasutta*
 
 [^fn208]: See *Sermon 5*
 
-[^fn209]: S V 421, *Dhammacakkappavattanasutta*
+[^fn209]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*
 
 [^fn210]: E.g. at Nid I 54: *taṇhālepo*
 
-[^fn211]: Dhp 335: *taṇhā loke visattikā*, (*Taṇhāvagga*)
+[^fn211]: [Dhp 335](https://suttacentral.net/dhp334-359/pli/ms): *taṇhā loke visattikā*, *Taṇhāvagga*
 
 [^fn212]: See *Sermon 5*
 
 [^fn213]: See *Sermon 1*
 
-[^fn214]: Sn 756, *Dvayatānupassanāsutta*
+[^fn214]: [Snp 3.12 / Sn 756](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*
 
-[^fn215]: S V 421, *Dhammacakkappavattanasutta*
+[^fn215]: [SN 56.11 / S V 421](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkappavattanasutta*
 
-[^fn216]: S II 41, *Upavāṇasutta*
+[^fn216]: [SN 12.26 / S II 41](https://suttacentral.net/sn12.26/pli/ms), *Upavāṇasutta*
 
-[^fn217]: E.g. at M III 299, *Indriyabhāvanāsutta*
+[^fn217]: E.g. at [MN 152 / M III 299](https://suttacentral.net/mn152/pli/ms), *Indriyabhāvanāsutta*
 
-[^fn218]: S III 58, *Udānasutta* (see *viññāṇaṁ ... anabhisaṅkhacca vimuttaṁ*).
+[^fn218]: [SN 22.55 / S III 58](https://suttacentral.net/sn22.55/pli/ms), *Udānasutta* (see *viññāṇaṁ ... anabhisaṅkhacca vimuttaṁ*).
 
-[^fn219]: E.g. at M I 329, *Brahmanimantanikasutta*
+[^fn219]: E.g. at [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 
-[^fn220]: D I 223, *Kevaḍḍhasutta*
+[^fn220]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn221]: Sv II 393

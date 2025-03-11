@@ -223,7 +223,7 @@ Nibbāna beginning with the words *atthi, bhikkhave, tad āyatanaṁ*,[^fn793]
 
 It is this same cessation of the six sense-spheres that is referred to as
 *papañcanirodha* and *papañcavūpasama*, cessation or appeasement of conceptual
-proliferation. In the *Mahā Koṭṭhitasutta* we discussed in our previous sermon,
+proliferation. In the *Mahākoṭṭhitasutta* we discussed in our previous sermon,
 we found Venerable Sāriputta making the following conclusive statement to the
 same effect:
 
@@ -787,47 +787,47 @@ said to be due to his freedom from influxes. He does not grasp them by way of
 craving, conceit and views. He does not take his stand upon things seen, heard,
 sensed and cognized. He has no inclination or clinging towards them.
 
-[^fn781]: M I 436, *Mahāmālunkyasutta*
+[^fn781]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn782]: S I 62 and A II 50 *Rohitassasutta*; see *Sermon 23*
+[^fn782]: [SN 2.26 / S I 62](https://suttacentral.net/sn2.26/pli/ms) and [AN 4.45 / A II 50](https://suttacentral.net/an4.45/pli/ms) *Rohitassasutta*; see *Sermon 23*
 
-[^fn783]: S IV 95, *Lokakāmaguṇasutta*
+[^fn783]: [SN 35.116 / S IV 95](https://suttacentral.net/sn35.116/pli/ms), *Lokakāmaguṇasutta*
 
-[^fn784]: Ud 80, *Pāṭaligāmiyavagga*
+[^fn784]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Pāṭaligāmiyavagga*
 
 [^fn785]: See *Sermon 7*
 
-[^fn786]: Ud 80, *Pāṭaligāmiyavagga*
+[^fn786]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Pāṭaligāmiyavagga*
 
-[^fn787]: Ud 81, *Pāṭaligāmiyavagga*
+[^fn787]: [Ud 8.4 / Ud 81](https://suttacentral.net/ud8.4/pli/ms), *Pāṭaligāmiyavagga*
 
-[^fn788]: S III 189, *Mārosutta*
+[^fn788]: [SN 23.1 / S III 189](https://suttacentral.net/sn23.1/pli/ms), *Mārosutta*
 
 [^fn789]: See *Sermon 14*
 
 [^fn790]: See *Sermon 3*
 
-[^fn791]: Sn 1103, *Bhadrāvudhamāṇavappucchā*
+[^fn791]: [Snp 5.13 / Sn 1103](https://suttacentral.net/snp5.13/pli/ms), *Bhadrāvudhamāṇavappucchā*
 
-[^fn792]: S I 115, *Kassakasutta*
+[^fn792]: [SN 4.19 / S I 115](https://suttacentral.net/sn4.19/pli/ms), *Kassakasutta*
 
-[^fn793]: Ud 80, *Pāṭaligāmiyavagga*
+[^fn793]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Pāṭaligāmiyavagga*
 
-[^fn794]: A II 162, *Mahā Koṭṭhitasutta*; see *Sermon 23*
+[^fn794]: [AN 4.173 / A II 162](https://suttacentral.net/an4.173/pli/ms), *Mahākoṭṭhitasutta*; see *Sermon 23*
 
-[^fn795]: S IV 67, *Dutiyadvayamsutta*
+[^fn795]: [SN 35.93 / S IV 67](https://suttacentral.net/sn35.93/pli/ms), *Dutiyadvayamsutta*
 
-[^fn796]: E.g. in D I 70, *Sāmaññaphalasutta*
+[^fn796]: E.g. in [DN 2 / D I 70](https://suttacentral.net/dn2/pli/ms), *Sāmaññaphalasutta*
 
-[^fn797]: S III 155, *Aniccasaññāsutta*
+[^fn797]: [SN 22.102 / S III 155](https://suttacentral.net/sn22.102/pli/ms), *Aniccasaññāsutta*
 
-[^fn798]: S III 150, *Gaddulasutta*; see also *Sermons 5 and 6*
+[^fn798]: [SN 22.100 / S III 150](https://suttacentral.net/sn22.100/pli/ms), *Gaddulasutta*; see also *Sermons 5 and 6*
 
-[^fn799]: A I 10, *Paṇihita-acchavagga*
+[^fn799]: [AN 1.51-52 / A I 10](https://suttacentral.net/an1.51-60/pli/ms), *Paṇihita-acchavagga*
 
-[^fn800]: A II 25, *Kāḷakārāmasutta*
+[^fn800]: [AN 4.24 / A II 25](https://suttacentral.net/an4.24/pli/ms), *Kāḷakārāmasutta*
 
-[^fn801]: Ud 8, *Bāhiyasutta*, see *Sermon 14*
+[^fn801]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*, see *Sermon 14*
 
 [^fn802]: See *Sermons 12 to 15*
 
@@ -835,6 +835,6 @@ sensed and cognized. He has no inclination or clinging towards them.
 
 [^fn804]: See *Sermon 20*
 
-[^fn805]: M I 1, *Mūlapariyāyasutta*
+[^fn805]: [MN 1 / M I 1](https://suttacentral.net/mn1/pli/ms), *Mūlapariyāyasutta*
 
 [^fn806]: Mp III 38

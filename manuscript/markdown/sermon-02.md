@@ -954,76 +954,76 @@ This sermon has served its purpose if it has drawn attention to the importance
 of the questions of duality, dichotomy and the relatedness of this to that,
 *idappaccayatā*. So this is enough for today.
 
-[^fn47]: M I 436, *Mahāmālunkyasutta*
+[^fn47]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
 [^fn48]: See *Sermon 1*
 
-[^fn49]: D I 203, *Poṭṭhapādasutta*
+[^fn49]: [DN 9 / D I 203](https://suttacentral.net/dn9/pli/ms), *Poṭṭhapādasutta*
 
-[^fn50]: D I 177, *Kassapasīhanādasutta*
+[^fn50]: [DN 8 / D I 177](https://suttacentral.net/dn8/pli/ms), *Kassapasīhanādasutta*
 
-[^fn51]: S I 33, *Accharāsutta*
+[^fn51]: [SN 1.46 / S I 33](https://suttacentral.net/sn1.46/pli/ms), *Accharāsutta*
 
-[^fn52]: It 53, *Indriyasutta*
+[^fn52]: [Iti 62 / It 53](https://suttacentral.net/iti62/pli/ms), *Indriyasutta*
 
 [^fn53]: Peṭ 188
 
-[^fn54]: D I 110, *Ambaṭṭhasutta*
+[^fn54]: [DN 3 / D I 110](https://suttacentral.net/dn3/pli/ms), *Ambaṭṭhasutta*
 
-[^fn55]: Sn 231, *Ratanasutta*
+[^fn55]: [Snp 2.1 / Sn 231](https://suttacentral.net/snp2.1/pli/ms), *Ratanasutta*
 
-[^fn56]: Dhp 383, *Brāhmaṇavagga*
+[^fn56]: [Dhp 383](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*
 
-[^fn57]: S I 54, *Kakudhosutta*
+[^fn57]: [SN 2.18 / S I 54](https://suttacentral.net/sn2.18/pli/ms), *Kakudhasutta*
 
 [^fn58]: S IV 372
 
-[^fn59]: Sn 1092, *Kappamāṇavapucchā*
+[^fn59]: [Snp 5.11 / Sn 1092](https://suttacentral.net/snp5.11/pli/ms), *Kappamāṇavapucchā*
 
-[^fn60]: M I 167, *Ariyapariyesanasutta*
+[^fn60]: [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
-[^fn61]: M III 63, *Bahudhātukasutta*, and Ud 1, the *Bodhisuttas*
+[^fn61]: [MN 115 / M III 63](https://suttacentral.net/mn115/pli/ms), *Bahudhātukasutta*, and [Ud 1.1-3 / Ud 1](https://suttacentral.net/ud1.1/pli/ms), the *Bodhisuttas*
 
-[^fn62]: S II 25, *Paccayasutta*
+[^fn62]: [SN 12.20 / S II 25](https://suttacentral.net/sn12.20/pli/ms), *Paccayasutta*
 
 [^fn63]: Spk II 40
 
-[^fn64]: D II 63, *Mahānidānasutta*
+[^fn64]: [DN 15 / D II 63](https://suttacentral.net/dn15/pli/ms), *Mahānidānasutta*
 
 [^fn65]: See *Sermon 1*
 
-[^fn66]: S I 13, *Jaṭāsutta*
+[^fn66]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*
 
-[^fn67]: Sn 729, *Dvayatānupassanāsutta*
+[^fn67]: [Snp 3.12 / Sn 729](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*
 
-[^fn68]: Sn 740, *Dvayatānupassanāsutta*
+[^fn68]: [Snp 3.12 / Sn 740](https://suttacentral.net/snp3.12/pli/ms), *Dvayatānupassanāsutta*
 
 [^fn69]: Pj II 505
 
-[^fn70]: D III 29, *Pāṭikasutta*
+[^fn70]: [DN 24 / D III 29](https://suttacentral.net/dn24/pli/ms), *Pāṭikasutta*
 
-[^fn71]: E.g. at M II 110, *Piyajātikasutta*
+[^fn71]: E.g. at [MN 87 / M II 110](https://suttacentral.net/mn87/pli/ms), *Piyajātikasutta*
 
-[^fn72]: A I 152, *Saṅkhatalakkhaṇasutta*
+[^fn72]: [AN 3.47 / A I 152](https://suttacentral.net/an3.47/pli/ms), *Saṅkhatalakkhaṇasutta*
 
 [^fn73]: E.g. at Ps IV 88
 
-[^fn74]: E.g. at M I 56, *Satipaṭṭhānasutta*
+[^fn74]: E.g. at [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
 [^fn75]: This is found in the set of verses on *maraṇasati* among the *caturārakkhā-gāthā* (four protective *kamaṭṭhānas*) in standard *Paritta* books.
 
-[^fn76]: Dhp 62, *Bālavagga*
+[^fn76]: [Dhp 62](https://suttacentral.net/dhp60-75/pli/ms), *Bālavagga*
 
-[^fn77]: Ud 32, *Lokasutta*
+[^fn77]: [Ud 3.10 / Ud 32](https://suttacentral.net/ud3.10/pli/ms), *Lokasutta*
 
-[^fn78]: Sn 1103, *Bhadrāvudhamāṇavapucchā*
+[^fn78]: [Snp 5.13 / Sn 1103](https://suttacentral.net/snp5.13/pli/ms), *Bhadrāvudhamāṇavapucchā*
 
-[^fn79]: S V 423, *Dhammacakkapavattanasutta*
+[^fn79]: [SN 56.11 / S V 423](https://suttacentral.net/sn56.11/pli/ms), *Dhammacakkapavattanasutta*
 
-[^fn80]: M I 141, *Alagaddūpamasutta*
+[^fn80]: [MN 22 / M I 141](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
-[^fn81]: Ud 75, *Dutiyalakuṇḍakabhaddiyasutta*
+[^fn81]: [Ud 7.2 / Ud 75](https://suttacentral.net/ud7.2/pli/ms), *Dutiyalakuṇḍakabhaddiyasutta*
 
-[^fn82]: S I 15, *Sarasutta*
+[^fn82]: [SN 1.72 / S I 15](https://suttacentral.net/sn1.72/pli/ms), *Sarasutta*
 
-[^fn83]: M I 53, *Sammādiṭṭhisutta*
+[^fn83]: [MN 9 / M I 53](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*

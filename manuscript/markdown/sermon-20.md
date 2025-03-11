@@ -890,39 +890,39 @@ too.
 This is the insinuation underlying the above quoted pronouncement. It has some
 profound implications, but time does not permit us to go into them today.
 
-[^fn667]: M I 436, *Mahāmālunkyasutta*
+[^fn667]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn668]: E.g. at M I 35, *Ākaṅkheyyasutta*
+[^fn668]: E.g. at [MN 6 / M I 35](https://suttacentral.net/mn6/pli/ms), *Ākaṅkheyyasutta*
 
-[^fn669]: E.g. at M I 167, *Ariyapariyesanasutta*
+[^fn669]: E.g. at [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
-[^fn670]: E.g. at M I 23, *Bhayabheravasutta*
+[^fn670]: E.g. at [MN 4 / M I 23](https://suttacentral.net/mn4/pli/ms), *Bhayabheravasutta*
 
-[^fn671]: Ps III 115, *Aṭṭhakathā* on the *Bahuvedanīyasutta*
+[^fn671]: Ps III 115, *aṭṭhakathā* on MN 59, *Bahuvedanīyasutta*
 
-[^fn672]: A III 354, *Iṇasutta*
+[^fn672]: [AN 6.45 / A III 354](https://suttacentral.net/an6.45/pli/ms), *Iṇasutta*
 
-[^fn673]: Sn 235, *Ratanasutta*
+[^fn673]: [Snp 2.1 / Sn 235](https://suttacentral.net/snp2.1/pli/ms), *Ratanasutta*
 
-[^fn674]: Ud 93, *Dutiyadabbasutta*
+[^fn674]: [Ud 8.10 / Ud 93](https://suttacentral.net/ud8.10/pli/ms), *Dutiyadabbasutta*
 
-[^fn675]: Dhp 225, *Kodhavagga*
+[^fn675]: [Dhp 225](https://suttacentral.net/dhp221-234/pli/ms), *Kodhavagga*
 
 [^fn676]: Dhp-a III 321
 
-[^fn677]: Sn 1086, *Hemakamāṇavapucchā*
+[^fn677]: [Snp 5.9 / Sn 1086](https://suttacentral.net/snp5.9/pli/ms), *Hemakamāṇavapucchā*
 
 [^fn678]: See *Sermon 19*
 
-[^fn679]: M I 140, *Alagaddūpamasutta*
+[^fn679]: [MN 22 / M I 140](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
-[^fn680]: M I 137, *Alagaddūpamasutta*
+[^fn680]: [MN 22 / M I 137](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
-[^fn681]: E.g. at M I 484, *Aggivacchagottasutta*
+[^fn681]: E.g. at [MN 72 / M I 484](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
-[^fn682]: S III 116, *Anurādhasutta*
+[^fn682]: [SN 22.86 / S III 116](https://suttacentral.net/sn22.86/pli/ms), *Anurādhasutta*
 
-[^fn683]: S IV 399, *Kutūhalasālāsutta*
+[^fn683]: [SN 44.9 / S IV 399](https://suttacentral.net/sn44.9/pli/ms), *Kutūhalasālāsutta*
 
 [^fn684]: This suggestion finds support in the Chinese parallel to the *Kutūhalasālāsutta*, *Saṁyukta Āgama* discourse 957 (Taishº II 244b2), which speaks of the being that has passed away as availing himself of a mind-made body. (Anālayo)
 
@@ -930,30 +930,30 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn686]: Feer, L. (ed.): *Saṁyutta Nikāya*, PTS 1990 (1894), p 400 n 2
 
-[^fn687]: E.g. S III 190, *Bhavanettisutta*
+[^fn687]: E.g. [SN 23.3 / S III 190](https://suttacentral.net/sn23.3/pli/ms), *Bhavanettisutta*
 
-[^fn688]: It 53, *Indriyasutta*; see *Sermon 16*,
+[^fn688]: [Iti 62 / It 53](https://suttacentral.net/iti62/pli/ms), *Indriyasutta*; see *Sermon 16*,
 
-[^fn689]: M I 484, *Aggivacchagottasutta*
+[^fn689]: [MN 72 / M I 484](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
-[^fn690]: M I 427, *Cūḷa-Māluṅkyāputtasutta*
+[^fn690]: [MN 63 / M I 427](https://suttacentral.net/mn63/pli/ms), *Cūḷamāluṅkyāputtasutta*
 
-[^fn691]: The expression *abyākatavatthu* occurs e.g. at A IV 68, *Abyākatasutta*
+[^fn691]: The expression *abyākatavatthu* occurs e.g. at [AN 7.54 / A IV 68](https://suttacentral.net/an7.54/pli/ms), *Abyākatasutta*
 
-[^fn692]: S V 437, *Sīsapāvanasutta*
+[^fn692]: [SN 56.31 / S V 437](https://suttacentral.net/sn56.31/pli/ms), *Sīsapāvanasutta*
 
-[^fn693]: S I 41, *Lokasutta*; see *Sermon 4*
+[^fn693]: [SN 1.70 / S I 41](https://suttacentral.net/sn1.70/pli/ms), *Lokasutta*; see *Sermon 4*
 
-[^fn694]: S IV 39, *Samiddhisutta*
+[^fn694]: [SN 35.68 / S IV 39](https://suttacentral.net/sn35.68/pli/ms), *Samiddhisutta*
 
-[^fn695]: S IV 52, *Lokapañhāsutta*
+[^fn695]: [SN 35.82 / S IV 52](https://suttacentral.net/sn35.82/pli/ms), *Lokapañhāsutta*
 
-[^fn696]: S IV 53, *Palokadhammasutta*
+[^fn696]: [SN 35.84 / S IV 53](https://suttacentral.net/sn35.84/pli/ms), *Palokadhammasutta*
 
-[^fn697]: M I 138, *Alagaddūpamasutta*
+[^fn697]: [MN 22 / M I 138](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
-[^fn698]: M I 484, *Aggivacchagottasutta*
+[^fn698]: [MN 72 / M I 484](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
 [^fn699]: See *Sermons 1, 12 and 13*
 
-[^fn700]: S III 193, *Chandarāgasutta*
+[^fn700]: [SN 23.9 / S III 193](https://suttacentral.net/sn23.9/pli/ms), *Chandarāgasutta*

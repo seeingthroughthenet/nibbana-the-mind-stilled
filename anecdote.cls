@@ -32,6 +32,9 @@
 \newif\ifoverleaf
 \overleaffalse
 
+\newif\ifprintondemand
+\printondemandfalse
+
 % =======
 % Options
 % =======
@@ -45,6 +48,7 @@
   babelLanguage/.store in=\BOOK@babelLanguage,
   desktopVersion/.code=\desktopversiontrue,
   overleaf/.code=\overleaftrue,
+  printOnDemand/.code=\printondemandtrue,
 }
 
 % Pass all unknown options to memoir
@@ -250,8 +254,9 @@
 
 % === hyperref ===
 
-\RequirePackage{hyperxmp}
 \RequirePackage{hyperref}
+% hyperref must be loaded before hyperxmp
+\RequirePackage{hyperxmp}
 
 % https://tex.stackexchange.com/questions/32076/incorrect-toc-index-cross-references-when-resetting-memoir-class-counters
 % hypertexnames=true
@@ -422,12 +427,14 @@ philo-sophical munindo amaravati thai-land}
 }
 
 \newcommand*{\subtitle}[1]{\def\@thesubtitle{#1}}
+\newcommand*{\volumeTitle}[1]{\def\@theVolumeTitle{#1}}
 \newcommand*{\editionInfo}[1]{\def\@theEditionInfo{#1}}
 \newcommand*{\printedByInfo}[1]{\def\@thePrintedByInfo{#1}}
 \newcommand*{\publisher}[1]{\def\@thePublisher{#1}}
 \newcommand*{\ISBN}[1]{\def\@theISBN{#1}}
 
 \newcommand\thesubtitle{\@thesubtitle}
+\newcommand\theVolumeTitle{\@theVolumeTitle}
 \newcommand\theEditionInfo{\@theEditionInfo}
 \newcommand\thePrintedByInfo{\@thePrintedByInfo}
 \newcommand\thePublisher{\@thePublisher}
@@ -825,13 +832,13 @@ philo-sophical munindo amaravati thai-land}
 % Useful to insert a picture before the first chapter, which otherwise would
 % have a double blank page before it.
 
-% \renewcommand*{\@smemmain}{%
-%   \@mainmattertrue
-%   \setcounter{secnumdepth}{\value{maxsecnumdepth}}
-%   \ifartopt\relax
-%   \else
-%     \@memmain@floats
-%   \fi}
+\renewcommand*{\@smemmain}{%
+  \@mainmattertrue
+  \setcounter{secnumdepth}{\value{maxsecnumdepth}}
+  \ifartopt\relax
+  \else
+    \@memmain@floats
+  \fi}
 
 \ifthenelse{\equal{\BOOK@babelLanguage}{hungarian}}{
   % Turning off acute shorhand for hungarian. Turning off all shorhands with the
@@ -957,7 +964,7 @@ philo-sophical munindo amaravati thai-land}
 \contentsmargin{-5pt}
 
 \newlength\tocLeftWidth
-\setlength\tocLeftWidth{10mm}
+\setlength\tocLeftWidth{0pt}
 
 % Roman numerals in the chapter title TOC chapter entries.
 %\renewcommand\thechapter{\Roman{chapter}}
@@ -995,6 +1002,9 @@ philo-sophical munindo amaravati thai-land}
      \par}%
     \vspace*{5pt}%
   \fi}
+
+\renewcommand*{\precistocfont}{\normalfont\fontsize{10}{14}\selectfont}
+\renewcommand*{\precistocformat}{\vspace*{0.5\baselineskip}\noindent}
 
 \def\tocChapterNote#1{%
     \addcontentsline{toc}{chapternote}{%
@@ -1653,10 +1663,20 @@ philo-sophical munindo amaravati thai-land}
   \quarkmarks
   \settrims{0.5\stockheight - 0.5\paperheight}{0.5\stockwidth - 0.5\paperwidth}
   \settrimmedsize{\BOOK@paperHeight}{\BOOK@paperWidth}{*}
-\else\relax
-  \setstocksize{\BOOK@paperHeight}{\BOOK@paperWidth}
-  \settrimmedsize{\stockheight}{\stockwidth}{*}
-  \settrims{0pt}{0pt}
+\else
+  \ifprintondemand
+    % 6.125 in x 9.250 in
+    \stockheight=9.25in
+    \stockwidth=6.125in
+    \setlength{\paperheight}{\BOOK@paperHeight}
+    \setlength{\paperwidth}{\BOOK@paperWidth}
+    \settrims{0.5\stockheight - 0.5\paperheight}{0.5\stockwidth - 0.5\paperwidth}
+    \settrimmedsize{\BOOK@paperHeight}{\BOOK@paperWidth}{*}
+  \else\relax
+    \setstocksize{\BOOK@paperHeight}{\BOOK@paperWidth}
+    \settrimmedsize{\stockheight}{\stockwidth}{*}
+    \settrims{0pt}{0pt}
+  \fi
 \fi
 
 % Text block for 10.5 / 15pt:
@@ -1667,7 +1687,8 @@ philo-sophical munindo amaravati thai-land}
 \settypeblocksize{193mm}{110mm}{*}
 \setlrmargins{*}{20mm}{*}
 
-\setulmargins{42pt}{*}{*}% 14.8mm, Based on Tall Pentagon, 1.701
+% 42pt was too narrow when printed with Blurb.
+\setulmargins{48pt}{*}{*}% ~17mm, Based on Tall Pentagon, 1.701
 \setheaderspaces{*}{19pt}{*}
 \setlength{\footskip}{30pt}
 

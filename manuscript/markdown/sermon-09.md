@@ -777,7 +777,7 @@ allusion to this fact in the *Mahāviyūhasutta* of the *Sutta Nipāta*. There i
 is declared that those of other sects are not free from the limitations of
 name-and-form.
 
-> *Passaṁ naro dakkhiti nāmarūpaṁ,* \
+> *Passaṁ naro dakkhati nāmarūpaṁ,* \
 > *disvāna vā ñassati tānim eva,* \
 > *kāmaṁ bahuṁ passatu appakaṁ vā,* \
 > *na hi tena suddhiṁ kusalā vadanti.*[^fn338]
@@ -991,91 +991,91 @@ This is how the *Itivuttaka*, the collection of the 'thus said' discourses, sums
 up the situation in the world. Some fall back and lag behind, while others
 overstep and overreach. It is only they that see, who have eyes to see.
 
-[^fn300]: M I 436, *Mahāmālunkyasutta*
+[^fn300]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn301]: M I 56, *Satipaṭṭhānasutta*
+[^fn301]: [MN 10 / M I 56](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn302]: M I 53, *Sammādiṭṭhisutta*
+[^fn302]: [MN 9 / M I 53](https://suttacentral.net/mn9/pli/ms), *Sammādiṭṭhisutta*
 
-[^fn303]: S IV 171, *Hatthapādopamasutta*
+[^fn303]: [SN 35.236 / S IV 171](https://suttacentral.net/sn35.236/pli/ms), *Hatthapādopamasutta*
 
-[^fn304]: A IV 100, *Sattasuriyasutta*; see *Sermon 8*
+[^fn304]: [AN 7.66 / A IV 100](https://suttacentral.net/an7.66/pli/ms), *Sattasuriyasutta*; see *Sermon 8*
 
 [^fn305]: Mp IV 52
 
-[^fn306]: S III 155, *Aniccasaññāsutta*
+[^fn306]: [SN 22.102 / S III 155](https://suttacentral.net/sn22.102/pli/ms), *Aniccasaññāsutta*
 
-[^fn307]: A IV 353, *Sambodhisutta*
+[^fn307]: [AN 9.1 / A IV 353](https://suttacentral.net/an9.1/pli/ms), *Sambodhisutta*
 
-[^fn308]: Dhp 62, *Bālavagga*
+[^fn308]: [Dhp 62](https://suttacentral.net/dhp60-75/pli/ms), *Bālavagga*
 
-[^fn309]: E.g. at M I 297, *Mahāvedallasutta*
+[^fn309]: E.g. at [MN 43 / M I 297](https://suttacentral.net/mn43/pli/ms), *Mahāvedallasutta*
 
-[^fn310]: S II 267, *Āṇisutta*; see *Sermon 1*
+[^fn310]: [SN 20.7 / S II 267](https://suttacentral.net/sn20.7/pli/ms), *Āṇisutta*; see *Sermon 1*
 
-[^fn311]: Sn 1118, *Mogharājamāṇavapucchā*
+[^fn311]: [Snp 5.16 / Sn 1118](https://suttacentral.net/snp5.16/pli/ms), *Mogharājamāṇavapucchā*
 
 [^fn312]: Sn 1119, ibid.
 
-[^fn313]: M I 251, *Cūḷataṇhāsaṅkhayasutta*
+[^fn313]: [MN 37 / M I 251](https://suttacentral.net/mn37/pli/ms), *Cūḷataṇhāsaṅkhayasutta*
 
-[^fn314]: A IV 338, *Kiṁmūlakasutta*
+[^fn314]: [AN 10.58 / A IV 338](https://suttacentral.net/an10.58/pli/ms), *Kiṁmūlakasutta*
 
 [^fn315]: Sv-pṭ I 138
 
-[^fn316]: Dhp 1-2, *Yamakavagga*
+[^fn316]: [Dhp 1-2](https://suttacentral.net/dhp1-20/pli/ms), *Yamakavagga*
 
 [^fn317]: See the discussion at As 250
 
 [^fn318]: Vibh-a 289
 
-[^fn319]: E.g. at D II 58, *Mahānidānasutta*
+[^fn319]: E.g. at [DN 15 / D II 58](https://suttacentral.net/dn15/pli/ms), *Mahānidānasutta*
 
-[^fn320]: S I 22, *Nasantisutta*
+[^fn320]: [SN 1.34 / S I 22](https://suttacentral.net/sn1.34/pli/ms), *Nasantisutta*
 
 [^fn321]: E.g. at S V 253, *Iddhipādasaṁyutta*
 
-[^fn322]: S V 272, *Uṇṇābhabrāhmaṇasutta*
+[^fn322]: [SN 51.15 / S V 272](https://suttacentral.net/sn51.15/pli/ms), *Uṇṇābhabrāhmaṇasutta*
 
-[^fn323]: A II 145, *Bhikkuṇīsutta*
+[^fn323]: [AN 4.159 / A II 145](https://suttacentral.net/an4.159/pli/ms), *Bhikkhuṇīsutta*
 
-[^fn324]: Dhp 187, *Buddhavagga*
+[^fn324]: [Dhp 187](https://suttacentral.net/dhp179-196/pli/ms), *Buddhavagga*
 
-[^fn325]: M III 220, *Saḷāyatanavibhaṅgasutta*
+[^fn325]: [MN 137 / M III 220](https://suttacentral.net/mn137/pli/ms), *Saḷāyatanavibhaṅgasutta*
 
-[^fn326]: D II 353, D III 254, 287, 290, 291, M I 118, M III 77, 140, S II 168, S III 109, S V 1, 12, 13, 16, 18-20, 23, 383, A II 220-229, A III 141, A IV 237, A V 212-248
+[^fn326]: D II 353, [DN 33 / D III 254](https://suttacentral.net/dn33/pli/ms), 287, 290, 291, M I 118, [MN 117 / M III 77](https://suttacentral.net/mn117/pli/ms), 140, S II 168, [SN 22.85 / S III 109](https://suttacentral.net/sn22.85/pli/ms), S V 1, 12, 13, 16, 18-20, 23, 383, A II 220-229, A III 141, A IV 237, A V 212-248
 
-[^fn327]: M I 197, *Mahāsāropamasutta*
+[^fn327]: [MN 29 / M I 197](https://suttacentral.net/mn29/pli/ms), *Mahāsāropamasutta*
 
-[^fn328]: Th 315-316, Rājadatta Thera
+[^fn328]: [Thag 5.1 / Th 315-316](https://suttacentral.net/thag5.1/pli/ms), Rājadatta Thera
 
-[^fn329]: Th 267-268, Nāgasamāla Thera
+[^fn329]: [Thag 4.1 / Th 267-268](https://suttacentral.net/thag4.1/pli/ms), Nāgasamāla Thera
 
-[^fn330]: Th 269-270, Nāgasamāla Thera
+[^fn330]: [Thag 4.1 / Th 269-270](https://suttacentral.net/thag4.1/pli/ms), Nāgasamāla Thera
 
 [^fn331]: Pj II 587
 
-[^fn332]: A IV 385, *Samiddhisutta*
+[^fn332]: [AN 9.14 / A IV 385](https://suttacentral.net/an9.14/pli/ms), *Samiddhisutta*
 
-[^fn333]: Dhp 1, *Yamakavagga*
+[^fn333]: [Dhp 1](https://suttacentral.net/dhp1-20/pli/ms), *Yamakavagga*
 
-[^fn334]: Dhp 221, *Kodhavagga*
+[^fn334]: [Dhp 221](https://suttacentral.net/dhp221-234/pli/ms), *Kodhavagga*
 
-[^fn335]: D I 1-46, *Brahmajālasutta*
+[^fn335]: [DN 1 / D I 1-46](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
-[^fn336]: D I 223, *Kevaḍḍhasutta*
+[^fn336]: [DN 11 / D I 223](https://suttacentral.net/dn11/pli/ms), *Kevaḍḍhasutta*
 
 [^fn337]: See *Sermon 5*
 
-[^fn338]: Sn 909, *Mahāviyūhasutta*
+[^fn338]: [Snp 4.13 / Sn 909](https://suttacentral.net/snp4.13/pli/ms), *Mahāviyūhasutta*
 
-[^fn339]: D I 46, *Brahmajālasutta*
+[^fn339]: [DN 1 / D I 46](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
-[^fn340]: D I 42, *Brahmajālasutta*
+[^fn340]: [DN 1 / D I 42](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
-[^fn341]: D I 45, *Brahmajālasutta*
+[^fn341]: [DN 1 / D I 45](https://suttacentral.net/dn1/pli/ms), *Brahmajālasutta*
 
-[^fn342]: S II 4, *Vibhaṅgasutta*
+[^fn342]: [SN 12.2 / S II 4](https://suttacentral.net/sn12.2/pli/ms), *Vibhaṅgasutta*
 
 [^fn343]: Ja VI 129 (no 546), *Ummaggajātaka*
 
@@ -1083,6 +1083,6 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn345]: See *Sermon 1*
 
-[^fn346]: M I 329, *Brahmanimantanikasutta*
+[^fn346]: [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 
-[^fn347]: It 43, *Diṭṭhigatasutta*
+[^fn347]: [Iti 49 / It 43](https://suttacentral.net/iti49/pli/ms), *Diṭṭhigatasutta*

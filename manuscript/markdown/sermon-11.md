@@ -805,56 +805,56 @@ ekacaraṁ*,[^fn403] through the medium of thought, or *vitakka*. When *vitakka*
 breaks loose and runs riot, it creates a certain deluded state of mind, which is
 *papañca*.
 
-[^fn377]: M I 436, *Mahāmālunkyasutta*
+[^fn377]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn378]: S III 86, *Khajjanīyasutta*
+[^fn378]: [SN 22.79 / S III 86](https://suttacentral.net/sn22.79/pli/ms), *Khajjanīyasutta*
 
-[^fn379]: Sn 867, *Kalahavivādasutta*
+[^fn379]: [Snp 4.11 / Sn 867](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn380]: S I 13, *Jaṭāsutta*; see *Sermon 1*
+[^fn380]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*; see *Sermon 1*
 
-[^fn381]: Sn 871-872, *Kalahavivādasutta*
+[^fn381]: [Snp 4.11 / Sn 871-872](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn382]: Sn 873, *Kalahavivādasutta*
+[^fn382]: [Snp 4.11 / Sn 873](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn383]: Sn 874, *Kalahavivādasutta*
+[^fn383]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
 [^fn384]: Nidd I 280
 
 [^fn385]: Nidd I 280 and Pj II 553
 
-[^fn386]: Sn 862, *Kalahavivādasutta*
+[^fn386]: [Snp 4.11 / Sn 862](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
 [^fn387]: See *Sermon 7*
 
-[^fn388]: Sn 875, *Kalahavivādasutta*
+[^fn388]: [Snp 4.11 / Sn 875](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn389]: Similar connotations recur in the variant reading *paramayakkhavisuddhi* at A V 64, and in the expression *yakkhassa suddhi* at Sn 478
+[^fn389]: Similar connotations recur in the variant reading *paramayakkhavisuddhi* at [AN 10.29 / A V 64](https://suttacentral.net/an10.29/pli/ms), and in the expression *yakkhassa suddhi* at Sn 478
 
-[^fn390]: Sn 1074, *Upasīvamāṇavapucchā*
+[^fn390]: [Snp 5.7 / Sn 1074](https://suttacentral.net/snp5.7/pli/ms), *Upasīvamāṇavapucchā*
 
-[^fn391]: M I 487, *Aggivacchagottasutta*
+[^fn391]: [MN 72 / M I 487](https://suttacentral.net/mn72/pli/ms), *Aggivacchagottasutta*
 
-[^fn392]: D I 184, *Poṭṭhapādasutta*
+[^fn392]: [DN 9 / D I 184](https://suttacentral.net/dn9/pli/ms), *Poṭṭhapādasutta*
 
-[^fn393]: S III 142, *Pheṇapiṇḍūpamasutta*.; see also sermon 6
+[^fn393]: [SN 22.95 / S III 142](https://suttacentral.net/sn22.95/pli/ms), *Pheṇapiṇḍūpamasutta*; see also *Sermon 6*
 
-[^fn394]: M I 329, *Brahmanimantanikasutta*; see also sermon 8
+[^fn394]: [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*; see also *Sermon 8*
 
-[^fn395]: See sermons 5, 6 and 7
+[^fn395]: See *Sermons 5, 6 and 7*
 
-[^fn396]: D II 276, *Sakkapañhasutta*; D III 287, *Dasuttarasutta*; M I 65, *Cūḷasīhanādasutta*; M I 112 *Madhupiṇḍikasutta*; A III 293, *Bhaddakasutta*; A III 294, *Anutappiyasutta*; A IV 230, *Anuruddhamahāvitakkasutta*; A IV 331, *Parihānasutta*; Sn 874, *Kalahavivādasutta*
+[^fn396]: [DN 21 / D II 276](https://suttacentral.net/dn21/pli/ms), *Sakkapañhasutta*; [DN 34 / D III 287](https://suttacentral.net/dn34/pli/ms), *Dasuttarasutta*; [MN 11 / M I 65](https://suttacentral.net/mn11/pli/ms), *Cūḷasīhanādasutta*; [MN 18 / M I 112](https://suttacentral.net/mn18/pli/ms) *Madhupiṇḍikasutta*; [AN 6.14 / A III 293](https://suttacentral.net/an6.14/pli/ms), *Bhaddakasutta*; [AN 6.15 / A III 294](https://suttacentral.net/an6.15/pli/ms), *Anutappiyasutta*; [AN 8.30 / A IV 230](https://suttacentral.net/an8.30/pli/ms), *Anuruddhamahāvitakkasutta*; [AN 8.79 / A IV 331](https://suttacentral.net/an8.79/pli/ms), *Parihānasutta*; [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn397]: A IV 228, *Anuruddhamahāvitakkasutta*
+[^fn397]: [AN 8.30 / A IV 228](https://suttacentral.net/an8.30/pli/ms), *Anuruddhamahāvitakkasutta*
 
-[^fn398]: A IV 235, *Anuruddhamahāvitakkasutta*
+[^fn398]: [AN 8.30 / A IV 235](https://suttacentral.net/an8.30/pli/ms), *Anuruddhamahāvitakkasutta*
 
-[^fn399]: D II 276, *Sakkapañhasutta*; M I 65, *Cūḷasīhanādasutta*; M I 112 *Madhupiṇḍikasutta*; Sn 874, *Kalahavivādasutta*
+[^fn399]: [DN 21 / D II 276](https://suttacentral.net/dn21/pli/ms), *Sakkapañhasutta*; [MN 11 / M I 65](https://suttacentral.net/mn11/pli/ms), *Cūḷasīhanādasutta*; [MN 18 / M I 112](https://suttacentral.net/mn18/pli/ms) *Madhupiṇḍikasutta*; [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn400]: M I 114, *Madhupiṇḍikasutta*
+[^fn400]: [MN 18 / M I 114](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
 [^fn401]: Ps II 77
 
-[^fn402]: A II 135, *Ugghaṭitaññūsutta*
+[^fn402]: [AN 4.133 / A II 135](https://suttacentral.net/an4.133/pli/ms), *Ugghaṭitaññūsutta*
 
-[^fn403]: Dhp 37, *Cittavagga*
+[^fn403]: [Dhp 37](https://suttacentral.net/dhp33-43/pli/ms), *Cittavagga*

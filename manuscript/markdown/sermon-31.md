@@ -871,62 +871,62 @@ words:
 >
 > That wisdom of his, Venerable Sir, is his faculty of wisdom.
 
-[^fn982]: M I 436, *Mahāmālunkyasutta*
+[^fn982]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn983]: M I 134, *Alagaddūpamasutta*
+[^fn983]: [MN 22 / M I 134](https://suttacentral.net/mn22/pli/ms), *Alagaddūpamasutta*
 
-[^fn984]: M I 260, *Mahātaṇhāsaṅkhayasutta*
+[^fn984]: [MN 38 / M I 260](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*
 
-[^fn985]: S V 90, *Udāyisutta*
+[^fn985]: [SN 46.30 / S V 90](https://suttacentral.net/sn46.30/pli/ms), *Udāyisutta*
 
-[^fn986]: A V 2, *Cetanākaraṇīyasutta*
+[^fn986]: [AN 10.2 / A V 2](https://suttacentral.net/an10.2/pli/ms), *Cetanākaraṇīyasutta*
 
-[^fn987]: S IV 41, *Upavāṇasandiṭṭhikasutta*
+[^fn987]: [SN 35.70 / S IV 41](https://suttacentral.net/sn35.70/pli/ms), *Upavāṇasandiṭṭhikasutta*
 
-[^fn988]: A III 39, *Sīhasenāpattisutta*; see *Sermon 19*
+[^fn988]: [AN 5.34 / A III 39](https://suttacentral.net/an5.34/pli/ms), *Sīhasenāpattisutta*; see *Sermon 19*
 
-[^fn989]: E.g. M I 76, *Mahāsīhanādasutta*
+[^fn989]: E.g. [MN 12 / M I 76](https://suttacentral.net/mn12/pli/ms), *Mahāsīhanādasutta*
 
-[^fn990]: S I 9, *Samiddhisutta*
+[^fn990]: [SN 1.20 / S I 9](https://suttacentral.net/sn1.20/pli/ms), *Samiddhisutta*
 
-[^fn991]: S V 90, *Udāyisutta*
+[^fn991]: [SN 46.30 / S V 90](https://suttacentral.net/sn46.30/pli/ms), *Udāyisutta*
 
-[^fn992]: D II 119, *Mahāparinibbānasutta*
+[^fn992]: [DN 16 / D II 119](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
-[^fn993]: D III 287, *Dasuttarasutta*
+[^fn993]: [DN 34 / D III 287](https://suttacentral.net/dn34/pli/ms), *Dasuttarasutta*
 
-[^fn994]: M I 60, *Satipaṭṭhānasutta*
+[^fn994]: [MN 10 / M I 60](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn995]: E.g. D III, 221, *Saṅgītisutta*
+[^fn995]: E.g. [DN 33 / D III 221](https://suttacentral.net/dn33/pli/ms), *Saṅgītisutta*
 
-[^fn996]: M I 62, *Satipaṭṭhānasutta*
+[^fn996]: [MN 10 / M I 62](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn997]: E.g. D III, 221, *Saṅgītisutta*
+[^fn997]: E.g. [DN 33 / D III 221](https://suttacentral.net/dn33/pli/ms), *Saṅgītisutta*
 
 [^fn998]: E.g. Ps III 194
 
-[^fn999]: M I 481, *Kīṭāgirisutta*
+[^fn999]: [MN 70 / M I 481](https://suttacentral.net/mn70/pli/ms), *Kīṭāgirisutta*
 
-[^fn1000]: S V 276, *Bhikkhusutta*; S V 286, *Ānandasutta 1 and 2*; S V 287, *Bhikkhusutta 1 and 2* 
+[^fn1000]: [SN 51.20 / S V 276](https://suttacentral.net/sn51.20/pli/ms), *Bhikkhusutta*; [SN 51.27-28 / S V 286](https://suttacentral.net/sn51.27/pli/ms), *Ānandasutta 1 and 2*; [SN 51.29-30 / S V 287](https://suttacentral.net/sn51.29/pli/ms), *Bhikkhusutta 1 and 2* 
 
-[^fn1001]: S V 266, *Pubbesutta*
+[^fn1001]: [SN 51.11 / S V 266](https://suttacentral.net/sn51.11/pli/ms), *Pubbasutta*
 
 [^fn1002]: Sv II 642, which further mentions Venerable Soṇa as an example for energy and Venerable Sambhūta as an example for the category of the mind.
 
-[^fn1003]: E.g. SN V 255, *Aparāsutta*
+[^fn1003]: E.g. [SN 51.1 / S V 255](https://suttacentral.net/sn51.1/pli/ms), *Aparāsutta*
 
-[^fn1004]: S V 268, *Chandasutta*
+[^fn1004]: [SN 51.13 / S V 268](https://suttacentral.net/sn51.13/pli/ms), *Chandasutta*
 
-[^fn1005]: S V 196, *Daṭṭhabbasutta*
+[^fn1005]: [SN 48.8 / S V 196](https://suttacentral.net/sn48.8/pli/ms), *Daṭṭhabbasutta*
 
-[^fn1006]: S V 343, *Rājasutta*
+[^fn1006]: [SN 55.2 / S V 343](https://suttacentral.net/sn55.2/pli/ms), *Rājasutta*
 
-[^fn1007]: S V 196, *Daṭṭhabbasutta*
+[^fn1007]: [SN 48.8 / S V 196](https://suttacentral.net/sn48.8/pli/ms), *Daṭṭhabbasutta*
 
-[^fn1008]: S V 197, *Vibhaṅgasutta*
+[^fn1008]: [SN 48.10 / S V 197](https://suttacentral.net/sn48.10/pli/ms), *Vibhaṅgasutta*
 
-[^fn1009]: S V 196, *Daṭṭhabbasutta*
+[^fn1009]: [SN 48.8 / S V 196](https://suttacentral.net/sn48.8/pli/ms), *Daṭṭhabbasutta*
 
-[^fn1010]: S V 197, *Vibhaṅgasutta*
+[^fn1010]: [SN 48.10 / S V 197](https://suttacentral.net/sn48.10/pli/ms), *Vibhaṅgasutta*
 
-[^fn1011]: S V 225, *Āpaṇasutta*
+[^fn1011]: [SN 48.50 / S V 225](https://suttacentral.net/sn48.50/pli/ms), *Āpaṇasutta*

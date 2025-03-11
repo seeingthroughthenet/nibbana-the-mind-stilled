@@ -749,70 +749,70 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 > get disenchanted with preparations, this is enough to get dispassionate with
 > them, this is enough to get released from them.
 
-[^fn899]: M I 436, *Mahāmālunkyasutta*
+[^fn899]: [MN 64 / M I 436](https://suttacentral.net/mn64/pli/ms), *Mahāmālunkyasutta*
 
-[^fn900]: A I 87, *Āsāduppajahavagga*
+[^fn900]: [AN 2.126 / A I 87](https://suttacentral.net/an2.118-129/pli/ms), *Āsāduppajahavagga*
 
-[^fn901]: D II 31, *Mahāpadānasutta*, see *Sermon 3*
+[^fn901]: [DN 14 / D II 31](https://suttacentral.net/dn14/pli/ms), *Mahāpadānasutta*, see *Sermon 3*
 
-[^fn902]: Sn 270, *Sūcilomasutta*
+[^fn902]: [Snp 2.5 / Sn 270](https://suttacentral.net/snp2.5/pli/ms), *Sūcilomasutta*
 
-[^fn903]: Sn 273, *Sūcilomasutta*
+[^fn903]: [Snp 2.5 / Sn 273](https://suttacentral.net/snp2.5/pli/ms), *Sūcilomasutta*
 
 [^fn904]: Spk I 304
 
 [^fn905]: See *Sermon 27*
 
-[^fn906]: SN I 70, *Purisasutta*
+[^fn906]: [SN 3.2 / S I 70](https://suttacentral.net/sn3.2/pli/ms), *Purisasutta*
 
 [^fn907]: See *Sermon 3*
 
-[^fn908]: D II 32, *Mahāpadānasutta*
+[^fn908]: [DN 14 / D II 32](https://suttacentral.net/dn14/pli/ms), *Mahāpadānasutta*
 
-[^fn909]: E.g. M I 263, *Mahātaṇhāsaṅkhayasutta*
+[^fn909]: E.g. [MN 38 / M I 263](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*
 
-[^fn910]: D II 107, *Mahāparinibbānasutta*, see also A IV 312 and Ud 64
+[^fn910]: [DN 16 / D II 107](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*, see also [AN 8.70 / A IV 312](https://suttacentral.net/an8.70/pli/ms) and [Ud 6.1 / Ud 64](https://suttacentral.net/ud6.1/pli/ms)
 
 [^fn911]: Sv II 557 and Mp IV 154
 
 [^fn912]: Nett 61
 
-[^fn913]: Sn 843, *Māgandiyasutta*
+[^fn913]: [Snp 4.9 / Sn 843](https://suttacentral.net/snp4.9/pli/ms), *Māgandiyasutta*
 
-[^fn914]: Sn 954, *Attadaṇḍasutta*
+[^fn914]: [Snp 4.15 / Sn 954](https://suttacentral.net/snp4.15/pli/ms), *Attadaṇḍasutta*
 
-[^fn915]: Sn 919, *Tuvaṭakasutta*
+[^fn915]: [Snp 4.14 / Sn 919](https://suttacentral.net/snp4.14/pli/ms), *Tuvaṭakasutta*
 
-[^fn916]: See *Sermon 5* on Sn 787, *Duṭṭhaṭṭhakasutta*
+[^fn916]: See *Sermon 5* on [Snp 4.3 / Sn 787](https://suttacentral.net/snp4.3/pli/ms), *Duṭṭhaṭṭhakasutta*
 
 [^fn917]: See *Sermon 2*
 
-[^fn918]: Dhp 385, *Brāhmaṇavagga*; see *Sermons 5, 18 and 19*
+[^fn918]: [Dhp 385](https://suttacentral.net/dhp383-423/pli/ms), *Brāhmaṇavagga*; see *Sermons 5, 18 and 19*
 
-[^fn919]: Ud 75, *Dutiyalakuṇtakabhaddiyasutta*
+[^fn919]: [Ud 7.2 / Ud 75](https://suttacentral.net/ud7.2/pli/ms), *Dutiyalakuṇtakabhaddiyasutta*
 
-[^fn920]: D II 119, *Mahāparinibbānasutta*
+[^fn920]: [DN 16 / D II 119](https://suttacentral.net/dn16/pli/ms), *Mahāparinibbānasutta*
 
 [^fn921]: See *Sermon 14*
 
-[^fn922]: M I 185, *Mahāhatthipadopamasutta*
+[^fn922]: [MN 28 / M I 185](https://suttacentral.net/mn28/pli/ms), *Mahāhatthipadopamasutta*
 
 [^fn923]: See *Sermon 2*
 
-[^fn924]: M I 57, *Satipaṭṭhānasutta*
+[^fn924]: [MN 10 / M I 57](https://suttacentral.net/mn10/pli/ms), *Satipaṭṭhānasutta*
 
-[^fn925]: Sn 203, *Vijayasutta*
+[^fn925]: [Snp 1.11 / Sn 203](https://suttacentral.net/snp1.11/pli/ms), *Vijayasutta*
 
 [^fn926]: Dhp-a III 117
 
-[^fn927]: S II 171, *Acariṁsutta*
+[^fn927]: [SN 14.32 / S II 171](https://suttacentral.net/sn14.32/pli/ms), *Acariṁsutta*
 
-[^fn928]: A II 27, *Ariyavaṁsasutta*
+[^fn928]: [AN 4.28 / A II 27](https://suttacentral.net/an4.28/pli/ms), *Ariyavaṁsasutta*
 
-[^fn929]: A II 145, *Bhikkhunīsutta*
+[^fn929]: [AN 4.159 / A II 145](https://suttacentral.net/an4.159/pli/ms), *Bhikkhunīsutta*
 
-[^fn930]: M I 108, *Madhupiṇḍikasutta*
+[^fn930]: [MN 18 / M I 108](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
 
-[^fn931]: D III 84, *Aggaññasutta*
+[^fn931]: [DN 27 / D III 84](https://suttacentral.net/dn27/pli/ms), *Aggaññasutta*
 
-[^fn932]: AN IV 103, *Sattasuriyasutta*
+[^fn932]: [AN 7.66 / AN IV 103](https://suttacentral.net/an7.66/pli/ms), *Sattasuriyasutta*

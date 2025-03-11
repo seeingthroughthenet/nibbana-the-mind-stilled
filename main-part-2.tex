@@ -1,0 +1,113 @@
+\documentclass[
+  final,
+  babelLanguage=british,
+  % desktopVersion, % turned off for printing
+  printOnDemand,
+]{anecdote}
+
+\graphicspath{{./assets/images/}}
+
+% Page size: 6x9 inch
+% Body text: 10.5 / 15 pt
+
+\usepackage{local}
+
+%% Details of the book
+%% ===================
+
+\title{Nibbāna -- The Mind Stilled}
+\subtitle{33 Sermons on Nibbāna}
+\volumeTitle{Part II: Sermons 17-33}
+\author{Bhikkhu Kaṭukurunde Ñāṇananda}
+\publisher{Kaṭukurunde Ñāṇananda Sadaham Senasun Bhāraya (KNSSB)}
+\date{2024-12-13}
+\editionInfo{\textit{Library Edition}, 2025}
+\ISBN{000-000-0000-00-0}
+
+% === Metadata ===
+
+\hypersetup{
+  pdftitle={\thetitle},
+  pdfauthor={\theauthor},
+  pdfcopyright={Copyright (C) 2025, \thePublisher},
+  pdfsubject={},% TODO subject
+  pdfkeywords={},% TODO keywords
+  pdflicenseurl={https://creativecommons.org/licenses/by-nc-nd/4.0/},
+  pdfcontacturl={},
+  pdflang={en},
+}
+
+% \pdfinfo{%
+%   /Title (\thetitle)%
+%   /Author (\theauthor)
+%   /Subject (subject)% TODO subject
+%   /Keywords (keywords)% TODO keywords
+%   /GTS_PDFXVersion (PDF/X-1:2001)%
+%   /GTS_PDFXConformance (PDF/X-1a:2001)%
+% }
+
+%% === Load further packages ===
+
+%% === Hyphenation exceptions and corrections ===
+
+\input{./hyphenation.tex}
+
+\begin{document}
+
+\frontmatter
+
+\ifdesktopversion
+\desktopCover{\includegraphics[height=\paperheight]{./desktop-cover.jpg}}
+\fi
+
+\input{./manuscript/tex/titlepage.tex}
+
+\input{./manuscript/tex/copyright.tex}
+
+\input{./manuscript/tex/dedication.tex}
+
+\cleartorecto
+\tableofcontents*
+
+\input{./manuscript/tex/abbreviations.tex}
+
+\input{./manuscript/tex/about-the-author.tex}
+
+\input{./manuscript/tex/about-the-knssb.tex}
+
+% \mainmatter is redefined so it doesn't add empty pages.
+% Move the first chapter page to the right side.
+\clearpage
+
+% === NOTE: Part 2 mainmatter begins with Sermon 17 starting on page 395. ===
+\mainmatter
+\setcounter{chapter}{16}
+\setcounter{page}{394}
+
+\input{./manuscript/tex/sermon-17.tex}
+\input{./manuscript/tex/sermon-18.tex}
+\input{./manuscript/tex/sermon-19.tex}
+\input{./manuscript/tex/sermon-20.tex}
+\input{./manuscript/tex/sermon-21.tex}
+\input{./manuscript/tex/sermon-22.tex}
+\input{./manuscript/tex/sermon-23.tex}
+\input{./manuscript/tex/sermon-24.tex}
+\input{./manuscript/tex/sermon-25.tex}
+\input{./manuscript/tex/sermon-26.tex}
+\input{./manuscript/tex/sermon-27.tex}
+\input{./manuscript/tex/sermon-28.tex}
+\input{./manuscript/tex/sermon-29.tex}
+\input{./manuscript/tex/sermon-30.tex}
+\input{./manuscript/tex/sermon-31.tex}
+\input{./manuscript/tex/sermon-32.tex}
+\input{./manuscript/tex/sermon-33.tex}
+
+\backmatter
+
+\input{./manuscript/tex/by-the-same-author.tex}
+
+\input{./manuscript/tex/copyright-details.tex}
+
+\emptyUntilEven
+
+\end{document}
