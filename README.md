@@ -3,13 +3,9 @@ Nibbāna - The Mind Stilled
 
 *33 Sermons on Nibbāna*
 
-By Bhikkhu Kaṭukurunde Ñāṇananda
+by Bhikkhu Kaṭukurunde Ñāṇananda
 
-First edition
-
-ISBN for paperback: `000-000-0000-00-0`
-
-ISBN for ebooks: `000-0-00000-000-0`
+Library Edition
 
 Based on [prophecy-template].
 
