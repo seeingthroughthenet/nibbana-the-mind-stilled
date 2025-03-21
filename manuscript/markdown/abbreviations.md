@@ -1,5 +1,11 @@
 # Abbreviations
 
+Sutta references include both the Wisdom Publication and PTS style, separated with a slash (/), and linked to [suttacentral.net](https://suttacentral.net) in the ebook formats. For example:
+
+[MN 18 / M I 111](https://suttacentral.net/mn18/pli/ms), *Madhupiṇḍikasutta*
+
+PTS style references are given according to volume and page number of the PTS edition, and in the case of Dhp, Sn, Th and Thī according to the verse number of the PTS edition.
+
 |        |                                     |
 |--------|-------------------------------------|
 | A      | Aṅguttara Nikāya                    |
@@ -33,6 +39,3 @@
 | Spk    | Sāratthappakāsinī (comy on S)       |
 | Sv     | Sumaṅgalavilāsinī (comy on D)       |
 
-(Unless otherwise specified, references are given according to volume and page
-number of the PTS edition, and in the case of Dhp, Sn, Th and Thī according to
-the verse number of the PTS edition)
