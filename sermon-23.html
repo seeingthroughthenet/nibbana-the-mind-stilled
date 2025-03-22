@@ -1,0 +1,1108 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 23 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-23-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-23"><a class="header" href="#sermon-23">Sermon 23</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn753-1"><a href="#fn-fn753">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the twentythird sermon in the series of
+sermons on Nibbāna.</p>
+<p>The other day, we brought up quotations to prove that Nibbāna, as the cessation
+of becoming, carries no implications of a nihilist or annihilationist view
+because the Tathāgata has transcended the concept of a being.</p>
+<p>It became evident, from those quotations, that to assert with an eternalist
+bias, the proposition that the Tathāgata exists after death, simply because he
+is referred to as a being, or a person, in the discourses, is contrary to the
+spirit of the Dhamma. The fact that the <em>arahant</em>, who has done away with the
+latencies to conceits of ‘I’ and ‘mine’, still continues to use even the words
+‘I’ and ‘mine’, only as a concession to worldly conventions and common parlance,
+came to light from the <em>Arahantasutta</em> of the <em>Saṁyutta Nikāya</em>, quoted on an
+earlier occasion.</p>
+<p>To remind ourselves of the relevant section of that quotation, we may hark back
+to the following lines:</p>
+<blockquote>
+<p><em>’Ahaṁ vadāmī’ti pi so vadeyya,</em> <br />
+<em>’Mamaṁ vadantī’ti pi so vadeyya,</em> <br />
+<em>Loke samaññaṁ kusalo viditvā,</em> <br />
+<em>Vohāramattena so vohareyya.</em><sup class="footnote-reference" id="fr-fn754-1"><a href="#fn-fn754">2</a></sup></p>
+<p>He might still say: ‘I speak’, <br />
+He might also say: ‘They speak to me’, <br />
+Being skilful in knowing the worldly parlance, <br />
+He uses such terms merely as a convention.</p>
+</blockquote>
+<p>The philosophy of voidness that emerges from those discourses which declare that
+in reality there is no Tathāgata, we compared to the blazing flames arising from
+the fistfuls of a highly inflammable incense powder at the end of an all-night’s
+ceremony of devil dancing. Generally this fire ordeal is horrifying to the
+onlookers. The Buddha also had to stage a similar fire ordeal in the
+<em>Dhammayāga</em>, or the ‘Dhamma-sacrifice’, he administered to exorcize the
+malignant personality view, <em>sakkāyadiṭṭhi</em>, ingrained in the minds of
+worldlings.</p>
+<p>Of course there is no explicit reference to such a fire ordeal in the
+discourses. However, we do come across a word somewhat suggestive of this kind
+of exorcism. The word <em>vidhūpeti</em>, derived from the word <em>dhūpa</em>, ‘incense’, is
+suggestive of ‘fumigating’ or ‘smoking out’. For instance, we find the following
+verse in the <em>Bodhivagga</em> of the <em>Udāna</em> with reference to the stages of
+reflection on the law of dependent arising, in direct and reverse order, that
+the Buddha had gone through just after his enlightenment.</p>
+<blockquote>
+<p><em>Yadā have pātubhavanti dhammā,</em> <br />
+<em>Ātāpino jhāyato brāhmaṇassa,</em> <br />
+<em>Vidhūpayaṁ tiṭṭhati Mārasenaṁ,</em> <br />
+<em>Suriyo ’va obhāsayam antalikkhaṁ.</em><sup class="footnote-reference" id="fr-fn755-1"><a href="#fn-fn755">3</a></sup></p>
+<p>When <em>dhammas</em> manifest themselves, <br />
+To the resolutely meditating Brahmin, <br />
+He stands fumigating the hordes of Māra, <br />
+Like the sun irradiating the firmament.</p>
+</blockquote>
+<p>The dispelling of the hordes of Māra is rather suggestive of a smoking out. In
+some other discourses, this verb <em>vidhūpeti</em> is found contrasted with
+<em>sandhūpeti</em>. The meaning of both these verbs, which have the <em>dhūpa</em> element in
+common, is not quite clear. It is likely that the two words imply two functions
+of the ritual associated with incense. While some fragrant kinds of incense are
+used for propitiating benevolent spirits, certain caustic types are utilized for
+exorcising evil spirits.</p>
+<p>For instance in the <em>Khajjanīyasutta</em> of the <em>Saṁyutta Nikāya</em>, with reference
+to the noble disciple, the phrase <em>vidhūpeti na sandhūpeti</em> occurs.<sup class="footnote-reference" id="fr-fn756-1"><a href="#fn-fn756">4</a></sup>
+Since the implicit reference is again to the hordes of Māra, the phrase could be
+rendered as “he exorcises and does not propitiate”.</p>
+<p>The ordinary worldling’s mode of recognition of the Tathāgata is comparable to
+the recognition of a vortex that has already ceased with the help of the flotsam
+and jetsam lightly floating around it. Even after the vortex has ceased, flotsam
+and jetsam could still go on rotating, giving the wrong impression that the
+vortex is still there.</p>
+<p>If one understands that the vortex has actually ceased deep down at its centre,
+and that what remains there, now, is the great ocean, undifferentiated and
+unique, one can get rid of the unfounded fear arising from the statement that
+there is no Tathāgata in truth and fact.</p>
+<p>The cessation of the puny centre of the whirlpool is equivalent to inheriting an
+expansive great ocean. It is where a vortex ceases that the great ocean prevails
+unhindered. To give up the limitations of a vortex, is to inherit the limitless
+ocean.</p>
+<p>The irony arising from these statements is already implicit in the term
+<em>arahant</em>. We use this term with reference to the Buddha as well as the
+<em>arahants</em>. Though the commentators later attributed various other meanings to
+the term, the basic sense is ‘to be worthy of gifts’. In fact, it is being
+worthy of receiving everything.</p>
+<p><strong>It is by giving up all that one becomes worthy of all.</strong></p>
+<p>Here too, we have a paradox. To become an <em>arahant</em> is to let go of everything.
+Craving has to be fully abandoned. It is when all desires are gone, when
+everything is given up, that one becomes worthy of receiving everything. This is
+the deeper side of the significance of the term <em>arahant</em>.</p>
+<p>There are six modes of measuring in accordance with the conceit ‘am’,
+<em>asmimāna</em>. What is known as <em>saḷāyatana</em>, or the six sense-bases, comprise the
+six scales of measurement, asserting the conceit ‘am’. At whatever point of time
+the measuring, evaluating and assessing done by the six sense-bases, such as the
+eye, ear, nose etc., ceases, the person concerned thereby becomes immeasurable,
+invaluable and boundless. It is here that the simile of the vortex and the ocean
+becomes meaningful. So the only way of becoming immeasurable and boundless is to
+abandon all those scales of measurement. This might sound extremely strange.</p>
+<p>With the cessation of a vortex, the attention of one who has been looking at it
+turns towards the depth, immeasurability and boundlessness of the great ocean.
+This line of reflection might even enable one to get a glimpse of an unworldly
+beauty in this philosophy of the void, which drives an unfounded fear into the
+minds of the worldlings.</p>
+<p>We do get positive proof of this fact in such sections of the <em>Dhammapada</em> as
+those entitled The Flowers, The Worthy, The Buddha and The Brahmin, as well as
+in a number of discourses in the <em>Sutta Nipāta</em>, where we come across
+marvellously scintillating verses. This is understandable, since the dawn of
+that wisdom which sees the voidness of a self and of everything belonging to a
+self, and the attainment of the fruits of the path in the light of that wisdom,
+marks the efflorescence as well as the fruition of the <em>saṁsāric</em> existence of a
+being.</p>
+<p>This idea comes up, for instance, in the section on flowers in the <em>Dhammapada</em>.</p>
+<blockquote>
+<p><em>Yathā saṅkāradhānasmiṁ,</em> <br />
+<em>Ujjhitasmiṁ mahāpathe,</em> <br />
+<em>Padumaṁ tattha jāyetha,</em> <br />
+<em>Sucigandhaṁ manoramaṁ.</em></p>
+<p><em>Evaṁ saṅkārabhūtesu,</em> <br />
+<em>andhabhūte puthujjane,</em> <br />
+<em>atirocati paññāya,</em> <br />
+<em>sammāsambuddhasāvako.</em><sup class="footnote-reference" id="fr-fn757-1"><a href="#fn-fn757">5</a></sup></p>
+<p>As on top of a rubbish heap, <br />
+Dumped by the highway side, <br />
+There blossoms forth a lotus, <br />
+Pure in fragrance and charming.</p>
+<p>So amidst the worldlings blind, <br />
+The Fully Awakened One’s disciple, <br />
+Outshines them in marked contrast, <br />
+In point of wisdom bright.</p>
+</blockquote>
+<p>So, then, the <em>arahant</em> is that charming lotus, arising out of the cesspool of
+<em>saṁsāra</em>. Surely there cannot be anything frightful about it. There is nothing
+to get scared about this prospect.</p>
+<p>In our last sermon we quoted from a discourse that gives some new definitions
+and new concepts of the world.<sup class="footnote-reference" id="fr-fn758-1"><a href="#fn-fn758">6</a></sup> We brought up two statements from the
+<em>Lokakāmaguṇasutta</em> (No. 1) of the <em>Saḷāyatanavagga</em> in the <em>Saṁyutta Nikāya</em>.
+The first statement is somewhat riddle-like. There the Buddha addresses the
+monks and declares:</p>
+<blockquote>
+<p><em>Nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñātayyaṁ, daṭṭhayyaṁ, pattayyan’ti
+vadāmi. Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ
+vadāmi.</em><sup class="footnote-reference" id="fr-fn759-1"><a href="#fn-fn759">7</a></sup></p>
+<p>Monks, I do not say that by travelling one can come to know or see or reach
+the end of the world. Nor do I say that without reaching the end of the world
+one can put an end to suffering.</p>
+</blockquote>
+<p>We also mentioned, the other day, the explanation given by Venerable Ānanda to
+this cryptic statement at the request of those monks who approached him to get
+it clarified. That explanation embodies the definition given by the Buddha to
+the term world. It is not the common concept of the world.</p>
+<blockquote>
+<p><em>Yena kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī, ayaṁ vuccati ariyassa
+vinaye loko. Kena c’āvuso lokasmiṁ lokasaññī hoti lokamānī?</em></p>
+<p><em>Cakkhunā kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī, sotena … ghānena
+… jivhāya … kāyena … manena kho, āvuso, lokasmiṁ lokasaññī hoti
+lokamānī. Yena kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī, ayaṁ vuccati
+ariyassa vinaye loko.</em></p>
+<p>Friends, that by which one has a perception of the world and has a conceit of
+the world, that in this discipline of the Noble Ones is called ‘the world’. By
+what, friends, has one a perception of the world and a conceit of the world?</p>
+<p>By the eye, friends, one has a perception of the world and a conceit of the
+world, by the ear … by the nose … by the tongue … by the body … by the
+mind … That, friends, by which one has a perception of the world and a
+conceit of the world, that in this discipline of the Noble Ones is called ‘the
+world’.</p>
+</blockquote>
+<p>That with which the world is measured, that itself is called ‘the world’. The
+above-mentioned measuring rods, namely the eye, the ear, the nose, the tongue,
+the body and the mind, give us a conceit of the world and a perception of the
+world. Apart from these six there is no way of knowing a world. All theories
+about the world are founded on these six sense-bases.</p>
+<p>By way of a simple illustration, we alluded to the fact that in the absence of
+any standard measuring rod, we resort to the primordial scales based on this
+physical frame of ours, such as the inch, the span, the foot and the fathom.</p>
+<p>The subtlest scale of measurement, however, is that based on the mind. It is in
+this mode of measuring and reckoning that concepts and designations play their
+part. But the Buddha’s philosophy of the void goes against all these mental
+modes. His exorcism by the vision of the void fumigates all concepts and
+designations.</p>
+<p>The six sense-bases are therefore so many scales of measurement. It is with the
+help of these that the world is measured. So the above definition of the world
+brings out the ‘prepared’, <em>saṅkhata</em>, nature of the world. It is a
+thought-construct.</p>
+<p>This does not amount to a negation of the role of materiality. All we mean to
+say is that the concept of the world is actually an outcome of these six sense
+bases. To that extent it is something prepared, a thought-construct.</p>
+<p>While discussing the ten indeterminate points on a previous occasion, we
+happened to mention that the first four among them concern the world.<sup class="footnote-reference" id="fr-fn760-1"><a href="#fn-fn760">8</a></sup></p>
+<ol>
+<li>“The world is eternal.”</li>
+<li>“The world is not eternal.”</li>
+<li>“The world is finite.”</li>
+<li>“The world is infinite.”</li>
+</ol>
+<p>What those theorists meant by the term world in this context is none other than
+that prepared world which is constructed by the six sense-bases. That is to say,
+it is just the concept of the world.</p>
+<p>However, they were not aware of the fact that their concept of the world is a
+thought-construct, because they had no insight into the law of dependent
+arising. They did not understand that these are mere preparations.</p>
+<p>The fallacy involved here, that is, the inability to understand that their
+concept of the world is the outcome of wrong attention, we illustrated by the
+simile of the magic kettle.</p>
+<p>In an exhibition a magic kettle is displayed from which water keeps on flowing
+into a basin. One curious onlooker is waiting to see the kettle empty, while the
+other is waiting to see the basin overflowing. Both are unaware of the fact that
+a hidden tube conveys the water back again to the kettle, unseen through the
+same flow of water.</p>
+<p>The ordinary concept of the world carries with it the same fallacy. The
+worldlings under the sway of defilements, which thrive on the perception of the
+compact, <em>ghanasaññā</em>, have the habit of grasping everything. The ordinary man
+of the world, fully overcome by craving and grasping, entertains a perception of
+permanence since he has no insight. That is why he regards the world as a unit
+due to his perception of the compact, as he takes cognizance only of the arising
+aspect, ignoring the decaying aspect.</p>
+<p>Whether such a world is eternal or not, is the point at issue in the case of the
+first set of questions mentioned above, while the next set poses the dilemma
+whether it is finite or infinite. What is at the root of all those ill-conceived
+notions, is the premise that it is possible to posit an absolute existence or an
+absolute non-existence. In other words, the two extreme views ‘everything
+exists’ and ‘nothing exists’.</p>
+<p>The unique norm of dependent arising, which the Buddha discovered, dismisses
+both those extreme views. It is set forth in the <em>Kaccāyanagottasutta</em> of the
+<em>Nidānasaṁyutta</em> in the <em>Saṁyutta Nikāya</em>, which we have quoted earlier
+too.<sup class="footnote-reference" id="fr-fn761-1"><a href="#fn-fn761">9</a></sup> We shall, however, bring up again the relevant section to elucidate
+this point.</p>
+<blockquote>
+<p><em>Dvayanissito khvāyaṁ, Kaccāyana, loko yebhuyyena: atthitañceva natthitañca.
+Lokasamudayaṁ kho, Kaccāyana, yathābhūtaṁ sammappaññāya passato yā loke
+natthitā sā na hoti. Lokanirodhaṁ kho, Kaccāyana, yathābhūtaṁ sammappaññāya
+passato yā loke atthitā sā na hoti.</em><sup class="footnote-reference" id="fr-fn762-1"><a href="#fn-fn762">10</a></sup></p>
+<p>This world, Kaccāyana, for the most part, bases its views on two things: on
+existence and non-existence. Now, Kaccāyana, to one who with right wisdom sees
+the arising of the world as it is, the view of non-existence regarding the
+world does not occur. And to one who with right wisdom sees the cessation of
+the world as it really is, the view of existence regarding the world does not
+occur.</p>
+</blockquote>
+<p>This is where our simile of the magic kettle becomes meaningful. Had both
+onlookers understood that the magic kettle is getting filled at the same time it
+gets emptied, and that the basin also gets filled while it is being emptied,
+they would not have the curiosity to go on looking at it.</p>
+<p>In contradistinction to both these viewpoints, the law of dependent arising
+promulgated by the Buddha transcends them by penetrating into the concept as
+such. The Buddha explained the arising of the world in terms of the twelve
+factors, beginning with “dependent on ignorance preparations”, precisely because
+it cannot be presented in one word.</p>
+<p>Usually, the formula of dependent arising is summed up with the words <em>ayaṁ
+dukkhasamudayo</em>, “this is the arising of suffering”, or with the more conclusive
+statement <em>evam etassa kevalassa dukkhakkhandhassa samudayo hoti</em>, “thus is the
+arising of this entire mass of suffering”.</p>
+<p>There are also instances of explaining the arising of the world through the
+principle underlying the norm of dependent arising. The world arises in the six
+sense-bases. It is at the same time the arising of suffering. The arising of
+suffering is almost synonymous with the arising of the world.</p>
+<p>The law of dependent arising is an explanation of the way a concept of the world
+comes about. This is an extremely subtle point. Since the concept of the world
+is a product of wrong reflection, it is <em>saṅkhata</em>, or ‘prepared’. It is like
+something imagined. The <em>saṅkhata</em>, or the ‘prepared’, has a certain circularity
+about it.</p>
+<p>In fact, the two dilemmas mentioned above involve the question of time and
+space. The question whether the world is eternal or not eternal concerns time,
+whereas the question whether the world is finite or infinite relates to space.</p>
+<p>Both time and space involve a circularity. The furthest limit of the forenoon is
+the nearest limit of the afternoon, and the furthest limit of the afternoon is
+the nearest limit of the forenoon. This is how the cycle of the day turns round.
+Where the forenoon ends is the afternoon, where the afternoon ends is the
+forenoon.</p>
+<p>A similar time cycle is to be found even in one moment. Rise and fall occur as a
+cycle even within a single moment. The same process goes on within an aeon. That
+is why an aeon is said to have the two aspects called <em>saṁvatta,</em> ‘contraction’,
+and <em>vivaṭṭa</em>, ‘expansion’. World systems go on contracting and expanding.</p>
+<p>The so-called existence of the world is a continuous process of contraction and
+expansion. Therefore it is impossible to find any beginning or end. The very
+question of a first beginning is ill conceived. It is like an attempt to find a
+starting point in a cycle. It is a problem that cannot be solved by speculation.</p>
+<p>Because of the cyclic nature of existence, rise and fall is characteristic of
+every single moment. It is by ignoring the decaying aspect inherent in one
+moment that wrong reflection gives rise to the inference that there must be an
+absolute end of the world.</p>
+<p>Because the visible world gets destroyed, one conceives of an absolute end of
+the world. But when one world system gets destroyed, another world system gets
+crystallized somewhere else. Speculative views and standpoints about the
+universe, current among the worldlings, are of such a misleading nature that any
+reasoning based on them leads to a circularity of argument as is evident from
+the <em>Lokāyatikābrāhmaṇāsutta</em> among the Nines of the <em>Aṅguttara Nikāya</em>.</p>
+<p>This discourse is about two <em>Lokāyatikābrāhmins.</em> The term <em>Lokāyatika</em> is a
+derivative from <em>lokāyata</em>, which signifies a branch of knowledge dealing with
+the length and breadth of the world, perhaps a prototype of modern science,
+though it relied more on logic than on experiment. The two Brahmins were
+probably students of such a branch of learning. One day they came to the Buddha
+and posed this question:</p>
+<blockquote>
+<p>Sire Gotama, now there is this teacher Pūraṇa Kassapa who claims omniscience,
+saying that he sees everything and has knowledge and vision of everything
+while walking or standing, whether asleep or awake. With these claims to
+omniscience, he makes the following declaration:</p>
+<p><em>Ahaṁ anantena ñāṇena anantaṁ lokaṁ jānaṁ passaṁ viharāmi</em>.<sup class="footnote-reference" id="fr-fn763-1"><a href="#fn-fn763">11</a></sup></p>
+<p>“I dwell knowing and seeing an infinite world with an infinite knowledge.”</p>
+<p>But then there is this teacher Nigaṇṭha Nāṭaputta who also has similar claims
+to omniscience, but declares:</p>
+<p><em>Ahaṁ antavantena ñāṇena antavantaṁ lokaṁ jānaṁ passaṁ viharāmi</em>.</p>
+<p>“I dwell knowing and seeing a finite world with a finite knowledge.”</p>
+</blockquote>
+<p>Then the two Brahmins ask the Buddha which of these two teachers claiming
+omniscience in such contradictory terms is correct. But the Buddha’s reply was:</p>
+<blockquote>
+<p><em>Alaṁ brāhmaṇā, tiṭṭhat’ etaṁ … Dhammaṁ vo desissāmi</em>,</p>
+<p>enough, brahmins, let that question be … I shall preach to you the Dhamma.</p>
+</blockquote>
+<p>The expression used here is suggestive of the fact that the question belongs to
+the category of unexplained points. Terms like <em>ṭhapita</em>, ‘left aside’, and
+<em>ṭhapanīya</em>, ‘should be left aside’, are used with reference to indeterminate
+points.</p>
+<p>Why did the Buddha leave the question aside? We can guess the reason, though it
+is not stated as such.</p>
+<p>Now the standpoint of Pūraṇa Kassapa is: “I dwell knowing and seeing an infinite
+world with an infinite knowledge.” One can question the validity of his claim
+with the objection: You see an infinite world, because your knowledge is not
+finite, that is to say, incomplete. If it is complete, there must be an end.
+Therefore, going by the sense of incompleteness in the word <em>anantaṁ</em>, one can
+refute the former view. Why you see the world as infinite is because your
+knowledge lacks finality.</p>
+<p>Nigaṇṭha Nāṭaputta, on the other hand, is asserting that he sees a finite world
+with a finite knowledge. But the followers of Pūraṇa Kassapa can raise the
+objection: You are seeing the world as finite because your knowledge is limited.
+Your knowledge has an end, that is why you see a finite world. So here, too, we
+have a circle, or rather a circularity of argument. The two terms <em>anta</em> and
+<em>ananata</em> are ambiguous. That must be the reason why the Buddha rejected the two
+standpoints in question.</p>
+<p>Then he declares: “I shall preach to you the Dhamma”, and brings up as a simile
+an illustration which could be summed up as follows. Four persons endowed with
+the highest ability to walk, the highest speed and the widest stride possible,
+stand in the four directions. Their speed is that of an arrow and their stride
+is as wide as the distance between the eastern ocean and the western ocean. Each
+of them tells himself: “I will reach the end of the world by walking” and goes
+on walking for hundred years, that being his full life-span, resting just for
+eating, drinking, defecating, urinating and giving way to sleep or fatigue, only
+to die on the way without reaching the end of the world.</p>
+<p>“But why so?”, asks the Buddha rhetorically and gives the following explanation.</p>
+<blockquote>
+<p>“I do not say, O! Brahmins, that the end of the world can be known, seen or
+reached by this sort of running. Nor do I say that there is an ending of
+suffering without reaching the end of the world.”</p>
+</blockquote>
+<p>Then he declares:</p>
+<blockquote>
+<p>“Brahmins, it is these five strands of sense pleasures that in the Noble One’s
+discipline are called ‘the world’”.</p>
+</blockquote>
+<p>In this particular context, the Buddha calls these five kinds of sense-pleasures
+‘the world’ according to the Noble One’s terminology. This does not contradict
+the earlier definition of the world in terms of the six sense-bases, for it is
+by means of these six sense-bases that one enjoys the five strands of
+sense-pleasures. However, as an art of preaching, the Buddha defines the world
+in terms of the five strands of sense-pleasures in this context.</p>
+<p>Then he goes on to proclaim the way of transcending this world of the five sense
+pleasures in terms of <em>jhānic</em> attainments. When one attains to the first
+<em>jhāna</em>, one is already far removed from that world of the five sense-pleasures.
+But about him, the Buddha makes the following pronouncement:</p>
+<blockquote>
+<p><em>Aham pi, brāhmaṇā, evaṁ vadāmi: ’ayam pi lokapariyāpanno, ayam pi anissaṭo
+lokamhā’ti</em>,</p>
+<p>“And I too, O! Brahmins, say this: ‘This one, too, is included in the world,
+this one, too, has not stepped out of the world’”.</p>
+</blockquote>
+<p>The Buddha makes the same pronouncement with regard to those who attain to the
+other <em>jhānic</em> levels. But finally he comes to the last step with these words:</p>
+<blockquote>
+<p><em>Puna ca paraṁ, brāhmaṇā, bhikkhu sabbaso nevasaññānāsaññāyatanaṁ samatikkama
+saññāvedayitanirodhaṁ upasampajja viharati, paññāya c’assa disvā āsavā
+parikkhīṇā honti. Ayaṁ vuccati, brāhmaṇā, bhikkhu lokassa antam āgamma lokassa
+ante viharati tiṇṇo loke visattikaṁ.</em></p>
+<p>“But then, O! Brahmins, a monk, having completely transcended the sphere of
+neither-perception-nor-non-perception, attains to and abides in the cessation
+of perceptions and feelings, and in him, having seen with wisdom, the influxes
+are made extinct. This one, O! Brahmins, is known as one who, on reaching the
+end of the world, is dwelling at its very end, having crossed over the
+agglutinative craving”.</p>
+</blockquote>
+<p>Going by these discourses, one might conclude that the cessation of perceptions
+and feelings is actually Nibbāna itself. But the most important part of the
+above quotation is the statement:</p>
+<blockquote>
+<p><em>paññāya c’assa disvā āsavā parikkhīṇā honti</em>,</p>
+<p>having seen with wisdom, the influxes are made extinct in him.</p>
+</blockquote>
+<p>While in the attainment of the cessation of perceptions and feelings, all
+preparations subside and it is on rising from it that all influxes are made
+extinct by the vision of wisdom.</p>
+<p>This fact comes to light in the following answer of Venerable Dhammadinnā Therī
+to the question raised by the lay-follower Visākha, her former husband, in the
+<em>Cūḷavedallasutta</em>.</p>
+<blockquote>
+<p><em>Saññāvedayitanirodhasamāpattiyā vuṭṭhitaṁ, kho āvuso Visākha, bhikkhuṁ tayo
+phassā phusanti: suññato phasso, animitta phasso, appaṇihito phasso.</em><sup class="footnote-reference" id="fr-fn764-1"><a href="#fn-fn764">12</a></sup></p>
+<p>Friend Visākha, when a monk has emerged from the attainment of the cessation
+of perceptions and feelings, three kinds of contact touch him: voidness
+contact, signless contact, desireless contact.</p>
+</blockquote>
+<p>On this point, the commentary too, gives the explanation <em>suññatā nāma
+phalasamāpatti</em>,<sup class="footnote-reference" id="fr-fn765-1"><a href="#fn-fn765">13</a></sup> “‘voidness’ means the attainment of the fruit of
+<em>arahanthood</em>”.</p>
+<p>In answer to another question, Venerable Dhammadinnā Therī says,</p>
+<blockquote>
+<p><em>Saññāvedayitanirodhasamāpattiyā vuṭṭhitassa, kho āvuso Visākha, bhikkhuno
+vivekaninnaṁ cittaṁ hoti vivekapoṇaṁ vivekapabbhāraṁ</em>,</p>
+<p>Friend Visākha, when a monk has emerged from the attainment of the cessation
+of perceptions and feelings, his mind inclines to seclusion, slants to
+seclusion, tends to seclusion.</p>
+</blockquote>
+<p>Here the commentary explains <em>nibbānaṁ viveko nāma</em>, “what is called seclusion
+is Nibbāna”.</p>
+<p>So it is on emerging from the attainment of the cessation of perceptions and
+feelings, that is in the <em>arahattaphalasamādhi</em>, references to which we have
+cited earlier,<sup class="footnote-reference" id="fr-fn766-1"><a href="#fn-fn766">14</a></sup> that Nibbāna is realized. It is then that one actually
+sees the end of the world.</p>
+<p>So from this we can well infer that in advancing a new definition of the world,
+in introducing a new concept of the world, the Buddha was not trying to
+sidetrack the moot point of the worldlings by bringing in something totally
+irrelevant. He was simply rejecting for some sound reason the worldlings’
+concept of the world, which is born of wrong reflection, and illustrating the
+correct measuring rod, the true criterion of judgement regarding the origin of
+the concept of the world according to radical reflection.</p>
+<p>Out of all the discourses dealing with the question of the end of the world and
+the end of suffering, perhaps the most significant is the <em>Rohitassasutta</em>,
+which is found in the <em>Sagāthakasaṁyutta</em> of the <em>Saṁyutta Nikāya</em>, as well as
+in the section of the Fours in the <em>Aṅguttara Nikāya</em>.</p>
+<p>Once when the Buddha was staying at the Jetavana monastery at Sāvatthī, a deity
+named Rohitassa visited him in the night and asked the following question:</p>
+<blockquote>
+<p>“Where Lord one does not get born, nor grow old, nor die, nor pass away, nor
+get reborn, is one able, Lord, by travelling to come to know that end of the
+world or to see it or to get there?”</p>
+</blockquote>
+<p>The Buddha replies:</p>
+<blockquote>
+<p>“Where, friend, one does not get born, nor grow old, nor die, nor pass away,
+nor get reborn, that end of the world, I say, one is not able by travelling to
+come to know or to see or to arrive at.”</p>
+</blockquote>
+<p>When the Buddha gave this brief answer, the deity Rohitassa praised him with the
+following words of approbation:</p>
+<blockquote>
+<p><em>Acchariyaṁ bhante, abbhutaṁ bhante, yāva subhāsitam idaṁ bhagavatā,</em><sup class="footnote-reference" id="fr-fn767-1"><a href="#fn-fn767">15</a></sup></p>
+<p>“it is wonderful, Lord, it is marvellous, Lord, how well it is said by the
+Exalted One.”</p>
+</blockquote>
+<p>Why did he express his approbation? Because he had already realized the truth of
+the Buddha’s statement by his own experience. Then he goes on to relate the
+whole story of his past life.</p>
+<blockquote>
+<p>“In times past, Lord, I was a seer, Rohitassa by name, son of Bhoja, gifted so
+that I could fly through the air, and so swift, Lord, was my speed that I
+could fly just as quickly as a master of archery, well-trained, expert,
+proficient, a past master in his art, armed with a strong bow, could without
+difficulty send a light arrow far past the area coloured by a palm tree’s
+shadow; and so great, Lord, was my stride that I could step from the eastern
+to the western ocean. In me, Lord, arose such a wish as this: ‘I will arrive
+at the end of the world by walking’. And though such, Lord, was my speed and
+such my stride, and though with a life span of a century, living for a hundred
+years, I walked continuously for hundred years, except for the times spent in
+eating, drinking, chewing or tasting, or in answering calls of nature, and the
+time I gave to way to sleep or fatigue, yet I died on the way, without
+reaching the end of the world. Wonderful is it, O! Lord, marvellous is it,
+Lord, how well it is said by the Exalted One:</p>
+<p>Where, friend, one does not get born, nor grow old, nor die, nor pass away,
+nor get reborn, that end of the world, I say, one is not able by travelling to
+come to know or to see or to arrive at.“</p>
+</blockquote>
+<p>It is at this point, that the Buddha comes out with a momentous declaration,
+while granting Rohitassa’s approbation.</p>
+<blockquote>
+<p><em>Yattha kho, āvuso, na jāyati na jīyati na mīyati na cavati na upapajjati,
+nāhaṁ taṁ ’gamanena lokassa antaṁ ñāteyyaṁ daṭṭheyyaṁ patteyyan’ti vadāmi. Na
+cāhaṁ, āvuso, appatvā lokassa antaṁ dukkhassantakiriyaṁ vadāmi. Api c’āhaṁ,
+āvuso, imasmiṁ yeva byāmamatte kaḷevare sasaññimhi samanake lokañca paññāpemi
+lokasamudayañca lokanirodhañca lokanirodhagāminiñca paṭipadaṁ</em>.</p>
+<p>“Where, friend, one does not get born, nor grow old, nor die, nor pass away,
+nor get reborn, that end of the world, I say, one is not able by travelling to
+come to know or to see or to arrive at. But neither do I say, friend, that
+without having reached the end of the world there could be an ending of
+suffering. It is in this very fathom-long physical frame with its perceptions
+and mind, that I declare lies the world, the arising of the world, the
+cessation of the world, and the path leading to the cessation of the world.”</p>
+</blockquote>
+<p>This momentous declaration, which is comparable to a fearless lion’s roar that
+puts all religious and philosophical systems to flight, has been misinterpreted
+by some who have not grasped its true significance. They say that according to
+this discourse the cessation of the world is not here and that only the other
+three are to be found in this fathom-long body.</p>
+<p>Such misinterpretations are the result of taking seriously various far-fetched
+speculations of later origin about Nibbāna. According to them, Nibbāna is some
+mysterious non-descript place of rest for the <em>arahants</em> after their demise. One
+who goes by that kind of speculation is not ready to accept the Buddha’s
+declaration that it is in this very fathom-long body with its perceptions and
+mind that a cessation of the world can be realized.</p>
+<p>The commentary in this context simply observes that the four noble truths are to
+be found not in grass and twigs outside, but in this body consisting of the four
+elements.<sup class="footnote-reference" id="fr-fn768-1"><a href="#fn-fn768">16</a></sup> It has nothing more to add. A certain modern scholar has
+rightly pointed out that the commentator has missed a great opportunity for
+exegesis.<sup class="footnote-reference" id="fr-fn769-1"><a href="#fn-fn769">17</a></sup> The reason for the commentator’s lack of interest, in the case
+of such a discourse of paramount importance, is probably his predilection for
+these later speculations on Nibbāna.</p>
+<p>All what we have so far stated in explaining the significance of discourses
+dealing with the subject of Nibbāna, could even be treated as a fitting
+commentary to the <em>Rohitassasutta</em>.</p>
+<p>The point of relevance is the couple of words <em>sasaññimhi samanake</em>, occurring
+in the discourse in question. This fathom-long physical frame is here associated
+with perceptions and mind. The expression used by the Buddha in this context is
+full of significance.</p>
+<p>As we saw above, Venerable Ānanda defines the term ‘world’ as follows:</p>
+<blockquote>
+<p><em>yena kho, āvuso, lokasmiṁ lokasaññī hoti lokamānī, ayaṁ vuccati ariyassa
+vinaye loko.</em></p>
+<p>Friends, that by which one has a perception of the world and has a conceit of
+the world that in the discipline of the Noble Ones is called ‘the world’.</p>
+</blockquote>
+<p>The conceit of the world is a form of measuring with the mind. So the two words
+<em>sasaññimhi samanake</em> are suggestive of the concept of the world in the Noble
+Ones’ discipline.</p>
+<p>While discussing the significance of <em>arahattaphalasamāpatti</em>, also known as
+<em>aññāphalasamādhi</em>, and <em>aññāvimokkha</em>, we had occasion to bring up such
+quotations as the following:</p>
+<blockquote>
+<p><em>Siyā nu kho, bhante, bhikkhuno tathārūpo samādhipaṭilābho yathā neva
+paṭhaviyaṁ paṭhavīsaññī assa, na āpasmiṁ āposaññī assa, na tejasmiṁ tejosaññī
+assa, na vāyasmiṁ vāyosaññī assa, na ākāsānañcāyatane ākāsānañcāyatanasaññī
+assa, na viññāṇañcāyatane viññāṇancāyatanasaññī assa, na ākiñcaññāyatane
+ākiñcaññāyatanasaññī assa, na nevasaññānāsaññāyatane
+nevasaññānāsaññāyatanasaññī assa, na idhaloke idhalokasaññī assa, na paraloke
+paralokasaññī assa, yam p’idaṁ diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ pariyesitaṁ
+anuvicaritaṁ manasā tatrāpi na saññī assa, saññī ca pana assa?</em><sup class="footnote-reference" id="fr-fn770-1"><a href="#fn-fn770">18</a></sup></p>
+<p>Could there be, Lord, for a monk such an attainment of concentration wherein
+he will not be conscious (literally: ‘percipient’) of earth in earth, nor of
+water in water, nor of fire in fire, nor of air in air, nor will he be
+conscious of the sphere of infinite space in the sphere of infinite space, nor
+of the sphere of infinite consciousness in the sphere of infinite
+consciousness, nor of the sphere of nothingness in the sphere of nothingness,
+nor of the sphere of neither-perception-nor-non-perception in the sphere of
+neither-perception-nor-non-perception, nor will he be conscious of a this
+world in this world, nor of a world beyond in a world beyond, whatever is
+seen, heard, sensed, cognized, attained, sought after, traversed by the mind,
+even of that he will not be conscious – and yet he will be conscious?</p>
+</blockquote>
+<p>The <em>arahattaphalasamādhi</em> is so extraordinary that while in it one has no
+perception of earth, water, fire and air, or of this world, or of the other
+world, of whatever is seen, heard, sensed and cognized, but one is all the same
+percipient or conscious, <em>saññī ca pana assa</em>.</p>
+<p>To the question: “Of what is he percipient?”, <em>kiṁ saññī?</em>, once Venerable
+Sāriputta gave the answer that the perception is of Nibbāna as the cessation of
+existence, <em>bhavanirodho nibbānaṁ</em>.<sup class="footnote-reference" id="fr-fn771-1"><a href="#fn-fn771">19</a></sup></p>
+<p>In another discourse that we happened to quote, the mode of questioning has the
+following sequence: “Could there be, Lord, for a monk such an attainment of
+concentration wherein he will not be attending to the eye, nor to form, nor to
+the ear, nor to sound” etc., but ends with the riddle like phrase “and yet he
+will be attending”, <em>manasi ca pana kareyya</em>.<sup class="footnote-reference" id="fr-fn772-1"><a href="#fn-fn772">20</a></sup></p>
+<p>When the Buddha grants the possibility of such a concentration, Venerable Ānanda
+rejoins with an inquisitive “how could there be, Lord?”, and the Buddha explains
+that what a monk attends to while in that attainment could be summed up in the
+stereotyped phrase:</p>
+<blockquote>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho
+sabbūpadhipaṭinissaggo taṇhakkhayo virāgo nirodho nibbānaṁ</em></p>
+<p>This is peaceful, this is excellent, namely the stilling of all preparations,
+the relinquishment of all assets, the destruction of craving, detachment,
+cessation, extinction.</p>
+</blockquote>
+<p>It is Nibbāna, then, that one attends to while in that attainment. So we find
+even the terms ‘perception’, <em>saññā</em>, and ‘attention’, <em>manasikāra</em>, being used
+in the context of <em>arahattaphalasamāpatti</em>, or ‘attainment to the fruit of
+<em>arahanthood</em>’.</p>
+<p>Therefore, Nibbāna is not an experience as dry as a log of wood, but a state of
+serene awareness of its true significance. It is a transcendence of the world by
+realization of its cessation. That is why the two words <em>sasaññimhi samanake</em>,
+‘with its perceptions and mind’, have been used to qualify, <em>kaḷevare</em>,
+‘physical frame’, or ‘body’, in the momentous declaration.</p>
+<p>We also came across some instances in the discourses where the Buddha calls the
+cessation of the six sense-spheres itself Nibbāna. The most notable instance is
+perhaps the <em>Kāmaguṇasutta</em> we had already quoted.<sup class="footnote-reference" id="fr-fn773-1"><a href="#fn-fn773">21</a></sup> As we saw, even its
+presentation is rather enigmatic. It runs:</p>
+<blockquote>
+<p><em>Tasmātiha, bhikkhave, se āyatane veditabbe yattha cakkhuñca nirujjhati
+rūpasaññā ca virajjati, se āyatane veditabbe yattha sotañca nirujjhati
+saddasaññā ca virajjati, se āyatane veditabbe yattha ghānañca nirujjhati
+gandhasaññā ca virajjati, se āyatane veditabbe yattha jivhā ca nirujjhati
+rasasaññā ca virajjati, se āyatane veditabbe yattha kāyo ca nirujjhati
+phoṭṭabbasaññā ca virajjati, se āyatane veditabbe yattha mano ca nirujjhati
+dhammasaññā ca virajjati, se āyatane veditabbe.</em><sup class="footnote-reference" id="fr-fn774-1"><a href="#fn-fn774">22</a></sup></p>
+<p>Therefore, monks, that sphere should be known wherein the eye ceases and the
+perception of forms fades away, the ear ceases and the perception of sounds
+fades away, the nose ceases and the perception of smells fades away, the
+tongue ceases and the perception of tastes fades away, the body ceases and the
+perception of tangibles fades away, the mind ceases and the perception of
+ideas fades away, that sphere should be known.</p>
+</blockquote>
+<p>Venerable Ānanda, commenting on this riddle-like sermon of the Buddha, concludes
+that the Buddha is here referring to the cessation of the six sense-spheres,</p>
+<blockquote>
+<p><em>saḷāyatananirodhaṁ, āvuso, Bhagavatā sandhāya bhāsitaṁ.</em></p>
+<p>Friends, it is with reference to the cessation of the six sense-spheres that
+the Exalted One has preached this sermon.</p>
+</blockquote>
+<p>The cessation of the six sense-spheres is Nibbāna.</p>
+<p>All this goes to show that the concept of a world is the product of the six
+sense-spheres. Those six measuring rods have measured out a world for us.</p>
+<p><strong>Since the world is built up by the six sense-spheres, it has also to cease by
+the cessation of those six sense-spheres.</strong> That is why Nibbāna is defined as
+the cessation of the six sense-spheres, <em>saḷāyatananirodho Nibbānaṁ</em>. All those
+measuring rods and scales lose their applicability with the cessation of the six
+sense-spheres.</p>
+<p>How can there be an experience of cessation of the six sense-spheres? The
+cessation here meant is actually the cessation of the spheres of contact. A
+sphere of contact presupposes a duality. Contact is always between two things,
+between eye and forms, for instance. It is because of a contact between two
+things that one entertains a perception of permanence in those two things.</p>
+<p>Dependent on that contact, feelings and perceptions arise, creating a visual
+world. The visual world of the humans differs from that of animals. Some things
+that are visible to animals are not visible to humans. That is due to the
+constitution of the eye-faculty. It is the same with regard to the ear-faculty.
+These are the measuring rods and scales which build up a world.</p>
+<p>Now this world, which is a product of the spheres of sense-contact, is a world
+of <em>papañca</em>, or ‘proliferation’. Nibbāna is called <em>nippapañca</em> because it
+transcends this proliferation, puts an end to proliferation. The end of
+proliferation is at the same time the end of the six sense-spheres.</p>
+<p>There is a discourse in the section of the Fours in the <em>Aṅguttara Nikāya</em> which
+clearly brings out this fact. There we find Venerable Mahā Koṭṭhita putting a
+question to Venerable Sāriputta on this point. Venerable Mahā Koṭṭhita and
+Venerable Sāriputta are often found discussing intricate points in the Dhamma,
+not because they are in doubt, but in order to clarify matters for us. They are
+thrashing out problems for our sake. In this particular instance, Venerable Mahā
+Koṭṭhita puts the following question to Venerable Sāriputta:</p>
+<blockquote>
+<p><em>Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā atth’aññaṁ kiñci?</em><sup class="footnote-reference" id="fr-fn775-1"><a href="#fn-fn775">23</a></sup></p>
+<p>Friend, with the remainderless fading away and cessation of the six spheres of
+sense-contact, is there something left?</p>
+</blockquote>
+<p>Venerable Sāriputta’s response was: <em>Mā hevaṁ āvuso</em>, “Do not say so, friend.”</p>
+<p>Venerable Mahā Koṭṭhita follows it up with three other possible alternatives,
+all of which Venerable Sāriputta dismisses with the same curt reply. The three
+alternatives are:</p>
+<blockquote>
+<p><em>Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā natth’aññaṁ kiñci?</em></p>
+<p>Friend, with the remainderless fading away and cessation of the six spheres
+of sense-contact, is there nothing left?</p>
+<p><em>Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā atthi ca natthi ca aññaṁ
+kiñci?</em></p>
+<p>Friend, with the remainderless fading away and cessation of the six spheres of
+sense-contact, is it the case that there is and is not something left?</p>
+<p><em>Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā nev’atthi no natth’aññaṁ kiñci?</em></p>
+<p>Friend, with the remainderless fading away and cessation of the six spheres of
+sense-contact, is it the case that there neither is nor is not something left?</p>
+</blockquote>
+<p>The mode of questioning takes the form of a tetralemma and Venerable Sāriputta
+dismisses all the four alternatives as inapplicable. Then Venerable Mahā
+Koṭṭhita asks why all these four questions were ruled out, and Venerable
+Sāriputta explains:</p>
+<blockquote>
+<p><em>’Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā atth’aññaṁ kiñcī’ti, iti
+vadaṁ appapañcaṁ papañceti.</em></p>
+<p><em>’Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā natth’aññaṁ kiñcī’ti, iti
+vadaṁ appapañcaṁ papañceti.</em></p>
+<p><em>’Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā atthi ca natthi ca aññaṁ
+kiñcī’ti, iti vadaṁ appapañcaṁ papañceti.</em></p>
+<p><em>’Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā nev’atthi no natth’aññaṁ
+kiñcī’ti, iti vadaṁ appapañcaṁ papañceti.</em></p>
+<p><em>Yāvatā, āvuso, channaṁ phassāyatanānaṁ gati tāvatā papañcassa gati, yāvatā
+papañcassa gati tāvatā channaṁ phassāyatanānaṁ gati.</em></p>
+<p><em>Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā papañcanirodho
+papañcavūpasamo.</em></p>
+<p>Friend, he who says: ‘With the remainderless fading away and cessation of the
+six spheres of sense-contact, there is something left’ is conceptually
+proliferating what should not be proliferated conceptually.</p>
+<p>Friend, he who says: ‘With the remainderless fading away and cessation of the
+six spheres of sense-contact, there is nothing left’ is conceptually
+proliferating what should not be proliferated conceptually.</p>
+<p>Friend, he who says: ‘With the remainderless fading away and cessation of the
+six spheres of sense-contact, there is and is not something left’ is
+conceptually proliferating what should not be proliferated conceptually.</p>
+<p>Friend, he who says: ‘With the remainderless fading away and cessation of the
+six spheres of sense-contact, there neither is nor is not something left’ is
+conceptually proliferating what should not be proliferated conceptually.</p>
+<p>Friend, whatever is the range of the six spheres of sense-contact, that itself
+is the range of conceptual proliferation, and whatever is the range of
+conceptual proliferation, that itself is the range of the six spheres of
+sense-contact.</p>
+<p>By the remainderless fading away and cessation of the six spheres of
+sense-contact, there comes to be the cessation and appeasement of conceptual
+proliferation.</p>
+</blockquote>
+<p>The commentator gives the following explanation to the expression <em>atth’aññaṁ
+kiñci</em>, “Is there something left?”: <em>’tato paraṁ koci appamattako pi kileso
+atthī’ti pucchati</em>.<sup class="footnote-reference" id="fr-fn776-1"><a href="#fn-fn776">24</a></sup> According to him, Venerable Mahā Koṭṭhita is asking
+whether there is even a little defilement left after the cessation of the six
+spheres of sense-contact.</p>
+<p>But the question is obviously not about the remaining defilements, in which case
+even a categorical negative could have been the correct answer. The question
+here is about the very usage of the expressions ‘is’ and ‘is not’.</p>
+<p>With the cessation of the six spheres of sense-contact all four propositions of
+the tetralemma, based on the two standpoints ‘is’ and ‘is not’, lose their
+applicability. They are rejected in toto. Here the <em>papañca</em>, or ‘conceptual
+proliferation’, implied, is the very discrimination between ‘is’ and ‘is not’.</p>
+<p>The entire world is built up on the two concepts ‘is’ and ‘is not’. Being
+unaware of the <em>saṅkhata</em>, or ‘prepared’, nature of these concepts, we are
+accustomed to say ‘this is’ as occasion demands. This recording machine before
+us ‘is there’. So also are the things which we presume to exist. We ourselves do
+exist, do we not? One could say ‘I am’.</p>
+<p>Out of the two rapid processes going on within us every moment, namely arising
+and passing away, we are most of the time dwelling on the side of arising. The
+two concepts ‘is’ and ‘is not’ are structured on the six spheres of
+sense-contact. Not only ‘is’ and ‘is not’, but also the entire logical structure
+connecting these two postulates is founded on these six spheres. Here, then, we
+see the fistfuls of inflammable incense powder the Buddha had directed towards
+language and logic, setting all that ablaze.</p>
+<p>What this discourse highlights is the fact that by the very cessation of the six
+spheres of sense-contact the cessation of conceptual proliferation is brought
+about. With reference to speculative views, particularly to those wrong views
+that were put aside as unexplained points, the Buddha uses the term
+<em>diṭṭhipariḷāha</em>, ‘delirium of views’.<sup class="footnote-reference" id="fr-fn777-1"><a href="#fn-fn777">25</a></sup> <em>Pariḷāha</em> means ‘delirious
+fever’.</p>
+<p>Patients in delirium cry out for water. The worldlings, in general, are in high
+delirium. Even such teachers like Pūraṇa Kassapa and Nigaṇṭha Nātaputta, who
+were trying to solve these speculative problems about the world by logic, were
+also in delirium. Their views, based on wrong reflections, were mere
+hallucinations. They kept on raising such questions, because they had no insight
+into the nature of <em>saṅkhāras</em>, or ‘preparations’.</p>
+<p>The worldlings spend their whole lifetime running in search of the world’s end.
+All that is <em>papañca</em>, conceptual proliferation. In fact, the term <em>papañca</em> is
+so pervasive in its gamut of meaning that it encompasses the entire world.
+Usually, the term is glossed over by explaining it with reference to <em>taṇhā,
+māna</em> and <em>diṭṭhi</em>, bringing in craving, conceits and views as illustrations of
+<em>papañca</em>. But that does not amount to an explanation proper. It is only a
+definition in extension by giving three instances of <em>papañca</em>. To rattle off
+the three instances is not a fit answer to the question ‘what is <em>papañca</em>’.</p>
+<p>The primary significance of <em>papañca</em> is traceable to the linguistic medium. We
+have already shown how the network of grammar spreads as soon as the peg ‘am’ is
+driven down to earth, as it were.<sup class="footnote-reference" id="fr-fn778-1"><a href="#fn-fn778">26</a></sup> The reality in the first person in
+grammar beckons a second and a third person to complete the picture. In logic,
+too, a similar legerdemain takes place. The interminable questions of identity
+and difference lead the logician up the garden path.</p>
+<p><strong>The ‘world’ is precariously perched on a fictitious network of grammar and
+logic.</strong></p>
+<p>It is as a solution to all this that the Buddha came out with the extraordinary
+prospect of a cessation of the six spheres of sense-contact. This, then, is a
+level of experience realizable here and now. That is why the Buddha declared
+that the world is in this very fathom-long body with its perceptions and mind.</p>
+<p>Now as to the questions about the world, we have already pointed out that there
+is a circularity involved. Though one cannot find an end in something of a
+cyclic nature, there is still a solution possible. There is only one solution,
+that is, to break the cycle. That is what the term <em>vaṭṭupaccheda</em> means. One
+can breach the cycle.</p>
+<p>The cycle cannot be discovered by travelling. It is not out there, but in this
+very stream of consciousness within us. We have already described it as the
+vortex between consciousness and name-and-form. An allusion to the breach of the
+vortex is found in the following verse, which we had already discussed in
+connection with Nibbāna.</p>
+<blockquote>
+<p><em>Viññāṇaṁ anidassanaṁ,</em> <br />
+<em>anantaṁ sabbato pabhaṁ,</em> <br />
+<em>ettha āpo ca paṭhavī,</em> <br />
+<em>tejo vāyo na gādhati.</em></p>
+<p><em>Ettha dīghañca rassañca,</em> <br />
+<em>aṇuṁ thūlaṁ subhāsubhaṁ,</em> <br />
+<em>ettha nāmañca rūpañca,</em> <br />
+<em>asesaṁ uparujjhati,</em> <br />
+<em>viññāṇassa nirodhena,</em> <br />
+<em>etth’etaṁ uparujjhati.</em><sup class="footnote-reference" id="fr-fn779-1"><a href="#fn-fn779">27</a></sup></p>
+<p>Consciousness, which is non-manifestative, <br />
+Endless, lustrous on all sides, <br />
+Here it is that earth and water, <br />
+Fire and air no footing find.</p>
+<p>Here it is that long and short, <br />
+Fine and coarse, pleasant, unpleasant, <br />
+And Name-and-form are cut off without exception, <br />
+When consciousness has surceased, <br />
+These are held in check herein.</p>
+</blockquote>
+<p>Here one can see how name-and-form are cut off.</p>
+<blockquote>
+<p><em>Viññāṇaṁ anidassanaṁ, anantaṁ sabbato pabhaṁ,</em></p>
+<p>“consciousness, which is non-manifestative, infinite and lustrous on all
+sides”.</p>
+</blockquote>
+<p>In this consciousness even the four great primaries earth, water, fire and air,
+do not find a footing.</p>
+<p><em>Cakkavāla</em>, or a world-system, is supposed to be made up of these four primary
+elements. Even the term <em>cakkavāla</em> implies something cyclic. The world is a
+product of these primary elements, but these are not there in that
+non-manifestative consciousness.</p>
+<p>Such relative distinctions as long and short, subtle and gross, have no place in
+it. Name-and-form cease there, leaving no residue. Like an expert physician, who
+treats the germ of a disease and immunizes the patient, the Buddha effected a
+breach in the <em>saṁsāric</em> vortex by concentrating on its epicycle within this
+fathom-long body.</p>
+<p>The ever recurrent process of mutual interrelation between consciousness and
+name-and-form forming the epicycle of the <em>saṁsāric</em> vortex was breached. With
+the cessation of consciousness comes the cessation of name-and-form. With the
+cessation of name-and-form comes the cessation of consciousness. That is the
+dictum of the <em>Naḷakalāpīsutta</em>.<sup class="footnote-reference" id="fr-fn780-1"><a href="#fn-fn780">28</a></sup></p>
+<p>Out of the two bundles of reeds left standing, supporting each other, when one
+is drawn the other falls down. Even so, with the cessation of consciousness
+comes the cessation of name-and-form. With the cessation of name-and-form comes
+the cessation of consciousness. That is how the Buddha solved this problem.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn753"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn753-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn754"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/sn1.25/pli/ms">SN 1.25 / S I 14</a>, <em>Arahantasutta</em>, see <em>Sermon 13</em> <a href="#fr-fn754-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn755"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/ud1.3/pli/ms">Ud 1.3 / Ud 3</a>, <em>Bodhivagga</em> <a href="#fr-fn755-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn756"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/sn22.79/pli/ms">SN 22.79 / S III 89</a>, <em>Khajjanīyasutta</em> <a href="#fr-fn756-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn757"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/dhp44-59/pli/ms">Dhp 58-59</a>, <em>Pupphavagga</em> <a href="#fr-fn757-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn758"><sup class="footnote-definition-label">6</sup>
+<p>See <em>Sermon 22</em> <a href="#fr-fn758-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn759"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/sn35.116/pli/ms">SN 35.116 / S IV 93</a>, <em>Lokakāmaguṇasutta</em> <a href="#fr-fn759-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn760"><sup class="footnote-definition-label">8</sup>
+<p>See <em>Sermon 20</em> <a href="#fr-fn760-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn761"><sup class="footnote-definition-label">9</sup>
+<p>See <em>Sermons 4 and 22</em> <a href="#fr-fn761-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn762"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/sn12.15/pli/ms">SN 12.15 / S II 17</a>, <em>Kaccāyanagottasutta</em> <a href="#fr-fn762-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn763"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/an9.37/pli/ms">AN 9.37 / A IV 428</a>, <em>Lokāyatikābrāhmaṇāsutta</em> <a href="#fr-fn763-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn764"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/mn44/pli/ms">MN 44 / M I 302</a>, <em>Cūḷavedallasutta</em> <a href="#fr-fn764-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn765"><sup class="footnote-definition-label">13</sup>
+<p>Ps II 367 <a href="#fr-fn765-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn766"><sup class="footnote-definition-label">14</sup>
+<p>See <em>Sermons 16 and 17</em> <a href="#fr-fn766-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn767"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/sn2.26/pli/ms">SN 2.26 / S I 61</a> and <a href="https://suttacentral.net/an4.45/pli/ms">AN 4.45 / A II 49</a> <em>Rohitassasutta</em> <a href="#fr-fn767-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn768"><sup class="footnote-definition-label">16</sup>
+<p>Spk I 118 and Mp III 89 <a href="#fr-fn768-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn769"><sup class="footnote-definition-label">17</sup>
+<p>Mrs. Rhys Davids: <em>The Book of the Kindred Sayings</em>, PTS 1979, p 86 n 3 <a href="#fr-fn769-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn770"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/an11.7/pli/ms">AN 11.7 / A V 318</a>, <em>Saññāsutta</em>, see also <em>Sermon 16</em> <a href="#fr-fn770-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn771"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/an10.7/pli/ms">AN 10.7 / A V 9</a>, <em>Sāriputtasutta</em>, see also <em>Sermon 17</em> <a href="#fr-fn771-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn772"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/an11.8/pli/ms">AN 11.8 / A V 321</a>, <em>Manasikārasutta</em>, see also <em>Sermon 16</em> <a href="#fr-fn772-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn773"><sup class="footnote-definition-label">21</sup>
+<p>See <em>Sermon 17</em> <a href="#fr-fn773-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn774"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/sn35.117/pli/ms">SN 35.117 / S IV 98</a>, <em>Kāmaguṇasutta</em> <a href="#fr-fn774-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn775"><sup class="footnote-definition-label">23</sup>
+<p><a href="https://suttacentral.net/an4.173/pli/ms">AN 4.173 / A II 161</a>, <em>Mahākoṭṭhitasutta</em> <a href="#fr-fn775-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn776"><sup class="footnote-definition-label">24</sup>
+<p>Mp III 150 <a href="#fr-fn776-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn777"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/an4.10/pli/ms">AN 4.10 / A II 11</a>, <em>Yogasutta</em> <a href="#fr-fn777-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn778"><sup class="footnote-definition-label">26</sup>
+<p>See <em>Sermons 13 and 15</em> <a href="#fr-fn778-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn779"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/dn11/pli/ms">DN 11 / D I 223</a>, <em>Kevaḍḍhasutta</em>, see also <em>Sermon 6</em> <a href="#fr-fn779-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn780"><sup class="footnote-definition-label">28</sup>
+<p><a href="https://suttacentral.net/sn12.67/pli/ms">SN 12.67 / S II 114</a>, <em>Naḷakalāpīsutta</em>, see also <em>Sermon 3</em> <a href="#fr-fn780-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-22.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-24.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-22.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-24.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

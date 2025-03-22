@@ -1,0 +1,1064 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 5 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-5-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-5"><a class="header" href="#sermon-5">Sermon 5</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn148-1"><a href="#fn-fn148">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks.</p>
+<p>Towards the end of our last sermon, we discussed, to some extent, a special mode
+of attention, regarding the four objects of contemplation in the
+<em>Satipaṭṭhānasutta</em> – body, feelings, mind, and mind-objects.<sup class="footnote-reference" id="fr-fn149-1"><a href="#fn-fn149">2</a></sup> That
+discussion might have revealed a certain middle path indicated by the Buddha.</p>
+<p>We drew attention to a thematic paragraph, occurring throughout the
+<em>Satipaṭṭhānasutta</em>, which outlines a method of using objects and concepts for
+<em>satipaṭṭhāna</em> meditation without dogmatic involvement. This leads the meditator
+to a particular kind of attitude, summed up by the concluding phrase:</p>
+<blockquote>
+<p>He abides independent and does not cling to anything in the world,</p>
+<p><em>anissito ca viharati, na ca kiñci loke upādiyati</em>.<sup class="footnote-reference" id="fr-fn150-1"><a href="#fn-fn150">3</a></sup></p>
+</blockquote>
+<p>By way of clarification, we brought in the simile of a scaffolding for a
+building, that here the concepts only serve as a scaffolding for building up
+mindfulness and knowledge.<sup class="footnote-reference" id="fr-fn151-1"><a href="#fn-fn151">4</a></sup></p>
+<p>Talking about the scaffolding, we are reminded of two different attitudes,
+namely, the attitude of leaning on to and dwelling in the scaffolding itself,
+and the enlightened attitude of merely utilizing it for the purpose of erecting
+a building.</p>
+<p>For further explanation of this technique, we may take up the two terms
+<em>parāmasana</em> and <em>sammasana</em>. It might be better to distinguish the meanings of
+these two terms also with the help of a simile. As for a simile, let us take up
+the razor, which is such a useful requisite in our meditative life. There is a
+certain special way in sharpening a razor. With the idea of sharpening the
+razor, if one grabs it tightly and rubs it on the sharpening stone, it will only
+become blunt. <em>Parāmasana</em>, grasping, grabbing, is something like that.</p>
+<p>What then is the alternative? A more refined and softer approach is required as
+meant by the term <em>sammasana</em>. There is a proper mode of doing it. One has to
+hold the razor in a relaxed way, as if one is going to throw it away. One holds
+it lightly, ready to let go of it at any time. But, of course, with mindfulness.
+The wrist, also, is not rigid, but relaxed. Hand is supple at the joints and
+easy to swing. Then with that readiness, one sharpens the razor, sliding it
+smoothly on the stone. First: up, up, up, then: down, down, down, and then: up
+down, up down, up down. The third combined movement ensures that those parts of
+the blade still untouched by the stone will also get duly sharpened.</p>
+<p>It is in the same manner that the razor of insight wisdom has to be whetted on
+the sharpening stone of the <em>Satipaṭṭhānasutta</em>. Inward, inward, inward –
+outward, outward, outward – inward outward, inward outward. Or else: arising,
+arising, arising – ceasing, ceasing, ceasing – arising ceasing, arising ceasing.</p>
+<p>This is an illustration for the method of reflection, or <em>sammasana</em>, introduced
+by the Buddha in the <em>Satipaṭṭhānasutta</em>. Words and concepts have to be made use
+of, for attaining Nibbāna. But here the aim is only the up-building of
+mindfulness and knowledge. Once their purpose is served, they can be dismantled
+without being a bother to the mind. This is the significance of the concluding
+phrase “He abides independent and does not cling to anything in the world”.<sup class="footnote-reference" id="fr-fn152-1"><a href="#fn-fn152">5</a></sup></p>
+<p>There is another sutta in which the Buddha has touched upon this same point in
+particular. It is the <em>Samudayasutta</em> in the <em>Satipaṭṭhānasaṁyutta</em> of the
+<em>Saṁyutta Nikāya</em>. In that sutta, the Buddha has proclaimed the arising and
+the going down of the four foundations of mindfulness. He begins by saying:</p>
+<blockquote>
+<p>Monks, I shall teach you the arising and the going down of the four
+foundations of mindfulness.</p>
+<p><em>Catunnaṁ, bhikkhave, satipaṭṭhānānaṁ samudayañca atthagamañca
+desessāmi</em>.<sup class="footnote-reference" id="fr-fn153-1"><a href="#fn-fn153">6</a></sup></p>
+</blockquote>
+<p>He goes on to say:</p>
+<blockquote>
+<p><em>Ko ca, bhikkhave, kāyassa samudayo? Āhārasamudayā kāyassa samudayo,
+āhāranirodhā kāyassa atthagamo</em>.</p>
+<p>What, monks, is the arising of the body? With the arising of nutriment is the
+arising of the body and with the cessation of the nutriment is the going down
+of the body.</p>
+</blockquote>
+<p>Similarly:</p>
+<blockquote>
+<p><em>Phassasamudayā vedanānaṁ samudayo, phassanirodhā vedanānaṁ atthagamo</em>.</p>
+<p>With the arising of contact is the arising of feeling, and with the cessation
+of contact is the going down of feeling.</p>
+</blockquote>
+<p>And then:</p>
+<blockquote>
+<p><em>Nāmarūpasamudayā cittassa samudayo, nāmarūpanirodhā cittassa atthagamo</em>.</p>
+<p>With the arising of name-and-form is the arising of the mind, and with the
+cessation of name-and-form is the going down of the mind.</p>
+</blockquote>
+<p>And lastly:</p>
+<blockquote>
+<p><em>Manasikārasamudayā dhammānaṁ samudayo, manasikāranirodhā dhammānaṁ
+atthagamo</em>.</p>
+<p>With the arising of attention is the arising of mind-objects, and with the
+ceasing of attention is the going down of mind-objects.</p>
+</blockquote>
+<p>This, too, is an important discourse, well worth remembering, because here the
+Buddha is dealing with the arising and cessation, or arising and going down, of
+the four objects used for establishing mindfulness.</p>
+<p>As we know, the concept of nutriment in this Dhamma is much broader than the
+worldly concept of food. It does not imply merely the ordinary food, for which
+the term used is <em>kabaliṅkārāhāra</em>, or material food. Taken in a deeper sense,
+it includes the other three kinds of nutriment as well, namely <em>phassa</em>, or
+contact, <em>manosañcetanā</em>, or volition, and <em>viññāṇa</em>, or consciousness. These
+four together account for the concept of body as such. Therefore, due to these
+four there comes to be a body, and with their cessation the body ends. So also
+in the case of feeling. We all know that the arising of feeling is due to
+contact.</p>
+<p>The reference to name-and-form in this context might not be clear enough at
+once, due to various definitions of name-and-form, or <em>nāma-rūpa</em>. Here, the
+reason for the arising of the mind is said to be name-and-form. Mind is said to
+arise because of name-and-form, and it is supposed to go down with the cessation
+of name-and-form.</p>
+<p>The fact that the mind-objects arise due to attention is noteworthy. All the
+mind-objects mentioned in the fourth section of contemplation arise when there
+is attention. And they go down when attention is not there. In other words,
+attending makes objects out of them. This way, we are reminded that, apart from
+making use of these words and concepts for the purpose of attaining Nibbāna,
+there is nothing worth holding on to or clinging to dogmatically. So if a
+meditator works with this aim in mind, he will be assured of a state of mind
+that is independent and clinging-free, <em>anissita</em>, <em>anupādāna</em>.</p>
+<p>One marvellous quality of the Buddha’s teaching emerges from this discussion. A
+mind-object is something that the mind hangs on to as the connotations of the
+word <em>ārammaṇa</em> (cp. <em>ālambhana</em>) suggest. But because of the mode of insight
+wisdom outlined here, because of the middle path approach, even the tendency to
+‘hang-on’ is finally done away with and the object is penetrated through.
+Despite the above connotations of ‘hanging on’ (<em>ārammaṇa</em>), the object is
+transcended. Transcendence in its highest sense is not a case of surpassing, as
+is ordinarily understood. Instead of leaving behind, it penetrates through. Here
+then, we have a transcendence that is in itself a penetration.</p>
+<p>So the terms <em>anissita</em> and <em>anupādāna</em> seem to have a significance of their
+own. More of it comes to light in quite a number of other suttas. Particularly
+in the <em>Dvayatānupassanāsutta</em> of the <em>Sutta Nipāta</em> we come across the
+following two verses, which throw more light on these two terms:</p>
+<blockquote>
+<p><em>Anissito na calati,</em> <br />
+<em>nissito ca upādiyaṁ,</em> <br />
+<em>itthabhāvaññathābhāvaṁ,</em> <br />
+<em>saṁsāraṁ nātivattati.</em></p>
+<p><em>Etam ādīnavaṁ ñatvā,</em> <br />
+<em>nissayesu mahabbhayaṁ,</em> <br />
+<em>anissito anupādāno,</em> <br />
+<em>sato bhikkhu paribbaje</em>.<sup class="footnote-reference" id="fr-fn154-1"><a href="#fn-fn154">7</a></sup></p>
+<p>The unattached one wavers not, <br />
+But the one attached, clinging on, <br />
+Does not get beyond <em>saṁsāra</em>, <br />
+Which is an alternation between a this-ness and an otherwise-ness.</p>
+<p>Knowing this peril, <br />
+The great danger, in attachments or supports <br />
+Let the monk fare along mindfully, <br />
+Resting on nothing, clinging to nothing.</p>
+</blockquote>
+<p>Caught up in the dichotomy of <em>saṁsāric</em> existence, which alternates between
+this-ness and otherwise-ness, one is unable to transcend it, so long as there is
+attachment and clinging. <em>Nissayas</em> are the supports that encourage clinging in
+the form of dogmatic adherence to views. Seeing the peril and the danger in
+them, a mindful monk has no recourse to them. This gives one an idea of the
+attitude of an <em>arahant</em>. His mind is free from enslavement to the conjoined
+pairs of relative concepts.</p>
+<p>This fact is borne out by certain Canonical statements, which at first sight
+might appear as riddles. The two last sections of the <em>Sutta Nipāta</em>, the
+<em>Aṭṭhakavagga</em> and the <em>Pārāyanavagga</em> in particular, contain verses which are
+extremely deep. In the <em>Aṭṭhakavagga</em>, one often comes across apparently
+contradictory pairs of terms, side by side. About the <em>arahant</em> it is said that:</p>
+<blockquote>
+<p>he neither grasps nor gives up,</p>
+<p><em>nādeti na nirassati</em>.<sup class="footnote-reference" id="fr-fn155-1"><a href="#fn-fn155">8</a></sup></p>
+<p>There is nothing taken up or rejected by him,</p>
+<p><em>attaṁ nirattaṁ na hi tassa atthi</em>.<sup class="footnote-reference" id="fr-fn156-1"><a href="#fn-fn156">9</a></sup></p>
+</blockquote>
+<p>By the way, the word <em>attaṁ</em> in this context is derived from <em>ādātta</em> (<em>ā</em> +
+<em>dā</em>), by syncopation. It should not be mistaken as a reference to <em>attā</em>, or
+soul. Similarly, <em>niratta</em> is from <em>as</em>, to throw, <em>nirasta</em>, conveying the idea
+of giving up or putting down.</p>
+<p>There is nothing taken up or given up by the <em>arahant</em>. Other such references to
+the <em>arahant’s</em> attitude are:</p>
+<blockquote>
+<p><em>Na rāgarāgī na virāgaratto</em>,</p>
+<p>He is neither attached to attachment, nor attached to detachment.<sup class="footnote-reference" id="fr-fn157-1"><a href="#fn-fn157">10</a></sup></p>
+<p><em>Na hi so rajjati no virajjati</em>,</p>
+<p>He is neither attached nor detached.<sup class="footnote-reference" id="fr-fn158-1"><a href="#fn-fn158">11</a></sup></p>
+</blockquote>
+<p>It is in order to explain why such references are used that we took all this
+trouble to discuss at length the significance of such terms as
+<em>nissaya</em>.<sup class="footnote-reference" id="fr-fn159-1"><a href="#fn-fn159">12</a></sup> Probably due to a lack of understanding in this respect, the
+deeper meanings of such suttas have got obscured. Not only that, even textual
+corruption through distorted variant readings has set in, because they appeared
+like riddles. However, the deeper sense of these suttas sometimes emerges from
+certain strikingly strange statements like the following found in the
+<em>Khajjanīyasutta</em> of the <em>Saṁyutta Nikāya</em>. The reference here is to the
+<em>arahant</em>.</p>
+<blockquote>
+<p><em>Ayaṁ vuccati, bhikkhave, bhikkhu neva ācināti na apacināti, apacinitvā ṭhito
+neva pajahati na upādiyati, pajahitvā ṭhito neva viseneti na usseneti,
+visenetvā ṭhito neva vidhūpeti na sandhūpeti</em>.<sup class="footnote-reference" id="fr-fn160-1"><a href="#fn-fn160">13</a></sup></p>
+<p>Monks, such a monk is called one who neither amasses nor diminishes; already
+diminished as he is, he neither gives up nor grasps; already given up as he
+is, he neither disbands nor binds together; already disbanded as he is, he
+neither exorcizes nor proficiates.</p>
+</blockquote>
+<p>Even to one who does not understand the language, the above quotation would
+sound enigmatic. Even the rendering of the terms used here is not an easy
+matter, because of the nuances they seem to convey.</p>
+<p>We could perhaps say that such a monk neither amasses or accumulates, nor
+diminishes. Since he is already diminished, presumably as regards the five
+aggregates, he neither abandons nor grasps anew. Since the giving up is
+complete, he neither binds together or enlists (note the word <em>sena,</em> army), nor
+disbands. Disbanding (if not ‘disarmament’), being complete, there is neither
+exorcizing or smoking out, nor proficiating or inviting. The coupling of these
+terms and their peculiar employment is suggestive of the <em>arahant’s</em> freedom
+from the dichotomy.</p>
+<p>In the <em>Brāhmaṇavagga</em> of the <em>Dhammapada</em> too, we come across a similar
+enigmatic verse:</p>
+<blockquote>
+<p><em>Yassa pāraṁ apāraṁ vā,</em> <br />
+<em>pārāpāraṁ na vijjati,</em> <br />
+<em>vītaddaraṁ visaṁyuttaṁ,</em> <br />
+<em>tam ahaṁ brūmi brāhmaṇaṁ</em>.<sup class="footnote-reference" id="fr-fn161-1"><a href="#fn-fn161">14</a></sup></p>
+<p>For whom there is neither a farther shore, <br />
+Nor a hither shore, nor both, <br />
+Who is undistressed and unfettered, <br />
+Him I call a Brahmin.</p>
+</blockquote>
+<p>In this context the word <em>brāhmaṇa</em> refers to the <em>arahant</em>. Here too, it is
+said that the <em>arahant</em> has neither a farther shore, nor a hither shore, nor
+both. This might sometimes appear as a problem. Our usual concept of an
+<em>arahant</em> is of one who has crossed over the ocean of <em>saṁsāra</em> and is standing
+on the other shore. But here is something enigmatic.</p>
+<p>We come across a similar sutta in the <em>Sutta Nipāta</em> also, namely its very
+first, the <em>Uragasutta</em>. The extraordinary feature of this sutta is the
+recurrence of the same refrain throughout its seventeen verses. The refrain is:</p>
+<blockquote>
+<p><em>So bhikkhu jahāti orapāraṁ,</em> <br />
+<em>urago jiṇṇamiva tacaṁ purāṇaṁ</em>.<sup class="footnote-reference" id="fr-fn162-1"><a href="#fn-fn162">15</a></sup></p>
+<p>That monk forsakes the hither and the tither, <br />
+Like a snake its slough that doth wither.</p>
+</blockquote>
+<p>This simile of the slough, or the worn-out skin of the snake, is highly
+significant. To quote one instance:</p>
+<blockquote>
+<p><em>Yo nājjhagamā bhavesu sāraṁ,</em> <br />
+<em>vicinaṁ pupphamiva udumbaresu,</em> <br />
+<em>so bhikkhu jahāti orapāraṁ,</em> <br />
+<em>urago jiṇṇamiva tacaṁ purāṇaṁ</em>.<sup class="footnote-reference" id="fr-fn163-1"><a href="#fn-fn163">16</a></sup></p>
+<p>That monk who sees no essence in existence, <br />
+Like one seeking flowers in <em>Udumbara</em> trees, <br />
+Will give up the hither as well as the thither, <br />
+Like the snake its slough that doth wither.</p>
+</blockquote>
+<p>The <em>arahant</em> has abandoned his attachment to existence. As such, he is free
+from the bondage of those conjoined terms in worldly usage. So the <em>arahant</em>
+looks at the worldly usage in the same way as a snake would turn back and look
+at the worn-out skin he has sloughed off. Sometimes we see a snake moving about
+with a remnant of its slough hanging on. We might even think that the snake is
+carrying its slough around. It is the same in the case of the <em>arahants</em>.</p>
+<p>Now there is this term <em>sa-upādisesa Nibbāna dhātu</em>. Taking the term at its face
+value, some might think that the clinging is not yet over for the <em>arahants</em> –
+that there is still a little bit left.</p>
+<p>The <em>arahant</em>, though he has attained release and realized Nibbāna, so long as
+he is living in the world, has to relate to the external objects in the world
+somehow through his five senses, making use of them. Seeing it, some might
+conclude that it is because of some residual clinging. But we have to understand
+this in the light of the simile of the worn-out skin. In the case of the
+<em>arahant</em>, too, the sloughed off skin is still hanging on.</p>
+<p>As a sidelight we may cite a remark of Venerable Sāriputta:</p>
+<blockquote>
+<p><em>Iminā pūtikāyena aṭṭiyāmi harāyāmi jigucchāmi,</em><sup class="footnote-reference" id="fr-fn164-1"><a href="#fn-fn164">17</a></sup></p>
+<p>I am harassed and repelled by this body, I am ashamed of it.</p>
+</blockquote>
+<p>This is because the body is for him something already abandoned. All this goes
+to show that the <em>arahant</em> has an unattached, unclinging attitude.</p>
+<p>Linguistic usage, which is a special feature of existence, is enlivened by the
+cravings, conceits, and views with which it is grasped. Worldlings thrive on it,
+whereas the <em>arahants</em> are free from it. This is the upshot of the above
+discussion on the terms <em>anusaya</em> and <em>nissaya</em>.<sup class="footnote-reference" id="fr-fn165-1"><a href="#fn-fn165">18</a></sup></p>
+<p>Yet another important term that should receive attention in any discussion on
+Nibbāna is <em>āsava</em>. This is because the <em>arahant</em> is often called a
+<em>khīṇāsava</em>, one whose <em>āsavas</em> are extinct.<sup class="footnote-reference" id="fr-fn166-1"><a href="#fn-fn166">19</a></sup> <em>Āsavakkhayo</em>, extinction
+of <em>āsavas</em>, is an epithet of Nibbāna.<sup class="footnote-reference" id="fr-fn167-1"><a href="#fn-fn167">20</a></sup> So the distinct feature of an
+<em>arahant</em> is his extinction of <em>āsavas</em>.</p>
+<p>Now, what does <em>āsava</em> mean? In ordinary life, this word is used to denote
+fermentation or liquor that has got fermented for a long time.<sup class="footnote-reference" id="fr-fn168-1"><a href="#fn-fn168">21</a></sup> If there
+is even a dreg of ferment in a vessel, it is enough to cause fermentation for
+any suitable raw material put into it. So also are the <em>āsavas</em>. They are like
+the residual dregs of the ebullient mass of defilements in beings, which have
+undergone fermentation for a long, long time in <em>saṁsāra</em>.</p>
+<p>Very often, <em>āsavas</em> are said to be of three kinds, as <em>kāmāsavā, bhavāsavā</em>,
+and <em>avijjāsavā</em>. The term <em>āsava</em> in this context is usually rendered as
+‘influxes’. We may understand them as certain intoxicating influences, which
+create a world of sense-desires, a stupor that gives a notion of existence and
+leads to ignorance. These influxes are often said to have the nature of
+infiltrating into the mind. Sometimes a fourth type of influxes, <em>diṭṭhāsavā</em>,
+is also mentioned. But this can conveniently be subsumed under <em>avijjāsavā</em>.</p>
+<p>The extinction of influxes becomes a distinctive characteristic of an <em>arahant</em>,
+as it ensures complete freedom. One could be said to have attained complete
+freedom only if one’s mind is free from these influxes. It is because these
+influxes are capable of creating intoxication again and again.</p>
+<p>The immense importance of the extinction of influxes, and how it accounts for
+the worthiness of an <em>arahant</em>, is sometimes clearly brought out. The ultimate
+aim of the Buddha’s teaching is one that in other systems of thought is
+generally regarded as attainable only after death. The Buddha, on the other
+hand, showed a way to its realization here and now.</p>
+<p>As a matter of fact, even brahmins like Pokkharasāti went about saying that it
+is impossible for a human being to attain something supramundane:</p>
+<blockquote>
+<p><em>Katham’hi nāma manussabhūto uttarimanussadhammā alamariyañāṇadassanavisesaṁ
+ñassati vā dakkhati vā sacchi vā karissati?</em><sup class="footnote-reference" id="fr-fn169-1"><a href="#fn-fn169">22</a></sup></p>
+<p>How can one as a human being know or see or realize a supramundane state, an
+extraordinary knowledge and vision befitting the noble ones?</p>
+</blockquote>
+<p>They thought that such a realization is possible only after death. Immortality,
+in other systems of thought, is always an after death experience.</p>
+<p>Now the realization of the extinction of influxes, on the other hand, gives a
+certain assurance about the future. It is by this extinction of influxes that
+one wins to the certitude that there is no more birth after this. <em>Khīṇā
+jāti</em>,<sup class="footnote-reference" id="fr-fn170-1"><a href="#fn-fn170">23</a></sup> extinct is birth! Certitude about something comes only with
+realization. In fact, the term <em>sacchikiriya</em> implies a seeing with one’s own
+eyes, as the word for eye, <em>akśi</em>, is implicit in it.</p>
+<p>However, everything cannot be verified by seeing with one’s own eyes. The Buddha
+has pointed out that there are four ways of realization or verification:</p>
+<blockquote>
+<p><em>Cattāro me, bhikkhave, sacchikaraṇīyā dhammā. Katame cattaro?Atthi,
+bhikkhave, dhammā kāyena sacchikaraṇīyā; atthi, bhikkhave, dhammā satiyā
+sacchikaraṇīyā; atthi, bhikkhave, dhammā cakkhunā sacchikaraṇīyā; atthi,
+bhikkhave, dhammā paññāya sacchikaraṇīyā</em>.<sup class="footnote-reference" id="fr-fn171-1"><a href="#fn-fn171">24</a></sup></p>
+<p>Monks, there are these four realizable things. What four? There are things,
+monks, that are realizable through the body; there are things, monks, that are
+realizable through memory; there are things, monks, that are realizable
+through the eye; there are things, monks, that are realizable through wisdom.</p>
+</blockquote>
+<p>By way of explanation, the Buddha says that the things realizable through the
+body are the eight deliverances, the things realizable through memory are one’s
+former habitations, the things realizable through the eye are the death and
+rebirth of beings, and what is realizable through wisdom, is the extinction of
+influxes.</p>
+<p>One’s former lives cannot be seen with one’s own eyes by running into the past.
+It is possible only by purifying one’s memory and directing it backwards.
+Similarly, the death and rebirth of beings can be seen, as if with one’s fleshly
+eye, by the divine eye, by those who have developed it. So also the fact of
+extirpating all influxes is to be realized by wisdom, and not by any other
+means. The fact that the influxes of sensuality, existence, ignorance, and
+views, will not flow in again, can be verified only by wisdom. That is why
+special mention is made of Nibbāna as something realizable.<sup class="footnote-reference" id="fr-fn172-1"><a href="#fn-fn172">25</a></sup></p>
+<p>Because Nibbāna is said to be something realizable, some are of the opinion
+that nothing should be predicated about it. What is the reason for this special
+emphasis on its realizability? It is to bring into sharp relief the point of
+divergence, since the Buddha taught a way of realizing here and now something
+that in other religions was considered impossible.</p>
+<p>What was it that they regarded impossible to be realized? The cessation of
+existence, or <em>bhavanirodha</em>. How can one be certain here and now that this
+existence has ceased? This might sometimes appear as a big puzzle. But all the
+same, the <em>arahant</em> experiences the cessation of existence as a realization.
+That is why he even gives expression to it as: <em>Bhavanirodho Nibbānaṁ</em>,<sup class="footnote-reference" id="fr-fn173-1"><a href="#fn-fn173">26</a></sup>
+“cessation of existence is Nibbāna”.</p>
+<p>It comes about by this extinction of influxes. The very existence of ‘existence’
+is especially due to the flowing in of influxes of existence. What is called
+‘existence’ is not the apparent process of existing visible to others. It is
+something that pertains to one’s own mental continuum.</p>
+<p>For instance, when it is said that some person is in the world of sense desires,
+one might sometimes imagine it as living surrounded by objects of sense
+pleasure. But that is not always the case. It is the existence in a world of
+sense desires, built up by sensuous thoughts. It is the same with the realms of
+form and formless realms. Even those realms can be experienced and attained
+while living in this world itself.</p>
+<p>Similarly, it is possible for one to realize the complete cessation of this
+existence while living in this very world. It is accomplished by winning to the
+realization that the influxes of sense desires, existence, and ignorance, no
+longer influence one’s mind.</p>
+<p>So all this goes to show the high degree of importance attached to the word
+<em>āsava</em>. The <em>Sammādiṭṭhisutta</em> of the <em>Majjhima Nikāya</em> seems to pose a problem
+regarding the significance of this term. At one place in the sutta it is said
+that the arising of ignorance is due to the arising of influxes and that the
+cessation of ignorance is due to the cessation of influxes:</p>
+<blockquote>
+<p><em>Āsavasamudayā avijjāsamudayo, āsavanirodhā avijjānirodho</em>.<sup class="footnote-reference" id="fr-fn174-1"><a href="#fn-fn174">27</a></sup></p>
+</blockquote>
+<p>If the sutta says only this much, it will not be such a problem, because it
+appears as a puzzle to many nowadays, why ignorance is placed first. Various
+reasons are adduced and arguments put forward as to why it is stated first out
+of the twelve factors. The fact that there is still something to precede it
+could therefore be some consolation.</p>
+<p>But then, a little way off, in the selfsame sutta, we read:</p>
+<blockquote>
+<p><em>Avijjāsamudayā āsavasamudayo, avijjanirodhā āsavanirodho,</em><sup class="footnote-reference" id="fr-fn175-1"><a href="#fn-fn175">28</a></sup></p>
+<p>with the arising of ignorance is the arising of influxes, with the cessation
+of ignorance is the cessation of influxes.</p>
+</blockquote>
+<p>Apparently this contradicts the previous statement. The preacher of this
+discourse, Venerable Sāriputta, is not one who contradicts himself. So most
+probably there is some deep reason behind this.</p>
+<p>Another problem crops up, since ignorance is also counted among the different
+kinds of influxes. This makes our puzzle all the more deep. But this state of
+affairs could best be understood with the help of an illustration. It is in
+order to explain a certain fascinating behaviour of the mind that even
+<em>arahants</em> of great wisdom had to make seemingly contradictory statements.</p>
+<p>We have to draw in at this juncture a very important discourse in the <em>Saṁyutta
+Nikāya</em>, which is a marvel in itself. It comes in the section on the aggregates,
+<em>Khandhasaṁyutta</em>, as the second <em>Gaddulasutta</em>. Here the Buddha makes the
+following impressive declaration:</p>
+<blockquote>
+<p>‘<em>Diṭṭhaṁ vo, bhikkhave, caraṇaṁ nāma cittan’ti?’ ‘Evaṁ, bhante.’ ’Tampi kho,
+bhikkhave, caraṇaṁ nāma cittaṁ citteneva cintitaṁ. Tenapi kho, bhikkhave,
+caraṇena cittena cittaññeva cittataraṁ. Tasmātiha, bhikkhave, abhikkhaṇaṁ
+sakaṁ cittaṁ paccavekkhitabbaṁ: Dīgharattam idaṁ cittaṁ saṁkiliṭṭhaṁ rāgena
+dosena mohenā’ti. Cittasaṁkilesā, bhikkhave, sattā saṁkilissanti, cittavodānā
+sattā visujjhanti</em>.</p>
+<p><em>Nāhaṁ, bhikkhave, aññaṁ ekanikāyampi samanupassāmi evaṁ cittaṁ, yathayidaṁ,
+bhikkhave, tiracchānagatā pāṇā. Tepi kho, bhikkhave, tiracchānagatā pāṇā
+citteneva cintitā. Tehipi kho, bhikkhave, tiracchānagatehi pāṇehi cittaññeva
+cittataraṁ. Tasmātiha, bhikkhave, bhikkhunā abhikkhaṇaṁ sakaṁ cittaṁ
+paccavekkhitabbaṁ: Dīgharattam idaṁ cittaṁ saṁkiliṭṭhaṁ rāgena dosena
+mohenā’ti. Cittasaṁkilesā, bhikkhave, sattā saṁkilissanti, cittavodānā sattā
+visujjhanti</em>.’<sup class="footnote-reference" id="fr-fn176-1"><a href="#fn-fn176">29</a></sup></p>
+<p>‘Monks, have you seen a picture called a movie (<em>caraṇa</em>)?’ ‘Yes, Lord.’
+’Monks, even that picture called a movie is something thought out by the mind.
+But this mind, monks, is more picturesque than that picture called a movie.
+Therefore, monks, you should reflect moment to moment on your own mind with
+the thought: For a long time has this mind been defiled by lust, hate, and
+delusion. By the defilement of the mind, monks, are beings defiled. By the
+purification of the mind, are beings purified.</p>
+<p>Monks, I do not see any other class of beings as picturesque as beings in the
+animal realm. But those beings in the animal realm, monks, are also thought
+out by the mind. And the mind, monks, is far more picturesque than those
+beings in the animal realm. Therefore, monks, should a monk reflect moment to
+moment on one’s own mind with the thought: For a long time has this mind been
+defiled by lust, hate, and delusion. By the defilement of the mind, monks, are
+beings defiled. By the purification of the mind, are beings purified.’</p>
+</blockquote>
+<p>Here the Buddha gives two illustrations to show how marvellous this mind is.
+First he asks the monks whether they have seen a picture called <em>caraṇa</em>. Though
+the word may be rendered by movie, it is not a motion picture of the sort we
+have today. According to the commentary, it is some kind of variegated painting
+done on a mobile canvas-chamber, illustrative of the results of good and evil
+karma.<sup class="footnote-reference" id="fr-fn177-1"><a href="#fn-fn177">30</a></sup> Whatever it may be, it seems to have been something marvellous.
+But far more marvellous, according to the Buddha, is this mind. The reason given
+is that even such a picture is something thought out by the mind.</p>
+<p>Then, by way of an advice to the monks, says the Buddha:</p>
+<blockquote>
+<p>Therefore, monks, you should reflect on your mind moment to moment with the
+thought: For a long time this mind has been defiled by lust, hate, and
+delusion.</p>
+</blockquote>
+<p>The moral drawn is that beings are defiled by the defilement of their minds and
+that they are purified by the purification of their minds. This is the
+illustration by the simile of the picture.</p>
+<p>And then the Buddha goes on to make another significant declaration:</p>
+<blockquote>
+<p>Monks, I do not see any other class of beings as picturesque as beings in the
+animal realm.</p>
+</blockquote>
+<p>But since those beings also are thought out by the mind, he declares that the
+mind is far more picturesque than them. Based on this conclusion, he repeats the
+same advice as before.</p>
+<p>At first sight the sutta, when it refers to a picture, seems to be speaking
+about the man who drew it. But there is something deeper than that. When the
+Buddha says that the picture called <em>caraṇa</em> is also something thought out by
+the mind, he is not simply stating the fact that the artist drew it after
+thinking it out with his mind. The reference is rather to the mind of the one
+who sees it. He, who sees it, regards it as something marvellous. He creates a
+picture out of it. He imagines something picturesque in it.</p>
+<p>In fact, the allusion is not to the artist’s mind, but to the spectator’s mind.
+It is on account of the three defilements lust, hate, and delusion, nurtured in
+his mind for a long time, that he is able to appreciate and enjoy that picture.
+Such is the nature of those influxes.</p>
+<p>That is why the Buddha declared that this mind is far more picturesque than the
+picture in question. So if one turns back to look at one’s own mind, in
+accordance with the Buddha’s advice, it will be a wonderful experience, like
+watching a movie. Why? Because reflection reveals the most marvellous sight in
+the world.</p>
+<p>But usually one does not like to reflect, because one has to turn back to do so.
+One is generally inclined to look at the thing in front. However, the Buddha
+advises us to turn back and look at one’s own mind every moment. Why? Because
+the mind is more marvellous than that picture called <em>caraṇa</em>, or movie.</p>
+<p>It is the same declaration that he makes with reference to the beings in the
+animal realm. When one comes to think about it, there is even less room for
+doubt here, than in the case of the picture. First of all, the Buddha declares
+that there is no class of beings more picturesque than those in the animal
+realm. But he follows it up with the statement that even those beings are
+thought out by the mind, to draw the conclusion that as such the mind is more
+picturesque than those beings of the animal realm.</p>
+<p>Let us try to sort out the point of this declaration. Generally, we may agree
+that beings in the animal realm are the most picturesque. We sometimes say that
+the butterfly is beautiful. But we might hesitate to call a blue fly beautiful.
+The tiger is fierce, but the cat is not. Here one’s personal attitude accounts
+much for the concepts of beauty, ugliness, fierceness, and innocence of animals.
+It is because of the defiling influence of influxes, such as ignorance, that the
+world around us appears so picturesque.</p>
+<p>Based on this particular sutta, with its reference to the <em>caraṇa</em> picture as
+a prototype, we may take a peep at the modern day’s movie film, by way of an
+analogy. It might facilitate the understanding of the teachings on <em>paṭicca
+samuppāda</em> and Nibbāna in a way that is closer to our everyday life. The
+principles governing the film and the drama are part and parcel of the life
+outside cinema and the theatre. But since it is generally difficult to grasp
+them in the context of the life outside, we shall now try to elucidate them with
+reference to the cinema and the theatre.</p>
+<p>Usually a film or a drama is shown at night. The reason for it is the presence
+of darkness. This darkness helps to bring out the darkness of ignorance that
+dwells in the minds of beings. So the film as well as the drama is presented to
+the public within a framework of darkness. If a film is shown at day time, as a
+matinee show, it necessitates closed windows and dark curtains. In this way,
+films and dramas are shown within a curtained enclosure.</p>
+<p>There is another strange thing about these films and dramas. One goes to the
+cinema or the theatre saying: “I am going to see a film show, I am going to see
+a drama”. And one returns saying: “I have seen a film show, I have seen a
+drama”. But while the film show or the drama is going on, one forgets that one
+is seeing a show or a drama.</p>
+<p>Such a strange spell of delusion takes over. This is due to the intoxicating
+influence of influxes. If one wishes to enjoy a film show or a drama, one should
+be prepared to get intoxicated by it. Otherwise it will cease to be a film show
+or a drama for him.</p>
+<p>What do the film producers and dramatists do? They prepare the background for
+eliciting the influxes of ignorance, latent in the minds of the audience. That
+is why such shows and performances are held at night, or else dark curtains are
+employed. They have an intricate job to do. Within the framework of darkness,
+they have to create a delusion in the minds of their audience, so as to enact
+some story in a realistic manner.</p>
+<p>To be successful, a film or a drama has to be given a touch of realism. Though
+fictitious, it should be apparently real for the audience. There is an element
+of deception involved, a hoodwink. For this touch of realism, quite a lot of
+make-up on the part of actors and actresses is necessary. As a matter of fact,
+in the ancient Indian society, one of the primary senses of the word <em>saṅkhāra</em>
+was the make-up done by actors and actresses.</p>
+<p>Now in the present context, <em>saṅkhāra</em> can include not only this make-up in
+personal appearance, but also the acting itself, the delineation of character,
+stage-craft etc.. In this way, the film producers and dramatists create a
+suitable environment, making use of the darkness and the make-up contrivances.
+These are the <em>saṅkhāras</em>, or the ‘preparations’.</p>
+<p>However, to be more precise, it is the audience that make preparations, in the
+last analysis. Here too, as before, we are compelled to make a statement that
+might appear strange: So far not a single cinema has held a film show and not a
+single theatre has staged a drama.</p>
+<p>And yet, those who had gone to the cinema and the theatre had seen film shows
+and dramas. Now, how can that be? Usually, we think that it is the film producer
+who produced the film and that it is the dramatist who made the drama.</p>
+<p>But if we are to understand the deeper implications of what the Buddha declared,
+with reference to the picture <em>caraṇa</em>, a film show or drama is produced, in the
+last analysis, by the spectator himself. When he goes to the cinema and the
+theatre, he takes with him the spices needed to concoct a film or a drama, and
+that is: the influxes, or <em>āsavas</em>. Whatever technical defects and shortcomings
+there are in them, he makes good with his influxes.</p>
+<p>As we know, in a drama there is a certain interval between two scenes. But the
+average audience is able to appreciate even such a drama, because they are
+influenced by the influxes of sense desire, existence, and ignorance.</p>
+<p>With the progress in science and technology, scenes are made to fall on the
+screen with extreme rapidity. All the same, the element of delusion is still
+there. The purpose is to create the necessary environment for arousing delusion
+in the minds of the audience. Whatever preparations others may make, if the
+audience does not respond with their own preparations along the same lines, the
+drama will not be a success. But in general, the worldlings have a tendency to
+prepare and concoct, so they would make up for any short comings in the film or
+the drama with their own preparations and enjoy them.</p>
+<p>Now, for instance, let us think of an occasion when a film show is going on
+within the framework of darkness. In the case of a matinee show, doors and
+windows will have to be closed. Supposing the doors are suddenly flung open,
+while a vivid technicolour scene is flashing on the screen, what happens then?
+The spectators will find themselves suddenly thrown out of the cinema world they
+had created for themselves. Why? Because the scene in technicolour has now lost
+its colour. It has faded away. The result is dejection, disenchantment. The film
+show loses its significance.</p>
+<p>That film show owed its existence to the dark framework of ignorance and the
+force of preparations. But now that the framework has broken down, such a vast
+change has come over, resulting in a disenchantment. Now the word <em>rāga</em> has a
+nuance suggestive of colour, so <em>virāga</em>, dispassion, can also literally mean a
+fading away or a decolouration. Here we have a possible instance of <em>nibbidā
+virāga</em>, disenchantment, dispassion, at least in a limited sense.</p>
+<p>A door suddenly flung open can push aside the delusion, at least temporarily.
+Let us consider the implications of this little event. The film show, in this
+case, ceases to be a film show because of a flash of light coming from outside.
+Now, what would have happened if this flash of light had come from within – from
+within one’s mind? Then also something similar would have happened. If the light
+of wisdom dawns on one’s mind while watching a film show or a drama, one would
+even wonder whether it is actually a film or a drama, while others are enjoying
+it.</p>
+<p>Speaking about the film show, we mentioned above that the spectator has entered
+into a world of his own creation. If we are to analyse this situation according
+to the law of dependent origination, we may add that in fact he has a
+consciousness and a name-and-form in line with the events of the story, based on
+the preparations in the midst of the darkness of ignorance. With all his
+experiences in seeing the film show, he is building up his five aggregates.</p>
+<p>Therefore, when the light of wisdom comes and dispels the darkness of ignorance,
+a similar event can occur. One will come out of that plane of existence. One
+will step out of the world of sense desires, at least temporarily.</p>
+<p>Now, with regard to the <em>arahants</em>, too, the same trend of events holds good.
+When their ignorance ceases, leaving no residue, <em>avijjāya tveva
+asesavirāganirodhā</em>, exhausting the influxes as well, preparations also cease.
+Why? Because the preparations owe their existence to ignorance. They have the
+ability to prepare so long as there is ignorance.</p>
+<p><em>Saṅkhāra</em> generally means preparations. It is the make-up and the make-believe
+which accounted for the delusion. The darkness of ignorance provided the setting
+for it. If somehow or other, the light of wisdom enters the scene, those
+preparations, <em>saṅkhāra</em>, became no-preparations, <em>visaṅkhāra</em>, and the
+prepared, <em>saṅkhata</em>, becomes a non-prepared, <em>asaṅkhata</em>.</p>
+<p>So what was true with regard to the film show, is also true, in a deeper sense,
+with regard to the events leading up to the attainment of <em>arahanthood</em>. With
+the dawn of that light of wisdom, the preparations, or <em>saṅkhāra</em>, lose their
+significance and become <em>visaṅkhāra</em>.</p>
+<p>Though for the world outside they appear as preparations, for the <em>arahant</em> they
+are not preparations, because they do not prepare a <em>bhava</em>, or existence, for
+him. They are made ineffective. Similarly, the prepared or the made-up, when it
+is understood as something prepared or made-up, becomes an un-prepared or an
+un-made. There is a subtle principle of un-doing involved in this.</p>
+<p>Sometimes, this might be regarded as a modernistic interpretation. But there is
+Canonical evidence in support of such an interpretation. For instance, in the
+<em>Dvayatānupassanāsutta</em> of the <em>Sutta Nipāta</em>, we come across the following
+verse:</p>
+<blockquote>
+<p><em>Nivutānaṁ tamo hoti,</em> <br />
+<em>andhakāro apassataṁ,</em> <br />
+<em>satañca vivaṭaṁ hoti,</em> <br />
+<em>āloko passatāmiva,</em> <br />
+<em>santike na vijānanti,</em> <br />
+<em>magā dhammassa akovidā</em>.<sup class="footnote-reference" id="fr-fn178-1"><a href="#fn-fn178">31</a></sup></p>
+<p>Murk it is to those enveloped, <br />
+As darkness unto the undiscerning, <br />
+But to the good wide ope’ it is, <br />
+As light is unto those discerning, <br />
+So near, and yet they know not, <br />
+Fools, unskilled in the Norm.</p>
+</blockquote>
+<p>It is all murky to those enveloped by the hindrance of ignorance, like the
+darkness for those who are unable to see. But for the noble ones, it is visible
+like an open space, even as the light to those with vision. Though it is near at
+hand, fools, inexpert in the Dhamma, do not understand. This same impression
+of the Buddha comes up again in the following verse in the <em>Udāna</em>:</p>
+<blockquote>
+<p><em>Mohasambandhano loko,</em> <br />
+<em>bhabbarūpo va dissati,</em> <br />
+<em>upadhibandhano bālo,</em> <br />
+<em>tamasā parivārito,</em> <br />
+<em>sassatoriva khāyati,</em> <br />
+<em>passato natthi kiñcanaṁ</em>.<sup class="footnote-reference" id="fr-fn179-1"><a href="#fn-fn179">32</a></sup></p>
+<p>The world, enfettered to delusion, <br />
+Feigns a promising mien, <br />
+The fool, to his assets bound, <br />
+Sees only darkness around, <br />
+It looks as though it would last, <br />
+But to him who sees there is naught.</p>
+</blockquote>
+<p>The world appears as real to one who is fettered to delusion. He imagines it to
+be reliable. And so the fool, relying on his assets, is encompassed by the
+darkness. To him the world appears as eternal. But the one who has the right
+vision, knows that in reality there is nothing.</p>
+<p>All this goes to show that the life outside is not much different from what goes
+on within the four walls of the cinema and the theatre. Just as, in the latter
+case, an enjoyable story is created out of a multitude of scenes, relayed at
+varying degrees of rapidity, backed by the delusive make-up of actors and
+actresses, so that one may lose oneself in a world of fantasy, even so,
+according to the point of view of Dhamma, the lifestyle outside is something
+made up and concocted.</p>
+<p>However, the darkness within is much thicker than the darkness outside. The
+darkness outside may be dispelled even by a door flung open, as we saw above.
+But not so easily the darkness within. That is why, in the psalms of the
+Theras and Therīs, it is said that they split or burst asunder the mass of
+delusion:</p>
+<blockquote>
+<p><em>tamokhandhaṁ padāliya,</em> [and also as] <br />
+<em>tamokhandhaṁ padālayiṁ.</em><sup class="footnote-reference" id="fr-fn180-1"><a href="#fn-fn180">33</a></sup></p>
+</blockquote>
+<p>The pitchy black darkness of ignorance in the world is one that is thick enough
+to be split up and burst asunder. So it seems, the darkness within is almost
+tangibly thick. But the first incision on this thick curtain of darkness is made
+by the path knowledge of the Stream-winner.</p>
+<p>As a side-light, we may cite an episode from the lives of the Venerables
+Sāriputta and Mahā Moggallāna, the two chief disciples of the Buddha.
+Formerly, as brahmin youths, they were known as Upatissa and Kolita. These
+two young men once went to see a hill-top festival, called
+<em>giraggasamajja</em>.<sup class="footnote-reference" id="fr-fn181-1"><a href="#fn-fn181">34</a></sup></p>
+<p>Since by then, their discerning wisdom was already matured, they suddenly
+developed a dejection about the entertainment going on. The hill-top festival,
+as it were, lost its festivity for them. They understood the vanity of it and
+could no longer enjoy it as before.</p>
+<p>They may have already had a distant glimpse of the similarity between the two
+levels of experience, mentioned above. But they on their own could not get at
+the principles underlying the delusion involved.</p>
+<p>Much later, as a wandering ascetic, when Upatissa met the Venerable Assaji
+Thera on his alms-round, he begged the latter to preach the Dhamma to him.
+Venerable Assaji said: “I know only a little”. Upatissa also assured him: “I
+need only a little”. Venerable Assaji preached ‘a little’ and Upatissa, too,
+heard ‘a little’, but since there was much in it, the latter attained the Fruit
+of Stream-winning even on hearing the first two lines of the following verse:</p>
+<blockquote>
+<p><em>Ye dhammā hetuppabhavā,</em> <br />
+<em>tesam hetuṁ Tathāgato āha,</em> <br />
+<em>tesañca yo nirodho,</em> <br />
+<em>evaṁ vādi mahāsamaṇo</em>.<sup class="footnote-reference" id="fr-fn182-1"><a href="#fn-fn182">35</a></sup></p>
+<p>Of things that proceed from a cause, <br />
+Their cause the Tathāgata has told, <br />
+And also their cessation, <br />
+Thus teaches the great ascetic.</p>
+</blockquote>
+<p>The verse gives in a nutshell the law of dependent arising. From it, Upatissa
+got the clue to his riddle of life.</p>
+<p>Some interpret the word <em>hetu</em>, cause, in this verse, as <em>avijjā</em>, or ignorance,
+the first link. But that is not the case. It refers to the basic principle known
+as <em>idappaccayatā</em>, the relatedness of this to that.<sup class="footnote-reference" id="fr-fn183-1"><a href="#fn-fn183">36</a></sup></p>
+<p><em>Hetuppabhavā dhammā</em> is a reference to things dependently arisen. In point of
+fact, it is said about a Stream-winner that he has seen well the cause as well
+as the things arisen from a cause: <em>Hetu ca sudiṭṭho, hetusamuppanā ca
+dhammā</em>.<sup class="footnote-reference" id="fr-fn184-1"><a href="#fn-fn184">37</a></sup> That means that he has seen the law of dependent arising as
+also the dependently arisen phenomena.</p>
+<p>We have already discussed the significance of these two terms.<sup class="footnote-reference" id="fr-fn185-1"><a href="#fn-fn185">38</a></sup> What is
+called <em>paṭicca samuppāda</em> is the basic principle itself. It is said that the
+wandering ascetic Upatissa was able to arouse the path of Stream-winning on
+hearing just the first two lines,<sup class="footnote-reference" id="fr-fn186-1"><a href="#fn-fn186">39</a></sup> and these state the basic principle as
+such.</p>
+<p>The word <em>tesaṁ</em>, plural, clearly implies that the reference is to all the
+twelve factors, inclusive of ignorance. The cessation, also, is of those twelve,
+as for instance it is said in the <em>Udāna</em>: <em>Khayaṁ paccayānaṁ avedi</em>,<sup class="footnote-reference" id="fr-fn187-1"><a href="#fn-fn187">40</a></sup>
+“understood the cessation of conditions”, since all the twelve are conditions.</p>
+<p>To sum up: Whatever phenomena that arise from a cause, their cause is
+<em>idappaccayatā</em>, or the law of relatedness of this to that.</p>
+<blockquote>
+<p>This being, this exists, <br />
+With the arising of this, this arises. <br />
+This not being, this does not exist, <br />
+With the cessation of this, this ceases.</p>
+</blockquote>
+<p>And then the cessation of things arisen from a cause is ultimately Nibbāna
+itself. That is the implication of the oft recurrent phrase:</p>
+<blockquote>
+<p><em>avijjāya tveva asesavirāganirodhā</em><sup class="footnote-reference" id="fr-fn188-1"><a href="#fn-fn188">41</a></sup></p>
+<p>with the complete fading away and cessation of that very ignorance.</p>
+</blockquote>
+<p>So then, from this discussion it should be clear that our illustration with the
+help of the simile of the cinema and the theatre is of much relevance to an
+understanding of the law of dependent arising. With this much, we shall wind up
+today.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn148"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn148-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn149"><sup class="footnote-definition-label">2</sup>
+<p>See <em>Sermon 4</em> <a href="#fr-fn149-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn150"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/mn10/pli/ms">MN 10 / M I 56</a>, <em>Satipaṭṭhānasutta</em> <a href="#fr-fn150-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn151"><sup class="footnote-definition-label">4</sup>
+<p>See <em>Sermon 4</em> <a href="#fr-fn151-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn152"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/mn10/pli/ms">MN 10 / M I 56</a>, <em>Satipaṭṭhānasutta</em> <a href="#fr-fn152-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn153"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/sn47.42/pli/ms">SN 47.42 / S V 184</a>, <em>Samudayasutta</em> <a href="#fr-fn153-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn154"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 752-753</a>, <em>Dvayatānupassanāsutta</em> <a href="#fr-fn154-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn155"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/snp4.15/pli/ms">Snp 4.15 / Sn 954</a>, <em>Attadaṇḍasutta</em> <a href="#fr-fn155-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn156"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/snp4.3/pli/ms">Snp 4.3 / Sn 787</a>, <em>Duṭṭhaṭṭhakasutta</em> <a href="#fr-fn156-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn157"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/snp4.4/pli/ms">Snp 4.4 / Sn 795</a>, <em>Suddhaṭṭhakasutta</em> <a href="#fr-fn157-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn158"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/snp4.6/pli/ms">Snp 4.6 / Sn 813</a>, <em>Jarāsutta</em> <a href="#fr-fn158-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn159"><sup class="footnote-definition-label">12</sup>
+<p>See <em>Sermon 4</em> <a href="#fr-fn159-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn160"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/sn22.79/pli/ms">SN 22.79 / S III 90</a>, <em>Khajjanīyasutta</em> <a href="#fr-fn160-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn161"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/dhp383-423/pli/ms">Dhp 385</a>, <em>Brāhmaṇavagga</em> <a href="#fr-fn161-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn162"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/snp1.1/pli/ms">Snp 1.1 / Sn 1-17</a>, <em>Uragasutta</em> <a href="#fr-fn162-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn163"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/snp1.1/pli/ms">Snp 1.1 / Sn 5</a>, <em>Uragasutta</em> <a href="#fr-fn163-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn164"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/an9.11/pli/ms">AN 9.11 / A IV 377</a>, <em>Sīhanādasutta</em> <a href="#fr-fn164-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn165"><sup class="footnote-definition-label">18</sup>
+<p>See <em>Sermon 4</em> <a href="#fr-fn165-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn166"><sup class="footnote-definition-label">19</sup>
+<p>E.g. at <a href="https://suttacentral.net/dn27/pli/ms">DN 27 / D III 83</a>, <em>Aggaññasutta</em> <a href="#fr-fn166-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn167"><sup class="footnote-definition-label">20</sup>
+<p>E.g. at <a href="https://suttacentral.net/dhp235-255/pli/ms">Dhp 253</a>, <em>Malavagga</em> <a href="#fr-fn167-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn168"><sup class="footnote-definition-label">21</sup>
+<p>E.g. the <em>pupphāsava, phalāsava, madhvāsava, guḷāsava</em> at Sv III 944 <a href="#fr-fn168-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn169"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/mn99/pli/ms">MN 99 / M II 200</a>, <em>Subhasutta</em> <a href="#fr-fn169-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn170"><sup class="footnote-definition-label">23</sup>
+<p>E.g. at <a href="https://suttacentral.net/dn2/pli/ms">DN 2 / D I 84</a>, <em>Sāmaññaphalasutta</em> <a href="#fr-fn170-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn171"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/an4.189/pli/ms">AN 4.189 / A II 182</a>, <em>Sacchikaraṇīyasutta</em> <a href="#fr-fn171-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn172"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/an3.55/pli/ms">AN 3.55 / A I 159</a>, <em>Nibbutasutta</em> <a href="#fr-fn172-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn173"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/an10.7/pli/ms">AN 10.7 / A V 9</a>, <em>Sāriputtasutta</em> <a href="#fr-fn173-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn174"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/mn9/pli/ms">MN 9 / M I 54</a>, <em>Sammādiṭṭhisutta</em> <a href="#fr-fn174-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn175"><sup class="footnote-definition-label">28</sup>
+<p><a href="https://suttacentral.net/mn9/pli/ms">MN 9 / M I 55</a>, <em>Sammādiṭṭhisutta</em> <a href="#fr-fn175-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn176"><sup class="footnote-definition-label">29</sup>
+<p><a href="https://suttacentral.net/sn22.100/pli/ms">SN 22.100 / S III 151</a>, <em>Gaddulasutta</em> <a href="#fr-fn176-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn177"><sup class="footnote-definition-label">30</sup>
+<p>Spk II 327 <a href="#fr-fn177-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn178"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 763</a>, <em>Dvayatānupassanāsutta</em> <a href="#fr-fn178-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn179"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/ud7.9/pli/ms">Ud 7.9 / Ud 79</a>, <em>Udenasutta</em> <a href="#fr-fn179-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn180"><sup class="footnote-definition-label">33</sup>
+<p><a href="https://suttacentral.net/thag12.2/pli/ms">Thag 12.2 / Th 627</a>, <em>Sunīto Thero</em>; <a href="https://suttacentral.net/thig1.3/pli/ms">Thig 1.3 / Thī 3</a>, <em>Puṇṇā Therī</em>; <a href="https://suttacentral.net/thig2.5/pli/ms">Thig 2.5 / Thī 28</a>, <em>Cittā Therī</em>; Thī 44, <em>Uttamā Therī</em>; Thī 120, <em>Tiṁsamattā Therī</em>; Thī 173-174, <em>Vijayā Therī</em>; Thī 180, <em>Uttarā Therī</em> <a href="#fr-fn180-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn181"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://www.digitalpalireader.online/_dprhtml/index.html?loc=k.1.0.0.1.7.0.a&amp;para=54&amp;query=giraggasamajja">Dhp 11-12 Commentary: Dhp-a I 88</a>, <em>Sāriputtattheravatthu</em> <a href="#fr-fn181-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn182"><sup class="footnote-definition-label">35</sup>
+<p><a href="https://suttacentral.net/pli-tv-kd1/pli/ms">Vin I 40</a> <a href="#fr-fn182-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn183"><sup class="footnote-definition-label">36</sup>
+<p><em>Idappaccayatā</em> is discussed in detail above, see <em>Sermon 2</em> <a href="#fr-fn183-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn184"><sup class="footnote-definition-label">37</sup>
+<p><a href="https://suttacentral.net/an6.95/pli/ms">AN 6.95 / A III 440</a>, <em>Catutthaabhabbaṭṭhānasutta</em> <a href="#fr-fn184-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn185"><sup class="footnote-definition-label">38</sup>
+<p>See <em>Sermon 2</em> <a href="#fr-fn185-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn186"><sup class="footnote-definition-label">39</sup>
+<p>Sp-ṭ III 226 (Burmese ed.) <a href="#fr-fn186-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn187"><sup class="footnote-definition-label">40</sup>
+<p><a href="https://suttacentral.net/ud1.2/pli/ms">Ud 1.2 / Ud 2</a>, <em>Dutiyabodhisutta</em> <a href="#fr-fn187-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn188"><sup class="footnote-definition-label">41</sup>
+<p><a href="https://suttacentral.net/mn38/pli/ms">MN 38 / M I 263</a>, <em>Mahātaṇhāsaṅkhayasutta</em> <a href="#fr-fn188-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-04.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-06.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-04.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-06.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,1057 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 20 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-20-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-20"><a class="header" href="#sermon-20">Sermon 20</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn667-1"><a href="#fn-fn667">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the twentieth sermon in the series of
+sermons on Nibbāna.</p>
+<p>In our last sermon we described, as something of a marvel in the attainment of
+Nibbāna, the very possibility of realizing, in this very life, as
+<em>diṭṭhadhammika</em>, one’s after death state, which is <em>samparāyika</em>. The phrase
+<em>diṭṭheva dhamme sayaṁ abhiññā sacchikatvā</em>, “having realized here and now by
+one’s own higher knowledge”,<sup class="footnote-reference" id="fr-fn668-1"><a href="#fn-fn668">2</a></sup> occurs so often in the discourses because
+the emancipated one ascertains his after death state as if by seeing with his
+own eyes.</p>
+<p><em>Natthidāni punabbhavo</em>, ‘there is no re-becoming now’,<sup class="footnote-reference" id="fr-fn669-1"><a href="#fn-fn669">3</a></sup> <em>khīṇā jāti</em>,
+‘extinct is birth’,<sup class="footnote-reference" id="fr-fn670-1"><a href="#fn-fn670">4</a></sup> are some of the joyous utterances of the Buddha and
+the <em>arahants</em>, which were inspired by the realization of the cessation of
+existence in this very life.</p>
+<p>Through that realization itself, they experience a bliss devoid of feeling,
+which is called ‘the cooling off of feelings’. That is why Nibbāna as such is
+known as <em>avedayita sukha</em>, a ‘bliss devoid of feeling’.<sup class="footnote-reference" id="fr-fn671-1"><a href="#fn-fn671">5</a></sup></p>
+<p>At the end of their lives, at the moment when death approaches, those
+emancipated ones, the <em>arahants</em>, put forward their unshakeable deliverance of
+the mind, <em>akuppā cetomivutti</em> (which remains unshaken even in the face of
+death), and become deathless well before their death, not after it.</p>
+<p>On many an occasion the Buddha has spoken highly of this unshakeable deliverance
+of the mind, describing it as the supreme bliss, the supreme knowledge and the
+supreme freedom from death. For instance, among the Sixes of the <em>Aṅguttara
+Nikāya</em>, we come across the following two verses:</p>
+<blockquote>
+<p><em>Tassa sammā vimuttassa,</em> <br />
+<em>ñāṇaṁ ce hoti tādino,</em> <br />
+<em>’akuppā me vimuttī’ti,</em> <br />
+<em>bhavasaṁyojanakkhaye.</em></p>
+<p><em>Etaṁ kho paramaṁ ñāṇaṁ,</em> <br />
+<em>etaṁ sukhamanuttaraṁ,</em> <br />
+<em>asokaṁ virajaṁ khemaṁ,</em> <br />
+<em>etaṁ ānaṇyamuttamaṁ.</em><sup class="footnote-reference" id="fr-fn672-1"><a href="#fn-fn672">6</a></sup></p>
+<p>To that such like one, who is fully released, <br />
+There arises the knowledge: <br />
+‘Unshakeable is my deliverance’, <br />
+Upon his extinction of fetters to existence.</p>
+<p>This is the highest knowledge, <br />
+This is the unsurpassed bliss, <br />
+This sorrow-less, taintless security, <br />
+Is the supreme debtless-ness.</p>
+</blockquote>
+<p><em>Arahants</em> are said to be debtless in regard to the four requisites offered by
+the laity out of faith, but when Nibbāna is regarded as a debtless-ness, it
+seems to imply something deeper.</p>
+<p><em>Saṁsāra</em> or reiterated existence is itself a debt, which one can never pay off.
+When one comes to think of <em>kamma</em> and its result, it is a debt that keeps on
+gathering an interminable interest, which can never be paid off.</p>
+<p>But even from this debt the <em>arahants</em> have won freedom by destroying the seeds
+of <em>kamma</em>, by rendering them infertile. They are made ineffective beyond this
+life, as there is no rebirth. The meaningful line of the <em>Ratanasutta</em>,</p>
+<blockquote>
+<p><em>khīṇaṁ purāṇaṁ, navaṁ natthi sambhavaṁ</em>,<sup class="footnote-reference" id="fr-fn673-1"><a href="#fn-fn673">7</a></sup></p>
+</blockquote>
+<blockquote>
+<p>whatever is old is extinct and there is no arising anew,</p>
+</blockquote>
+<p>has to be understood in that sense. The karmic debt is paid off and there is no
+fresh incurring.</p>
+<p>All this is in praise of that unshakeable deliverance of the mind. It is a kind
+of extraordinary knowledge, almost unimaginable, a ‘real’-ization of one’s own
+after death state.</p>
+<p>In almost all serious discussions on Nibbāna, the subtlest moot point turns out
+to be the question of the after death state of the emancipated one. A brief
+answer, the Buddha had given to this question, we already brought up in our last
+sermon, by quoting the two concluding verses of the <em>Udāna</em>, with which that
+collection of inspired utterances ends with a note of exceptional grandeur. Let
+us recall them.</p>
+<blockquote>
+<p><em>Ayoghanahatass’eva,</em> <br />
+<em>jalato jātavedaso,</em> <br />
+<em>anupubbūpasantassa,</em> <br />
+<em>yathā na ñāyate gati.</em></p>
+<p><em>Evaṁ sammāvimuttānaṁ,</em> <br />
+<em>kāmabandhoghatārinaṁ,</em> <br />
+<em>paññāpetuṁ gati natthi,</em> <br />
+<em>pattānaṁ acalaṁ sukhaṁ.</em><sup class="footnote-reference" id="fr-fn674-1"><a href="#fn-fn674">8</a></sup></p>
+<p>Just as in the case of a fire, <br />
+Blazing like a block of iron in point of compactness, <br />
+When it gradually calms down, <br />
+No path it goes by can be traced.</p>
+<p>Even so, of those who are well released, <br />
+Who have crossed over the flux of shackles of sensuality, <br />
+And reached bliss unshaken, <br />
+There is no path to be pointed out.</p>
+</blockquote>
+<p>The last two lines are particularly significant. There is no path to be pointed
+out of those who have reached bliss unshaken. <em>Acalaṁ sukhaṁ</em>, or ‘unshakeable
+bliss’, is none other than that unshakeable deliverance of the mind.</p>
+<p><em>Akuppa</em> means ‘unassailable’ or ‘unshakeable’. Clearly enough, what the verse
+says is that after their death the emancipated ones leave no trace of a path
+gone by, even as the flames of a raging fire.</p>
+<p>The flame may appear as something really existing due to the perception of the
+compact, <em>ghanasaññā</em>, but when it goes down and disappears, no one can say that
+it went in such and such a direction.</p>
+<p>Though this is the obvious meaning, some try to attribute quite a different
+meaning to the verse in question. The line <em>paññāpetuṁ gati natthi</em>, “there is
+no path to be pointed out”, is interpreted even by the commentators (who take
+the word <em>gati</em> to mean some state of existence) as an assertion that, although
+such a bourne cannot be pointed out, the <em>arahants</em> pass away into some
+non-descript realm.</p>
+<p>This kind of interpretation is prompted by an apprehension of the charge of
+annihilation. A clear instance of this tendency is revealed in the commentary to
+the following verse in the <em>Dhammapada</em>:</p>
+<blockquote>
+<p><em>Ahiṁsakā ye munayo,</em> <br />
+<em>niccaṁ kāyena saṁvutā,</em> <br />
+<em>te yanti accutaṁ ṭhānaṁ,</em> <br />
+<em>yattha gantvā na socare.</em><sup class="footnote-reference" id="fr-fn675-1"><a href="#fn-fn675">9</a></sup></p>
+<p>Innocent are the sages, <br />
+That are ever restrained in body, <br />
+They go to that state unshaken, <br />
+Wherein they grieve no more.</p>
+</blockquote>
+<p>The commentator, in paraphrasing, brings in the word <em>sassataṁ</em>, ‘eternal’, for
+<em>accutaṁ</em>, thereby giving the idea that the <em>arahants</em> go to an eternal place of
+rest.<sup class="footnote-reference" id="fr-fn676-1"><a href="#fn-fn676">10</a></sup> Because the verb <em>yanti</em>, ‘go’, occurs there, he must have thought
+that this state unshaken, <em>accutaṁ</em>, is something attainable after death.</p>
+<p>But we can give another instance in support of our explanation of the term
+<em>accutaṁ</em>. The following verse in the <em>Hemakamāṇavapucchā</em> of the
+<em>Pārāyanavagga</em> in the <em>Sutta Nipāta</em> clearly shows what this <em>accutaṁ</em> is:</p>
+<blockquote>
+<p><em>Idha diṭṭhasutamutaviññātesu,</em> <br />
+<em>piyarūpesu Hemaka,</em> <br />
+<em>chandarāgavinodanaṁ,</em> <br />
+<em>nibbānapadaṁ accutaṁ.</em><sup class="footnote-reference" id="fr-fn677-1"><a href="#fn-fn677">11</a></sup></p>
+<p>The dispelling here in this world of desire and lust, <br />
+In pleasurable things, <br />
+Seen, heard, sensed and cognized, <br />
+Is the unshaken state of Nibbāna, O Hemaka.</p>
+</blockquote>
+<p>This is further proof of the fact that there is no eternal immortal rest
+awaiting the <em>arahants</em> after their demise.</p>
+<p>The reason for such a postulate is probably the fear of falling into the
+annihilationist view. Why this chronic fear? To the worldlings overcome by
+craving for existence any teaching that leads to the cessation of existence
+appears dreadful.</p>
+<p>That is why they put forward two new parables, following the same commentarial
+trend. The other day we mentioned about those two parables, the parable of the
+tortoise and the parable of the frog.<sup class="footnote-reference" id="fr-fn678-1"><a href="#fn-fn678">12</a></sup> When the fish and the toad living
+in water ask what sort of a thing land is, the tortoise and the frog are forced
+to say ‘no, no’ to every question they put. Likewise the Buddha, so it is
+argued, was forced to give a string of negative terms in his discourses on
+Nibbāna.</p>
+<p>But we have pointed out that this argument is fallacious and that those
+discourses have to be interpreted differently. The theme that runs through such
+discourses is none other than the cessation of existence.</p>
+<p>In the <em>Alagaddūpamasutta</em> of the <em>Majjhima Nikāya</em> the Buddha declares in
+unmistakeable terms that some recluses and brahmins, on hearing him preaching
+the Dhamma for the cessation of existence, wrongly accuse him with the charge of
+being an annihilationist, <em>sato sattassa ucchedaṁ vināsaṁ vibhavaṁ paññāpeti</em>,
+“he is showing the way to the annihilation, destruction and non-existence of a
+truly existing being”.<sup class="footnote-reference" id="fr-fn679-1"><a href="#fn-fn679">13</a></sup></p>
+<p>He clearly states that some even grieve and lament and fall into despair,
+complaining <em>ucchijjissāmi nāma su, vinassissāmi nāma su, na su nāma
+bhavissāmi</em>, “so it seems I shall be annihilated, so it seems I shall perish, so
+it seems I shall be no more”.<sup class="footnote-reference" id="fr-fn680-1"><a href="#fn-fn680">14</a></sup></p>
+<p>Even during the lifetime of the Buddha there were various debates and
+controversies regarding the after death state of the emancipated person among
+recluses and brahmins. They were of the opinion that the after death state of
+the emancipated one in any particular religious system has to be explained
+according to a fourfold logic, or tetralemma. A paradigm of that tetralemma
+occurs quite often in the discourses. It consists of the following four
+propositions:</p>
+<ol>
+<li><em>hoti tathāgato paraṁ maraṇā</em>, <br />
+“The Tathāgata exists after death”</li>
+<li><em>na hoti tathāgato paraṁ maraṇā</em>, <br />
+“The Tathāgata does not exist after death”</li>
+<li><em>hoti ca na ca hoti tathāgato paraṁ maraṇā</em>, <br />
+“The Tathāgata both exists and does not exist after death”</li>
+<li><em>n’eva hoti na na hoti tathāgato paraṁ maraṇā</em>,<sup class="footnote-reference" id="fr-fn681-1"><a href="#fn-fn681">15</a></sup> <br />
+“The Tathāgata neither exists nor does not exist after death”.</li>
+</ol>
+<p>This four-cornered logic purports to round up the four possible alternatives in
+any situation, or four possible answers to any question.</p>
+<p>The dilemma is fairly well known, where one is caught up between two
+alternatives. The tetralemma, with its four alternatives, is supposed to exhaust
+the universe of discourse in a way that one cannot afford to ignore it.</p>
+<p>When it comes to a standpoint regarding a particular issue, one is compelled to
+say ‘yes’ or ‘no’, or at least to assert both standpoints or negate them
+altogether. The contemporary recluses and brahmins held on to the view that the
+Tathāgata’s after death state has to be predicated in accordance with the
+four-cornered logic.</p>
+<p>When we hear the term Tathāgata, we are immediately reminded of the Buddha. But
+for the contemporary society, it was a sort of technical term with a broader
+meaning. Those recluses and brahmins used the term Tathāgata to designate the
+perfected individual in any religious system, whose qualifications were summed
+up in the thematic phrase <em>uttamapuriso, paramapuriso,
+paramapattipatto</em>,<sup class="footnote-reference" id="fr-fn682-1"><a href="#fn-fn682">16</a></sup> “the highest person, the supreme person, the one who
+has attained the supreme state”.</p>
+<p>This fact is clearly borne out by the <em>Kutūhalasālāsutta</em> in the <em>Avyākata
+Saṁyutta</em> of the <em>Saṁyutta Nikāya</em>. In that discourse we find the wandering
+ascetic Vacchagotta coming to the Buddha with the following report.</p>
+<p>Recently there was a meeting of recluses, brahmins and wandering ascetics in the
+debating hall. In that assembly, the following chance talk arose:</p>
+<blockquote>
+<p>Now there is this teacher, Pūraṇa Kassapa, who is widely acclaimed and who
+has a large following. When an ordinary disciple of his passes away, he
+predicates his destiny. So also in the case of a disciple who has attained the
+highest state of perfection in his religious system. Other well known teachers
+like Makkhali Gosāla, Nigaṇṭha Nātaputta, Sañjaya Belaṭṭhiputta, Pakudha
+Kaccāyana and Ajita Kesakambali do the same. They all declare categorically
+the after death state of both types of their disciples.</p>
+<p>But as for this ascetic Gotama, who also is a teacher widely acclaimed with a
+large following, the position is that he clearly declares the after death
+state of an ordinary disciple of his, but in the case of a disciple who has
+attained the highest state of perfection, he does not predicate his destiny
+according to the above mentioned tetralemma. Instead he makes such a
+declaration about him as the following:</p>
+<p><em>Acchecchi taṇhaṁ, vāvattayi saññojanaṁ, sammā mānābhisamayā antam akāsi
+dukkhassa</em>,<sup class="footnote-reference" id="fr-fn683-1"><a href="#fn-fn683">17</a></sup></p>
+<p>“he cut off craving, disjoined the fetter and, by rightly understanding
+conceit for what it is, made an end of suffering”.</p>
+</blockquote>
+<p>Vacchagotta concludes this account with the confession that he himself was
+perplexed and was in doubt as to how the Dhamma of the recluse Gotama has to be
+understood. The Buddha grants that Vacchagotta’s doubt is reasonable, with the
+words</p>
+<blockquote>
+<p><em>alañhi te, Vaccha, kaṅkhituṁ, alaṁ vicikicchituṁ, kaṅkhaniye ca pana te ṭhāne
+vicikicchā uppannā</em>,</p>
+<p>it behoves you to doubt, Vaccha, it behoves you to be perplexed, for doubt
+has arisen in you on a dubious point.</p>
+</blockquote>
+<p>Then the Buddha comes out with the correct standpoint in order to dispel
+Vacchagotta’s doubt.</p>
+<blockquote>
+<p><em>Sa-upādānassa kvāhaṁ, Vaccha, upapattiṁ paññāpemi, no anupādānassa</em>,</p>
+<p>it is for one with grasping, Vaccha, that I declare there is an occurrence of
+birth, not for one without grasping.</p>
+</blockquote>
+<p>He gives the following simile by way of illustration.</p>
+<blockquote>
+<p><em>Seyyathāpi, Vaccha, aggi sa-upādāno jalati no anupādāno, evam eva kvāhaṁ,
+Vaccha, sa-upādānassa upapattiṁ paññāpemi, no anupādānassa</em>,</p>
+<p>just as a fire burns when it has fuel to grasp and not when it has no fuel,
+even so, Vaccha, I declare that there is an occurrence of birth for one with
+grasping, not for one without grasping.</p>
+</blockquote>
+<p>As we have mentioned before, the word <em>upādāna</em> has two meanings, it means both
+grasping as well as fuel. In fact fuel is just what the fire ‘grasps’. Just as
+the fire depends on grasping in the form of fuel, so also the individual depends
+on grasping for his rebirth.</p>
+<p>Within the context of this analogy, Vacchagotta now raises a question that has
+some deeper implications:</p>
+<blockquote>
+<p><em>Yasmiṁ pana, bho Gotama, samaye acci vātena khittā dūrampi gacchati, imassa
+pana bhavaṁ Gotamo kim upādānasmiṁ paññāpeti</em>,</p>
+<p>Master Gotama, at the time when a flame flung by the wind goes even far, what
+does Master Gotama declare to be its object of grasping or fuel?</p>
+</blockquote>
+<p>The Buddha’s answer to that question is:</p>
+<blockquote>
+<p><em>Yasmiṁ kho, Vaccha, samaye acci vātena khittā dūrampi gacchati, tamahaṁ
+vātupādānaṁ vadāmi; vāto hissa, Vaccha, tasmiṁ samaye upādānaṁ hoti</em>,</p>
+<p>at the time, Vaccha, when a flame flung by the wind goes even far, that, I
+say, has wind as its object of grasping. Vaccha, at that time wind itself
+serves as the object of grasping.</p>
+</blockquote>
+<p>Now this is only an analogy. Vaccha raises the question proper only at this
+point:</p>
+<blockquote>
+<p><em>Yasmiñca pana, bho Gotama, samaye imañca kāyaṁ nikkhipati satto ca aññataraṁ
+kāyam anuppatto hoti, imassa pana bhavaṁ Gotamo kim upādānasmiṁ paññāpeti</em>,</p>
+<p>at the time, Master Gotama, when a being lays down this body and has reached
+a certain body, what does Master Gotama declare to be a grasping in his case?</p>
+</blockquote>
+<p>The Buddha replies:</p>
+<blockquote>
+<p><em>Yasmiñca pana, Vaccha, samaye imañca kāyaṁ nikkhipati satto ca aññataraṁ
+kāyam anuppatto hoti, tam ahaṁ taṇhupādānaṁ vadāmi; taṇhā hissa, Vaccha,
+tasmiṁ samaye upādānaṁ hoti</em>,</p>
+<p>at the time, Vaccha, when a being lays down this body and has reached a
+certain body, I say, he has craving as his grasping. At that time, Vaccha, it
+is craving that serves as a grasping for him.</p>
+</blockquote>
+<p>With this sentence the discourse ends abruptly, but there is an intricate point
+in the two sections quoted above. In these two sections, we have adopted the
+reading <em>anuppatto</em>, ‘has reached’, as more plausible in rendering the phrase
+<em>aññataraṁ kāyam anuppatto</em>, “has reached a certain body”.<sup class="footnote-reference" id="fr-fn684-1"><a href="#fn-fn684">18</a></sup></p>
+<p>The commentary, however, seeks to justify the reading <em>anupapanno</em>, ‘is not
+reborn’, which gives quite an opposite sense, with the following explanation
+<em>cutikkhaṇeyeva paṭisandhicittassa anuppannattā anuppanno hoti</em>,<sup class="footnote-reference" id="fr-fn685-1"><a href="#fn-fn685">19</a></sup> “since
+at the death moment itself, the rebirth consciousness has not yet arisen, he is
+said to be not yet reborn”.</p>
+<p>Some editors doubt whether the correct reading should be <em>anuppatto</em>.<sup class="footnote-reference" id="fr-fn686-1"><a href="#fn-fn686">20</a></sup>
+The doubt seems reasonable enough, for even syntactically, <em>anuppatto</em> can be
+shown to fit into the context better than <em>anuppanno</em>. The word <em>aññataraṁ</em>
+provides us with the criterion. It has a selective sense, like ‘a certain’, and
+carries definite positive implications. To express something negative a word
+like <em>aññaṁ</em>, ‘another’, has to be used instead of the selective <em>aññataraṁ</em>, ‘a
+certain’.</p>
+<p>On the other hand, the suggested reading <em>anuppatto</em> avoids those syntactical
+difficulties. A being lays down this body and has reached a certain body. Even
+the simile given as an illustration is in favour of our interpretation. The
+original question of Vaccha about the flame flung by the wind, reminds us of the
+way a forest fire, for instance, spreads from one tree to another tree some
+distance away. It is the wind that pushes the flame for it to catch hold of the
+other tree.</p>
+<p>The commentarial explanation, however, envisages a situation in which a being
+lays down this body and is not yet reborn in another body. It is in the interim
+that craving is supposed to be the grasping or a fuel. Some scholars have
+exploited this commentarial explanation to postulate a theory of <em>antarābhava</em>,
+or interim existence, prior to rebirth proper.</p>
+<p>Our interpretation, based on the reading <em>anuppatto</em>, rules out even the
+possibility of an <em>antarābhava</em>. Obviously enough, Vacchagotta’s question is
+simple and straightforward. He is curious to know what sort of a grasping
+connects up the being that lays down the body and the being that arises in
+another body. That is to say, how the apparent gap could be bridged.</p>
+<p>The answer given by the Buddha fully accords with the analogy envisaged by the
+premise. Just as the wind does the work of grasping in the case of the flame, so
+craving itself, at the moment of death, fulfils the function of grasping for a
+being to reach another body.</p>
+<p>That is precisely why craving is called <em>bhavanetti</em>, “the guide in
+becoming”.<sup class="footnote-reference" id="fr-fn687-1"><a href="#fn-fn687">21</a></sup> Like a promontory, it juts out into the ocean of <em>saṁsāra</em>.
+When it comes to rebirth, it is craving that bridges the apparent gap. It is the
+invisible combustible fuel that keeps the raging <em>saṁsāric</em> forest fire alive.</p>
+<p>All in all, what transpired at the debating hall (<em>Kutūhalasālā</em>) reveals one
+important fact, namely that the Buddha’s reluctance to give a categorical answer
+regarding the after death state of the emancipated one in his dispensation had
+aroused the curiosity of those recluses and brahmins. That is why they kept on
+discussing the subject at length.</p>
+<p>However, it was not the fact that he had refused to make any comment at all on
+this point. Only, that the comment he had made appeared so strange to them, as
+we may well infer from Vacchagotta’s report of the discussion at the debating
+hall.</p>
+<p>The Buddha’s comment on the subject, which they had quoted, was not based on the
+tetralemma. It was a completely new formulation.</p>
+<blockquote>
+<p><em>Acchecchi taṇhaṁ, vāvattayi saññojanaṁ, sammā mānābhisamayā antamakāsi
+dukkhassa</em>,</p>
+<p>he cut off craving, disjoined the fetter and, by rightly understanding conceit
+for what it is, made an end of suffering.</p>
+</blockquote>
+<p>This then, is the correct answer, and not any one of the four corners of the
+tetralemma. This brief formula is of paramount importance. When craving is cut
+off, the ‘guide-in-becoming’, which is responsible for rebirth, is done away
+with. It is as if the fetter binding to another existence has been unhooked.</p>
+<p>The term <em>bhavasaṁyojanakkhaya</em>, “destruction of the fetter to existence”, we
+came across earlier, conveys the same sense.<sup class="footnote-reference" id="fr-fn688-1"><a href="#fn-fn688">22</a></sup></p>
+<p>The phrase <em>sammā mānābhisamaya</em> is also highly significant. With the dispelling
+of ignorance, the conceit ‘am’, <em>asmimāna</em>, is seen for what it is. It
+disappears when exposed to the light of understanding and that is the end of
+suffering as well. The concluding phrase <em>antam akāsi dukkhassa</em>, “made an end
+of suffering”, is conclusive enough. The problem that was there all the time was
+the problem of suffering, so the end of suffering means the end of the whole
+problem.</p>
+<p>In the <em>Aggivacchagottasutta</em> of the <em>Majjhima Nikāya</em> the Buddha’s response to
+the question of the after death state of the <em>arahant</em> comes to light in greater
+detail. The question is presented there in the form of the tetralemma, beginning
+with <em>hoti tathāgato paraṁ maraṇā</em>.<sup class="footnote-reference" id="fr-fn689-1"><a href="#fn-fn689">23</a></sup></p>
+<p>While all the other recluses and brahmins held that the answer should
+necessarily take the form of one of the four alternatives, the Buddha put them
+all aside, <em>ṭhapitāni,</em> rejected them, <em>patikkhittāni</em>, refused to state his
+view categorically in terms of them, <em>avyākatāni</em>.</p>
+<p>This attitude of the Buddha puzzled not only the ascetics of other sects, but
+even some of the monks like Māluṅkyāputta. In very strong terms, Māluṅkyāputta
+challenged the Buddha to give a categorical answer or else confess his
+ignorance.<sup class="footnote-reference" id="fr-fn690-1"><a href="#fn-fn690">24</a></sup></p>
+<p>As a matter of fact there are altogether ten such questions, which the Buddha
+laid aside, rejected and refused to answer categorically. The first six take the
+form of three dilemmas, while the last four constitute the tetralemma already
+mentioned. Since an examination of those three dilemmas would reveal some
+important facts, we shall briefly discuss their significance as well.</p>
+<p>The three sets of views are stated thematically as follows:</p>
+<ol>
+<li><em>sassato loko,</em> “the world is eternal”</li>
+<li><em>asassato loko,</em> “the world is not eternal”</li>
+<li><em>antavā loko</em>, “the world is finite”</li>
+<li><em>anantavā loko</em>, “the world is infinite”</li>
+<li><em>taṁ jīvaṁ taṁ sarīraṁ</em>, “the soul and the body are the same”</li>
+<li><em>aññaṁ jīvaṁ aññaṁ sarīraṁ</em>, “the soul is one thing and the body another”.</li>
+</ol>
+<p>These three dilemmas, together with the tetralemma, are known as
+<em>abyākatavatthūni</em>, the ten undetermined points.<sup class="footnote-reference" id="fr-fn691-1"><a href="#fn-fn691">25</a></sup> Various recluses and
+brahmins, as well as king Pasenadi Kosala, posed these ten questions to the
+Buddha, hoping to get categorical answers.</p>
+<p>Why the Buddha laid them aside is a problem to many scholars. Some, like
+Māluṅkyāputta, would put it down to agnosticism. Others would claim that the
+Buddha laid them aside because they are irrelevant to the immediate problem of
+deliverance, though he could have answered them. That section of opinion go by
+the <em>Siṁsapāvanasutta</em> in the <em>Saccasaṁyutta</em> of the <em>Saṁyutta Nikāya</em>.<sup class="footnote-reference" id="fr-fn692-1"><a href="#fn-fn692">26</a></sup></p>
+<p>Once while dwelling in a <em>siṁsapā</em> grove, the Buddha took up some <em>siṁsapā</em>
+leaves in his hands and asked the monks:</p>
+<blockquote>
+<p>“What do you think, monks, which is more, these leaves in my hand or those in
+the <em>siṁsapā</em> grove?”</p>
+<p>The monks reply that the leaves in the hand are few and those in the <em>siṁsapā</em>
+grove are greater in number. Then the Buddha makes a declaration to the
+following effect:</p>
+<p>“Even so, monks, what I have understood through higher knowledge and not
+taught you is far more than what I have taught you”.</p>
+</blockquote>
+<p>If we rely on this simile, we would have to grant that the questions are
+answerable in principle, but that the Buddha preferred to avoid them because
+they are not relevant. But this is not the reason either.</p>
+<p>All these ten questions are based on wrong premises. To take them seriously and
+answer them would be to grant the validity of those premises. The dilemmas and
+the tetralemma seek arbitrarily to corner anyone who tries to answer them. The
+Buddha refused to be cornered that way.</p>
+<p>The first two alternatives, presented in the form of a dilemma, are <em>sassato
+loko,</em> “the world is eternal”, and <em>asassato loko,</em> “the world is not eternal”.
+This is an attempt to determine the world in temporal terms. The next set of
+alternatives seeks to determine the world in spatial terms.</p>
+<p>Why did the Buddha refuse to answer these questions on time and space? It is
+because the concept of ‘the world’ has been given quite a new definition in this
+dispensation.</p>
+<p>Whenever the Buddha redefined a word in common usage, he introduced it with the
+phrase <em>ariyassa vinaye</em>, “in the discipline of the noble ones”.</p>
+<p>We have already mentioned on an earlier occasion that according to the
+discipline of the noble ones, ‘the world’ is said to have arisen in the six
+sense-spheres, <em>chasu loko samuppanno</em>.<sup class="footnote-reference" id="fr-fn693-1"><a href="#fn-fn693">27</a></sup> In short, the world is redefined
+in terms of the six spheres of sense. This is so fundamentally important that in
+the <em>Saḷāyatanasaṁyutta</em> of the <em>Saṁyutta Nikāya</em> the theme comes up again and
+again.</p>
+<p>For instance, in the <em>Samiddhisutta</em> Venerable Samiddhi poses the following
+question to the Buddha:</p>
+<blockquote>
+<p>’<em>Loko, loko’ti, bhante, vuccati. Kittāvatā nu kho, bhante, loko vā assa
+lokapaññatti vā?</em><sup class="footnote-reference" id="fr-fn694-1"><a href="#fn-fn694">28</a></sup></p>
+<p>‘The world, the world’, so it is said Venerable sir, but how far, Venerable
+sir, does this world or the concept of the world go?</p>
+</blockquote>
+<p>The Buddha gives the following answer:</p>
+<blockquote>
+<p><em>Yattha kho, Samiddhi, atthi cakkhu, atthi rūpā, atthi cakkhuviññāṇaṁ, atthi
+cakkhuviññāṇaviññātabbā dhammā, atthi tattha loko vā lokapaññatti vā</em>,</p>
+<p>Where there is the eye, Samiddhi, where there are forms, where there is
+eye-consciousness, where there are things cognizable by eye-consciousness,
+there exists the world or the concept of the world.</p>
+</blockquote>
+<p>A similar statement is made with regard to the other spheres of sense, including
+the mind. That, according to the Buddha, is where the world exists. Then he
+makes a declaration concerning the converse:</p>
+<blockquote>
+<p><em>Yattha ca kho, Samiddhi, natthi cakkhu, natthi rūpā, natthi cakkhuviññāṇaṁ,
+natthi cakkhuviññāṇaviññātabbā dhammā, natthi tattha loko vā lokapaññatti vā</em>,</p>
+<p>Where there is no eye, Samiddhi, where there are no forms, where there is no
+eye-consciousness, where there are no things cognizable by eye-consciousness,
+there the world does not exist, nor any concept of the world.</p>
+</blockquote>
+<p>From this we can well infer that any attempt to determine whether there is an
+end of the world, either in temporal terms or in spatial terms, is misguided. It
+is the outcome of a wrong view, for there is a world so long as there are the
+six spheres of sense. That is why the Buddha consistently refused to answer
+those questions regarding the world.</p>
+<p>There are a number of definitions of the world given by the Buddha. We shall
+cite two of them. A certain monk directly asked the Buddha to give a definition
+of the world:</p>
+<blockquote>
+<p><em>’Loko, loko’ti bhante, vuccati. Kittāvatā nu kho, bhante, ’loko’ti vuccati?</em></p>
+<p>‘The world, the world’, so it is said. In what respect, Venerable sir, is it
+called a world?</p>
+</blockquote>
+<p>Then the Buddha makes the following significant declaration:</p>
+<blockquote>
+<p><em>’Lujjatī’ti kho, bhikkhu, tasmā ’loko’ti vuccati. Kiñca lujjati? Cakkhu kho,
+bhikkhu, lujjati, rūpā lujjanti, cakkhuviññāṇaṁ lujjati, cakkhusamphasso
+lujjati, yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ
+vā adukkhamasukhaṁ vā tampi lujjati. ’Lujjatī’ti kho, bhikkhu, tasmā ’loko’ti
+vuccati.</em><sup class="footnote-reference" id="fr-fn695-1"><a href="#fn-fn695">29</a></sup></p>
+<p>It is disintegrating, monk, that is why it is called ‘the world’. And what is
+disintegrating? The eye, monk, is disintegrating, forms are disintegrating,
+eye-consciousness is disintegrating, eye-contact is disintegrating, and
+whatever feeling that arises dependent on eye-contact, be it pleasant, or
+painful, or neither-pleasant-nor-painful, that too is disintegrating. It is
+disintegrating, monk, that is why it is called ‘the world’.</p>
+</blockquote>
+<p>Here the Buddha is redefining the concept of the world, punning on the verb
+<em>lujjati</em>, which means to ‘break up’ or ‘disintegrate’. To bring about a radical
+change in outlook, in accordance with the Dhamma, the Buddha would sometimes
+introduce a new etymology in preference to the old. This definition of ‘the
+world’ is to the same effect.</p>
+<p>Venerable Ānanda, too, raises the same question, soliciting a redefinition for
+the well-known concept of the world, and the Buddha responds with the following
+answer:</p>
+<blockquote>
+<p><em>Yaṁ kho, Ānanda, palokadhammaṁ, ayaṁ vuccati ariyassa vinaye loko.</em><sup class="footnote-reference" id="fr-fn696-1"><a href="#fn-fn696">30</a></sup></p>
+<p>Whatever, Ānanda, is subject to disintegration that is called ‘the world’ in
+the noble one’s discipline.</p>
+</blockquote>
+<p>He even goes on to substantiate his statement at length:</p>
+<blockquote>
+<p><em>Kiñca, Ānanda, palokadhammaṁ? Cakkhuṁ kho, Ānanda, palokadhammaṁ, rūpā
+palokadhammā, cakkhuviññāṇaṁ palokadhammaṁ, cakkhusamphasso palokadhammo,
+yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā
+adukkhamasukhaṁ vā tampi palokadhammaṁ. Yaṁ kho, Ānanda, palokadhammaṁ, ayaṁ
+vuccati ariyassa vinaye loko</em>.</p>
+<p>And what, Ānanda, is subject to disintegration? The eye, Ānanda, is subject to
+disintegration, forms are subject to disintegration, eye-consciousness is
+subject to disintegration, eye-contact is subject to disintegration, and
+whatever feeling that arises dependent on eye-contact, be it pleasant, or
+painful, or neither-pleasant-nor-painful, that too is subject to
+disintegration. Whatever is subject to disintegration, Ānanda, is called ‘the
+world’ in the noble one’s discipline.</p>
+</blockquote>
+<p>In this instance, the play upon the word <em>loka</em> is vividly apt in that it brings
+out the transciency of the world. If the world by definition is regarded as
+transient, it cannot be conceived substantially as a unit. How then can an
+eternity or infinity be predicated about it? If all the so-called things in the
+world, listed above, are all the time disintegrating, any unitary concept of the
+world is fallacious.</p>
+<p>Had the Buddha answered those misconceived questions, he would thereby concede
+to the wrong concept of the world current among other religious groups. So then
+we can understand why the Buddha refused to answer the first four questions.</p>
+<p>Now let us examine the next dilemma, <em>taṁ jīvaṁ taṁ sarīraṁ, aññaṁ jīvaṁ aññaṁ
+sarīraṁ</em>, “the soul and the body are the same, the soul is one thing and the
+body another”. To these questions also, the other religionists insisted on a
+categorical answer, either ‘yes’ or ‘no’.</p>
+<p>There is a ‘catch’ in the way these questions are framed. The Buddha refused to
+get caught by them. These two questions are of the type that clever lawyers put
+to a respondent these days. They would sometimes insist strictly on a ‘yes’ or
+‘no’ as answer and ask a question like: “Have you now given up drinking?”</p>
+<p>If the
+respondent happens to be a teetotaller, he would be in a quandary, since both
+answers tend to create a wrong impression.</p>
+<p>So also in the case of these two alternatives, “the soul and the body are the
+same, the soul is one thing and the body another”. Either way there is a
+presumption of a soul, which the Buddha did not subscribe to. The Buddha had
+unequivocally declared that the idea of soul is the outcome of an utterly
+foolish view, <em>kevalo paripūro bāladhammo</em>.<sup class="footnote-reference" id="fr-fn697-1"><a href="#fn-fn697">31</a></sup> That is why the Buddha
+rejected both standpoints.</p>
+<p>A similar ‘catch’, a similar misconception, underlies the tetralemma concerning
+the after death state of the Tathāgata. It should be already clear to some
+extent by what we have discussed so far.</p>
+<p>For the Buddha, the term Tathāgata had a different connotation than what it
+meant for those of other sects. The latter adhered to the view that both the
+ordinary disciple as well as the perfected individual in their systems of
+thought had a soul of some description or other.</p>
+<p>The Buddha never subscribed to such a view. On the other hand, he invested the
+term Tathāgata with an extremely deep and subtle meaning. His definition of the
+term will emerge from the <em>Aggivacchagottasutta</em>, which we propose to discuss
+now.</p>
+<p>In this discourse we find the wandering ascetic Vacchagotta trying to get a
+categorical answer to the questionnaire, putting each of the questions with
+legal precision one by one, as a lawyer would at the courts of law.</p>
+<blockquote>
+<p><em>Kiṁ nu kho, bho Gotamo, ’sassato loko, idam eva saccaṁ, mogham aññan’ti, evaṁ
+diṭṭhi bhavaṁ Gotamo?</em><sup class="footnote-reference" id="fr-fn698-1"><a href="#fn-fn698">32</a></sup></p>
+<p>“Now, Master Gotama, ‘the world is eternal, this only is true, all else is
+false’, are you of this view, Master Gotama?”</p>
+</blockquote>
+<p>The Buddha replies: <em>na kho ahaṁ, Vaccha, evaṁ diṭṭhi</em>, “no, Vaccha, I am not of
+this view”.</p>
+<p>Then Vacchagotta puts the opposite standpoint, which too the Buddha answers in
+the negative. To all the ten questions the Buddha answers ‘no’, thereby
+rejecting the questionnaire in toto. Then Vacchagotta asks why, on seeing what
+danger, the Buddha refuses to hold any of those views. The Buddha gives the
+following explanation:</p>
+<blockquote>
+<p><em>’Sassato loko’ti kho, Vaccha, diṭṭhigatam etaṁ diṭṭhigahanaṁ diṭṭhikantāraṁ
+diṭṭhivisūkaṁ diṭṭhivipphanditaṁ diṭṭhisaṁyojanaṁ sadukkhaṁ savighātaṁ
+sa-upāyāsaṁ sapariḷāhaṁ, na nibbidāya na virāgāya na nirodhāya na upasamāya na
+abhiññāya na sambodhāya na nibbānāya saṁvattati</em>.</p>
+<p>Vaccha, this speculative view that the world is eternal is a jungle of views,
+a desert of views, a distortion of views, an aberration of views, a fetter of
+views, it is fraught with suffering, with vexation, with despair, with
+delirium, it does not lead to disenchantment, to dispassion, to cessation, to
+tranquillity, to higher knowledge, to enlightenment, to Nibbāna.</p>
+</blockquote>
+<p>So with regard to the other nine views.</p>
+<p>Now here we find both the above-mentioned reasons. Not only the fact that these
+questions are not relevant to the attainment of Nibbāna, but also the fact that
+there is something wrong in the very statement of the problems. What are the
+dangers that he sees in holding any of these views?</p>
+<p>Every one of them is just a speculative view, <em>diṭṭhigataṁ</em>, a jungle of views,
+<em>diṭṭhigahanaṁ</em>, an arid desert of views, <em>diṭṭhikantāraṁ</em>, a mimicry or a
+distortion of views, <em>diṭṭhivisūkaṁ</em>, an aberration of views,
+<em>diṭṭhivipphanditaṁ</em>, a fetter of views, <em>diṭṭhisaṁyojanaṁ</em>.</p>
+<p>They bring about suffering, <em>sadukkhaṁ</em>, vexation, <em>savighātaṁ</em>, despair,
+<em>sa-upāyāsaṁ</em>, delirium, <em>sapariḷāhaṁ</em>.</p>
+<p>They do not conduce to disenchantment, <em>na nibbidāya</em>, to dispassion, <em>na
+virāgāya</em>, to cessation, <em>na nirodhāya</em>, to tranquillity, <em>na upasamāya</em>, to
+higher knowledge, <em>na abhiññāya</em>, to enlightenment, <em>na sambodhāya</em>, to
+extinguishment, <em>na nibbānāya</em>.</p>
+<p>From this declaration it is obvious that these questions are ill founded and
+misconceived. They are a welter of false views, so much so that the Buddha even
+declares that these questions simply do not exist for the noble disciple, who
+has heard the Dhamma. They occur as real problems only to the untaught
+worldling. Why is that?</p>
+<p>Whoever has a deep understanding of the four noble truths would not even raise
+these questions. This declaration should be enough for one to understand why the
+Buddha refused to answer them.</p>
+<p>Explaining that it is because of these dangers that he rejects them in toto, the
+Buddha now makes clear what his own stance is. Instead of holding any of those
+speculative views, he has seen for himself the rise, <em>samudaya</em>, and fall,
+<em>atthagama</em>, of the five aggregates as a matter of direct experience, thereby
+getting rid of all ‘I’-ing and ‘my’-ing and latencies to conceits, winning
+ultimate release.</p>
+<p>Even after this explanation Vacchagotta resorts to the fourfold logic to satisfy
+his curiosity about the after death state of the monk thus released in mind.</p>
+<blockquote>
+<p><em>Evaṁ vimuttacitto pana, bho Gotamo, bhikkhu kuhiṁ uppajjati?</em></p>
+<p>When a monk is thus released in mind, Master Gotama, where is he reborn?</p>
+</blockquote>
+<p>The Buddha replies:</p>
+<blockquote>
+<p><em>Uppajjatī’ti kho, Vaccha, na upeti</em>,</p>
+<p>To say that he is reborn, Vaccha, falls short of a reply.</p>
+</blockquote>
+<p>Then Vacchagotta asks:</p>
+<blockquote>
+<p><em>Tena hi, bho Gotama, na uppajjati?</em></p>
+<p>If that is so, Master Gotama, is he not reborn?</p>
+<p><em>Na uppajjatī’ti kho, Vaccha, na upeti</em>,</p>
+<p>To say that he is not reborn, Vaccha, falls short of a reply.</p>
+<p><em>Tena hi, bho Gotama, uppajjati ca na ca uppajjati</em>?</p>
+<p>If that is so, Master Gotama, is he both reborn and is not reborn?</p>
+<p><em>Uppajjati ca na ca uppajjatī’ti kho, Vaccha, na upeti</em>,</p>
+<p>To say that he is both reborn and is not reborn, Vaccha, falls short of a
+reply.</p>
+<p><em>Tena hi, bho Gotama, neva uppajjati na na uppajjati?</em></p>
+<p>If that is so, Master Gotama, is he neither reborn nor is not reborn?</p>
+<p><em>Neva uppajjati na na uppajjatī’ti kho, Vaccha, na upeti</em>,</p>
+<p>To say that he is neither reborn nor is not reborn, Vaccha, falls short of a
+reply.</p>
+</blockquote>
+<p>At this unexpected response of the Buddha to his four questions, Vacchagotta
+confesses that he is fully confused and bewildered. The Buddha grants that his
+confusion and bewilderment are understandable, since this Dhamma is so deep and
+subtle that it cannot be plumbed by logic, <em>atakkāvacaro</em>.</p>
+<p>However, in order to give him a clue to understand the Dhamma point of view, he
+gives an illustration in the form of a catechism.</p>
+<blockquote>
+<p><em>Taṁ kiṁ maññasi, Vaccha, sace te purato aggi jaleyya, jāneyyāsi tvaṁ ’ayaṁ me
+purato aggi jalatī’ti?</em></p>
+<p>What do you think, Vaccha, suppose a fire were burning before you, would you
+know ‘this fire is burning before me’?</p>
+<p><em>Sace me, bho Gotama, purato aggi jaleyya, jāneyyāhaṁ ’ayaṁ me purato aggi
+jalatī’ti.</em></p>
+<p>If, Master Gotama, a fire were burning before me, I would know ‘this fire is
+burning before me’.</p>
+<p><em>Sace pana taṁ, Vaccha, evaṁ puccheyya ’yo te ayaṁ purato aggi jalati, ayaṁ
+aggi kiṁ paṭicca jalatī’ti, evaṁ puṭṭho tvaṁ, Vaccha, kinti byākareyyāsi?</em></p>
+<p>If someone were to ask you, Vaccha, ‘what does this fire that is burning
+before you burns in dependence on’, being asked thus, Vaccha, what would you
+answer?</p>
+<p><em>Evaṁ puṭṭho ahaṁ, bho Gotama, evaṁ byākareyyaṁ ’yo me ayaṁ purato aggi
+jalati, ayaṁ aggi tiṇakaṭṭhupādānaṁ paṭicca jalatī’ti</em>.</p>
+<p>Being asked thus, Master Gotama, I would answer ‘this fire burning before me
+burns in dependence on grass and sticks’.</p>
+<p><em>Sace te, Vaccha, purato so aggi nibbāyeyya, jāneyyāsi tvaṁ ’ayaṁ me purato
+aggi nibbuto’ti?</em></p>
+<p>If that fire before you were to be extinguished, Vaccha, would you know ‘this
+fire before me has been extinguished’?</p>
+<p><em>Sace me, bho Gotamo, purato so aggi nibbāyeyya, jāneyyāhaṁ ’ayaṁ me purato
+aggi nibbuto’ti.</em></p>
+<p>If that fire before me were to be extinguished, Master Gotama, I would know
+‘this fire before me has been extinguished’.</p>
+<p><em>Sace pana taṁ, Vaccha, evaṁ puccheyya ’yo te ayaṁ purato aggi nibbuto, so
+aggi ito katamaṁ disaṁ gato, puratthimaṁ vā dakkhiṇaṁ vā pacchimaṁ vā uttaraṁ
+vā’ti, evaṁ puṭṭho tvaṁ, Vaccha, kinti byākareyyāsi?</em></p>
+<p>If someone were to ask you, Vaccha, when that fire before you were
+extinguished, ‘to which direction did it go, to the east, the west, the north
+or the south’, being asked thus, what would you answer?</p>
+<p><em>Na upeti, bho Gotama, yañhi so, bho Gotama, aggi tiṇakaṭṭhupādānaṁ paṭicca
+jalati, tassa ca pariyādānā aññassa ca anupahārā anāhāro nibbuto tveva saṅkhaṁ
+gacchati.</em></p>
+<p>That wouldn’t do as a reply, Master Gotama, for that fire burnt in dependence
+on its fuel of grass and sticks. That being used up and not getting any more
+fuel, being without fuel, it is reckoned as extinguished.</p>
+</blockquote>
+<p>At this point a very important expression comes up, which we happened to discuss
+earlier too, namely <em>saṅkhaṁ gacchati</em>.<sup class="footnote-reference" id="fr-fn699-1"><a href="#fn-fn699">33</a></sup> It means ‘to be reckoned’, or
+‘to be known as’, or ‘to be designated’. So the correct mode of designation in
+this case is to say that the fire is reckoned as ‘extinguished’, and not to say
+that it has gone somewhere.</p>
+<p>If one takes mean advantage of the expression ‘fire has gone out’ and insists on
+locating it, it will only be a misuse or an abuse of linguistic usage. It
+reveals a pervert tendency to misunderstand and misinterpret. Therefore, all
+that can be said by way of predicating such a situation, is <em>nibbuto tveva
+saṅkhaṁ gacchati</em>, “it is reckoned as ‘extinguished’”.</p>
+<p>Now comes a well-timed declaration in which the Buddha, starting right from
+where Vacchagotta leaves off, brings the whole discussion to a climactic end.</p>
+<blockquote>
+<p><em>Evameva kho, Vaccha, yena rūpena tathāgataṁ paññāpayamāno paññāpeyya, taṁ
+rūpaṁ tathāgatassa pahīnaṁ ucchinnamūlaṁ tālāvatthukataṁ anabhāvakataṁ āyatiṁ
+anuppādadhammaṁ. Rūpasaṅkhāvimutto kho, Vaccha, tathāgato, gambhīro appameyyo
+duppariyogāho, seyyathāpi mahāsamuddo. Uppajjatī’ti na upeti, na uppajjatī’ti
+na upeti, uppajjati ca na ca uppajjatī’ti na upeti, neva uppajjati na na
+uppajjatī’ti na upeti.</em></p>
+<p>Even so, Vaccha, that form by which one designating the Tathāgata might
+designate him, that has been abandoned by him, cut off at the root, made like
+an uprooted palm tree, made non-existent and incapable of arising again. The
+Tathāgata is free from reckoning in terms of form, Vaccha, he is deep,
+immeasurable and hard to fathom, like the great ocean. To say that he is
+reborn falls short of a reply, to say that he is not reborn falls short of a
+reply, to say that he is both reborn and is not reborn falls short of a reply,
+to say that he is neither reborn nor is not reborn falls short of a reply.</p>
+</blockquote>
+<p>This declaration, which a fully convinced Vacchagotta now wholeheartedly hailed
+and compared to the very heartwood of a <em>Sāla</em> tree, enshrines an extremely
+profound norm of Dhamma.</p>
+<p>It was when Vacchagotta had granted the fact that it is improper to ask in which
+direction an extinguished fire has gone, and that the only proper linguistic
+usage is simply to say that ‘it is extinguished’, that the Buddha came out with
+this profound pronouncement concerning the five aggregates.</p>
+<p>In the case of the Tathāgata, the aggregate of form, for instance, is abandoned,
+<em>pahīnaṁ</em>, cut off at the root, <em>ucchinnamūlaṁ</em>, made like an uprooted palm tree
+divested from its site, <em>tālāvatthukataṁ</em>, made non existent, <em>anabhavakataṁ</em>,
+and incapable of arising again, <em>āyatiṁ anuppādadhammaṁ</em>.</p>
+<p>Thereby the Tathāgata becomes free from reckoning in terms of form,
+<em>rūpasaṅkhāvimutto kho tathāgato</em>. Due to this very freedom, he becomes deep,
+immeasurable and unfathomable like the great ocean. Therefore he cannot be said
+to be reborn, or not to be reborn, or both or neither. The abandonment of form,
+referred to above, comes about not by death or destruction, but by the
+abandonment of craving.</p>
+<p>The fact that by the abandonment of craving itself, form is abandoned, or
+eradicated, comes to light from the following quotation from the <em>Rādhasaṁyutta</em>
+of the <em>Saṁyutta Nikāya</em>.</p>
+<blockquote>
+<p><em>Rūpe kho, Rādha, yo chando yo rāgo yā nandī yā taṇhā, taṁ pajahatha. Evaṁ taṁ
+rūpaṁ pahīnaṁ bhavissati ucchinnamūlaṁ tālāvatthukataṁ anabhāvakataṁ āyatiṁ
+anuppādadhammaṁ.</em><sup class="footnote-reference" id="fr-fn700-1"><a href="#fn-fn700">34</a></sup></p>
+<p>Rādha, you give up that desire, that lust, that delight, that craving for
+form. It is thus that form comes to be abandoned, cut off at the root, made
+like an uprooted palm tree, made non-existent and incapable of arising again.</p>
+</blockquote>
+<p>Worldlings are under the impression that an <em>arahant’s</em> five aggregates of
+grasping get destroyed at death. But according to this declaration, an <em>arahant</em>
+is like an uprooted palm tree. A palm tree uprooted but left standing, divested
+of its site, might appear as a real palm tree to one who sees it from a
+distance. Similarly, an untaught worldling thinks that there is a being or
+person in truth and fact when he hears the term Tathāgata, even in this context
+too.</p>
+<p>This is the insinuation underlying the above quoted pronouncement. It has some
+profound implications, but time does not permit us to go into them today.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn667"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn667-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn668"><sup class="footnote-definition-label">2</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn6/pli/ms">MN 6 / M I 35</a>, <em>Ākaṅkheyyasutta</em> <a href="#fr-fn668-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn669"><sup class="footnote-definition-label">3</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn26/pli/ms">MN 26 / M I 167</a>, <em>Ariyapariyesanasutta</em> <a href="#fr-fn669-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn670"><sup class="footnote-definition-label">4</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn4/pli/ms">MN 4 / M I 23</a>, <em>Bhayabheravasutta</em> <a href="#fr-fn670-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn671"><sup class="footnote-definition-label">5</sup>
+<p>Ps III 115, <em>aṭṭhakathā</em> on MN 59, <em>Bahuvedanīyasutta</em> <a href="#fr-fn671-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn672"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/an6.45/pli/ms">AN 6.45 / A III 354</a>, <em>Iṇasutta</em> <a href="#fr-fn672-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn673"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/snp2.1/pli/ms">Snp 2.1 / Sn 235</a>, <em>Ratanasutta</em> <a href="#fr-fn673-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn674"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/ud8.10/pli/ms">Ud 8.10 / Ud 93</a>, <em>Dutiyadabbasutta</em> <a href="#fr-fn674-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn675"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/dhp221-234/pli/ms">Dhp 225</a>, <em>Kodhavagga</em> <a href="#fr-fn675-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn676"><sup class="footnote-definition-label">10</sup>
+<p>Dhp-a III 321 <a href="#fr-fn676-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn677"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/snp5.9/pli/ms">Snp 5.9 / Sn 1086</a>, <em>Hemakamāṇavapucchā</em> <a href="#fr-fn677-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn678"><sup class="footnote-definition-label">12</sup>
+<p>See <em>Sermon 19</em> <a href="#fr-fn678-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn679"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 140</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn679-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn680"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 137</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn680-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn681"><sup class="footnote-definition-label">15</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn72/pli/ms">MN 72 / M I 484</a>, <em>Aggivacchagottasutta</em> <a href="#fr-fn681-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn682"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/sn22.86/pli/ms">SN 22.86 / S III 116</a>, <em>Anurādhasutta</em> <a href="#fr-fn682-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn683"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/sn44.9/pli/ms">SN 44.9 / S IV 399</a>, <em>Kutūhalasālāsutta</em> <a href="#fr-fn683-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn684"><sup class="footnote-definition-label">18</sup>
+<p>This suggestion finds support in the Chinese parallel to the <em>Kutūhalasālāsutta</em>, <em>Saṁyukta Āgama</em> discourse 957 (Taishº II 244b2), which speaks of the being that has passed away as availing himself of a mind-made body. (Anālayo) <a href="#fr-fn684-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn685"><sup class="footnote-definition-label">19</sup>
+<p>Spk III 114 <a href="#fr-fn685-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn686"><sup class="footnote-definition-label">20</sup>
+<p>Feer, L. (ed.): <em>Saṁyutta Nikāya</em>, PTS 1990 (1894), p 400 n 2 <a href="#fr-fn686-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn687"><sup class="footnote-definition-label">21</sup>
+<p>E.g. <a href="https://suttacentral.net/sn23.3/pli/ms">SN 23.3 / S III 190</a>, <em>Bhavanettisutta</em> <a href="#fr-fn687-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn688"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/iti62/pli/ms">Iti 62 / It 53</a>, <em>Indriyasutta</em>; see <em>Sermon 16</em>, <a href="#fr-fn688-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn689"><sup class="footnote-definition-label">23</sup>
+<p><a href="https://suttacentral.net/mn72/pli/ms">MN 72 / M I 484</a>, <em>Aggivacchagottasutta</em> <a href="#fr-fn689-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn690"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/mn63/pli/ms">MN 63 / M I 427</a>, <em>Cūḷamāluṅkyāputtasutta</em> <a href="#fr-fn690-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn691"><sup class="footnote-definition-label">25</sup>
+<p>The expression <em>abyākatavatthu</em> occurs e.g. at <a href="https://suttacentral.net/an7.54/pli/ms">AN 7.54 / A IV 68</a>, <em>Abyākatasutta</em> <a href="#fr-fn691-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn692"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/sn56.31/pli/ms">SN 56.31 / S V 437</a>, <em>Sīsapāvanasutta</em> <a href="#fr-fn692-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn693"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/sn1.70/pli/ms">SN 1.70 / S I 41</a>, <em>Lokasutta</em>; see <em>Sermon 4</em> <a href="#fr-fn693-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn694"><sup class="footnote-definition-label">28</sup>
+<p><a href="https://suttacentral.net/sn35.68/pli/ms">SN 35.68 / S IV 39</a>, <em>Samiddhisutta</em> <a href="#fr-fn694-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn695"><sup class="footnote-definition-label">29</sup>
+<p><a href="https://suttacentral.net/sn35.82/pli/ms">SN 35.82 / S IV 52</a>, <em>Lokapañhāsutta</em> <a href="#fr-fn695-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn696"><sup class="footnote-definition-label">30</sup>
+<p><a href="https://suttacentral.net/sn35.84/pli/ms">SN 35.84 / S IV 53</a>, <em>Palokadhammasutta</em> <a href="#fr-fn696-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn697"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 138</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn697-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn698"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/mn72/pli/ms">MN 72 / M I 484</a>, <em>Aggivacchagottasutta</em> <a href="#fr-fn698-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn699"><sup class="footnote-definition-label">33</sup>
+<p>See <em>Sermons 1, 12 and 13</em> <a href="#fr-fn699-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn700"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://suttacentral.net/sn23.9/pli/ms">SN 23.9 / S III 193</a>, <em>Chandarāgasutta</em> <a href="#fr-fn700-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-19.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-21.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-19.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-21.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

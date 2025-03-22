@@ -1,0 +1,1024 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 15 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-15-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-15"><a class="header" href="#sermon-15">Sermon 15</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn511-1"><a href="#fn-fn511">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the fifteenth sermon in the series of
+sermons on Nibbāna.</p>
+<p>Towards the end of our last sermon we happened to quote a brief exhortation on
+Dhamma from the <em>Udāna</em>, which enabled the ascetic Bāhiya Dārucīriya to liberate
+his mind from imaginings and attain the state of non-identification,
+<em>atammayatā</em>, or <em>arahanthood</em>. In order to attempt an exposition of that
+exhortation of the Buddha, which was pithy enough to bring about instantaneous
+<em>arahanthood</em>, let us refresh our memory of that brief discourse to Bāhiya.</p>
+<blockquote>
+<p><em>Tasmātiha te, Bāhiya, evaṁ sikkhitabbaṁ: diṭṭhe diṭṭhamattaṁ bhavissati, sute
+sutamattaṁ bhavissati, mute mutamattaṁ bhavissati, viññāte viññātamattaṁ
+bhavissati. Evaṁ hi te, Bāhiya, sikkhitabbaṁ.</em></p>
+<p><em>Yato kho te, Bāhiya, diṭṭhe diṭṭhamattaṁ bhavissati, sute sutamattaṁ
+bhavissati, mute mutamattaṁ bhavissati, viññāte viññātamattaṁ bhavissati, tato
+tvaṁ Bāhiya na tena. Yato tvaṁ Bāhiya na tena, tato tvaṁ Bāhiya na tattha.
+Yato tvaṁ Bāhiya na tattha, tato tvaṁ Bāhiya nev’idha na huraṁ na
+ubhayamantarena. Es’ev’anto dukkhassa</em>.<sup class="footnote-reference" id="fr-fn512-1"><a href="#fn-fn512">2</a></sup></p>
+<p>Well, then, Bāhiya, you had better train yourself thus: In the seen there will
+be just the seen, in the heard there will be just the heard, in the sensed
+there will be just the sensed, in the cognized there will be just the
+cognized. Thus, Bāhiya, should you train yourself.</p>
+<p>And when to you, Bāhiya, there will be in the seen just the seen, in the heard
+just the heard, in the sensed just the sensed, in the cognized just the
+cognized, then, Bāhiya, you will not be by it. And when, Bāhiya, you are not
+by it, then, Bāhiya, you are not in it. And when, Bāhiya, you are not in it,
+then, Bāhiya, you are neither here nor there nor in between. This, itself, is
+the end of suffering.</p>
+</blockquote>
+<p>As a clue to an exegesis of this discourse, we made an attempt, the other day,
+to unravel the meaning of the two puzzling terms in the text, namely, <em>na tena</em>
+and <em>na tattha</em>. These two terms are apparently unrelated to the context. To get
+at their significance, we brought up a quotation of two lines from the
+<em>Jarāsutta</em> of the <em>Aṭṭhakavagga</em> of the <em>Sutta Nipāta</em>.</p>
+<blockquote>
+<p><em>Dhono na hi tena maññati</em> <br />
+<em>yadidaṁ diṭṭhasutaṁ mutesu vā.</em><sup class="footnote-reference" id="fr-fn513-1"><a href="#fn-fn513">3</a></sup></p>
+</blockquote>
+<p><em>Dhona</em> is a term for the <em>arahant</em> in the sense that he has ‘shaken off’ the
+dust of defilements. So then, these two lines imply that the <em>arahant</em> does not
+imagine thereby, namely <em>yadidaṁ</em>, in terms of whatever is seen, heard or
+sensed. These two lines are, as it were, a random exegesis of our riddle terms
+in the <em>Bāhiyasutta</em>.</p>
+<p>The first line itself gives the clue to the rather elliptical term <em>na tena</em>,
+which carries no verb with it. Our quotation makes it clear that the implication
+is <em>maññanā</em>, or imagining. <em>Dhono na hi tena maññati</em>, the <em>arahant</em> does not
+imagine ‘by it’ or ‘thereby’.</p>
+<p>Although the <em>Bāhiyasutta</em> makes no mention of the word <em>maññanā</em>, this
+particular expression seems to suggest that what is implied here is a form of
+imagining.</p>
+<p>By way of further proof we may allude to another quotation, which we had to
+bring up several times:</p>
+<blockquote>
+<p><em>Yena yena hi maññanti, tato taṁ hoti aññathā</em>.<sup class="footnote-reference" id="fr-fn514-1"><a href="#fn-fn514">4</a></sup></p>
+<p>In whatever terms they imagine it, thereby it turns otherwise.</p>
+</blockquote>
+<p>We came across another expression, which has a similar connotation: <em>tena ca mā
+maññi,</em> “do not be vain thereby”.<sup class="footnote-reference" id="fr-fn515-1"><a href="#fn-fn515">5</a></sup></p>
+<p>The first thing we can infer, therefore, from the above quoted two lines of the
+verse, is that what is to be understood by the elliptical expression <em>na tena</em>
+in the <em>Bāhiyasutta</em> is the idea of imagining, or in short, <em>na tena maññati</em>,
+“does not imagine thereby”.</p>
+<p>Secondly, as to what precisely is implied by the word <em>tena</em>, or ‘by it’, can
+also be easily inferred from those two lines.</p>
+<p>In fact, the second line beginning with the word <em>yadidaṁ</em>, which means ‘namely’
+or ‘that is’, looks like a commentary on the first line itself. The <em>dhono</em>, or
+the <em>arahant</em>, does not imagine ‘thereby’, namely by whatever is seen, heard and
+sensed.</p>
+<p>The verse in question mentions only the three terms <em>diṭṭha, suta</em> and <em>muta</em>,
+whereas the <em>Bāhiyasutta</em> has as its framework the four terms <em>diṭṭha, suta,
+muta</em> and <em>viññata</em>. Since what precedes the term <em>na tena</em> in the <em>Bāhiyasutta</em>
+is the fourfold premise beginning with <em>diṭṭhe diṭṭhamattaṁ bhavissati</em>, “when
+to you, Bāhiya, there will be in the seen just the seen”, it stands to reason
+that what the Buddha meant by the term <em>na tena</em> is the attitude of not thinking
+‘in terms of’ whatever is seen, heard, sensed or cognized. That is to say, not
+imagining ‘thereby’.</p>
+<p>This same attitude of not imagining ‘thereby’ is what is upheld in the
+<em>Mūlapariyāyasutta</em>, which we discussed at length on a previous
+occasion.<sup class="footnote-reference" id="fr-fn516-1"><a href="#fn-fn516">6</a></sup> There we explained the word <em>maññanā</em>, ‘me-thinking’,
+‘imagining’, taking as a paradigm the first term <em>paṭhavi</em>, occurring in the
+list of twenty-four terms given there. Among the twenty-four terms, we find
+mentioned the four relevant to our present problem, namely <em>diṭṭha, suta, muta</em>
+and <em>viññāta</em>.<sup class="footnote-reference" id="fr-fn517-1"><a href="#fn-fn517">7</a></sup></p>
+<p>We are now used to the general schema of the <em>Mūlapariyāyasutta</em>, concerning the
+attitude of the three categories of persons mentioned there. Let us, for
+instance, take up what is said in that context with regard to the <em>sekha</em>, or
+the monk in higher training.</p>
+<blockquote>
+<p><em>Paṭhaviṁ paṭhavito abhiññāya paṭhaviṁ mā maññi, paṭhaviyā mā maññi, paṭhavito
+mā maññi, paṭhaviṁ me ti mā maññi, paṭhaviṁ mā abhinandi.</em></p>
+</blockquote>
+<p>This is how the attitude of the <em>sekha</em> is described with regard to <em>paṭhavi</em>,
+or earth. Suppose we substitute <em>diṭṭha</em>, or the seen, in place of <em>paṭhavi</em>.
+This is what we should get:</p>
+<blockquote>
+<p><em>Diṭṭhaṁ diṭṭhato abhiññāya diṭṭhaṁ mā maññi, diṭṭhasmiṁ mā maññi, diṭṭhato mā
+maññi, diṭṭhaṁ me ti mā maññi, diṭṭhaṁ mā abhinandi.</em></p>
+</blockquote>
+<p>What the <em>sekha</em> has before him is a step of training, and this is how he has to
+train in respect of the four things, the seen, the heard, the sensed and the
+cognized. He should not imagine in terms of them.</p>
+<p>For instance, he understands through higher knowledge, and not through the
+ordinary perception of the worldling, the seen as ‘seen’. Having thus understood
+it, he has to train in not imagining the seen as a thing, by objectifying it.
+<em>Diṭṭhaṁ mā maññi</em>, let him not imagine a ‘seen’. Also, let him not imagine ‘in
+the seen’, or ‘from the seen’. We have already pointed out the relationship
+between these imaginings and the grammatical structure.<sup class="footnote-reference" id="fr-fn518-1"><a href="#fn-fn518">8</a></sup></p>
+<p>This objectification of the seen gives rise to acquisitive tendencies, to
+imagine the seen as ‘mine’. <em>Diṭṭhaṁ me ti mā maññi,</em> let him not imagine ‘I
+have seen’ or ‘I have a seen’.</p>
+<p>This acquisition has something congratulatory about it. It leads to some sort of
+joy, so the monk in higher training has to combat that too. <em>Diṭṭhaṁ mā
+abhinandi</em>, let him not delight in the seen.</p>
+<p>It seems, then, that the Buddha has addressed the ascetic Bāhiya Dārucīriya in
+the language of the <em>ariyans</em>, for the very first instruction given to him was
+“in the seen there will be just the seen”. So highly developed in wisdom and
+quick witted was <em>Bāhiya</em><sup class="footnote-reference" id="fr-fn519-1"><a href="#fn-fn519">9</a></sup> that the Buddha promptly asked him to stop
+short at the seen, by understanding that in the seen there is just the seen.</p>
+<p>Not to have imaginings or me-thinkings about the seen is therefore the way to
+stop short at just the seen. If one does not stop short at just the seen, but
+goes on imagining in terms of ‘in the seen’, ‘from the seen’, etc., as already
+stated, one will end up with an identification, or <em>tammayatā</em>.</p>
+<p>In our last sermon we brought up the term <em>tammayatā</em>. When one starts imagining
+in such terms about something, one tends to become one with it, <em>tammayo</em>, even
+as things made out of gold and silver are called golden, <em>suvaṇṇamaya</em>, and
+silvery, <em>rajatamaya</em>. It is as if one who grasps a gem becomes its owner and if
+anything happens to the gem he is affected by it. To possess a gem is to be
+possessed by it.</p>
+<p>When one gets attached and becomes involved and entangled in the seen through
+craving, conceit and views, by imagining egoistically, the result is
+identification, <em>tammayatā</em>, literally ‘of-that-ness’.</p>
+<p>In this present context, however, the Buddha puts Bāhiya Dārucīriya on the path
+to non-identification, or <em>atammayatā</em>. That is to say, he advises Bāhiya not to
+indulge in such imaginings. That attitude leads to non-identification and
+detachment. When one has no attachments, involvements and entanglements
+regarding the seen, one does not have the notion of being in the seen.</p>
+<p>Once we spoke about a children’s hut into which the mother was invited.<sup class="footnote-reference" id="fr-fn520-1"><a href="#fn-fn520">10</a></sup>
+When she crept into that plaything of a hut, she did not seriously entertain the
+thought of being ‘in’ it. Similarly if one does not indulge in imaginings, one
+has no notion of being ‘in’ the seen.</p>
+<p>This, then, is the significance of the words <em>na tattha</em>, ‘not in it’.</p>
+<blockquote>
+<p><em>Yato tvaṁ Bāhiya na tena, tato tvaṁ Bāhiya na tattha.</em></p>
+<p>When, Bāhiya, you are not by it, then, Bāhiya, you are not in it.</p>
+</blockquote>
+<p>That is to say, when for instance Bāhiya does not imagine ‘by the seen’, he is
+not ‘in the seen’. Likewise, he is not in the heard, sensed or cognized. From
+this we can deduce the meaning of what follows.</p>
+<blockquote>
+<p><em>Yato tvaṁ Bāhiya na tattha, tato tvaṁ Bāhiya nev’idha na huraṁ na
+ubhayamantarena</em>.</p>
+</blockquote>
+<p>At whatever moment you neither imagine ‘by the seen’ nor entertain the notion of
+being ‘in the seen’, which is tantamount to projecting an ‘I’ into the seen,
+then you are neither here nor there nor in between.</p>
+<p>In a number of earlier sermons we have sufficiently explained the significance
+of the two ends and the middle as well as the above, the below and the across in
+the middle. What do they signify?</p>
+<p>As we happened to point out on an earlier occasion, it is by driving the peg of
+the conceit ‘am’ that a world is measured out, construed or postulated.<sup class="footnote-reference" id="fr-fn521-1"><a href="#fn-fn521">11</a></sup>
+We also pointed out that the grammatical structure springs up along with it.
+That is to say, together with the notion ‘am’ there arises a ‘here’. ‘Here’ am
+I, he is ‘there’ and you are ‘yon’ or in front of me. This is the basic ground
+plan for the grammatical structure, known to grammar as the first person, the
+second person and the third person.</p>
+<p>A world comes to be measured out and a grammatical structure springs up. This,
+in fact, is the origin of proliferation, or <em>papañca</em>. So it is the freedom from
+that proliferation that is meant by the expression <em>nev’idha na huraṁ na
+ubhayamantarena</em>, “neither here nor there nor between the two”. The notion of
+one’s being in the world, or the bifurcation as ‘I’ and ‘the world’, is no
+longer there. <em>Es’ev’anto dukkhassa</em>, this, then, is the end of suffering,
+Nibbāna.</p>
+<p>The fundamental first principles underlying this short exhortation of the Buddha
+could thus be inferred to some extent. We could perhaps elicit something more
+regarding the significance of the four key terms in question.</p>
+<p>In the section of the fours in the <em>Aṅguttara Nikāya</em> we come across four modes
+of noble usages, <em>cattāro ariya vohārā</em>,<sup class="footnote-reference" id="fr-fn522-1"><a href="#fn-fn522">12</a></sup> namely:</p>
+<ol>
+<li><em>diṭṭhe diṭṭhavāditā</em></li>
+<li><em>sute sutavāditā</em></li>
+<li><em>mute mutavāditā</em></li>
+<li><em>viññāte viññātavāditā</em></li>
+</ol>
+<p>These four are:</p>
+<ol>
+<li>asserting the fact of having seen in regard to the seen,</li>
+<li>asserting the fact of having heard in regard to the heard,</li>
+<li>asserting the fact of having sensed in regard to the sensed,</li>
+<li>asserting the fact of having cognized in regard to the cognized.</li>
+</ol>
+<p>Generally speaking, these four noble usages stand for the principle of
+truthfulness. In some discourses, as well as in the <em>Vinayapiṭaka</em>, these terms
+are used in that sense. They are the criteria of the veracity of a statement in
+general, not so much in a deep sense.</p>
+<p>However, there are different levels of truth. In fact, truthfulness is a
+question of giving evidence that runs parallel with one’s level of experience.
+At higher levels of experience or realization, the evidence one gives also
+changes accordingly.</p>
+<p>The episode of Venerable Mahā Tissa Thera is a case in view.<sup class="footnote-reference" id="fr-fn523-1"><a href="#fn-fn523">13</a></sup> When he met
+a certain woman on his way, who displayed her teeth in a wily giggle, he simply
+grasped the sign of her teeth. He did not totally refrain from grasping a sign,
+but took it as an illustration of his meditation subject. Later, when that
+woman’s husband, searching for her, came up to him and asked whether he had seen
+a woman, he replied that all he saw was a skeleton. Now that is a certain level
+of experience.</p>
+<p>Similarly the concept of truthfulness is something that changes with levels of
+experience. There are various degrees of truth, based on realization. The
+highest among them is called <em>paramasacca</em>.<sup class="footnote-reference" id="fr-fn524-1"><a href="#fn-fn524">14</a></sup> As to what that is, the
+<em>Dhātuvibhaṅgasutta</em> itself provides the answer in the following statement of
+the Buddha.</p>
+<blockquote>
+<p><em>Etañhi, bhikkhu, paramaṁ ariyasaccaṁ yadidaṁ amosadhammaṁ Nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn525-1"><a href="#fn-fn525">15</a></sup></p>
+<p>Monk, this is the highest noble truth, namely Nibbāna, that is of a
+non-falsifying nature.</p>
+</blockquote>
+<p>All other truths are falsified when the corresponding level of experience is
+transcended. But Nibbāna is the highest truth, since it can never be falsified
+by anything beyond it.</p>
+<p>The fact that it is possible to give evidence by this highest level of
+experience comes to light in the <em>Chabbisodhanasutta</em> of the <em>Majjhima Nikāya</em>.
+In this discourse we find the Buddha instructing the monks as to how they should
+interrogate a fellow monk who claims to have attained <em>arahanthood</em>. The
+interrogation has to follow certain criteria, one of which concerns the four
+standpoints <em>diṭṭha, suta, muta</em> and <em>viññāta</em>, the seen, the heard, the sensed
+and the cognized.</p>
+<p>What sort of answer a monk who rightly claims to <em>arahanthood</em> would give is
+also stated there by the Buddha. It runs as follows:</p>
+<blockquote>
+<p><em>Diṭṭhe kho ahaṁ, āvuso, anupāyo anapāyo anissito appaṭibaddho vippamutto
+visaṁyutto vimariyādikatena cetasā viharāmi.</em><sup class="footnote-reference" id="fr-fn526-1"><a href="#fn-fn526">16</a></sup></p>
+</blockquote>
+<p>Here, then, is the highest mode of giving evidence in the court of Reality as an
+<em>arahant</em>.</p>
+<blockquote>
+<p>Friends, with regard to the seen, I dwell unattracted, unrepelled,
+independent, uninvolved, released, unshackled, with a mind free from barriers.</p>
+</blockquote>
+<p>He is unattracted, <em>anupāyo</em>, by lust and unrepelled, <em>anapāyo</em>, by hate. He is
+not dependent, <em>anissito</em>, on cravings, conceits and views. He is not involved,
+<em>appaṭibaddho</em>, with desires and attachments and is released, <em>vippamutto</em>, from
+defilements. He is no longer shackled, <em>visaṁyutto</em>, by fetters and his mind is
+free from barriers.</p>
+<p>What these barriers are, we can easily infer. They are the bifurcations such as
+the internal and the external, <em>ajjhatta bahiddhā</em>, which are so basic to what
+is called existence, <em>bhava</em>. Where there are barriers, there are also
+attachments, aversions and conflicts. Where there is a fence, there is defence
+and offence.</p>
+<p>So the <em>arahant</em> dwells with a mind unpartitioned and barrierless,
+<em>vimariyādikatena cetasā</em>. To be able to make such a statement is the highest
+standard of giving evidence in regard to the four noble usages.</p>
+<p>It is also noteworthy that in the <em>Bāhiyasutta</em> the Buddha has presented the
+triple training of higher morality, higher concentration and higher wisdom,
+<em>adhisīla, adhicitta</em> and <em>adhipaññā</em>, through these four noble usages. The
+commentary, too, accepts this fact.<sup class="footnote-reference" id="fr-fn527-1"><a href="#fn-fn527">17</a></sup> But this is a point that might need
+clarification. How are we to distinguish between morality, concentration and
+wisdom in this brief exhortation?</p>
+<p>Now how does the exhortation begin? It opens with the words <em>tasmātiha te,
+Bāhiya, evaṁ sikkhitabbaṁ</em>, “well then, Bāhiya, you should train yourself thus.”
+This is an indication that the Buddha introduced him to a course of training,
+and this is the preliminary training:</p>
+<blockquote>
+<p><em>Diṭṭhe diṭṭhamattaṁ bhavissati, sute sutamattaṁ bhavissati, mute mutamattaṁ
+bhavissati, viññāte viññātamattaṁ bhavissati.</em></p>
+<p>In the seen there will be just the seen, in the heard there will be just the
+heard, in the sensed there will be just the sensed, in the cognized there will
+be just the cognized.</p>
+</blockquote>
+<p>What is hinted at by this initial instruction is the training in higher
+morality, <em>adhisīlasikkhā</em>. The most important aspect of this training is the
+morality of sense-restraint, <em>indriya saṁvara sīla</em>. The first principles of
+sense-restraint are already implicit in this brief instruction.</p>
+<p>If one stops short at just the seen in regard to the seen, one does not grasp a
+sign in it, or dwell on its details. There is no sorting out as ‘this is good’,
+‘this is bad’. That itself conduces to sense-restraint.</p>
+<p>So we may conclude that the relevance of this brief instruction to the morality
+of sense-restraint is in its enjoining the abstention from grasping a sign or
+dwelling on the details. That is what pertains to the training in higher
+morality, <em>adhisīlasikkha</em>.</p>
+<p>Let us see how it also serves the purpose of training in higher concentration.
+To stop at just the seen in the seen is to refrain from discursive thought,
+which is the way to abandon mental hindrances. It is discursive thought that
+brings hindrances in its train. So here we have what is relevant to the training
+in higher concentration as well.</p>
+<p>Then what about higher wisdom, <em>adhipaññā</em>? Something more specific has to be
+said in this concern. What precisely is to be understood by higher wisdom in
+this context? It is actually the freedom from imaginings, <em>maññanā</em>, and
+proliferation, <em>papañca</em>.</p>
+<p>If one stops short at just the seen in the seen, such ramifications as mentioned
+in discourses like the <em>Mūlapariyāyasutta</em> do not come in at all. The tendency
+to objectify the seen and to proliferate it as ‘in it’, ‘from it’ and ‘it is
+mine’ receives no sanction. This course of training is helpful for the
+emancipation of the mind from imaginings and proliferations.</p>
+<p>The Buddha has compared the six sense-bases, that is eye, ear, nose, tongue,
+body and mind, to a deserted village.</p>
+<blockquote>
+<p><em>Suññaṁ idaṁ attena vā attaniyena vā.</em><sup class="footnote-reference" id="fr-fn528-1"><a href="#fn-fn528">18</a></sup></p>
+<p>This is void of a self or anything belonging to a self.</p>
+</blockquote>
+<p>All these sense-bases are devoid of a self or anything belonging to a self.
+Therefore they are comparable to a deserted village, a village from which all
+inhabitants have fled.</p>
+<p>The dictum “in the seen there will be just the seen” is an advice conducive to
+the attitude of regarding the six sense-bases as a deserted village. This is
+what pertains to higher wisdom in the Buddha’s exhortation.</p>
+<p><em>Papañca</em>, or prolific conceptualisation, is a process of transaction with
+whatever is seen, heard, sensed, etc. So here there is no process of such
+transaction. Also, when one trains oneself according to the instruction “in the
+seen there will be just the seen, in the heard there will be just the heard, in
+the sensed there will be just the sensed, in the cognized there will be just the
+cognized”, that identification implied by the term <em>tammayatā</em> will no longer be
+there.</p>
+<p>Egotism, the conceit ‘am’ and all what prompts conceptual proliferation will
+come to an end. This kind of training uproots the peg of the conceit ‘am’,
+thereby bringing about the cessation of prolific conceptualisation, the
+cessation of becoming and the cessation of suffering.</p>
+<p>We can therefore conclude that the entire triple training is enshrined in this
+exhortation. What happens as a result of this training is indicated by the
+riddle like terms <em>na tena, na tattha, nev’idha na huraṁ na ubhayamantarena</em>.</p>
+<p>When the wisdom of the ascetic Bāhiya Dārucīriya had sufficiently matured by
+following the triple course of training, the Buddha gave the hint necessary for
+realization of that cessation of becoming, which is Nibbāna, in the following
+words:</p>
+<blockquote>
+<p>Then, Bāhiya, you will not be by it. And when, Bāhiya, you are not by it,
+then, Bāhiya, you are not in it. And when, Bāhiya, you are not in it, then,
+Bāhiya, you are neither here nor there nor in between. This, itself, is the
+end of suffering.</p>
+</blockquote>
+<p>This sermon, therefore, is one that succinctly presents the quintessence of the
+<em>Saddhamma</em>. It is said that the mind of the ascetic Bāhiya Dārucīriya was
+released from all influxes immediately on hearing this exhortation.</p>
+<p>Now let us come back to the sequence of events in the story as mentioned in the
+<em>Udāna</em>. It was after the Buddha had already set out on his alms round that this
+sermon was almost wrenched from him with much insistence. When it had proved its
+worth, the Buddha continued with his alms round. Just then a cow with a young
+calf gored the <em>arahant</em> Bāhiya Dārucīriya to death.</p>
+<p>While returning from his alms round with a group of monks, the Buddha saw the
+corpse of the <em>arahant</em> Bāhiya. He asked those monks to take the dead body on a
+bed and cremate it. He even told them to build a cairn enshrining his relics,
+saying: “Monks, a co-celibate of yours has passed away.”</p>
+<p>Those monks, having carried out the instructions, came back and reported to the
+Buddha. Then they raised the question: “Where has he gone after death, what is
+his after death state?” The Buddha replied:</p>
+<blockquote>
+<p>Monks, Bāhiya Dārucīriya was wise, he lived up to the norm of the Dhamma, he
+did not harass me with questions on Dhamma. Monks, Bāhiya Dārucīriya has
+attained <em>Parinibbāna</em>.</p>
+</blockquote>
+<p>In conclusion, the Buddha uttered the following verse of uplift:</p>
+<blockquote>
+<p><em>Yattha āpo ca paṭhavī,</em> <br />
+<em>tejo vāyo na gādhati,</em> <br />
+<em>na tattha sukkā jotanti,</em> <br />
+<em>ādicco nappakāsati,</em> <br />
+<em>na tattha candimā bhāti,</em> <br />
+<em>tamo tattha na vijjati.</em></p>
+<p><em>Yadā ca attanāvedi,</em> <br />
+<em>muni monena brāhmaṇo,</em> <br />
+<em>atha rūpā arūpā ca,</em> <br />
+<em>sukhadukkhā pamuccati.</em><sup class="footnote-reference" id="fr-fn529-1"><a href="#fn-fn529">19</a></sup></p>
+</blockquote>
+<p>On the face of it, the verse seems to imply something like this:</p>
+<blockquote>
+<p>Where water, earth, fire and air <br />
+Do not find a footing, <br />
+There the stars do not shine, <br />
+And the sun spreads not its lustre, <br />
+The moon does not appear resplendent there, <br />
+And no darkness is to be found there.</p>
+<p>When the sage, the brahmin with wisdom, <br />
+Understands by himself, <br />
+Then is he freed from form and formless, <br />
+And from pleasure and pain as well.</p>
+</blockquote>
+<p>The commentary to the <em>Udāna</em>, <em>Paramatthadīpanī</em>, gives a strange
+interpretation to this verse. It interprets the verse as a description of the
+destination of the <em>arahant</em> Bāhiya Dārucīriya after he attained <em>Parinibbāna</em>,
+the place he went to.<sup class="footnote-reference" id="fr-fn530-1"><a href="#fn-fn530">20</a></sup> Even the term <em>Nibbānagati</em> is used in that
+connection, the ‘place’ one goes to in attaining <em>Parinibbāna</em>. That place,
+according to the commentary, is not easily understood by worldlings. Its
+characteristics are said to be the following:</p>
+<p>The four elements, earth, water, fire and air, are not there. No sun, or moon,
+or stars are there. The reason why the four elements are negated is supposed to
+be the fact that there is nothing that is compounded in the uncompounded Nibbāna
+element, into which the <em>arahant</em> passes away.</p>
+<p>Since no sun, or moon, or stars are there in that mysterious place, one might
+wonder why there is no darkness either. The commentator tries to forestall the
+objection by stating that it is precisely because one might think that there
+should be darkness when those luminaries are not there, that the Buddha
+emphatically negates it. So the commentarial interpretation apparently leads us
+to the conclusion that there is no darkness in the Nibbāna element, even though
+no sun or moon or stars are there.</p>
+<p>The line of interpretation we have followed throughout this series of sermons
+allows us to depart from this commentarial trend. That place where earth, water,
+fire and air do not find a footing is not where the <em>arahant</em> Bāhiya Dārucīriya
+had ‘gone’ when he passed away. The commentator seems to have construed this
+verse as a reply the Buddha gave to the question raised by those monks. Their
+question was: “Where has he gone after death, what is his after death state?”
+They were curious about his borne.</p>
+<p>But when we carefully examine the context, it becomes clear that they raised
+that question because they did not know that the corpse they cremated was that
+of an <em>arahant</em>. Had they known it, they would not have even asked that
+question. That is precisely the reason for the Buddha’s declaration that Bāhiya
+attained <em>Parinibbāna</em>, a fact he had not disclosed before. He added that Bāhiya
+followed the path of Dhamma without harassing him with questions and attained
+<em>Parinibbāna</em>.</p>
+<p>Now that is the answer proper. To reveal the fact that Bāhiya attained
+<em>Parinibbāna</em> is to answer the question put by those inquisitive monks.
+Obviously they knew enough of the Dhamma to understand then, that their question
+about the borne and destiny of Venerable Bāhiya was totally irrelevant.</p>
+<p>So then the verse uttered by the Buddha in conclusion was something extra. It
+was only a joyous utterance, a verse of uplift, coming as a grand finale to the
+whole episode.</p>
+<p>Such verses of uplift are often to be met with in the <em>Udāna</em>. As we already
+mentioned, the verses in the <em>Udāna</em> have to be interpreted very carefully,
+because they go far beyond the implications of the story concerned.<sup class="footnote-reference" id="fr-fn531-1"><a href="#fn-fn531">21</a></sup> They
+invite us to take a plunge into the ocean of Dhamma. Just one verse is enough.
+The text is small but deep. The verse in question is such a spontaneous
+utterance of joy. It is not the answer to the question, “Where did he go?”</p>
+<p>Well, in that case, what are we to understand by the word <em>yattha</em>, ‘where’?</p>
+<p>We have already given a clue to it in our seventh sermon with reference to that
+non-manifestative consciousness, <em>anidassana viññāṇa</em>. What the Buddha describes
+in this verse, is not the place where the Venerable <em>arahant</em> Bāhiya went after
+his demise, but the non-manifestative consciousness he had realized here and
+now, in his concentration of the fruit of <em>arahanthood</em>, or
+<em>arahattaphalasamādhi</em>.</p>
+<p>Let us hark back to the four lines quoted in the <em>Kevaḍḍhasutta</em>.</p>
+<blockquote>
+<p><em>Viññāṇaṁ anidassanaṁ,</em> <br />
+<em>anantaṁ sabbato pabhaṁ,</em> <br />
+<em>ettha āpo ca paṭhavī,</em> <br />
+<em>tejo vāyo na gādhati.</em><sup class="footnote-reference" id="fr-fn532-1"><a href="#fn-fn532">22</a></sup></p>
+<p>Consciousness which is non-manifestative, <br />
+Endless, lustrous on all sides, <br />
+It is here that water, earth, <br />
+Fire and air no footing find.</p>
+</blockquote>
+<p>The first two lines of the verse in the <em>Bāhiyasutta</em>, beginning with the
+correlative <em>yattha</em>, ‘where’, find an answer in the last two lines quoted above
+from the <em>Kevaḍḍhasutta</em>.</p>
+<p>What is referred to as ‘it is here’, is obviously the non-manifestative
+consciousness mentioned in the first two lines. That problematic place indicated
+by the word <em>yattha</em>, ‘where’, in the <em>Bāhiyasutta</em>, is none other than this
+non-manifestative consciousness.</p>
+<p>We had occasion to explain at length in what sense earth, water, fire and air
+find no footing in that consciousness. The ghostly elements do not haunt that
+consciousness. That much is clear.</p>
+<p>But how are we to understand the enigmatic reference to the sun, the moon and
+the stars? It is said that the stars do not shine in that non-manifestative
+consciousness, the sun does not spread its lustre and the moon does not appear
+resplendent in it, nor is there any darkness. How are we to construe all this?</p>
+<p>Briefly stated, the Buddha’s declaration amounts to the revelation that the sun,
+the moon and the stars fade away before the superior radiance of the
+non-manifestative consciousness, which is infinite and lustrous on all sides.</p>
+<p>How a lesser radiance fades away before a superior one, we have already
+explained with reference to the cinema in a number of earlier sermons.<sup class="footnote-reference" id="fr-fn533-1"><a href="#fn-fn533">23</a></sup>
+To sum up, the attention of the audience in a cinema is directed to the narrow
+beam of light falling on the screen. The audience, or the spectators, are seeing
+the scenes making up the film show with the help of that beam of light and the
+thick darkness around.</p>
+<p>This second factor is also very important. Scenes appear not simply because of
+the beam of light. The thickness of the darkness around is also instrumental in
+it. This fact is revealed when the cinema hall is fully lit up. If the cinema
+hall is suddenly illuminated, either by the opening of doors and windows or by
+some electrical device, the scenes falling on the screen fade away as if they
+were erased. The beam of light, which was earlier there, becomes dim before the
+superior light. The lesser lustre is superseded by a greater lustre.</p>
+<p>We might sometimes be found fault with for harping on this cinema simile, on the
+ground that it impinges on the precept concerning abstinence from enjoying
+dramatic performances, song and music. But let us consider whether this cinema
+is something confined to a cinema hall.</p>
+<p>In the open air theatre of the world before us, a similar phenomenon of
+supersedence is occurring. In the twilight glow of the evening the twinkling
+stars enable us to faintly figure out the objects around us, despite the growing
+darkness. Then the moon comes up. Now what happens to the twinkling little
+stars? They fade away, their lustre being superseded by that of the moon.</p>
+<p>Then we begin to enjoy the charming scenes before us in the serene moonlit
+night. The night passes off. The day light gleam of the sun comes up. What
+happens then? The soft radiance of the moon wanes before the majestic lustre of
+the sun. The moon gets superseded and fades away. Full of confidence we are now
+watching the multitude of technicoloured scenes in this massive theatre of the
+world. In broad daylight, when sunshine is there, we have no doubt about our
+vision of objects around us.</p>
+<p>But now let us suppose that the extraneous defilements in the mind of a noble
+disciple, treading the noble eightfold path, get dispelled, allowing its
+intrinsic lustre of wisdom to shine forth. What happens then? The stars, the
+moon and the sun get superseded by that light of wisdom. Even the forms that one
+had seen by twilight, moonlight and sunlight fade away and pale into
+insignificance. The umbra of form and the penumbra of the formless get fully
+erased.</p>
+<p>In the previous sermon we happened to mention that form and space are related to
+each other, like the picture and its background. Now all this is happening in
+the firmament, which forms the background. We could enjoy the scenes of the
+world cinema, because of that darkness. The twilight, the moonlight and the
+sunlight are but various levels of that darkness.</p>
+<p>The worldling thinks that one who has eyes must surely see if there is sunshine.
+He cannot think of anything beyond it. But the Buddha has declared that there is
+something more radiant than the radiance of the sun.</p>
+<blockquote>
+<p><em>Natthi paññāsamā ābhā,</em><sup class="footnote-reference" id="fr-fn534-1"><a href="#fn-fn534">24</a></sup></p>
+<p>there is no radiance comparable to wisdom.</p>
+</blockquote>
+<p>Let us hark back to a declaration by the Buddha we had already quoted in a
+previous sermon.</p>
+<blockquote>
+<p><em>Catasso imā, bhikkhave, pabhā. Katamā catasso? Candappabhā, sūriyappabhā,
+aggippabhā, paññappabhā, imā kho, bhikkhave, catasso pabhā. Etadaggaṁ,
+bhikkhave, imāsaṁ catunnaṁ pabhānaṁ, yad idaṁ paññappabhā</em>.<sup class="footnote-reference" id="fr-fn535-1"><a href="#fn-fn535">25</a></sup></p>
+<p>Monks, there are these four lustres. What four? The lustre of the moon, the
+lustre of the sun, the lustre of fire, the lustre of wisdom. These, monks, are
+the four lustres. This, monks, is the highest among these four lustres, namely
+the lustre of wisdom.</p>
+</blockquote>
+<p>So, then, we can now understand why the form and the formless fade away. This
+wisdom has a penetrative quality, for which reason it is called <em>nibbedhikā
+paññā</em>.<sup class="footnote-reference" id="fr-fn536-1"><a href="#fn-fn536">26</a></sup></p>
+<p>When one sees forms, one sees them together with their shadows. The fact that
+one sees shadows there, is itself proof that darkness has not been fully
+dispelled. If light comes from all directions, there is no shadow at all. If
+that light is of a penetrative nature, not even form will be manifest there.</p>
+<p>Now it is mainly due to what is called ‘form’ and ‘formless’, <em>rūpa/arūpa</em>, that
+the worldling experiences pleasure and pain in a world that distinguishes
+between a ‘pleasure’ and a ‘pain’.</p>
+<p>Though we have departed from the commentarial path of exegesis, we are now in a
+position to interpret the cryptic verse in the <em>Bāhiyasutta</em> perhaps more
+meaningfully. Let us now recall the verse in question.</p>
+<blockquote>
+<p><em>Yattha āpo ca paṭhavī,</em> <br />
+<em>tejo vāyo na gādhati,</em> <br />
+<em>na tattha sukkā jotanti,</em> <br />
+<em>ādicco nappakāsati,</em> <br />
+<em>na tattha candimā bhāti,</em> <br />
+<em>tamo tattha na vijjati.</em></p>
+<p><em>Yadā ca attanāvedi,</em> <br />
+<em>muni monena brāhmaṇo,</em> <br />
+<em>atha rūpā arūpā ca,</em> <br />
+<em>sukhadukkhā pamuccati.</em><sup class="footnote-reference" id="fr-fn537-1"><a href="#fn-fn537">27</a></sup></p>
+</blockquote>
+<p>The verse can be fully explained along the lines of interpretation we have
+adopted. By way of further proof of the inadequacy of the commentarial
+explanation of the references to the sun, the moon and the stars in this verse,
+we may draw attention to the following points.</p>
+<p>According to the commentary the verse is supposed to express that there are no
+sun, moon or stars in that mysterious place called <em>anupādisesa Nibbānadhātu</em>,
+which is incomprehensible to worldlings.</p>
+<p>We may, however, point out that the verbs used in the verse in this connection
+do not convey the sense that the sun, the moon and the stars are simply non
+existent there. They have something more to say.</p>
+<p>For instance, with regard to the stars it is said that there the stars do not
+shine, <em>na tattha sukkā jotanti</em>. If in truth and fact stars are not there, some
+other verb like <em>na dissanti</em>, ‘are not seen’, or <em>na vijjanti</em>, ‘do not exist’,
+could have been used.</p>
+<p>With reference to the sun and the moon, also, similar verbs could have been
+employed. But what we actually find here, are verbs expressive of spreading
+light, shining, or appearing beautiful:</p>
+<p><em>Na tattha sukkā jotanti,</em> “there the stars do not shine”;</p>
+<p><em>ādicco nappakāsati,</em> “the sun spreads not its lustre”;</p>
+<p><em>na tattha candimā bhāti,</em> “the moon does not appear resplendent there”.</p>
+<p>These are not mere prosaic statements. The verse in question is a joyous
+utterance, <em>Udānagāthā</em>, of extraordinary depth. There is nothing recondite
+about it.</p>
+<p>In our earlier assessment of the commentarial interpretation we happened to lay
+special stress on the words ‘even though’. We are now going to explain the
+significance of that emphasis. For the commentary, the line <em>tamo tattha na
+vijjati,</em> “no darkness is to be found there”, is a big riddle. The sun, the moon
+and the stars are not there. Even though they are not there, presumably, no
+darkness is to be found there.</p>
+<p>However, when we consider the law of superseding, we have already mentioned, we
+are compelled to give a totally different interpretation. The sun, the moon and
+the stars are not manifest, precisely because of the light of that
+non-manifestative consciousness. As it is lustrous on all sides, <em>sabbato
+pabha</em>, there is no darkness there and luminaries like the stars, the sun and
+the moon do not shine there.</p>
+<p>This verse of uplift thus reveals a wealth of information relevant to our topic.
+Not only the exhortation to Bāhiya, but this verse also throws a flood of light
+on the subject of Nibbāna.</p>
+<p>That extraordinary place, which the commentary often identifies with the term
+<em>anupādisesa Nibbānadhātu</em>, is this mind of ours. It is in order to indicate the
+luminosity of this mind that the Buddha used those peculiar expressions in this
+verse of uplift.</p>
+<p>What actually happens in the attainment to the fruit of <em>arahanthood</em>? The
+worldling discerns the world around him with the help of six narrow beams of
+light, namely the six sense-bases. When the superior lustre of wisdom arises,
+those six sense-bases go down. This cessation of the six sense-bases could also
+be referred to as the cessation of name-and-form, <em>nāmarūpanirodha</em>, or the
+cessation of consciousness, <em>viññāṇanirodha</em>.</p>
+<p>The cessation of the six sense-bases does not mean that one does not see
+anything. What one sees then is voidness. It is an in-‘sight’. He gives
+expression to it with the words <em>suñño loko</em>, ‘void is the world’.</p>
+<p>What it means is that all the sense-objects, which the worldling grasps as real
+and truly existing, get penetrated through with wisdom and become non-manifest.</p>
+<p>If we are to add something more to this interpretation of the <em>Bāhiyasutta</em> by
+way of review, we may say that this discourse illustrates the six qualities of
+the Dhamma, namely <em>svākkhāto</em>, well proclaimed, <em>sandiṭṭhiko</em>, visible here and
+now, <em>akāliko</em>, timeless, <em>ehipassiko</em>, inviting to come and see, <em>opanayiko</em>,
+leading onward and <em>paccattaṁ veditabbo viññūhi</em>, to be realized by the wise
+each one by himself. These six qualities are wonderfully exemplified by this
+discourse.</p>
+<p>In a previous sermon we had occasion to bring up a simile of a dewdrop, dazzling
+in the morning sunshine.<sup class="footnote-reference" id="fr-fn538-1"><a href="#fn-fn538">28</a></sup></p>
+<p>The task of seeing the spectrum of rainbow colours through a tiny dewdrop
+hanging from a creeper or a leaf is one that calls for a high degree of
+mindfulness. Simply by standing or sitting with one’s face towards the rising
+sun, one will not be able to catch a glimpse of the brilliant spectrum of
+rainbow colours through the dewdrop. It requires a particular viewpoint. Only
+when one focuses on that viewpoint, can one see it.</p>
+<p>So it is with the spectrum of the six qualities of the Dhamma. Here, too, the
+correct viewpoint is a must, and that is right view. Reflection on the meaning
+of deep discourses helps one to straighten up right view.</p>
+<p>Where right view is lacking, morality inclines towards dogmatic attachment to
+rituals, <em>sīlabbataparāmāsa</em>. Concentration turns out to be wrong concentration,
+<em>micchā samādhi</em>.</p>
+<p>Like the one who sits facing the sun, one might be looking in the direction of
+the Dhamma, but right view is not something one inherits by merely going to
+refuge to the Buddha. It has to be developed with effort and proper attention.
+View is something that has to be straightened up. For <em>diṭṭhujukamma</em>, the act
+of straightening up one’s view is reckoned as one of the ten skilful deeds,
+<em>kusalakamma</em>.</p>
+<p>So however long one may sit with folded legs, gazing at the Buddha sun, one
+might not be able to see the six rainbow colours of the Dhamma. One may be short
+of just one-hundredth of an inch as the proper adjustment for right view. Yet it
+is a must. Once that adjustment is made, one immediately, then and there,
+<em>tavad’eva</em>, catches a glimpse of the spectrum of the Dhamma that the Buddha has
+proclaimed.</p>
+<p>We have stressed the importance of right view in particular, because many are
+grappling with a self created problem, concerning the proper alignment between
+the triple training and the right view of the noble eightfold path.</p>
+<p>Now as to the triple training, morality, concentration and wisdom, we find
+wisdom mentioned last. It seems, then, that we have to perfect morality first,
+then develop concentration, and only lastly wisdom. One need not think of wisdom
+before that.</p>
+<p>But when we come to the noble eightfold path, we find a different order of
+values. Here right view takes precedence. As a matter of fact, in the
+<em>Mahācattārīsakasutta</em> of the <em>Majjhima Nikāya</em> we find the Buddha repeatedly
+declaring emphatically:</p>
+<blockquote>
+<p><em>tatra, bhikkhave, sammā diṭṭhi pubbaṅgamā</em>,</p>
+<p>monks, therein right view takes precedence.<sup class="footnote-reference" id="fr-fn539-1"><a href="#fn-fn539">29</a></sup></p>
+</blockquote>
+<p>Even in a context where the subject is morality, we find a similar statement. So
+how are we to resolve this issue?</p>
+<p>In the noble eightfold path, pride of place is given to right view, which is
+representative of the wisdom group. As the well-known definition goes, right
+view and right thoughts belong to the wisdom group; right speech, right action
+and right livelihood come under the morality group; and right effort, right
+mindfulness and right concentration belong to the concentration group.</p>
+<p>So in this way, in the noble eightfold path, wisdom comes first, then morality
+and lastly concentration.</p>
+<p>But in the context of these three groups, firstly comes morality, secondly
+concentration and lastly wisdom. Here, too, the answer given by the
+<em>arahant-nun</em> Venerable Dhammadinnā to the lay disciple Visākha comes to our
+aid.</p>
+<p>The lay disciple Visākha poses the following question to Venerable Dhammadinnā:</p>
+<blockquote>
+<p><em>Ariyena nu kho ayye aṭṭhaṅgikena maggena tayo khandhā saṅgahitā, udāhu tīhi
+khandhehi ariyo aṭṭhaṅgiko maggo saṅgahito?</em></p>
+<p>Good lady, are the three groups morality, concentration and wisdom, included
+by the noble eightfold path, or is the noble eightfold path included by the
+three groups?<sup class="footnote-reference" id="fr-fn540-1"><a href="#fn-fn540">30</a></sup></p>
+</blockquote>
+<p>Even at that time there may have been some who raised such questions. That is
+probably the reason for such a query. Then the <em>arahant-nun</em> Dhammadinnā
+answers:</p>
+<blockquote>
+<p><em>Na kho āvuso Visākha ariyena aṭṭhaṅgikena maggena tayo khandhā saṅgahitā,
+tīhi ca kho āvuso Visākha khandhehi ariyo aṭṭhaṅgiko maggo saṅgahito</em>.</p>
+<p>Friend Visākha, it is not that the threefold training is included by the noble
+eightfold path, but the noble eightfold path is included by the threefold
+training.</p>
+</blockquote>
+<p>Since this appears to be something of a tangle, let us try to illustrate the
+position with some other kind of tangle. Suppose someone is trying to climb up a
+long rope, made up of three strands. As he climbs up, his fingertips might come
+now in contact with the first strand, now with the second and now with the
+third. He is not worried about the order of the three strands, so long as they
+are well knit. One can safely climb up, holding onto the three strands, only
+when they are firmly wound up into a sturdy rope.</p>
+<p>All these questions seem to have arisen due to an attitude of taking too
+seriously the numerical order of things. To the noble disciple climbing up the
+rope of the noble eightfold path, there need not be any confusion between the
+numerical order of the triple training and that of the noble eightfold path.</p>
+<p>But if someone taking the cue from the order of the triple training neglects
+right view or ignores its prime import, he might end up confused.</p>
+<p>All in all, we are now in a position to correctly assess the deep significance
+of the <em>Bāhiyasutta</em>. Here we have the quintessence of the entire <em>Saddhamma</em>.
+We are not confronted with heaps of perceptual data, which we are told today are
+essential requisites for admission into the ‘city’ of Nibbāna.</p>
+<p>For the ordinary worldling, amassing a particular set of percepts or concepts
+seems a qualification for entering Nibbāna. But what we have here, is a way of
+liberating the mind even from latencies to percepts. See <em>saññā nānusenti</em>,
+<em>Madhupiṇḍikasutta</em>, “perceptions do not lie latent.”<sup class="footnote-reference" id="fr-fn541-1"><a href="#fn-fn541">31</a></sup> There is no
+heaping up anew.</p>
+<p>What are called ‘extraneous taints’, <em>āgantukā upakkilesā</em>,<sup class="footnote-reference" id="fr-fn542-1"><a href="#fn-fn542">32</a></sup> are not
+confined to the well known defilements in the world. They include all the rust
+and dust we have been collecting throughout this long <em>saṁsāra</em>, with the help
+of the influxes, <em>āsavā</em>. They include even the heap of percepts which the world
+calls ‘knowledge’. Even numerals are part of it.</p>
+<p>The Buddha has briefly expressed here the mode of practice for disabusing the
+mind from all such taints. Therefore there is no reason for underestimating the
+value of this discourse, by calling it <em>vohāra desanā</em>, conventional teaching.
+This discourse in the <em>Udāna</em> is one that is truly ‘up’-lifting.</p>
+<p>It indeed deserves a paean of joy.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn511"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn511-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn512"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 8</a>, <em>Bāhiyasutta</em> <a href="#fr-fn512-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn513"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/snp4.6/pli/ms">Snp 4.6 / Sn 813</a>, <em>Jarāsutta</em> <a href="#fr-fn513-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn514"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 757</a>, <em>Dvayatānupassanāsutta</em>; see <em>Sermon 13</em> <a href="#fr-fn514-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn515"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/an9.15/pli/ms">AN 9.15 / A IV 386</a>, <em>Samiddhisutta</em>; see <em>Sermon 12</em> <a href="#fr-fn515-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn516"><sup class="footnote-definition-label">6</sup>
+<p>See <em>Sermons 12 and 13</em> <a href="#fr-fn516-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn517"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/mn1/pli/ms">MN 1 / M I 3</a>, <em>Mūlapariyāyasutta</em> <a href="#fr-fn517-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn518"><sup class="footnote-definition-label">8</sup>
+<p>See <em>Sermon 13</em> <a href="#fr-fn518-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn519"><sup class="footnote-definition-label">9</sup>
+<p>According to A I 24 Bāhiya was outstanding for his <em>khippābhiññā</em> <a href="#fr-fn519-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn520"><sup class="footnote-definition-label">10</sup>
+<p>See <em>Sermon 13</em> <a href="#fr-fn520-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn521"><sup class="footnote-definition-label">11</sup>
+<p>See <em>Sermon 10</em> <a href="#fr-fn521-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn522"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/an4.253/pli/ms">AN 4.253 / A II 246</a>, <em>Catutthavohārasutta</em> <a href="#fr-fn522-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn523"><sup class="footnote-definition-label">13</sup>
+<p>Vism 21 <a href="#fr-fn523-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn524"><sup class="footnote-definition-label">14</sup>
+<p>The term occurs e.g. at <a href="https://suttacentral.net/mn71/pli/ms">MN 71 / M I 480</a>, <em>Tevijjavacchagottasutta</em>; at <a href="https://suttacentral.net/mn95/pli/ms">MN 95 / M II 173</a>, <em>Cankīsutta</em>; and at <a href="https://suttacentral.net/an4.113/pli/ms">AN 4.113 / A II 115</a>, <em>Patodasutta</em> <a href="#fr-fn524-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn525"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/mn140/pli/ms">MN 140 / M III 245</a>, <em>Dhātuvibhaṅgasutta</em> <a href="#fr-fn525-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn526"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/mn112/pli/ms">MN 112 / M III 29</a>, <em>Chabbisodhanasutta</em> <a href="#fr-fn526-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn527"><sup class="footnote-definition-label">17</sup>
+<p>Ud-a 90 <a href="#fr-fn527-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn528"><sup class="footnote-definition-label">18</sup>
+<p>S IV 174, <em>Āsīvisasutta</em> <a href="#fr-fn528-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn529"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 9</a>, <em>Bāhiyasutta</em> <a href="#fr-fn529-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn530"><sup class="footnote-definition-label">20</sup>
+<p>Ud-a 98 <a href="#fr-fn530-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn531"><sup class="footnote-definition-label">21</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn531-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn532"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/dn11/pli/ms">DN 11 / D I 223</a>, <em>Kevaḍḍhasutta</em> <a href="#fr-fn532-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn533"><sup class="footnote-definition-label">23</sup>
+<p>See <em>Sermons 5, 7 and 9</em> <a href="#fr-fn533-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn534"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/sn1.13/pli/ms">SN 1.13 / S I 6</a>, <em>Natthiputtasamasutta</em> <a href="#fr-fn534-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn535"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/an4.142/pli/ms">AN 4.142 / A II 139</a>, <em>Pabhāsutta</em>; see <em>Sermon 7</em> <a href="#fr-fn535-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn536"><sup class="footnote-definition-label">26</sup>
+<p>E.g. <a href="https://suttacentral.net/sn12.28/pli/ms">SN 12.28 / S II 45</a>, <em>Bhikkhusutta</em>; or <a href="https://suttacentral.net/an4.186/pli/ms">AN 4.186 / A II 178</a>, <em>Ummaggasutta</em> <a href="#fr-fn536-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn537"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 9</a>, <em>Bāhiyasutta</em> <a href="#fr-fn537-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn538"><sup class="footnote-definition-label">28</sup>
+<p>See <em>Sermon 9</em> <a href="#fr-fn538-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn539"><sup class="footnote-definition-label">29</sup>
+<p><a href="https://suttacentral.net/mn117/pli/ms">MN 117 / M III 71</a>, <em>Mahācattārīsakasutta</em> <a href="#fr-fn539-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn540"><sup class="footnote-definition-label">30</sup>
+<p><a href="https://suttacentral.net/mn44/pli/ms">MN 44 / M I 301</a>, <em>Cūḷavedallasutta</em> <a href="#fr-fn540-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn541"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/mn18/pli/ms">MN 18 / M I 108</a>, <em>Madhupiṇḍikasutta</em> <a href="#fr-fn541-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn542"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/an1.51-60/pli/ms">AN 1.51-52 / A I 10</a>, <em>Accharāsaṅghātavagga</em> <a href="#fr-fn542-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-14.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-16.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-14.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-16.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

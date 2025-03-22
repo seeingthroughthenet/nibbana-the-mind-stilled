@@ -1,0 +1,1014 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 1 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-1-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-1"><a class="header" href="#sermon-1">Sermon 1</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn1-1"><a href="#fn-fn1">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks.</p>
+<p>Recently we have had an occasion to listen to a series of sermons on Nibbāna
+and there have been differences of opinion regarding the interpretation of some
+deep suttas on Nibbāna in those sermons. And so the venerable Great
+Preceptor suggested to me that it would be useful to this group if I would give
+a set of sermons on Nibbāna, touching on those controversial points.</p>
+<p>At first, for many reasons, I hesitated to accept this invitation for a serious
+task, but then, as the venerable Great Preceptor repeatedly encouraged me on
+this, I gave some thought as to how best I could set about doing it. And it
+occurred to me that it would be best if I could address these sermons directly
+to the task before us in this Nissarana Vanaya, and that is meditative
+attention, rather than dealing with those deep controversial suttas in
+academic isolation. And that is why I have selected the above quotation as the
+theme for the entire set of sermons, hoping that it would help create the
+correct atmosphere of meditative attention.</p>
+<blockquote>
+<p><em>Etaṁ santaṁ etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo
+taṇhakkhayo virāgo nirodho nibbānaṁ</em>.</p>
+</blockquote>
+<p>“This is peaceful, this is excellent, namely the stilling of all preparations,
+the relinquishment of all assets, the destruction of craving, detachment,
+cessation, extinction”.</p>
+<p>This in fact is a meditation subject in itself, a <em>kammaṭṭhāna</em>. This is the
+reflection on the peace of <em>Nibbāna, upasamānussati</em>. So if we can successfully
+make use of this as both the heading and the theme of these sermons, we would be
+in a position to understand those six qualities of the Dhamma. We are told
+that the Dhamma is <em>svākkhāta</em>, that it is well-proclaimed, <em>sandiṭṭhika</em>, can
+be seen here and now, <em>akālika</em>, timeless, <em>ehipassika</em>, inviting one to come
+and see, <em>opanayika</em>, leading one onwards, <em>paccattaṁ veditabbo viññūhi</em>, that
+it can be understood by the wise each one by himself.<sup class="footnote-reference" id="fr-fn2-1"><a href="#fn-fn2">2</a></sup></p>
+<p>This set of sermons would have fulfilled its purpose if it drives home the true
+significance of these six qualities of the Dhamma.</p>
+<p>Now at the very outset I would like to say a few things by way of preparing the
+background and I do hope that this assembly would bear with me for saying
+certain things that I will be compelled to say in this concern. By way of
+background something has to be said as to why there are so many complications
+with regard to the meaning of some of the deep suttas on Nibbāna.</p>
+<p>There is a popular belief that the commentaries are finally traceable to a
+miscellany of the Buddha word scattered here and there, as <em>pakiṇṇakadesanā</em>.
+But the true state of affairs seems to be rather different. Very often the
+commentaries are unable to say something conclusive regarding the meaning of
+deep suttas. So they simply give some possible interpretations and the reader
+finds himself at a loss to choose the correct one. Sometimes the commentaries go
+at a tangent and miss the correct interpretation. Why the commentaries are
+silent on some deep suttas is also a problem to modern day scholars. There are
+some historical reasons leading to this state of affairs in the commentaries.</p>
+<p>In the <em>Āṇisutta</em> of the <em>Nidānavagga</em> in the <em>Saṁyutta Nikāya</em> we find the
+Buddha making certain prophetic utterances regarding the dangers that will
+befall the <em>Sāsana</em> in the future. It is said that in times to come, monks will
+lose interest in those deep suttas which deal with matters transcendental,
+that they would not listen to those suttas that have to do with the idea of
+emptiness, <em>suññatā</em>. They would not think it even worthwhile learning or
+pondering over the meanings of those suttas:</p>
+<blockquote>
+<p><em>Ye te suttantā tathāgatabhāsitā gambhīrā gambhīratthā lokuttarā
+suññatappaṭisaṁyuttā, tesu bhaññamānesu na sussūssisanti na sotaṁ odahissanti
+na aññā cittaṁ upaṭṭhāpessanti na te dhamme uggahetabbaṁ pariyāpuṇitabbaṁ
+maññissanti</em>.<sup class="footnote-reference" id="fr-fn3-1"><a href="#fn-fn3">3</a></sup></p>
+</blockquote>
+<p>There is also another historical reason that can be adduced. An idea got deeply
+rooted at a certain stage in the <em>Sāsana</em> history that what is contained in the
+<em>Sutta Piṭaka</em> is simply the conventional teaching and so it came to imply that
+there is nothing so deep in these suttas. This notion also had its share in
+the present lack of interest in these suttas. According to <em>Manorathapūraṇī</em>,
+the <em>Aṅguttara</em> commentary, already at an early stage in the <em>Sāsana</em> history of
+Sri Lanka, there had been a debate between those who upheld the precept and
+those who stood for realization.<sup class="footnote-reference" id="fr-fn4-1"><a href="#fn-fn4">4</a></sup> And it is said that those who upheld the
+precept won the day. The final conclusion was that, for the continuity of the
+<em>Sāsana</em>, precept itself is enough, not so much the realization.</p>
+<p>Of course the efforts of the reciter monks of old for the preservation of the
+precept in the midst of droughts and famines and other calamitous situations are
+certainly praiseworthy. But the unfortunate thing about it was this: the basket
+of the Buddha word came to be passed on from hand to hand in the dark, so much
+so that there was the risk of some valuable things slipping out in the process.</p>
+<p>Also there have been certain semantic developments in the commentarial period,
+and this will be obvious to anyone searching for the genuine Dhamma. It seems
+that there had been a tendency in the commentarial period to elaborate even on
+some lucid words in the suttas, simply as a commentarial requirement, and this
+led to the inclusion of many complicated ideas. By too much overdrawing in the
+commentaries, the deeper meanings of the Dhamma got obscured. As a matter of
+fact, the depth of the Dhamma has to be seen through lucidity, just as much as
+one sees the bottom of a tank only when the water is lucid.</p>
+<blockquote>
+<p><em>Dve nāma kiṁ?</em> <br />
+<em>Nāmañca rūpañca</em>.<sup class="footnote-reference" id="fr-fn5-1"><a href="#fn-fn5">5</a></sup></p>
+<p>“What is the ‘two’?” <br />
+“Name and form.”</p>
+</blockquote>
+<p>This is the second out of the ten questions Buddha had put to the Venerable
+Sāmanera Sopāka who had attained <em>arahantship</em> at the age of seven. It is
+like asking a child: “Can you count up to ten?” All the ten questions were deep,
+the tenth being on <em>arahantship</em>. But of course Venerable Sopāka gave the
+right answer each time. Now it is the second question and its answer that we are
+concerned with here: <em>nāmañca rūpañca</em>. In fact, this is a basic teaching in
+insight training.</p>
+<p>It is obvious that <em>nāma</em> means ‘name’, and in the suttas also, <em>nāma</em>, when
+used by itself, means ‘name’. However when we come to the commentaries we find
+some kind of hesitation to recognize this obvious meaning. Even in the present
+context, the commentary, <em>Paramatthajotikā</em>, explains the word ‘name’ so as to
+mean ‘bending’. It says that all immaterial states are called <em>nāma</em>, in the
+sense that they bend towards their respective objects and also because the mind
+has the nature of inclination:</p>
+<blockquote>
+<p><em>Ārammaṇābhimukhaṁ namanato, cittassa ca natihetuto sabbampi arūpaṁ ’nāman’ti
+vuccati</em>.<sup class="footnote-reference" id="fr-fn6-1"><a href="#fn-fn6">6</a></sup></p>
+</blockquote>
+<p>And this is the standard definition of <em>nāma</em> in <em>Abhidhamma</em> compendiums and
+commentaries. The idea of bending towards an object is brought in to explain the
+word <em>nāma</em>. It may be that they thought it too simple an interpretation to
+explain <em>nāma</em> with reference to ‘name’, particularly because it is a term that
+has to do with deep insight. However as far as the teachings in the suttas are
+concerned, <em>nāma</em> still has a great depth even when it is understood in the
+sense of ‘name’.</p>
+<blockquote>
+<p><em>Nāmaṁ sabbaṁ anvabhavi,</em> <br />
+<em>nāmā bhiyyo na vijjati,</em> <br />
+<em>nāmassa ekadhammassa,</em> <br />
+<em>sabbeva vasamanvagū</em>.<sup class="footnote-reference" id="fr-fn7-1"><a href="#fn-fn7">7</a></sup></p>
+<p>Name has conquered everything, <br />
+There is nothing greater than name, <br />
+All have gone under the sway <br />
+Of this one thing called name.</p>
+</blockquote>
+<p>Also there is another verse of the same type, but unfortunately its original
+meaning is often ignored by the present day commentators:</p>
+<blockquote>
+<p><em>Akkheyyasaññino sattā,</em> <br />
+<em>akkheyyasmiṁ patiṭṭhitā,</em> <br />
+<em>akkheyyaṁ apariññāya,</em> <br />
+<em>yogam āyanti maccuno</em>.<sup class="footnote-reference" id="fr-fn8-1"><a href="#fn-fn8">8</a></sup></p>
+<p>Beings are conscious of what can be named, <br />
+They are established on the nameable, <br />
+By not comprehending the nameable things, <br />
+They come under the yoke of death.</p>
+</blockquote>
+<p>All this shows that the word <em>nāma</em> has a deep significance even when it is
+taken in the sense of ‘name’.</p>
+<p>But now let us see whether there is something wrong in rendering <em>nāma</em> by
+‘name’ in the case of the term <em>nāma-rūpa</em>. To begin with, let us turn to the
+definition of <em>nāma-rūpa</em> as given by the Venerable Sāriputta in the
+<em>Sammādiṭṭhisutta</em> of the <em>Majjhima Nikāya</em>.</p>
+<blockquote>
+<p><em>Vedanā, saññā, cetanā, phasso, manasikāro – idaṁ vuccatāvuso, nāmaṁ</em>;
+<em>cattāri ca mahābhūtāni, catunnañca mahābhūtānaṁ upādāyarūpaṁ – idaṁ
+vuccatāvuso, rūpaṁ. Iti idañca nāmaṁ idañca rūpaṁ – idam vuccatāvuso
+nāma-rūpaṁ.</em><sup class="footnote-reference" id="fr-fn9-1"><a href="#fn-fn9">9</a></sup></p>
+<p>Feeling, perception, intention, contact, attention – this, friend, is called
+‘name’. The four great primaries and form dependent on the four great
+primaries – this, friend, is called ‘form’. So this is ‘name’ and this is
+‘form’ – this, friend, is called ‘name-and-form’.</p>
+</blockquote>
+<p>Well, this seems lucid enough as a definition but let us see, whether there is
+any justification for regarding feeling, perception, intention, contact and
+attention as ‘name’. Suppose there is a little child, a toddler, who is still
+unable to speak or understand language. Someone gives him a rubber ball and the
+child has seen it for the first time. If the child is told that it is a rubber
+ball, he might not understand it. How does he get to know that object? He smells
+it, feels it, and tries to eat it, and finally rolls it on the floor. At last he
+understands that it is a plaything. Now the child has recognised the rubber ball
+not by the name that the world has given it, but by those factors included under
+‘name’ in <em>nāma-rūpa</em>, namely feeling, perception, intention, contact and
+attention.</p>
+<p>This shows that the definition of <em>nāma</em> in <em>nāma-rūpa</em> takes us back to the
+most fundamental notion of ‘name’, to something like its prototype. The world
+gives a name to an object for purposes of easy communication. When it gets the
+sanction of others, it becomes a convention.</p>
+<p>While commenting on the verse just quoted, the commentator also brings in a
+bright idea. As an illustration of the sweeping power of name, he points out
+that if any tree happens to have no name attached to it by the world, it would
+at least be known as the ‘nameless tree’.<sup class="footnote-reference" id="fr-fn10-1"><a href="#fn-fn10">10</a></sup> Now as for the child, even such
+a usage is not possible. So it gets to know an object by the aforesaid method.
+And the factors involved there, are the most elementary constituents of name.</p>
+<p>Now it is this elementary name-and-form world that a meditator also has to
+understand, however much he may be conversant with the conventional world. But
+if a meditator wants to understand this name-and-form world, he has to come back
+to the state of a child, at least from one point of view. Of course in this case
+the equanimity should be accompanied by knowledge and not by ignorance. And that
+is why a meditator makes use of mindfulness and full awareness,
+<em>satisampajañña</em>, in his attempt to understand name-and-form.</p>
+<p>Even though he is able to recognize objects by their conventional names, for the
+purpose of comprehending name-and-form, a meditator makes use of those factors
+that are included under ‘name’: feeling, perception, intention, contact and
+attention. All these have a specific value to each individual and that is why
+the Dhamma has to be understood each one by himself – <em>paccattaṁ veditabbo</em>.
+This Dhamma has to be realized by oneself. One has to understand one’s own
+world of name-and-form by oneself. No one else can do it for him. Nor can it be
+defined or denoted by technical terms.</p>
+<p>Now it is in this world of name-and-form that suffering is found. According to
+the Buddha, suffering is not out there in the conventional world of worldly
+philosophers. It is to be found in this very name-and-form world. So the
+ultimate aim of a meditator is to cut off the craving in this name-and-form. As
+it is said: <em>acchecchi taṇhaṁ idha nāmarūpe</em>.<sup class="footnote-reference" id="fr-fn11-1"><a href="#fn-fn11">11</a></sup></p>
+<p>Now if we are to bring in a simile to clarify this point, the Buddha is called
+the incomparable surgeon, <em>sallakatto anuttaro</em>.<sup class="footnote-reference" id="fr-fn12-1"><a href="#fn-fn12">12</a></sup> Also he is sometimes
+called <em>taṇhāsallassa hantāraṁ</em>, one who removes the dart of craving.<sup class="footnote-reference" id="fr-fn13-1"><a href="#fn-fn13">13</a></sup> So
+the Buddha is the incomparable surgeon who pulls out the poison-tipped arrow of
+craving.</p>
+<p>We may say therefore that, according to the Dhamma, <em>nāma-rūpa</em>, or
+name-and-form, is like the wound in which the arrow is embedded. When one is
+wounded by a poison-tipped arrow, the bandage has to be put, not on the archer
+or on his bow-string, but on the wound itself. First of all the wound has to be
+well located and cleaned up. Similarly, the comprehension of name-and-form is
+the preliminary step in the treatment of the wound caused by the poison-tipped
+arrow of craving.</p>
+<p>And it is for that purpose that a meditator has to pay special attention to
+those basic components of ‘name’ – feeling, perception, intention, contact and
+attention – however much he may be proficient in words found in worldly usage.
+It may even appear as a process of unlearning down to childlike simplicity. But
+of course, the equanimity implied there, is not based on ignorance but on
+knowledge.</p>
+<p>We find ourselves in a similar situation with regard to the significance of
+<em>rūpa</em> in <em>nāma-rūpa</em>. Here too we have something deep, but many take
+<em>nāma-rūpa</em> to mean ‘mind and matter’. Like materialists, they think there is a
+contrast between mind and matter. But according to the Dhamma there is no such
+rigid distinction. It is a pair that is interrelated and taken together it forms
+an important link in the chain of <em>paṭicca samuppāda</em>.</p>
+<p><em>Rūpa</em> exists in relation to ‘name’ and that is to say that form is known with
+the help of ‘name’. As we saw above, that child got a first-hand knowledge of
+the rubber ball with the help of contact, feeling, perception, intention and
+attention. Now in the definition of ‘form’ as <em>cattāri ca mahābhūtāni,
+catunnañca mahābhūtānaṁ upādāya rūpaṁ</em> the four great primaries are mentioned
+because they constitute the most primary notion of ‘form’. Just as much as
+feeling, perception, intention, contact and attention represent the most primary
+notion of ‘name’, conventionally so called, even so the four great primaries
+form the basis for the primary notion of ‘form’, as the world understands it.</p>
+<p>It is not an easy matter to recognize these primaries. They are evasive like
+ghosts. But out of their interplay we get the perception of form, <em>rūpasaññā</em>.
+In fact what is called <em>rūpa</em> in this context is <em>rūpasaññā</em>. It is with
+reference to the behaviour of the four great elements that the world builds up
+its concept of form. Its perception, recognition and designation of form is in
+terms of that behaviour. And that behaviour can be known with the help of those
+members representing name.</p>
+<p>The earth element is recognized through the qualities of hardness and softness,
+the water element through the qualities of cohesiveness and dissolution, the
+fire element through hotness and coolness, and the wind element through motion
+and inflation. In this way one gets acquainted with the nature of the four great
+primaries. And the perception of form, <em>rūpasaññā</em>, that one has at the back of
+one’s mind, is the net result of that acquaintance. So this is <em>nāma-rūpa</em>. This
+is one’s world. The relationship between <em>rūpa</em> and <em>rūpasaññā</em> will be clear
+from the following verse:</p>
+<blockquote>
+<p><em>Yattha nāmañca rūpañca,</em> <br />
+<em>asesaṁ uparujjhati,</em> <br />
+<em>paṭighaṁ rūpasaññā ca,</em> <br />
+<em>etthesā chijjate jaṭā.</em><sup class="footnote-reference" id="fr-fn14-1"><a href="#fn-fn14">14</a></sup></p>
+</blockquote>
+<p>This is a verse found in the <em>Jaṭāsutta</em> of the <em>Saṁyutta Nikāya</em>. In that
+sutta we find a deity putting a riddle before the Buddha for solution:</p>
+<blockquote>
+<p><em>Anto jaṭā bahi jaṭā,</em> <br />
+<em>jaṭāya jaṭitā pajā,</em> <br />
+<em>taṁ taṁ Gotama pucchāmi,</em> <br />
+<em>ko imaṁ vijaṭaye jaṭaṁ</em>.</p>
+<p>There is a tangle within, and a tangle without, <br />
+The world is entangled with a tangle. <br />
+About that, oh Gotama, I ask you, <br />
+Who can disentangle this tangle?</p>
+</blockquote>
+<p>The Buddha answers the riddle in three verses, the first of which is fairly well
+known, because it happens to be the opening verse of the <em>Visuddhimagga</em>:</p>
+<blockquote>
+<p><em>Sīle patiṭṭhāya naro sapañño,</em> <br />
+<em>cittaṁ paññañca bhāvayaṁ,</em> <br />
+<em>ātāpī nipako bhikkhu,</em> <br />
+<em>so imaṁ vijaṭaye jataṁ</em>.</p>
+</blockquote>
+<p>This means that a wise monk, established in virtue, developing concentration and
+wisdom, being ardent and prudent, is able to disentangle this tangle. Now this
+is the second verse:</p>
+<blockquote>
+<p><em>Yesaṁ rāgo ca doso ca,</em> <br />
+<em>avijjā ca virājitā,</em> <br />
+<em>khīṇāsavā arahanto,</em> <br />
+<em>tesaṁ vijaṭitā jaṭā.</em></p>
+<p>In whom lust, hate <br />
+And ignorance have faded away, <br />
+Those influx-free <em>arahants</em>, <br />
+It is in them that the tangle is disentangled.</p>
+</blockquote>
+<p>It is the third verse that is relevant to our topic.</p>
+<blockquote>
+<p><em>Yattha nāmañca rūpañca,</em> <br />
+<em>asesaṁ uparujjhati,</em> <br />
+<em>paṭighaṁ rūpasaññā ca,</em> <br />
+<em>etthesā chijjate jaṭā</em>.</p>
+<p>Where name and form <br />
+As well as resistance and the perception of form <br />
+Are completely cut off, <br />
+It is there that the tangle gets snapped.</p>
+</blockquote>
+<p>The reference here is to Nibbāna. It is there that the tangle is disentangled.</p>
+<p>The coupling of name-and-form with <em>paṭigha</em> and <em>rūpasaññā</em> in this context, is
+significant. Here <em>paṭigha</em> does not mean ‘repugnance’, but ‘resistance’. It is
+the resistance which comes as a reaction to inert matter. For instance, when one
+knocks against something in passing, one turns back to recognize it. Sense
+reaction is something like that.</p>
+<p>The Buddha has said that the worldling is blind until at least the Dhamma-eye
+arises in him. So the blind worldling recognizes an object by the very
+resistance he experiences in knocking against that object.</p>
+<p><em>Paṭigha</em> and <em>rūpasaññā</em> form a pair. <em>Paṭigha</em> is that experience of
+resistance which comes by the knocking against an object, and <em>rūpasaññā</em>, as
+perception of form, is the resulting recognition of that object. The perception
+is in terms of what is hard, soft, hot or cold. Out of such perceptions common
+to the blind worldlings, arises the conventional reality, the basis of which is
+the world.</p>
+<p>Knowledge and understanding are very often associated with words and concepts,
+so much so that if one knows the name of a thing, one is supposed to know it.
+Because of this misconception the world is in a tangle. Names and concepts,
+particularly the nouns, perpetuate the ignorance in the world. Therefore insight
+is the only path of release. And that is why a meditator practically comes down
+to the level of a child in order to understand name and form. He may even have
+to pretend to be a patient in slowing down his movements for the sake of
+developing mindfulness and full awareness.</p>
+<p>So we see that there is something really deep in <em>nāma-rūpa</em>, even if we render
+it as ‘name-and-form’. There is an implicit connection with ‘name’ as
+conventionally so called, but unfortunately this connection is ignored in the
+commentaries, when they bring in the idea of ‘bending’ to explain the word
+‘name’. So we need not hesitate to render <em>nāma-rūpa</em> by ‘name-and-form’. Simple
+as it may appear, it goes deeper than the worldly concepts of name and form.</p>
+<p>Now if we are to summarise all what we have said in this connection, we may say:
+‘name’ in ‘name-and-form’ is a <strong>formal</strong> name. It is an apparent name. ‘Form’
+in ‘name-and-form’ is a <strong>nominal</strong> form. It is a form only in name.</p>
+<p>We have to make a similar comment on the meaning of the word Nibbāna. Here too
+one can see some unusual semantic developments in the commentarial period. It is
+very common these days to explain the etymology of the word Nibbāna with the
+help of a phrase like: <em>Vānasaṅkhātāya taṇhāya nikkhantattā</em>.<sup class="footnote-reference" id="fr-fn15-1"><a href="#fn-fn15">15</a></sup> And that is
+to say that Nibbāna is so called because it is an exit from craving which is a
+form of weaving.</p>
+<p>To take the element <em>vāna</em> in the word to mean a form of weaving is as good as
+taking <em>nāma</em> in <em>nāma-rūpa</em> as some kind of bending. It is said that craving is
+a kind of weaving in the sense that it connects up one form of existence with
+another and the prefix <em>ni</em> is said to signify the exit from that weaving.</p>
+<p>But nowhere in the suttas do we get this sort of etymology and interpretation.
+On the other hand it is obvious that the suttas use the word Nibbāna in the
+sense of ‘extinguishing’ or ‘extinction’. In fact this is the sense that brings
+out the true essence of the Dhamma.</p>
+<p>For instance the <em>Ratanasutta</em>, which is so often chanted as a <em>paritta</em>, says
+that the <em>arahants</em> go out like a lamp: <em>Nibbanti dhīrā yathāyaṁ padīpo</em>.<sup class="footnote-reference" id="fr-fn16-1"><a href="#fn-fn16">16</a></sup>
+“Those wise ones get extinguished even like this lamp.”</p>
+<p>The simile of a lamp getting extinguished is also found in the
+<em>Dhātuvibhaṅgasutta</em> of the <em>Majjhima Nikāya</em>.<sup class="footnote-reference" id="fr-fn17-1"><a href="#fn-fn17">17</a></sup> Sometimes it is the figure
+of a torch going out: <em>Pajjotass’eva nibbānaṁ, vimokho cetaso ahu</em>, “the mind’s
+release was like the extinguishing of a torch.”<sup class="footnote-reference" id="fr-fn18-1"><a href="#fn-fn18">18</a></sup></p>
+<p>The simile of the extinction of a fire is very often brought in as an
+illustration of Nibbāna and in the <em>Aggivacchagottasutta</em> of the <em>Majjhima
+Nikāya</em> we find the Buddha presenting it as a sustained simile, giving it a
+deeper philosophical dimension.<sup class="footnote-reference" id="fr-fn19-1"><a href="#fn-fn19">19</a></sup> Now when a fire burns, it does so with
+the help of firewood. When a fire is burning, if someone were to ask us: “What
+is burning?” – what shall we say as a reply? Is it the wood that is burning or
+the fire that is burning? The truth of the matter is that the wood burns because
+of the fire and the fire burns because of the wood. So it seems we already have
+here a case of relatedness of this to that, <em>idappaccayatā.</em> This itself shows
+that there is a very deep significance in the fire simile.</p>
+<p>Nibbāna as a term for the ultimate aim of this Dhamma is equally significant
+because of its allusion to the going out of a fire. In the <em>Asaṅkhatasaṁyutta</em>
+of the <em>Saṁyutta Nikāya</em> as many as thirty-three terms are listed to denote this
+ultimate aim.<sup class="footnote-reference" id="fr-fn20-1"><a href="#fn-fn20">20</a></sup> But out of all these epithets, Nibbāna became the most
+widely used, probably because of its significant allusion to the fire. The fire
+simile holds the answer to many questions relating to the ultimate goal.</p>
+<p>The wandering ascetic Vacchagotta, as well as many others, accused the Buddha
+of teaching a doctrine of annihilation: <em>Sato sattassa ucchedaṁ vināsaṁ vibhavaṁ
+paññāpeti</em>.<sup class="footnote-reference" id="fr-fn21-1"><a href="#fn-fn21">21</a></sup> Their accusation was that the Buddha proclaims the
+annihilation, destruction and non-existence of a being that is existent. And the
+Buddha answered them fairly and squarely with the fire simile.</p>
+<p>“Now if a fire is burning in front of you dependent on grass and twigs as fuel,
+you would know that it is burning dependently and not independently, that there
+is no fire in the abstract. And when the fire goes out, with the exhaustion of
+that fuel, you would know that it has gone out because the conditions for its
+existence are no more.”</p>
+<p>As a sidelight to the depth of this argument it may be mentioned that the Pāli
+word <em>upādāna</em> used in such contexts has the sense of both ‘fuel’ as well as
+‘grasping’, and in fact, fuel is something that the fire grasps for its burning.
+<em>Upādānapaccayā bhavo</em>, “dependent on grasping is existence”.<sup class="footnote-reference" id="fr-fn22-1"><a href="#fn-fn22">22</a></sup> These are
+two very important links in the doctrine of dependent arising, <em>paṭicca
+samuppāda</em>.</p>
+<p>The eternalists, overcome by the craving for existence, thought that there is
+some permanent essence in existence as a reality. But what had the Buddha to say
+about existence? He said that what is true for the fire is true for existence as
+well. That is to say that existence is dependent on grasping. So long as there
+is a grasping, there is an existence. As we saw above, the firewood is called
+<em>upādāna</em> because it catches fire. The fire catches hold of the wood, and the
+wood catches hold of the fire. And so we call it firewood. This is a case of a
+relation of this to that, <em>idappaccayatā</em>. Now it is the same with what is
+called ‘existence’, which is not an absolute reality.</p>
+<p>Even in the <em>Vedic</em> period there was the dilemma between ‘being’ and
+‘non-being’. They wondered whether being came out of non-being, or non-being
+came out of being. <em>Katham asataḥ sat jāyeta</em>, “How could being come out of
+non-being?”<sup class="footnote-reference" id="fr-fn23-1"><a href="#fn-fn23">23</a></sup> In the face of this dilemma regarding the first beginnings,
+they were sometimes forced to conclude that there was neither non-being nor
+being at the start, <em>nāsadāsīt no sadāsīt tadānīm</em>.<sup class="footnote-reference" id="fr-fn24-1"><a href="#fn-fn24">24</a></sup> Or else in the
+confusion they would sometimes leave the matter unsolved, saying that perhaps
+only the creator knew about it.</p>
+<p>All this shows what a lot of confusion these two words <em>sat</em> and <em>asat</em>, being
+and non-being, had created for the philosophers. It was only the Buddha who
+presented a perfect solution, after a complete reappraisal of the whole problem
+of existence. He pointed out that existence is a fire kept up by the fuel of
+grasping, so much so that, when grasping ceases, existence ceases as well.</p>
+<p>In fact the fire simile holds the answer to the tetralemma included among the
+ten unexplained points very often found mentioned in the suttas. It concerns
+the state of the Tathāgata after death, whether he exists, does not exist,
+both or neither. The presumption of the questioner is that one or the other of
+these four must be and could be answered in the affirmative.</p>
+<p>The Buddha solves or dissolves this presumptuous tetralemma by bringing in the
+fire simile. He points out that when a fire goes out with the exhaustion of the
+fuel, it is absurd to ask in which direction the fire has gone. All that one can
+say about it, is that the fire has gone out: <em>Nibbuto tveva saṅkhaṁ gacchati</em>,
+“it comes to be reckoned as ‘gone out’.”<sup class="footnote-reference" id="fr-fn25-1"><a href="#fn-fn25">25</a></sup></p>
+<p>It is just a reckoning, an idiom, a worldly usage, which is not to be taken too
+literally. So this illustration through the fire simile drives home to the
+worldling the absurdity of his presumptuous tetralemma of the Tathāgata.</p>
+<p>In the <em>Upasīvasutta</em> of the <em>Pārāyaṇavagga</em> of the <em>Sutta Nipāta</em> we find the
+lines:</p>
+<blockquote>
+<p><em>Accī yathā vātavegena khitto,</em> <br />
+<em>atthaṁ paleti na upeti saṅkhaṁ</em>,<sup class="footnote-reference" id="fr-fn26-1"><a href="#fn-fn26">26</a></sup></p>
+<p>Like the flame thrown out by the force of the wind <br />
+Reaches its end, it cannot be reckoned.</p>
+</blockquote>
+<p>Here the reckoning is to be understood in terms of the four propositions of the
+tetralemma. Such reckonings are based on a total misconception of the phenomenon
+of fire.</p>
+<p>It seems that the deeper connotations of the word Nibbāna in the context of
+<em>paṭicca samuppāda</em> were not fully appreciated by the commentators. And that is
+why they went in search of a new etymology. They were too shy of the
+implications of the word ‘extinction’. Probably to avoid the charge of nihilism
+they felt compelled to reinterpret certain key passages on Nibbāna. They
+conceived Nibbāna as something existing out there in its own right. They would
+not say where, but sometimes they would even say that it is everywhere. With an
+undue grammatical emphasis they would say that it is on coming to that Nibbāna
+that lust and other defilements are abandoned:</p>
+<blockquote>
+<p><em>Nibbānaṁ āgamma rāgādayo khīṇāti ekameva nibbānaṁ rāgakkhayo dosakkhayo
+mohakkhayo ti vuccati.</em><sup class="footnote-reference" id="fr-fn27-1"><a href="#fn-fn27">27</a></sup></p>
+</blockquote>
+<p>But what do we find in the joyous utterances of the <em>theras</em> and <em>therīs</em> who
+had realized Nibbāna? As recorded in such texts as <em>Thera-</em> and <em>Therī-gāthā</em>
+they would say: <em>Sītibhūto’smi nibbuto</em>, “I am grown cool, extinguished as I
+am.”<sup class="footnote-reference" id="fr-fn28-1"><a href="#fn-fn28">28</a></sup> The words <em>sītibhūta</em> and <em>nibbuta</em> had a cooling effect even to the
+listener, though later scholars found them inadequate.</p>
+<p>Extinction is something that occurs within an individual and it brings with it a
+unique bliss of appeasement. As the <em>Ratanasutta</em> says: <em>Laddhā mudhā nibbutiṁ
+bhuñjamānā</em>, “they experience the bliss of appeasement won free of
+charge.”<sup class="footnote-reference" id="fr-fn29-1"><a href="#fn-fn29">29</a></sup> Normally, appeasement is won at a cost, but here we have an
+appeasement that comes gratis.</p>
+<p>From the worldly point of view ‘extinction’ means annihilation. It has
+connotations of a precipice that is much dreaded. That is why the commentators
+conceived of it as something out there, on reaching which the defilements are
+abandoned, <em>nibbānaṁ āgamma rāgādayo khīṇāti</em>. Sometimes they would say that it
+is on seeing Nibbāna that craving is destroyed.</p>
+<p>There seems to be some contradiction in the commentarial definitions of
+Nibbāna. On the one hand we have the definition of Nibbāna as the exit from
+craving, which is called a ‘weaving’. And on the other it is said that it is on
+seeing Nibbāna that craving is destroyed. To project Nibbāna into a distance
+and to hope that craving will be destroyed only on seeing it, is something like
+trying to build a staircase to a palace one cannot yet see. In fact this is a
+simile which the Buddha had used in his criticism of the Brahmin’s point of
+view.<sup class="footnote-reference" id="fr-fn30-1"><a href="#fn-fn30">30</a></sup></p>
+<p>In the <em>Dhammacakkappavattanasutta</em> we have a very clear statement of the third
+noble truth. Having first said that the second noble truth is craving, the
+Buddha goes on to define the third noble truth in these words: <em>Tassāyeva
+taṇhāya asesavirāganirodho cāgo paṭinissaggo mutti anālayo</em>.<sup class="footnote-reference" id="fr-fn31-1"><a href="#fn-fn31">31</a></sup></p>
+<p>This is to say that the third noble truth is the complete fading away,
+cessation, giving up, relinquishment of that very craving. That it is the
+release from and non-attachment to that very craving. In other words it is the
+destruction of this very mass of suffering which is just before us.</p>
+<p>In the suttas the term <em>taṇhakkhayo</em>, the destruction of craving, is very
+often used as a term for Nibbāna.<sup class="footnote-reference" id="fr-fn32-1"><a href="#fn-fn32">32</a></sup> But the commentator says that
+destruction alone is not Nibbāna: <em>Khayamattaṁ na nibbānaṁ</em>.<sup class="footnote-reference" id="fr-fn33-1"><a href="#fn-fn33">33</a></sup> But the
+destruction of craving itself is called the highest bliss in the following verse
+of the <em>Udāna</em>:</p>
+<blockquote>
+<p><em>Yañca kāmasukhaṁ loke,</em> <br />
+<em>yaṁ c’idaṁ diviyaṁ sukhaṁ,</em> <br />
+<em>taṇhakkhaya sukhass’ete,</em> <br />
+<em>kalaṁ n’agghanti soḷasiṁ</em>.<sup class="footnote-reference" id="fr-fn34-1"><a href="#fn-fn34">34</a></sup></p>
+<p>Whatever bliss from sense-desires there is in the world, <br />
+Whatever divine bliss there is, <br />
+All these are not worth one-sixteenth <br />
+Of the bliss of the destruction of craving.</p>
+</blockquote>
+<p>Many of the verses found in the <em>Udāna</em> are extremely deep and this is
+understandable, since <em>udāna</em> means a ‘joyous utterance’. Generally a joyous
+utterance comes from the very depths of one’s heart, like a sigh of relief. As a
+matter of fact one often finds that the concluding verse goes far deeper in its
+implications than the narrative concerned. For instance, in the <em>Udapānasutta</em>,
+we get the following joyous utterance, coming from the Buddha himself:</p>
+<blockquote>
+<p><em>Kiṁ kayirā udapānena,</em> <br />
+<em>āpā ce sabbadā siyuṁ,</em> <br />
+<em>taṇhāya mūlato chetvā,</em> <br />
+<em>kissa pariyesanaṁ care</em>.<sup class="footnote-reference" id="fr-fn35-1"><a href="#fn-fn35">35</a></sup></p>
+<p>What is the use of a well, <br />
+If water is there all the time, <br />
+Having cut craving at the root, <br />
+In search of what should one wander?</p>
+</blockquote>
+<p>This shows that the destruction of craving is not a mere destruction.</p>
+<p>Craving is a form of thirst and that is why Nibbāna is sometimes called
+<em>pipāsavinayo</em>, the dispelling of the thirst.<sup class="footnote-reference" id="fr-fn36-1"><a href="#fn-fn36">36</a></sup> To think that the
+destruction of craving is not sufficient is like trying to give water to one who
+has already quenched his thirst. But the destruction of craving has been called
+the highest bliss. One who has quenched his thirst for good, is aware of that
+blissful experience. When he sees the world running here and there in search of
+water, he looks within and sees the well-spring of his bliss.</p>
+<p>However to most of our scholars the term <em>taṇhakkhaya</em> appeared totally negative
+and that is why they hesitated to recognize its value. In such conventional
+usages as <em>Nibbānaṁ āgamma</em> they found a grammatical excuse to separate that
+term from Nibbāna.</p>
+<p>According to the Buddha the cessation of existence is Nibbāna and that means
+Nibbāna is the realization of the cessation of existence. Existence is said to
+be an eleven-fold fire. So the entire existence is a raging fire. Lust, hate,
+delusion – all these are fires. Therefore Nibbāna may be best rendered by the
+word ‘extinction’. When once the fires are extinguished, what more is needed?</p>
+<p>But unfortunately Venerable Buddhaghosa was not prepared to appreciate this
+point of view. In his <em>Visuddhimagga</em> as well as in the commentaries
+<em>Sāratthappakāsinī</em> and <em>Sammohavinodanī</em>, he gives a long discussion on
+Nibbāna in the form of an argument with an imaginary heretic.<sup class="footnote-reference" id="fr-fn37-1"><a href="#fn-fn37">37</a></sup> Some of
+his arguments are not in keeping with either the letter or the spirit of the
+Dhamma.</p>
+<p>First of all he gets the heretic to put forward the idea that the destruction of
+lust, hate and delusion is Nibbāna. Actually the heretic is simply quoting the
+Buddha word, for in the <em>Nibbānasutta</em> of the <em>Asaṅkhatasaṁyutta</em> the
+destruction of lust, hate and delusion is called Nibbāna: <em>Rāgakkhayo,
+dosakkhayo, mohakkhayo – idaṁ vuccati nibbānaṁ</em>.<sup class="footnote-reference" id="fr-fn38-1"><a href="#fn-fn38">38</a></sup></p>
+<p>The words <em>rāgakkhaya, dosakkhaya</em> and <em>mohakkhaya</em> together form a synonym of
+Nibbāna, but the commentator interprets it as three synonyms. Then he argues
+out with the imaginary heretic that if Nibbāna is the extinguishing of lust it
+is something common even to the animals, for they also extinguish their fires of
+lust through enjoyment of the corresponding objects of sense.<sup class="footnote-reference" id="fr-fn39-1"><a href="#fn-fn39">39</a></sup> This
+argument ignores the deeper sense of the word extinction, as it is found in the
+Dhamma.</p>
+<p>In the <em>Māgaṇḍiyasutta</em> of the <em>Majjhima Nikāya</em> the Buddha gives the simile of
+a man with a skin disease sitting beside a pit of hot embers to explain the
+position of lustful beings in the world.<sup class="footnote-reference" id="fr-fn40-1"><a href="#fn-fn40">40</a></sup> That man is simply trying to
+assuage his pains by the heat of the fire. It is an attempt to warm up, not to
+cool down. Similarly what the lustful beings in the world are doing in the face
+of the fires of lust is a warming up. It can in no way be compared to the
+extinction and the cooling down of the <em>arahants</em>.</p>
+<p>As the phrase <em>nibbutiṁ bhuñjamānā</em> implies, that extinction is a blissful
+experience for the <em>arahants</em>. It leaves a permanent effect on the <em>arahant</em>, so
+much so that upon reflection he sees that his influxes are extinct, just as a
+man with his hands and feet cut off, knows upon reflection that his limbs are
+gone.<sup class="footnote-reference" id="fr-fn41-1"><a href="#fn-fn41">41</a></sup> It seems that the deeper implications of the word Nibbāna have
+been obscured by a set of arguments which are rather misleading.</p>
+<p>In fact I came forward to give these sermons for three reasons: Firstly because
+the venerable Great Preceptor invited me to do so. Secondly in the hope that it
+will be of some benefit to my co-dwellers in the Dhamma. And thirdly because I
+myself felt rather concerned about the inadequacy of the existing
+interpretations.</p>
+<p>What we have said so far is just about the word Nibbāna as such. Quite a
+number of suttas on Nibbāna will be taken up for discussion. This is just a
+preamble to show that the word Nibbāna in the sense of ‘extinction’ has a
+deeper dimension, which has some relevance to the law of dependent arising,
+<em>paṭicca samuppāda</em>.</p>
+<p>By bringing in an etymology based on the element <em>vāna</em>, much of the original
+significance of the word Nibbāna came to be undermined. On quite a number of
+occasions the Buddha has declared that the cessation of suffering is Nibbāna,
+or else that the destruction of craving is Nibbāna. Terms like <em>dukkhanirodho</em>
+and <em>taṇhakkhayo</em> have been used as synonyms. If they are synonyms, there is no
+need to make any discrimination with regard to some of them, by insisting on a
+periphrastic usage like <em>āgamma</em>.</p>
+<p>Yet another important aspect of the problem is the relation of Nibbāna to the
+holy life or <em>brahmacariya</em>. It is said that when the holy life is lived out to
+the full, it culminates in Nibbāna.</p>
+<p>In the <em>Rādhasaṁyutta</em> of the <em>Saṁyutta Nikāya</em> we find the Venerable Rādha
+putting a series of questions to the Buddha to get an explanation. First
+of all he asks:</p>
+<blockquote>
+<p><em>Sammādassanaṁ pana, bhante, kimatthiyaṁ?</em><sup class="footnote-reference" id="fr-fn42-1"><a href="#fn-fn42">42</a></sup></p>
+<p>For what purpose is right vision?</p>
+</blockquote>
+<p>And the Buddha gives the answer:</p>
+<blockquote>
+<p><em>Sammādassanaṁ kho, Rādha, nibbidatthaṁ</em>,</p>
+<p>Rādha, right vision is for purposes of disgust or dejection.</p>
+</blockquote>
+<p>And that is to say, disgust for <em>saṁsāra</em>.</p>
+<p>The next question is: for what purpose is disgust? And the Buddha answers:
+disgust is for dispassion. What is the purpose of dispassion? The purpose of
+dispassion is release. What is the purpose of release? The purpose of release is
+Nibbāna. Last of all Venerable Rādha puts the question:</p>
+<p><em>Nibbānaṁ pana, bhante, kimatthiyaṁ</em>? “For what purpose is Nibbāna?” And the
+Buddha gives this answer:</p>
+<blockquote>
+<p><em>Accasarā, Rādha, pañhaṁ, nāsakkhi pañhassa pariyantaṁ gahetuṁ.
+Nibbānogadhañhi, Rādha, brahmacariyaṁ vussati, nibbānaparāyanaṁ
+nibbānapariyosānaṁ.</em></p>
+<p>Rādha, you have gone beyond the scope of your questions, you are unable to
+grasp the limit of your questions. For, Rādha, the holy life is merged in
+Nibbāna, its consummation is Nibbāna, its culmination is Nibbāna.</p>
+</blockquote>
+<p>This shows that the holy life gets merged in Nibbāna, just as rivers get
+merged in the sea. In other words, where the holy life is lived out to the full,
+Nibbāna is right there. That is why Venerable Nanda, who earnestly took up
+the holy life encouraged by the Buddha’s promise of heavenly nymphs, attained
+<em>arahanthood</em> almost in spite of himself. At last he approached the Buddha and
+begged to relieve him of the onus of his promise. This shows that when one
+completes the training in the Holy Life, one is already in Nibbāna. Only when
+the training is incomplete, can one go to heaven.</p>
+<p>Here, then, is a result which comes of its own accord. So there is no
+justification for a periphrastic usage like, ‘on reaching Nibbāna’. No glimpse
+of a distant object is necessary. At whatever moment the Noble Eightfold Path is
+perfected, one attains Nibbāna then and there. Now, in the case of an
+examination, after answering the question paper, one has to wait for the
+results – to get a pass.</p>
+<p>Here it is different. As soon as you have answered the paper correctly, you have
+passed im-mediately and the certificate is already there. This is the
+significance of the term <em>aññā</em> used in such contexts. <em>Aññā</em> stands for full
+certitude of the experience of Nibbāna.</p>
+<p>The experience of the fruit of <em>arahantship</em> gives him the final certificate of
+his attainment, <em>aññāphalo</em>.<sup class="footnote-reference" id="fr-fn43-1"><a href="#fn-fn43">43</a></sup> That is why Nibbāna is called something to
+be realized. One gets the certitude that birth is extinct and that the holy life
+is lived out to the full, <em>khīṇā jāti, vusitaṁ brahmacariyaṁ</em>.<sup class="footnote-reference" id="fr-fn44-1"><a href="#fn-fn44">44</a></sup></p>
+<p>Of course there are some who still go on asking: what is the purpose of
+Nibbāna? And it is to answer this type of question that many scholars go on
+hair splitting. Normally in the world, whatever one does has some purpose or
+other. All occupations, all trades and businesses, are for gain and profit.
+Thieves and burglars also have some purpose in mind. But what is the purpose of
+trying to attain Nibbāna? What is the purpose of Nibbāna? Why should one
+attain Nibbāna?</p>
+<p>It is to give an answer to this question that scholars brought in such phrases
+as <em>Nibbānaṁ pana āgamma</em>, ‘on reaching Nibbāna’. They would say that ‘on
+reaching Nibbāna’, craving would be destroyed. On closer analysis it would
+appear that there is some fallacy in this question. For if there is any aim or
+purpose in attaining Nibbāna, Nibbāna would not be the ultimate aim. In
+other words, if Nibbāna is the ultimate aim, there should be no aim in
+attaining Nibbāna. Though it may well sound a tautology, one has to say that
+Nibbāna is the ultimate aim for the simple reason that there is no aim beyond
+it.</p>
+<p>However, this might need more explanation. Now as far as craving is concerned,
+it has the nature of projection or inclination. It is something bent forward,
+with a forward view, and that is why it is called <em>bhavanetti</em>, the leader in
+becoming.<sup class="footnote-reference" id="fr-fn45-1"><a href="#fn-fn45">45</a></sup> It leads one on and on in existence, like the carrot before the
+donkey. So that is why all objects presented by craving have some object or
+purpose as a projection. Craving is an inclination.</p>
+<p>But what is the position if one makes the destruction of craving itself one’s
+object? Now craving because of its inclining nature is always bent forward, so
+much so that we get an infinite progression. This is for that, and that is for
+the other. As the phrase <em>taṇhā ponobhavikā</em> implies, craving brings up
+existence again and again.<sup class="footnote-reference" id="fr-fn46-1"><a href="#fn-fn46">46</a></sup></p>
+<p>But this is not the case when one makes the destruction of craving one’s aim.
+When that aim is attained, there is nothing more to be done. So this brings us
+to the conclusion that the term <em>taṇhakkhayo</em>, destruction of craving, is a
+full-fledged synonym of Nibbāna.</p>
+<p>Well, this much is enough for today. Time permitting and life permitting, I hope
+to continue with these sermons. I suppose the most Venerable Great Preceptor
+made this invitation with the idea of seeing one of his children at play. For
+good or for bad, I have taken up the invitation. Let the future of the <em>Sāsana</em>
+be the final judge of its merits.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn1"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn1-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn2"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/dn16/pli/ms">DN 16 / D II 93</a>, <em>Mahāparinibbānasutta</em> <a href="#fr-fn2-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn3"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/sn20.7/pli/ms">SN 20.7 / S II 267</a>, <em>Āṇisutta</em> <a href="#fr-fn3-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn4"><sup class="footnote-definition-label">4</sup>
+<p>Mp I 92 <a href="#fr-fn4-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn5"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/kp4/pli/ms">Kp 4 / Khp 2</a> <a href="#fr-fn5-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn6"><sup class="footnote-definition-label">6</sup>
+<p>Pj I 78 <a href="#fr-fn6-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn7"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/sn1.61/pli/ms">SN 1.61 / S I 39</a>, <em>Nāmasutta</em> <a href="#fr-fn7-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn8"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/sn1.20/pli/ms">SN 1.20 / S I 11</a>, <em>Samiddhisutta</em> <a href="#fr-fn8-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn9"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/mn9/pli/ms">MN 9 / M I 53</a>, <em>Sammādiṭṭhisutta</em> <a href="#fr-fn9-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn10"><sup class="footnote-definition-label">10</sup>
+<p>Spk I 95 commenting on <a href="https://suttacentral.net/sn1.61/pli/ms">SN 1.61 / S I 39</a> <a href="#fr-fn10-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn11"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/sn1.20/pli/ms">SN 1.20 / S I 12</a>, <em>Samiddhisutta</em> <a href="#fr-fn11-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn12"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/snp3.7/pli/ms">Snp 3.7 / Sn 560</a>, <em>Selasutta</em> <a href="#fr-fn12-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn13"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/sn8.7/pli/ms">SN 8.7 / S I 192</a>, <em>Pavāraṇāsutta</em> <a href="#fr-fn13-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn14"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/sn1.23/pli/ms">SN 1.23 / S I 13</a>, <em>Jaṭāsutta</em> <a href="#fr-fn14-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn15"><sup class="footnote-definition-label">15</sup>
+<p>Abhidh-s VI í 30 <a href="#fr-fn15-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn16"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/snp2.1/pli/ms">Snp 2.1 / Sn 235</a>, <em>Ratanasutta</em> <a href="#fr-fn16-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn17"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/mn140/pli/ms">MN 140 / M III 245</a>, <em>Dhātuvibhaṅgasutta</em> <a href="#fr-fn17-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn18"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/dn16/pli/ms">DN 16 / D II 157</a>, <em>Mahāparinibbānasutta</em> <a href="#fr-fn18-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn19"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/mn72/pli/ms">MN 72 / M I 487</a>, <em>Aggivacchagottasutta</em> <a href="#fr-fn19-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn20"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/sn43.13/pli/ms">SN 43.13-44 / S IV 368-373</a> <a href="#fr-fn20-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn21"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 140</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn21-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn22"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/dn15/pli/ms">DN 15 / D II 57</a>, <em>Mahānidānasutta</em> <a href="#fr-fn22-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn23"><sup class="footnote-definition-label">23</sup>
+<p>Chāndogya-Upaniṣad 6.2.1,2 <a href="#fr-fn23-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn24"><sup class="footnote-definition-label">24</sup>
+<p>Ṛgveda X.129, <em>Nāsadīya Sūkta</em> <a href="#fr-fn24-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn25"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/mn72/pli/ms">MN 72 / M I 487</a>, <em>Aggivacchagottasutta</em> <a href="#fr-fn25-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn26"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/snp5.7/pli/ms">Snp 5.7 / Sn 1074</a>, <em>Upasīvamāṇavapucchā</em> <a href="#fr-fn26-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn27"><sup class="footnote-definition-label">27</sup>
+<p>Vibh-a 53 <a href="#fr-fn27-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn28"><sup class="footnote-definition-label">28</sup>
+<p><a href="https://suttacentral.net/thag4.8/pli/ms">Thag 4.8 / Th 298</a>, <em>Rāhula Thera</em> <a href="#fr-fn28-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn29"><sup class="footnote-definition-label">29</sup>
+<p><a href="https://suttacentral.net/snp2.1/pli/ms">Snp 2.1 / Sn 228</a>, <em>Ratanasutta</em> <a href="#fr-fn29-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn30"><sup class="footnote-definition-label">30</sup>
+<p>E.g. at <a href="https://suttacentral.net/dn9/pli/ms">DN 9 / D I 194</a>, <em>Poṭṭhapādasutta</em> <a href="#fr-fn30-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn31"><sup class="footnote-definition-label">31</sup>
+<p>E.g. at <a href="https://suttacentral.net/sn56.11/pli/ms">SN 56.11 / S V 421</a>, <em>Dhammacakkappavattanasutta</em> <a href="#fr-fn31-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn32"><sup class="footnote-definition-label">32</sup>
+<p>E.g. at <a href="https://suttacentral.net/iti90/pli/ms">Iti 90 / It 88</a>, <em>Aggappasādasutta</em> <a href="#fr-fn32-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn33"><sup class="footnote-definition-label">33</sup>
+<p>Abhidh-av 138 <a href="#fr-fn33-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn34"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://suttacentral.net/ud2.2/pli/ms">Ud 2.2 / Ud 11</a>, <em>Rājasutta</em> <a href="#fr-fn34-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn35"><sup class="footnote-definition-label">35</sup>
+<p><a href="https://suttacentral.net/ud7.9/pli/ms">Ud 7.9 / Ud 79</a>, <em>Udapānasutta</em> <a href="#fr-fn35-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn36"><sup class="footnote-definition-label">36</sup>
+<p><a href="https://suttacentral.net/an4.34/pli/ms">AN 4.34 / A II 34</a>, <em>Aggappasādasutta</em> <a href="#fr-fn36-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn37"><sup class="footnote-definition-label">37</sup>
+<p>Vism 508; Spk III 88; Vibh-a 51 <a href="#fr-fn37-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn38"><sup class="footnote-definition-label">38</sup>
+<p>S IV 371, <em>Nibbānasutta</em> <a href="#fr-fn38-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn39"><sup class="footnote-definition-label">39</sup>
+<p>Vibh-a 53 <a href="#fr-fn39-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn40"><sup class="footnote-definition-label">40</sup>
+<p><a href="https://suttacentral.net/mn75/pli/ms">MN 75 / M I 507</a>, <em>Māgaṇḍiyasutta</em> <a href="#fr-fn40-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn41"><sup class="footnote-definition-label">41</sup>
+<p><a href="https://suttacentral.net/mn76/pli/ms">MN 76 / M I 523</a>, <em>Saṇḍakasutta</em> <a href="#fr-fn41-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn42"><sup class="footnote-definition-label">42</sup>
+<p><a href="https://suttacentral.net/sn23.1/pli/ms">SN 23.1 / S III 189</a>, <em>Mārasutta</em> <a href="#fr-fn42-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn43"><sup class="footnote-definition-label">43</sup>
+<p>The term <em>aññāphalo</em> occurs at <a href="https://suttacentral.net/an9.37/pli/ms">AN 9.37 / A IV 428</a>, <em>Ānandasutta</em> <a href="#fr-fn43-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn44"><sup class="footnote-definition-label">44</sup>
+<p>E.g. at <a href="https://suttacentral.net/dn2/pli/ms">DN 2 / D I 84</a>, <em>Sāmaññaphalasutta</em> <a href="#fr-fn44-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn45"><sup class="footnote-definition-label">45</sup>
+<p><a href="https://suttacentral.net/dn16/pli/ms">DN 16 / D II 90</a>, <em>Mahāparinibbānasutta</em> <a href="#fr-fn45-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn46"><sup class="footnote-definition-label">46</sup>
+<p>E.g. at <a href="https://suttacentral.net/sn56.11/pli/ms">SN 56.11 / S V 421</a>, <em>Dhammacakkappavattanasutta</em> <a href="#fr-fn46-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="introduction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-02.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="introduction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-02.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

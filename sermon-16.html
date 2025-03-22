@@ -1,0 +1,1015 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 16 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-16-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-16"><a class="header" href="#sermon-16">Sermon 16</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn543-1"><a href="#fn-fn543">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the sixteenth sermon in the series of
+sermons on Nibbāna.</p>
+<p>In the course of our discussion of the <em>Bāhiyasutta</em> in our last sermon, we drew
+attention to the wide gap that exists between the sensory experience of the
+worldling and that experience the <em>arahant</em> gets through the eye of wisdom.</p>
+<p>It is the same gap that obtains between the two terms <em>papañca</em> and
+<em>nippapañca</em>. In sensory experience, which is based on worldly expressions,
+worldly usages and worldly concepts, there is a discrimination between a thing
+to be grasped and the one who grasps, or, in other words, a subject-object
+relationship.</p>
+<p>There is always a bifurcation, a dichotomy, in the case of sensory perception.
+If there is a seen, there has to be something seen and the one who sees. That is
+the logic. In the <em>Bāhiyasutta</em>, beginning with “in the seen there will be just
+the seen”, the Buddha proclaimed to the ascetic Bāhiya a brief exhortation on
+Dhamma which enables one to transcend the above narrow view point and attain the
+state of non-proliferation or <em>nippapañca</em>.</p>
+<p>There is nothing to see, no one to see, only ‘a seen’ is there. The cause of all
+these conceptual proliferation, or <em>papañca</em>, in the world is contact. The
+<em>arahants</em> understood this by their insight into the fact that the seen, the
+heard, the sensed and the cognized are simply so many collocations of conditions
+which come together for a moment due to contact, only to break up and get
+dispersed the next moment.</p>
+<p>What is called the seen, the heard, the sensed and the cognized are for the
+worldling so many ‘things’. But to the wisdom eye of the <em>arahants</em> they appear
+as mere conglomerations of conditions, dependent on contact, which momentarily
+come together and then get dispersed. This insight into the dependence on
+contact, <em>phassam paṭicca</em>, is the very essence of the law of dependent arising,
+<em>paṭicca samuppāda</em>. It is equivalent to seeing the law of dependent arising
+itself.</p>
+<p>In order to transcend the narrow point of view limited to the bases of sense
+contact or the six sense spheres and realize the state of Nibbāna indicated by
+the words <em>viññāṇaṁ anidassanaṁ, anantaṁ sabbato pabhaṁ</em>,<sup class="footnote-reference" id="fr-fn544-1"><a href="#fn-fn544">2</a></sup> “consciousness
+which is non-manifestative, endless, lustrous on all sides”, one has to see the
+cessation of contact.</p>
+<p>In a certain discourse in the <em>Mucalindavagga</em> of the <em>Udāna</em>, the Buddha has
+declared in a verse of uplift that the cessation of contact comes about only by
+doing away with that which brings about contact. The wandering ascetics of other
+sects grew jealous of the Buddha and his congregation of monks, because of their
+own loss of gain and honour, and began to hurl abuse on monks in the village and
+in the forest.</p>
+<p>A group of monks came and reported this to the Buddha. The Buddha’s response to
+it was only a paean of joy. <em>Udāna</em> actually means a spontaneous utterance of
+joy, and the verse he uttered was such a one. But it embodied an instruction on
+Dhamma and a norm of Dhamma as well.</p>
+<blockquote>
+<p><em>Gāme araññe sukhadukkhaphuṭṭho,</em> <br />
+<em>nev’attato no parato dahetha,</em> <br />
+<em>phusanti phassā upadhiṁ paṭicca,</em> <br />
+<em>Nirūpadhiṁ kena phuseyyum phassā.</em><sup class="footnote-reference" id="fr-fn545-1"><a href="#fn-fn545">3</a></sup></p>
+</blockquote>
+<p>In the first two lines we get an instruction:</p>
+<blockquote>
+<p>Touched by pain in village or in forest, <br />
+Think not in terms of oneself or others</p>
+</blockquote>
+<p>The reason for it is given in the norm of Dhamma which follows:</p>
+<blockquote>
+<p>Touches can touch one, because of assets, <br />
+How can touches touch him, who is asset-less?</p>
+</blockquote>
+<p>This is all what the Buddha uttered. From this we can glean another aspect of
+the significance of the terms <em>sabbūpadhipaṭinissagga</em>, relinquishment of all
+assets, and <em>nirupadhi</em>, the asset-less, used with reference to Nibbāna.</p>
+<p>In a number of previous sermons we happened to explain the concept of <em>upadhi</em>
+to some extent, as and when the terms <em>upadhi</em> and <em>paṭinissagga</em> came
+up.<sup class="footnote-reference" id="fr-fn546-1"><a href="#fn-fn546">4</a></sup> To refresh our memory, we may summarize all that now. What is the
+concept of <em>upadhi</em>, or ‘assets’, recognized by the world?</p>
+<p>Whatever that bolsters up the ego, be it gold, silver, pearls, gems, money,
+house and property, deposits and assets. All these are reckoned as <em>upadhi</em> in
+general. But when considered from the point of view of Dhamma, <em>upadhi</em> in a
+deeper sense stands for this fivefold grasping groups, <em>pañcupādānakkhandha</em>.</p>
+<p><em>Upādānakkhandha</em> literally means ‘groups of grasping’. Groups of grasping do
+not necessarily imply that there are material objects to be grasped. But the
+worldling, overcome by that triple proliferation of cravings, conceits and
+views, and carried away by the worldly conventions, imagines those groups of
+grasping as things grasped and deposited.</p>
+<p>The concept of <em>upadhi</em> as assets has arisen as a result of this tendency to
+think of groups of grasping as things grasped and deposited. So it turns out to
+be a question of viewpoint.</p>
+<p>Cravings, conceits and views prompt one to look upon all what one has grasped so
+far and what one hopes to grasp in the future as things one is grasping right
+now. One thinks of them as things deposited in a safe. The worldlings are
+holding on to such a mass of assets.</p>
+<p>Nibbāna is the relinquishment of all such assets, accumulated in the mind. In
+order to relinquish these assets there must be some kind of understanding – an
+enlightenment. The vanity of all these assets has to be seen through by the
+light of wisdom. It is only by seeing their vanity that the assets are
+relinquished. In fact it is not so much a deliberate giving up of assets, as a
+sequential liquidation.</p>
+<p>In a previous sermon we gave an illustration of the situation that precipitates
+relinquishment. Let us bring it up again. We found the cinema quite helpful as
+an illustration. In explaining the phenomenon of relinquishment of assets with
+reference to the cinema, we described how the assets accumulated in the minds of
+the audience, that is, the assets proper to the cinema world woven around the
+story that is filmed, are automatically abandoned when the cinema hall gets lit
+up.<sup class="footnote-reference" id="fr-fn547-1"><a href="#fn-fn547">5</a></sup> Then one understands the illusory nature of what has been going on.
+It is that understanding, that enlightenment, which precipitates the giving up
+or relinquishment of assets.</p>
+<p>To go a step further in this illustration, when lights came on the <em>saṅkhāras</em>
+or preparations pertaining to the film show got exposed for what they are. In
+fact, <em>saṅkhāra</em> is a word that has associations with the dramatic tradition in
+its relation to the acting of actors and actresses down to their make-up, which
+is so artificial and spurious.</p>
+<p>When the cinema hall gets lit up all of a sudden, one who has been enjoying the
+film show is momentarily thrown out of the cinema world, because those
+preparations are pacified or nullified, <em>sabba saṅkhārasamatho</em>. As a
+consequence of it, the heap of experiences which he had hitherto regarded as
+real and genuine, lose their sanction. Those assets get liquidated or
+relinquished, <em>sabbūpadhipaṭinissagga</em>.</p>
+<p>In their absence, that craving necessary for the appreciation or enjoyment of
+the scenes to come becomes extinct, <em>taṇhakkhayo</em>. When craving is gone, the
+floridity of the scenes to come also fades away, <em>virāga</em>. With that fading away
+or decolouration, the film show ceases for the person concerned, <em>nirodha</em>,
+though technically the movie is going on. Because of that cessation all the
+fires of defilements proper to the cinema world, with which he was burning, get
+extinguished, Nibbāna.</p>
+<p>So here we have the full gamut of the cinema simile as an illustration for
+Nibbāna. This kind of awakening in the cinema world gives us a clue to the fact
+that the assets, <em>upadhi</em>, are relinquished through an understanding born of
+enlightenment in the light of wisdom. This in fact is something that should be
+deeply ingrained in our minds. Therefore we shall endeavour to give some more
+illustrations to that effect.</p>
+<p>In our everyday life, too, we sometimes see and hear of instances where assets
+get relinquished due to understanding. Someone heaps up a huge bundle of
+currency notes of the highest denomination, deposits it in his safe and keeps
+watch and ward over it day and night. One fine morning he wakes up to hear that
+for some reason or other that currency note has been fully devalued by law the
+previous night. How does he look upon the wads of notes in his safe now? For
+him, it is now a mere heap of papers.</p>
+<p>The craving, conceit and view he had earlier in regard to the notes are
+completely gone. The bank notes are no longer valid. He might as well make a
+bonfire of it. So this is some sort of relinquishment of assets in the world,
+however temporary it may be.</p>
+<p>Another person gets a sudden transfer and is getting ready to leave for his new
+station. His immovable assets he is forced to leave behind, but his movable
+assets he hurriedly gathers up to take with him. The vehicle has already come
+and is tooting impatiently, signalling delay. It is well past time, but his
+‘preparations’ are not finished. Time-pressed, in hot haste, he is running here
+and there.</p>
+<p>At last, when he can delay no longer, he grabs the utmost he can take
+and darts to the doorstep. Just then, he wakes up. It was only a dream! The
+transfer came in a dream. No real vehicle, no real preparation, only a panting
+for nothing!</p>
+<p>So here we have an ‘awakening’ peculiar to the dream world. This is an instance
+of letting go of assets connected with a dream. We go through such experiences
+quite often. Of course, we take it for granted that when we pass from the dream
+world to the real world, the assets proper to the dream world drop off. But are
+we sure that in leaving the dream world we are entering a real world? Is
+awakening from a dream a true awakening when considered from the point of view
+of the Dhamma? Do we actually open our eyes, when we awaken from a dream?</p>
+<p>Terms like Buddha, <em>bodhi</em> and <em>sambodhi</em> convey the sense of awakening as well
+as understanding. Sometimes in the Dhamma the emphasis is on the sense of
+awakening. Here then is a kind of awakening.</p>
+<p>Expressions like <em>dhammacakkhu</em>, ‘Dhamma-eye’, <em>paññācakkhu</em>, ‘Wisdom-eye’, and
+<em>cakkhuṁ udapādi</em>, ‘the eye arose’, bespeak of an arising of some sort of an
+eye. We already have eyes, but an eye is said to arise. All this goes to show
+that in the context of Nibbāna, where we are concerned with the deeper aspects
+of the Dhamma, the awakening from a dream is not a true awakening. It is only a
+passage from one dream world to another.</p>
+<p>But let us see how the concept of <em>upadhi</em>, or assets, goes deeper. What lies
+before us is the dream of <em>saṁsāra</em>. In order to awaken from this dream, we have
+to understand somehow the vanity of all assets connected with the dream that is
+<em>saṁsāra</em>.</p>
+<p>The fact that this understanding also comes through some illumination we have
+already explained the other day in our discussion of the paean of joy at the end
+of the <em>Bāhiyasutta</em>.<sup class="footnote-reference" id="fr-fn548-1"><a href="#fn-fn548">6</a></sup> As we pointed out then, the world of the six
+sense-bases which the worldlings regard as ‘their world’, when examined against
+the background of that <em>Udāna</em> verse reveals itself to be no more than six
+narrow beams of light, appearing through a solidly thick curtain, namely the
+darkness of delusion.</p>
+<p>We happened to mention the other day that the sun, the moon and the stars shine
+precisely because of the presence of darkness. In the non-manifestative
+consciousness which is infinite and lustrous all round, <em>viññāṇaṁ anidassanaṁ,
+anantaṁ sabbato pabhaṁ</em>, sun, moon and stars are not manifest, because there is
+absolutely no darkness for them to shine forth. Even the formless, which is the
+penumbra of form, disappears in that penetrative lustre of wisdom.</p>
+<p>So the relinquishment of all assets, Nibbāna, is not like the other temporary
+awakenings already mentioned. Those three instances of awakening are of a
+temporary nature. The awakening in the cinema world is extremely short lived.
+That film fan, although he became disenchanted with the scenes because of the
+unexpected sudden illumination of the cinema hall, when it is dark again,
+influxes of sensuality, existence and ignorance so overwhelm him that he gets
+engrossed in the cinema world as before.</p>
+<p>The case of the devalued currency note is also like that. Though the cravings,
+conceits and views about the devalued note are gone, one still runs after notes
+that are valid. As for the awakening from a dream, we all know that it is
+temporary. When again we go to sleep, we have dreams.</p>
+<p>But the awakening in Nibbāna is not of such a temporary character. Why? Because
+all the influxes that lead one into the <em>saṁsāric</em> slumber with its dreams of
+recurrent births are made extinct in the light of that perfect knowledge of
+realization. That is why the term <em>āsavakkhaya</em>, extinction of influxes, is used
+in the discourses as an epithet of Nibbāna. The <em>arahants</em> accomplish this feat
+in the concentration on the fruit of <em>arahanthood</em>, <em>arahattaphalasamādhi</em>.</p>
+<p>Though there are enough instances of references to this <em>arahattaphalasamādhi</em>
+in the discourses, they are very often interpreted differently. As we have
+already seen in the context of that verse of uplift in the <em>Bāhiyasutta</em>, some
+discourses alluding to the nature of an <em>arahant’s</em> mind have been
+misinterpreted, so much so that there is a lot of confusion in regard to the
+concept of Nibbāna.</p>
+<p>As a matter of fact, that concentration peculiar to an <em>arahant</em> is of an
+extraordinary type. It baffles the worldling’s powers of understanding. This can
+well be inferred from the following verse of the <em>Ratanasutta</em>:</p>
+<blockquote>
+<p><em>Yaṁ Buddhaseṭṭho parivaṇṇayī suciṁ,</em> <br />
+<em>samādhim ānantarikaññam āhu,</em> <br />
+<em>samādhinā tena samo na vijjati,</em> <br />
+<em>idampi Dhamme ratanaṁ paṇītaṁ,</em> <br />
+<em>etena saccena suvatthi hotu</em>.<sup class="footnote-reference" id="fr-fn549-1"><a href="#fn-fn549">7</a></sup></p>
+<p>That pure concentration, <br />
+<span class="vin"></span> which the Supremely Awakened One extolled, <br />
+That concentration which the Noble Ones call ‘immediate’, <br />
+<span class="vin"></span> (<em>ānantarika</em>) <br />
+There is no concentration comparable to it, <br />
+This is the excellent jewel nature of the Dhamma, <br />
+By the power of this truth may there be well-being.</p>
+</blockquote>
+<p>This incomparable and extraordinary concentration has given rise to many
+problems concerning the concept of Nibbāna. The extraordinariness of this
+concentration of the <em>arahant</em> is to some extent connected with the term
+<em>ānantarika</em>, referred to above. Now let us turn our attention to the
+significance of this term.</p>
+<p>The verse says that the concentration of the <em>arahant</em> is also known as
+<em>ānantarika</em>. The term <em>ānantarika</em> is suggestive of an extraordinary aspect of
+the realization of Nibbāna. Immediately after the extinction of the defilements
+through the knowledge of the path of <em>arahanthood</em> one realizes Nibbāna, the
+cessation of existence or the cessation of the six sense-bases. As we mentioned
+earlier, it is as if the results are out as soon as one has written for an
+examination.<sup class="footnote-reference" id="fr-fn550-1"><a href="#fn-fn550">8</a></sup> One need not wait for the results. Realization is
+immediate.</p>
+<p>There is a special term to denote this experience of realization, namely,
+<em>aññā</em>. It is a highly significant term, derived from <em>ājānāti</em>, ‘to know
+fully’. <em>Aññā</em> is ‘full comprehension’.</p>
+<p>The concentration of the fruit of <em>arahanthood</em> is also called
+<em>aññāphalasamādhi</em> and <em>aññāvimokkha</em>.</p>
+<p><em>Aññā</em> carries with it a high degree of importance. We come across in the sutta
+terminology a number of terms derived from the root <em>ñā</em>, ‘to know’, namely
+<em>saññā, viññāṇa, paññā, ñāṇa, abhiññā, pariññā, aññā</em>.</p>
+<p><em>Saññā</em> is ‘perception’, <br />
+<em>viññāṇa</em> is, radically, ‘discriminative knowledge’, <br />
+<em>paññā</em> is ‘distinctive knowledge’, <br />
+<em>ñāṇa</em> is ‘knowledge’ as such, <br />
+<em>abhiññā</em> is ‘specialized knowledge’, <br />
+<em>pariññā</em> is ‘comprehensive knowledge’, <br />
+<em>aññā</em> is that ‘final knowledge’ of certitude through realization.</p>
+<p>The high degree of importance attached to <em>aññā</em> is revealed by the following two verses in the <em>Itivuttaka</em>:</p>
+<blockquote>
+<p><em>Sekhassa sikkhamānassa</em> <br />
+<em>ujumaggānusārino</em> <br />
+<em>khayasmiṁ paṭhamaṁ ñāṇaṁ</em> <br />
+<em>tato aññā anantarā</em>.</p>
+<p><em>Tato aññā vimuttassa,</em> <br />
+<em>ñāṇaṁ ve hoti tādino</em> <br />
+<em>akuppā me vimuttī’ti</em> <br />
+<em>bhavasaṁyojanakkhaye.</em><sup class="footnote-reference" id="fr-fn551-1"><a href="#fn-fn551">9</a></sup></p>
+</blockquote>
+<blockquote>
+<p>To the disciple in higher training, as he fares along <br />
+Training according to the straight path, <br />
+There arises first the knowledge of extinction, <br />
+And then immediately the final knowledge of certitude.</p>
+<p>And to that steadfast such-like-one, <br />
+Thus released by final knowledge of certitude, <br />
+There arises the thought: <br />
+<span class="vin"></span> ‘Unshakeable is my deliverance’, <br />
+Upon the destruction of fetters of existence.</p>
+</blockquote>
+<p>It is evident from these two verses that the realization referred to is in many
+ways final and complete. In point of fact, these two verses have been presented
+by the Buddha in this context by way of defining three things relevant to the
+realization of Nibbāna. These three are called faculties, <em>indriya</em>. They are:</p>
+<ol>
+<li><em>anaññātaññāssāmīt’indriya</em></li>
+<li><em>aññindriya</em></li>
+<li><em>aññātāvindriya</em></li>
+</ol>
+<p>The term <em>aññā</em> is implicit even in the faculty called
+<em>anaññātaññāssāmīt’indriya</em>. <em>Anaññātaññāssāmi</em> means “I shall know what has not
+been fully known”.</p>
+<p>This is the definition of what in the verse is referred to as <em>khayasmiṁ
+paṭhamaṁ ñāṇaṁ</em>, “first there is the knowledge of extinction”. The knowledge of
+the extinction of the defilements is called <em>anaññātaññāssāmīt’indriya</em> in this
+context.</p>
+<p>The words <em>tato aññā anantarā</em>, “and then immediately the final knowledge of
+certitude”, refer to that faculty of final knowledge, or <em>aññindriya</em>. The
+knowledge that prompts the conviction “unshakeable is my deliverance” is the
+knowledge and vision of deliverance, which is defined as <em>aññātāvindriya.</em> It
+refers to one who is endowed with the final knowledge of certitude.</p>
+<p>The difference between <em>aññindriya</em> and <em>aññātāvindriya</em> is a subtle one. For
+instance, the expression <em>bhuttāvī pavārito</em>, one has finished eating and made a
+sign of refusal, decisively shows that one has had one’s fill.<sup class="footnote-reference" id="fr-fn552-1"><a href="#fn-fn552">10</a></sup></p>
+<p>Similarly, it is that <em>aññātāvindriya</em> (note the past active participle), which
+prompts the words “unshakeable is my deliverance”, <em>akuppā me vimutti</em>.<sup class="footnote-reference" id="fr-fn553-1"><a href="#fn-fn553">11</a></sup>
+The knowledge and vision of deliverance is reassuring to that extent.</p>
+<p>As the above quoted verse from the <em>Ratanasutta</em> makes it clear, this unique and
+extraordinary concentration has been extolled by the Buddha in various
+discourses. But for some reason or other, the commentators have simply glossed
+over references to it, though they sometimes expatiate on a particle of mere
+grammatical interest. Let us now take up for comment a few such discourses.</p>
+<p>In the section of the Elevens in the <em>Aṅguttara Nikāya</em> there comes a discourse
+called <em>Sandhasutta</em>. There the Buddha gives to Venerable Sandha a description
+of a level of concentration characteristic of an excellent thoroughbred of a
+man. It is a strange type of concentration. One who has that concentration is
+described as follows:</p>
+<blockquote>
+<p><em>So neva paṭhaviṁ nissāya jhāyati, na āpaṁ nissāya jhāyati, na tejaṁ nissāya
+jhāyati, na vāyaṁ nissāya jhāyati, na ākāsānañcāyatanaṁ nissāya jhāyati, na
+viññāṇañcāyatanaṁ nissāya jhāyati, na ākiñcaññāyatanaṁ nissāya jhāyati, na
+nevasaññānāsaññāyatanaṁ nissāya jhāyati, na idhalokaṁ nissāya jhāyati, na
+paralokaṁ nissāya jhāyati, yam p’idaṁ diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ
+pariyesitaṁ anuvicaritaṁ manasā, tam pi nissāya na jhāyati, jhāyati ca pana.</em></p>
+<p><em>Evaṁ jhāyiṁ ca pana, Sandha, bhadraṁ purisājānīyaṁ sa-indā devā sabrahmakā
+sapajapatikā ārakā’va namassanti:</em></p>
+<p><em>Namo te purisājañña,</em> <br />
+<em>namo te purisuttama,</em> <br />
+<em>yassa te nābhijānāma,</em> <br />
+<em>yampi nissāya jhāyasi</em>.<sup class="footnote-reference" id="fr-fn554-1"><a href="#fn-fn554">12</a></sup></p>
+</blockquote>
+<p>In this discourse, the Buddha gives, as an illustration, the musing of a
+thoroughbred of a horse, which we shall drop for brevity’s sake. The musing of
+an excellent thoroughbred of a man is described as follows:</p>
+<blockquote>
+<p>He muses not dependent on earth, water, fire, air, the sphere of infinite
+space, the sphere of infinite consciousness, the sphere of nothingness, the
+sphere of neither-perception-nor-non-perception, he muses not dependent on
+this world or on the world beyond, whatever is seen, heard, sensed, cognized,
+attained, sought after, traversed by the mind, dependent on all that he muses
+not – and yet he does muse.</p>
+<p>Moreover, Sandha, to him thus musing the <em>devas</em> with <em>Indra,</em> with Brahmā
+and with Pajāpati even from afar bow down, saying:</p>
+<p>“Homage to you, O thoroughbred of a man, <br />
+Homage to you, O most excellent of men, <br />
+For what it is on which you go on musing, <br />
+We are at a loss to comprehend.”</p>
+</blockquote>
+<p>Though all possible objects of concentration are negated, the Buddha affirms
+that he does muse. Venerable Sandha, out of curiosity inquires:</p>
+<blockquote>
+<p>But then how, Lord, does that thoroughbred of a man muse?</p>
+</blockquote>
+<p>The Buddha explains that while in that state of concentration, the perception of
+earth in earth, for instance, is gone for him, <em>pathaviyā pathavīsaññā vibhūtā
+hoti</em>. So also in the case of other objects of the senses, such as water, fire,
+air, down to whatever is seen, heard, sensed, cognized, attained, sought after
+and traversed by the mind.</p>
+<p>The verb <em>vibhūtā</em>, repeatedly used in this connection, is however differently
+interpreted in the commentary. It is paraphrased by <em>pākaṭā</em>, which means
+‘clearly manifest’.<sup class="footnote-reference" id="fr-fn555-1"><a href="#fn-fn555">13</a></sup> This interpretation seems to distort the meaning of
+the entire passage.</p>
+<p>It is true that in certain contexts <em>vibhūta</em> and <em>avibhūta</em> are taken to mean
+‘manifest’ and ‘unmanifest’, since <em>vibhava</em> is a word which seems to have
+undergone some semantic development. However, its primary sense is sufficiently
+evident in the sutta terminology.</p>
+<p>For instance, the twin term <em>bhava/vibhava</em> stands for ‘existence’ and
+‘non-existence’. In this context, too, <em>vibhūta</em> seems to have a negative sense,
+rather than the sense of being manifest. Hence our rendering: “The perception of
+earth is gone for him”.</p>
+<p>It is obvious enough by the recurrent negative particle in the first part of the
+sutta (<em>neva paṭhaviṁ nissāya jhāyati, na āpaṁ nissāya jhāyati</em>, etc.) that all
+those perceptions are negated and not affirmed as manifest. The commentator
+seems to have missed the true import of the sutta when he interprets <em>vibhūta</em>
+to mean ‘manifest’.</p>
+<p>If further proof is required, we may quote instances where the word <em>vibhūta</em> is
+used in the suttas to convey such senses as ‘gone’, ‘departed’ or ‘transcended’.</p>
+<p>In one of the verses we happened to quote earlier from the <em>Kalahavivādasutta</em>,
+there was the question posed: <em>Kismiṁ vibhūte na phusanti phassā?</em><sup class="footnote-reference" id="fr-fn556-1"><a href="#fn-fn556">14</a></sup> “When
+what is not there, do touches not touch?”</p>
+<p>The verse that follows gives the answer: <em>Rūpe vibhūte na phusanti
+phassā.</em><sup class="footnote-reference" id="fr-fn557-1"><a href="#fn-fn557">15</a></sup> “When form is not there, touches do not touch.” In this
+context, too, <em>vibhūta</em> implies absence.</p>
+<p>A clearer instance comes in the <em>Posālamāṇavapucchā</em> of the <em>Pārāyanavagga</em> in
+the <em>Sutta Nipāta</em>, namely the term <em>vibhūtarūpasaññissa</em>, occurring in one of
+the verses there.<sup class="footnote-reference" id="fr-fn558-1"><a href="#fn-fn558">16</a></sup></p>
+<p>The canonical commentary <em>Cūḷaniddesa</em>, which the commentator often draws upon,
+also paraphrases the term with the words <em>vigatā, atikkantā, samatikkantā,
+vītivattā,</em><sup class="footnote-reference" id="fr-fn559-1"><a href="#fn-fn559">17</a></sup> “gone, transcended, fully transcended, and superseded”.</p>
+<p>So the word <em>vibhūta</em> in the passage in question definitely implies the absence
+of all those perceptions in that concentration. This, then, is a unique
+concentration. It has none of the objects which the worldlings usually associate
+with a level of concentration.</p>
+<p>We come across a number of instances in the discourses, in which the Buddha and
+some other monks have been interrogated on the nature of this extraordinary
+concentration. Sometimes even Venerable Ānanda is seen to confront the Buddha
+with a question on this point.</p>
+<p>In a discourse included in the section of the Elevens in the <em>Aṅguttara Nikāya</em>,
+Venerable Ānanda questions on the possibility of attaining to such a
+concentration with an air of wonderment:</p>
+<blockquote>
+<p><em>Siyā nu kho, bhante, bhikkhuno tathārūpo samādhipaṭilābho yathā neva
+pathaviyaṁ pathavīsaññī assa, na āpasmiṁ āposaññī assa, na tejasmiṁ tejosaññī
+assa, na vāyasmiṁ vāyosaññī assa, na ākāsānañcāyatane ākāsānañcāyatanasaññī
+assa, na viññāṇañcāyatane viññāṇancāyatanasaññī assa, na ākiñcaññāyatane
+ākiñcaññāyatanasaññī assa, na nevasaññānāsaññāyatane
+nevasaññānāsaññāyatanasaññī assa, na idhaloke idhalokasaññī assa, na paraloke
+paralokasaññī assa, yam p’idaṁ diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ pariyesitaṁ
+anuvicaritaṁ manasā tatrāpi na saññī assa, saññī ca pana assa?</em><sup class="footnote-reference" id="fr-fn560-1"><a href="#fn-fn560">18</a></sup></p>
+<p>Could there be, Lord, for a monk such an attainment of concentration wherein
+he will not be conscious (literally ‘percipient’) of earth in earth, nor of
+water in water, nor of fire in fire, nor of air in air, nor will he be
+conscious of the sphere of infinite space in the sphere of infinite space, nor
+of the sphere of infinite consciousness in the sphere of infinite
+consciousness, nor of the sphere of nothingness in the sphere of nothingness,
+nor of the sphere of neither-perception-nor-non-perception in the sphere of
+neither-perception-nor-non-perception, nor will he be conscious of a this
+world in this world, nor of a world beyond in a world beyond, whatever is
+seen, heard, sensed, cognized, attained, sought after, traversed by the mind,
+even of it he will not be conscious – and yet he will be conscious?</p>
+</blockquote>
+<p>Whereas the passage quoted earlier began with <em>so neva pathaviṁ nissāya
+jhāyati</em>, “he muses not dependent on earth” and ended with the emphatic
+assertion <em>jhāyati ca pana</em>, “and yet he does muse”, here we have a restatement
+of it in terms of perception, beginning with <em>neva pathaviyaṁ pathavīsaññī</em> and
+ending with <em>saññī ca pana assa</em>. The Buddha answers in the affirmative and on
+being questioned as to how it is possible he gives the following explanation:</p>
+<blockquote>
+<p><em>Idh’Ānanda, bhikkhu, evaṁ saññī hoti: Etaṁ santaṁ, etaṁ paṇītaṁ, yadidaṁ
+sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhakkhayo virāgo nirodho
+nibbānan’ti. Evaṁ kho, Ānanda, siyā bhikkhuno tathārūpo samādhipaṭilābho</em> …</p>
+<p>Herein, Ānanda, a monk is thus conscious (<em>evaṁ saññī</em>): This is peaceful,
+this is excellent, namely the stilling of all preparations, the relinquishment
+of all assets, the destruction of craving, detachment, cessation, extinction.
+It is thus, Ānanda, that there could be for a monk such an attainment of
+concentration …</p>
+</blockquote>
+<p>This, in fact, is the theme of all our sermons. Venerable Ānanda, of course,
+rejoiced in the Buddha’s words, but approached Venerable Sāriputta also and put
+forward the same question. Venerable Sāriputta gave the same answer verbatim.</p>
+<p>Then Venerable Ānanda gave expression to a joyous approbation:</p>
+<blockquote>
+<p><em>Acchariyaṁ āvuso, abbhutaṁ āvuso, yatra hi nāma satthu ca sāvakassa ca
+atthena atthaṁ vyañjanena vyañjanaṁ saṁsandissati samessati na viggahissati,
+yad idaṁ aggapadasmiṁ.</em></p>
+<p>Friend, it is wonderful, it is marvellous, that there is perfect conformity
+between the statements of the teacher and the disciple to the letter and to
+the spirit without any discord on the question of the highest level of
+attainment.</p>
+</blockquote>
+<p>These last words, in particular, make it sufficiently clear that this
+concentration is <em>arahattaphalasamādhi</em>, the concentration proper to an
+<em>arahant</em>. Here, then, is the experience of Nibbāna, extraordinary and unique.</p>
+<p>Quite a number of discourses touch upon this <em>samādhi</em>. Let us take up some of
+the more important references. Venerable Ānanda is seen to pose the same
+question, rephrased, on yet another occasion. It runs thus:</p>
+<blockquote>
+<p><em>Siyā nu kho, bhante, tathārūpo samādhipaṭilābho yathā na cakkhuṁ
+manasikareyya, na rūpaṁ manasikareyya, na sotaṁ manasikareyya, na saddaṁ
+manasikareyya, na ghānaṁ manasikareyya, na gandhaṁ manasikareyya, na jivhaṁ
+manasikareyya, na rasaṁ manasikareyya, na kāyaṁ manasikareyya, na phoṭṭhabbaṁ
+manasikareyya, na pathaviṁ manasikareyya, na āpaṁ manasikareyya, na tejaṁ
+manasikareyya, na vāyaṁ manasikareyya, na ākāsānañcāyatanaṁ manasikareyya, na
+viññāṇañcāyatanaṁ manasikareyya, na ākiñcaññāyatanaṁ manasikareyya, na
+nevasaññānāsaññāyatanaṁ manasikareyya, na idhalokaṁ manasikareyya, na
+paralokaṁ manasikareyya, yam p’idaṁ diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ
+pariyesitaṁ anuvicaritaṁ manasā tam pi na manasikareyya, manasi ca pana
+kareyya?</em><sup class="footnote-reference" id="fr-fn561-1"><a href="#fn-fn561">19</a></sup></p>
+<p>Could there be, Lord, for a monk such an attainment of concentration wherein
+he will not be attending to the eye, nor to form, nor to the ear, nor to
+sound, nor to the nose, nor to smell, nor to the tongue, nor to taste, nor to
+the body, nor to touch, nor to earth, nor to water, nor to fire, nor to air,
+nor to the sphere of infinite space, nor to the sphere of infinite
+consciousness, nor to the sphere of nothingness, nor to the sphere of
+neither-perception-nor-non-perception, nor to this world, nor to the world
+beyond, whatever is seen, heard, sensed, cognized, attained, sought after,
+traversed by the mind, even to that he will not be attending – and yet he will
+be attending?</p>
+</blockquote>
+<p>“There could be such a concentration”, says the Buddha, and Venerable Ānanda
+rejoins with his inquisitive: “How, Lord, could there be?” Then the Buddha gives
+the following explanation, which tallies with the one earlier given:</p>
+<blockquote>
+<p><em>Idh’Ānanda, bhikkhu evaṁ manasi karoti: Etaṁ santaṁ, etaṁ paṇītaṁ, yadidaṁ
+sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhakkhayo virāgo nirodho
+nibbānan’ti. Evaṁ kho, Ānanda, siyā bhikkhuno tathārūpo samādhipaṭilābho</em> …</p>
+<p>Herein, Ānanda , a monk attends thus: This is peaceful, this is excellent,
+namely the stilling of all preparations, the relinquishment of all assets, the
+destruction of craving, detachment, cessation, extinction. It is thus, Ānanda,
+that there could be such an attainment of concentration …</p>
+</blockquote>
+<p>In the light of the foregoing discussion, we are now in a position to take up
+for comment that enigmatic verse of the <em>Kalahavivādasutta</em>, which in a previous
+sermon we left unexplained, giving only a slight hint in the form of a
+simile.<sup class="footnote-reference" id="fr-fn562-1"><a href="#fn-fn562">20</a></sup></p>
+<blockquote>
+<p><em>Na saññasaññī na visaññasaññī,</em> <br />
+<em>no pi asaññī na vibhūtasaññī,</em> <br />
+<em>evaṁ sametassa vibhoti rūpaṁ,</em> <br />
+<em>saññānidānā hi papañcasaṅkhā.</em><sup class="footnote-reference" id="fr-fn563-1"><a href="#fn-fn563">21</a></sup></p>
+</blockquote>
+<p>The general trend of this verse seems to imply something like this: The
+worldlings usually believe that one has to have some form of perception or
+other. But the one referred to in this verse is not percipient with any such
+perception, <em>na saññasaññī</em>.</p>
+<p>As if to forestall the question, whether he is then in a swoon, there is the
+negation <em>na visaññasaññī</em>. A possible alternative, like a plane of existence
+devoid of perception, is also avoided by the emphatic assertion <em>no pi asaññī</em>.
+Yet another possibility, that he has gone beyond perception or rescinded it, is
+rejected as well with the words <em>na vibhūtasaññī</em>.</p>
+<p>The third line says that it is to one thus endowed that form ceases to exist,
+while the last line seems to give an indication as to why it is so:</p>
+<blockquote>
+<p><em>Saññānidānā hi papañcasaṅkhā</em>,</p>
+<p>for reckonings born of proliferation have perception as their source.</p>
+</blockquote>
+<p>The nature of these reckonings we have already discussed at length. The
+conclusion here given is that they are rooted in <em>papañca</em>. Now the passages we
+have so far quoted are suggestive of such a state of consciousness. Briefly
+stated, even the emphatic tone characteristic of these discourses is sufficient
+proof of it.</p>
+<p>For instance, in the first discourse we took up for discussion, there is the
+recurrent phrase <em>na jhāyati</em>, “does not muse”, with reference to all the
+possible objects of the senses, but at the end of it all comes the emphatic
+assertion <em>jhāyati ca pana</em>, “nevertheless, he does muse”.</p>
+<p>Similarly the passage dealing with the <em>saññā</em> aspect starts with <em>neva
+pathaviyaṁ pathavisaññī</em>, “he is neither conscious (literally ‘percipient’) of
+earth in earth”, followed by a long list of negations, only to end up with an
+emphatic <em>saññī ca pana assa</em>, “but nevertheless he is conscious”.</p>
+<p>So also in the passage which takes up the attending aspect and winds up with the
+assertion <em>manasi ca pana kareyya</em>, “and yet he will be attending”.</p>
+<p>All this evidence is a pointer to the fact that we have to interpret the
+reference to the paradoxical state of consciousness implied by <em>na saññasaññī na
+visaññasaññī</em> etc. in the <em>Kalahavivādasutta</em> in the light of that unique
+concentration of the <em>arahant</em> - the <em>arahattaphalasamādhi</em>.</p>
+<p>This is obvious enough even if we take into consideration the occurrence of the
+term <em>papañcasaṅkhā</em> in the last line of the verse in question. The worldly
+concepts born of the prolific tendency of the mind are rooted in perception.
+That is precisely why perception has to be transcended. That is also the reason
+for our emphasis on the need for freedom from the six sense-bases and from
+contact. The abandonment of <em>papañcasaṅkhā</em> is accomplished at this
+extraordinary level of concentration.</p>
+<p>The immense importance attached to the <em>arahattaphalasamādhi</em> comes to light in
+the passages we have quoted. These discourses are abundant proof of the fact
+that the Buddha has extolled this <em>samādhi</em> in various ways. The verse beginning
+with <em>na saññasaññī na visaññasaññī</em> in particular points to this fact.</p>
+<p>On an earlier occasion we gave only a clue to its meaning in the form of an
+allusion to our simile of the cinema. That is to say, while one is watching a
+film show, if the cinema hall is fully illuminated all of a sudden, one
+undergoes such an internal transformation, that it becomes questionable whether
+he is still seeing the film show. This is because his perception of the film
+show has undergone a peculiar change. He is no longer conscious of a film show,
+nor has he put an end to consciousness. It is a strange paradox. His gaze is
+actually a vacant gaze.</p>
+<p>The verse in question expresses such a vacant gaze. When the six sense-bases of
+the <em>arahant</em> cease and the lustre of wisdom comes up, giving the conviction
+that all assets in the world are empty, the vision in the <em>arahattaphalasamādhi</em>
+is as vacant as that gaze of the man at the cinema. It is neither conscious, nor
+unconscious, nor non-conscious, nor totally devoid of consciousness. At that
+level of concentration even this material form is abandoned.</p>
+<p>The line in the paean of joy in the <em>Bāhiyasutta</em>, which we came across the
+other day, <em>atha rūpā arūpā ca, sukhadukkhā pamuccati</em>,<sup class="footnote-reference" id="fr-fn564-1"><a href="#fn-fn564">22</a></sup> “and then from
+form and formless and from pleasure and pain is he freed”, can be better
+appreciated in the light of the foregoing discussion.</p>
+<p>With the relinquishment of all assets, even this body and the experience of a
+form and of a formless, as well as pleasure and pain, cease altogether due to
+the cessation of contact. That is why Nibbāna is called a bliss devoid of
+feeling, <em>avedayita sukha</em>.<sup class="footnote-reference" id="fr-fn565-1"><a href="#fn-fn565">23</a></sup></p>
+<p>Now as to this vacant gaze, there is much to be said, though one might think
+that it is not at all worth discussing about. If someone asks us: “What is the
+object of the gaze of one with such a vacant gaze”, what shall we say? The
+vacant gaze is, in fact, not established anywhere (<em>appatiṭṭham</em>). It has no
+existence (<em>appavattaṁ</em>) and it is object-less (<em>anārammaṇaṁ</em>). Even at the
+mention of these three terms, <em>appatiṭṭham, appavattaṁ</em> and <em>anārammaṇaṁ</em>, some
+might recall those highly controversial discourses on Nibbāna.<sup class="footnote-reference" id="fr-fn566-1"><a href="#fn-fn566">24</a></sup></p>
+<p>Why do we call the vision of the <em>arahant</em> a vacant gaze? At the highest point
+of the development of the three characteristics impermanence, suffering and
+not-self, that is, through the three deliverances <em>animitta, appaṇihita</em> and
+<em>suññata</em>, the ‘signess’, the ‘undirected’ and the ‘void’, the <em>arahant</em> is now
+looking at the object with a penetrative gaze. That is why it is not possible to
+say what he is looking at. It is a gaze that sees the cessation of the object, a
+gaze that penetrates the object, as it were.</p>
+<p>When the cinema hall is fully illuminated, the mind of the one with that vacant
+gaze at the film show does not accumulate the stuff that makes up a film. Why?
+Because all those cinema preparations are now stilled, cinema assets are
+relinquished and the craving and the passion for the cinema film have gone down,
+at least temporarily, with the result that the cinema film has ‘ceased’ for him
+and he is ‘extinguished’ within. That is why he is looking on with a vacant
+gaze. With this illustration one can form an idea about the inner transformation
+that occurs in the <em>arahant</em>.</p>
+<p>From the very outset the meditator is concerned with <em>saṅkhāras</em>, or
+preparations. Hence the term <em>sabbasaṅkhārasamatha</em>, the stilling of all
+preparations, comes first. Instead of the arising aspect of preparations, he
+attends to the cessation aspect, the furthest limit of which is Nibbāna. It is
+for that reason that the term <em>nirodha</em> is directly applied to Nibbāna.</p>
+<p>Simply because we have recapitulated the terms forming the theme of our sermons,
+some might think that the formula as such is some form of a gross object of the
+mind. This, in fact, is the root of the misconception prevalent today.</p>
+<p>It is true that the Buddha declared that the <em>arahant</em> has as his perception,
+attention and concentration the formula beginning with <em>etaṁ santaṁ etaṁ
+paṇītaṁ</em> etc. But this does not mean that the <em>arahant</em> in his <em>samādhi</em> goes on
+reciting the formula as we do at the beginning of every sermon.</p>
+<p>What it means is that the <em>arahant</em> reverts to or re-attains the realization he
+has already won through the lustre of wisdom, namely the realization of the
+stilling of all preparations, the relinquishment of all assets, the total
+abandonment of the five aggregates, the destruction of craving, dispassion,
+cessation and extinguishment. That is what one has to understand by the saying
+that the <em>arahant</em> attends to Nibbāna as his object.</p>
+<p>The object is cessation, <em>nirodha</em>. Here is something that Māra cannot grasp,
+that leaves him utterly clueless. This is why Venerable Nandiya in the
+<em>Nandiyatheragāthā</em> challenges Māra in the following verse:</p>
+<blockquote>
+<p><em>Obhāsajātaṁ phalagaṁ,</em> <br />
+<em>cittaṁ yassa abhiṇhaso,</em> <br />
+<em>tādisam bhikkhum āsajja</em> <br />
+<em>kaṇha dukkhaṁ nigacchasi.</em><sup class="footnote-reference" id="fr-fn567-1"><a href="#fn-fn567">25</a></sup></p>
+<p>The monk whose mind is always bright, <br />
+And gone to the fruit of <em>arahanthood</em>, <br />
+Should you dare to challenge that monk, <br />
+O Blackie, you only come to grief.</p>
+</blockquote>
+<p>Kaṇha, Blackie, is one of the epithets of Māra. Even gods and Brahmas are unable
+to find out the object of the <em>arahant’s</em> mind when he is in the
+<em>phalasamāpatti</em>, the attainment to the fruit. Māra can never discover it. That
+is why this attainment is said to leave Māra clueless or deluded (<em>Mārassetaṁ
+pamohanaṁ</em>).<sup class="footnote-reference" id="fr-fn568-1"><a href="#fn-fn568">26</a></sup> All this is due to the uniqueness of this level of
+concentration.</p>
+<p>The three deliverances <em>animitta, appaṇihita</em> and <em>suññata</em>, are indeed
+extraordinary and the verse <em>na saññā saññī</em> refers to this
+<em>arahattaphalasamādhi</em>, which is signless, undirected and void.</p>
+<p>Usually one’s vision alights somewhere or picks up some object or other, but
+here is a range of vision that has no horizon. In general, there is a horizon at
+the furthest end of our range of vision. Standing by the seaside or in a plain,
+one gazes upon a horizon where the earth and sky meet. The worldling’s range of
+vision, in general, has such a horizon. But the <em>arahant’s</em> range of vision, as
+here described, has no such horizon. That is why it is called <em>anantaṁ</em>, endless
+or infinite. <em>Viññāṇaṁ anidassanaṁ, anantaṁ sabbato pabhaṁ</em>, “the
+non-manifestative consciousness, endless, lustrous on all sides.”</p>
+<p>That vacant gaze is an ‘endless’ perception. One who has it cannot be called
+conscious, <em>saññī</em>. Nor can he be called unconscious, <em>visaññī</em> – in the worldly
+sense of the term. Nor is he devoid of consciousness, <em>asaññī</em>. Nor has he put
+an end to consciousness, <em>vibhūtasaññī</em>.</p>
+<p>Let us now take up two verses which shed a flood of light on the foregoing
+discussion and help illuminate the meaning of canonical passages that might come
+up later. The two verses are from the <em>Arahantavagga</em> of the <em>Dhammapada</em>.</p>
+<blockquote>
+<p><em>Yesaṁ sannicayo natthi,</em> <br />
+<em>ye pariññāta bhojanā,</em> <br />
+<em>suññato animitto ca,</em> <br />
+<em>vimokkho yesa gocaro,</em> <br />
+<em>ākāse va sakuntānaṁ,</em> <br />
+<em>gati tesaṁ durannayā.</em></p>
+<p><em>Yass’āsavā parikkhīṇā,</em> <br />
+<em>āhāre ca anissito,</em> <br />
+<em>suññato animitto ca,</em> <br />
+<em>vimokkho yassa gocaro,</em> <br />
+<em>ākāse va sakuntānaṁ,</em> <br />
+<em>padaṁ tassa durannayaṁ.</em><sup class="footnote-reference" id="fr-fn569-1"><a href="#fn-fn569">27</a></sup></p>
+<p>Those who have no accumulations, <br />
+And understood fully the subject of food, <br />
+And whose feeding ground <br />
+Is the void and the signless, <br />
+Their track is hard to trace, <br />
+Like that of birds in the sky.</p>
+<p>He whose influxes are extinct, <br />
+And is unattached to nutriment, <br />
+Whose range is the deliverance, <br />
+Of the void and the signless, <br />
+His path is hard to trace, <br />
+Like that of birds in the sky.</p>
+</blockquote>
+<p>The accumulation here meant is not of material things, such as food. It is the
+accumulation of karma and <em>upadhi</em>, assets. The comprehension of food could be
+taken to imply the comprehension of all four nutriments, namely gross material
+food, contact, will and consciousness. The feeding ground of such <em>arahants</em> is
+the void and the signless. Hence their track is hard to trace, like that of
+birds in the sky.</p>
+<p>The term <em>gati</em>, which we rendered by ‘track’, has been differently interpreted
+in the commentary. For the commentary <em>gati</em> is the place where the <em>arahant</em>
+goes after death, his next bourne, so to speak.<sup class="footnote-reference" id="fr-fn570-1"><a href="#fn-fn570">28</a></sup></p>
+<p>But taken in conjunction with the simile used, <em>gati</em> obviously means the
+‘path’, <em>padaṁ</em>, taken by the birds in the sky. It is the path they take that
+cannot be traced, not their destination.</p>
+<p>Where the birds have gone could perhaps be traced, with some difficulty. They
+may have gone to their nests. It is the path they went by that is referred to as
+<em>gati</em> in this context. Just as when birds fly through the sky they do not leave
+behind any trace of a path, even so in this concentration of the <em>arahant</em> there
+is no object or sign of any continuity.</p>
+<p>The second verse gives almost the same idea. It is in singular and speaks of an
+<em>arahant</em> whose influxes are extinct and who is unattached to nutriment. Here,
+in the simile about the birds in the sky, we find the word <em>padaṁ</em>, ‘path’, used
+instead of <em>gati</em>, which makes it clear enough that it is not the destiny of the
+<em>arahant</em> that is spoken of.</p>
+<p>The commentary, however, interprets both <em>gati</em> and <em>padaṁ</em> as a reference to
+the <em>arahant’s</em> destiny. There is a tacit assumption of some mysterious
+<em>anupādisesa Nibbānadhātu</em>. But what we have here is a metaphor of considerable
+depth. The reference is to that unique <em>samādhi</em>.</p>
+<p>The bird’s flight through the air symbolizes the flight of the mind. In the case
+of others, the path taken by the mind can be traced through the object it takes,
+but not in this case. The key word that highlights the metaphorical meaning of
+these verses is <em>gocaro</em>. <em>Gocara</em> means ‘pasture’. Now, in the case of cattle
+roaming in their pasture one can trace them by their footsteps, by the path
+trodden. What about the pasture of the <em>arahants</em>?</p>
+<p>Of course, they too consume food to maintain their bodies, but their true
+‘pasture’ is the <em>arahattaphalasamādhi</em>. As soon as they get an opportunity,
+they take to this pasture. Once they are well within this pasture, neither gods
+nor Brahmas nor Māra can find them. That is why the path taken by the <em>arahants</em>
+in the <em>phalasamādhi</em> cannot be traced, like the track of birds in the sky.</p>
+<p>We have yet to discuss the subject of <em>sa-upādisesa</em> and <em>anupādisesa
+Nibbānadhātu</em>. But even at this point some clarity of understanding might
+emerge. When the <em>arahant</em> passes away, at the last moment of his life span, he
+brings his mind to this <em>arahattaphalasamādhi</em>. Then not even Māra can trace
+him. There is no possibility of a rebirth and that is the end of all. It is this
+‘extinction’ that is referred to here.</p>
+<p>This extinction is not something one gets in a world beyond. It is a realization
+here and now, in this world. And the <em>arahant</em>, by way of blissful dwelling here
+and now, enjoys in his every day life the supreme bliss of Nibbāna that he had
+won through the incomparable deliverances of the mind.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn543"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn543-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn544"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/dn11/pli/ms">DN 11 / D I 223</a>, <em>Kevaḍḍhasutta</em> <a href="#fr-fn544-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn545"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/ud2.4/pli/ms">Ud 2.4 / Ud 12</a>, <em>Sakkārasutta</em> <a href="#fr-fn545-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn546"><sup class="footnote-definition-label">4</sup>
+<p>See <em>Sermon 8</em> <a href="#fr-fn546-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn547"><sup class="footnote-definition-label">5</sup>
+<p>See <em>Sermons 5, 7, 9, 11, 15</em> <a href="#fr-fn547-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn548"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 9</a>, <em>Bāhiyasutta</em>; see <em>Sermon 15</em> <a href="#fr-fn548-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn549"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/snp2.1/pli/ms">Snp 2.1 / Sn 226</a>, <em>Ratanasutta</em> <a href="#fr-fn549-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn550"><sup class="footnote-definition-label">8</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn550-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn551"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/iti62/pli/ms">Iti 62 / It 53</a>, <em>Indriyasutta</em> <a href="#fr-fn551-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn552"><sup class="footnote-definition-label">10</sup>
+<p>Vin IV 82, <em>Pācittiya</em> 35 <a href="#fr-fn552-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn553"><sup class="footnote-definition-label">11</sup>
+<p>E.g. <a href="https://suttacentral.net/mn26/pli/ms">MN 26 / M I 167</a>, <em>Ariyapariyesanasutta</em> <a href="#fr-fn553-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn554"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/an11.9/pli/ms">AN 11.9 / A V 324</a>, <em>Saddhasutta</em> <a href="#fr-fn554-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn555"><sup class="footnote-definition-label">13</sup>
+<p>Mp V 80 <a href="#fr-fn555-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn556"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/snp4.11/pli/ms">Snp 4.11 / Sn 871</a>, <em>Kalahavivādasutta</em>; see <em>Sermon 11</em> <a href="#fr-fn556-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn557"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/snp4.11/pli/ms">Snp 4.11 / Sn 872</a>, <em>Kalahavivādasutta</em> <a href="#fr-fn557-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn558"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/snp5.15/pli/ms">Snp 5.15 / Sn 1113</a>, <em>Posālamāṇavapucchā</em> <a href="#fr-fn558-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn559"><sup class="footnote-definition-label">17</sup>
+<p>Nid II 166 (Burmese ed.) <a href="#fr-fn559-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn560"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/an11.7/pli/ms">AN 11.7 / A V 318</a>, <em>Saññāsutta</em> <a href="#fr-fn560-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn561"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/an11.8/pli/ms">AN 11.8 / A V 321</a>, <em>Manasikārasutta</em> <a href="#fr-fn561-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn562"><sup class="footnote-definition-label">20</sup>
+<p>See <em>Sermon 11</em> <a href="#fr-fn562-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn563"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/snp4.11/pli/ms">Snp 4.11 / Sn 874</a>, <em>Kalahavivādasutta</em> <a href="#fr-fn563-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn564"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 9</a>, <em>Bāhiyasutta</em>; see <em>Sermon 15</em> <a href="#fr-fn564-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn565"><sup class="footnote-definition-label">23</sup>
+<p>Ps III 115, <em>aṭṭhakathā</em> on the <em>Bahuvedanīyasutta</em> <a href="#fr-fn565-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn566"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/ud8.2/pli/ms">Ud 8.2 / Ud 80</a>, <em>Paṭhamanibbānapaṭisaṁyuttasutta</em> <a href="#fr-fn566-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn567"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/thag1.25/pli/ms">Thag 1.25 / Th 25</a>, <em>Nandiyatheragāthā</em> <a href="#fr-fn567-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn568"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/dhp273-289/pli/ms">Dhp 274</a>, <em>Maggavagga</em> <a href="#fr-fn568-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn569"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/dhp90-99/pli/ms">Dhp 92-93</a>, <em>Arahantavagga</em> <a href="#fr-fn569-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn570"><sup class="footnote-definition-label">28</sup>
+<p>Dhp-a II 172 <a href="#fr-fn570-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-15.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-17.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-15.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-17.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

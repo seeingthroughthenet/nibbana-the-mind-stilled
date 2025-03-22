@@ -1,0 +1,961 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 18 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-18-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-18"><a class="header" href="#sermon-18">Sermon 18</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn600-1"><a href="#fn-fn600">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the eighteenth sermon in the series of
+sermons on Nibbāna.</p>
+<p>We happened to mention, in our last sermon, that many of the discourses dealing
+with the subject of Nibbāna, have been misinterpreted, due to a lack of
+appreciation of the fact that the transcendence of the world and crossing over
+to the farther shore of existence have to be understood in a psychological
+sense.</p>
+<p>The view that the <em>arahant</em> at the end of his life enters into an absolutely
+existing <em>asaṅkhata dhātu</em>, or ‘unprepared element’, seems to have received
+acceptance in the commentarial period. In the course of our last sermon, we made
+it very clear that some of the discourses cited by the commentators in support
+of that view deal, on the contrary, with some kind of realization the <em>arahant</em>
+goes through here and now, in this very life, in this very world – a realization
+of the cessation of existence, or the cessation of the six sense-spheres.</p>
+<p>Even when the Buddha refers to the <em>arahant</em> as the Brahmin who, having gone
+beyond, is standing on the farther shore,<sup class="footnote-reference" id="fr-fn601-1"><a href="#fn-fn601">2</a></sup> he was speaking of the
+<em>arahant</em> who has realized, in this very life, the influx-free deliverance of
+the mind and deliverance through wisdom, in his concentration of the fruit of
+<em>arahanthood</em>.</p>
+<p>Therefore, on the strength of this evidence, we are compelled to elicit a
+subtler meaning of the concept of ‘this shore’ and the ‘farther shore’ from
+these discourses dealing with Nibbāna than is generally accepted in the world.
+Our sermon today is especially addressed to that end.</p>
+<p>As we mentioned before, if one is keen on getting a solution to the problems
+relating to Nibbāna, the discourses we are now taking up for discussion might
+reveal the deeper dimensions of that problem.</p>
+<p>We had to wind up our last sermon while drawing out the implications of the last
+line in the <em>Paramaṭṭhakasutta</em> of the <em>Sutta Nipāta</em>: <em>pāraṁgato na pacceti
+tādi.</em><sup class="footnote-reference" id="fr-fn602-1"><a href="#fn-fn602">3</a></sup> We drew the inference that the steadfast one, the arahant, who is
+such-like, once gone to the farther shore, does not come back.</p>
+<p>We find, however, quite a different idea expressed in a verse of the
+<em>Nālakasutta</em> in the <em>Sutta Nipāta</em>. The verse, which was the subject of much
+controversy among the ancients, runs as follows:</p>
+<blockquote>
+<p><em>Uccāvāca hi paṭipadā,</em> <br />
+<em>samaṇena pakāsitā,</em> <br />
+<em>na pāraṁ diguṇaṁ yanti,</em> <br />
+<em>na idaṁ ekaguṇaṁ mutaṁ.</em><sup class="footnote-reference" id="fr-fn603-1"><a href="#fn-fn603">4</a></sup></p>
+<p>High and low are the paths, <br />
+Made known by the recluse, <br />
+They go not twice to the farther shore, <br />
+Nor yet is it to be reckoned a going once.</p>
+</blockquote>
+<p>The last two lines seem to contradict each other. There is no going twice to the
+farther shore, but still it is not to be conceived as a going once.</p>
+<p>Now, as for the first two lines, the high and low paths refer to the modes of
+practice adopted, according to the grades of understanding in different
+character types.</p>
+<p>For instances, the highest grade of persons attains Nibbāna by an easy path,
+being quick-witted, <em>sukhā paṭipadā khippābhiññā</em>, whereas the lowest grade
+attains it by a difficult path, being relatively dull-witted, <em>dukkhā paṭipadā
+dandhābhiññā</em>.<sup class="footnote-reference" id="fr-fn604-1"><a href="#fn-fn604">5</a></sup></p>
+<p>The problem lies in the last two lines. The commentary tries to tackle it by
+interpreting the reference to not going twice to the farther shore, <em>na pāraṁ
+diguṇaṁ yanti</em>, as an assertion that there is no possibility of attaining
+Nibbāna by the same path twice, <em>ekamaggena dvikkhattuṁ nibbānaṁ na
+yanti</em>.<sup class="footnote-reference" id="fr-fn605-1"><a href="#fn-fn605">6</a></sup> The implication is that the supramundane path of a
+stream-winner, a once-returner or a non-returner arises only once. Why it is not
+to be conceived as a going once is explained as an acceptance of the norm that
+requires not less than four supramundane paths to attain <em>arahanthood</em>.</p>
+<p>However, a deeper analysis of the verse in question would reveal the fact that
+it effectively brings up an apparent contradiction. The commentary sidetracks by
+resolving it into two different problems. The two lines simply reflect two
+aspects of the same problem.</p>
+<p>They go not twice to the farther shore, and this not going twice, <em>na idaṁ</em>, is
+however not to be thought of as a ‘going once’ either. The commentary sidetracks
+by taking <em>idaṁ</em>, ‘this’, to mean the farther shore, <em>pāraṁ</em>, whereas it
+comprehends the whole idea of not going twice. Only then is the paradox
+complete.</p>
+<p>In other words, this verse concerns the such-like one, the <em>arahant</em>, and not
+the stream-winner, the once-returner or the non-returner. Here we have an echo
+of the idea already expressed as the grand finale of the <em>Paramaṭṭhakasutta</em>:
+<em>pāraṁgato na pacceti tādi</em>,<sup class="footnote-reference" id="fr-fn606-1"><a href="#fn-fn606">7</a></sup> the such-like one, “gone to the farther
+shore, comes not back”.</p>
+<p>It is the last line, however, that remains a puzzle. Why is this ‘not going
+twice,’ not to be thought of as a ‘going once’? There must be something deep
+behind this riddle.</p>
+<p>Now, for instance, when one says ‘I won’t go there twice’, it means that he will
+go only once. When one says ‘I won’t tell twice’, it follows that he will tell
+only once. But here we are told that the <em>arahant</em> goes not twice, and yet it is
+not a going once.</p>
+<p>The idea behind this riddle is that the influx-free <em>arahant</em>, the
+such-like-one, gone to the farther shore, which is supramundane, does not come
+back to the mundane. Nevertheless, he apparently comes back to the world and is
+seen to experience likes and dislikes, pleasures and pains, through the objects
+of the five senses. From the point of view of the worldling, the <em>arahant</em> has
+come back to the world. This is the crux of the problem.</p>
+<p>Why is it not to be conceived of as a going once? Because the <em>arahant</em> has the
+ability to detach himself from the world from time to time and re-attain to that
+<em>arahattaphalasamādhi</em>.</p>
+<p>It is true that he too experiences the objects of the five external senses, but
+now and then he brings his mind to dwell in that <em>arahattaphalasamādhi,</em> which
+is like standing on the farther shore.</p>
+<p>Here, then, we have an extremely subtle problem. When the <em>arahant</em> comes back
+to the world and is seen experiencing the objects of the five senses, one might
+of course conclude that he is actually ‘in the world’.</p>
+<p>This problematic situation, namely the question how the influx-free <em>arahant</em>,
+gone to the farther shore, comes back and takes in objects through the senses,
+the Buddha resolves with the help of a simple simile, drawn from nature. For
+instance, we read in the <em>Jarāsutta</em> of the <em>Sutta Nipāta</em> the following
+scintillating lines.</p>
+<blockquote>
+<p><em>Udabindu yathā pi pokkhare,</em> <br />
+<em>padume vāri yathā na lippati,</em> <br />
+<em>evaṁ muni nopalippati,</em> <br />
+<em>yadidaṁ diṭṭhasutammutesu vā.</em><sup class="footnote-reference" id="fr-fn607-1"><a href="#fn-fn607">8</a></sup></p>
+<p>Like a drop of water on a lotus leaf, <br />
+Or water that taints not the lotus petal, <br />
+So the sage unattached remains, <br />
+In regard to what is seen, heard and sensed.</p>
+</blockquote>
+<p>So the extremely deep problem concerning the relation between the supramundane
+and the mundane levels of experience, is resolved by the Buddha by bringing in
+the simile of the lotus petal and the lotus leaf.</p>
+<p>Let us take up another instance from the <em>Māgandiyasutta</em> of the <em>Sutta Nipāta</em>.</p>
+<blockquote>
+<p><em>Yehi vivitto vicareyya loke,</em> <br />
+<em>na tāni uggayha vadeyya nāgo,</em> <br />
+<em>elambujaṁ kaṇṭakaṁ vārijaṁ yathā,</em> <br />
+<em>jalena paṁkena anūpalittaṁ,</em> <br />
+<em>evaṁ munī santivādo agiddho,</em> <br />
+<em>kāme ca loke ca anūpalitto.</em><sup class="footnote-reference" id="fr-fn608-1"><a href="#fn-fn608">9</a></sup></p>
+<p>Detached from whatever views, <br />
+<span class="vin"></span> the <em>arahant</em> wanders in the world, <br />
+He would not converse, taking his stand on them, <br />
+Even as the white lotus, sprung up in the water, <br />
+Yet remains unsmeared by water and mud, <br />
+So is the sage, <br />
+<span class="vin"></span> professing peace and free from greed, <br />
+Unsmeared by pleasures of sense <br />
+<span class="vin"></span> and things of the world.“</p>
+</blockquote>
+<p>Among the Tens of the <em>Aṅguttara Nikāya</em> we come across a discourse in which the
+Buddha answers a question put by Venerable Bāhuna. At that time the Buddha was
+staying near the pond Gaggara in the city of Campa. Venerable Bāhuna’s question
+was:</p>
+<blockquote>
+<p><em>Katīhi nu kho, bhante, dhammehi tathāgato nissaṭo visaṁyutto vippamutto
+vimariyādikatena cetasā viharati?</em><sup class="footnote-reference" id="fr-fn609-1"><a href="#fn-fn609">10</a></sup></p>
+<p>Detached, disengaged and released from how many things does the Tathāgata
+dwell with an unrestricted mind?</p>
+</blockquote>
+<p>The Buddha’s answer to the question embodies a simile, aptly taken from the
+pond, as it were.</p>
+<blockquote>
+<p><em>Dasahi kho, Bāhuna, dhammehi tathāgato nissaṭo visaṁyutto vippamutto
+vimariyādikatena cetasā viharati. Katamehi dasahi? Rūpena kho, Bāhuna,
+Tathāgato nissaṭo visaṁyutto vippamutto vimariyādikatena cetasā viharati,
+vedanāya … saññāya … saṅkhārehi … viññāṇena … jātiyā … jarāya
+… maraṇena … dukkhehi … kilesehi kho, Bāhuna, Tathāgato nissaṭo
+visaṁyutto vippamutto vimariyādikatena cetasā viharati.</em></p>
+<p><em>Seyyathāpi, Bāhuna, uppalaṁ vā padumaṁ vā puṇḍarīkaṁ vā udake jātaṁ udake
+saṁvaḍḍhaṁ udakā accugamma tiṭṭhati anupalittaṁ udakena, evam eva kho Bāhuna
+Tathāgato imehi dasahi dhammehi nissaṭo visaṁyutto vippamutto vimariyādikatena
+cetasā viharati</em>.</p>
+<p>Detached, disengaged and released from ten things, Bāhuna, does the Tathāgata
+dwell with a mind unrestricted. Which ten? Detached, disengaged and released
+from form, Bāhuna, does the Tathāgata dwell with a mind unrestricted;
+detached, disengaged and released from feeling … from perceptions … from
+preparations … from consciousness … from birth … from decay … from
+death … from pains … from defilements, Bāhuna, does the Tathāgata dwell
+with a mind unrestricted.</p>
+<p>Just as, Bāhuna, a blue lotus, a red lotus, or a white lotus, born in the
+water, grown up in the water, rises well above the water and remains unsmeared
+by water, even so, Bāhuna, does the Tathāgata dwell detached, disengaged and
+released from these ten things with a mind unrestricted.</p>
+</blockquote>
+<p>This discourse, in particular, highlights the transcendence of the Tathāgata,
+though he seems to take in worldly objects through the senses. Even the release
+from the five aggregates is affirmed.</p>
+<p>We might wonder why the Tathāgata is said to be free from birth, decay and
+death, since, as we know, he did grow old and pass away. Birth, decay and death,
+in this context, do not refer to some future state either. Here and now the
+Tathāgata is free from the concepts of birth, decay and death.</p>
+<p>In the course of our discussion of the term <em>papañca</em>, we had occasion to
+illustrate how one can be free from such concepts.<sup class="footnote-reference" id="fr-fn610-1"><a href="#fn-fn610">11</a></sup> If concepts of birth,
+decay and death drive fear into the minds of worldlings, such is not the case
+with the Tathāgata. He is free from such fears and forebodings. He is free from
+defilements as well.</p>
+<p>The discourse seems to affirm that the Tathāgata dwells detached from all these
+ten things. It seems, therefore, that the functioning of the Tathāgata’s
+sense-faculties in his every day life also should follow a certain extraordinary
+pattern of detachment and disengagement. In fact, Venerable Sāriputta says
+something to that effect in the <em>Saḷāyatanasaṁyutta</em> of the <em>Saṁyutta Nikāya</em>.</p>
+<blockquote>
+<p><em>Passati Bhagavā cakkhunā rūpaṁ, chandarāgo Bhagavato natthi, suvimuttacitto
+Bhagavā.</em><sup class="footnote-reference" id="fr-fn611-1"><a href="#fn-fn611">12</a></sup></p>
+<p>The Exalted One sees forms with the eye, but there is no desire or attachment
+in him, well freed in mind is the Exalted One.</p>
+</blockquote>
+<p>We come across a similar statement made by the brahmin youth Uttara in the
+<em>Brahmāyusutta</em> of the <em>Majjhima Nikāya</em>, after he had closely followed the
+Buddha for a considerable period to verify the good report of his extraordinary
+qualities.</p>
+<blockquote>
+<p><em>Rasapaṭisaṁvedī kho pana so bhavaṁ Gotamo āhāraṁ āhāreti, no
+rasarāgapaṭisaṁvedī</em>.<sup class="footnote-reference" id="fr-fn612-1"><a href="#fn-fn612">13</a></sup></p>
+<p>Experiencing taste Master Gotama takes his food, but not experiencing any
+attachment to the taste.</p>
+</blockquote>
+<p>It is indeed something marvellous. The implication is that there is such a
+degree of detachment with regard to things experienced by the tongue, even when
+the senses are taking in their objects. One can understand the difference
+between the mundane and the supramundane, when one reflects on the difference
+between experiencing taste and experiencing an attachment to taste.</p>
+<p>Not only with regard to the objects of the five senses, but even with regard to
+mind-objects, the emancipated one has a certain degree of detachment. The
+<em>arahant</em> has realized that they are not ‘such’. He takes in concepts, and even
+speaks in terms of ‘I’ and ‘mine’, but knows that they are false concepts, as in
+the case of a child’s language.</p>
+<p>There is a discourse among the Nines of the <em>Aṅguttara Nikāya</em> which seems to
+assert this fact. It is a discourse preached by Venerable Sāriputta to refute a
+wrong viewpoint taken by a monk named Chandikāputta.</p>
+<blockquote>
+<p><em>Evaṁ sammā vimuttacittassa kho, āvuso, bhikkhuno bhusā cepi cakkhuviññeyyā
+rūpā cakkhussa āpāthaṁ āgacchanti, nevassa cittaṁ pariyādiyanti,
+amissīkatamevassa cittaṁ hoti ṭhitaṁ āneñjappattaṁ, vayaṁ cassānupassati</em>.
+<em>Bhusā cepi sotaviññeyyā saddā … bhūsa cepi ghānaviññeyyā gandhā … bhūsa
+cepi jivhāviññeyyā rasā … bhūsa cepi kāyaviññeyyā phoṭṭhabbā … bhūsa cepi
+manoviññeyyā dhammā manassa āpāthaṁ āgacchanti, nevassa cittaṁ pariyādiyanti,
+amissīkatamevassa cittaṁ hoti ṭhitaṁ āneñjappattaṁ, vayaṁ
+cassānupassati</em>.<sup class="footnote-reference" id="fr-fn613-1"><a href="#fn-fn613">14</a></sup></p>
+<p>Friend, in the case of a monk who is fully released, even if many forms
+cognizable by the eye come within the range of vision, they do not overwhelm
+his mind, his mind remains unalloyed, steady and unmoved, he sees its passing
+away. Even if many sounds cognizable by the ear come within the range of
+hearing … even if many smells cognizable by the nose … even if many tastes
+cognizable by the tongue … even if many tangibles cognizable by the body …
+even if many mind-objects cognizable by the mind come within the range of the
+mind, they do not overwhelm his mind, his mind remains unalloyed, steady and
+unmoved, he sees its passing away.</p>
+</blockquote>
+<p>So here we have the ideal of the emancipated mind. Generally, a person
+unfamiliar with the nature of a lotus leaf or a lotus petal, on seeing a drop of
+water on a lotus leaf or a lotus petal would think that the water drop smears
+them.</p>
+<p>Earlier we happened to mention that there is a wide gap between the mundane and
+the supramundane. Some might think that this refers to a gap in time or in
+space. In fact it is such a conception that often led to various
+misinterpretations concerning Nibbāna. The supramundane seems so far away from
+the mundane, so it must be something attainable after death in point of time. Or
+else it should be far far away in outer space. Such is the impression made in
+general.</p>
+<p>But if we go by the simile of the drop of water on the lotus leaf, the distance
+between the mundane and the supramundane is the same as that between the lotus
+leaf and the drop of water on it.</p>
+<p>We are still on the problem of the hither shore and the farther shore. The
+distinction between the mundane and the supramundane brings us to the question
+of this shore and the other shore.</p>
+<p>The <em>arahant’s</em> conception of this shore and the other shore differs from that
+of the worldling in general. If, for instance, a native of this island goes
+abroad and settles down there, he might even think of a return to his country as
+a ‘going abroad’. Similarly, as far as the emancipated sage is concerned, if he,
+having gone to the farther shore, does not come back, one might expect him to
+think of this world as the farther shore.</p>
+<p>But it seems the <em>arahant</em> has no such distinction. A certain <em>Dhammapada</em> verse
+alludes to the fact that he has transcended this dichotomy:</p>
+<blockquote>
+<p><em>Yassa pāraṁ apāraṁ vā,</em> <br />
+<em>pārāpāraṁ na vijjati,</em> <br />
+<em>vītaddaraṁ visaṁyuttaṁ,</em> <br />
+<em>tam ahaṁ brūmi brāhmaṇaṁ.</em><sup class="footnote-reference" id="fr-fn614-1"><a href="#fn-fn614">15</a></sup></p>
+</blockquote>
+<p>This is a verse we have quoted earlier too, in connection with the question of
+the verbal dichotomy.<sup class="footnote-reference" id="fr-fn615-1"><a href="#fn-fn615">16</a></sup></p>
+<blockquote>
+<p><em>Yassa pāraṁ apāraṁ vā, pārāpāraṁ na vijjati,</em></p>
+<p>to whom there is neither a farther shore, nor a hither shore, nor both.</p>
+</blockquote>
+<p>That is to say, he has no discrimination between the two.</p>
+<blockquote>
+<p><em>Vītaddaraṁ visaṁyuttaṁ, tam ahaṁ brūmi brāhmaṇaṁ</em>,</p>
+<p>who is free from pangs of sorrow and entanglements, him I call a Brahmin.</p>
+</blockquote>
+<p>This means that the <em>arahant</em> is free from the verbal dichotomy, which is of
+relevance to the worldling. Once gone beyond, the emancipated one has no more
+use of these concepts. This is where the Buddha’s dictum in the raft simile of
+the <em>Alagaddūpamasutta</em> becomes meaningful.</p>
+<p>Even the concepts of a ‘this shore’ and a ‘farther shore’ are useful only for
+the purpose of crossing over. If, for instance, the <em>arahant</em>, having gone
+beyond, were to think ‘ah, this is my land’, that would be some sort of a
+grasping. Then there will be an identification, <em>tammayatā</em>, not a
+non-identification, <em>atammayatā</em>.</p>
+<p>As we had mentioned earlier, there is a strange quality called <em>atammayatā</em>,
+associated with an <em>arahant</em>.<sup class="footnote-reference" id="fr-fn616-1"><a href="#fn-fn616">17</a></sup> In connection with the simile of a man who
+picked up a gem, we have already stated the ordinary norm that prevails in the
+world.<sup class="footnote-reference" id="fr-fn617-1"><a href="#fn-fn617">18</a></sup></p>
+<p>If we possess something – we are possessed by it.</p>
+<p>If we grasp something – we are caught by it.</p>
+<p>This is the moral behind the parable of the gem. It is this conviction, which
+prompts the <em>arahant</em> not to grasp even the farther shore, though he may stand
+there. ‘This shore’ and the ‘other shore’ are concepts, which have a practical
+value to those who are still on this side.</p>
+<p>As it is stated in the <em>Alagaddūpamasutta</em>, since there is no boat or bridge to
+cross over, one has to improvise a raft by putting together grass, twigs,
+branches and leaves, found on this shore. But after crossing over with its help,
+he does not carry it with him on his shoulder.</p>
+<blockquote>
+<p><em>Evameva kho, bhikkhave, kullūpamo mayā dhammo desito nittharaṇatthāya no
+gahaṇatthāya. Kullūpamaṁ vo bhikkhave ājānantehi dhammā pi vo pahātabbā,
+pag’eva adhammā</em>.<sup class="footnote-reference" id="fr-fn618-1"><a href="#fn-fn618">19</a></sup></p>
+<p>Even so, monks, have I preached to you a Dhamma that is comparable to a raft,
+which is for crossing over and not for grasping. Well knowing the Dhamma to be
+comparable to a raft, you should abandon even the good things, more so the bad
+things.</p>
+</blockquote>
+<p>One might think that the <em>arahant</em> is in the sensuous realm, when, for instance,
+he partakes of food. But that is not so. Though he attains to the realms of form
+and formless realms, he does not belong there. He has the ability to attain to
+those levels of concentration, but he does not grasp them egoistically, true to
+that norm of <em>atammayatā</em>, or non-identification.</p>
+<p>This indeed is something extraordinary. Views and opinions about language,
+dogmatically entertained by the worldlings, lose their attraction for him.</p>
+<p>This fact is clearly illustrated for us by the <em>Uragasutta</em> of the <em>Sutta
+Nipāta</em>, the significance of which we have already stressed.<sup class="footnote-reference" id="fr-fn619-1"><a href="#fn-fn619">20</a></sup> We happened
+to mention that there is a refrain, running through all the seventeen verses
+making up that discourse. The refrain concerns the worn out skin of a snake. The
+last two lines in each verse, forming the refrain, are:</p>
+<blockquote>
+<p><em>So bhikkhu jahāti orapāraṁ,</em> <br />
+<em>urago jiṇṇamiva tacaṁ purāṇaṁ.</em><sup class="footnote-reference" id="fr-fn620-1"><a href="#fn-fn620">21</a></sup></p>
+<p>That monk forsakes the hither and the thither, <br />
+Even as the snake its skin that doth wither.</p>
+</blockquote>
+<p>The term <em>orapāraṁ</em> is highly significant in this context. <em>Oraṁ</em> means ‘this
+shore’ and <em>paraṁ</em> is the ‘farther shore’. The monk, it seems, gives up not only
+this shore, but the other shore as well, even as the snake sloughs off its worn
+out skin. That skin has served its purpose, but now it is redundant. So it is
+sloughed off.</p>
+<p>Let us now take up one more verse from the <em>Uragasutta</em> which has the same
+refrain, because of its relevance to the understanding of the term <em>papañca</em>.</p>
+<p>The transcendence of relativity involves freedom from the duality in worldly
+concepts such as ‘good’ and ‘evil’. The concept of a ‘farther shore’ stands
+relative to the concept of a ‘hither shore’. The point of these discourses is to
+indicate that there is a freedom from worldly conceptual proliferations based on
+duality and relativity. The verse we propose to bring up is:</p>
+<blockquote>
+<p><em>Yo nāccasārī na paccasārī,</em> <br />
+<em>sabbaṁ accagamā imaṁ papañcaṁ,</em> <br />
+<em>so bhikkhu jahāti orapāraṁ,</em> <br />
+<em>urago jiṇṇamiva tacaṁ purāṇaṁ.</em><sup class="footnote-reference" id="fr-fn621-1"><a href="#fn-fn621">22</a></sup></p>
+<p>Who neither overreaches himself nor lags behind, <br />
+And has gone beyond all this proliferation, <br />
+That monk forsakes the hither and the thither, <br />
+Even as the snake its slough that doth wither.</p>
+</blockquote>
+<p>This verse is particularly significant in that it brings out some points of
+interest. The overreaching and lagging behind is an allusion to the verbal
+dichotomy. In the context of views, for instance, annihilationism is an
+overreaching and eternalism is a lagging behind.</p>
+<p>We may give another illustration, easier to understand. Speculation about the
+future is an overreaching and repentance over the past is a lagging behind. To
+transcend both these tendencies is to get beyond proliferation, <em>sabbaṁ accagamā
+imaṁ papañcaṁ</em>.</p>
+<p>When a banknote is invalidated, cravings, conceits and views bound with it go
+down. Concepts current in the world, like banknotes in transaction, are reckoned
+as valid so long as cravings, conceits and views bound with them are there. They
+are no longer valid when these are gone.</p>
+<p>We have defined <em>papañca</em> with reference to cravings, conceits and
+views.<sup class="footnote-reference" id="fr-fn622-1"><a href="#fn-fn622">23</a></sup> Commentaries also speak of <em>taṇhāpapañca, diṭṭhipapañca</em> and
+<em>mānapapañca</em>.<sup class="footnote-reference" id="fr-fn623-1"><a href="#fn-fn623">24</a></sup> By doing away with cravings, conceits and views, one goes
+beyond all <em>papañca</em>.</p>
+<p>The term <em>orapāraṁ</em>, too, has many connotations. It stands for the duality
+implicit in such usages as the ‘internal’ and the ‘external’, ‘one’s own’ and
+‘another’s’, as well as ‘this shore’ and the ‘farther shore’. It is compared
+here to the worn out skin of a snake. It is worn out by transcending the duality
+characteristic of linguistic usage through wisdom.</p>
+<p>Why the Buddha first hesitated to teach this Dhamma was the difficulty of making
+the world understand.<sup class="footnote-reference" id="fr-fn624-1"><a href="#fn-fn624">25</a></sup> Perhaps it was the conviction that the world could
+easily be misled by those limitations in the linguistic medium.</p>
+<p>We make these few observations in order to draw attention to the relativity
+underlying such terms as ‘this shore’ and the ‘other shore’ and to show how
+Nibbāna transcends even that dichotomy.</p>
+<p>In this connection, we may take up for comment a highly controversial sutta in
+the <em>Itivuttaka</em>, which deals with the two aspects of Nibbāna known as
+<em>sa-upādisesā Nibbānadhātu</em> and <em>anupādisesā Nibbānadhātu</em>. We propose to quote
+the entire sutta, so as to give a fuller treatment to the subject.</p>
+<blockquote>
+<p><em>Vuttaṁ hetaṁ Bhagavatā, vuttam arahatā ti me suttaṁ:</em></p>
+<p><em>Dve-mā, bhikkhave, nibbānadhātuyo. Katame dve? Sa-upadisesā ca nibbānadhātu,
+anupādisesā ca nibbānadhātu.</em></p>
+<p><em>Katamā, bhikkhave, sa-upadisesā nibbānadhātu? Idha, bhikkhave, bhikkhu arahaṁ
+hoti khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho
+parikkhīṇabhavasaṁyojano sammadaññāvimutto. Tassa tiṭṭhanteva pañcindriyāni
+yesaṁ avighātattā manāpāmanāpaṁ paccanubhoti, sukhadukkhaṁ paṭisaṁvediyati.
+Tassa yo rāgakkhayo dosakkhayo mohakkhayo, ayaṁ vuccati, bhikkhave,
+sa-upadisesā nibbānadhātu.</em></p>
+<p><em>Katamā ca, bhikkhave,anupādisesā nibbānadhātu? Idha, bhikkhave, bhikkhu
+arahaṁ hoti khīṇāsavo vusitavā katakaraṇīyo ohitabhāro anuppattasadattho
+parikkhīṇabhavasaṁyojano sammadaññāvimutto. Tassa idheva sabbavedayitāni
+anabhinanditāni sītibhavissanti, ayaṁ vuccati, bhikkhave, anupādisesā
+nibbānadhātu.</em></p>
+<p><em>Etam atthaṁ Bhagavā avoca, tatthetaṁ iti vuccati:</em></p>
+<p><em>Duve imā cakkhumatā pakāsitā,</em> <br />
+<em>nibbānadhātū anissitena tādinā,</em> <br />
+<em>ekā hi dhātu idha diṭṭhadhammikā,</em> <br />
+<em>sa-upadisesā bhavanettisaṅkhayā,</em> <br />
+<em>anupādisesā pana samparāyikā,</em> <br />
+<em>yamhi nirujjhanti bhavāni sabbaso.</em></p>
+<p><em>Ye etad-aññāya padaṁ asaṅkhataṁ,</em> <br />
+<em>vimuttacittā bhavanettisaṅkhayā,</em> <br />
+<em>te dhammasārādhigamā khaye ratā,</em> <br />
+<em>pahaṁsu te sabbabhavāni tādino.</em></p>
+<p><em>Ayampi attho vutto Bhagavatā, iti me sutaṁ.</em><sup class="footnote-reference" id="fr-fn625-1"><a href="#fn-fn625">26</a></sup></p>
+<p>This was said by the Exalted One, said by the Worthy One, so have I heard:</p>
+<p>’Monks, there are these two Nibbāna elements. Which two? The Nibbāna element
+with residual clinging and the Nibbāna element without residual clinging.</p>
+<p>And what, monks, is the Nibbāna element with residual clinging? Herein, monks,
+a monk is an <em>arahant</em>, with influxes extinct, one who has lived the holy life
+to the full, done what is to be done, laid down the burden, reached one’s
+goal, fully destroyed the fetters of existence and released with full
+understanding. His five sense faculties still remain and due to the fact that
+they are not destroyed, he experiences likes and dislikes, and pleasures and
+pains. That extirpation of lust, hate and delusion in him, that, monks, is
+known as the Nibbāna element with residual clinging.</p>
+<p>And what, monks, is the Nibbāna element without residual clinging? Herein,
+monks, a monk is an <em>arahant</em>, with influxes extinct, one who has lived the
+holy life to the full, done what is to be done, laid down the burden, reached
+one’s goal, fully destroyed the fetters of existence and released with full
+understanding. In him, here itself, all what is felt will cool off, not being
+delighted in. This, monks, is the Nibbāna element without residual clinging.’</p>
+<p>To this effect the Exalted One spoke and this is the gist handed down as ‘thus
+said’.</p>
+<p>’These two Nibbāna elements have been made known, <br />
+By the one with vision, unattached and such, <br />
+Of relevance to the here and now is one element, <br />
+With residual clinging, yet with tentacles to becoming snapped, <br />
+But then that element <br />
+<span class="vin"></span> without residual clinging is of relevance to the hereafter, <br />
+For in it surcease all forms of becoming.</p>
+<p>They that comprehend fully this state of the unprepared, <br />
+Released in mind with tentacles to becoming snapped, <br />
+On winning to the essence of Dhamma <br />
+<span class="vin"></span> they take delight in seeing to an end of it all, <br />
+So give up they, all forms of becoming,<br />
+<span class="vin"></span> steadfastly such-like as they are.’</p>
+</blockquote>
+<p>The standard phrase summing up the qualification of an <em>arahant</em> occurs in full
+in the definition of the <em>sa-upādisesā Nibbānadhātu</em>. The distinctive feature of
+this Nibbāna element is brought out in the statement that the <em>arahant’s</em> five
+sense faculties are still intact, owing to which he experiences likes and
+dislikes, and pleasure and pain. However, to the extent that lust, hate and
+delusion are extinct in him, it is called the Nibbāna element with residual
+clinging.</p>
+<p>In the definition of the Nibbāna element without residual clinging, the same
+standard phrase recurs, while its distinctive feature is summed up in just one
+sentence:</p>
+<blockquote>
+<p><em>Tassa idheva sabbavedayitāni anabhinanditāni sītibhavissanti</em>,</p>
+<p>in him, here itself, all what is felt will cool off, not being delighted in.</p>
+</blockquote>
+<p>It may be noted that the verb is in the future tense and apart from this cooling
+off, there is no guarantee of a world beyond, as an <em>asaṅkhata dhātu</em>, or
+‘unprepared element’, with no sun, moon or stars in it.</p>
+<p>The two verses that follow purport to give a summary of the prose passage. Here
+it is clearly stated that out of the two Nibbāna elements, as they are called,
+the former pertains to the here and now, <em>diṭṭhadhammika</em>, while the latter
+refers to what comes after death, <em>samparāyika</em>.</p>
+<p>The Nibbāna element with residual clinging, <em>sa-upādisesā Nibbānadhātu</em>, has as
+its redeeming feature the assurance that the tentacular craving for becoming is
+cut off, despite its exposure to likes and dislikes, pleasures and pains, common
+to the field of the five senses.</p>
+<p>As for the Nibbāna element without residual clinging, it is definitely stated
+that in it all forms of existence come to cease. The reason for it is none other
+than the crucial fact, stated in that single sentence, namely, the cooling off
+of all what is felt as an inevitable consequence of not being delighted in,
+<em>anabhinanditāni</em>.</p>
+<p>Why do they not take delight in what is felt at the moment of passing away? They
+take delight in something else, and that is: the very destruction of all what is
+felt, a foretaste of which they have already experienced in their attainment to
+that unshakeable deliverance of the mind, which is the very pith and essence of
+the Dhamma, <em>dhammasāra</em>.</p>
+<p>As stated in the <em>Mahāsāropamasutta</em> of the <em>Majjhima Nikāya</em>, the pith of the
+Dhamma is that deliverance of the mind,<sup class="footnote-reference" id="fr-fn626-1"><a href="#fn-fn626">27</a></sup> and to take delight in the
+ending of all feelings, <em>khaye ratā</em>, is to revert to the <em>arahattaphalasamādhi</em>
+with which the <em>arahant</em> is already familiar. That is how those such-like ones
+abandon all forms of existence, <em>pahaṁsu te sabbabhavāni tādino</em>.</p>
+<p>Let us now try to sort out the problems that are likely to be raised in
+connection with the interpretation we have given. First and foremost, the two
+terms <em>diṭṭhadhammika</em> and <em>samparāyika</em> have to be explained.</p>
+<p>A lot of confusion has arisen, due to a misunderstanding of the meaning of these
+two terms in this particular context. The usual commentarial exegesis on the
+term <em>diṭṭhadhammika</em> amounts to this: <em>Imasmiṁ attabhāve bhavā
+vattamānā</em>,<sup class="footnote-reference" id="fr-fn627-1"><a href="#fn-fn627">28</a></sup> “in this very life, that is, in the present”. It seems all
+right. But then for <em>samparāyika</em> the commentary has the following comment:
+<em>samparāye khandhabhedato parabhāge</em>, “<em>samparāya</em> means after the breaking up
+of the aggregates”. The implication is that it refers to the <em>arahant’s</em> after
+death state.</p>
+<p>Are we then to conclude that the <em>arahant</em> gets half of his Nibbāna here and the
+other half hereafter? The terms <em>diṭṭhadhammika</em> and <em>samparāyika</em>, understood
+in their ordinary sense, would point to such a conclusion.</p>
+<p>But let us not forget that the most distinctive quality of this Dhamma is
+associated with the highly significant phrase, <em>diṭṭhevadhamme</em>, “in this very
+life”. It is also conveyed by the expression <em>sandiṭṭhika akālika</em>, “here and
+now” and “timeless”.<sup class="footnote-reference" id="fr-fn628-1"><a href="#fn-fn628">29</a></sup></p>
+<p>The goal of endeavour, indicated by this Dhamma, is one that could be fully
+realized here and now, in this very life. It is not a piecemeal affair. Granting
+all that, do we find here something contrary to it, conveyed by the two terms
+<em>diṭṭhadhammika</em> and <em>samparāyika</em>? How can we reconcile these two passages?</p>
+<p>In the context of <em>kamma</em>, the meaning of the two terms in question can easily
+be understood.</p>
+<p>For instance, that category of <em>kamma</em> known as <em>diṭṭhadhammavedanīya</em> refers to
+those actions which produce their results here and now.</p>
+<p><em>Samparāyika</em> pertains to what comes after death, as for instance in the phrase
+<em>samparāye ca duggati</em>, an “evil bourn after death”.<sup class="footnote-reference" id="fr-fn629-1"><a href="#fn-fn629">30</a></sup></p>
+<p>In the context of <em>kamma</em> it is clear enough, then, that the two terms refer to
+what is experienced in this world and what comes after death, respectively.</p>
+<p>Are we justified in applying the same criterion, when it comes to the so-called
+two elements of Nibbāna? Do the <em>arahants</em> experience some part of Nibbāna here
+and the rest hereafter?</p>
+<p>At this point, we have to admit that the term <em>diṭṭhadhammika</em> is associated
+with <em>sa-upādisesā Nibbānadhātu</em> while the term <em>samparāyika</em> is taken over to
+refer to <em>anupādisesā Nibbānadhātu</em>.</p>
+<p>However, the fact that Nibbāna is explicitly defined elsewhere as the cessation
+of existence, <em>bhavanirodho Nibbānaṁ</em>,<sup class="footnote-reference" id="fr-fn630-1"><a href="#fn-fn630">31</a></sup> must not be forgotten. If Nibbāna
+is the cessation of existence, there is nothing left for the <em>arahant</em> to
+experience hereafter.</p>
+<p>Nibbāna is solely the realization of the cessation of existence or the end of
+the process of becoming. So there is absolutely no question of a hereafter for
+the <em>arahant</em>.</p>
+<p>By way of clarification, we have to revert to the primary sense of the term
+Nibbāna. We have made it sufficiently clear that Nibbāna means ‘extinction’ or
+‘extinguishment’, as of a fire.</p>
+<p>All the commentarial jargon, equating <em>vāna</em> to <em>taṇhā</em>, is utterly irrelevant.
+If the idea of an extinguishment of a fire is brought in, the whole problem is
+solved. Think of a blazing fire. If no more firewood is added to it, the flames
+would subside and the embers would go on smouldering before turning into ashes.
+This is the norm. Now this is not an analogy we are superimposing on the Dhamma.
+It is only an echo of a canonical simile, picked up from the <em>Nāgasutta</em> of the
+<em>Aṅguttara Nikāya</em>. The relevant verse, we are quoting, recurs in the <em>Udāyi
+Theragāthā</em> as well.</p>
+<blockquote>
+<p><em>Mahāgini pajjalito,</em> <br />
+<em>anāhārūpasammati,</em> <br />
+<em>aṅgāresu ca santesu,</em> <br />
+<em>nibbuto’ti pavuccati.</em><sup class="footnote-reference" id="fr-fn631-1"><a href="#fn-fn631">32</a></sup></p>
+<p>As a huge blazing fire, with no more firewood added, <br />
+Goes down to reach a state of calm, <br />
+Embers smouldering, as they are, could be reckoned, <br />
+So long as they last, as almost ‘extinguished’.</p>
+</blockquote>
+<p>Though we opted to render the verse this way, there is a variant reading, which
+could lead to a different interpretation. As so often happens in the case of
+deep suttas, here too the correct reading is not easily determined.</p>
+<p>Instead of the phrase <em>aṅgāresu ca santesu</em>, attested as it is, many editions go
+for the variant reading <em>saṅkhāresūpasantesu</em>. If that reading is adopted, the
+verse would have to be rendered as follows:</p>
+<blockquote>
+<p>As a huge blazing fire, with no more fire wood added, <br />
+Goes down to reach a state of calm, <br />
+When <em>saṅkhāras</em> calm down, <br />
+One is called ‘extinguished’.</p>
+</blockquote>
+<p>It maybe pointed out that this variant reading does not accord with the imagery
+of the fire presented by the first two lines of the verse. It is probably a
+scribe’s error that has come down, due to the rhythmic similarity between the
+two phrases <em>aṅgāresu ca santesu</em>, and <em>saṅkhāresūpasantesu</em>.<sup class="footnote-reference" id="fr-fn632-1"><a href="#fn-fn632">33</a></sup> Between
+the reciter and the scribe, phrases that have a similar ring and rhythm, could
+sometimes bring about a textual corruption. Be that as it may, we have opted for
+the reading <em>aṅgāresu ca santesu</em>, because it makes more sense.</p>
+<p>From the particular context in which the verse occurs, it seems that this
+imagery of the fire is a restatement of the image of the lotus unsmeared by
+water. Though the embers are still smouldering, to the extent that they are no
+longer hungering for more fuel and are not emitting flames, they may as well be
+reckoned as ‘extinguished’.</p>
+<p>We can draw a parallel between this statement and the definition of
+<em>sa-upādisesā Nibbānadhātu</em> already quoted. As a full-fledged <em>arahant</em>, he
+still experiences likes and dislikes and pleasures and pains, owing to the fact
+that his five sense-faculties are intact.</p>
+<p>The assertion made by the phrase beginning with</p>
+<blockquote>
+<p><em>tassa tiṭṭhanteva pañcindriyāni yesaṁ avighātattā …</em>,</p>
+<p>his five senses do exist, owing to the non-destruction of which …,</p>
+</blockquote>
+<p>rather apologetically brings out the limitations of the living <em>arahant</em>. It is
+reminiscent of those smouldering embers in the imagery of the <em>Nāgasutta</em>.
+However, in so far as flames of lust, hate and delusion are quenched in him, it
+comes to be called <em>sa-upādisesā Nibbānadhātu</em>, even as in the case of those
+smouldering embers.</p>
+<p>Craving is aptly called <em>bhavanetti</em>,<sup class="footnote-reference" id="fr-fn633-1"><a href="#fn-fn633">34</a></sup> in the sense that it leads to
+becoming by catching hold of more and more fuel in the form of <em>upādāna</em>. When
+it is under control, the functioning of the sense-faculties do not entail
+further rebirth. The inevitable residual clinging in the living <em>arahant</em> does
+not precipitate a fresh existence.</p>
+<p>This gives us a clue to the understanding of the term <em>anupādisesa</em>. The element
+<em>upādi</em> in this term is rather ambiguous.</p>
+<p>In the <em>Satipaṭṭhānasutta</em>, for instance, it is used as the criterion to distinguish the <em>anāgāmi</em>, the ‘non-returner’, from the <em>arahant</em>, in the statement</p>
+<blockquote>
+<p><em>diṭṭhevadhamme aññā, sati vā upādisese anāgāmitā</em>,<sup class="footnote-reference" id="fr-fn634-1"><a href="#fn-fn634">35</a></sup></p>
+<p>either full convincing knowledge of <em>arahanthood</em> here and now, or the state
+of non-return in the case of residual clinging.</p>
+</blockquote>
+<p>But when it comes to the distinction between <em>sa-upādisesa</em> and <em>anupādisesa</em>,
+the element <em>upādi</em> has to be understood in a more radical sense, in association
+with the word <em>upādiṇṇa</em>. This body, as the product of past <em>kamma</em>, is the
+‘grasped’ par excellence, which as an organic combination goes on functioning
+even in the <em>arahant</em> until his last moment of life.</p>
+<p>Venerable Sāriputta once declared that he neither delighted in death nor
+delighted in life, <em>nābhinandāmi maraṇaṁ nābhinandāmi jīvitaṁ</em>.<sup class="footnote-reference" id="fr-fn635-1"><a href="#fn-fn635">36</a></sup> So the
+embers go on smouldering until they become ashes. It is when the life span ends
+that the embers finally turn to ashes.</p>
+<p>The popular interpretation of the term <em>anupādisesā Nibbānadhātu</em> leaves room for some absolutist conceptions of an <em>asaṅkhata dhātu</em>, unprepared element, as the destiny of the <em>arahant</em>. After his <em>parinibbāna</em>, he is supposed to enter this particular <em>Nibbānadhātu</em>. But here, in this discourse, it is explained in just one sentence:</p>
+<blockquote>
+<p><em>Tassa idheva, bhikkhave, sabbavedayitāni anabhinanditāni sītibhavissanti,</em></p>
+<p>in the case of him (that is the <em>arahant</em>), O! monks, all what is felt, not
+having been delighted in, will cool off here itself.</p>
+</blockquote>
+<p>This cooling off happens just before death, without igniting another spark of
+life. When Māra comes to grab and seize, the <em>arahant</em> lets go. The pain of
+death with which Māra teases his hapless victim and lures him into another
+existence, becomes ineffective in the case of the <em>arahant</em>.</p>
+<p>As he has already gone through the supramundane experience of deathlessness, in
+the <em>arahattaphalasamādhi</em>, death loses its sting when at last it comes. The
+influx-free deliverance of the mind and the influx-free deliverance through
+wisdom enable him to cool down all feelings in a way that baffles Māra.</p>
+<p>So the <em>arahant</em> lets go of his body, experiencing ambrosial deathlessness. As
+in the case of Venerable Dabba Mallaputta, he would sometimes cremate his own
+body without leaving any ashes.<sup class="footnote-reference" id="fr-fn636-1"><a href="#fn-fn636">37</a></sup> Outwardly it might appear as an act of
+self-immolation, which indeed is painful. But this is not so. Using his <em>jhānic</em>
+powers, he simply employs the internal fire element to cremate the body he has
+already discarded.</p>
+<p>This, then, is the Buddha’s extraordinary solution to the problem of overcoming
+death, a solution that completely outwits Māra.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn600"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn600-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn601"><sup class="footnote-definition-label">2</sup>
+<p>E.g. <a href="https://suttacentral.net/iti69/pli/ms">Iti 69 / It 57</a>, <em>Dutiyarāgasutta</em>: <em>tiṇṇo pāraṁ gato thale tiṭṭhati brāhmaṇo</em> <a href="#fr-fn601-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn602"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/snp4.5/pli/ms">Snp 4.5 / Sn 803</a>, <em>Paramaṭṭhakasutta</em> <a href="#fr-fn602-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn603"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/snp3.11/pli/ms">Snp 3.11 / Sn 714</a>, <em>Nālakasutta</em> <a href="#fr-fn603-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn604"><sup class="footnote-definition-label">5</sup>
+<p>See e.g. <a href="https://suttacentral.net/an4.161/pli/ms">AN 4.161 / A II 149</a>, <em>Saṁkhittasutta</em> <a href="#fr-fn604-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn605"><sup class="footnote-definition-label">6</sup>
+<p>Pj II 498 <a href="#fr-fn605-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn606"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/snp4.5/pli/ms">Snp 4.5 / Sn 803</a>, <em>Paramaṭṭhakasutta</em> <a href="#fr-fn606-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn607"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/snp4.6/pli/ms">Snp 4.6 / Sn 812</a>, <em>Jarāsutta</em> <a href="#fr-fn607-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn608"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/snp4.9/pli/ms">Snp 4.9 / Sn 845</a>, <em>Māgandiyasutta</em> <a href="#fr-fn608-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn609"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/an10.81/pli/ms">AN 10.81 / A V 151</a>, <em>Bāhunasutta</em> <a href="#fr-fn609-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn610"><sup class="footnote-definition-label">11</sup>
+<p>See <em>Sermon 12</em> <a href="#fr-fn610-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn611"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/sn35.232/pli/ms">SN 35.232 / S IV 164</a>, <em>Koṭṭhikasutta</em> <a href="#fr-fn611-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn612"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/mn91/pli/ms">MN 91 / M II 138</a>, <em>Brahmāyusutta</em> <a href="#fr-fn612-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn613"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/an9.26/pli/ms">AN 9.26 / A IV 404</a>, <em>Silāyūpasutta</em> <a href="#fr-fn613-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn614"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/dhp383-423/pli/ms">Dhp 385</a>, <em>Brāhmaṇavagga</em> <a href="#fr-fn614-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn615"><sup class="footnote-definition-label">16</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn615-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn616"><sup class="footnote-definition-label">17</sup>
+<p>See <em>Sermon 14</em> <a href="#fr-fn616-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn617"><sup class="footnote-definition-label">18</sup>
+<p>See <em>Sermon 9</em> <a href="#fr-fn617-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn618"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 135</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn618-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn619"><sup class="footnote-definition-label">20</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn619-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn620"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/snp1.1/pli/ms">Snp 1.1 / Sn 1-17</a> , <em>Uragasutta</em> <a href="#fr-fn620-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn621"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/snp1.1/pli/ms">Snp 1.1 / Sn 8</a>, <em>Uragasutta</em> <a href="#fr-fn621-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn622"><sup class="footnote-definition-label">23</sup>
+<p>See <em>Sermon 12</em> <a href="#fr-fn622-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn623"><sup class="footnote-definition-label">24</sup>
+<p>E.g. Ps I 183, commenting on <a href="https://suttacentral.net/mn8/pli/ms">MN 8 / M I 40</a>, <em>Sallekhasutta</em>: <em>netaṁ mama, neso ’ham asmi, na meso attā ti</em> <a href="#fr-fn623-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn624"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/mn26/pli/ms">MN 26 / M I 168</a>, <em>Ariyapariyesanasutta</em> <a href="#fr-fn624-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn625"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/iti44/pli/ms">Iti 44 / It 38</a>, <em>Nibbānadhātusutta</em> <a href="#fr-fn625-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn626"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/mn29/pli/ms">MN 29 / M I 197</a>, <em>Mahāsāropamasutta</em> <a href="#fr-fn626-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn627"><sup class="footnote-definition-label">28</sup>
+<p>It-a I 167 <a href="#fr-fn627-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn628"><sup class="footnote-definition-label">29</sup>
+<p>In the standard formula for recollecting the Dhamma, e.g. at <a href="https://suttacentral.net/dn16/pli/ms">DN 16 / D II 93</a> <a href="#fr-fn628-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn629"><sup class="footnote-definition-label">30</sup>
+<p><a href="https://suttacentral.net/sn1.49/pli/ms">SN 1.49 / S I 34</a>, <em>Maccharisutta</em> <a href="#fr-fn629-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn630"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/an10.7/pli/ms">AN 10.7 / A V 9</a>, <em>Sāriputtasutta</em> <a href="#fr-fn630-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn631"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/an6.43/pli/ms">AN 6.43 / A III 347</a>, <em>Nāgasutta</em> and <a href="https://suttacentral.net/thag15.2/pli/ms">Thag 15.2 / Th 702</a>, <em>Udāyitheragāthā</em> <a href="#fr-fn631-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn632"><sup class="footnote-definition-label">33</sup>
+<p>The corresponding verse in the Chinese parallel, <em>Madhyama Āgama</em> discourse 118 (Taishº I 608c27), does not mention <em>saṅkhāra</em> at all. (Anālayo) <a href="#fr-fn632-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn633"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://suttacentral.net/an4.1/pli/ms">AN 4.1 / A II 1</a>, <em>Anubuddhasutta</em> <a href="#fr-fn633-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn634"><sup class="footnote-definition-label">35</sup>
+<p><a href="https://suttacentral.net/mn10/pli/ms">MN 10 / M I 62</a>, <em>Satipaṭṭhānasutta</em> <a href="#fr-fn634-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn635"><sup class="footnote-definition-label">36</sup>
+<p><a href="https://suttacentral.net/thag17.2/pli/ms">Thag 17.2 / Th 1001</a>, <em>Sāriputtatheragāthā</em> <a href="#fr-fn635-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn636"><sup class="footnote-definition-label">37</sup>
+<p><a href="https://suttacentral.net/ud8.9/pli/ms">Ud 8.9 / Ud 92</a>, <em>Paṭhamadabbasutta</em> <a href="#fr-fn636-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-17.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-19.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-17.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-19.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

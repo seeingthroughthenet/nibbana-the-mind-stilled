@@ -1,0 +1,1090 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 13 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-13-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-13"><a class="header" href="#sermon-13">Sermon 13</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn438-1"><a href="#fn-fn438">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the thirteenth sermon in the series of
+sermons on Nibbāna.</p>
+<p>In our last sermon we attempted an exposition under the topic
+<em>sabbadhammamūlapariyāya</em>, “the basic pattern of behaviour of all mind objects”,
+which constitutes the theme of the very first sutta of the <em>Majjhima Nikāya</em>,
+namely the <em>Mūlapariyāyasutta</em>.</p>
+<p>We happened to mention that the discourse describes three different attitudes
+regarding twenty-four concepts such as earth, water, fire and air. We could
+however discuss only two of them the other day, namely the world view, or the
+attitude of the untaught ordinary person, and the attitude of the noble one, who
+is in higher training.</p>
+<p>So today, to begin with, let us bring up the third type of attitude given in the
+discourse, that is, the attitude of <em>arahants</em> and that of the Tathāgata, both
+being similar. It is described in these words:</p>
+<blockquote>
+<p><em>Paṭhaviṁ paṭhavito abhijānāti, paṭhaviṁ paṭhavito abhiññāya paṭhaviṁ na
+maññati, paṭhaviyā na maññati, paṭhavito na maññati, ’paṭhaviṁ me’ti na
+maññati, paṭhaviṁ nābhinandati. Taṁ kissa hetu? ’Pariññātaṁ tassā’ti vadāmi</em>.<sup class="footnote-reference" id="fr-fn439-1"><a href="#fn-fn439">2</a></sup></p>
+<p>The <em>arahant</em> (as well as the Tathāgata) understands through higher knowledge
+earth as ‘earth’, having understood through higher knowledge earth as ‘earth’,
+he does not imagine earth to be ‘earth’, he does not imagine ‘on the earth’,
+he does not imagine ‘from the earth’, he does not imagine ‘earth is mine’, he
+does not delight in earth. Why is that? I say, it is because it has been well
+comprehended by him.</p>
+</blockquote>
+<p>Let us now try to compare and contrast these three attitudes, so that we can
+understand them in greater detail. The attitude of the untaught ordinary person
+in regard to any of the twenty-four concepts like earth, water, fire, air (the
+twenty-four cited being illustrations), is so oriented that he perceives it as
+such.</p>
+<p>For instance in the case of earth, he perceives a real earth, that is, takes it
+as earth per se. It may sometimes be only a block of ice, but because it is hard
+to the touch, he grasps it as ‘earth’. Thus the ordinary person, the worldling,
+relies only on perception in his pursuit of knowledge. Having perceived earth as
+‘earth’, he imagines it to be ‘earth’. The peculiarity of <em>maññanā</em>, or
+‘me’-thinking, is that it is an imagining in terms of ‘I’ and ‘mine’.</p>
+<p>So he first imagines it as ‘earth’, then he imagines ‘on the earth’, ‘from the
+earth’, ‘earth is mine’ and delights in the earth. Here we find various
+flexional forms known to grammar.</p>
+<p>As a matter of fact, grammar itself is a product of the worldlings for purposes
+of transaction in ideas bound up with defilements. Its purpose is to enable
+beings, who are overcome by the personality view, to communicate with their
+like-minded fellow beings. Grammar, therefore, is something that caters to their
+needs. As such, it embodies certain misconceptions, some of which have been
+highlighted in this context.</p>
+<p>For instance, <em>paṭhaviṁ maññati</em> could be interpreted as an attempt to imagine
+an earth – as a full-fledged noun or substantive. It is conceived as something
+substantial. By <em>paṭhaviyā maññāti</em>, “he imagines ‘on the earth’”, the locative
+case is implied; while <em>’paṭhaviṁ me’ti maññati</em>, “he imagines ‘earth is mine’”,
+is an instance of the genitive case, expressing the idea of possession.</p>
+<p>Due to such imaginings, a reality is attributed to the concept of ‘earth’ and
+its existence is taken for granted. In other words, these various forms of
+imaginings go to confirm the notion already aroused by the concept of ‘earth’.
+Once it is confirmed one can delight in it, <em>paṭhaviṁ abhinandati</em>. This, then,
+is the worldview of the untaught ordinary person.</p>
+<p>The other day we mentioned that the monk who is in higher training understands
+through higher knowledge, not through perception, earth as ‘earth’. Though it is
+a higher level of understanding, he is not totally free from imaginings. That is
+why certain peculiar expressions are used in connection with him, such as
+<em>paṭaviṁ mā maññi, paṭhaviyā mā maññi, paṭhavito mā maññi, ’paṭhaviṁ me’ti mā
+maññi, paṭhaviṁ mā abhinandi.</em></p>
+<p>Here we have to call in question the commentarial explanation. According to the
+commentary, this peculiar expression had to be used as a dilly dally phrase,
+because the monk in higher training could not be said to imagine or not
+imagine.<sup class="footnote-reference" id="fr-fn440-1"><a href="#fn-fn440">3</a></sup> But it is clear enough that the particle <em>mā</em> in this context
+is used in its prohibitive sense. <em>Mā maññi</em> means “do not imagine!”, and <em>mā
+abhinandi</em> means “do not delight!”.</p>
+<p>What is significant about the <em>sekha</em>, the monk in higher training, is that he
+is in a stage of voluntary training. In fact, the word <em>sekha</em> literally means a
+‘learner’. That is to say, he has obtained a certain degree of higher
+understanding but has not attained as yet full comprehension.</p>
+<p>It is precisely for that reason that the section about him is summed up by the
+statement:</p>
+<blockquote>
+<p><em>Taṁ kissa hetu? Pariññeyyaṁ tassā’ti vadāmi.</em></p>
+<p>Why is that? Because, I say, that it should be comprehended by him.</p>
+</blockquote>
+<p>Since he has yet to comprehend it, he is following that course of higher
+training. The particle <em>mā</em> is therefore a pointer to that effect. For example,
+<em>mā maññi</em> “do not imagine!”, <em>mā abhinandi</em> “do not delight!”.</p>
+<p>In other words, the monk in higher training cannot help using the grammatical
+structure in usage among the worldlings and as his latencies are not extinct as
+yet, he has to practise a certain amount of restraint. By constant employment of
+mindfulness and wisdom he makes an attempt to be immune to the influence of the
+worldling’s grammatical structure.</p>
+<p>There is a possibility that he would be carried away by the implications of such
+concepts as earth, water, fire and air, in his communications with the world
+regarding them. So he strives to proceed towards full comprehension with the
+help of the higher understanding already won, keeping mindfulness and wisdom
+before him. That is the voluntary training implied here.</p>
+<p>The monk in higher training is called <em>attagutto</em>, in the sense that he tries to
+guard himself.<sup class="footnote-reference" id="fr-fn441-1"><a href="#fn-fn441">4</a></sup> Such phrases like <em>mā maññi</em> indicate that voluntary
+training in guarding himself. Here we had to add something more to the
+commentarial explanation. So this is the situation with the monk in higher
+training.</p>
+<p>Now as to the <em>arahant</em> and the Tathāgata, the world views of both are
+essentially the same. That is to say, they both have a higher knowledge as well
+as a full comprehension with regard to the concept of earth, for instance.
+<em>Pariññātaṁ tassā’ti vadāmi</em>, “I say it has been comprehended by him”.</p>
+<p>As such, they are not carried away by the implications of the worldlings’
+grammatical structure. They make use of the worldly usage much in the same way
+as parents do when they are speaking in their child’s language. They are not
+swept away by it. There is no inner entanglement in the form of imagining. There
+is no attachment, entanglement and involvement by way of craving, conceit and
+view, in regard to those concepts.</p>
+<p>All this goes to show the immense importance of the <em>Mūlapariyāyasutta</em>. One can
+understand why this sutta came to be counted as the first among the suttas of
+the <em>Majjhima Nikāya</em>. It is as if this sutta was intended to serve as the
+alphabet in deciphering the words used by the Buddha in his sermons delivered in
+discursive style. As a matter of fact the <em>Majjhima Nikāya</em> in particular is a
+text abounding in deep suttas. This way we can understand why both higher
+knowledge and full comprehension are essential.</p>
+<p>We have shown above that this discourse bears some relation to the grammatical
+structure. Probably due to a lack of recognition of this relationship between
+the modes of imagining and the grammatical structure, the commentators were
+confronted with a problem while commenting upon this discourse.</p>
+<p>Such phrases as <em>paṭhaviṁ maññati</em> and <em>paṭhaviyā maññati</em> occur all over this
+discourse in referring to various ways of imagining. The commentator, however,
+always makes it a point to interpret these ways of imagining with reference to
+craving, conceit and views. So when he comes to the phrase <em>mā abhinandi</em>, he
+finds it to be superfluous. That is why Venerable Buddhaghosa treats it as a
+repetition and poses a possible question as follows:</p>
+<blockquote>
+<p><em>‘Paṭhaviṁ maññatī’ti’ eteneva etasmiṁ atthe siddhe kasmā evaṁ vuttanti ce.
+Avicāritaṁ etaṁ porāṇehi. Ayaṁ pana me attano mati, desanāvilāsato vā
+ādīnavadassanato vā.</em><sup class="footnote-reference" id="fr-fn442-1"><a href="#fn-fn442">5</a></sup></p>
+</blockquote>
+<p>Now this is how the commentator poses his own problem: When the phrase <em>paṭhaviṁ
+maññati</em> by itself fulfils the purpose, why is it that an additional phrase like
+<em>paṭhaviṁ abhinandati</em> is brought in? That is to say, if the imagining already
+implies craving, conceit and views, what is the justification for the concluding
+phrase <em>paṭhaviṁ abhinandati</em>, “he delights in earth”, since craving already
+implies a form of delighting?</p>
+<p>So he takes it as a repetition and seeks for a justification. He confesses that
+the ancients have not handed down an explanation and offers his own personal
+opinion on it, <em>ayaṁ pana me attano mati,</em> “but then this is my own opinion”.</p>
+<p>And what does his own explanation amount to? <em>Desanāvilāsato vā ādīnavadassanato
+vā</em>, “either as a particular style in preaching, or by way of showing the perils
+of the ways of imagining”. He treats it as yet another way of preaching peculiar
+to the Buddha, or else as an attempt to emphasize the perils of imagining.</p>
+<p>However, going by the explanation we have already given above, relating these
+modes of imagining to the structure of grammar, we can come to a conclusion as
+to why the phrase <em>mā abhinandi</em> was brought in.</p>
+<p>The reason is that each of those concepts crystallized into a real thing as a
+result of imagining, based on the framework of grammar. It received real object
+status in the world of imagination. Once its object status got confirmed, one
+can certainly delight in it. It became a thing in truth and fact. The purpose of
+these ways of imagining is to mould it into a thing.</p>
+<p>Let us go deeper into this problem. There is, for instance, a certain recurrent
+passage in the discourses on the subject of sense restraint.<sup class="footnote-reference" id="fr-fn443-1"><a href="#fn-fn443">6</a></sup> The gist of
+that passage amounts to this: A person with defilements takes in signs and
+features through all the six sense doors, inclusive of the mind.</p>
+<p>Due to that grasping at signs and features, various kinds of influxes are said
+to flow in, according to the passages outlining the practice of sense restraint.
+From this we can well infer that the role of <em>maññanā</em>, or imagining, is to
+grasp at signs with regard to the objects of the mind.</p>
+<p>That is to say, the mind apperceives its object as ‘something’, <em>dhammasaññā</em>.
+The word <em>dhamma</em> in the opening sentence of this sutta,
+<em>sabbadhammamūlapariyāyaṁ vo, bhikkhave, desessāmi</em>, means a ‘thing’, since
+every-thing is an object of the mind in the last analysis.</p>
+<p><em>Paṭhaviṁ maññati</em>, “he imagines earth as earth”, is suggestive of a grasping at
+the sign in regard to objects of the mind. Thinking in such terms as <em>paṭhaviyā
+maññati, paṭhavito maññāti</em>, and <em>’paṭhaviṁ me’ti maññati</em>, “he imagines ‘on the
+earth’, he imagines ‘from the earth’, he imagines ‘earth is mine’”, are like the
+corroborative features that go to confirm that sign already grasped.</p>
+<p>The two terms <em>nimitta,</em> sign, and <em>anuvyañjana</em>, feature, in the context of
+sense restraint have to be understood in this way. Now the purpose of a
+<em>nimitta</em>, or sign, is to give a hazy idea like ‘this may be so’.</p>
+<p>It receives confirmation with the help of corroborative features, <em>anuvyañjana</em>,
+all the features that are accessory to the sign. The corroboration comes, for
+instance, in this manner: ‘This goes well with this, this accords with this,
+therefore the sign I took is right’. So even on the basis of instructions on
+sense restraint, we can understand the special significance of this <em>maññanā</em>,
+or ‘me’-thinking.</p>
+<p>The reason for the occurrence of these different ways of me-thinking can also be
+understood. In this discourse the Buddha is presenting a certain philosophy of
+the grammatical structure. The structure of grammar is a contrivance for
+conducting the worldlings’ thought process, characterised by the perception of
+permanence, as well as for communication of ideas arising out of that process.</p>
+<p>The grammatical structure invests words with life, as it were. This mode of
+hypostasizing is revealed in the nouns and substantives implying such notions as
+‘in it’, ‘by it’ and ‘from it’. The last of the flexional forms, the vocative
+case, <em>he paṭhavi</em>, “hey earth”, effectively illustrates this hypostasizing
+character of grammar. It is even capable of infusing life into the concept of
+‘earth’ and arousing it with the words “hey earth”.</p>
+<p>In an earlier sermon we had occasion to refer to a legend in which a tiger was
+reconstituted and resurrected out of its skeletal remains.<sup class="footnote-reference" id="fr-fn444-1"><a href="#fn-fn444">7</a></sup> The structure
+of grammar seems to be capable of a similar feat. The <em>Mūlapariyāyasutta</em> gives
+us an illustration of this fact.</p>
+<p>It is because of the obsessional character of this <em>maññanā</em>, or me-thinking,
+that the Buddha has presented this <em>Mūlapariyāyasutta</em> to the world as the basic
+pattern or paradigm representing three types of world views, or the world views
+of three types of persons.</p>
+<p>This discourse deals with the untaught ordinary person, who is obsessed by this
+grammatical structure, the disciple in higher training, who is trying to free
+himself from its grip, and the emancipated one, completely free from it, at the
+same time giving their respective world views as well.</p>
+<p>The other day we enumerated the list of twenty-four concepts, presented in that
+discourse. Out of these concepts, we have to pay special attention to the fact
+that Nibbāna is counted as the last, since it happens to be the theme of all our
+sermons.</p>
+<p>Regarding this concept of Nibbāna too, the worldling is generally tempted to
+entertain some kind of <em>maññanā</em>, or me-thinking. Even some philosophers are
+prone to that habit. They indulge in some sort of prolific conceptualisation and
+me-thinking on the basis of such conventional usages as ‘in Nibbāna’, ‘from
+Nibbāna’, ‘on reaching Nibbāna’ and ‘my Nibbāna’. By hypostasizing Nibbāna they
+develop a substance view, even of this concept, just as in the case of
+<em>paṭhavi</em>, or earth. Let us now try to determine whether this is justifiable.</p>
+<p>The primary sense of the word Nibbāna is ‘extinction’, or ‘extinguishment’. We
+have already discussed this point with reference to such contexts as
+<em>Aggivacchagottasutta</em>.<sup class="footnote-reference" id="fr-fn445-1"><a href="#fn-fn445">8</a></sup> In that discourse the Buddha explained the term
+Nibbāna to the wandering ascetic Vacchagotta with the help of a simile of the
+extinction of a fire. Simply because a fire is said to go out, one should not
+try to trace it, wondering where it has gone.</p>
+<p>The term Nibbāna is essentially a verbal noun. We also came across the phrase
+<em>nibbuto tveva saṅkhaṁ gacchati</em>, “it is reckoned as ‘extinguished’”.<sup class="footnote-reference" id="fr-fn446-1"><a href="#fn-fn446">9</a></sup></p>
+<p>As we have already pointed out in a previous sermon, <em>saṅkhā</em>, <em>samaññā</em> and
+<em>paññatti</em>, ‘reckoning’, ‘appellation’ and ‘designation’ are more or less
+synonymous.<sup class="footnote-reference" id="fr-fn447-1"><a href="#fn-fn447">10</a></sup></p>
+<p><em>Saṅkhaṁ gacchati</em> only means “comes to be reckoned”. Nibbāna is therefore some
+sort of reckoning, an appellation or designation. The word Nibbāna, according to
+the <em>Aggivacchagottasutta</em>, is a designation or a concept.</p>
+<p>But the commentator takes much pains to prove that the Nibbāna mentioned at the
+end of the list in the <em>Mūlapariyāyasutta</em> refers not to our orthodox Nibbāna,
+but to a concept of Nibbāna upheld by heretics.<sup class="footnote-reference" id="fr-fn448-1"><a href="#fn-fn448">11</a></sup> The commentator, it
+seems, is at pains to salvage our Nibbāna, but his attempt is at odds with the
+trend of this discourse, because the <em>sekha</em>, or the monk in higher training,
+has no need to train himself in refraining from delighting in any heretical
+Nibbāna. So here too, the reference is to our orthodox Nibbāna.</p>
+<p>Presumably the commentator could not understand why the <em>arahants</em> do not
+delight in Nibbāna. For instance, in the section on the Tathāgata one reads:</p>
+<blockquote>
+<p><em>Nibbānaṁ nābhinandati. Taṁ kissa hetu? Nandi dukkhassa mūlan’ti iti viditvā,
+bhavā jāti, bhūtassa jarāmaraṇaṁ.</em></p>
+<p>He does not delight in Nibbāna. Why so? Because he knows that delighting is
+the root of suffering, and from becoming comes birth and to the one become
+there is decay-and-death.</p>
+</blockquote>
+<p>It seems, then, that the Tathāgata does not delight in Nibbāna, because
+delighting is the root of suffering. Now <em>nandi</em> is a form of grasping,
+<em>upādāna</em>, impelled by craving. It is sometimes expressly called an <em>upādāna</em>:</p>
+<blockquote>
+<p><em>Yā vedanāsu nandi tadupādānaṁ,</em></p>
+<p>whatever delighting there is in feeling, that is a grasping.<sup class="footnote-reference" id="fr-fn449-1"><a href="#fn-fn449">12</a></sup></p>
+</blockquote>
+<p>Where there is delighting, there is a grasping. Where there is grasping, there
+is <em>bhava</em>, becoming or existence. From becoming comes birth, and to the one who
+has thus come to be there is decay-and-death.</p>
+<p>It is true that we project the concept of Nibbāna as an objective to aim at in
+our training. But if we grasp it like the concept of earth and start indulging
+in me-thinkings or imaginings about it, we would never be able to realize it.
+Why? Because what we have here is an extraordinary path leading to an
+emancipation from all concepts:</p>
+<blockquote>
+<p><em>nissāya nissāya oghassa nittharaṇā,</em></p>
+<p>“crossing over the flood with relative dependence”.<sup class="footnote-reference" id="fr-fn450-1"><a href="#fn-fn450">13</a></sup></p>
+</blockquote>
+<p>Whatever is necessary is made use of, but there is no grasping in terms of
+craving, conceits and views. That is why even with reference to the Tathāgata
+the phrase <em>Nibbānaṁ nābhinandati</em>, “he does not delight in Nibbāna”, occurs in
+this discourse.</p>
+<p>One might ask: “What is wrong in delighting in Nibbāna?” But then we might
+recall a pithy dialogue already quoted in an earlier sermon.<sup class="footnote-reference" id="fr-fn451-1"><a href="#fn-fn451">14</a></sup> A deity
+comes and accosts the Buddha: “Do you rejoice, recluse?” And the Buddha
+responds: “On getting what, friend?” Then the deity asks: “Well then, recluse,
+do you grieve?” And the Buddha retorts: “On losing what, friend?” The deity now
+mildly remarks: “So then, recluse, you neither rejoice nor grieve!” And the
+Buddha confirms it with the assent: “That is so, friend.”<sup class="footnote-reference" id="fr-fn452-1"><a href="#fn-fn452">15</a></sup></p>
+<p>This then is the attitude of the Buddha and the <em>arahants</em> to the concept of
+Nibbāna. There is nothing to delight in it, only equanimity is there.</p>
+<p>Seen in this perspective, the word Nibbāna mentioned in the <em>Mūlapariyāyasutta</em>
+need not be taken as referring to a concept of Nibbāna current among heretics.
+The reference here is to our own orthodox Nibbāna concept. But the attitude
+towards it must surely be changed in the course of treading the path to it.</p>
+<p>If, on the contrary, one grasps it tenaciously and takes it to be substantial,
+presuming that the word is a full fledged noun, and goes on to argue it out on
+the basis of logic and proliferate on it conceptually, it will no longer be our
+Nibbāna. There one slips into wrong view. One would never be able to extricate
+oneself from wrong view that way. Here then is an issue of crucial importance.</p>
+<p>Many philosophers start their exposition with an implicit acceptance of
+conditionality. But when they come to the subject of Nibbāna, they have recourse
+to some kind of instrumentality. “On reaching Nibbāna, lust and delight are
+abandoned.”<sup class="footnote-reference" id="fr-fn453-1"><a href="#fn-fn453">16</a></sup></p>
+<p>Commentators resort to such explanations under the influence of <em>maññanā</em>. They
+seem to imply that Nibbāna is instrumental in quenching the fires of defilement.
+To say that the fires of defilements are quenched by Nibbāna, or on arriving at
+it, is to get involved in a circular argument. It is itself an outcome of
+<em>papañca</em>, or conceptual prolificity, and betrays an enslavement to the syntax.</p>
+<p>When one says ‘the river flows’, it does not mean that there is a river quite
+apart from the act of flowing. Likewise the idiom ‘it rains’ should not be taken
+to imply that there is something that rains. It is only a turn of speech,
+fulfilling a certain requirement of the grammatical structure.</p>
+<p>On an earlier occasion we happened to discuss some very important aspects of the
+<em>Poṭṭhapādasutta</em>.<sup class="footnote-reference" id="fr-fn454-1"><a href="#fn-fn454">17</a></sup> We saw how the Buddha presented a philosophy of
+language, which seems so extraordinary even to modern thinkers. This
+<em>Mūlapariyāyasutta</em> also brings out a similar attitude to the linguistic medium.</p>
+<p>Such elements of a language as nouns and verbs reflect the worldling’s mode of
+thinking. As in the case of a child’s imagination, a noun appears as a must. So
+it has to rain for there to be rain. The implicit verbal sense becomes obscured,
+or else it is ignored. A periphrastic usage receives acceptance. So the rain
+rains, and the river flows. A natural phenomenon becomes mystified and
+hypostasized.</p>
+<p>Anthropomorphism is a characteristic of the pre-historic man’s philosophy of
+life. Wherever there was an activity, he imagined some form of life. This
+animistic trend of thought is evident even in the relation between the noun and
+the verb. The noun has adjectives as attributes and the verb has adverbs to go
+with it. Particles fall in between, and there we have what is called grammar. If
+one imagines that the grammar of language must necessarily conform to the
+grammar of nature, one falls into a grievous error.</p>
+<p>Now the commentators also seem to have fallen into such an error in their
+elaborate exegesis on Nibbāna, due to a lack of understanding of this philosophy
+of language. That is why the <em>Mūlapariyāyasutta</em> now finds itself relegated,
+though it is at the head of the suttas of the <em>Majjhima Nikāya</em>.</p>
+<p>It is in the nature of concepts that nouns are invested with a certain amount of
+permanence. Even a verbal noun, once it is formed, gets a degree of permanence
+more or less superimposed on it. When one says ‘the river flows’, one somehow
+tends to forget the flowing nature of the so-called river. This is the result of
+the perception of permanence.</p>
+<p>As a matter of fact, perception as such carries with it the notion of
+permanence, as we mentioned in an earlier sermon.<sup class="footnote-reference" id="fr-fn455-1"><a href="#fn-fn455">18</a></sup> To perceive is to
+grasp a sign. One can grasp a sign only where one imagines some degree of
+permanence.</p>
+<p>The purpose of perception is not only to recognize for oneself, but also to make
+it known to others. The Buddha has pointed out that there is a very close
+relationship between recognition and communication. This fact is expressly
+stated by the Buddha in the following quotation from the Sixes of the <em>Aṅguttara
+Nikāya</em>:</p>
+<blockquote>
+<p><em>Vohāravepakkaṁ ahaṁ, bhikkhave, saññaṁ vadāmi. Yathā yathā naṁ sañjānāti,
+tathā tathā voharati, evaṁ saññī ahosin’ti.</em><sup class="footnote-reference" id="fr-fn456-1"><a href="#fn-fn456">19</a></sup></p>
+<p>Monks, I say that perception has linguistic usage as its result. In whatever
+way one perceives, so one speaks out about it, saying: ‘I was of such a
+perception’.</p>
+</blockquote>
+<p>The word <em>vepakka</em> is a derivative from the word <em>vipāka</em>, which in the context
+of <em>kamma</em>, or ethically significant action, generally means the result of that
+action. In this context, however, its primary sense is evident, that is, as some
+sort of a ripening. In other words, what this quotation implies is that
+perception ripens or matures into verbal usage or convention.</p>
+<p>So here we see the connection between <em>saññā</em>, perception, and <em>saṅkhā</em>,
+reckoning. This throws more light on our earlier explanation of the last line of
+a verse in the <em>Kalahavivādasutta</em>, namely:</p>
+<blockquote>
+<p><em>saññānidānā hi papañcasaṅkhā,</em></p>
+<p>for reckonings born of prolificity have perception as their source.<sup class="footnote-reference" id="fr-fn457-1"><a href="#fn-fn457">20</a></sup></p>
+</blockquote>
+<p>So now we are in a better position to appreciate the statement that linguistic
+usages, reckonings and designations are the outcome of perception. All this goes
+to show that an insight into the philosophy of language is essential for a
+proper understanding of this Dhamma. This is the moral behind the
+<em>Mūlapariyāyasutta</em>.</p>
+<p>Beings are usually dominated by these reckonings, appellations and designations,
+because the perception of permanence is inherent in them. It is extremely
+difficult for one to escape it. Once the set of such terms as milk, curd and
+butter comes into vogue, the relation between them becomes an insoluble problem
+even for the great philosophers.</p>
+<p>Since we have been talking about the concept of Nibbāna so much, one might ask:
+“So then, Nibbāna is not an absolute, <em>paramattha</em>?” It is not a <em>paramattha</em> in
+the sense of an absolute. It is a <em>paramattha</em> only in the sense that it is the
+highest good, <em>parama attha</em>.</p>
+<p>This is the sense in which the word was used in the discourses,<sup class="footnote-reference" id="fr-fn458-1"><a href="#fn-fn458">21</a></sup> though
+it has different connotations now. As exemplified by such quotations as
+<em>āraddhaviriyo paramatthapattiyā</em>,<sup class="footnote-reference" id="fr-fn459-1"><a href="#fn-fn459">22</a></sup> “with steadfast energy for the
+attainment of the highest good”, the suttas speak of Nibbāna as the highest good
+to be attained.</p>
+<p>In later Buddhist thought, however, the word <em>paramattha</em> came to acquire
+absolutist connotations, due to which some important discourses of the Buddha on
+the question of worldly appellations, worldly expressions and worldly
+designations fell into disuse. This led to an attitude of dwelling in the
+scaffolding, improvised just for the purpose of constructing a building.</p>
+<p>As a postscript to our exposition of the <em>Mūlapariyāyasutta</em> we may add the
+following important note: This particular discourse is distinguished from all
+other discourses in respect of one significant feature. That is, the concluding
+statement to the effect that the monks who listened to the sermon were not
+pleased by it.</p>
+<p>Generally we find at the end of a discourse a more or less thematic sentence
+like:</p>
+<blockquote>
+<p><em>attamanā te bhikkhū Bhagavato bhāsitaṁ abhinanduṁ,</em></p>
+<p>those monks were pleased and they rejoiced in the words of the
+Exalted One.<sup class="footnote-reference" id="fr-fn460-1"><a href="#fn-fn460">23</a></sup></p>
+</blockquote>
+<p>But in this sutta we find the peculiar ending:</p>
+<blockquote>
+<p><em>idaṁ avoca Bhagavā, na te bhikkhū Bhagavato bhāsitaṁ abhinanduṁ,</em></p>
+<p>the Exalted One said this, but those monks did not rejoice in the words of the
+Exalted One.<sup class="footnote-reference" id="fr-fn461-1"><a href="#fn-fn461">24</a></sup></p>
+</blockquote>
+<p>Commentators seem to have interpreted this attitude as an index to the
+abstruseness of the discourse.<sup class="footnote-reference" id="fr-fn462-1"><a href="#fn-fn462">25</a></sup> This is probably why this discourse came
+to be neglected in the course of time.</p>
+<p>But on the basis of the exposition we have attempted, we might advance a
+different interpretation of the attitude of those monks. The declaration that
+none of the concepts, including that of Nibbāna, should be egoistically
+imagined, could have caused displeasure in monks, then as now. So much, then,
+for the <em>Mūlapariyāyasutta</em>.</p>
+<p>The Buddha has pointed out that this <em>maññanā</em>, or egoistic imagining, or
+me-thinking, is an extremely subtle bond of Māra.</p>
+<p>A discourse which highlights this fact comes in the <em>Saṁyutta Nikāya</em> under the
+title <em>Yavakalāpisutta</em>.<sup class="footnote-reference" id="fr-fn463-1"><a href="#fn-fn463">26</a></sup> In this discourse the Buddha brings out this
+fact with the help of a parable. It concerns the battle between gods and demons,
+which is a theme that comes up quite often in the discourses.</p>
+<p>In a war between gods and demons, the gods are victorious and the demons are
+defeated. The gods bind Vepacitti, the king of the demons, in a fivefold
+bondage, that is, hands and feet and neck, and bring him before Sakka, the king
+of the gods.</p>
+<p>This bondage has a strange mechanism about it. When Vepacitti thinks “gods are
+righteous, demons are unrighteous, I will go to the <em>deva</em> world”, he
+immediately finds himself free from that bondage and capable of enjoying the
+heavenly pleasures of the five senses.</p>
+<p>But as soon as he slips into the thought “gods are unrighteous, demons are
+righteous, I will go back to the <em>asura</em> world”, he finds himself divested of
+the heavenly pleasures and bound again by the fivefold bonds.</p>
+<p>After introducing this parable, the Buddha comes out with a deep disquisition of
+Dhamma for which it serves as a simile.</p>
+<blockquote>
+<p><em>Evaṁ sukhumaṁ kho, bhikkhave, Vepacittibandhanaṁ. Tato sukhumataraṁ
+Mārabandhanaṁ. Maññamāno kho, bhikkhave, baddho Mārassa, amaññamāno mutto
+pāpimato.</em></p>
+<p><em>Asmī’ti, bhikkhave, maññitaṁ etaṁ, ’ayaṁ ahaṁ asmī’ti maññitaṁ etaṁ,
+’bhavissan’ti maññitaṁ etaṁ, ’na bhavissan’ti maññitaṁ etaṁ, ’rūpī
+bhavissan’ti maññitaṁ etaṁ, ’arūpī bhavissan’ti maññitaṁ etaṁ, ’saññī
+bhavissan’ti maññitaṁ etaṁ, ’asaññī bhavissan’ti maññitaṁ etaṁ,
+’nevasaññīnāsaññī bhavissan’ti maññitaṁ etaṁ.</em></p>
+<p><em>Maññitaṁ, bhikkhave, rogo, maññitaṁ gaṇḍo, maññitaṁ sallaṁ. Tasmātiha,
+bhikkhave, ’amaññamānena cetasā viharissāmā’ti evañhi vo, bhikkhave,
+sikkhitabbaṁ.</em></p>
+<p>So subtle, monks, is the bondage of Vepacitti. But more subtle still is the
+bondage of Māra. Imagining, monks, one is bound by Māra, not imagining one is
+freed from the Evil One.</p>
+<p>‘Am’, monks, is an imagining, ‘this am I’ is an imagining, ‘I shall be’ is an
+imagining, ‘I shall not be’ is an imagining, ‘I shall be one with form’ is an
+imagining, ‘I shall be formless’ is an imagining, ‘I shall be percipient’ is
+an imagining, ‘I shall be non-percipient’ is an imagining, ‘I shall be
+neither-percipient-nor-non-percipient’ is an imagining.</p>
+<p>Imagining, monks, is a disease, imagining is an abscess, imagining is a barb,
+therefore, monks, should you tell yourselves: ‘We shall dwell with a mind free
+from imaginings, thus should you train yourselves’.</p>
+</blockquote>
+<p>First of all, let us try to get at the meaning of this exhortation. The opening
+sentence is an allusion to the simile given above. It says that the bondage in
+which Vepacitti finds himself is of a subtle nature, that is to say, it is a
+bondage connected with his thoughts. Its very mechanism is dependent on his
+thoughts.</p>
+<p>But then the Buddha declares that the bondage of Māra is even subtler. And what
+is this bondage of Māra? “Imagining, monks, one is bound by Māra, not imagining
+one is freed from that Evil One.” Then comes a list of nine different ways of
+imaginings.</p>
+<p>In the same discourse the Buddha goes on to qualify each of these imaginings
+with four significant terms, namely: <em>iñjitaṁ</em> agitation, <em>phanditaṁ</em>
+palpitation, <em>papañcitaṁ</em> proliferation and <em>mānagataṁ</em> conceit.</p>
+<p><em>Iñjitaṁ</em> is an indication that these forms of imaginings are the outcome of
+craving, since <em>ejā</em> is a synonym for <em>taṇhā</em>, or craving.</p>
+<p><em>Phanditaṁ</em> is an allusion to the fickleness of the mind, as for instance
+conveyed by the first line of a verse in the <em>Dhammapada</em>, <em>phandanaṁ capalaṁ
+cittaṁ</em>, “the mind, palpitating and fickle”.<sup class="footnote-reference" id="fr-fn464-1"><a href="#fn-fn464">27</a></sup> The fickle nature of the
+mind brings out those imaginings.</p>
+<p>They are also the products of proliferation, <em>papañcita</em>. We have already
+discussed the meaning of the term <em>papañca</em>.<sup class="footnote-reference" id="fr-fn465-1"><a href="#fn-fn465">28</a></sup> We happened to point out
+that it is a sort of straying away from the proper path.</p>
+<p><em>Mānagataṁ</em> is suggestive of a measuring. <em>Asmi</em>, or ‘am’, is the most
+elementary standard of measurement. It is the peg from which all measurements
+take their direction. As we pointed out in an earlier sermon, the grammatical
+structure of language is based on this peg ‘am’.<sup class="footnote-reference" id="fr-fn466-1"><a href="#fn-fn466">29</a></sup></p>
+<p>In connection with the three persons, first person, second person and third
+person, we happened to mention that as soon as one grants ‘I am’, a ‘here’ is
+born. It is only after a ‘here’ is born, that a ‘there’ and a ‘yonder’ come to
+be. The first person gives rise to the second and the third person, to complete
+the basic framework for grammar.</p>
+<p>So <em>asmi</em>, or ‘am’, is itself a product of proliferation. In fact, the deviation
+from the proper path, implied by the proliferation in <em>papañca</em>, is a result of
+these multifarious imaginings.</p>
+<p>It is in the nature of these imaginings that as soon as an imagining or a
+me-thinking occurs, a thing is born as a matter of course. And with the birth of
+a thing as ‘something’, impermanence takes over. That is to say, it comes under
+the sway of impermanence.</p>
+<p>This is a very strange phenomenon. It is only after becoming a ‘something’ that
+it can become ‘another thing’. <em>Aññathābhāva</em>, or otherwiseness, implies a
+change from one state to another. A change of state already presupposes some
+state or other, and that is what is called a ‘thing’.</p>
+<p>Now where does a ‘thing’ arise? It arises in the mind. As soon as something gets
+hold of the mind, that thing gets infected with the germ of impermanence.</p>
+<p>The modes of imagining listed above reveal a double bind. There is no freedom
+either way. Whether one imagines ‘I shall be with form’ or ‘I shall be
+formless’, one is in a dichotomy. It is the same with the two ways of imagining
+‘I shall be percipient’, ‘I shall be non-percipient’.</p>
+<p>We had occasion to refer to this kind of dichotomy while explaining the
+significance of quite a number of discourses. The root of all this duality is
+the thought ‘am’.</p>
+<p>The following two verses from the <em>Dvayatānupassanāsutta</em> throw light on some
+subtle aspects of <em>maññanā</em>, or imagining:</p>
+<blockquote>
+<p><em>Yena yena hi maññanti,</em> <br />
+<em>tato taṁ hoti aññathā,</em> <br />
+<em>taṁ hi tassa musā hoti,</em> <br />
+<em>mosadhammaṁ hi ittaraṁ.</em></p>
+<p><em>Amosadhammaṁ Nibbānaṁ,</em> <br />
+<em>tad ariyā saccato vidū,</em> <br />
+<em>te ve saccābhisamayā,</em> <br />
+<em>nicchātā parinibbutā.</em><sup class="footnote-reference" id="fr-fn467-1"><a href="#fn-fn467">30</a></sup></p>
+<p>In whatever way they imagine, <br />
+Thereby it turns otherwise, <br />
+That itself is the falsity <br />
+Of this puerile deceptive thing.</p>
+<p>Nibbāna is unfalsifying in its nature, <br />
+That they understood as the truth, <br />
+And indeed by the higher understanding of that truth <br />
+They have become hungerless and fully appeased.</p>
+</blockquote>
+<p>The first verse makes it clear that imagining is at the root of <em>aññathābhāva</em>,
+or otherwiseness, in so far as it creates a thing out of nothing. As soon as a
+thing is conceived in the mind by imagining, the germ of otherwiseness or change
+enters into it at its very conception.</p>
+<p>So a thing is born only to become another thing, due to the otherwiseness in
+nature. To grasp a thing tenaciously is to exist with it, and birth, decay and
+death are the inexorable vicissitudes that go with it.</p>
+<p>The second verse says that Nibbāna is known as the truth, because it is of an
+unfalsifying nature. Those who have understood it are free from the hunger of
+craving. The word <em>parinibbuta</em> in this context does not mean that those who
+have realized the truth have passed away. It only conveys the idea of full
+appeasement or a quenching of that hunger.</p>
+<p>Why is Nibbāna regarded as unfalsifying? Because there is no ‘thing’ in it. It
+is so long as there is a thing that all the distress and misery follow. Nibbāna
+is called <em>animitta</em>, or the signless, precisely because there is no-thing in
+it.</p>
+<p>Because it is signless, it is unestablished, <em>appaṇihita</em>. Only where there is
+an establishment can there be a dislodgement. Since it is not liable to
+dislodgement or disintegration, it is unshakeable. It is called <em>akuppā
+cetovimutti</em>, unshakeable deliverance of the mind,<sup class="footnote-reference" id="fr-fn468-1"><a href="#fn-fn468">31</a></sup> because of its
+unshaken and stable nature. Due to the absence of craving there is no
+directional apsiration, or <em>paṇidhi</em>.</p>
+<p>Similarly <em>suññata</em>, or voidness, is a term implying that there is no essence in
+Nibbāna in the substantial sense in which the worldlings use that term. As
+mentioned in the <em>Mahāsāropamasutta</em>, deliverance itself is the essence.<sup class="footnote-reference" id="fr-fn469-1"><a href="#fn-fn469">32</a></sup>
+Apart from that, there is nothing essential or substantial in Nibbāna. In short,
+there is no thing to become otherwise in Nibbāna.</p>
+<p>On an earlier occasion, too, we had to mention the fact that there is quite a
+lot of confusion in this concern.<sup class="footnote-reference" id="fr-fn470-1"><a href="#fn-fn470">33</a></sup> <em>Saṅkhata</em>, the compounded, is
+supposed to be a thing. And <em>asaṅkhata</em>, or the uncompounded, is also a thing.
+The compounded is an impermanent thing, while the uncompounded is a permanent
+thing. The compounded is fraught with suffering, and the uncompounded is
+blissful. The compounded is not self, but the uncompounded is … At this point
+the line of argument breaks off.</p>
+<p>Some of those who attempt this kind of explanation find themselves in a quandary
+due to their lack of understanding of the issues involved. The two verses quoted
+above are therefore highly significant.</p>
+<p>Because of <em>maññanā</em>, worldlings tend to grasp, hold on and adhere to
+mind-objects. The Buddha has presented these concepts just for the purpose of
+crossing over the flood,</p>
+<blockquote>
+<p><em>desitā nissāya nissāya oghassa nittharaṇā,</em><sup class="footnote-reference" id="fr-fn471-1"><a href="#fn-fn471">34</a></sup></p>
+<p>the process of crossing over the flood with relative dependence has been
+preached.</p>
+</blockquote>
+<p>All the <em>dhammas</em> that have been preached are for a practical purpose, based on
+an understanding of their relative value, and not for grasping tenaciously, as
+illustrated by such discourses like the <em>Rathavinītasutta</em> and the
+<em>Alagaddūpamasutta</em>.<sup class="footnote-reference" id="fr-fn472-1"><a href="#fn-fn472">35</a></sup></p>
+<p>Let alone other concepts, not even Nibbāna as a concept is to be grasped. To
+grasp the concept of Nibbāna is to slip into an error. So from the couplet
+quoted above we clearly understand how subtle this <em>maññanā</em> is and why it is
+called an extremely subtle bondage of Māra.</p>
+<p>It might be recalled that while discussing the significance of the
+<em>Brahmanimantanikasutta</em> we mentioned that the non-manifestative consciousness
+described in that discourse does not partake of the earthiness of earth.<sup class="footnote-reference" id="fr-fn473-1"><a href="#fn-fn473">36</a></sup>
+That is to say, it is not under the sway of the earth quality of earth.</p>
+<p>In fact as many as thirteen out of the twenty-four concepts mentioned in the
+<em>Mūlapariyāyasutta</em> come up again in the <em>Brahmanimantanikasutta</em>. The
+implication therefore is that the non-manifestative consciousness is not subject
+to the influence of any of those concepts. It does not take any of those
+concepts as substantial or essential, and that is why it is beyond their power.</p>
+<p>For the same reason it is called the non-manifestative consciousness.
+Consciousness as a rule takes hold of some object or other. This consciousness,
+however, is called non-manifestative in the sense that it is devoid of the
+nature of grasping any such object. It finds no object worthy of grasping.</p>
+<p>What we have discussed so far could perhaps be better appreciated in the light
+of another important sutta in the <em>Majjhima Nikāya</em>, namely the
+<em>Cūḷataṇhāsaṅkhayasutta</em>. A key to the moral behind this discourse is to be
+found in the following dictum occurring in it:
+<em>sabbe dhammā nālaṁ abhinivesāya,</em>
+“nothing is worth entering into dogmatically”.<sup class="footnote-reference" id="fr-fn474-1"><a href="#fn-fn474">37</a></sup></p>
+<p>The word <em>abhinivesa</em>, suggestive of dogmatic adherence, literally means
+‘entering into’. Now based on this idea we can bring in a relevant metaphor.</p>
+<p>We happened to mention earlier that as far as concepts are concerned, the
+<em>arahants</em> have no dogmatic adherence. Let us take, for instance, the concept of
+‘a house’. <em>Arahants</em> also enter a house, but they do not enter into the concept
+of ‘a house’. This statement might appear rather odd, but what we mean is that
+one can enter a house without entering into the concept of ‘a house’.</p>
+<p>Now leaving this as something of a riddle, let us try to analyse a certain fairy
+tale-like episode in the <em>Cūḷataṇhāsaṅkhayasutta</em>, somewhat as an interlude.</p>
+<p>The main theme of the <em>Cūḷataṇhāsaṅkhayasutta</em> is as follows: Once Sakka, the
+king of the gods, came to see the Buddha when he was staying at Pubbārāma and
+asked the question:</p>
+<blockquote>
+<p>“How does a monk attain deliverance by the complete destruction of craving?”</p>
+</blockquote>
+<p>The quintessence of the Buddha’s brief reply to that question is the above
+mentioned dictum,</p>
+<blockquote>
+<p><em>sabbe dhammā nālaṁ abhinivesāya,</em></p>
+<p>“nothing is worth entering into dogmatically.”</p>
+</blockquote>
+<p>Sakka rejoiced in this sermon approvingly and left. Venerable Mahā Moggallāna,
+who was seated near the Buddha at that time, had the inquisitive thought:</p>
+<blockquote>
+<p>“Did Sakka rejoice in this sermon having understood it, or did he rejoice
+without understanding it?”</p>
+</blockquote>
+<p>Being curious to find this out he vanished from Pubbārāma and appeared in the
+Tāvatiṁsa heaven as quickly as a strong man might stretch out his bent arm and
+bend back his outstretched arm.</p>
+<p>At that time Sakka was enjoying heavenly music. On seeing Venerable Mahā
+Moggallāna coming at a distance he stopped the music and welcomed the latter,
+saying:</p>
+<blockquote>
+<p>“Come good sir Moggallāna, welcome good sir Moggallāna! It is a long time,
+good sir Moggallāna, since you found an opportunity to come here.”</p>
+</blockquote>
+<p>He offered a high seat to Venerable Mahā Moggallāna and took a low seat at one
+side. Then Venerable Mahā Moggallāna asked Sakka what sort of a sermon the
+Buddha had preached to him on his recent visit, saying that he himself is
+curious on listening to it.</p>
+<p>Sakka’s reply was:</p>
+<blockquote>
+<p>“Good sir Moggallāna, we are so busy, we have so much to do, not only with our
+own business, but also with the business of other gods of Tāvatiṁsa. So it is
+not easy for us to remember such Dhamma discussions.”</p>
+</blockquote>
+<p>Then Sakka goes on to relate some other episode, which to him seems more
+important:</p>
+<blockquote>
+<p>“After winning the war against the <em>asuras</em>, I had the Vejayanti palace built.
+Would you like to see it, good sir Moggallāna?”</p>
+</blockquote>
+<p>Probably as a part of etiquette, binding on a visitor, Venerable Mahā Moggallāna
+agreed and Sakka conducted him around the Vejayanti palace in the company of his
+friend, king Vessavaṇa. It was a wonderful palace with hundreds of towers.
+Sakka’s maids, seeing Venerable Mahā Moggallāna coming in the distance, were
+embarrassed out of modest respect and went into their rooms. Sakka was taking
+Venerable Mahā Moggallāna around, saying:</p>
+<blockquote>
+<p>“See, good sir, how lovely this palace is.”</p>
+</blockquote>
+<p>Venerable Mahā Moggallāna also courteously responded, saying that it is a
+fitting gift for his past merit. But then he thought of arousing a sense of
+urgency in Sakka, seeing how negligent he has become now. And what did he do? He
+shook the Vejayanti palace with the point of his toe, using his supernormal
+power.</p>
+<p>Since Sakka had ‘entered into’ the Vejayanti palace with his craving, conceit
+and views, he also was thoroughly shaken, along with the palace. That is to say,
+a sense of urgency was aroused in him, so much so that he remembered the sermon
+the Buddha had preached to him.</p>
+<p>It was then that Venerable Mahā Moggallāna asked Sakka pointedly:</p>
+<blockquote>
+<p>“How did the Exalted One state to you in brief the deliverance through the
+destruction of craving?”</p>
+</blockquote>
+<p>Sakka came out with the full account, creditably.</p>
+<p>So after all it seems that the Venerable Mahā Moggallāna took all this trouble
+to drive home into Sakka the moral of the sermon <em>sabbe dhammā nālaṁ
+abhinivesāya</em>, “nothing is worth clinging onto”.</p>
+<p>If one goes through this discourse ignoring the deeper aspects of it, it appears
+merely as a fairy tale. Even as those heavenly maidens entered their rooms,
+Sakka also had entered into this Vejayanti palace of his own creation, while
+showing his distinguished visitor around, like a rich man these days after
+building his mansion.</p>
+<p>So from this we can see the nature of these worldly concepts. For instance, in
+the case of the concept of ‘a house’, entering the house physically does not
+necessarily mean that one is ‘in it’. Only if one has entered into the concept
+of a house is he ‘in it’.</p>
+<p>Let us take a simply analogy. Little children sometimes build a little hut, out
+of fun, with a few sticks and shady leaves. They might even invite their mother
+for the house-warming. When the mother creeps into the improvised hut, she does
+not seriously entertain the concept of ‘a house’ in it, as the children
+would do.</p>
+<p>It is the same in the case of Buddhas and <em>arahants.</em> To the Emancipated Ones,
+who have fully understood and comprehended the true meaning of concepts like
+‘house’, ‘mansion’ and ‘palace’, the sandcastles of adults appear no better than
+the playthings of little children. We have to grant it, therefore, that
+<em>tathāgatas</em>, or Such-like Ones, cannot help making use of concepts in worldly
+usage.</p>
+<p>As a matter of fact, once a certain deity even raised the question whether the
+emancipated <em>arahant</em> monks, when they use such expressions as ‘I speak’ and
+‘they speak to me’, do so out of conceit. The Buddha’s reply was:</p>
+<blockquote>
+<p><em>Yo hoti bhikkhu arahaṁ katāvī,</em> <br />
+<em>khīṇāsavo antimadehadhārī,</em> <br />
+<em>’ahaṁ vadāmī’ti pi so vadeyya,</em> <br />
+<em>’mamaṁ vadantī’ti pi so vadeyya</em> <br />
+<em>loke samaññaṁ kusalo viditvā,</em> <br />
+<em>vohāramattena so vohareyyā.</em><sup class="footnote-reference" id="fr-fn475-1"><a href="#fn-fn475">38</a></sup></p>
+<p>That monk, who is an <em>arahant,</em> who has finished his task, <br />
+Whose influxes are extinct and who bears his final body, <br />
+Might still say ‘I speak’, <br />
+He might also say ‘they speak to me’, <br />
+Being skilful, knowing the world’s parlance, <br />
+He uses such terms merely as a convention.</p>
+</blockquote>
+<p>In the case of an <em>arahant</em>, who has accomplished his task and is influx-free, a
+concept like ‘house’, ‘mansion’, or ‘palace’ has no influence by way of craving,
+conceit and views. He might say ‘I speak’ or ‘I preach’, he might even say ‘they
+speak to me’, but since he has understood the nature of worldly parlance, he
+uses such expressions as mere turns of speech. Therefore the Buddhas and
+<em>arahants</em>, though they may enter a house, do not entertain the concept of ‘a
+house’ in it.</p>
+<p>Some might think that in order to destroy the concept of ‘a house’, one has to
+break up the tiles and bricks into atoms. But that is not the way to
+deliverance. One has to understand according to the law of dependent arising
+that not only is a house dependent on tiles and bricks, but the tiles and bricks
+are themselves dependent on a house. Very often philosophers forget about the
+principle of relativity involved here.</p>
+<p>Tiles and bricks are dependent on a house. This is a point worth considering.
+One might think that a house is made up of tiles and bricks, but tiles and
+bricks themselves come to be because of a house. There is a mutual relationship
+between them.</p>
+<p>If one raises the question: “What is a tile?”, the answer will be: “It is an
+item used for building the roof of a house”. Likewise a brick is an item used in
+building a wall. This shows the relativity between a house and a tile as well as
+between a house and a brick. So there is no need to get down to an atomistic
+analysis like nuclear physicists. Wisdom is something that enables one to see
+this relativity penetratively, then and there.</p>
+<p>Today we happened to discuss some deep sections of the Dhamma, particularly on
+the subject of <em>maññanā</em>. A reappraisal of some of the deep suttas preached by
+the Buddha, now relegated into the background as those dealing with conventional
+truth, will be greatly helpful in dispelling the obsessions created by
+<em>maññanā</em>. What the <em>Mūlapariyāyasutta</em> offers in this respect is of utmost
+importance.</p>
+<p>In fact, the Buddha never used a language totally different from the language of
+the worldlings. Now, for instance, chemists make use of a certain system of
+symbolic formulas in their laboratories, but back at home they revert to another
+set of symbols. However, both are symbols. There is no need to discriminate
+between them as higher or lower, so long as they serve the purpose at hand.</p>
+<p>Therefore it is not proper to relegate some sermons as discursive or
+conventional in style. Always it is a case of using concepts in worldly
+parlance. In the laboratory one uses a particular set of symbols, but on
+returning home he uses another. In the same way, it is not possible to earmark a
+particular bundle of concepts as absolute and unchangeable.</p>
+<p>As stated in the <em>Poṭṭhapādasutta</em>, already discussed, all these concepts are
+worldly appellations, worldly expressions, worldly usages, worldly designations,
+which the Tathāgata makes use of without tenacious grasping.<sup class="footnote-reference" id="fr-fn476-1"><a href="#fn-fn476">39</a></sup> However
+philosophical or technical the terminology may be, the <em>arahants</em> make use of it
+without grasping it tenaciously.</p>
+<p>What is of importance is the function it fulfils. We should make use of the
+conceptual scaffolding only for the purpose of putting up the building. As the
+building comes up, the scaffolding has to leave. It has to be dismantled. If one
+simply clings onto the scaffolding, the building would never come up.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn438"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn438-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn439"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/mn1/pli/ms">MN 1 / M I 1</a>, <em>Mūlapariyāyasutta</em> <a href="#fr-fn439-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn440"><sup class="footnote-definition-label">3</sup>
+<p>Ps I 41 <a href="#fr-fn440-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn441"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/an5.7/pli/ms">AN 5.7 / A III 6</a>, <em>Kāmasutta</em>; see also <a href="https://suttacentral.net/dhp360-382/pli/ms">Dhp 379</a>, <em>Bhikkhuvagga</em> <a href="#fr-fn441-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn442"><sup class="footnote-definition-label">5</sup>
+<p>Ps I 28 <a href="#fr-fn442-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn443"><sup class="footnote-definition-label">6</sup>
+<p>E.g. <a href="https://suttacentral.net/dn2/pli/ms">DN 2 / D I 70</a>, <em>Sāmaññaphalasutta</em> <a href="#fr-fn443-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn444"><sup class="footnote-definition-label">7</sup>
+<p>See <em>Sermon 11</em> <a href="#fr-fn444-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn445"><sup class="footnote-definition-label">8</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn445-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn446"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/mn72/pli/ms">MN 72 / M I 487</a>, <em>Aggivacchagottasutta</em> <a href="#fr-fn446-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn447"><sup class="footnote-definition-label">10</sup>
+<p>See <em>Sermon 12</em> <a href="#fr-fn447-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn448"><sup class="footnote-definition-label">11</sup>
+<p>Ps I 38 <a href="#fr-fn448-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn449"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/mn38/pli/ms">MN 38 / M I 266</a>, <em>Mahātaṇhāsaṅkhayasutta</em> <a href="#fr-fn449-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn450"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/mn106/pli/ms">MN 106 / M II 265</a>, <em>Āneñjasappāyasutta</em> <a href="#fr-fn450-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn451"><sup class="footnote-definition-label">14</sup>
+<p>See <em>Sermon 2</em> <a href="#fr-fn451-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn452"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/sn2.18/pli/ms">SN 2.18 / S I 54</a>, <em>Kakudhasutta</em> <a href="#fr-fn452-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn453"><sup class="footnote-definition-label">16</sup>
+<p>Vibh-a 53 <a href="#fr-fn453-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn454"><sup class="footnote-definition-label">17</sup>
+<p>See <em>Sermon 12</em> <a href="#fr-fn454-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn455"><sup class="footnote-definition-label">18</sup>
+<p>See <em>Sermons 9 and 12</em> <a href="#fr-fn455-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn456"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/an6.63/pli/ms">AN 6.63 / A III 413</a>, <em>Nibbedhikasutta</em> <a href="#fr-fn456-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn457"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/snp4.11/pli/ms">Snp 4.11 / Sn 874</a>, <em>Kalahavivādasutta</em>; see <em>Sermon 11</em> <a href="#fr-fn457-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn458"><sup class="footnote-definition-label">21</sup>
+<p>E.g. at <a href="https://suttacentral.net/snp1.12/pli/ms">Snp 1.12 / Sn 219</a>, <em>Munisutta</em>; and <a href="https://suttacentral.net/thag16.3/pli/ms">Thag 16.3 / Th 748</a>, <em>Telakānittheragāthā</em> <a href="#fr-fn458-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn459"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/snp1.3/pli/ms">Snp 1.3 / Sn 68</a>, <em>Khaggavisāṇasutta</em> <a href="#fr-fn459-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn460"><sup class="footnote-definition-label">23</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn2/pli/ms">MN 2 / M I 12</a>, <em>Sabbāsavasutta</em> <a href="#fr-fn460-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn461"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/mn1/pli/ms">MN 1 / M I 6</a>, <em>Mūlapariyāyasutta</em> <a href="#fr-fn461-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn462"><sup class="footnote-definition-label">25</sup>
+<p>Ps I 56 <a href="#fr-fn462-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn463"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/sn35.248/pli/ms">SN 35.248 / S IV 201</a>, <em>Yavakalāpisutta</em> <a href="#fr-fn463-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn464"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/dhp33-43/pli/ms">Dhp 33</a>, <em>Cittavagga</em> <a href="#fr-fn464-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn465"><sup class="footnote-definition-label">28</sup>
+<p>See <em>Sermons 11 and 12</em> <a href="#fr-fn465-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn466"><sup class="footnote-definition-label">29</sup>
+<p>See <em>Sermon 10</em> <a href="#fr-fn466-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn467"><sup class="footnote-definition-label">30</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 757-758</a>, <em>Dvayatānupassanāsutta</em> <a href="#fr-fn467-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn468"><sup class="footnote-definition-label">31</sup>
+<p>E.g. at <a href="https://suttacentral.net/dn34/pli/ms">DN 34 / D III 273</a>, <em>Dasuttarasutta</em> <a href="#fr-fn468-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn469"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/mn29/pli/ms">MN 29 / M I 197</a>, <em>Mahāsāropamasutta</em> <a href="#fr-fn469-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn470"><sup class="footnote-definition-label">33</sup>
+<p>See <em>Sermon 2</em> <a href="#fr-fn470-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn471"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://suttacentral.net/mn106/pli/ms">MN 106 / M II 265</a>, <em>Āneñjasappāyasutta</em> <a href="#fr-fn471-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn472"><sup class="footnote-definition-label">35</sup>
+<p><a href="https://suttacentral.net/mn24/pli/ms">MN 24 / M I 145</a>, <em>Rathavinītasutta</em>; <a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 130</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn472-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn473"><sup class="footnote-definition-label">36</sup>
+<p>See <em>Sermon 8</em>; <a href="https://suttacentral.net/mn49/pli/ms">MN 49 / M I 329</a>, <em>Brahmanimantanikasutta</em> <a href="#fr-fn473-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn474"><sup class="footnote-definition-label">37</sup>
+<p><a href="https://suttacentral.net/mn37/pli/ms">MN 37 / M I 251</a>, <em>Cūḷataṇhāsaṅkhayasutta</em> <a href="#fr-fn474-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn475"><sup class="footnote-definition-label">38</sup>
+<p><a href="https://suttacentral.net/sn1.25/pli/ms">SN 1.25 / S I 14</a>, <em>Arahantasutta</em> <a href="#fr-fn475-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn476"><sup class="footnote-definition-label">39</sup>
+<p><a href="https://suttacentral.net/dn9/pli/ms">DN 9 / D I 202</a>, <em>Poṭṭhapādasutta</em> <a href="#fr-fn476-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-12.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-14.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-12.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-14.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

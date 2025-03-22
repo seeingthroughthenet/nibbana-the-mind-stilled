@@ -1,0 +1,950 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 28 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-28-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-28"><a class="header" href="#sermon-28">Sermon 28</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn899-1"><a href="#fn-fn899">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the twenty-eighth sermon in the series
+of sermons on Nibbāna.</p>
+<p>Right view, the first factor of the noble eightfold path, is defined as the
+knowledge of all the four noble truths, namely that of suffering, its arising,
+its cessation, and the path leading to its cessation. This is a pointer to the
+fact that some understanding of cessation, or Nibbāna, is essential for the
+practice of the path.</p>
+<p>According to a discourse among the Twos of the <em>Aṅguttara-nikāya</em>, there are two
+conditions for the arising of this right view:</p>
+<blockquote>
+<p><em>Dve ’me, bhikkhave, paccayā sammādiṭṭhiyā uppādāya. Katame dve? Parato ca
+ghoso yoniso ca manasikāro.</em><sup class="footnote-reference" id="fr-fn900-1"><a href="#fn-fn900">2</a></sup></p>
+<p>Monks, there are these two conditions for the arising of right view. Which
+two? Hearing from another and radical reflection.</p>
+</blockquote>
+<p>Strictly speaking, <em>yoniso manasikāra</em>, or ‘radical reflection’, is attention by
+way of source or matrix. The deeper dimensions of its meaning would have come to
+light in our discussion of <em>paṭicca samuppāda</em> with reference to a quotation
+from the <em>Mahāpadānasutta</em>, in one of our earlier sermons. There we saw how the
+bodhisatta Vipassī went on reflecting from the very end of the formula of
+<em>paṭicca samuppāda</em>, of dependent arising, in reverse order and gradually
+arrived at the true source.<sup class="footnote-reference" id="fr-fn901-1"><a href="#fn-fn901">3</a></sup></p>
+<blockquote>
+<p><em>Kimhi nu kho sati jarāmaraṇaṁ hoti, kiṁ paccayā jarāmaraṇaṁ? Jātiyā kho sati
+jarāmaraṇaṁ hoti, jātipaccayā jarāmaraṇaṁ.</em></p>
+<p>What being there, does decay and death come to be? Conditioned by what, is
+decay-and-death? Birth being there does decay-and-death come to be,
+conditioned by birth is decay-and-death.</p>
+</blockquote>
+<p>In this way, he directed his radical reflection gradually upwards, beginning
+from decay-and-death, and at last came to the <em>saṁsāric</em> vortex between
+consciousness and name-and-form, which we discussed at length. This is an
+illustration of the deepest sense of <em>yoniso manasikāra</em> as an attitude
+essential for seeing the law of dependent arising within one’s own experience.</p>
+<p>By now we have already laid bare some first principles for the arising of this
+radical reflection in the form of similes like the magic show and the chess
+game. Those similes have illustrated for us the first principle that a thing
+originates from, and its ‘thingness’ depends on, the psychological responses and
+mental traits of the person concerned.</p>
+<p>The magic show and the chess game have exposed the fact that the signs and
+symbols which we conceive to be out there owe their significance and symbolic
+nature to the deep-rooted psychological mainsprings of lust, hate and delusion.</p>
+<p>It was while discussing how the <em>Sūcilomasutta</em> presents the question of radical
+reflection that we were forced to stop our last sermon. To the question of
+Yakkha Sūciloma as to the source of lust, hate, delight and terror, the Buddha
+replied that they arise ‘hence’, from ‘hence’ itself. In the Pāli verses the
+Yakkha’s questions <em>kutonidānā, kutojā, kuto samuṭṭhāya</em> met with the replies
+<em>itonidānā, itojā, ito samuṭṭhāya</em> from the Buddha’s side.<sup class="footnote-reference" id="fr-fn902-1"><a href="#fn-fn902">4</a></sup></p>
+<p>This <em>ito</em>, ‘hence’, means from within one’s self. This is clear from the term
+<em>attasambhūta</em>, ‘self-begotten’, in the reply given by the Buddha. It is to
+illustrate this self-begotten nature that the Buddha brings in the similes of
+the banyan tree and the <em>māluvā</em> creeper. When the runners coming down from the
+branches of a banyan tree reach the ground and get rooted, after a time, it will
+be difficult to distinguish the original trunk of the tree from its offsprings.
+So also is the case with the parasitic <em>māluvā</em> creeper. When the seed of a
+<em>māluvā</em> creeper takes root in the fork of a tree and grows up, it not only
+kills the tree, but also overspreads it in such a way as to obscure its origin.</p>
+<p>From these similes we can infer that the self-begotten nature of those
+psychological states are also generally overlooked or ignored. They are revealed
+only to radical reflection, to attention by way of source or matrix. That is why
+the Buddha emphasizes the need for discerning the true source. That it is an
+injunction directly relevant to the practice is clearly expressed in the last
+verse in the <em>Sūcilomasutta</em>.</p>
+<blockquote>
+<p><em>Ye naṁ pajānanti yatonidānaṁ,</em> <br />
+<em>te naṁ vinodenti, suṇohi yakkha,</em> <br />
+<em>te duttaram ogham imaṁ taranti,</em> <br />
+<em>atiṇṇapubbaṁ apunabbhavāya.</em><sup class="footnote-reference" id="fr-fn903-1"><a href="#fn-fn903">5</a></sup></p>
+<p>And they that know wherefrom it springs, <br />
+They dispel it, listen, O! Yakkha. <br />
+They cross this flood so hard to cross, <br />
+Never crossed before, to become no more.</p>
+</blockquote>
+<p>The commentary takes the term <em>yatonidānaṁ</em> in this verse as a reference to the
+second noble truth of craving. The term <em>attasambhūta</em> is explained as ‘arisen
+within oneself’, <em>attani sambhūtā</em>, but not much attention is given to
+it.<sup class="footnote-reference" id="fr-fn904-1"><a href="#fn-fn904">6</a></sup> However, if we are to elicit the deeper meaning of these lines, we
+have to take up for comment this term, occurring in the preceding verse.</p>
+<p>We came across this term earlier, too, in our discussion of a verse in the
+<em>Kosala Saṁyutta</em>.<sup class="footnote-reference" id="fr-fn905-1"><a href="#fn-fn905">7</a></sup></p>
+<blockquote>
+<p><em>Lobho, doso ca moho ca</em> <br />
+<em>purisaṁ pāpacetasaṁ</em> <br />
+<em>hiṁsanti attasambhūtā</em> <br />
+<em>tacasāraṁ va samphalaṁ.</em><sup class="footnote-reference" id="fr-fn906-1"><a href="#fn-fn906">8</a></sup></p>
+<p>Greed and hate and delusion too, <br />
+Sprung from within work harm on him <br />
+Of evil wit, as does its fruit <br />
+On the reed for which the bark is pith.</p>
+</blockquote>
+<p>In this context, too, the term <em>attasambhūta</em> is mentioned. When we reflect
+deeply on the significance of this term, we are first of all reminded of the
+vortex simile we employed to explain the reciprocal relationship between
+consciousness and name-and-form in our discussion of the law of dependent
+arising as stated in the <em>Mahānidānasutta</em> at the very outset of this series of
+sermons.<sup class="footnote-reference" id="fr-fn907-1"><a href="#fn-fn907">9</a></sup></p>
+<p><em>Attasambhūta</em>, literally rendered, would mean ‘originating from oneself’. But
+this so-called oneself conceived as a unit or centre of activity, is actually
+based on a duality. The notion of a self is to be traced to an interrelation
+between two conditions, that is, the reciprocal relationship between
+consciousness and name-and-form, which we discussed earlier too.</p>
+<p><em>Viññāṇapaccayā nāmarūpaṁ, nāmarūpapaccayā viññāṇaṁ</em>,<sup class="footnote-reference" id="fr-fn908-1"><a href="#fn-fn908">10</a></sup> “dependent on
+consciousness is name-and-form, dependent on name-and-form is consciousness”. As
+the <em>bodhisatta</em> Vipassī understood through radical reflection, consciousness
+turns back from name-and-form, it does not go beyond, <em>paccudāvattati kho idaṁ
+viññāṇaṁ nāmarūpamhā, nāparaṁ gacchati</em>.</p>
+<p>Here is a vortex, a turning round. The delusion or ignorance is the
+non-understanding of the reciprocal relationship between these two. The
+understanding of it is the insight into the true source of all defilements.</p>
+<p>To hark back to our simile of the chess game, this non-understanding is like the
+split into two sides. The two friends quite amicably prepared the chess board
+and the pieces. But for them to play the game, there should be two sides. It is
+after this bifurcation and confrontation as two sides that the actual game
+starts, with its vicissitudes of winning and losing.</p>
+<p>Preparations grow yielding the consequences of wish fulfilments and
+disappointments to the competitors. This is the norm underlying this
+bifurcation. So ignorance is the non-understanding of the fact that the basis of
+this <em>attasambhava</em> or springing up from within, namely, the dichotomy, is in
+fact a mutual interrelation between two conditions.</p>
+<p>In other words, the ignorance which gives rise to those preparations that go to
+create the vortex between consciousness and name-and-form is the
+non-understanding of the mutual interrelation implicit in this vortical
+interplay. That is why one is instructed in insight meditation to reflect on
+preparations relating to name-and-form. An insight into those preparations
+reveals this mutual interrelation. There is such a dichotomy implicit in the
+term <em>attasambhava.</em></p>
+<p>The commentary explains the correlative <em>yathonidānaṁ</em>, ‘whence arising’, as a
+reference to <em>taṇhā</em> or craving. But it is actually an allusion to ignorance.
+The true source is non-understanding. That is why the Buddha, in presenting the
+formula of <em>paṭicca samuppāda</em>, went beyond craving and placed ignorance at the
+head of the series of twelve links.</p>
+<p>Very often, the commentators mention this as a possible point of controversy.
+But the real reason for its precedence is the fact that ignorance is more
+primary than craving as a condition. It is more basic than craving. When one
+probes into the conditions for craving, one discovers ignorance as its root.</p>
+<p>That is why, in stating the law of <em>paṭicca samuppāda</em> in the reverse order, the
+Buddha used the expression <em>avijjāya tv’eva asesavirāganirodhā</em>, etc., “with the
+remainderless fading away and cessation of ignorance” etc.<sup class="footnote-reference" id="fr-fn909-1"><a href="#fn-fn909">11</a></sup> It is with
+the cessation of ignorance that the entire series of conditions move in the
+opposite direction. So ignorance is primary as a condition.</p>
+<p>We can explain this primacy in another way. Now <em>upādāna</em> is that grasping of
+the object of craving. Actually it signifies a holding onto something. What
+gives the impression that the object of craving is something that can be grasped
+is a lack of a deep understanding of the principle of duality.</p>
+<p>Craving finds something to hold onto precisely because one presumes that there
+actually exists a thing to be grasped. That is how it gets object status. This
+way, we can explain the basic reason for the recurrent birth in <em>saṁsāra</em> as the
+non-understanding of the mutual interrelation between conditions. This sustains
+the notion of a duality.</p>
+<p>There is a verse in the <em>Mahāparinibbānasutta</em> which throws more light on the
+meaning of the term <em>attasambhava</em>. The verse, which is found also in the
+section on the Eights in the <em>Aṅguttara Nikāya</em>, as well as in the <em>Udāna</em>, runs
+as follows:</p>
+<blockquote>
+<p><em>Tulam atulañ ca sambhavaṁ</em> <br />
+<em>bhavasaṅkhāram avassajī munī</em> <br />
+<em>ajjhattarato samhāhito</em> <br />
+<em>abhindi kavacam iv’attasambhavaṁ.</em><sup class="footnote-reference" id="fr-fn910-1"><a href="#fn-fn910">12</a></sup></p>
+<p>That preparation for becoming, <br />
+The Sage gave up, <br />
+Whence arise an ‘equal’ and an ‘unequal’, <br />
+Inwardly rapt and concentrated, <br />
+He split like an armour <br />
+The origin of self.</p>
+</blockquote>
+<p>At the spot called <em>cāpāla cetiya</em> the Buddha renounced the preparations
+pertaining to the life span and declared that he will attain <em>parinibbāna</em> three
+months hence. There was an earth tremor immediately afterwards and the Buddha
+uttered this paean of joy to explain its significance.</p>
+<p>However, this verse has puzzled many scholars, both eastern and western. The
+commentators themselves are in a quandary. They advance alternative
+interpretations, particularly in connection with the riddle-like terms <em>tulam
+atulaṁ</em> as evidenced by the commentaries to the <em>Dīgha Nikāya</em> and <em>Aṅguttara
+Nikāya</em>.<sup class="footnote-reference" id="fr-fn911-1"><a href="#fn-fn911">13</a></sup></p>
+<p>According to the first interpretation given, <em>tulaṁ</em> stands for whatever
+pertains to the sense-sphere, and <em>atulaṁ</em> refers to the fine-material and
+immaterial spheres. The second interpretation, prefixed by an ‘or else’,
+<em>athavā</em>, takes <em>tulaṁ</em> to mean both the sense-sphere and the fine-material
+sphere and <em>atulaṁ</em> to refer only to the immaterial sphere. In a third
+interpretation, <em>tulaṁ</em> is taken to mean ‘of little karmic result’, and <em>atulaṁ</em>
+to mean ‘of great result’.</p>
+<p>A fourth interpretation tries to tackle the difficult term in a different way
+altogether: <em>’tulan’ti tulento tīrento, ’atulañ ca sambhavan’ti nibbānañ ceva
+sambhavañ ca.</em> “<em>Tulaṁ</em> means comparing, determining, <em>atulañ ca sambhavaṁ</em>
+means Nibbāna and becoming.” Here the word <em>tulaṁ</em> is presumed to be a present
+participle.</p>
+<p>To add to the confusion, <em>Nettippakaraṇa</em> advances yet another
+interpretation.<sup class="footnote-reference" id="fr-fn912-1"><a href="#fn-fn912">14</a></sup> <em>’Tulan’ti saṅkhāradhātu, ’atulan’ti nibbānadhātu</em>,
+“<em>tulaṁ</em> means <em>saṅkhāra</em>-element, <em>atulaṁ</em> means Nibbāna-element.”</p>
+<p>It seems, however, that we have to approach the whole problem from a different
+angle altogether. The twin term <em>tulam atulaṁ</em> most probably represents the
+principle of duality we have discussed at length in this series of sermons.
+<em>Tulaṁ</em> and <em>atulaṁ</em> in a pair-wise combination convey the idea of equality and
+inequality as antonyms.</p>
+<p>The phrase <em>tulam atulañ ca sambhavaṁ</em> is suggestive of that dichotomy which
+forms the basis of the self idea. <em>Attasambhava</em> or the origin of the
+self-notion is traceable to this dichotomy, which is like the two friends
+confronting each other in a game of chess. The two sides of the game may be
+taken as two halves of the same thing, standing opposite to each other. This is
+the ‘tragi-comedy’ of the situation. It is on these two halves or this dichotomy
+that the origin of the notion of self is based.</p>
+<p>A clear enunciation of this truth is found in the <em>Sutta Nipāta</em>. For instance,
+the following verse of the <em>Māgandiyasutta</em> brings out the principle of
+dichotomy rather rhetorically:</p>
+<blockquote>
+<p><em>’Saccan’ti so brāhmaṇo kiṁ vadeyya</em> <br />
+<em>’musā’ti vā so vivadetha kena</em> <br />
+<em>yasmiṁ samaṁ visamañ cāpi natthi</em> <br />
+<em>sa kena vādaṁ paṭisamyujeyya.</em><sup class="footnote-reference" id="fr-fn913-1"><a href="#fn-fn913">15</a></sup></p>
+<p>What could that Brahmin speak of as ‘truth’, <br />
+How could he debate calling something ‘false’, <br />
+By what criterion could he, in whom there is no distinction <br />
+Between equal and unequal, join issue in a debate?</p>
+</blockquote>
+<p>We come across a similar verse in the <em>Attadaṇḍasutta</em> of the <em>Sutta Nipāta</em>.</p>
+<blockquote>
+<p><em>Na samesu na omesu,</em> <br />
+<em>na ussesu vadate muni</em> <br />
+<em>santo so vītamaccharo</em> <br />
+<em>nādeti na nirassati.</em><sup class="footnote-reference" id="fr-fn914-1"><a href="#fn-fn914">16</a></sup></p>
+<p>The sage does not grade himself, <br />
+Among equals, inferiors or superiors, <br />
+Being at peace and with selfishness gone, <br />
+He neither takes up nor throws away.</p>
+</blockquote>
+<p>Here again the issue is the triple conceit. It is by dispelling conceit that the
+sage entertains no inclinations to grade himself among equals, inferiors or
+superiors. Peaceful and unselfish as he is, he neither acquires nor rejects.
+Here we see a reference to that dichotomy.</p>
+<p>The same idea comes up in another guise in the following verse of the
+<em>Tuvaṭakasutta</em> of the <em>Sutta Nipāta</em>, which can be an incentive to the
+recollection of peace, <em>upasamānussati</em>.</p>
+<blockquote>
+<p><em>Ajjhattaṁ eva upasame,</em> <br />
+<em>nāññato bhikkhu santiṁ eseyya</em> <br />
+<em>ajjhattaṁ upasantassa</em> <br />
+<em>natthi attaṁ, kuto nirattaṁ.</em><sup class="footnote-reference" id="fr-fn915-1"><a href="#fn-fn915">17</a></sup></p>
+<p>Let the monk inwardly calm himself, <br />
+Let him not seek peace from outside, <br />
+To one who is inwardly calm, <br />
+There is nothing taken up or rejected.</p>
+</blockquote>
+<p>We came across the two terms <em>attaṁ nirattaṁ</em> earlier too, in our discussion of
+a verse in the <em>Duṭṭhaṭṭhakasutta</em>.<sup class="footnote-reference" id="fr-fn916-1"><a href="#fn-fn916">18</a></sup> There, the line <em>attaṁ nirattaṁ na
+hi tassa atthi</em> meant the absence of the idea of taking up and rejecting in an
+<em>arahant</em>.</p>
+<p>Very often scholars interpret the term <em>attaṁ</em> in this context as ‘self’, which
+in our opinion is incorrect. The phrase <em>nādeti na nirassati</em> gives a clear hint
+as to the etymology of this term. It is derived from <em>dā</em> prefixed by <em>ā</em>,
+giving <em>ādatta</em>, which by syncopation becomes <em>ātta</em>, which again by shortening
+of the vowel comes as <em>atta</em>. <em>Niratta</em> is derived from <em>nirassati</em>.</p>
+<p>These two terms, suggestive of a duality, remind us of the water pump we
+mentioned in our discussion of the vortex.<sup class="footnote-reference" id="fr-fn917-1"><a href="#fn-fn917">19</a></sup> There is nothing really
+automatic even in a water pump, which takes in and throws out. Due to these two
+aspects in the mechanism of a water pump, we call it a unit. From the point of
+view of a water pump, it is capable of performing both functions. It is from
+this point of view that we attribute a unitary significance to it. In this very
+concept of a unit, one can discern the delusion involved.</p>
+<p>Delusion is the apex of the vicious triangle greed, hate and delusion. Greed and
+hate are the two feelers directed from the apex delusion. Though we regard them
+as two functions, the taking in and throwing out are simply two aspects of the
+same function. All this points to the depth of the idea of duality and to the
+vortex simile, which our commentarial tradition seems to have ignored.</p>
+<p>It is the same theme of duality that comes up in the first two lines of that
+cryptic verse of the <em>Brāhmaṇa Vagga</em> in the <em>Dhammapada</em>, we had occasion to
+quote earlier. <em>Yassa pāraṁ apāraṁ vā, pārāpāraṁ na vijjati</em>.<sup class="footnote-reference" id="fr-fn918-1"><a href="#fn-fn918">20</a></sup> To that
+Brahmin, that is the <em>arahant</em>, there is neither a farther shore nor a hither
+shore nor both. There is something extraordinary about this statement.</p>
+<p>Against this background, we can now advance a plausible interpretation to the
+puzzling verse we had quoted earlier in this discussion. The first two lines
+could be understood as follows:</p>
+<blockquote>
+<p><em>tulam atulañ ca sambhavaṁ, bhavasaṅkhāram avassajī munī</em></p>
+<p>The Sage renounced the preparations for becoming, which give rise to a
+distinction between equal and unequal,</p>
+</blockquote>
+<p>that is to say, the Supreme Sage gave up those preparations productive of the
+dichotomy between the concepts of equal and unequal.</p>
+<p>Now the next two lines could be explained as follows:</p>
+<blockquote>
+<p><em>ajjhattarato samhāhito abhindi kavacam iv’attasambhavaṁ</em></p>
+<p>Inwardly content and concentrated he broke up the point of origin of self like
+an armour.</p>
+</blockquote>
+<p>This breaking up of the armour happened not at the moment he uttered this verse,
+but at the moment he attained perfect enlightenment. Then what is the
+provocation for making such a declaration at this juncture?</p>
+<p>The Buddha renounced the preparations pertaining to the life span,
+<em>āyusaṅkhārā</em>, after several requests to that effect by Māra. It may seem that
+the Buddha bowed down to Māra’s request and that he came under Māra’s sway when
+he declared that the Tathāgata’s Parinibbāna will take place three months hence.
+But the true implication of the verse in question is that the armour of Māra,
+the armour of self-origin, <em>attasambhava</em>, has been broken down already and as
+such he is not within the clutches of Māra.</p>
+<p>Some scholars seem to identify this giving up of preparations for becoming,
+<em>bhavasaṅkhārā</em>, with the renouncing of preparations pertaining to the lifespan,
+<em>āyusaṅkhārā</em>. But there is a distinction between these two.</p>
+<p>The former, that is <em>bhavasaṅkhārā</em>, are preparations productive of existence,
+which go to build up a <em>bhava</em>. These the Buddha had already done away with by
+breaching the <em>saṁsāric</em> vortex between <em>viññāṇa</em> and <em>nāmarūpa</em>. <em>Chinnaṁ
+vaṭṭaṁ na vattati,</em> “the whirlpool cut off whirls no more”.<sup class="footnote-reference" id="fr-fn919-1"><a href="#fn-fn919">21</a></sup> Those eddies
+are no longer active in that consciousness.</p>
+<p>Preparations pertaining to the life span, <em>āyusaṅkhārā</em>, have to be explained
+differently. The term <em>āyusaṅkhārā</em>, mentioned in the <em>Mahāparinibbānasutta</em>,
+refers to the ability the Buddha possessed by virtue of developing the four
+bases of success, <em>iddhipāda</em>, of lengthening his life span.</p>
+<p>Because Venerable Ānanda did not invite him at the correct moment to make use of
+that ability, he renounced it at <em>cāpāla cetiya</em>. That renouncing is compared in
+that sutta itself to a vomiting. The Buddha tells Ānanda that it is not in the
+nature of a Tathāgata to take in what he has already vomited, even for the sake
+of life.<sup class="footnote-reference" id="fr-fn920-1"><a href="#fn-fn920">22</a></sup></p>
+<p>So then, <em>āyusaṅkhārā</em> and <em>bhavasaṅkhārā</em> have to be distinguished between.
+Preparations pertaining to the life span are not the same as preparations
+productive of existence or becoming.</p>
+<p>Understood in this way, it becomes clear that all the attachments, aversions and
+delusions in the world stem from a non-understanding of the fact that the
+duality we have discussed so far is actually an interrelation. It is as if the
+two friends, who amicably prepared the chess board, forgot their friendship when
+they confronted each other as two sides.</p>
+<p>This duality is a very subtle problem. The Buddha has pointed out how to resolve
+it through understanding by means of various meditation techniques. Perhaps the
+best illustration is the meditative attention by way of elements as stated in
+the suttas. We have already mentioned about this to some extent in a previous
+sermon while discussing the <em>Dhātuvibhaṅgasutta</em>.<sup class="footnote-reference" id="fr-fn921-1"><a href="#fn-fn921">23</a></sup></p>
+<p>If we are to analyse this technique of meditative attention by way of elements
+from a practical point of view, we may cite the relevant section from the
+<em>Mahāhatthipadopamasutta</em> preached by Venerable Sāriputta. Addressing his fellow
+monks, Venerable Sāriputta says:</p>
+<blockquote>
+<p><em>Katamā c’āvuso paṭhavīdhātu? Paṭhavīdhātu siyā ajjhattikā siyā bāhirā. Katamā
+c’āvuso ajjhattikā paṭhavīdhātu? Yaṁ ajjhattaṁ paccattaṁ kakkhaḷaṁ kharigataṁ
+upādiṇṇaṁ, seyyathīdaṁ kesā lomā nakhā dantā taco maṁsaṁ nahāru aṭṭhī
+aṭṭhimiñjā vakkaṁ hadayaṁ yakanaṁ kilomakaṁ pihakaṁ papphāsaṁ antaṁ antaguṇaṁ
+udariyaṁ karīsaṁ, yaṁ vā pan’aññam pi kiñci ajjhattaṁ paccattaṁ kakkhaḷaṁ
+kharigataṁ upādiṇṇaṁ, ayaṁ vuccat’āvuso ajjhattikā paṭhavīdhātu.</em></p>
+<p><em>Yā c’eva kho pana ajjhattikā paṭhavīdhātu yā ca bāhirā paṭhavīdhātu
+paṭhavīdhāturev’esā. Taṁ netaṁ mama neso ’ham asmi, na meso attā’ti evam
+etaṁ yathābhūtaṁ sammappaññāya daṭṭhabbaṁ. Evam etaṁ yathābhūtaṁ sammappaññāya
+disvā paṭhavīdhatuyā nibbindati, paṭhavīdhatuyā cittaṁ virājeti</em>.<sup class="footnote-reference" id="fr-fn922-1"><a href="#fn-fn922">24</a></sup></p>
+<p>What, Friends, is the earth element? The earth element may be either internal
+or external. What, Friends, is the internal earth element? Whatever is
+internal, belonging to oneself, hard, solid and clung to, that is, head hairs,
+body hairs, nails, teeth, skin, flesh, sinews, bones, bone marrow, kidney,
+heart, liver, diaphragm, spleen, lungs, large intestines, small intestines,
+contents of the stomach, faeces, or whatever else is internal, belonging to
+oneself, hard, solid and clung to, this is called, Friends, the internal earth
+element.</p>
+<p>Now whatever is the internal earth element and whatever is the external earth
+element, both are simply the earth element; and that should be seen as it
+actually is with right wisdom thus: ‘This is not mine, this I am not, this is
+not my self.’ Having seen it as it actually is with right wisdom, one becomes
+disenchanted with the earth element, becomes dispassionate towards the earth
+element.</p>
+</blockquote>
+<p>Venerable Sāriputta has not given here instances of the external earth element,
+because it is obvious enough, that is: whatever is external to the body.</p>
+<p>A statement that is of paramount importance here is the following:</p>
+<blockquote>
+<p><em>Yā c’eva kho pana ajjhattikā paṭhavīdhātu yā ca bāhirā paṭhavīdhātu
+paṭhavīdhāturev’esā</em>,</p>
+<p>now whatever is the internal element and whatever is the external earth
+element, both are simply the earth element.</p>
+</blockquote>
+<p>When regarded as earth element, both are the same. This is the premise from
+which insight takes off.</p>
+<blockquote>
+<p>That should be seen as it actually is with right wisdom thus: ‘This is not
+mine, this I am not, this is not my self.’</p>
+</blockquote>
+<p>With this insight into the earth element with right wisdom one gets disenchanted
+with it and becomes dispassionate.</p>
+<p>As we pointed out earlier too, the term <em>virāga</em>, usually rendered by
+‘detachment’ or ‘dispassion’, has a nuance suggestive of a ‘fading
+away’.<sup class="footnote-reference" id="fr-fn923-1"><a href="#fn-fn923">25</a></sup></p>
+<p>Here the verb <em>virājeti</em> clearly brings out that nuance. Thus <em>paṭhavīdhatuyā
+cittaṁ virājeti</em> seems to imply something like “he makes the earth element fade
+away from his mind”.</p>
+<p>We have already quoted such instances as <em>pītiyā ca virāgā</em>, “with the fading
+away of joy”, and <em>avijjāvirāgā</em>, “with the fading away of ignorance”, to
+highlight this nuance of the term <em>virāga</em>.</p>
+<p>In this context, too, it seems the function of disenchantment, <em>nibbidā</em>, is to
+see that whatever colour the earth element had infused in the mind is made to
+fade away. It is a detachment as well as a decolouration.</p>
+<p>What, then, is the true purpose of resolving the distinction between internal
+and external with regard to the earth element? The purpose is the breaking up of
+the foundation for cravings, conceits and views.</p>
+<p>For ‘me’ to acquire some object out of craving that object has to exist apart
+from ‘me’ and ‘I’ have to stand apart from it. The statement ‘this is mine’
+presupposes a duality between ‘me’ and ‘mine’. Similarly, the statement ‘this am
+I’, expressive of conceit, smacks of duality.</p>
+<p>For instance, one gazing at a mirror is imperceptibly involved in this duality
+when he tries to compare his face with its reflection on the mirror. This is the
+irony of the situation in ordinary life. But what we have here, in this sutta,
+is the opposite viewpoint. Not: ‘this is mine’, not: ‘this am I’, not: ‘this is
+my self’.</p>
+<p>What fosters this opposite point of view is the very absence of the distinction
+between the internal and the external. The fundamental basis for acquisition or
+measuring is gone. It is as if the unending game of chess with all its
+vicissitudes has ended in a peaceful draw.</p>
+<p>As a matter of fact, our entire <em>saṁsāric</em> existence is a chess game between the
+organic, <em>upādiṇṇa</em>, and the inorganic, <em>anupādiṇṇa</em>. For instance, the four
+elements within this body, the grasped par excellence, or the clung to, and the
+four elements as nutrition and atmosphere are always in conflict in their game
+of chess. This chess game has as its vicissitudes the disturbances of the three
+humours wind, bile and phlegm, on the physical side, and greed, hate and
+delusion on the mental side.</p>
+<p>These disturbances are to a great extent the outcome of this false dichotomy.
+The task before a meditator, therefore, is the resolving of this conflict by a
+penetrative understanding of the mutual interrelation between the two sides,
+internal and external. When the gap between the two is removed, the mind becomes
+equanimous.</p>
+<p>We are told that the contemplation of the four elements is an effective means of
+developing equanimity. Among the parts of our body, there are some we pride on
+and cherish, some others, like excreta and urine, we abhor and detest. When
+regarded as mere elements, attachment and revulsion give place to equanimity.
+The description of the contemplation on elements, as found in the
+<em>Satipaṭṭhānasutta</em>, clearly illustrates this fact. The relevant section runs as
+follows:</p>
+<blockquote>
+<p><em>Puna ca paraṁ, bhikkhave, bhikkhu imam eva kāyaṁ yathāṭhitaṁ yathāpaṇihitaṁ
+dhātuso paccavekkhati: Atthi imasmiṁ kāye paṭhavīdhātu āpodhātu tejodhātu
+vāyodhātū’ti.</em></p>
+<p><em>Seyyathāpi, bhikkhave, dakkho goghātako vā goghātakantevāsī vā gāviṁ vadhitvā
+cātummahāpathe bilaso paṭivibhajitvā nisinno assa; evaṁ eva kho, bhikkhave,
+bhikkhu imam eva kāyaṁ yathāṭhitaṁ yathāpaṇihitaṁ dhātuso paccavekkhati: Atthi
+imasmiṁ kāye paṭhavīdhātu āpodhātu tejodhātu vāyodhātū’ti.</em><sup class="footnote-reference" id="fr-fn924-1"><a href="#fn-fn924">26</a></sup></p>
+<p>Again, monks, a monk reflects on this same body as it stands and as it is
+disposed as consisting of elements thus: ‘In this body there are the earth
+element, the water element, the fire element, and the air element’.</p>
+<p>Just as a skilled butcher or his apprentice, having killed a cow were seated
+at the crossroads with it cut up into small pieces, so, too, a monk reflects
+on this same body as it stands and as it is disposed as consisting of elements
+thus: ‘In this body there are the earth element, the water element, the fire
+element, and the air element’.</p>
+</blockquote>
+<p>It is noteworthy that the monk is instructed to reflect on this same body as it
+stands and as it is disposed, <em>imam eva kāyaṁ yathāṭhitaṁ yathāpaṇihitaṁ</em>. These
+words are particularly significant, in that they do not imply an atomistic or
+microscopic analysis. The four elements are already there in the body, and
+though it is mentioned in brief here, in other discourses the organic instances
+for each of them are described at length.</p>
+<p>The simile used in connection with this analysis is highly significant. When a
+butcher or his apprentice kills a cow, cuts it into small pieces and sits at the
+crossroads ready to sell the meat, he is no longer particular about the cow from
+which it came. He is conscious of it merely as a heap of meat. Similarly, the
+contemplation by way of elements inculcates an equanimous attitude.</p>
+<p>Just as the distinction between the <em>upādiṇṇa</em> and the <em>anupādiṇṇa</em> is
+suggestive of the duality between the organic and the inorganic, the distinction
+between <em>ajjhatta</em> and <em>bahiddhā</em> has relevance to the duality between one’s own
+and another’s. This aspect of the reflection on elements emerges in the summary
+like section that follows:</p>
+<blockquote>
+<p><em>Iti ajjhattaṁ vā kāye kāyānupassī viharati, bahiddhā vā kāye kāyānupassī
+viharati, ajjhattabahiddhā vā kāye kāyānupassī viharati</em>,</p>
+<p>in this way he abides contemplating the body as a body internally, or he
+abides contemplating the body as a body externally, or he abides contemplating
+the body as a body both internally and externally.</p>
+</blockquote>
+<p>Here, too, the aim is to break down the dichotomy between one’s own and
+another’s. This contemplation is of a purpose to the extent that by it one
+realizes the fact that, whether internal or external, it is just the four
+elements. This norm is succinctly expressed as:</p>
+<blockquote>
+<p><em>yathā idaṁ tathā etaṁ, yathā etaṁ tathā idaṁ</em>,<sup class="footnote-reference" id="fr-fn925-1"><a href="#fn-fn925">27</a></sup></p>
+<p>just as this, so is that; just as that, so is this.</p>
+</blockquote>
+<p>Our minds are obsessed by the perception of diversity, <em>nānattasaññā</em>. According
+to colour and form, we distinguish objects in the outside world and give them
+names. It is a burden or a strain to the mind. The reflection by way of elements
+as given in the <em>Satipaṭṭhānasutta</em> could even be appreciated as a step towards
+the perception of unity, <em>ekattasaññā</em>, from this grosser perception of
+diversity. It tends to relaxation and unification of the mind.</p>
+<p>So the purpose of this reflection by way of the elements, peculiar to the
+discourses, is to look upon the elements as void, in accordance with the
+Buddha’s advice, <em>dhātuyo suññato passa</em>, “look upon the elements as
+void”.<sup class="footnote-reference" id="fr-fn926-1"><a href="#fn-fn926">28</a></sup></p>
+<p>However, for some reason or other, perhaps due to the influence of some Indian
+schools of philosophy with a slant towards materialism, some Buddhist sects
+indulged in academic subtleties which seem to obsess the mind with the four
+elements with concepts about them, instead of the simpler reflection on elements
+characteristic of the suttas. Originally the purpose was to erase the four
+elements from the mind.</p>
+<p>The original purpose was to make the four elements, the amorphous primaries
+which masquerade as form in the minds of beings for incalculable aeons, to fade
+away from the mind. But what happened later was to revel in atomistic analyses,
+which more or less followed the way of thinking peculiar to materialism. It
+ended up in hair-splitting analyses even literally, painting for instance the
+earth element all the more vividly in the mind. We have to assess this academic
+trend against the original purpose, unbiased by the traditional predilection for
+it. It is no exaggeration to say that all this tended to obscure the path to
+Nibbāna in the course of time.</p>
+<p>The Buddha’s ‘research’ was something entirely different. His ‘research’ into
+the four elements took a completely different course. In the <em>Nidānasaṁyutta</em> of
+the <em>Saṁyutta Nikāya</em> the Buddha proclaims the results of his research into the
+four elements.</p>
+<blockquote>
+<p><em>Paṭhavīdhātuyāhaṁ, bhikkhave, assādapariyesanaṁ acariṁ. Yo paṭhavīdhatuyā
+assādo tad ajjhagamaṁ, yāvatā paṭhavīdhātuyā assādo paññāya me so sudiṭṭho.</em></p>
+<p><em>Paṭhavīdhātuyāhaṁ, bhikkhave, ādīnavapariyesanaṁ acariṁ. Yo paṭhavīdhatuyā
+ādīnavo tad ajjhagamaṁ, yavatā paṭhavīdhātuyā ādīnavo paññāya me so sudiṭṭho.</em></p>
+<p><em>Paṭhavīdhātuyāhaṁ, bhikkhave, nissaraṇapariyesanaṁ acariṁ. Yaṁ paṭhavīdhatuyā
+nissaraṇaṁ tad ajjhagamaṁ, yavatā paṭhavīdhātuyā nissaraṇaṁ paññāya me taṁ
+sudiṭṭhaṁ.</em><sup class="footnote-reference" id="fr-fn927-1"><a href="#fn-fn927">29</a></sup></p>
+<p>Monks, I went in search of the gratification in the earth element. Whatever
+gratification there is in the earth element, that have I found out; whatever
+is the range of the gratification of the earth element, that have I well
+discerned with wisdom.</p>
+<p>Monks, I went in search of the danger in the earth element. Whatever danger
+there is in the earth element, that have I found out; whatever is the range of
+the danger of the earth element, that have I well discerned with wisdom.</p>
+<p>Monks, I went in search of the stepping out from the earth element. Whatever
+stepping out there is from the earth element, that have I found out; whatever
+is the range of the stepping out from the earth element, that have I well
+discerned with wisdom.</p>
+</blockquote>
+<p>Now this is the Buddha’s research into the earth element. The discourse goes on
+to state the same fact with regard to the other three elements.</p>
+<p>The term <em>assāda</em>, mentioned in this sutta, is defined as the bodily pleasure
+and mental happiness, <em>sukhaṁ somanassaṁ</em>, arising due to the earth element. The
+danger in the earth element is its impermanent, suffering and changing nature,
+<em>aniccā dukkhā vipariṇāmadhammā</em>. The stepping out from it is the disciplining
+and abandonment of desire for it, <em>chandarāgavinayo chandarāgappahānaṁ</em>.</p>
+<p>It is on the strength of this research that the Buddha even enjoined the
+reflection on the four requisites. The <em>Ariyavaṁsasutta</em> makes this sufficiently
+clear. In connection with the modes of reflection on the use of the four
+requisites, a thematic phrase occurs which is highly significant in this
+concern.</p>
+<blockquote>
+<p><em>Laddhā ca piṇḍapātaṁ agathito amucchito anajjhāpanno ādīnavadassāvī
+nissaraṇapañño paribhuñjati.</em><sup class="footnote-reference" id="fr-fn928-1"><a href="#fn-fn928">30</a></sup></p>
+<p>On getting alms food he partakes of it without greed, uninfatuated,
+unenslaved, being aware of the danger in it, with the wisdom in stepping out.</p>
+</blockquote>
+<p>The terms <em>agathito amucchito anajjhāpanno</em>, “without greed, uninfatuated,
+unenslaved”, are suggestive of the gratification which one has to withstand.</p>
+<p>The term <em>ādīnavadassāvī</em>, “being aware of the danger”, is suggestive of
+overeating and other possible risks in taking food.</p>
+<p>The meaning of the expression <em>nissaraṇapañño</em>, “with the wisdom in stepping
+out”, in the highest sense is taking food with the deeper idea of abandoning
+food in accordance with the cryptic dictum <em>āhāraṁ nissāya āhāraṁ pajahati</em>,
+“gives up food depending on food”.<sup class="footnote-reference" id="fr-fn929-1"><a href="#fn-fn929">31</a></sup></p>
+<p>It should be clear from the foregoing what the original idea behind the
+contemplation on the elements was and what happened later. The later trends seem
+to have ignored the fact that perception is a mirage. Research into these four
+elements is a matter for the physicist, though it is like chasing a mirage with
+thoughts and concepts. What is needed is the liberation of the mind from the
+perception of form that is ingrained in the minds of beings due to the four
+elements in this long <em>saṁsāra</em>.</p>
+<p>All the meditation techniques the Buddha has taught are directed towards the
+fading away of this perception of form. Because of these four primaries we have
+a perception of form, which enables us to take signs. All the four are actually
+impermanent, but the perceptual data we have gathered dependent on them are
+indelibly imprinted on our minds.</p>
+<p>Signs taken up in the far distant past in one’s <em>saṁsāra</em> can come up again and
+again as attachments and aversions to perpetuate one’s <em>saṁsāric</em> existence. The
+thoughts and prolific concepts arise out of this perception of form.</p>
+<p>In other words, we distinguish between one thing and another according to colour
+and shape. By evaluating them through attachments and aversions, we allow them
+to get deeply rooted in our mind. These are the latencies to perception, which
+in the <em>Madhupiṇḍikasutta</em> find mention in the expression <em>saññā nānusenti</em>,
+“perceptions do not lie latent”.<sup class="footnote-reference" id="fr-fn930-1"><a href="#fn-fn930">32</a></sup></p>
+<p>Whereas the <em>arahant</em> does away with these latencies, the <em>non-arahant</em>
+entertains them to some extent or other. These latencies account for the
+prolific concepts with which beings heap up <em>saṁsāric</em> suffering. In order to
+loosen the hold of these signs on our minds, the perilous aspect of the four
+elements has to be emphasized.</p>
+<p>That is why the Buddha in a number of discourses described to the monks the
+impermanence of the four elements. It was not his intention to encourage any
+atomistic analysis. He preached about the impermanence of the four elements to
+expose the hollowness and vanity of this drama of existence – to erase the
+perception of form, productive of this drama, from the minds of beings.</p>
+<p>Now <em>saṅkhāra</em> is a term we often come across in the Dhamma. We happened to
+suggest a possible nuance of the term, when we brought up similes relating to
+the cinema and the theatre. <em>Saṅkhāra</em> is a term capable of comprehending the
+entire range of preparations that go to make up a theatrical performance.</p>
+<p>Now the Buddha has related the story of this great earth in some discourses. But
+it is not an account of a scientific experiment, as our modern day scientists
+would offer. The Buddha describes how this great earth came up and how it gets
+destroyed in order to drive home into our minds the impermanence of the very
+stage on which we enact our <em>saṁsāric</em> drama, thereby inculcating an attitude of
+disenchantment and dispassion, <em>nibbidā</em> and <em>virāga</em>.</p>
+<p>These <em>saṅkhāras</em>, pertaining to our drama of existence on this gigantic stage,
+the earth, get deeply imprinted in our minds. They sink deep as latencies to
+perception, productive of existence. It is to eradicate them that the Buddha has
+placed before us the story of this great earth in some discourses. By far the
+best illustration comes in the <em>Aggaññasutta</em> of the <em>Dīgha Nikāya</em>.</p>
+<p>According to it, at the beginning of this aeon the earth was immersed in a
+darkness and covered with water. The inhabitants were those who had come down
+from the Ābhassara Brahma World. They were sex-less, mind-made, feeding on joy,
+self-luminous and capable of moving through the air, <em>manomayā, pītibhakkhā
+sayampabhā antalikkhacarā</em>.<sup class="footnote-reference" id="fr-fn931-1"><a href="#fn-fn931">33</a></sup></p>
+<p>After billions and billions of years, a savoury earth spread itself over the
+waters, like the tissue that forms over hot milk as it cools. It was very sweet
+and tempting. Some being of a greedy nature, exclaiming: “Ah! What can this
+be?”, tasted this savoury earth with his finger. Craving arose in him as a
+result of it. Others who saw him doing it did the same.</p>
+<p>Then they all began digging into the savoury earth with their hands and eating
+it, with the result that their subtle bodies became gross, hard and solid.
+Craving also increased, and their minds became rougher and coarser. The
+environment changed in unison, becoming grosser and grosser. So we have here the
+perilous aspect. As the perils became manifest, the watery earth grew in
+solidity and the simple life grew in complexity.</p>
+<p>Billions and billions of years passed until the earth assumed its present shape
+and appearance with all its gigantic mountains, rocks and buildings. But then,
+in the <em>Sattasuriyasutta</em> of the <em>Aṅguttara Nikāya</em>, the Buddha describes what
+happens to this great earth at the end of the aeon.</p>
+<p>As the holocaust draws near, a second orb of the sun appears, and then a third,
+a fourth, a fifth, a sixth and a seventh. The great earth in its entirety,
+together with its mountains and rocks, goes ablaze, becoming just one huge flame
+of fire, consuming all before it without leaving any ash or soot, like in a spot
+where oil or ghee had burnt. So here we have no room for any atomism. In
+conclusion the Buddha brings out the true aim and purpose of this discourse.</p>
+<blockquote>
+<p><em>Evaṁ aniccā, bhikkhave, saṅkhārā, evaṁ addhuvā, bhikkhave, saṅkhārā, evaṁ
+anassāsikā, bhikkhave, saṅkhārā. Yāvañcidaṁ, bhikkhave, alam eva
+sabbasaṅkhāresu nibbindituṁ alaṁ virajjituṁ alaṁ vimuccituṁ.</em><sup class="footnote-reference" id="fr-fn932-1"><a href="#fn-fn932">34</a></sup></p>
+<p>So impermanent, monks, are preparations, so unstable, monks, are preparations,
+so unsatisfying, monks, are preparations. So much so, monks, this is enough to
+get disenchanted with preparations, this is enough to get dispassionate with
+them, this is enough to get released from them.</p>
+</blockquote>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn899"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn899-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn900"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/an2.118-129/pli/ms">AN 2.126 / A I 87</a>, <em>Āsāduppajahavagga</em> <a href="#fr-fn900-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn901"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/dn14/pli/ms">DN 14 / D II 31</a>, <em>Mahāpadānasutta</em>, see <em>Sermon 3</em> <a href="#fr-fn901-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn902"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/snp2.5/pli/ms">Snp 2.5 / Sn 270</a>, <em>Sūcilomasutta</em> <a href="#fr-fn902-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn903"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/snp2.5/pli/ms">Snp 2.5 / Sn 273</a>, <em>Sūcilomasutta</em> <a href="#fr-fn903-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn904"><sup class="footnote-definition-label">6</sup>
+<p>Spk I 304 <a href="#fr-fn904-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn905"><sup class="footnote-definition-label">7</sup>
+<p>See <em>Sermon 27</em> <a href="#fr-fn905-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn906"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/sn3.2/pli/ms">SN 3.2 / S I 70</a>, <em>Purisasutta</em> <a href="#fr-fn906-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn907"><sup class="footnote-definition-label">9</sup>
+<p>See <em>Sermon 3</em> <a href="#fr-fn907-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn908"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/dn14/pli/ms">DN 14 / D II 32</a>, <em>Mahāpadānasutta</em> <a href="#fr-fn908-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn909"><sup class="footnote-definition-label">11</sup>
+<p>E.g. <a href="https://suttacentral.net/mn38/pli/ms">MN 38 / M I 263</a>, <em>Mahātaṇhāsaṅkhayasutta</em> <a href="#fr-fn909-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn910"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/dn16/pli/ms">DN 16 / D II 107</a>, <em>Mahāparinibbānasutta</em>, see also <a href="https://suttacentral.net/an8.70/pli/ms">AN 8.70 / A IV 312</a> and <a href="https://suttacentral.net/ud6.1/pli/ms">Ud 6.1 / Ud 64</a> <a href="#fr-fn910-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn911"><sup class="footnote-definition-label">13</sup>
+<p>Sv II 557 and Mp IV 154 <a href="#fr-fn911-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn912"><sup class="footnote-definition-label">14</sup>
+<p>Nett 61 <a href="#fr-fn912-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn913"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/snp4.9/pli/ms">Snp 4.9 / Sn 843</a>, <em>Māgandiyasutta</em> <a href="#fr-fn913-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn914"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/snp4.15/pli/ms">Snp 4.15 / Sn 954</a>, <em>Attadaṇḍasutta</em> <a href="#fr-fn914-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn915"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/snp4.14/pli/ms">Snp 4.14 / Sn 919</a>, <em>Tuvaṭakasutta</em> <a href="#fr-fn915-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn916"><sup class="footnote-definition-label">18</sup>
+<p>See <em>Sermon 5</em> on <a href="https://suttacentral.net/snp4.3/pli/ms">Snp 4.3 / Sn 787</a>, <em>Duṭṭhaṭṭhakasutta</em> <a href="#fr-fn916-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn917"><sup class="footnote-definition-label">19</sup>
+<p>See <em>Sermon 2</em> <a href="#fr-fn917-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn918"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/dhp383-423/pli/ms">Dhp 385</a>, <em>Brāhmaṇavagga</em>; see <em>Sermons 5, 18 and 19</em> <a href="#fr-fn918-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn919"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/ud7.2/pli/ms">Ud 7.2 / Ud 75</a>, <em>Dutiyalakuṇtakabhaddiyasutta</em> <a href="#fr-fn919-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn920"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/dn16/pli/ms">DN 16 / D II 119</a>, <em>Mahāparinibbānasutta</em> <a href="#fr-fn920-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn921"><sup class="footnote-definition-label">23</sup>
+<p>See <em>Sermon 14</em> <a href="#fr-fn921-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn922"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/mn28/pli/ms">MN 28 / M I 185</a>, <em>Mahāhatthipadopamasutta</em> <a href="#fr-fn922-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn923"><sup class="footnote-definition-label">25</sup>
+<p>See <em>Sermon 2</em> <a href="#fr-fn923-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn924"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/mn10/pli/ms">MN 10 / M I 57</a>, <em>Satipaṭṭhānasutta</em> <a href="#fr-fn924-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn925"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/snp1.11/pli/ms">Snp 1.11 / Sn 203</a>, <em>Vijayasutta</em> <a href="#fr-fn925-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn926"><sup class="footnote-definition-label">28</sup>
+<p>Dhp-a III 117 <a href="#fr-fn926-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn927"><sup class="footnote-definition-label">29</sup>
+<p><a href="https://suttacentral.net/sn14.32/pli/ms">SN 14.32 / S II 171</a>, <em>Acariṁsutta</em> <a href="#fr-fn927-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn928"><sup class="footnote-definition-label">30</sup>
+<p><a href="https://suttacentral.net/an4.28/pli/ms">AN 4.28 / A II 27</a>, <em>Ariyavaṁsasutta</em> <a href="#fr-fn928-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn929"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/an4.159/pli/ms">AN 4.159 / A II 145</a>, <em>Bhikkhunīsutta</em> <a href="#fr-fn929-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn930"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/mn18/pli/ms">MN 18 / M I 108</a>, <em>Madhupiṇḍikasutta</em> <a href="#fr-fn930-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn931"><sup class="footnote-definition-label">33</sup>
+<p><a href="https://suttacentral.net/dn27/pli/ms">DN 27 / D III 84</a>, <em>Aggaññasutta</em> <a href="#fr-fn931-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn932"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://suttacentral.net/an7.66/pli/ms">AN 7.66 / AN IV 103</a>, <em>Sattasuriyasutta</em> <a href="#fr-fn932-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-27.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-29.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-27.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-29.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

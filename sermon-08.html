@@ -1,0 +1,1146 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 8 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-8-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-8"><a class="header" href="#sermon-8">Sermon 8</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn262-1"><a href="#fn-fn262">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks.</p>
+<p>The other day we ended our sermon by discussing how far the
+<em>Brahmanimantanikasutta</em> of the <em>Majjhima Nikāya</em> helps us to understand what
+<em>anidassana viññāṇa</em> is. We quoted a certain paragraph from that discourse as a
+starting point for our discussion. Let us now remind ourselves of it:</p>
+<blockquote>
+<p><em>Viññānaṁ anidassanaṁ anantaṁ sabbato pabhaṁ, taṁ paṭhaviyā paṭhavittena
+ananubhūtaṁ, āpassa āpattena ananubhūtaṁ, tejassa tejattena ananubhūtaṁ,
+vāyassa vāyattena ananubhūtaṁ, bhūtānaṁ bhūtattena ananubhūtaṁ, devānaṁ
+devattena ananubhūtaṁ, pajāpatissa pajāpatittena ananubhūtaṁ, brahmānaṁ
+brahmattena ananubhūtaṁ, ābhassarānaṁ ābhassarattena ananubhūtaṁ,
+subhakiṇhānaṁ subhakiṇhattena ananubhūtaṁ, vehapphalānaṁ vehapphalattena
+ananubhūtaṁ, abhibhussa abhibhuttena ananubhūtaṁ, sabbassa sabbattena
+ananubhūtaṁ.</em><sup class="footnote-reference" id="fr-fn263-1"><a href="#fn-fn263">2</a></sup></p>
+<p>Consciousness which makes nothing manifest, infinite and all lustrous. It does
+not partake of the earthiness of earth, the wateriness of water, the fieriness
+of fire, the airiness of air, the creature-hood of creatures, the <em>deva</em>-hood
+of <em>devas</em>, the Pajāpati-hood of Pajāpati, the Brahma-hood of Brahma, the
+radiance of the Radiant Ones, the Subhakiṇha-hood of the Subhakiṇha Brahmas,
+the Vehapphala-hood of the Vehapphala Brahmas, the overlord-ship of the
+overlord, and the all-ness of the all.</p>
+</blockquote>
+<p>The gist of this paragraph is that the non-manifestative consciousness which is
+infinite and all lustrous, is free from the qualities associated with any of the
+concepts in the list, such as the earthiness of earth and the wateriness of
+water.</p>
+<p>That is to say it is not under their influence, it does not partake of them,
+<em>ananubhūtaṁ</em>. Whatever nature the world attributes to these concepts, whatever
+reality they invest it with, that is not registered in this non-manifestative
+consciousness. That is why this consciousness is said to be uninfluenced by
+them.</p>
+<p>Usually, the worldlings attribute a certain degree of reality to concepts in
+everyday usage. These may be reckoned as mind-objects, things that the mind
+attends to. The word <em>dhamma</em> also means ‘a thing’, so the worldling thinks that
+there is some-‘thing’ in each of these concepts. Or, in other words, they
+believe that there is some-thing as an inherent nature or essence in these
+objects of the mind.</p>
+<p>But the quotation in question seems to imply that this so-called nature is not
+registered in the <em>arahant’s</em> mind. It is extremely necessary for the worldling
+to think that there is some real nature in these mind-objects. Why? Because in
+order to think of them as objects they have to have some essence, at least they
+must be invested with an essence, and so the worldlings do invest them with some
+sort of an essence, and that is the earthiness of earth, the wateriness of
+water, (etc.). Likewise there is a being-hood in beings, a <em>deva</em>-hood in
+<em>devas</em>, a Pajāpati-hood in Pajāpati, a Brahma-hood in Brahma, so much so that
+even in the concept of all, there is an all-ness – and this is the worldlings’
+standpoint.</p>
+<p>Attributing a reality to whatever concept that comes up, the worldlings create
+for themselves perceptions of permanence, perceptions of the beautiful, and
+perceptions of self. In other words, they objectify these concepts in terms of
+craving, conceit and views. That objectification takes the form of some inherent
+nature attributed to them, such as earthiness, <em>deva</em>-hood (etc.).</p>
+<p>But as for the non-manifestative consciousness, it is free from the so-called
+natures that delude the worldlings. In the consciousness of the <em>arahants</em>,
+there is not that infatuation with regard to the mass of concepts which the
+worldlings imagine as real, in order to keep going this drama of existence.</p>
+<p>This fact is clearly borne out by another statement in the
+<em>Brahmanimantanikasutta</em>. The Buddha makes the following declaration, to break
+the conceit of Baka the Brahma, who conceived the idea of permanence regarding
+his status as a Brahma:</p>
+<blockquote>
+<p><em>Paṭhaviṁ kho ahaṁ, brahme, paṭhavito abhiññāya yāvatā paṭhaviyā paṭhavittena
+ananubhūtaṁ tadabhiññāya paṭhaviṁ nāhosim, paṭhaviyā nāhosiṁ, paṭhavito
+nāhosiṁ, paṭhaviṁ me’ti nāhosiṁ, paṭhaviṁ nābhivadiṁ</em><sup class="footnote-reference" id="fr-fn264-1"><a href="#fn-fn264">3</a></sup></p>
+<p>“Having understood through higher knowledge earth as earth, O Brahma,”</p>
+<p>(that is to say having understood by means of a special kind of knowledge, and
+not by means of the ordinary sense-perception)</p>
+<p>“and having understood through higher knowledge whatever that does not partake
+of the earthiness of earth”,</p>
+<p>(the reference here is to that non-manifestative consciousness, which is to be
+described in the passage to follow)</p>
+<p>“I did not claim to be earth”, <em>paṭhaviṁ nāhosim</em>, <br />
+“I did not claim to be on earth”, <em>paṭhaviyā nāhosiṁ</em>, <br />
+“I did not claim to be from earth”, <em>paṭhavito nāhosiṁ</em>, <br />
+“I did not claim earth as mine”, <em>paṭhaviṁ me’ti nāhosiṁ</em>, <br />
+“I did not assert earth”, <em>paṭhaviṁ nābhivadiṁ</em>.</p>
+</blockquote>
+<p>The declensional forms given here are also suggestive of the fact that once the
+worldlings attribute some inherent nature to those concepts in terms of a
+‘ness’, as in earthy-ness, and make them amenable to their cravings, conceits
+and views, declensional forms come into usage, a few instances of which have
+been mentioned here.</p>
+<p>So, with regard to this earth, one can conceive of it as ‘my earth’, or as ‘I am
+on earth’, or ‘I who am on the earth’, or ‘from the earth’. By holding on
+tenaciously to these declensional forms of one’s own creation, one is only
+asserting one’s ego.</p>
+<p>Now, for instance, we all know that what is called ‘a flower’ is something that
+can fade away. But when one conceives of it as ‘The-flower-I-saw’, and thereby
+appropriates it into the concept of an I, it gets invested with the nature of
+permanence, since it can be ‘re-called’. A perception of permanence which
+enables one to think about it again, arises out of it. This is the idea behind
+the above reference.</p>
+<p>It is in the nature of the released mind not to take these concepts seriously.
+It does not have a tenacious grasp on these declensional forms. It is convinced
+of the fact that they are mere conventions in ordinary usage. Due to that
+conviction itself, it is not subject to them.</p>
+<blockquote>
+<p>“I did not claim to be earth, I did not claim to be on earth, I did not claim
+to be from earth, I did not claim earth as mine, I did not assert earth”,
+<em>paṭhaviṁ nābhivadiṁ</em>.</p>
+</blockquote>
+<p>Here the word <em>abhivadiṁ</em> is suggestive of conceit. The three terms
+<em>abhinandati</em>, <em>abhivadati</em> and <em>ajjhosāya tiṭṭhati</em> are often mentioned
+together in the discourses.<sup class="footnote-reference" id="fr-fn265-1"><a href="#fn-fn265">4</a></sup></p>
+<p><em>Abhinandati</em> means delighting in particular, which is suggestive of craving.</p>
+<p><em>Abhivadati</em> means an assertion by way of conceit – an assertion which implies
+‘a taking up’ of something.</p>
+<p><em>Ajjhosāya tiṭṭhati</em> stands for dogmatic involvement regarding views.</p>
+<p>Thus <em>abhinandati</em>, <em>abhivadati</em> and <em>ajjhosāya tiṭṭhati</em> correspond to the
+three terms <em>taṇhā</em>, craving, <em>māna</em>, conceit, and <em>diṭṭhi</em>, views,
+respectively.</p>
+<p>Now out of these, what we find here is <em>abhivadati</em> – <em>paṭhaviṁ nābhivadiṁ</em>, “I
+did not assert earth” – I did not make any assertion about earth by way of
+conceit. From this, too, we can infer that the ordinary man in this world takes
+his perception of the earth seriously, and by conceiving of it as ‘earth is
+mine’, ‘I am on the earth’, (etc.), invests the concepts with a permanent
+nature. But this is a kind of device the worldlings adopt in order to perpetuate
+the drama of existence. However, everyone of these elements is void.</p>
+<p>In this particular context, the four elements earth, water, fire and air, are
+mentioned at the very outset. The Buddha, having understood the emptiness and
+impermanence of these elements, does not cling to them. The ordinary worldling,
+on the other hand, clings to the perception of earth in a piece of ice because
+of its hardness. But as we know, when we heat it up to a certain degree, its
+watery quality reveals itself. Further heating would bring up its fiery nature.
+Continuous heating will convert it into vapour, revealing its air quality.</p>
+<p>Thus these four great primaries, which the world clings to, also have the nature
+of impermanence about them. The emancipated one, who rightly understands this
+impermanence through his higher knowledge, does not get upset by their ghostly
+configurations. His consciousness is not subject to them. This is the import of
+the above paragraph.</p>
+<p>The same holds true with regard to the other concepts. <em>Saṁsāric</em> beings have
+their conventional usages. One might think of oneself as a god among gods. Now
+Baka the Brahma had the conceit ‘I am a Brahma’. But even his Brahma-status gets
+melted away like that piece of ice, at least after some aeons. So even
+Brahma-hood is subject to ‘liquidation’, like an ice-cube.</p>
+<p>In this way, the released consciousness of the <em>arahant</em> does not register a
+perception of permanence with regard to the concepts which masquerade as real in
+the worldling’s drama of existence. That is why it is called ‘non-manifestative’
+consciousness. That non-manifestative consciousness is free from those concepts.</p>
+<p>By way of further explanation of the nature of this released mind, we may drop a
+hint through the analogy of the film and the drama, which we have employed
+throughout. Now, for instance, in order to produce a tragic scene on the screen,
+the film producers adopt subtle devices and camera tricks. Sometimes an
+awe-inspiring scene of conflagration or ruthless arson, which drives terror into
+the hearts of the audience, is produced with the help of cardboard houses.
+Cardboard houses are set on fire, but the audience is hoodwinked into thinking
+that a huge mansion is on fire. Similarly, terrific traffic accidents are
+displayed on the screen with the help of a few toys.</p>
+<p>In this drama of existence, too, there are similar tragic scenes. Now, in spite
+of their tragic quality, if any member of the audience truly understands at that
+moment that these are cardboard houses and toys toppled from hill tops, he sees
+something comic in the apparently tragic. Likewise, in this drama of existence,
+there is a tragic aspect as well as a comic aspect.</p>
+<p>As a matter of fact, both these words, tragic and comic, can be accommodated
+within the highly significant term <em>saṁvega</em>, anguish, sense of urgency. In
+trying to arouse <em>saṁvega</em> with regard to <em>saṅkhāras</em>, or preparations, we could
+bring in both these attitudes. The ordinary worldling sees only the tragic side
+of the drama of existence, and that because of his ignorance. But the <em>arahant</em>,
+the emancipated one, sees in this drama of existence a comic side as well.</p>
+<p>As an illustration we may allude to those occasions in which the Buddha himself
+and those disciples with psychic powers like Venerable Mahā Moggallāna, are said
+to have shown a faint smile, <em>situppāda</em>, on seeing how beings in <em>saṁsāra</em> are
+reborn in high and low realms according to their deeds, as in a puppet
+show.<sup class="footnote-reference" id="fr-fn266-1"><a href="#fn-fn266">5</a></sup></p>
+<p>Of course, that spontaneous smile has nothing sarcastic or unkind about it. But
+all the same, it gives us a certain hint. This spontaneous smile seems to be the
+outcome of an insight into the comic aspect of this existential drama. The faint
+smile is aroused by the conviction of the utter futility and insubstantiality of
+the existential drama, seeing how beings who enjoyed high positions come down to
+the level of hungry ghosts, <em>petas</em>, or even to lower realms in their very next
+birth. It is somewhat like the response of one who has correctly understood the
+impermanence and the illusory nature of things shown on a film screen.</p>
+<p>When one comes to think of this drama of existence, <em>saṁsāric</em> beings appear
+like puppets drawn upwards by the five higher fetters, <em>uddhambhāgiya
+saṁyojana</em>, and drawn downwards by the five lower fetters, <em>orambhāgiya
+saṁyojana</em>. They reappear more or less like puppets, manipulated up and down by
+strings, which are but the results of their own deeds.</p>
+<p>The wherewithal for the drama of existence is supplied by the four great
+primaries – the four basic elements of earth, water, fire and air. In the case
+of a film or a drama, sometimes the same object can be improvised in a number of
+ways, to produce various scenes and acts. What in one scene serves as a
+sitting-stool, could be improvised as a footstool in another scene, and as a
+table in yet another. Similarly, there is something called double-acting in
+films. The same actor can delineate two characters and appear in different
+guises in two scenes.</p>
+<p>A similar state of affairs is to be found in this drama of existence. In fact,
+the Buddha has declared that there is not a single being in <em>saṁsāra</em> who has
+not been one of our relations at some time or other.<sup class="footnote-reference" id="fr-fn267-1"><a href="#fn-fn267">6</a></sup> We are in the habit
+of putting down such relations to a distant past, in order to avoid a rift in
+our picture of the world by upsetting social conventions. But when one comes to
+think of it in accordance with the Dhamma, and also on the strength of certain
+well attested facts, sometimes the male or the female baby cuddled by a mother
+could turn out to be her own dead father or mother.</p>
+<p>Such a strangely ludicrous position is to be found in the acts of this drama of
+existence. Usually the world is unaware of such happenings. Though ludicrous,
+the world cannot afford to laugh at it. Rather, it should be regarded as a
+sufficient reason for arousing an anguished sense of urgency: “What a pity that
+we are subject to such a state of affairs! What a pity that we do not understand
+it because of the power of influxes and latencies and thereby heap up
+defilements!”</p>
+<p>Such an awareness of the emptiness of all this can give rise to anguish. One can
+get some understanding on the lines of the signless, the unsatisfactory, and the
+void, by contemplating these facts. One can also contemplate on the four
+elements, how they are at the beginning of a world period, and how they get
+destroyed at the end of a world period, in the conflagration at the end of an
+aeon. Likewise, when one comes to think of the state of persons or beings in
+general, in accordance with this fact of relationship, there is much room for
+anguish and a sense of urgency.</p>
+<p>It is because of all this that the Buddha sometimes declares, as in the
+discourse on the rising of seven suns, <em>Sattasuriyasutta</em>, that this is:</p>
+<blockquote>
+<p>… enough to get disenchanted with all preparations, enough to get detached
+from them, enough to get released from them.</p>
+<p><em>alameva sabbasaṅkhāresu nibbindituṁ alaṁ virajjituṁ alaṁ vimuccituṁ</em>.<sup class="footnote-reference" id="fr-fn268-1"><a href="#fn-fn268">7</a></sup></p>
+</blockquote>
+<p>We have been drawing upon a particular nuance of the term <em>saṅkhāra</em> throughout,
+that is, as things comparable to those instruments, temporarily improvised in a
+dramatic performance just for the purpose of producing various acts on the
+stage. It is the same with persons, who are like actors playing their parts.</p>
+<p>Beings, who are born in accordance with their karma, entertain the conceit ‘I am
+a god’, ‘I am a Brahma’. Once their karma is spent up, they get destroyed and
+are reborn somewhere or other. It is the same with those items used in a drama,
+such as the stool and the footstool. But the intriguing fact is that those in
+the audience, watching each of those acts, grasp as such whatever objects they
+see on the stage when they produce their individual dramas.</p>
+<p>We have already mentioned at the very outset that the final stage in the
+production of a drama is a matter for the audience and not for the theatricians.
+Each member of the audience creates a drama in his own mind, putting together
+all preparations. What serves as a stool in one act of the drama, may be used as
+a footstool in the next. In the first instance it sinks into the minds of the
+audience as a stool, and in the next as a footstool. It is the same in the case
+of beings and their relationships.</p>
+<p>It must have been due to this state of affairs in the drama of existence, which
+arouses anguish, that the Buddha makes the declaration in quite a number of
+discourses dealing with the topic of impermanence, including those which
+describe the destruction of the aeon: “This is enough, monks, to get
+disenchanted with all preparations, to get detached from them, to get released
+from them”.</p>
+<p>These preparations are comparable to a film reel, which is the basic requirement
+for the film of name-and-form shown on the screen of consciousness of beings in
+this world. As the world is regarded as a sort of stage, trees, beings and
+objects in our environment are like objects on the stage. But the intriguing
+fact about it is that the ordinary man in the world is unaware of their
+‘prepared’ nature as a framework.</p>
+<p>When one is watching a film, one becomes unaware of the fact that it is just
+something shown on the screen. At that moment it appears as something real and
+life-like. It is about this apparent reality that the Buddha speaks when he
+utters the following lines in the <em>Itivuttaka</em>:</p>
+<blockquote>
+<p><em>Jātaṁ bhūtaṁ samuppannaṁ, kataṁ saṅkhatamaddhuvaṁ;</em><sup class="footnote-reference" id="fr-fn269-1"><a href="#fn-fn269">8</a></sup></p>
+<p>born, become, arisen, made up, prepared, unstable.</p>
+</blockquote>
+<p>Whatever appears as real in this world, is actually made and prepared by
+<em>saṅkhāras</em>. It is their insubstantial nature, their impermanent, unsatisfactory
+and not-self nature, that is hinted at by these lines.</p>
+<p>The term <em>saṅkhāra</em> is suggestive of some artificiality about this world.
+Everything that goes to ‘make-it-up’ is a <em>saṅkhāra</em>. The non-manifestative
+consciousness, which is aware of its impermanent nature, is therefore free from
+these preparations. It is free from those concepts which the worldlings cling
+to. It remains unshaken by their ghostly transfigurations.</p>
+<p>We come across four wonderful verses in the <em>Adhimutta Theragāthā</em> which, though
+extremely simple, give us a deep insight into this freedom in the <em>arahant’s</em>
+mind.</p>
+<p>The story of Venerable Adhimutta is a marvellous one.<sup class="footnote-reference" id="fr-fn270-1"><a href="#fn-fn270">9</a></sup> While going
+through a forest Venerable Adhimutta got caught to a band of robbers, who were
+just getting ready to offer a human sacrifice to the gods. So they got hold of
+this <em>arahant</em> as their victim. But the latter showed no consternation. There
+was no fear or terror in his face. The bandit chief asked him why he is unmoved.
+Then the Venerable Adhimutta uttered a set of verses in reply. Out of them, we
+may quote the following four significant verses:</p>
+<blockquote>
+<p><em>Natthi cetasikaṁ dukkhaṁ,</em> <br />
+<em>anapekkhassa gāmani,</em> <br />
+<em>atikkantā bhayā sabbe,</em> <br />
+<em>khīṇasaṁyojanassa ve.</em><sup class="footnote-reference" id="fr-fn271-1"><a href="#fn-fn271">10</a></sup></p>
+<p>There is no mental pain <br />
+To one with no expectations, oh headman, <br />
+All fears have been transcended <br />
+By one whose fetters are extinct.</p>
+<p><em>Na me hoti ’ahosin’ti,</em> <br />
+<em>’bhavissan’ti na hoti me,</em> <br />
+<em>saṅkhārā vibhavissanti,</em> <br />
+<em>tattha kā paridevanā?</em><sup class="footnote-reference" id="fr-fn272-1"><a href="#fn-fn272">11</a></sup></p>
+<p>It does not occur to me ‘I was’, <br />
+Nor does it occur to me ‘I will be’, <br />
+Mere preparations get destroyed, <br />
+What is there to lament?</p>
+<p><em>Suddhaṁ dhammasamuppādaṁ,</em> <br />
+<em>suddhaṁ saṅkhārasantatiṁ,</em> <br />
+<em>passantassa yathābhūtaṁ,</em> <br />
+<em>na bhayaṁ hoti gāmani.</em><sup class="footnote-reference" id="fr-fn273-1"><a href="#fn-fn273">12</a></sup></p>
+<p>To one who sees as it is, <br />
+The arising of pure <em>dhammas</em> <br />
+And the sequence of pure preparations, <br />
+There is no fear, oh headman.</p>
+<p><em>Tiṇakaṭṭhasamaṁ lokaṁ,</em> <br />
+<em>yadā paññāya passati,</em> <br />
+<em>mamattaṁ so asaṁvindaṁ,</em> <br />
+<em>’natthi me’ti na socati.</em><sup class="footnote-reference" id="fr-fn274-1"><a href="#fn-fn274">13</a></sup></p>
+<p>“When one sees with wisdom, <br />
+This world as comparable to grass and twigs, <br />
+Not finding anything worthwhile holding on as mine, <br />
+One does not grieve: ‘O! I have nothing!’</p>
+</blockquote>
+<p>At least a fraction of the gist of these four verses has already come up in some
+form or other in the sermons given so far. Now as for the first verse, addressed
+to the bandit chief, the first two lines say that there is no mental pain to one
+who has no expectations, cravings, or desire. The next two lines state that one
+whose fetters are destroyed has transcended fears.</p>
+<p>To begin with, let us get at the meaning of this verse. Here it is said that
+there is no mental pain, <em>natthi cetasikaṁ dukkhaṁ</em>. In an earlier sermon based
+on the <em>Cetanāsutta</em> we happened to mention that for one who does not take body,
+word, and mind as real, there is no inward pleasure and pain, <em>ajjhattaṁ
+sukhadukkhaṁ</em>.<sup class="footnote-reference" id="fr-fn275-1"><a href="#fn-fn275">14</a></sup> The relevant quotation is:</p>
+<blockquote>
+<p><em>Avijjāya tveva asesavirāganirodhā so kāyo na hoti, yaṁ paccayāssa taṁ
+uppajjati ajjhattaṁ sukhadukkhaṁ … sā vācā na hoti … so mano na hoti …
+khettaṁ taṁ na hoti, vatthum taṁ na hoti, āyatanaṁ taṁ na hoti, adhikaraṇaṁ
+taṁ na hoti, yaṁ paccayāssa taṁ uppajjati ajjhattaṁ sukhadukkhaṁ</em>.<sup class="footnote-reference" id="fr-fn276-1"><a href="#fn-fn276">15</a></sup></p>
+</blockquote>
+<p>With the complete fading away and cessation of ignorance, the <em>arahant</em> has no
+notion of a body. That is, he does not have a perception of a body, like that of
+a worldling, who takes it as such, due to his perception of the compact,
+<em>ghanasaññā</em>. Likewise that speech is not there, <em>sā vācā na hoti</em>.</p>
+<p>The basic reason for speech-preparation is the reality attributed to words and
+linguistic usages. When, for instance, someone scolds us, we are displeased at
+it because of the reality given to those words. Similarly, that mind is not
+there, <em>so mano na hoti.</em> It is only the collocation of preparations which arise
+and cease that is conceived as ‘my mind’.</p>
+<p>Therefore, whatever field, site, base or reason, owing to which there can arise
+inward pleasure or pain, is no longer there. If the bandits had actually killed
+him, he would not have had any mental pain, because he lets go before Māra comes
+to grab. This is the idea expressed in the first verse.</p>
+<p>As for the second verse, there too the idea of voidness is well expressed. The
+thought ‘I was’, does not occur to me. The idea ‘I am’ is not in me. Nor do I
+entertain the idea ‘I will be’. That is to say, it does not occur to me that I
+had a past or that I will have a future. It only occurs to me that preparations
+get destroyed. That was what happened in the past and will happen in the future.
+So what is there to lament?</p>
+<p>A very important idea emerges from these verses. Now this series of sermons is
+on the subject of Nibbāna. We thought of giving these sermons because of the
+existing variety of conflicting views on Nibbāna. There is no clear idea even
+about our goal, not only among non-Buddhists, but even among Buddhists
+themselves.</p>
+<p>From these verses we can glean some important facts. Here the reference is to
+existence. This <em>arahant</em> must have had numerous births as <em>pretas</em>, Brahmas,
+gods, and human beings. But he is not saying something false here. What is
+really meant by saying that it does not occur to me ‘I was’?</p>
+<p>Ordinary worldlings, or even those with higher psychic powers, when they see
+their past lives think of it as ‘I was so and so in such and such a birth’.
+Sometimes one entertains a conceit at the thought ‘I was a god’, ‘I was a
+Brahma’. If he had been an animal or a <em>preta</em>, he is somewhat displeased. Such
+is not the case with this <em>arahant</em>. He sees that what was in the past is a mere
+heap of preparations, and what will be in the future is again a heap of
+preparations. It is like the case of that cinema goer who understands that
+whatever comes up in the film is artificially got up. It is a state of mind
+aroused by wisdom. ‘So what is there to lament’, is the attitude resulting from
+it.</p>
+<p>On an earlier occasion, we happened to compare these preparations to a heap of
+windings and unwindings in existence.<sup class="footnote-reference" id="fr-fn277-1"><a href="#fn-fn277">16</a></sup> Now as to this process of winding
+and unwinding, we may take as an illustration the case of a rope. There is a
+winding and an unwinding in it. We can form an idea about the nature of this
+existence even with the help of a simple illustration.</p>
+<p>Nibbāna has been defined as the cessation of existence.<sup class="footnote-reference" id="fr-fn278-1"><a href="#fn-fn278">17</a></sup> The Buddha says
+that when he is preaching about the cessation of existence, some people,
+particularly the <em>brahmins</em> who cling to a soul theory, bring up the charge of
+nihilism against him.<sup class="footnote-reference" id="fr-fn279-1"><a href="#fn-fn279">18</a></sup> Not only those <em>brahmins</em> and heretics believing
+in a soul theory, but even some Buddhist scholars are scared of the term
+<em>bhavanirodha</em>, fearing that it leads to a nihilistic interpretation of Nibbāna.
+That is why they try to mystify Nibbāna in various ways. What is the secret
+behind this attitude? It is simply the lack of a clear understanding of the
+unique philosophy made known by the Buddha.</p>
+<p>Before the advent of the Buddha, the world conceived of existence in terms of a
+perdurable essence as ‘being’, <em>sat</em>. So the idea of destroying that essence of
+being was regarded as annihilationism. It was some state of a soul conceived as
+‘I’ and ‘mine’. But according to the law of dependent arising made known by the
+Buddha, existence is something that depends on grasping, <em>upādānapaccayā bhavo</em>.
+It is due to grasping that there comes to be an existence. This is the pivotal
+point in this teaching.</p>
+<p>In the case of the footstool, referred to earlier, it became a footstool when it
+was used as such. If in the next act it is used to sit on, it becomes a stool.
+When it serves as a table, it becomes a table. Similarly in a drama, the same
+piece of wood, which in one act serves as a walking stick to lean on, could be
+seized as a stick to beat with, in the next act.</p>
+<p>In the same way, there is no essential thing-hood in the things taken as real by
+the world. They appear as things due to cravings, conceits and views. They are
+conditioned by the mind, but these psychological causes are ignored by the
+world, once concepts and designations are superimposed on them. Then they are
+treated as real objects and made amenable to grammar and syntax, so as to
+entertain such conceits and imaginings as, for instance, ‘in the chair’, ‘on the
+chair’, ‘chair is mine’, and so on.</p>
+<p>Such a tendency is not there in the released mind of the <em>arahant</em>. He has
+understood the fact that existence is due to grasping, <em>upādānapaccayā bhavo</em>.</p>
+<p>Generally, in the explanation of the law of dependent arising, the statement
+‘dependent on grasping, becoming’ is supposed to imply that one’s next life is
+due to one’s grasping in this life. But this becoming is something that goes on
+from moment to moment. Now, for instance, what I am now holding in my hand has
+become a fan because I am using it as a fan. Even if it is made out of some
+other material, it will still be called a fan. But if it were used for some
+other purpose, it could become something else. This way we can understand how
+existence is dependent on grasping.</p>
+<p>We began our discussion with the statement that existence is a heap of windings
+and unwindings. Let us now think of a simple illustration. Suppose a rope or a
+cord is being made up by winding some strands from either end by two persons.
+For the strands to gather the necessary tension, the two persons have to go on
+winding in opposite directions. But for the sake of an illustration, let us
+imagine a situation in which a third person catches hold of the strands in the
+middle, just before the other two start their winding. Oddly enough, by mistake,
+those two start winding in the same direction. Both are unaware of the fact that
+their winding is at the same time an unwinding. The one in the middle, too, is
+ignorant that it is his tight grasp in the middle which is the cause of stress
+and tension.</p>
+<p>To all appearance, a cord is being made up which may be taken as two cords on
+either side of the one who has his hold on the middle. However, viewed from a
+distance, for all practical purposes it is just one cord that is being winded
+up.</p>
+<p>To introduce a note of discord into this picture, let us suppose that the man in
+the middle suddenly lets go of his hold with a ‘twang’. Now what happens to the
+cord? The windings in the same direction from both ends, which made it a cord,
+immediately get neutralized and <strong>the cord ceases to be a cord</strong>! Something like
+the stilling of all preparations and the abandonment of all assets happens at
+that moment. One realizes, ‘as-it-is’, that no real cord existed at all.</p>
+<p>The same state of affairs prevails in this world. The impermanence of this
+world, according to the Buddha, does not affect us so long as there is no
+grasping on our part. All windings in this world get unwinded immediately. This
+is the nature of the world. This is what is meant by <em>udayabbaya</em>, or rise and
+fall.</p>
+<p>Now what happens if there is no grasping in the middle while the winding is
+going on in the same direction from both ends? No cord at all is made up, even
+if the two at either end go on winding for aeons and aeons. Why? Simply because
+they are winding in the same direction.</p>
+<p>It is the same in the case of the world. The impermanence we see around us in
+this world does not affect us by itself. We are affected only when we grasp. It
+is the grasp in the middle that accounts for the cord, or rather, for whatever
+<strong>has the semblance of a cord</strong>. In fact, this is what the worldlings call ‘the
+world’. This is what they take as <strong>real</strong>. Now what is the consequence of
+taking it to be real? If it is real and permanent, whatever is contrary to it,
+is annihilation, the destruction of a real world.</p>
+<p>Keeping in mind the meaning of the Buddha’s dictum ‘dependent on grasping is
+existence’, <em>upādānapaccayā bhavo</em>, if one cares to reflect on this little
+illustration, one would realize that there is actually nothing real to get
+destroyed. There is no self or soul at all to get destroyed.</p>
+<p>As a matter of fact, the impermanence of the world is a process of momentary
+arisings and ceasings. Given the grasping in the middle, that is to say,
+‘dependent on grasping is becoming’, the other links follow suit, namely,</p>
+<blockquote>
+<p>dependent on becoming, birth; dependent on birth, decay-and-death, sorrow,
+lamentation, pain, grief and despair arise,</p>
+<p><em>bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassūpāyāsā
+sambhavanti.</em></p>
+</blockquote>
+<p>It is somewhat like the unpleasant tension caused by the winding, in the person
+who has a grasp at the middle. We have already referred to a short aphorism
+which sums up the content of the insight of those who realize the fruits of the
+path, like that of a stream-winner, namely,</p>
+<blockquote>
+<p><em>yaṁ kiñci samudayadhammaṁ, sabbaṁ taṁ nirodhadhammaṁ,</em></p>
+<p>whatever is of a nature to arise, all that is of a nature to cease.<sup class="footnote-reference" id="fr-fn280-1"><a href="#fn-fn280">19</a></sup></p>
+</blockquote>
+<p>It does not seem to say anything significant, on the face of it. But it
+succinctly expresses the plainest conviction a stream-winner gets of the
+innocent process of arising and ceasing in the world. It is as if the one who
+had his grasp in the middle lets go of his hold for a while, through the power
+of the path moment.</p>
+<p>It is in the nature of the ordinary worldling to hold on, and to hang on. That
+is why the man who grasped the cord in the middle refuses to let go of his hold
+in the midst of windings and unwindings, however much hardship he has to undergo
+in terms of sorrow, lamentation, pain, grief and despair. For him, it is
+extremely difficult to let go. Until a Buddha arises in the world and proclaims
+the Dhamma, the world stubbornly refuses to let go.</p>
+<p>Now if one gives up the tendency to grasp, at least for a short while by
+developing the noble eightfold path at its supramundane level, and lets go even
+for one moment, then one understands as one grasps again that now there is less
+stress and tension. Personality view, doubt and dogmatic adherence to rules and
+observances, <em>sakkāyadiṭṭhi</em>, <em>vicikicchā, sīlabbataparāmāsa</em>, are gone. An
+unwinding has occurred to some extent. The strands of the cord are less taut
+now.</p>
+<p>One also understands, at the moment of arising from that supramundane
+experience, that one comes back to ‘existence’ because of grasping, because of
+the tendency to hold on. That this tendency to hold on persists due to influxes
+and latencies – due to unabandoned defilements – is also evident to him. This,
+in effect, is the immediate understanding of the law of dependent arising. It
+seems, then, that we have here in this simile of the cord, a clue to an
+understanding of the nature of this existence.</p>
+<p>Worldlings in general, whether they call themselves Buddhist or non-Buddhist,
+conceive of existence in terms of a perdurable essence as ‘being’, somewhat
+along the lines of the view of heretics. Nibbāna is something that drives terror
+into the worldlings, so long as there is no purification of view. The cessation
+of existence is much dreaded by them.</p>
+<p>Even the commentators, when they get down to defining Nibbāna, give a wrong
+interpretation of the word <em>dhuva</em>. They sometimes make use of the word
+<em>sassata</em> in defining Nibbāna.<sup class="footnote-reference" id="fr-fn281-1"><a href="#fn-fn281">20</a></sup> This is a word that should never be
+brought in to explain the term Nibbāna. According to them, Nibbāna is a
+permanent and eternal state. Only, you must not ask us, what precisely it is.
+For, if we are more articulate, we would be betraying our proximity to such
+views as <em>Brahmanirvāna</em>.</p>
+<p>What is the secret behind this anomalous situation? It is the difficulty in
+interpreting the term <em>dhuva</em>, which the Buddha uses as a synonym for
+Nibbāna.<sup class="footnote-reference" id="fr-fn282-1"><a href="#fn-fn282">21</a></sup> The true significance of this synonym has not been understood.
+It means stable or immovable. Of course, we do come across this term in such
+contexts as <em>niccaṁ, dhuvaṁ, sassataṁ, acavanadhammaṁ</em>,<sup class="footnote-reference" id="fr-fn283-1"><a href="#fn-fn283">22</a></sup> “permanent,
+stable, eternal, not liable to passing away”, when Brahma gives expression to
+his conceit of eternal existence. But that is because these terms are more or
+less related to each other in sense.</p>
+<p>Then, in which sense is Nibbāna called <em>dhuva</em>? In the sense that the experience
+of Nibbāna is irreversible. That is why it is referred to as <em>acalaṁ
+sukhaṁ</em>,<sup class="footnote-reference" id="fr-fn284-1"><a href="#fn-fn284">23</a></sup> ‘unshakeable bliss’.</p>
+<p>The term <em>akuppā cetovimutti</em>, “unshakeable deliverance of the mind”, expresses
+the same idea. Sometimes the Buddha refers to Nibbāna as <em>akuppā
+cetovimutti</em>.<sup class="footnote-reference" id="fr-fn285-1"><a href="#fn-fn285">24</a></sup> All other such deliverances are shakeable, or irritable.</p>
+<p>As the expression <em>kuppapaṭicca santi</em>, “peace dependent on
+irritability”,<sup class="footnote-reference" id="fr-fn286-1"><a href="#fn-fn286">25</a></sup> implies, they are irritable and shakeable.</p>
+<p>Even if they are unshaken during one’s life time, they get shaken up at death.
+The final winning post is the pain of death. That is the critical moment at
+which one can judge one’s own victory or defeat. Before the pain of death, all
+other deliverances of the mind fall back defeated. But this deliverance, this
+unshakeable deliverance with its ‘let go’ strategy at the approach of death,
+gets never shaken. It is unshakeable. That is why it is called the bliss
+unshaken, <em>acalaṁ sukhaṁ</em>. That is why it is called stable, <em>dhuvaṁ</em>. It seems,
+then, that some of the terms used by the Buddha as epithets or synonyms of
+Nibbāna have not been correctly understood.</p>
+<p>Sometimes the Buddha employs words, used by heretics, in a different sense. In
+fact, there are many such instances. Now, if one interprets such instances in
+the same sense as heretics use those words, it will amount to a distortion of
+the Dhamma. Here, too, we have such an instance. Unfortunately the commentators
+have used the term <em>sassata</em> to define Nibbāna, taking it to be something
+eternal.</p>
+<p>The main reason behind this is the misconception regarding existence – that
+there is an existence in truth and fact. There is this term <em>asmimāna</em>, which
+implies that there is the conceit ‘am’ in this world. All other religious
+teachers were concerned with the salvation of a real ‘I’. Or, in other words, to
+confer immortality on this ‘I’.</p>
+<p>The Buddha, on the contrary, declared that what actually ‘<strong>is</strong>’ there, is a
+conceit – the conceit ‘am’. All what is necessary is the dispelling of this
+conceit. That is why we sometimes come across such references to Nibbāna as:</p>
+<blockquote>
+<p><em>sammā mānābhisamayā antam akāsi dukkhassa</em>,<sup class="footnote-reference" id="fr-fn287-1"><a href="#fn-fn287">26</a></sup></p>
+<p>“by rightly understanding conceit, he made an end of suffering”, or:</p>
+<p><em>asmimānasamugghātaṁ pāpuṇāti diṭṭheva dhamme Nibbānaṁ</em>,<sup class="footnote-reference" id="fr-fn288-1"><a href="#fn-fn288">27</a></sup></p>
+<p>“one arrives at the eradication of the conceit ‘am’ which in itself is the
+attainment of Nibbāna here and now”.</p>
+</blockquote>
+<p>Some seem to think that the eradication of the conceit ‘am’ is one thing, and
+Nibbāna another. But along with the eradication of the conceit ‘am’, comes
+extinction. Why? Because one has been winding all this time imagining this to be
+a real cord or rope. One remains ignorant of the true state of affairs, due to
+one’s grasp in the middle. But the moment one lets go, one understands.</p>
+<p>It is the insight into this secret that serves as the criterion in designating
+the <em>ariyan</em> according to the number of births he has yet to take in <em>saṁsāra</em>.
+Thus, the stream-winner is called <em>sattakkhattuparamo</em>,<sup class="footnote-reference" id="fr-fn289-1"><a href="#fn-fn289">28</a></sup>
+‘seven-times-at-the-most’. With the sudden unwinding, which reduces the tension,
+one understands the secret that the noble eightfold path is the way to
+unwinding.</p>
+<p>One hangs on, because one is afraid to let go. One thinks that to let go is to
+get destroyed. The Buddha declares that the heaviness of one’s burden is due to
+one’s grasping.<sup class="footnote-reference" id="fr-fn290-1"><a href="#fn-fn290">29</a></sup> What accounts for its weight is the very tenacity with
+which one clings to it. This the worldlings do not understand. So they cling on
+to the rope, for fear of getting destroyed.</p>
+<p>But if one lets go of one’s hold, even for a moment, one would see that the
+tensed strands will get relaxed at least for that moment – that there is an
+immediate unwinding. Full understanding of that unwinding will come when one
+‘lets-go’ completely. Then all influxes and latencies are destroyed.</p>
+<p>So this little verse gives us a deep insight into the problem. What is there to
+lament? Because there are no notions like ‘I was’ or ‘I am’. There is only a
+destruction of preparations.</p>
+<p>The term <em>vibhava</em> is used in this context in a different sense. It refers here
+to the destruction of preparations. When using the two terms <em>bhava</em> and
+<em>vibhava</em>, some conceive of <em>bhava</em>, or existence, as a real perdurable essence,
+like a soul, and <em>vibhava</em> as its destruction. But here the word <em>vibhava</em>, in
+<em>vibhavissanti</em>, refers to the destructions of preparations. There is nothing
+lamentable about it. In the context of a drama, they are the paraphernalia
+improvised to stage an act, like the stool and the footstool. When one comes to
+think of individuals, they are no better than a multitude of puppets manipulated
+by fetters of existence in accordance with karma.</p>
+<p>Even in the delivering of this sermon, there is a trace of a puppet show. The
+sermon is inspired by the audience. If there is no audience, there is no sermon.
+We are all enacting a drama. Though for us, this particular act of the drama is
+so important, there might be similar dramatic acts a few meters away from here
+in the jungle. A swarm of black ants might be busily hauling away an earthworm
+reeling in pain. That is one act in their own drama of life. All our activities
+are like that.</p>
+<p>It is our unawareness of this framework that constitutes ignorance. If at any
+time one sees this framework of ignorance, free from influxes and latencies, one
+gets an unobstructed vision of the world. It is as if the doors of the cinema
+hall are suddenly flung open. The scene on the screen fades away completely then
+and there, as we have described above.<sup class="footnote-reference" id="fr-fn291-1"><a href="#fn-fn291">30</a></sup></p>
+<p>Let us now come to the third verse:</p>
+<blockquote>
+<p><em>Suddhaṁ dhammasamuppādaṁ,</em> <br />
+<em>suddhaṁ saṅkhārasantatiṁ,</em> <br />
+<em>passantassa yathābhūtaṁ,</em> <br />
+<em>na bhayaṁ hoti gāmani.</em><sup class="footnote-reference" id="fr-fn292-1"><a href="#fn-fn292">31</a></sup></p>
+<p>To one who sees the arising of pure phenomena and the sequence of pure
+preparations as it is, there is no fear, oh headman.</p>
+</blockquote>
+<p>This verse, too, has a depth of meaning, which we shall now try to elucidate.</p>
+<p>Why are the phenomena qualified by the word pure, <em>suddha dhamma</em>, in this
+context? Because the mind-objects, which are generally regarded as <em>dhamma</em> by
+the world, are impure. Why are they impure? Because they are ‘influenced’ by
+influxes. Now here we have ‘uninfluenced’ or influx-free phenomena. To the
+<em>arahant’s</em> mind the objects of the world occur free of influxes. That is to
+say, they do not go to build up a prepared, <em>saṅkhata</em>. They are
+quasi-preparations. They do not go to build up a film show.</p>
+<p>If, for instance, one who is seeing a film show, has the full awareness of the
+artificiality of those library-shots which go to depict a tragic scene on the
+screen, without being carried away by the latency to ignorance, one will not be
+able to ‘enjoy’ the film show. In fact, the film show does not exist for him.
+The film show has ‘ceased’ for him.</p>
+<p>Similarly, the <em>arahant</em> sees phenomena as pure phenomena. Those mind-objects
+arise only to cease, that is all. They are merely a series of preparations,
+<em>suddhaṁ saṅkhārasantatiṁ</em>. ‘The film reel is just being played’ – that is the
+way it occurs to him. Therefore, “to one who sees all this, there is no fear, oh
+headman”.</p>
+<p>Let us try to give an illustration for this, too, by way of an analogy. As we
+know, when a sewing machine goes into action, it sews up two folds of cloth
+together. But supposing suddenly the shuttle runs out of its load of cotton.
+What happens then? One might even mistake the folds to be actually sewn up,
+until one discovers that they are separable. This is because the conditions for
+a perfect stitch are lacking. For a perfect stitch, the shuttle has to hasten
+and put a knot every time the needle goes down.</p>
+<p>Now, for the <em>arahant</em>, the shuttle refuses to put in the knot. For him,
+preparations, or <em>saṅkhāras</em>, are ineffective in producing a prepared, or
+<em>saṅkhata</em>. He has no cravings, conceits and views. For knots of existence to
+occur, there has to be an attachment in the form of craving, a loop in the form
+of conceit, and a tightening in the form of views.</p>
+<p>So, then, the <em>arahant’s</em> mind works like a sewing machine with the shuttle run
+out of its load of cotton. Though referred to as ‘functional consciousness’, its
+function is not to build up a prepared, since it is influx-free. The phenomena
+merely come up to go down, just like the needle.</p>
+<p>Why is ignorance given as the first link in the formula of dependent arising? It
+is because the entire series is dependent on ignorance. It is not a temporal
+sequence. It does not involve time. That is why the Dhamma is called timeless,
+<em>akālika</em>.</p>
+<p>It is the stereotype interpretation of the formula of dependent arising in terms
+of three lives that has undermined the immediate and timeless quality of the
+Dhamma. Since ignorance is the root cause of all other conditions, inclusive of
+becoming, <em>bhava</em>, birth, <em>jāti</em>, and decay-and-death, <em>jarāmaraṇaṁ</em>, that state
+of affairs immediately ceases with the cessation of ignorance. This, then, is
+the reason for the last line, <em>na bhayaṁ hoti gāmani</em>, “there is no fear, oh
+headman”.</p>
+<p>Deathlessness, <em>amata</em>, means the absence of the fear of death. The fear that
+the world has about death is something obsessional. It is like the obsessional
+dread aroused by the sight of an anthill due to its association with a cobra.</p>
+<p>As a matter of fact, this body has been compared to an anthill in the
+<em>Vammikasutta</em> of the <em>Majjhima Nikāya</em>.<sup class="footnote-reference" id="fr-fn293-1"><a href="#fn-fn293">32</a></sup> This bodily frame, made up of
+the four elements, procreated by parents and built up with food and drink, is
+metaphorically conceived as an anthill. The discourse says: “Take the knife, oh
+wise one, and dig in.”</p>
+<p>The world has the obsession that there is a real cobra of a self inside this
+anthill. But once it is dug up, what does one find? One discovers an <em>arahant</em>,
+who has realized selflessness, a selfless cobra, worthy of honour. Of course,
+this might sound as a post-script on <em>Vammikasutta</em>, but the metaphor is so
+pregnant with meaning, that it can well accommodate this interpretation, too.</p>
+<p>The world has a ‘perception-of-the-compact’, <em>ghanasaññā</em>, with regard to this
+body made up of the four elements. Because of that very perception or notion of
+compactness, there is a fear of death.</p>
+<p>There is birth, because there is existence. Now this might, on analysis, give us
+an insight into the law of dependent arising. The term <em>jāti</em>, or birth,
+generally calls to mind the form of a child coming out of the mother’s womb. But
+in this context the Buddha uses the term in relation to <em>bhava</em>, or existence,
+which in its turn is related to <em>upādāna</em>, or grasping. It is at the time we use
+something as a footstool that a footstool is ‘born’. When it has ceased to serve
+that purpose, the footstool is ‘dead’.</p>
+<p>It is in this sense that all assets, <em>upadhi</em>, are said to be of a nature to be
+born,</p>
+<blockquote>
+<p><em>jātidhammā hete, bhikkhave, upadhayo</em>,<sup class="footnote-reference" id="fr-fn294-1"><a href="#fn-fn294">33</a></sup></p>
+<p>all these assets, monks, are of the nature to be born.</p>
+</blockquote>
+<p>Not only the animate objects, like wife and children, men and women slaves,
+etc., but even gold and silver are mentioned there as of a nature to be born.
+Now let us ponder over this statement. How can gold and silver be born? How can
+they grow old? They are born because of craving, conceit and views. They come
+into existence. They are born. Because of birth, they grow old. Therefore they
+become objects for sorrow, lamentation and the like to arise.</p>
+<p>For one who looks upon them as pure preparations, all those objects do not
+crystallize into ‘things’. The description of the non-manifestative
+consciousness in the <em>Brahmanimantanikasutta</em> looks like a riddle in the form of
+a jumble of negative terms like <em>paṭhaviṁ nāhosim, paṭhaviyā nāhosiṁ, paṭhavito
+nāhosiṁ</em>, (etc.), “I did not claim to be earth, I did not claim to be in earth,
+I did not claim to be from earth”.</p>
+<p>But what is the general idea conveyed by these expressions? The implication is
+that the <em>arahant</em> looks upon all those concepts, which the worldlings make use
+of to make up an existence and to assert the reality of this drama of existence,
+as mere pretensions. He is convinced of their vanity and insubstantiality. As we
+have already explained with the simile of the sewing machine, an existence does
+not get stitched up or knitted up. The cessation of existence is experienced
+then and there.</p>
+<p>Some seem to think that the <em>arahant</em> experiences the <em>Nibbānic</em> bliss only
+after his death. But the cessation of existence is experienced here and now,
+<em>diṭṭheva dhamme</em>. This is something marvellous and unknown to any other
+religious system.</p>
+<p>It is just at the moment that the shuttle of the sewing machine runs out of its
+load of cotton that the cessation of existence is experienced. It is then that
+the latencies are uprooted and all influxes are destroyed. Cravings, conceits
+and views refuse to play their part, with the result that mere preparations come
+up and go down. This is the ambrosial deathless. It is said that the <em>arahants</em>
+partake of ambrosial deathlessness, <em>amataṁ paribhuñjanti</em>.<sup class="footnote-reference" id="fr-fn295-1"><a href="#fn-fn295">34</a></sup></p>
+<p>What actually happened in the case of the Venerable Arahant Adhimutta was that
+the bandit chief understood the Dhamma and set him free, instead of killing him,
+and even got ordained under him.</p>
+<p>But even if he had killed him, Venerable Adhimutta would have passed away,
+experiencing the ambrosial deathless. Why? Because he can let go before Māra
+comes to grab. He is, therefore, fearless. The obsessional fear of death common
+to worldlings has vanished. This, then, is the ambrosia. It is not some medicine
+or delicious drink for the possession of which gods and demons battle with each
+other. It is that bliss of deliverance, the freedom from the fear of death.
+Needless to say that it requires no seal of ever-lastingness.</p>
+<p>As we once pointed out, in tune with the two lines of the following canonical verse,</p>
+<blockquote>
+<p><em>kiṁ kayirā udapānena, āpā ce sabbadā siyuṁ,</em><sup class="footnote-reference" id="fr-fn296-1"><a href="#fn-fn296">35</a></sup></p>
+<p>what is the use of a well, if water is there all the time?</p>
+</blockquote>
+<p>Once the thirst is quenched forever, why should one go in search of a well? Let
+us now take up the next verse.</p>
+<blockquote>
+<p><em>Tiṇakaṭṭhasamaṁ lokaṁ,</em> <br />
+<em>yadā paññāya passati,</em> <br />
+<em>mamattaṁ so asaṁvindaṁ,</em> <br />
+<em>’natthi me’ti na socati.</em><sup class="footnote-reference" id="fr-fn297-1"><a href="#fn-fn297">36</a></sup></p>
+</blockquote>
+<p>Now all these verses are eloquent expressions of voidness, <em>suññatā</em>. When one
+sees with wisdom the entire world, that is both the internal and external world,
+as comparable to grass and twigs in point of worthlessness, one does not
+entertain the conceit ‘mine’ and therefore does not lament, saying: ‘Oh, I have
+nothing’. One is not scared of the term <em>bhavanirodha</em>, or cessation of
+existence. Why? Because all these are worthless things.</p>
+<p>Here too, we may add something more by way of explanation, that is as to how
+things become ‘things’ in this world – though this may seem obvious enough.
+Since we have been so concerned with dramas, let us take up a dramatic situation
+from the world.</p>
+<p>A man is hastily walking along a jungle path. Suddenly his foot strikes against
+a stone. ‘Oh, it is so painful!’ He kicks the stone with a curse. A few more
+steps, and another stone trips him. This time it is even more painful. He turns
+round, quietly, picks up the stone, cleans it carefully, looking around, wraps
+it up in his handkerchief and slips it into his pocket. Both were stones. But
+why this special treatment? The first one was a mere pebble, but the second one
+turned out to be a gem!</p>
+<p>The world esteems a gem stone as valuable because of craving, conceits and
+views. So the first accident was a mishap, but the second – a stroke of luck.
+Now, had all these mishaps and haps been filmed, it would have become something
+of a comedy. Everything in our environment, even our precious possessions like
+gold, silver, pearls, and gems, appear like the paraphernalia improvised for a
+dramatic performance on the world stage. Once they come on the stage, from
+backstage, they appear as real things. Not only do they appear as real, relative
+to the acts of the drama, but they get deposited in our minds as such.</p>
+<p>It is such ‘deposits’ that become our aggregates of grasping, or ‘assets’, which
+we take along with us in this <em>saṁsāra</em> in the form of likes and dislikes. Loves
+and hates contracted in the past largely decide our behaviour in the present
+with some sort of subconscious acquiescence, so much so that we often form
+attachments and revengeful aversions in accordance with them.</p>
+<p>When one comes to think of it, there is something dramatic about it. When
+something serves as a footstool in a particular act, it is ‘really’ a footstool.
+When it is improvised to serve as some other thing in the next act, one is
+unaware of the fact that it is the same object. One is not aware of the hoodwink
+involved in it. Such a state of affairs prevails over the nature of
+preparations, <em>saṅkhāras</em>.</p>
+<p>Being ignorant of the fact that these are purely preparations, the worldlings
+take concepts too seriously, to come to conclusions such as ‘I was so and so in
+such and such a birth’, thereby clinging on to all the animate and inanimate
+objects in the world. They are actually comparable to things temporarily
+improvised to depict a particular scene in a drama or a film show.</p>
+<p>That is why we compared the four elements to ghosts.<sup class="footnote-reference" id="fr-fn298-1"><a href="#fn-fn298">37</a></sup> Deluded by their
+ghostly transfigurations, the worldlings create for themselves a perception of
+form. The verse in question gives us an insight into this particular aspect of
+the drama of existence.</p>
+<p>A meditator can get at least an inkling of the emptiness and insubstantiality of this drama of existence, when he trains himself in keeping the four postures with mindfulness and full awareness. By practising it, he gets an opportunity to witness a monodrama, free of charge. And this is the drama:</p>
+<blockquote>
+<p>When walking, he understands: ‘I am walking’; <br />
+when standing, he understands: ‘I am standing’; <br />
+when sitting, he understands: ‘I am sitting’; <br />
+when lying down, he understands: ‘I am lying down’.<sup class="footnote-reference" id="fr-fn299-1"><a href="#fn-fn299">38</a></sup></p>
+</blockquote>
+<p>While keeping one’s postures in this manner, one sees in outline one’s own form
+as if one were acting in a monodrama.</p>
+<p>When the basis of the factors of the form group is removed, those in the name
+group are reduced to purposeless activations. Earth, water, fire and air
+constitute the basis of form. When a meditator becomes dispassionate with regard
+to these four elements, when they begin to fade away for him, the factors in the
+name group assume a ghostly character. He feels as if he is performing a drama
+with non-existing objects. He opens a non-existing door, sits on a non-existing
+chair, and so on.</p>
+<p>Now if we try to understand this in terms of an analogy of a drama, as we have
+been doing throughout, we may compare it to a mime or a dumb show. In a dumb
+show, one might see such acts as follows: An actor rides a no-bike, climbs a
+no-hill, meets a no-friend and has a no-chat with him. Or else he may sit on a
+no-chair by a no-table and writes a no-letter with a no-pen.</p>
+<p>What we mean by the no-nos here is the fact that on the stage there is neither a
+bicycle, nor a hill, nor another person, nor any other object like a chair, a
+table or a pen. All these are merely suggested by his acting. This kind of dumb
+show has a comic effect on the audience.</p>
+<p>An insight meditator, too, goes through a similar experience when he
+contemplates on name-and-form, seeing the four elements as empty and void of
+essence, which will give him at least an iota of the conviction that this drama
+of existence is empty and insubstantial. He will realize that, as in the case of
+the dumb show, he is involved with things that do not really exist. This amounts
+to an understanding that the factors of the name group are dependent on the form
+group, and vice versa.</p>
+<p>Seeing the reciprocal relationship between name-and-form, he is disinclined to
+dabble in concepts or gulp down a dose of prescriptions. If form is dependent on
+name, and name is dependent on form, both are void of essence. What is essential
+here, is the very understanding of essencelessness.</p>
+<p>If one sits down to draw up lists of concepts and prescribe them, it would only
+lead to a mental constipation. Instead of release there will be entanglement.
+Such a predicament is not unlikely.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn262"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn262-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn263"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/mn49/pli/ms">MN 49 / M I 329</a>, <em>Brahmanimantanikasutta</em> <a href="#fr-fn263-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn264"><sup class="footnote-definition-label">3</sup>
+<p>ibid. <a href="#fr-fn264-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn265"><sup class="footnote-definition-label">4</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn38/pli/ms">MN 38 / M I 266</a>, <em>Mahātaṇhāsaṅkhayasutta</em> <a href="#fr-fn265-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn266"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/mn81/pli/ms">MN 81 / M II 45</a>, <a href="https://suttacentral.net/mn83/pli/ms">MN 83 / M II 74</a>, <a href="https://suttacentral.net/sn1.35/pli/ms">SN 1.35 / S I 24</a>, S II 254-258, A III 214 <a href="#fr-fn266-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn267"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/sn15.14/pli/ms">SN 15.14-20 / S II 189-190</a>, <em>Anamataggasaṁyutta</em> <a href="#fr-fn267-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn268"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/an7.66/pli/ms">AN 7.66 / A IV 100</a>, <em>Sattasuriyasutta</em> <a href="#fr-fn268-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn269"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/iti43/pli/ms">Iti 43 / It 37</a>, <em>Ajātasutta</em> <a href="#fr-fn269-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn270"><sup class="footnote-definition-label">9</sup>
+<p>Th-a III 12 <a href="#fr-fn270-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn271"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/thag16.1/pli/ms">Thag 16.1 / Th 707</a>, <em>Adhimutta Theragāthā</em> <a href="#fr-fn271-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn272"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/thag16.1/pli/ms">Thag 16.1 / Th 715</a>, ibid. <a href="#fr-fn272-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn273"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/thag16.1/pli/ms">Thag 16.1 / Th 716</a>, ibid. <a href="#fr-fn273-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn274"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/thag16.1/pli/ms">Thag 16.1 / Th 717</a>, ibid. <a href="#fr-fn274-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn275"><sup class="footnote-definition-label">14</sup>
+<p>See <em>Sermon 6</em> <a href="#fr-fn275-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn276"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/an4.171/pli/ms">AN 4.171 / A II 158</a>, <em>Cetanāsutta</em> <a href="#fr-fn276-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn277"><sup class="footnote-definition-label">16</sup>
+<p>See <em>Sermon 6</em> <a href="#fr-fn277-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn278"><sup class="footnote-definition-label">17</sup>
+<p>E.g. at <a href="https://suttacentral.net/sn12.68/pli/ms">SN 12.68 / S II 117</a>, <em>Kosambisutta</em> <a href="#fr-fn278-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn279"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 140</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn279-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn280"><sup class="footnote-definition-label">19</sup>
+<p>See <em>Sermon 2</em> <a href="#fr-fn280-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn281"><sup class="footnote-definition-label">20</sup>
+<p>E.g. at Dhp-a III 320 when explaining <em>accutaṁ ṭhānaṁ</em> of <a href="https://suttacentral.net/dhp221-234/pli/ms">Dhp 225</a> <a href="#fr-fn281-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn282"><sup class="footnote-definition-label">21</sup>
+<p>S IV 370, <em>Asaṅkhatasaṁyutta</em> <a href="#fr-fn282-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn283"><sup class="footnote-definition-label">22</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn49/pli/ms">MN 49 / M I 326</a>, <em>Brahmanimantanikasutta</em> <a href="#fr-fn283-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn284"><sup class="footnote-definition-label">23</sup>
+<p><a href="https://suttacentral.net/ud8.10/pli/ms">Ud 8.10 / Ud 93</a>, <em>Dutiyadabbasutta</em>; <a href="https://suttacentral.net/thag3.16/pli/ms">Thag 3.16 / Th 264</a>, <em>Vimala Thera</em>. <a href="#fr-fn284-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn285"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/mn29/pli/ms">MN 29 / M I 197</a>, <em>Mahāsāropamasutta</em> <a href="#fr-fn285-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn286"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/snp4.3/pli/ms">Snp 4.3 / Sn 784</a>, <em>Duṭṭhaṭṭhakasutta</em> <a href="#fr-fn286-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn287"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/mn2/pli/ms">MN 2 / M I 12</a>, <em>Sabbāsavasutta</em> <a href="#fr-fn287-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn288"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/an9.1/pli/ms">AN 9.1 / A IV 353</a>, <em>Sambodhisutta</em> <a href="#fr-fn288-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn289"><sup class="footnote-definition-label">28</sup>
+<p><a href="https://suttacentral.net/sn15.10/pli/ms">SN 15.10 / S II 185</a>, <em>Puggalasutta</em> <a href="#fr-fn289-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn290"><sup class="footnote-definition-label">29</sup>
+<p><a href="https://suttacentral.net/sn22.22/pli/ms">SN 22.22 / S III 25</a>, <em>Bhārasutta</em> <a href="#fr-fn290-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn291"><sup class="footnote-definition-label">30</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn291-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn292"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/thag16.1/pli/ms">Thag 16.1 / Th 716</a>, <em>Adhimutta Theragāthā</em> <a href="#fr-fn292-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn293"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/mn23/pli/ms">MN 23 / M I 144</a>, <em>Vammikasutta</em> <a href="#fr-fn293-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn294"><sup class="footnote-definition-label">33</sup>
+<p><a href="https://suttacentral.net/mn26/pli/ms">MN 26 / M I 162</a>, <em>Ariyapariyesanasutta</em> <a href="#fr-fn294-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn295"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://suttacentral.net/an1.616-627/pli/ms">AN 1.616-627 / A I 45</a>, <em>Amatavagga</em> <a href="#fr-fn295-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn296"><sup class="footnote-definition-label">35</sup>
+<p><a href="https://suttacentral.net/ud7.9/pli/ms">Ud 7.9 / Ud 79</a>, <em>Udapānasutta</em>; see <em>Sermon 1</em> <a href="#fr-fn296-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn297"><sup class="footnote-definition-label">36</sup>
+<p><a href="https://suttacentral.net/thag16.1/pli/ms">Thag 16.1 / Th 717</a>, <em>Adhimutta Theragāthā</em> <a href="#fr-fn297-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn298"><sup class="footnote-definition-label">37</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn298-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn299"><sup class="footnote-definition-label">38</sup>
+<p><a href="https://suttacentral.net/mn10/pli/ms">MN 10 / M I 57</a>, <em>Satipaṭṭhānasutta</em> <a href="#fr-fn299-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-07.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-09.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-07.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-09.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

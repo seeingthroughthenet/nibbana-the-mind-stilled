@@ -1,0 +1,1135 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 2 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-2-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-2"><a class="header" href="#sermon-2">Sermon 2</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn47-1"><a href="#fn-fn47">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks.</p>
+<p>The second sermon on Nibbāna has come up for today. Towards the end of our
+sermon the other day we raised the point: Why is it improper to ask such
+questions as: ‘What is the purpose of Nibbāna? Why should one attain
+Nibbāna?’<sup class="footnote-reference" id="fr-fn48-1"><a href="#fn-fn48">2</a></sup> Our explanation was that since the holy life or the Noble
+Eightfold Path has Nibbāna as its ultimate aim, since it gets merged in
+Nibbāna, any questions as to the ultimate purpose of Nibbāna would be
+inappropriate.</p>
+<p>In fact at some places in the canon we find the phrase <em>anuttara
+brahmacariyapariyosāna</em> used with reference to Nibbāna.<sup class="footnote-reference" id="fr-fn49-1"><a href="#fn-fn49">3</a></sup> It means that
+Nibbāna is the supreme consummation of the holy life. The following standard
+phrase announcing a new <em>arahant</em> is very often found in the suttas:</p>
+<blockquote>
+<p><em>Yassatthāya kulaputtā sammadeva agārasmā anagāriyaṁ pabbajanti, tadanuttaraṁ
+brahmacariyapariyosānaṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja
+vihāsi</em>.<sup class="footnote-reference" id="fr-fn50-1"><a href="#fn-fn50">4</a></sup></p>
+<p>In this very life he realized by his own higher knowledge and attained to
+that supreme consummation of the holy life for the purpose of which clansmen
+of good family rightly go forth from home to homelessness.</p>
+</blockquote>
+<p>Now what is the justification for saying that one attains to Nibbāna by the
+very completion of the holy life? This Noble Eightfold Path is a straight path:</p>
+<blockquote>
+<p><em>Ujuko nāma so maggo, abhayā nāma sā disā</em>.<sup class="footnote-reference" id="fr-fn51-1"><a href="#fn-fn51">5</a></sup></p>
+<p>This path is called the ‘straight’ and the direction it goes is called the
+‘fearless’.</p>
+</blockquote>
+<p>In the <em>Itivuttaka</em> we come across a verse which expresses this idea more
+vividly:</p>
+<blockquote>
+<p><em>Sekhassa sikkhamānassa,</em> <br />
+<em>ujumaggānusārino,</em> <br />
+<em>khayasmiṁ paṭhamaṁ ñāṇaṁ,</em> <br />
+<em>tato aññā anantarā</em>.<sup class="footnote-reference" id="fr-fn52-1"><a href="#fn-fn52">6</a></sup></p>
+<p>To the learner, learning <br />
+In pursuit of the straight path, <br />
+First comes the knowledge of destruction <br />
+And then immediately the certitude.</p>
+</blockquote>
+<p>It is the fruit of <em>arahantship</em> which gives him the certitude of the
+attainment of Nibbāna.</p>
+<p>Here the word <em>anantarā</em> has been used. That concentration proper to the fruit
+of <em>arahantship</em> is called <em>ānantarikā samādhi</em>.<sup class="footnote-reference" id="fr-fn53-1"><a href="#fn-fn53">7</a></sup> This means that the
+attainment of the fruit is immediate.</p>
+<p>Though it may be so in the case of the <em>arahant</em>, what about the stream-winner,
+the <em>sotāpanna</em>, one may ask. There is a general belief that in the case of a
+<em>sotāpanna</em> the vision of Nibbāna is like a glimpse of a distant lamp on a
+road with many bends and the <em>sotāpanna</em> has just negotiated the first bend.</p>
+<p>But in accordance with the Dhamma it may be said that the norm of immediacy is
+applicable even to the knowledge of the first path. One who attains to the fruit
+of stream-winning may be a beggar, an illiterate person, or a seven year old
+child. It may be that he has heard the Dhamma for the first time. All the
+same, a long line of epithets is used with reference to him in the suttas as
+his qualifications:</p>
+<blockquote>
+<p><em>Diṭṭhadhammo pattadhammo viditadhammo pariyogāḷhadhammo tiṇṇavicikiccho
+vigatakathaṁkatho vesārajjappatto aparappaccayo satthusāsane</em>.<sup class="footnote-reference" id="fr-fn54-1"><a href="#fn-fn54">8</a></sup></p>
+</blockquote>
+<p><em>Diṭṭhadhammo</em>, he is one who has seen the Dhamma, the truth of Nibbāna. It
+is said in the <em>Ratanasutta</em> that along with the vision of the first path, three
+fetters are abandoned, namely <em>sakkāyadiṭṭhi</em>, the self-hood view, <em>vicikicchā</em>,
+sceptical doubt, and <em>sīlabbataparāmāsa</em>, attachment to holy vows and ascetic
+practices.<sup class="footnote-reference" id="fr-fn55-1"><a href="#fn-fn55">9</a></sup> Some might argue that only these fetters are abandoned at this
+stage, because it is a glimpse of Nibbāna from a distance.</p>
+<p>But then there is this second epithet, <em>pattadhammo</em>, which means that he has
+reached the Dhamma, that he has arrived at Nibbāna.</p>
+<p>Not only that, he is <em>viditadhammo</em>, he is one who has understood the Dhamma,
+which is Nibbāna.</p>
+<p>He is <em>pariyogāḷhadhammo</em>, he has plunged into the Dhamma, he has dived into
+the Dhamma, which is Nibbāna.</p>
+<p>He is <em>tiṇṇavicikiccho</em>, he has crossed over doubts.</p>
+<p><em>Vigatakathaṁkatho</em>, his waverings are gone.</p>
+<p><em>Vesārajjappatto</em>, he has attained to proficiency.</p>
+<p><em>Aparappaccayo satthusāsane</em>, in regard to the dispensation of the teacher he is
+not dependent on others. And that is to say that he could attain to Nibbāna
+even without another’s help, though of course with the teacher’s help he would
+attain it sooner.</p>
+<p>So this string of epithets testifies to the efficacy of the realization by the
+first path. It is not a mere glimpse of Nibbāna from a distance. It is a
+reaching, an arrival or a plunge into Nibbāna.</p>
+<p>For purposes of illustration we may bring in a legend connected with the history
+of Sri Lanka. It is said that when King Gajabāhu invaded India, one of his
+soldiers, Nīla, who had Herculean strength, parted the seawater with a huge
+iron bar in order to make way for the king and the army. Now when the
+supramundane path arises in the mind the power of thought is as mighty as the
+blow of Nīla with his iron bar. Even with the first blow the sea-water parted,
+so that one could see the bottom.</p>
+<p>Similarly the sweeping influxes are parted for a moment when the transcendental
+path arises in a mind, enabling one to see the very bottom – Nibbāna. In
+other words, all preparations (<em>saṅkhāras</em>) are stilled for a moment, enabling
+one to see the cessation of preparations.</p>
+<p>We have just given a simile by way of illustration, but incidentally there is a
+<em>Dhammapada</em> verse which comes closer to it:</p>
+<blockquote>
+<p><em>Chinda sotaṁ parakkamma,</em> <br />
+<em>kāme panuda brāhmaṇa</em>, <br />
+<em>saṅkhārānaṁ khayaṁ ñatvā,</em> <br />
+<em>akataññū’si brāhmaṇa</em>.<sup class="footnote-reference" id="fr-fn56-1"><a href="#fn-fn56">10</a></sup></p>
+<p>Strive forth and cut off the stream, <br />
+Discard, oh Brahmin, sense-desires, <br />
+Having known the destruction of preparations, oh Brahmin, <br />
+Become a knower of the un-made.</p>
+</blockquote>
+<p>So this verse clearly indicates what the knowledge of the path does when it
+arises. Just as one leaps forward and cuts off a stream of water, so it cuts
+off, even for a moment, the preparations connected with craving. Thereby one
+realizes the destruction of preparations – <em>saṅkhārānaṁ khayaṁ ñatvā</em>.</p>
+<p>Like the sea water parted by the blow of the iron bar, preparations part for a
+moment to reveal the very bottom which is ‘unprepared’, the <em>asaṅkhata</em>.
+<em>Akata</em>, or the un-made, is the same as <em>asaṅkhata</em>, the unprepared. So one has
+had a momentary vision of the sea bottom, which is free from preparations. Of
+course, after that experience, influxes flow in again. But one kind of influxes,
+namely <em>diṭṭhāsavā</em>, influxes of views, are gone for good and will never flow in
+again.</p>
+<p>Now how was it that some with keen wisdom like Bāhiya attained <em>arahantship</em>
+even while listening to a short sermon from the Buddha? They had dealt four
+powerful blows in quick succession with the iron bar of the path-knowledge to
+clear away all possible influxes.</p>
+<p>What is called <em>akata</em> or <em>asaṅkhata</em>, the un-made or the un-prepared, is not
+something out there in a distance, as an object of thought. It is not a sign to
+be grasped by one who wants to attain Nibbāna.</p>
+<p>Language encourages us to think in terms of signs. Very often we find it
+difficult to get rid of this habit. The worldlings with their defilements have
+to communicate with each other and the structure of the language has to answer
+their needs. So the subject-object relationship has become a very significant
+feature in a language. It always carries the implication that there is a thing
+to be grasped and that there is someone who grasps, that there is a doer and a
+thing done. So it is almost impossible to avoid such usages as: ‘I want to see
+Nibbāna, I want to attain Nibbāna’. We are made to think in terms of getting
+and attaining.</p>
+<p>However sometimes the Buddha reminds us that this is only a conventional usage
+and that these worldly usages are not to be taken too seriously. We come across
+such an instance in the <em>Sagāthavagga</em> of the <em>Saṁyutta Nikāya</em> where the Buddha
+retorts to some questions put by a certain deity. The deity named Kakudha asks
+the Buddha:</p>
+<p>“Do you rejoice, oh recluse?”<sup class="footnote-reference" id="fr-fn57-1"><a href="#fn-fn57">11</a></sup> And the Buddha retorts: “On getting what, friend?”
+Then the deity asks: “Then, recluse, do you grieve?” And the Buddha quips back:
+“On losing what, friend?” So the deity concludes: “Well then, recluse, you
+neither rejoice nor grieve!” And the Buddha replies: “That is so, friend.”</p>
+<p>It seems, then, that though we say we ‘attain’ Nibbāna there is nothing to
+gain and nothing to lose. If anything – <strong>what is lost is an ignorance that
+there is something, and a craving that there is not enough</strong> – and that is all
+one loses.</p>
+<p>Now there are quite a number of synonyms for Nibbāna, such as <em>akata</em> and
+<em>asaṅkhata</em>. As already mentioned, there is even a list of thirty-three such
+epithets, out of which one is <em>dīpa</em>.<sup class="footnote-reference" id="fr-fn58-1"><a href="#fn-fn58">12</a></sup> Now <em>dīpa</em> means an island. When we
+are told that Nibbāna is an island, we tend to imagine some sort of existence
+in a beautiful island. But in the <em>Pārāyanavagga</em> of the <em>Sutta Nipāta</em> the
+Buddha gives a good corrective to that kind of imagining in his reply to a
+question put by the Brahmin youth Kappa, a pupil of Bāvarī. Kappa puts his
+question in the following impressive verse:</p>
+<blockquote>
+<p><em>Majjhe sarasmiṁ tiṭṭhataṁ,</em> <br />
+<em>oghe jāte mahabbhaye,</em> <br />
+<em>jarāmaccuparetānaṁ,</em> <br />
+<em>dīpaṁ pabrūhi mārisa,</em> <br />
+<em>tvañca me dīpam akkhāhi,</em> <br />
+<em>yathayidaṁ nāparaṁ siyā</em>.<sup class="footnote-reference" id="fr-fn59-1"><a href="#fn-fn59">13</a></sup></p>
+<p>Unto them that stand midstream, <br />
+When the frightful floods flow forth, <br />
+To them in decay-and-death forlorn, <br />
+An island, sire, may you proclaim. <br />
+An island which non else excels, <br />
+Yea, such an isle, pray tell me sire.</p>
+</blockquote>
+<p>And the Buddha gives his answer in two inspiring verses:</p>
+<blockquote>
+<p><em>Majjhe sarasmiṁ tiṭṭhataṁ,</em> <br />
+<em>oghe jāte mahabbhaye,</em> <br />
+<em>jarāmaccuparetānaṁ,</em> <br />
+<em>dīpaṁ pabrūmi Kappa te.</em></p>
+<p><em>Akiñcanaṁ anādānaṁ,</em> <br />
+<em>etaṁ dīpaṁ anāparaṁ,</em> <br />
+<em>nibbānaṁ iti naṁ brūmi,</em> <br />
+<em>jarāmaccuparikkhayaṁ</em>.</p>
+<p>Unto them that stand midstream, <br />
+When the frightful floods flow forth, <br />
+To them in decay-and-death forlorn, <br />
+An island, Kappa, I shall proclaim.</p>
+<p>Owning naught, grasping naught, <br />
+The isle is this, none else besides. <br />
+Nibbāna, that is how I call that isle, <br />
+Wherein is decay decayed and death is dead.</p>
+</blockquote>
+<p><em>Akiñcanaṁ</em> means ‘owning nothing’, <em>anādānaṁ</em> means ‘grasping nothing’. <em>Etaṁ
+dīpaṁ anāparaṁ</em>, this is the island, nothing else. <em>Nibbānaṁ iti naṁ brūmi,
+jarāmaccuparikkhayaṁ</em>, “and that I call Nibbāna, which is the extinction of
+decay-and-death.”</p>
+<p>From this also we can infer that words like <em>akata</em>, <em>asaṅkhata</em> and
+<em>sabba-saṅkhārā-samatha</em> are full fledged synonyms of Nibbāna. Nibbāna is
+not some mysterious state quite apart from them. It is not something to be
+projected into a distance.</p>
+<p>Some are in the habit of getting down to a discussion on Nibbāna by putting
+<em>saṅkhata</em> on one side and <em>asaṅkhata</em> on the other side. They start by saying
+that <em>saṅkhata</em>, or the ‘prepared’, is <em>anicca</em>, or impermanent. If <em>saṅkhata</em>
+is <em>anicca</em>, they conclude that <em>asaṅkhata</em> must be <em>nicca</em>, that is the
+unprepared must be permanent. Following the same line of argument they argue
+that since <em>saṅkhata</em> is <em>dukkha</em>, <em>asaṅkhata</em> must be <em>sukha</em>.</p>
+<p>But when they come to the third step, they get into difficulties. If <em>saṅkhata</em>
+is <em>anattā</em>, or not-self, then surely <em>asaṅkhata</em> must be <em>attā</em>, or self. At
+this point they have to admit that their argument is too facile and so they end
+up by saying that after all Nibbāna is something to be realized.</p>
+<p>All this confusion arises due to a lack of understanding of the law of Dependent
+Arising, <em>paṭicca samuppāda</em>. Therefore, first of all, we have to say something
+about the doctrine of <em>paṭicca samuppāda</em>.</p>
+<p>According to the <em>Ariyapariyesanasutta</em> of the <em>Majjhima Nikāya</em>, the Buddha,
+soon after his enlightenment, reflected on the profundity of the Dhamma and
+was rather disinclined to preach it. He saw two points in the doctrine that are
+difficult for the world to see or grasp. One was <em>paṭicca samuppāda</em>:</p>
+<blockquote>
+<p><em>Duddasaṁ idaṁ ṭhānaṁ yadidaṁ idappaccayatā paṭiccasamuppādo</em>.<sup class="footnote-reference" id="fr-fn60-1"><a href="#fn-fn60">14</a></sup></p>
+<p>Hard to see is this point, namely dependent arising which is a relatedness of
+this to that.</p>
+</blockquote>
+<p>And the second point was Nibbāna:</p>
+<blockquote>
+<p><em>Idampi kho ṭhānaṁ duddasaṁ yadidaṁ sabbasaṅkhārasamatho
+sabbūpadhipaṭinissaggo taṇhakkhayo virāgo nirodho nibbānaṁ</em>.</p>
+<p>And this point, too, is difficult to see, namely the stilling of all
+preparations, the relinquishment of all assets, the destruction of craving,
+detachment, cessation, extinction.</p>
+</blockquote>
+<p>From this context we can gather that if there is any term we can use to define
+<em>paṭicca samuppāda</em>, a term that comes closer to it in meaning, it is
+<em>idappaccayatā</em>. The Buddha himself has described <em>paṭicca samuppāda</em> in this
+context as a relatedness of this to that, <em>idappaccayatā</em>. As a matter of fact
+the basic principle which forms the noble norm of this doctrine of dependent
+arising is this <em>idappaccayatā</em>. Let us now try to get at its meaning by
+examining the doctrine of <em>paṭicca samuppāda</em>.</p>
+<p>In quite a number of contexts, such as the <em>Bahudhātukasutta</em> of the <em>Majjhima
+Nikāya</em> and the <em>Bodhivagga</em> of the <em>Udāna</em> the law of <em>paṭicca samuppāda</em> is
+set out in the following manner:</p>
+<blockquote>
+<p><em>Iti imasmiṁ sati idaṁ hoti,</em> <br />
+<em>imassuppādā idaṁ uppajjati</em> <br />
+<em>imasmiṁ asati idaṁ na hoti,</em> <br />
+<em>imassa nirodhā idaṁ nirujjhati –</em></p>
+<p><em>yadidaṁ avijjāpaccayā saṅkhārā, saṅkhārapaccayā viññāṇaṁ, viññāṇapaccayā
+nāmarūpaṁ, nāmarūpapaccayā saḷāyatanaṁ, saḷāyatanapaccayā phasso,
+phassapaccayā vedanā, vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ,
+upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ
+sokaparidevadukkhadomanassūpāyāsā sambhavanti. Evametassa kevalassa
+dukkhakkhandhassa samudayo hoti.</em></p>
+<p><em>Avijjāyatveva asesavirāganirodhā saṅkhāranirodho, saṅkhāranirodhā
+viññāṇanirodho, viññāṇanirodhā nāmarūpanirodho, nāmarūpanirodhā
+saḷāyatananirodho, saḷāyatananirodhā phassanirodho, phassanirodhā
+vedanānirodho, vedanānirodhā taṇhānirodho, taṇhānirodhā upādānanirodho,
+upādānanirodhā bhavanirodho, bhavanirodhā jātinirodho, jātinirodhā jarāmaraṇaṁ
+sokaparidevadukkhadomanassūpāyāsā nirujjhanti. Evametassa kevalassa
+dukkhakkhandhassa nirodho hoti.</em><sup class="footnote-reference" id="fr-fn61-1"><a href="#fn-fn61">15</a></sup></p>
+<p>Thus: – This being – this comes to be <br />
+With the arising of this – this arises <br />
+This not being – this does not come to be <br />
+With the cessation of this – this ceases.</p>
+<p>And that is to say, dependent on ignorance, preparations come to be;
+dependent on preparations, consciousness; dependent on consciousness,
+name-and-form; dependent on name-and-form, the six sense-bases; dependent on
+the six sense-bases, contact; dependent on contact, feeling; dependent on
+feeling, craving; dependent on craving, grasping; dependent on grasping,
+becoming; dependent on becoming, birth; dependent on birth, decay-and-death,
+sorrow, lamentation, pain, grief and despair come to be. Thus is the arising
+of this entire mass of suffering.</p>
+<p>But with the complete fading away and cessation of ignorance, comes the
+cessation of preparations; with the cessation of preparations, the cessation
+of consciousness; with the cessation of consciousness, the cessation of
+name-and-form; with the cessation of name-and-form, the cessation of the six
+sense-bases; with the cessation of the six sense-bases, the cessation of
+contact; with the cessation of contact, the cessation of feeling; with the
+cessation of feeling, the cessation of craving; with the cessation of craving,
+the cessation of grasping; with the cessation of grasping, the cessation of
+becoming; with the cessation of becoming, the cessation of birth; with the
+cessation of birth, the cessation of decay-and-death, sorrow, lamentation,
+pain, grief and despair cease to be. Thus is the cessation of this entire mass
+of suffering.</p>
+</blockquote>
+<p>This is the thematic statement of the law of <em>paṭicca samuppāda</em>. It is set out
+here in the form of a fundamental principle.</p>
+<p><em>Imasmiṁ sati idaṁ hoti</em>, “this being, this comes to be.”</p>
+<p><em>Imassuppādā idaṁ uppajjati,</em> “with the arising of this, this arises.”</p>
+<p><em>Imasmiṁ asati idaṁ na hoti</em>, “this not being, this does not come to be”.</p>
+<p><em>Imassa nirodhā idaṁ nirujjhati</em>, “with the cessation of this, this ceases.”</p>
+<p>It resembles an algebraical formula.</p>
+<p>And then we have the conjunctive <em>yadidaṁ</em>, which means ‘namely this’ or ‘that
+is to say’. This shows that the foregoing statement is axiomatic and implies
+that what follows is an illustration. So the twelve linked formula beginning
+with the words <em>avijjāpaccayā saṅkhārā</em> is that illustration. No doubt the
+twelve-linked formula is impressive enough. But the important thing here is the
+basic principle involved, and that is the fourfold statement beginning with
+<em>imasmiṁ sati</em>.</p>
+<p>This fact is very clearly brought out in a certain sutta in the <em>Nidānavagga</em>
+of the <em>Saṁyutta Nikāya</em>. There the Buddha addresses the monks and says:</p>
+<blockquote>
+<p><em>Paṭiccasamuppādañca vo, bhikkhave, desessāmi paṭiccasamuppanne ca
+dhamme</em>.<sup class="footnote-reference" id="fr-fn62-1"><a href="#fn-fn62">16</a></sup></p>
+<p>Monks, I will teach you dependent arising and things that are dependently
+arisen.</p>
+</blockquote>
+<p>In this particular context the Buddha makes a distinction between dependent
+arising and things that are dependently arisen. In order to explain what is
+meant by dependent arising, or <em>paṭicca samuppāda</em>, he takes up the last two
+links in the formula, in the words: <em>jātipaccayā, bhikkhave, jarāmaraṇaṁ</em>,
+“monks, dependent on birth is decay-and-death.”</p>
+<p>Then he draws attention to the importance of the basic principle involved:
+<em>Uppādā vā Tathāgatānaṁ anuppādā vā Tathāgatānaṁ, ṭhitā va sā dhātu
+dhammaṭṭhitatā dhammaniyāmatā idappaccayatā</em> (etc.). Out of the long exhortation
+given there, this is the part relevant to us here.</p>
+<p><em>Jātipaccayā, bhikkhave, jarāmaraṇaṁ</em>,
+“dependent on birth, oh monks, is decay-and-death”,
+and that is to say that decay-and-death has birth as its condition.</p>
+<p><em>Uppādā vā Tathāgatānaṁ anuppādā vā Tathāgatānaṁ</em>, “whether there be
+an arising of the <em>Tathāgatās</em> or whether there be no such arising”.</p>
+<p><em>Ṭhitā va sā dhātu dhammaṭṭhitatā dhammaniyāmatā idappaccayatā</em>, “that elementary nature,
+that orderliness of the Dhamma, that norm of the Dhamma, the relatedness of
+this to that does stand as it is.”</p>
+<p>So from this it is clear that the underlying principle could be understood even
+with the help of a couple of links. But the commentary seems to have ignored
+this fact in its definition of the term <em>idappaccayatā</em>. It says:</p>
+<blockquote>
+<p><em>Imesaṁ jarāmaraṇādīnaṁ paccayā idappaccayā, idappaccayāva
+idappaccayatā</em>.<sup class="footnote-reference" id="fr-fn63-1"><a href="#fn-fn63">17</a></sup></p>
+</blockquote>
+<p>The word <em>imesaṁ</em> is in the plural and this indicates that the commentator has
+taken the dependence in a collective sense. But it is because of the fact that
+even two links are sufficient to illustrate the law, that the Buddha follows it
+up with the declaration that this is the <em>paṭicca samuppāda</em>. And then he goes
+on to explain what is meant by ‘things dependently arisen’:</p>
+<blockquote>
+<p><em>Katame ca, bhikkhave, paṭiccasamuppannā dhammā? Jarāmaraṇaṁ, bhikkhave,
+aniccaṁ saṇkhataṁ paṭiccasamuppannaṁ khayadhammaṁ vayadhammaṁ virāgadhammaṁ
+nirodhadhammaṁ</em>.</p>
+</blockquote>
+<p>“What, monks, are things dependently arisen?” And then, taking up just one of
+the last links, he declares: “decay-and-death, monks, is impermanent, prepared,
+dependently arisen, of a nature to get destroyed, to pass away, fade away and
+cease.”</p>
+<p>By the way, the word <em>virāga</em> usually means detachment or dispassion. But in
+such contexts as <em>avijjāvirāgā</em> and <em>pītiyā ca virāgā</em> one has to render it by
+words like ‘fading away’. So that <em>avijjāvirāga</em> could be rendered as: ‘by the
+fading away of ignorance’, and <em>pītiyā virāgā</em> would mean ‘by the fading away of
+joy’.</p>
+<p>It seems, then, that decay-and-death themselves are impermanent, that they are
+prepared or made up, that they are dependently arisen. Decay-and-death
+themselves can get destroyed and pass away. Decay as well as death can fade away
+and cease.</p>
+<p>Then the Buddha takes up the preceding link <em>jāti</em>, or birth. And that too is
+given the same qualifications. In the same manner he takes up each of the
+preceding links up to and including ignorance, <em>avijjā</em>, and applies to them the
+above qualifications. It is significant that every one of the twelve links, even
+ignorance, is said to be dependently arisen.</p>
+<p>Let us try to understand how, for instance, decay-and-death themselves can get
+destroyed or pass away. Taking the <em>idappaccayatā</em> formula as a paradigm, we can
+illustrate the relationship between the two links birth and decay-and-death.
+Instead of saying: this being, that comes to be (and so forth), now we have to
+say: birth being, decay-and-death comes to be. With the arising of birth,
+decay-and-death arises. Birth not being, decay-and-death does not come to be.
+With the cessation of birth, decay-and-death ceases.</p>
+<p>Now birth itself is an arising. But here we can’t help saying that birth
+‘arises’. It is like saying that birth is born. How can birth get born?
+Similarly death is a passing away. But here we have to say that death itself
+‘passes away’. How can death pass away? Perhaps, as we proceed, we might get the
+answers to these questions.</p>
+<p>Now at this point let us take up for discussion a certain significant passage in
+the <em>Mahānidānasutta</em> of the <em>Dīgha Nikāya</em>. In the course of an exposition of
+the law of <em>paṭicca samuppāda</em>, addressed to Venerable Ānanda, the Buddha
+makes the following statement:</p>
+<blockquote>
+<p><em>Ettāvatā kho, Ānanda, jāyetha vā jīyetha vā mīyetha vā cavetha vā upapajjetha
+vā. Ettāvatā adhivacanapatho, ettāvatā niruttipatho, ettāvatā paññattipatho,
+ettāvatā paññāvacaraṁ, ettāvatā vaṭṭaṁ vattati itthattaṁ paññāpanāya yadidaṁ
+nāmarūpaṁ saha viññāṇena</em>.<sup class="footnote-reference" id="fr-fn64-1"><a href="#fn-fn64">18</a></sup></p>
+<p>In so far only, Ānanda, can one be born, or grow old, or die, or pass away,
+or reappear, in so far only is there any pathway for verbal expression, in so
+far only is there any pathway for terminology, in so far only is there any
+pathway for designation, in so far only is the range of wisdom, in so far only
+is the round kept going for there to be a designation as the this-ness, that
+is to say: name-and-form together with consciousness.</p>
+</blockquote>
+<p>We have rendered the term <em>itthatta</em> by ‘this-ness’, and what it means will
+become clear as we go on. In the above quotation the word <em>ettāvatā</em>, which
+means ‘in so far only’, has as its point of reference the concluding phrase
+<em>yadidaṁ nāmarūpaṁ saha viññāṇena</em>, “that is to say: name-and-form together with
+consciousness”.</p>
+<p>So the statement, as it is, expresses a complete idea. But some editions have an
+additional phrase: <em>aññamaññapaccayatā pavattati</em>, “exists in a mutual
+relationship”. This phrase is obviously superfluous and is probably a
+commentarial addition.</p>
+<p>What is meant by the Buddha’s statement is that name-and-form together with
+consciousness is the rallying point for all concepts of birth, decay, death and
+rebirth. All pathways for verbal expression, terminology and designation
+converge on name-and-form together with consciousness. The range of wisdom
+extends only up to the relationship between these two. And it is between these
+two that there is a whirling round so that one may point out a this-ness. In
+short, the secret of the entire <em>saṁsāric</em> existence is to be found in this
+whirlpool.</p>
+<p><em>Vaṭṭa</em> and <em>āvaṭṭa</em> are words used for a whirlpool. We shall be bringing up
+quotations in support of that meaning. It seems, however, that this meaning has
+got obscured in the course of time. In the commentaries and in some modern
+translations there is quite a lot of confusion with regard to the meaning of the
+phrase <em>vaṭṭaṁ vattati</em>. In fact one Sinhala translation renders it as
+‘<em>saṁsāric</em> rain’. What rain has to do with <em>saṁsāra</em> is a matter for
+conjecture.</p>
+<p>What is actually meant by <em>vaṭṭaṁ vattati</em> is a whirling round, and <em>saṁsāra</em>,
+even literally, is that. Here we are told that there is a whirling round between
+name-and-form and consciousness, and this is the <em>saṁsāric</em> whirlpool to which
+all the aforesaid things are traceable.</p>
+<p>Already in the first sermon we tried to show that name in name-and-form has to
+do with names and concepts.<sup class="footnote-reference" id="fr-fn65-1"><a href="#fn-fn65">19</a></sup> Now from this context it becomes clear that
+all pathways for verbal expression, terminology and designation converge on this
+whirlpool between name-and-form and consciousness.</p>
+<p>Now that we have attached so much significance to a whirlpool, let us try to
+understand how a whirlpool is formed. Let us try to get at the natural laws
+underlying its formation. How does a whirlpool come to be?</p>
+<p>Suppose a river is flowing downward. To flow downward is in the nature of a
+river. But a certain current of water thinks: “I can and must move upstream.”
+And so it pushes on against the main stream. But at a certain point its progress
+is checked by the main stream and is thrust aside, only to come round and make a
+fresh attempt, again and again.</p>
+<p>All these obstinate and unsuccessful attempts gradually lead to a whirling
+round. As time goes on, the run-away current understands, as it were, that it
+cannot move forward. But it does not give up. It finds an alternative aim in
+moving towards the bottom. So it spirals downward, funnel-like, digging deeper
+and deeper towards the bottom, until an abyss is formed. Here then we have a
+whirlpool.</p>
+<p>While all this is going on, there is a crying need to fill up the chasm, and the
+whirlpool develops the necessary force of attraction to cater to it. It attracts
+and grasps everything that comes within its reach and sends it whirling down,
+funnel like, into the chasm. The whirling goes on at a tremendous speed, while
+the circumference grows larger and larger. At last the whirlpool becomes a
+centre of a tremendous amount of activity.</p>
+<p>While this kind of activity is going on in a river or a sea, there is a
+possibility for us to point it out as ‘that place’ or ‘this place’. Why? Because
+there is an activity going on. Usually, in the world, the place where an
+activity is going on is known as a ‘unit’, a ‘centre’, or an ‘institution’.
+Since the whirlpool is also a centre of activity, we may designate it as a
+‘here’ or ‘there’. We may even personify it. With reference to it, we can open
+up pathways for verbal expression, terminology and designation.</p>
+<p>But if we are to consider the form of activity that is going on here, what is it
+after all? It is only a perversion. That obstinate current thought to itself,
+out of delusion and ignorance: I can and must move upstream. And so it tried and
+failed, but turned round only to make the same vain attempt again and again.
+Ironically enough, even its <strong>progress</strong> towards the bottom is a <strong>stagnation</strong>.</p>
+<p>So here we have ignorance on one side and craving on the other, as a result of
+the abyss formed by the whirlpool. In order to satisfy this craving there is
+that power of attraction: grasping. Where there is <strong>grasping</strong>, there is
+<strong>existence</strong>, or <strong><em>bhava</em></strong>. The entire whirlpool now appears as a centre of
+activity.</p>
+<p>Now the basic principle underlying this whirlpool is to be found in our bodies.
+What we call ‘breathing’ is a continuous process of emptying and filling up. So
+even the so-called ‘life-principle’ is not much different from the activity of a
+whirlpool. The functioning of the lungs and the heart is based on the same
+principle and the blood circulation is in fact a whirling round. This kind of
+activity is very often known as ‘automatic’, a word which has connotations of
+<strong>self</strong>-sufficiency. But at the root of it there is a perversion, as we saw in
+the case of the whirlpool. All these activities are based on a conflict between
+two opposite forces.</p>
+<p>In fact existence in its entirety is not much different from the conflict of
+that obstinate current of water with the main stream. This characteristic of
+conflict is so pervasive that it can be seen even in the basic laws governing
+the existence of a society. In our social life, rights and responsibilities go
+hand in hand. We can enjoy certain privileges, provided we fulfil our duties. So
+here too we have a tangle within and a tangle without.<sup class="footnote-reference" id="fr-fn66-1"><a href="#fn-fn66">20</a></sup></p>
+<p>Now this is about the existence of the society as such. And what about the field
+of economics? There too the basic principles show the same weakness. Production
+is governed by laws of supply and demand. There will be a supply so long as
+there is a demand. Between them there is a conflict. It leads to many
+complications. The price mechanism is on a precarious balance and that is why
+some wealthy countries are forced to the ridiculous position of dumping their
+surplus into the sea.</p>
+<p>All this shows that existence is basically in a precarious position. To
+illustrate this, let us take the case of two snakes of the same size, trying to
+swallow up each other. Each of them tries to swallow up the other from the tail
+upwards and when they are half way through the meal, what do we find? A <strong>snake
+cycle</strong>. This snake cycle goes round and round, trying to swallow up each other.
+But will it ever be successful?</p>
+<p>The precarious position illustrated by the snake cycle, we find in our own
+bodies in the form of respiration, blood circulation and so forth. What appears
+as the stability in the society and in the economy, is similarly precarious. It
+is because of this conflict, this unsatisfactoriness, that the Buddha concluded
+that the whole of existence is suffering.</p>
+<p>When the arising aspect is taken too seriously, to the neglect of the cessation
+aspect, instead of a conflict or an unsatisfactoriness one tends to see
+something automatic everywhere. This body as well as machines such as water
+pumps and electrical appliances seem to work on an automatic principle. But in
+truth there is only a conflict between two opposing forces. When one comes to
+think of it, there is no ‘<strong>auto</strong>’-ness even in the automatic.</p>
+<p>All that is there, is a bearing up with difficulty. And this in fact is the
+meaning of the word <em>dukkha</em>. <em>Duḥ</em> stands for ‘difficulty’ and <em>kha</em> for
+‘bearing up’. <strong>Even with difficulty one bears it up, and though one bears it
+up, it is difficult</strong>.</p>
+<p>Now regarding the question of existence we happened to mention that because of a
+whirlpool’s activity, one can point out a ‘<strong>here</strong>’ with reference to it. We
+can now come back to the word <em>itthattaṁ</em>, which we left out without comment in
+the quotation:</p>
+<blockquote>
+<p><em>ettāvatā vaṭṭaṁ vattati itthattaṁ paññāpanāya</em></p>
+<p>in so far only does the whirlpool whirl for the designation of an <em>itthatta.</em></p>
+</blockquote>
+<p>Now what is this <em>itthatta</em>? <em>Ittha</em> means ‘this’, so <em>itthattaṁ</em> would mean
+‘this-ness’. The whirling of a whirlpool qualifies itself for a designation as a
+‘this’.</p>
+<p>There are a couple of verses in the <em>Dvayatānupassanāsutta</em> of the <em>Sutta
+Nipāta</em> which bring out the meaning of this word more clearly:</p>
+<blockquote>
+<p><em>Jāti maraṇa saṁsāraṁ,</em> <br />
+<em>ye vajanti punappunaṁ,</em> <br />
+<em>itthabhāvaññathābhāvaṁ,</em> <br />
+<em>avijjāyeva sā gati</em>.<sup class="footnote-reference" id="fr-fn67-1"><a href="#fn-fn67">21</a></sup></p>
+<p><em>Taṇhā dutiyo puriso,</em> <br />
+<em>dīgham addhāna saṁsāraṁ,</em> <br />
+<em>itthabhāvaññathābhāvaṁ,</em> <br />
+<em>saṁsāraṁ nātivattati</em>.<sup class="footnote-reference" id="fr-fn68-1"><a href="#fn-fn68">22</a></sup></p>
+</blockquote>
+<p><em>Ye jāti maraṇa saṁsāraṁ punappunaṁ vajanti</em>,
+“they that go on again and again the round of birth and death”.</p>
+<p><em>Itthabhāvaññathābhāvaṁ</em> “which is a this-ness and an otherwise-ness”, or “which
+is an alternation between a this-ness and an otherwise-ness”.</p>
+<p><em>Sā gati avijjāya eva</em>, “that going of them, that faring of them, is only a
+journey of ignorance.”</p>
+<p><em>Taṇhā dutiyo puriso</em>, “the man with craving as his second” (or his companion).</p>
+<p><em>Dīgham addhāna saṁsāraṁ</em>, “faring on for a long time in <em>saṁsāra</em>”.</p>
+<p><em>Itthabhāvaññathābhāvaṁ, saṁsāraṁ nātivattati</em>, “does not get away from the
+round which is a this-ness and an otherwise-ness”, or “which is an alternation
+between a this-ness and an otherwise-ness”. What is meant by it, is the
+transcendence of <em>saṁsāra</em>.</p>
+<p>We saw above how the concept of a ‘here’ arose with the birth of a whirlpool. In
+fact one’s birth is at the same time the birth of a ‘here’ or ‘this place’. And
+that is what is meant by <em>itthabhāva</em> in the two verses quoted above.
+<em>Itthabhāva</em> and <em>itthatta</em> both mean ‘this-ness’. In both verses this
+‘this-ness’ is coupled with an otherwise-ness, <em>aññathābhāva</em>.</p>
+<p>Here too we see a conflict between two things, this-ness and otherwise-ness. The
+cycle of <em>saṁsāra</em>, represented by birth and death, <em>jāti maraṇa saṁsāraṁ</em>, is
+equivalent to an alternation between this-ness and otherwise-ness,
+<em>itthabhāvaññathābhāva</em>. And as the first verse says, this recurrent alternation
+between this-ness and otherwise-ness is nothing but a journey of ignorance
+itself.</p>
+<p>Though we have given so much significance to the two terms <em>itthabhāva</em> and
+<em>aññathābhāva</em>, the commentary to the <em>Sutta Nipāta</em> treats them lightly. It
+explains <em>itthabhāvaṁ</em> as <em>imaṁ manussabhāvaṁ</em>, which means “this state as a
+human being”, and <em>aññathābhāvaṁ</em> as <em>ito avasesa aññanikāyabhāvaṁ</em>, “any state
+of being other than this”.<sup class="footnote-reference" id="fr-fn69-1"><a href="#fn-fn69">23</a></sup> This explanation misses the deeper
+significance of the word <em>itthatta</em>.</p>
+<p>In support of this we may refer to the <em>Pāṭikasutta</em> of the <em>Dīgha Nikāya</em>.
+There we are told that when the world system gets destroyed at the end of an
+aeon, some being or other gets reborn in an empty Brahma mansion, and after
+being there for a long time, thinks, out of a feeling of loneliness:</p>
+<blockquote>
+<p><em>Aho vata aññepi sattā itthattaṁ āgaccheyyuṁ.</em><sup class="footnote-reference" id="fr-fn70-1"><a href="#fn-fn70">24</a></sup></p>
+<p>How nice it would be if other beings also come to this state.</p>
+</blockquote>
+<p>In this context the word <em>itthatta</em> refers to the Brahma world and not the human
+world. From the point of view of the Brahmas, <em>itthatta</em> refers to the Brahma
+world and only for us here, it means the human world.</p>
+<p>However this is just a narrow meaning of the word <em>itthatta</em>. When the reference
+is to the entire round of existence or <em>saṁsāra</em>, <em>itthatta</em> does not
+necessarily mean ‘this human world’. The two terms have a generic sense, because
+they represent some basic principle. As in the case of a whirlpool, this-ness is
+to be seen together with an otherwise-ness. This illustrates the conflict
+characteristic of existence. Wherever a this-ness arises, a possibility for an
+otherwise-ness comes in. <em>Itthabhāva</em> and <em>aññathābhāva</em> go together.</p>
+<p><em>Aniccatā</em>, or impermanence, is very often explained with the help of the phrase
+<em>vipariṇāmaññathābhāva</em>.<sup class="footnote-reference" id="fr-fn71-1"><a href="#fn-fn71">25</a></sup> Now here too we have the word <em>aññathābhāva</em>.
+Here the word preceding it, gives a clue to its true significance.</p>
+<p><em>Vipariṇāma</em> is quite suggestive of a process of evolution. Strictly speaking,
+<em>pariṇāma</em> is evolution, and <em>pariṇata</em> is the fully evolved or mature stage.
+The prefix <em>vi</em> stands for the anti-climax. The evolution is over, now it is
+becoming other. Ironically enough, this state of ‘becoming-other’ is known as
+otherwise-ness, <em>aññathābhāva</em>. And so this twin, <em>itthabhāva</em> and
+<em>aññathābhāva</em>, tell us the nature of the world. Between them, they explain for
+us the law of impermanence.</p>
+<p>In the Section-of-the-Threes in the <em>Aṅguttara Nikāya</em> the three characteristics
+of a <em>saṅkhata</em> are explained in this order:</p>
+<blockquote>
+<p><em>Uppādo paññāyati, vayo paññāyati, ṭhitassa aññathattaṁ paññāyati</em><sup class="footnote-reference" id="fr-fn72-1"><a href="#fn-fn72">26</a></sup></p>
+<p>an arising is manifest, a passing away is manifest and an otherwise-ness in
+the persisting is manifest.</p>
+</blockquote>
+<p>This implies that the persistence is only apparent and that is why it is
+mentioned last. There is an otherwise-ness even in this apparently persistent.
+But later scholars preferred to speak of three stages as <em>uppāda, ṭhiti,
+bhaṅga</em>,<sup class="footnote-reference" id="fr-fn73-1"><a href="#fn-fn73">27</a></sup> “arising, persistence and breaking up”.</p>
+<p>However the law of impermanence could be sufficiently understood even with the
+help of two words, <em>itthabhāva</em> and <em>aññathābhāva</em>, this-ness and
+otherwise-ness. Very often we find the Buddha summing up the law of impermanence
+in the two words <em>samudaya</em> and <em>vaya</em>, ‘arising’ and ‘passing away’.<sup class="footnote-reference" id="fr-fn74-1"><a href="#fn-fn74">28</a></sup></p>
+<p>There is an apparent contradiction in the phrase <em>ṭhitassa aññathatta</em>, but it
+reminds us of the fact that what the world takes as static or persisting is
+actually not so. The so-called ‘static’ is from beginning to end an
+otherwise-ness. Now if we are to relate this to the two links <em>jāti</em> and
+<em>jarāmaraṇaṁ</em> in <em>paṭicca samuppāda</em>, we may say that as soon as one is born the
+process of otherwise-ness sets in. Wherever there is birth, there is death. One
+of the traditional Pāli verses on the reflections on death has the following
+meaningful lines:</p>
+<blockquote>
+<p><em>Uppattiyā sahevedaṁ, maraṇam āgataṁ sadā</em><sup class="footnote-reference" id="fr-fn75-1"><a href="#fn-fn75">29</a></sup></p>
+<p>always death has come, even with the birth itself.</p>
+</blockquote>
+<p>Just as in a conjoined pair, when one is drawn the other follows, even so when
+birth is drawn in, decay-and-death follow as a matter of course.</p>
+<p>Before the advent of the Buddha, the world believed in the possibility of a
+birth devoid of decay-and-death. It believed in a form of existence devoid of
+grasping. Because of its ignorance of the pair-wise relatedness of this-to-that,
+<em>idappaccayatā</em>, it went on with its deluded search. And that was the reason for
+all the conflict in the world.</p>
+<p>According to the teaching of the Buddha, the concept of birth is equivalent to
+the concept of a ‘here’. As a matter of fact, this birth of a ‘here’ is like the
+first peg driven for the measurement of a world. Because of the pair-wise
+relationship, the very first ‘<strong>birthday-present</strong>’ that one gets as soon as one
+is born, is – <strong>death</strong>. The inevitable death that he is entitled to. This way
+we can understand the deeper significance of the two words <em>itthabhāva</em> and
+<em>aññathābhāva</em>, this-ness and otherwise-ness.</p>
+<p>We have to say the same thing with regard to the whirlpool. Apparently it has
+the power to control, to hold sway. Seen from a distance, the whirlpool is a
+centre of activity with some controlling power. Now, one of the basic meanings
+of the concept of self is the ability to control, to hold sway. And a whirlpool
+too, as seen from a distance, seems to have this ability. Just as it appears
+automatic, so also it seems to have some power to control.</p>
+<p>But on deeper analysis it reveals its <strong>not-self</strong> nature. What we have here is
+simply the conflict between the main stream and a run-away current. It is the
+outcome of the conflict between two forces and not the work of just one force.
+It is a case of relatedness of this-to-that, <em>idappaccayatā</em>. As one verse in
+the <em>Bālavagga</em> of the <em>Dhammapada</em> puts it:</p>
+<blockquote>
+<p><em>Attā hi attano natthi</em><sup class="footnote-reference" id="fr-fn76-1"><a href="#fn-fn76">30</a></sup></p>
+<p>even oneself is not one’s own.</p>
+</blockquote>
+<p><strong>So even a whirlpool is not its own</strong>, there is nothing really automatic about
+it. This then is the <em>dukkha</em>, the suffering, the conflict, the
+unsatisfactoriness. What the world holds on to as existence is just a process of
+otherwise-ness, as the Buddha vividly portrays for us in the following verses of
+the <em>Nandavagga</em> of the <em>Udāna</em>.</p>
+<blockquote>
+<p><em>Ayaṁ loko santāpajāto, phassapareto</em> <br />
+<em>rogaṁ vadati attato,</em> <br />
+<em>yena yena hi maññati,</em> <br />
+<em>tato taṁ hoti aññathā.</em></p>
+<p><em>Aññathābhāvī bhavasatto loko,</em> <br />
+<em>bhavapareto bhavam evābhinandati,</em> <br />
+<em>yad’abhinandati taṁ bhayaṁ,</em> <br />
+<em>yassa bhāyati taṁ dukkhaṁ,</em> <br />
+<em>bhava vippahānāya kho panidaṁ brahmacariyaṁ vussati.</em><sup class="footnote-reference" id="fr-fn77-1"><a href="#fn-fn77">31</a></sup></p>
+<p>This anguished world, fully given to contact, <br />
+Speaks of a disease as self. <br />
+In whatever terms it conceives of, <br />
+Even thereby it turns otherwise.</p>
+<p>The world, attached to becoming, given fully to becoming, <br />
+Though becoming otherwise, yet delights in becoming. <br />
+What it delights in is a fear <br />
+What it fears from is a suffering. <br />
+But then this holy life is lived for the abandoning of that very becoming.</p>
+</blockquote>
+<p><strong>Just a few lines – but how deep they go!</strong> The world is in anguish and is
+enslaved by contact. What it calls self is nothing but a disease.</p>
+<p><em>Maññati</em> is a word of deeper significance. <em>Maññanā</em> is conceiving under the
+influence of craving, conceit and views. Whatever becomes an object of that
+conceiving, by that very conception it becomes otherwise. That is to say that an
+opportunity arises for an otherwise-ness, even as ‘death’ has come together with
+‘birth’.</p>
+<p>So conceiving, or conception, is itself the reason for otherwise-ness. Before a
+‘<strong>thing</strong>’ becomes ‘<strong>otherwise</strong>’, it has to become a ‘<strong>thing</strong>’. And it
+becomes a ‘thing’ only when attention is focussed on it under the influence of
+craving, conceit and views and it is separated from the whole world and grasped
+as a ‘<strong>thing’</strong>. And that is why it is said:</p>
+<blockquote>
+<p><em>Yaṁ yañhi lokasmim upādiyanti,</em> <br />
+<em>teneva Māro anveti jantuṁ.</em><sup class="footnote-reference" id="fr-fn78-1"><a href="#fn-fn78">32</a></sup></p>
+<p>Whatever one grasps in the world, <br />
+By that itself Māra pursues a being.</p>
+</blockquote>
+<p>The world is attached to becoming and is fully given to becoming. Therefore its
+very nature is otherwise-ness, <em>aññathābhāvī</em>.</p>
+<p>And then the Buddha declares the inevitable outcome of this contradictory
+position: <em>yad abhinandati taṁ bhayaṁ</em>, whatever one delights in, that is a
+fear, that is a danger. What one delights in, is ‘becoming’ and that is a source
+of fear. And <em>yassa bhāyati taṁ dukkhaṁ</em>, what one fears, or is afraid of, that
+is suffering. And of what is one afraid? One is afraid of the otherwise-ness of
+the thing that one holds on to as existing. So the otherwise-ness is the
+suffering and the thing grasped is a source of fear.</p>
+<p>For instance, when one is walking through a town with one’s pockets full of
+gems, one is afraid because of the valuables in one’s pockets. Even so, the
+existence that one delights in is a source of fear. What one fears is change or
+otherwise-ness, and that is suffering. Therefore it is that this holy life is
+lived for the abandonment of that very becoming or existence.</p>
+<p>So from this quotation it becomes clear that the nature of existence is
+‘otherwise-ness’. It is the insight into this nature that is basic in the
+understanding of <em>idappaccayatā</em>. What is known as the arising of the
+Dhamma-eye is the understanding of this predicament in worldly existence. But
+that Dhamma-eye arises together with a solution for this predicament:</p>
+<blockquote>
+<p><em>Yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhammaṁ</em>.<sup class="footnote-reference" id="fr-fn79-1"><a href="#fn-fn79">33</a></sup></p>
+<p>Whatever is of a nature to arise, all that is of a nature to cease.</p>
+</blockquote>
+<p>As far as the arising aspect is concerned, this whirlpool is formed due to the
+grasping through craving, conceit and views. Once this <em>saṁsāric</em> whirlpool is
+formed, it keeps on attracting all that is in the world, all that is within its
+reach, in the form of craving and grasping. But there is a cessation to this
+process. It is possible to make it cease. Why? Because it is something arisen
+due to causes and conditions. Because it is a process based on two things,
+without a self to hold sway. That is why we have mentioned at the very outset
+that everything is impermanent, prepared and dependently arisen, <em>aniccaṁ,
+saṅkhataṁ, paṭicca samuppannaṁ</em>.</p>
+<p>Everyone of the twelve links in the formula, including ignorance, is dependently
+arisen. They are all arisen due to causes and conditions, they are not
+permanent, <em>aniccaṁ</em>. They are only made up or prepared, <em>saṅkhataṁ</em>. The word
+<em>saṅkhataṁ</em> is explained in various ways. But in short it means something that
+is made up, prepared, or concocted by way of intention.</p>
+<p><em>Paṭicca samuppannaṁ</em> means conditionally arisen and therefore it is of a nature
+to get destroyed, <em>khayadhamma</em>. It is of a nature to pass away, <em>vayadhamma</em>.
+It is of a nature to fade away, <em>virāgadhamma</em>. It is of a nature to cease,
+<em>nirodhadhamma</em>.</p>
+<p>It seems that even the colour or shade of decay-and-death can fade away and that
+is why we have pointed out their relevance to the question of concepts. This
+nature of fading away is understood by one who has had an insight into the law
+of arising and cessation.</p>
+<p><em>Saṁsāra</em> is a whirlpool as far as the ordinary beings caught up in it are
+concerned. Now what about the <em>arahants</em>? How is the idea of this whirlpool
+presented in the case of the <em>arahants</em>? It is simply said that for them there
+is no whirling round for there to be a designation: <em>vaṭṭaṁ tesaṁ natthi
+paññāpanāya</em>.<sup class="footnote-reference" id="fr-fn80-1"><a href="#fn-fn80">34</a></sup> So in their case, there is no whirling round to justify a
+designation.</p>
+<p>This, then, is something deeper than the whirlpool itself. The whirlpool can be
+pointed out because of its activity. But not so easily the emancipated ones and
+that is why there is so much controversy regarding the nature of the
+Tathāgata. The image of the whirlpool in its relation to the emancipated ones
+is beautifully presented in the following verse from the <em>Cūḷavagga</em> of the
+<em>Udāna</em>:</p>
+<blockquote>
+<p><em>Acchecchi vaṭṭaṁ byagā nirāsaṁ,</em> <br />
+<em>visukkhā saritā na sandati,</em> <br />
+<em>chinnaṁ vaṭṭaṁ na vattati,</em> <br />
+<em>es’ ev’ anto dukkhassa</em>.<sup class="footnote-reference" id="fr-fn81-1"><a href="#fn-fn81">35</a></sup></p>
+<p>He has cut off the whirlpool <br />
+And reached desirelessness, <br />
+The stream dried up now no longer flows. <br />
+The whirlpool cut off whirls no more. <br />
+This, even this, is suffering’s end.</p>
+</blockquote>
+<p>What has the <em>arahant</em> done? He has cut off the whirlpool. He has breached it
+and has reached the desireless state. The stream of craving is dried up and
+flows no more. The whirlpool cut off at the root no more whirls. And this is the
+end of suffering. The cutting off of the whirlpool is the realization of
+cessation, which is <em>arahanthood</em>.</p>
+<p>It is because of the accent on the arising aspect that the current tries to move
+against the main stream. When that attempt is given up, the rest happens as a
+matter of course. This idea is even more clearly brought out by the following
+two verses in the <em>Sagāthavagga</em> of the <em>Saṁyutta Nikāya</em>. They are in the form
+of a dialogue between a deity and the Buddha. The deity asks:</p>
+<blockquote>
+<p><em>Kuto sarā nivattanti,</em> <br />
+<em>kattha vaṭṭaṁ na vattati,</em> <br />
+<em>kattha nāmañca rūpañca</em> <br />
+<em>asesaṁ uparujjhati?</em><sup class="footnote-reference" id="fr-fn82-1"><a href="#fn-fn82">36</a></sup></p>
+<p>From where do currents turn back, <br />
+Where whirls no more the whirlpool, <br />
+Where is it that name-and-form <br />
+Is held in check in a way complete?</p>
+</blockquote>
+<p>The Buddha gives the answer in the following verse:</p>
+<blockquote>
+<p><em>Yattha āpo ca paṭhavī,</em> <br />
+<em>tejo vāyo na gādhati,</em> <br />
+<em>ato sarā nivattanti,</em> <br />
+<em>ettha vaṭṭaṁ na vattati,</em> <br />
+<em>ettha nāmañca rūpañca,</em> <br />
+<em>asesaṁ uparujjhati</em>.</p>
+<p>Where earth and water, fire and wind no footing find, <br />
+From there it is that currents turn back. <br />
+There the whirlpool whirls no more <br />
+And there it is that name-and-form <br />
+Is held in check in a way complete.</p>
+</blockquote>
+<p>The reference here is to Nibbāna. Whether it is called <em>sabbasaṅkhārasamatha</em>,
+the stilling of all preparations, or <em>asaṅkhatadhātu</em>, the unprepared element,
+it means the state of cessation. And when the <em>arahant’s</em> mind is in that state,
+the four elements, which are like ghosts, do not haunt him. They do not get a
+‘<strong>footing</strong>’ in that consciousness. When they fade away, due to detachment,
+those currents do not flow and the whirlpool whirls no more. Name and form are
+fully held in check there.</p>
+<p>Now as far as the meaning of <em>rūpa</em> in <em>nāma-rūpa</em> in this reference is
+concerned, its definition as <em>cattāri ca mahābhūtāni, catunnañca mahābhūtānaṁ
+upādāyarūpaṁ</em> is quite significant .<sup class="footnote-reference" id="fr-fn83-1"><a href="#fn-fn83">37</a></sup> It draws attention to the fact that
+the four great primaries underlie the concept of form. This is something unique,
+since before the advent of the Buddha the world thought that in order to get
+away from <em>rūpa</em> one has to grasp <em>arūpa</em>. But the irony of the situation is
+that, even in <em>arūpa</em>, <em>rūpa</em> is implicit in a subtle form. Or in other words,
+<em>arūpa</em> takes <em>rūpa</em> for granted.</p>
+<p>Supposing someone, walking in the darkness of the night, has a hallucination of
+a devil and runs away to escape from it. He thinks he is running away from the
+devil, but he is taking the devil with him. The devil is in his mind, it is
+something imagined. Similarly, until the Buddha came into the scene, the
+worldlings grasped <em>arūpa</em> in order to get away from <em>rūpa</em>. But because of the
+dichotomy between <em>rūpa</em> and <em>arūpa</em>, even when they swung as far as the highest
+formless realms, they were still in bondage to <em>saṅkhāras</em>, or preparations. As
+soon as the momentum of their swing of <em>saṅkhāras</em> got fully spent, they swung
+back to <em>rūpa</em>. So here too we see the question of duality and dichotomy.</p>
+<p>This sermon has served its purpose if it has drawn attention to the importance
+of the questions of duality, dichotomy and the relatedness of this to that,
+<em>idappaccayatā</em>. So this is enough for today.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn47"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn47-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn48"><sup class="footnote-definition-label">2</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn48-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn49"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/dn9/pli/ms">DN 9 / D I 203</a>, <em>Poṭṭhapādasutta</em> <a href="#fr-fn49-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn50"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/dn8/pli/ms">DN 8 / D I 177</a>, <em>Kassapasīhanādasutta</em> <a href="#fr-fn50-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn51"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/sn1.46/pli/ms">SN 1.46 / S I 33</a>, <em>Accharāsutta</em> <a href="#fr-fn51-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn52"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/iti62/pli/ms">Iti 62 / It 53</a>, <em>Indriyasutta</em> <a href="#fr-fn52-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn53"><sup class="footnote-definition-label">7</sup>
+<p>Peṭ 188 <a href="#fr-fn53-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn54"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/dn3/pli/ms">DN 3 / D I 110</a>, <em>Ambaṭṭhasutta</em> <a href="#fr-fn54-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn55"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/snp2.1/pli/ms">Snp 2.1 / Sn 231</a>, <em>Ratanasutta</em> <a href="#fr-fn55-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn56"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/dhp383-423/pli/ms">Dhp 383</a>, <em>Brāhmaṇavagga</em> <a href="#fr-fn56-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn57"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/sn2.18/pli/ms">SN 2.18 / S I 54</a>, <em>Kakudhasutta</em> <a href="#fr-fn57-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn58"><sup class="footnote-definition-label">12</sup>
+<p>S IV 372 <a href="#fr-fn58-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn59"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/snp5.11/pli/ms">Snp 5.11 / Sn 1092</a>, <em>Kappamāṇavapucchā</em> <a href="#fr-fn59-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn60"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/mn26/pli/ms">MN 26 / M I 167</a>, <em>Ariyapariyesanasutta</em> <a href="#fr-fn60-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn61"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/mn115/pli/ms">MN 115 / M III 63</a>, <em>Bahudhātukasutta</em>, and <a href="https://suttacentral.net/ud1.1/pli/ms">Ud 1.1-3 / Ud 1</a>, the <em>Bodhisuttas</em> <a href="#fr-fn61-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn62"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/sn12.20/pli/ms">SN 12.20 / S II 25</a>, <em>Paccayasutta</em> <a href="#fr-fn62-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn63"><sup class="footnote-definition-label">17</sup>
+<p>Spk II 40 <a href="#fr-fn63-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn64"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/dn15/pli/ms">DN 15 / D II 63</a>, <em>Mahānidānasutta</em> <a href="#fr-fn64-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn65"><sup class="footnote-definition-label">19</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn65-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn66"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/sn1.23/pli/ms">SN 1.23 / S I 13</a>, <em>Jaṭāsutta</em> <a href="#fr-fn66-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn67"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 729</a>, <em>Dvayatānupassanāsutta</em> <a href="#fr-fn67-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn68"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 740</a>, <em>Dvayatānupassanāsutta</em> <a href="#fr-fn68-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn69"><sup class="footnote-definition-label">23</sup>
+<p>Pj II 505 <a href="#fr-fn69-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn70"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/dn24/pli/ms">DN 24 / D III 29</a>, <em>Pāṭikasutta</em> <a href="#fr-fn70-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn71"><sup class="footnote-definition-label">25</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn87/pli/ms">MN 87 / M II 110</a>, <em>Piyajātikasutta</em> <a href="#fr-fn71-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn72"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/an3.47/pli/ms">AN 3.47 / A I 152</a>, <em>Saṅkhatalakkhaṇasutta</em> <a href="#fr-fn72-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn73"><sup class="footnote-definition-label">27</sup>
+<p>E.g. at Ps IV 88 <a href="#fr-fn73-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn74"><sup class="footnote-definition-label">28</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn10/pli/ms">MN 10 / M I 56</a>, <em>Satipaṭṭhānasutta</em> <a href="#fr-fn74-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn75"><sup class="footnote-definition-label">29</sup>
+<p>This is found in the set of verses on <em>maraṇasati</em> among the <em>caturārakkhā-gāthā</em> (four protective <em>kamaṭṭhānas</em>) in standard <em>Paritta</em> books. <a href="#fr-fn75-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn76"><sup class="footnote-definition-label">30</sup>
+<p><a href="https://suttacentral.net/dhp60-75/pli/ms">Dhp 62</a>, <em>Bālavagga</em> <a href="#fr-fn76-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn77"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/ud3.10/pli/ms">Ud 3.10 / Ud 32</a>, <em>Lokasutta</em> <a href="#fr-fn77-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn78"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/snp5.13/pli/ms">Snp 5.13 / Sn 1103</a>, <em>Bhadrāvudhamāṇavapucchā</em> <a href="#fr-fn78-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn79"><sup class="footnote-definition-label">33</sup>
+<p><a href="https://suttacentral.net/sn56.11/pli/ms">SN 56.11 / S V 423</a>, <em>Dhammacakkapavattanasutta</em> <a href="#fr-fn79-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn80"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 141</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn80-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn81"><sup class="footnote-definition-label">35</sup>
+<p><a href="https://suttacentral.net/ud7.2/pli/ms">Ud 7.2 / Ud 75</a>, <em>Dutiyalakuṇḍakabhaddiyasutta</em> <a href="#fr-fn81-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn82"><sup class="footnote-definition-label">36</sup>
+<p><a href="https://suttacentral.net/sn1.72/pli/ms">SN 1.72 / S I 15</a>, <em>Sarasutta</em> <a href="#fr-fn82-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn83"><sup class="footnote-definition-label">37</sup>
+<p><a href="https://suttacentral.net/mn9/pli/ms">MN 9 / M I 53</a>, <em>Sammādiṭṭhisutta</em> <a href="#fr-fn83-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-01.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-03.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-01.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-03.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

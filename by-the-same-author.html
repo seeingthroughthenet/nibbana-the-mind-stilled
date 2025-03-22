@@ -1,0 +1,577 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>By the Same Author - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="by-the-same-author"><a class="header" href="#by-the-same-author">By the Same Author</a></h1>
+<ol>
+<li>
+<p>Concept and Reality in Early Buddhist Thought</p>
+</li>
+<li>
+<p>Saṁyutta Nikāya – An Anthology</p>
+</li>
+<li>
+<p>Ideal Solitude</p>
+</li>
+<li>
+<p>The Magic of the Mind</p>
+</li>
+<li>
+<p>Towards Calm and Insight</p>
+</li>
+<li>
+<p>From Topsy-turvydom to Wisdom, Volume I</p>
+</li>
+<li>
+<p>From Topsy-turvydom to Wisdom, Volume II</p>
+</li>
+<li>
+<p>Seeing Through</p>
+</li>
+<li>
+<p>Towards A Better World</p>
+</li>
+<li>
+<p>Nibbāna – The Mind Stilled, Volume I</p>
+</li>
+<li>
+<p>Nibbāna – The Mind Stilled, Volume II</p>
+</li>
+<li>
+<p>Nibbāna – The Mind Stilled, Volume III</p>
+</li>
+<li>
+<p>Nibbāna – The Mind Stilled, Volume IV</p>
+</li>
+<li>
+<p>Nibbāna – The Mind Stilled, Volume V</p>
+</li>
+<li>
+<p>Nibbāna – The Mind Stilled, Volume VI</p>
+</li>
+<li>
+<p>Nibbāna – The Mind Stilled, Volume VII</p>
+</li>
+<li>
+<p>Nibbāna – The Mind Stilled, Library Edition</p>
+</li>
+<li>
+<p>Nibbāna and The Fire Simile</p>
+</li>
+<li>
+<p>A Majestic Tree of Merit</p>
+</li>
+<li>
+<p>The End of the World in Buddhist Perspective</p>
+</li>
+<li>
+<p>The Law of Dependent Arising, Volume I</p>
+</li>
+<li>
+<p>The Law of Dependent Arising, Volume II</p>
+</li>
+<li>
+<p>The Law of Dependent Arising, Volume III</p>
+</li>
+<li>
+<p>The Law of Dependent Arising, Volume IV</p>
+</li>
+<li>
+<p>The Law of Dependent Arising, Library Edition</p>
+</li>
+<li>
+<p>Walk to Nibbāna</p>
+</li>
+<li>
+<p>Deliverance of the Heart through Universal Love</p>
+</li>
+<li>
+<p>Questions and Answers on Dhamma</p>
+</li>
+<li>
+<p>The Miracle of Contact</p>
+</li>
+<li>
+<p>From The Wheel of Kamma To The Wheel of Dhamma</p>
+</li>
+<li>
+<p>The Path of Meditation</p>
+</li>
+<li>
+<p>The Noblest Protection</p>
+</li>
+</ol>
+<p>All enquiries should be addressed to:</p>
+<p>Kaṭukurunde Ñāṇananda Sadaham Senasun Bhāraya</p>
+<p>Kirillawala Watta, Dammulla, Karandana</p>
+<p>Phone: 0777127454</p>
+<p><a href="mailto:knssb@seeingthroughthenet.net">knssb@seeingthroughthenet.net</a></p>
+<p><strong>කතු හිමියන්ගේ සිංහල කෘති</strong></p>
+<blockquote>
+<p>සැ.යු.: මෙම කෘති ලේඛනය සරලත්‍වයට මුල් තැන දුන් අංක අනුපිළිවෙලක් සහිතව සකස්වී ඇති බවත්, ලේඛනයේ අගහරියේ එන කෘති බොහෝ දුරට ගැඹුරු විය හැකි බවත්, පාඨකයින් දැනුවත් කිරීම් වශයෙන් සඳහන් කරනු කැමැත්තෙමි.</p>
+<ul>
+<li>සම්පාදක</li>
+</ul>
+</blockquote>
+<ol>
+<li>
+<p>තිසරණ මහිම</p>
+</li>
+<li>
+<p>හිතක මහිම – 1</p>
+</li>
+<li>
+<p>හිතක මහිම – 2</p>
+</li>
+<li>
+<p>හිතක මහිම – 3</p>
+</li>
+<li>
+<p>හිතක මහිම (1-3 වෙළුම්)</p>
+</li>
+<li>
+<p>දිවි කතරේ සැඳෑ අඳූර</p>
+</li>
+<li>
+<p>කය අනුව ගිය සිහිය</p>
+</li>
+<li>
+<p>හිත තැනීම</p>
+</li>
+<li>
+<p>පින් රුකෙක මහිම</p>
+</li>
+<li>
+<p>අබිනික්මන</p>
+</li>
+<li>
+<p>පිළිවෙතින් පිළිවෙතට</p>
+</li>
+<li>
+<p>කයේ කතාව</p>
+</li>
+<li>
+<p>මා-පිය උවැටන</p>
+</li>
+<li>
+<p>ප්‍රතිපත්ති පූජාව</p>
+</li>
+<li>
+<p>පැවැත්ම හා නැවැත්ම</p>
+</li>
+<li>
+<p>සසරේ රඟ</p>
+</li>
+<li>
+<p>කර්‍ම චක්‍රයෙන් ධර්‍ම චක්‍රයට</p>
+</li>
+<li>
+<p>මෙත් සිතේ විමුක්තිය</p>
+</li>
+<li>
+<p>ඇති හැටි දැක්ම</p>
+</li>
+<li>
+<p>තපෝ ගුණ මහිම</p>
+</li>
+<li>
+<p>සක්මනේ නිවන</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 1 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 2 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 3 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 4 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 5 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 6 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 7 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 8 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 9 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 10 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 11 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 12 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 13 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 14 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 15 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 16 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 17 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 18 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 19 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 20 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 21 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 22 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 23 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 24 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 25 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 26 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 27 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 28 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 29 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 30 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 31 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 32 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 33 වෙළුම</p>
+</li>
+<li>
+<p>පහන් කණුව ධර්‍ම දේශනා – 34 වෙළුම</p>
+</li>
+<li>
+<p>සබබාසව සූත්‍රයේ මැදුම් මග</p>
+</li>
+<li>
+<p>විදසුන් උපදෙස්</p>
+</li>
+<li>
+<p>භාවනා මාර්‍ගය</p>
+</li>
+<li>
+<p>උත්තරීතර හුදෙකළාව</p>
+</li>
+<li>
+<p>සසුන් පිළිවෙත</p>
+</li>
+<li>
+<p>චලන චිත්‍රය</p>
+</li>
+<li>
+<p>දිය සුළිය</p>
+</li>
+<li>
+<p>බෞද‍්ධ සංකල්පය අනුව ලෝකාන්තය</p>
+</li>
+<li>
+<p>බුදු සමය පුද්ගලයා හා සමාජය</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – පළමු වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – දෙවන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – තෙවන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – සිවුවන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – පස්වන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – සයවන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – සත්වන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – අටවන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – නවවන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – දසවන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – එකොළොස්වන වෙළුම</p>
+</li>
+<li>
+<p>නිවනේ නිවීම – පුස්තකාල මුද්‍රණය (1-11 වෙළුම්)</p>
+</li>
+<li>
+<p>පටිචච සමුපපාද ධර්‍මය – 1 වෙළුම</p>
+</li>
+<li>
+<p>පටිචච සමුපපාද ධර්‍මය – 2 වෙළුම</p>
+</li>
+<li>
+<p>පටිචච සමුපපාද ධර්‍මය – 3 වෙළුම</p>
+</li>
+<li>
+<p>පටිචච සමුපපාද ධර්‍මය – 4 වෙළුම</p>
+</li>
+<li>
+<p>පටිචච සමුපපාද ධර්‍මය – පුස්තකාල මුද්‍රණය (1-4 වෙළුම්)</p>
+</li>
+<li>
+<p>ස්පර්‍ශයේ ආශචර්‍යය</p>
+</li>
+<li>
+<p>මනසේ මායාව</p>
+</li>
+<li>
+<p>පැරණි බෞදධ චින්තාවේ සංකල්පය සහ යථාර්‍ථය</p>
+</li>
+</ol>
+<p>නැවත මුද්‍රණය කරවීම පිළිබඳ විමසීම්:</p>
+<p>කටුකුරුන්දේ ඤාණනන්‍ද සදහම් සෙනසුන් භාරය</p>
+<p>කිරිල්ලවලවත්ත, දම්මුල්ල, කරඳන</p>
+<p>දුරකථනය: 0777127454</p>
+<p><a href="mailto:knssb@seeingthroughthenet.net">knssb@seeingthroughthenet.net</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-33.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="copyright.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-33.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="copyright.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,932 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 33 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-white.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-33"><a class="header" href="#sermon-33">Sermon 33</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn1032-1"><a href="#fn-fn1032">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the assembly of the venerable meditative monks. This is
+the thirty-third sermon in the series of sermons on Nibbāna.</p>
+<p>Towards the end of our last sermon, the other day, we happened to mention that
+in developing the noble eightfold path fully intent on Nibbāna, all the other
+enlightenment factors, namely the four foundations of mindfulness, the four
+right endeavours, the four bases for success, the five spiritual faculties, the
+five powers and the seven factors of enlightenment go to fulfilment by
+development.</p>
+<p>Though we started analyzing the way in which the Buddha clarified the
+above-mentioned peculiarity of the noble eightfold path in the
+<em>Mahāsaḷāyatanikasutta</em> of the <em>Majjhima Nikāya</em>, we could not finish it.</p>
+<p>From the sutta passage we quoted the other day, we could see how the lack of
+knowledge of things as they are in regard to the six-fold sense-sphere gives
+rise to attachments, entanglements and delusions. As a result of it, the five
+aggregates of grasping get accumulated, leading to an increase in craving that
+makes for re-becoming, as well as an increase in bodily stresses and torment,
+mental stresses and torment, bodily fevers and mental fevers, and bodily and
+mental suffering.</p>
+<p>Today, to begin with, let us discuss the rest of that discourse.</p>
+<blockquote>
+<p><em>Cakkhuñca kho, bhikkhave, jānaṁ passaṁ yathābhūtaṁ, rūpe jānaṁ passaṁ
+yathābhūtaṁ, cakkhuviññāṇaṁ jānaṁ passaṁ yathābhūtaṁ, cakkhusamphassaṁ jānaṁ
+passaṁ yathābhūtaṁ, yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ
+vā dukkhaṁ vā adukkhamasukhaṁ vā tampi jānaṁ passaṁ yathābhūtaṁ, cakkhusmiṁ na
+sārajjati, rūpesu na sārajjati, cakkhuviññāṇe na sārajjati, cakkhusamphasse na
+sārajjati, yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā
+dukkhaṁ vā adukkhamasukhaṁ vā tasmimpi na sārajjati.</em></p>
+<p><em>Tassa asārattassa asaṁyuttasa asammūḷhassa ādīnavānupassino viharato āyatiṁ
+pañcupādānakkhandhā apacayaṁ gacchanti. Taṇhā cassa ponobhavikā
+nandirāgasahagatā tatratatrābhinandinī sā cassa pahīyati. Tassa kāyikāpi
+darathā pahīyanti, cetasikāpi darathā pahīyanti, kāyikāpi santāpā pahīyanti,
+cetasikāpi santāpā pahīyanti, kāyikāpi pariḷāhā pahīyanti, cetasikāpi pariḷāhā
+pahīyanti. So kāyasukhampi cetosukhampi paṭisaṁvedeti.</em><sup class="footnote-reference" id="fr-fn1033-1"><a href="#fn-fn1033">2</a></sup></p>
+<p>Monks, knowing and seeing the eye as it actually is, knowing and seeing forms
+as they actually are, knowing and seeing eye-consciousness as it actually is,
+knowing and seeing eye-contact as it actually is, whatever is felt, pleasant
+or unpleasant or neither-unpleasant-nor-pleasant, arising in dependence on
+eye-contact, knowing and seeing that too as it actually is, one does not get
+lustfully attached to the eye, to forms, to eye-consciousness, to eye-contact,
+and to whatever is felt as pleasant or unpleasant or
+neither-unpleasant-nor-pleasant, arising in dependence on eye-contact.</p>
+<p>And for him, who is not lustfully attached, not fettered, not infatuated,
+contemplating danger, the five aggregates of grasping get diminished for the
+future and his craving, which makes for re-becoming, which is accompanied by
+delight and lust, delighting now here now there, is abandoned, his bodily
+stresses are abandoned, his mental stresses are abandoned, his bodily torments
+are abandoned, his mental torments are abandoned, his bodily fevers are
+abandoned, his mental fevers are abandoned, and he experiences bodily and
+mental happiness.</p>
+</blockquote>
+<p>Then the Buddha goes on to point out how the noble eightfold path gets developed
+in this noble disciple by this training in regard to the six spheres of sense.</p>
+<blockquote>
+<p><em>Yā tathābhūtassa diṭṭhi sāssa hoti sammā diṭṭhi, yo tathābhūtassa saṅkappo
+svāssa hoti sammā saṅkappo, yo tathābhūtassa vāyāmo svāssa hoti sammā vāyāmo,
+yā tathābhūtassa sati sāssa hoti sammā sati, yo tathābhūtassa samādhi svāssa
+hoti sammā samādhi, Pubbeva kho panassa kāyakammaṁ vacīkammaṁ ājīvo
+suparisuddho hoti. Evamassāyaṁ ariyo aṭṭhaṅgiko maggo bhāvanāpāripūriṁ
+gacchati.</em></p>
+<p>The view of a person such as this is right view. The intention of a person
+such as this is right intention. The effort of a person such as this is right
+effort. The mindfulness of a person such as this is right mindfulness. The
+concentration of a person such as this is right concentration. But his bodily
+action, his verbal action and his livelihood have already been purified
+earlier. Thus this noble eightfold path comes to fulfilment in him by
+development.</p>
+</blockquote>
+<p>It is noteworthy that in this context the usual order in citing the factors of
+the path is not found. But at the end we are told that bodily action, verbal
+action and livelihood have already been purified.</p>
+<p>This is reminiscent of the explanation given in the <em>Mahācattārīsakasutta</em>, in
+the previous sermon. That is to say, when the noble eightfold path is perfected
+at the supramundane level, the three factors right speech, right action and
+right livelihood are represented by the very thought of abstaining.</p>
+<p>Now the Buddha proclaims how all the enlightenment factors reach fulfilment by
+development when one develops the noble eightfold path in this way.</p>
+<blockquote>
+<p><em>Tassa evaṁ imaṁ ariyaṁ aṭṭhaṅgikaṁ maggaṁ bhāvayato cattāropi satipaṭṭhānā
+bhāvanāpāripūriṁ gacchanti, cattāropi sammappadhānā bhāvanāpāripūriṁ
+gacchanti, cattāropi iddhipādā bhāvanāpāripūriṁ gacchanti, pañcapi indriyāni
+bhāvanāpāripūriṁ gacchanti, pañcapi balāni bhāvanāpāripūriṁ gacchanti, sattapi
+bojjhaṅgā bhāvanāpāripūriṁ gacchanti. Tass’ime dve dhammā yuganaddhā vattanti,
+samatho ca vipassanā ca.</em></p>
+<p>When he develops this noble eightfold path in this way, the four foundations
+of mindfulness also come to fulfilment by development, the four right
+endeavours also come to fulfilment by development, the four bases for success
+also come to fulfilment by development, the five faculties also come to
+fulfilment by development, the five powers also come to fulfilment by
+development and the seven factors of enlightenment also come to fulfilment by
+development. These two things, namely serenity and insight, occur in him yoked
+evenly together.</p>
+</blockquote>
+<p>The net result of perfecting all the enlightenment factors is summed up by the
+Buddha in the following declaration:</p>
+<blockquote>
+<p><em>So ye dhammā abhiññā pariññeyyā te dhamme abhiññā parijānāti, ye dhammā
+abhiññā pahātabbā te dhamme abhiññā pajahati, ye dhammā abhiññā bhāvetabbā te
+dhamme abhiññā bhāveti, ye dhammā abhiññā sacchikātabbā te dhamme abhiññā
+sacchikaroti.</em></p>
+<p>He comprehends by direct knowledge those things that should be comprehended by
+direct knowledge, he abandons by direct knowledge those things that should be
+abandoned by direct knowledge, he develops by direct knowledge those things
+that should be developed by direct knowledge, he realizes by direct knowledge
+those things that should be realized by direct knowledge.</p>
+</blockquote>
+<p>The things that should be comprehended by direct knowledge are explained in the
+sutta itself as the five aggregates of grasping. The things that should be
+abandoned by direct knowledge are ignorance and craving. The things that should
+be developed by direct knowledge are serenity and insight. The things that
+should be realized by direct knowledge are true knowledge and deliverance.</p>
+<p>So then, as we have already mentioned, the orderly arrangement in these
+thirty-seven enlightenment factors is well illustrated in this discourse. It is
+because of this orderliness that even in a stream-winner, who is well
+established in the noble eightfold path, other enlightenment factors are said to
+be present as if automatically.</p>
+<p>Simply because the phrase <em>ekāyano ayaṁ, bhikkhave, maggo</em> occurs in the
+<em>Satipaṭṭhānasutta</em>, some are tempted to interpret the four foundations of
+mindfulness as ‘the only way’.<sup class="footnote-reference" id="fr-fn1034-1"><a href="#fn-fn1034">3</a></sup></p>
+<p>We have pointed out, with valid reasons on an earlier occasion, that such a
+conclusion is unwarranted. <em>Ekāyano</em> does not mean ‘the only way’, it means
+‘directed to one particular destination’, that is, to Nibbāna. That is why the
+following words occur later on in the same sentence:</p>
+<blockquote>
+<p><em>ñāyassa adhigamāya Nibbānassa sacchikiriyāya</em>,</p>
+<p>for the attainment of the supramundane path, for the realizing of Nibbāna.</p>
+</blockquote>
+<p>The four foundations of mindfulness are the preliminary training for the
+attainment of the supramundane path and realization of Nibbāna. The initial
+start made by the four foundations of mindfulness is carried over by the four
+right endeavours, the four bases for success, the five faculties, the five
+powers and the seven enlightenment factors, to reach the acme of perfection in
+the noble eightfold path.</p>
+<p>In the <em>Mahāsaḷāyatanikasutta</em> we came across the repetitive phrase:</p>
+<blockquote>
+<p><em>jānaṁ passaṁ yathābhūtaṁ</em></p>
+<p>knowing and seeing as it actually is</p>
+</blockquote>
+<p>Used in connection with the eye, forms, eye-consciousness, eye-contact and
+whatever is felt due to eye-contact. Let us examine what this knowing and seeing
+as it actually is amounts to.</p>
+<p>Perception has been compared to a mirage.<sup class="footnote-reference" id="fr-fn1035-1"><a href="#fn-fn1035">4</a></sup> This mirage nature of
+perception has to be understood. A deer which sees a mirage in a plain from a
+distance in the dry season has a perception of water in it. In other words, it
+imagines water in the mirage. Impelled by that imagining, it runs towards the
+mirage with the idea that by running it can do away with the gap between itself
+and the water, and reach that water.</p>
+<p>But there is something that the deer is not aware of, and that is that this gap
+can never be reduced by running.</p>
+<p>So long as there are two ends, there is a middle. This is a maxim worth
+emphasizing. Where there are two ends, there is a middle. If the eye is
+distinguished as one end and what appears in the distance is distinguished as
+water, there is an intervening space, a gap between the two. All these three
+factors are integral in this perceptual situation. That is why the gap can never
+be done away with.</p>
+<p>The emancipated one, who has understood that this can never be eliminated, does
+not run after the mirage. That one with discernment, that <em>arahant</em>, stops short
+at the seen, true to the aphorism <em>diṭṭhe diṭṭhamattaṁ</em>, “in the seen just the
+seen”.<sup class="footnote-reference" id="fr-fn1036-1"><a href="#fn-fn1036">5</a></sup></p>
+<p>He stops at the heard in the heard, he stops at the sensed in the sensed, he
+stops at the cognized in the cognized. He does not go on imagining like that
+deer, taking his stand on perception. He does not imagine a thing seen or one
+who sees. Nor does he entertain imaginings in regard to the heard, the sensed
+and the cognized.</p>
+<p>The fact that this freedom from imaginings is there in an <em>arahant</em> is clear
+from the statement we quoted from the <em>Chabbisodhanasutta</em> on an earlier
+occasion. According to that discourse, a monk rightly claiming <em>arahanthood</em>,
+one who declares himself to be an <em>arahant</em>, should be able to make the
+following statement in respect of the seen, the heard, the sensed and the
+cognized.</p>
+<blockquote>
+<p><em>Diṭṭhe kho ahaṁ, āvuso, anupāyo anapāyo anissito appaṭibaddho vippamutto
+visaṁyutto vimariyādikatena cetasā viharāmi.</em><sup class="footnote-reference" id="fr-fn1037-1"><a href="#fn-fn1037">6</a></sup></p>
+<p>Friends, with regard to the seen, I dwell unattracted, unrepelled,
+independent, uninvolved, released, unshackled, with a mind free from barriers.</p>
+</blockquote>
+<p>Now let us try to understand this statement in the light of what we have already
+said about the mirage. One can neither approach nor retreat from a mirage.
+Generally, when one sees a mirage in the dry season, one imagines a perception
+of water in it and runs towards it due to thirst.</p>
+<p>But let us, for a moment, think that on seeing the mirage one becomes
+apprehensive of a flood and turns and runs away to escape it. Having run some
+far, if he looks back he will still see the mirage behind him.</p>
+<p>So in the case of a mirage, the more one approaches it, the farther it recedes,
+the more one recedes from it, the nearer it appears. So in regard to the mirage
+of percepts, such as the seen and the heard, the <em>arahant</em> neither approaches
+nor recedes. Mentally he neither approaches nor recedes, though he may appear to
+do both physically, from the point of view of the worldling – <em>anupāyo anapāyo</em>,
+unattracted, unrepelled.</p>
+<p>It is the same with regard to the term <em>anissito</em>, independent. He does not
+resort to the mirage with the thought “Ah, here is a good reservoir”.</p>
+<p><em>Appaṭibaddho</em>, uninvolved, he is not mentally involved in the mirage.</p>
+<p><em>Vippamutto</em>, released, he is released from the perception of water in the
+mirage, from imagining water in it.</p>
+<p><em>Visaṁyutto,</em> unshackled, he is not bound by it.</p>
+<p><em>Vimariyādikatena cetasā</em>, with a mind free from barriers. What are these
+barriers? The two ends and the middle. The demarcation mentioned above by
+distinguishing eye as distinct from form, with the intervening space or the gap
+as the ‘tertium quid’. So for the <em>arahant</em> there are no barriers by taking the
+eye, the forms and the gap as discrete.</p>
+<p>Now from what we have already discussed, it should be clear that by <em>maññanā</em> or
+imagining a thing-hood is attributed to the seen, the heard, the sensed and the
+cognized. One imagines a thing in the seen, heard etc. By that very imagining as
+a thing it becomes another thing, true to the dictum expressed in the line of
+that verse from the <em>Dvayatānupassanāsutta</em> we had quoted earlier,</p>
+<blockquote>
+<p><em>yena yena hi maññanti, tato taṁ hoti aññāthā</em>,<sup class="footnote-reference" id="fr-fn1038-1"><a href="#fn-fn1038">7</a></sup></p>
+<p>in whatever egoistic terms they imagine, thereby it turns otherwise.</p>
+</blockquote>
+<p>That is why we earlier said that a thing has to be there first for it to become
+another thing, for there to be an otherwiseness. The more one tries to approach
+the thing imagined, the more it recedes.</p>
+<p>In our analysis of the <em>Mūlapariyāyasutta</em>, we discussed at length about the
+three levels of knowledge mentioned there, namely <em>saññā, abhiññā</em> and
+<em>pariññā</em>.<sup class="footnote-reference" id="fr-fn1039-1"><a href="#fn-fn1039">8</a></sup></p>
+<p>The untaught worldling is bound by sense-perception and goes on imagining
+according to it. Perceiving earth in the earth element, he imagines ‘earth’ as a
+thing, he imagines ‘in the earth’, ‘earth is mine’, ‘from the earth’ etc. So
+also with regard to the seen, <em>diṭṭha</em>.</p>
+<p>But the disciple in training, <em>sekha</em>, since he has a higher knowledge of
+conditionality, although he has not exhausted the influxes and latencies, trains
+in resisting from the tendency to imagine. An emancipated one, the <em>arahant</em>,
+has fully comprehended the mirage nature of perception.</p>
+<p>It seems, therefore, that these forms of <em>maññanā</em> enable one to imagine things,
+attributing a notion of substantiality to sense data. In fact, what we have here
+is only a heap of imaginings. There is also an attempt to hold on to things
+imagined. Craving lends a hand to it, and so there is grasping, <em>upādāna</em>.
+Thereby the fact that there are three conditions is ignored or forgotten.</p>
+<p>In our analysis of the <em>Madhupiṇḍikasutta</em> we came across a highly significant
+statement:</p>
+<blockquote>
+<p><em>cakkhuñc’āvuso paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ,</em><sup class="footnote-reference" id="fr-fn1040-1"><a href="#fn-fn1040">9</a></sup></p>
+<p>dependent on the eye and forms, friends, arises eye-consciousness.</p>
+</blockquote>
+<p>The deepest point in sense perception is already implicit there. This statement
+clearly indicates that eye-consciousness is dependently arisen. Thereby we are
+confronted with the question of the two ends and the middle, discussed above.</p>
+<p>In fact, what is called eye-consciousness is the very discrimination between eye
+and form. At whatever moment the eye is distinguished as the internal sphere and
+form is distinguished as the external sphere, it is then that eye-consciousness
+arises. That itself is the gap in the middle, the intervening space. Here, then,
+we have the two ends and the middle.</p>
+<p>To facilitate understanding this situation, let us hark back to the simile of
+the carpenter we brought up in an earlier sermon.<sup class="footnote-reference" id="fr-fn1041-1"><a href="#fn-fn1041">10</a></sup></p>
+<p>We mentioned that a carpenter, fixing up a door by joining two planks, might
+speak of the contact between the two planks when his attention is turned to the
+intervening space, to see how well one plank touches the other. The concept of
+touching between the two planks came up because the carpenter’s attention picked
+up the two planks as separate and not as one board.</p>
+<p>A similar phenomenon is implicit in the statement <em>cakkhuñca paṭicca rūpe ca
+uppajjati cakkhuviññāṇaṁ</em>, “dependent on eye and forms arises
+eye-consciousness”. In this perceptual situation, the eye is distinguished from
+forms. That discrimination itself is consciousness. That is the gap or the
+interstice, the middle. So here we have the two ends and the middle.</p>
+<p>Eye-contact, from the point of view of Dhamma, is an extremely complex
+situation. As a matter of fact, it is something that has two ends and a middle.
+The two ends and the middle belong to it. However, there is a tendency in the
+world to ignore this middle.</p>
+<p>The attempt to tie up the two ends by ignoring the middle is <em>upādāna</em> or
+grasping. That is impelled by craving, <em>taṇhā</em>. Due to craving, grasping occurs
+as a matter of course. It is as if the deer, thinking “I am here and the water
+is there, so let me get closer”, starts running towards it. The gap is ignored.</p>
+<p>A similar thing happens in the case of sense perception. What impels one to
+ignore that gap is craving. It is sometimes called <em>lepa</em> or glue. With that
+agglutinative quality in craving the gap is continually sought to be glued up
+and ignored.</p>
+<p>The Buddha has compared craving to a seamstress. The verb <em>sibbati</em> or
+<em>saṁsibbati</em> is used to convey the idea of sewing and weaving both. In sewing as
+well as in weaving, there is an attempt to reduce a gap by stitching up or
+knitting up. What is called <em>upādāna</em>, grasping or holding on, is an attempt to
+tie up two ends with the help of <em>taṇhā</em>, craving or thirst.</p>
+<p>In the <em>Tissametteyyasutta</em> of the <em>Pārāyaṇavagga</em> in the <em>Sutta Nipāta</em>, the
+Buddha shows how one can bypass this seamstress or weaver that is craving and
+attain emancipation in the following extremely deep verse.</p>
+<blockquote>
+<p><em>Yo ubh’ anta-m-abhiññāya</em> <br />
+<em>majjhe mantā na lippati,</em> <br />
+<em>taṁ brūmi mahāpuriso’ti</em> <br />
+<em>so ’dha sibbanim accagā.</em> <sup class="footnote-reference" id="fr-fn1042-1"><a href="#fn-fn1042">11</a></sup></p>
+<p>He who, having known both ends, <br />
+With wisdom does not get attached to the middle, <br />
+Him I call a great man, <br />
+He has gone beyond the seamstress in this [world].</p>
+</blockquote>
+<p>This verse is so deep and meaningful that already during the lifetime of the
+Buddha, when he was dwelling at Isipatana in Benares, a group of Elder Monks
+gathered at the assembly hall and held a symposium on the meaning of this verse.</p>
+<p>In the Buddha’s time, unlike today, for deep discussions on Dhamma, they took up
+such deep topics as found in the <em>Aṭṭhakavagga</em> and <em>Pārāyaṇavagga</em> of the
+<em>Sutta Nipāta</em>. In this case, the topic that came up for discussion, as recorded
+among the Sixes in the <em>Aṅguttara Nikāya</em>, is as follows:</p>
+<blockquote>
+<p><em>Katamo nu kho, āvuso, eko anto, katamo dutiyo anto, kiṁ majjhe, kā
+sibbani?</em><sup class="footnote-reference" id="fr-fn1043-1"><a href="#fn-fn1043">12</a></sup></p>
+<p>What, friends, is the one end, what is the second end, what is in the middle
+and who is the seamstress?</p>
+</blockquote>
+<p>The first venerable Thera, who addressed the assembly of monks on this topic,
+offered the following explanation:</p>
+<blockquote>
+<p>Contact, friends, is one end, arising of contact is the second end, cessation
+of contact is in the middle, craving is the seamstress, for it is craving that
+stitches up for the birth of this and that specific existence.</p>
+<p>In so far, friends, does a monk understand by higher knowledge what is to be
+understood by higher knowledge, comprehend by full understanding what is to be
+comprehended by full understanding. Understanding by higher knowledge what is
+to be understood by higher knowledge, comprehending by full understanding what
+is to be comprehended by full understanding, he becomes an ender of suffering
+in this very life.</p>
+</blockquote>
+<p>Craving, according to this interpretation, is a seamstress, because it is
+craving that puts the stitch for existence.</p>
+<p>Then a second venerable Thera puts forth his opinion. According to his point of
+view, the past is one end, the future is the second end, the present is the
+middle, craving is the seamstress.</p>
+<p>A third venerable Thera offered his interpretation. For him, one end is pleasant
+feeling, the second end is unpleasant or painful feeling, and the middle is
+neither-unpleasant-nor-pleasant feeling. Craving is again the seamstress.</p>
+<p>A fourth venerable Thera opines that the one end is name, the second end is
+form, the middle is consciousness and the seamstress is craving.</p>
+<p>A fifth venerable Thera puts forward the view that the one end is the six
+internal sense-spheres, the second end is the six external sense-spheres,
+consciousness is the middle and craving is the seamstress.</p>
+<p>A sixth venerable Thera is of the opinion that the one end is <em>sakkāya</em>, a term
+for the five aggregates of grasping, literally the ‘existing body’. The second
+end, according to him, is the arising of <em>sakkāya</em>. The middle is the cessation
+of <em>sakkāya</em>. As before, the seamstress is craving.</p>
+<p>When six explanations had come up before the symposium, one monk suggested,
+somewhat like a point of order, that since six different interpretations have
+come up, it would be best to approach the teacher, the Fortunate One, and report
+the discussion for clarification and correct judgement.</p>
+<p>Approving that suggestion, they all went to the Buddha and asked:</p>
+<blockquote>
+<p><em>Kassa nu kho, bhante, subhāsitaṁ?</em></p>
+<p>Venerable sir, whose words are well spoken?</p>
+</blockquote>
+<p>The Buddha replied:</p>
+<blockquote>
+<p>Monks, what you all have said is well said from some point of view or other.
+But that for which I preached that verse in the <em>Metteyyapañha</em> is this.</p>
+</blockquote>
+<p>Quoting the verse in question the Buddha explains:</p>
+<blockquote>
+<p>Monks, contact is one end, the arising of contact is the second end, the
+cessation of contact is in the middle, craving is the seamstress, for it is
+craving that puts the stitch for the birth of this or that existence.</p>
+<p>In so far, monks, does a monk understand by higher knowledge what is to be
+understood by higher knowledge, and comprehend by full understanding what is
+to be comprehended by full understanding. Understanding by higher knowledge
+what is to be understood by higher knowledge, and comprehending by full
+understanding what is to be comprehended by full understanding, he becomes an
+ender of suffering in this very life.</p>
+</blockquote>
+<p>The Buddha’s explanation happens to coincide with the interpretation given by
+the first speaker at the symposium. However, since he ratifies all the six
+interpretations as well said, we can see how profound and at the same time broad
+the meaning of this cryptic verse is.</p>
+<p>Let us now try to understand these six explanations. One can make use of these
+six as meditation topics. The verse has a pragmatic value and so also the
+explanations given. What is the business of this seamstress or weaver?</p>
+<p>According to the first interpretation, craving stitches up the first end,
+contact, with the second end, the arising of contact, ignoring the middle, the
+cessation of contact. It is beneath this middle, the cessation of contact, that
+ignorance lurks.</p>
+<p>As the line implies: <em>majjhe mantā na lippati</em>, “with wisdom does not get
+attached to the middle”, when what is in the middle is understood, there is
+emancipation. One is released from craving. So our special attention should be
+directed to what lies in the middle, the cessation of contact.</p>
+<ol>
+<li>
+<p>Therefore, according to the first interpretation, the seamstress, craving,
+stitches up contact and the arising of contact, ignoring the cessation of
+contact.</p>
+</li>
+<li>
+<p>According to the second interpretation, the past and the future are stitched up, ignoring the present.</p>
+</li>
+<li>
+<p>The third interpretation takes it as a stitching up of unpleasant feeling and
+pleasant feeling, ignoring the neither-unpleasant-nor-pleasant feeling.</p>
+</li>
+<li>
+<p>The fourth interpretation speaks of stitching up name and form, ignoring consciousness.</p>
+</li>
+<li>
+<p>For the fifth interpretation, it is a case of stitching up the six internal
+sense-spheres with the six external sense-spheres, ignoring consciousness.</p>
+</li>
+<li>
+<p>In the sixth interpretation, we are told of a stitching up of <em>sakkāya</em>, or
+‘existing-body’, with the arising of the existing-body, ignoring the
+cessation of the existing-body.</p>
+</li>
+</ol>
+<p>We mentioned above that in sewing as well as in weaving there is an attempt to
+reduce a gap by stitching up or knitting up. These interpretations show us that
+ignoring the middle is a common trait in the worldling. It is there that
+ignorance lurks. If one rightly understands this middle dispassion sets in,
+leading to disenchantment, relinquishment and deliverance.</p>
+<p>Let us now turn our attention to a few parallel discourses that throw some light
+on the depth of these meditation topics. We come across two verses in the
+<em>Dvayatānupassanāsutta</em> of the <em>Sutta Nipāta</em>, which are relevant to the first
+interpretation, namely that which concerns contact, the arising of contact and
+the cessation of contact.</p>
+<blockquote>
+<p><em>Sukhaṁ vā yadi va dukkhaṁ,</em> <br />
+<em>adukkhamasukhaṁ sahā,</em> <br />
+<em>ajjhattañ ca bahiddhā ca</em> <br />
+<em>yaṁ kiñci atthi veditaṁ,</em> <br />
+<em>etaṁ ’dukkhan’ti ñatvāna,</em></p>
+<p><em>mosadhammaṁ palokinaṁ</em>, <br />
+<em>phussa phussa vayaṁ passaṁ</em> <br />
+<em>evaṁ tattha virajjati,</em> <br />
+<em>vedanānaṁ khayā bhikkhu,</em> <br />
+<em>nicchāto parinibbuto.</em><sup class="footnote-reference" id="fr-fn1044-1"><a href="#fn-fn1044">13</a></sup></p>
+<p>Be it pleasant or unpleasant, <br />
+Or neither-unpleasant-nor-pleasant, <br />
+Inwardly or outwardly, <br />
+All what is felt, <br />
+Knowing it as ‘pain’,</p>
+<p>Delusive and brittle, <br />
+Touch after touch, seeing how it wanes, <br />
+That way he grows dispassionate therein, <br />
+By the extinction of feeling it is <br />
+That a monk becomes hungerless and fully appeased.</p>
+</blockquote>
+<p>The following two lines are particularly significant, as they are relevant to
+the knowledge of ‘breaking up’ in the development of insight.</p>
+<blockquote>
+<p><em>phussa phussa vayaṁ passaṁ</em> <br />
+<em>evaṁ tattha virajjati.</em></p>
+<p>Touch after touch, seeing how it wanes, <br />
+that way he grows dispassionate therein.</p>
+</blockquote>
+<p>It seems, therefore, that generally the cessation of contact is ignored or
+slurred over by the worldling’s mind, busy with the arising aspect. Therefore
+the seeing of cessation comes only with the insight knowledge of seeing the
+breaking up, <em>bhaṅgañāṇa</em>.</p>
+<p>As an illustration in support of the second interpretation we may quote the
+following verses from the <em>Bhaddekarattasutta</em> of the <em>Majjhima Nikāya</em>:</p>
+<blockquote>
+<p><em>Atītaṁ nānvāgameyya,</em> <br />
+<em>nappaṭikaṅkhe anāgataṁ</em> <br />
+<em>yad atītaṁ pahīnaṁ taṁ</em> <br />
+<em>appattañ ca anāgataṁ.</em> <br />
+<em>Paccuppannañ ca yo dhammaṁ</em> <br />
+<em>tattha tattha vipassati,</em> <br />
+<em>asaṁhīraṁ asaṁkuppaṁ</em> <br />
+<em>taṁ vidvā-m-anubrūhaye.</em><sup class="footnote-reference" id="fr-fn1045-1"><a href="#fn-fn1045">14</a></sup></p>
+<p>Let one not trace back whatever is past, <br />
+Nor keep on hankering for the not yet come, <br />
+Whatever is past is gone for good, <br />
+That which is future is yet to come. <br />
+But [whoever] sees that which rises up, <br />
+As now with insight as and when it comes, <br />
+Neither ‘drawing in’ nor ‘pushing on’, <br />
+That kind of stage should the wise cultivate.</p>
+</blockquote>
+<p>In the reflection on preparations, <em>saṅkhārā</em>, in deep insight meditation, it is
+the present preparations that are presented to reflection. That is why we find
+the apparently unusual order <em>atīta – anāgata – paccuppanna</em>, ‘past – future –
+present’, mentioned everywhere in the discourses.</p>
+<p>To reflect on past preparations is relatively easy, so also are the future
+preparations. It is the present preparations that are elusive and difficult to
+muster. But in deep insight meditation the attention should be on the present
+preparations. So much is enough for the second interpretation.</p>
+<p>The third interpretation has to do with the three grades of feeling, the
+pleasant, unpleasant and the neither-unpleasant-nor-pleasant. About these we
+have already discussed at length, on an earlier occasion, in connection with the
+long dialogue between the Venerable <em>arahant</em> nun Dhammadinnā and the lay
+disciple Visākha on the question of those three grades of feeling. Suffice it
+for the present to cite the following relevant sections of that dialogue.</p>
+<blockquote>
+<p><em>Sukhāya vedanāya dukkhā vedanā paṭibhāgo …</em> <br />
+<em>dukkhāya vedanāya sukhā vedanā paṭibhāgo …</em> <br />
+<em>adukkhamasukhāya vedanāya avijjā paṭibhāgo …</em> <br />
+<em>avijjāya vijjā paṭibhāgo …</em> <br />
+<em>vijjāya vimutti paṭibhāgo …</em> <br />
+<em>vimuttiyā Nibbānaṁ paṭibhāgo.</em><sup class="footnote-reference" id="fr-fn1046-1"><a href="#fn-fn1046">15</a></sup></p>
+<p>Unpleasant feeling is the counterpart of pleasant feeling … <br />
+pleasant feeling is the counterpart of unpleasant feeling … <br />
+ignorance is the counterpart of neither-unpleasant-nor-pleasant feeling … <br />
+knowledge is the counterpart of ignorance … <br />
+deliverance is the counterpart of knowledge … <br />
+Nibbāna is the counterpart of deliverance.</p>
+</blockquote>
+<p>The counterpart or the ‘other half’ of pleasant feeling is unpleasant feeling.
+The counterpart of unpleasant feeling is pleasant feeling. Between these two
+there is a circularity in relationship, a seesawing. There is no way out.</p>
+<p>But there is in the middle neither-unpleasant-nor-pleasant feeling. The
+counterpart of neither-unpleasant-nor-pleasant feeling is ignorance. So we see
+how the neutrality and indifference of equanimity has beneath it ignorance.</p>
+<p>But luckily there is the good side in this pair of counterparts. Deliverance
+lies that way, for knowledge is the counterpart of ignorance. When ignorance is
+displaced, knowledge surfaces. From knowledge comes deliverance, and from
+deliverance Nibbāna or extinction. This much is enough for the third
+interpretation.</p>
+<p>Now for the fourth interpretation. Here we have consciousness between name-and-form. Let us remind ourselves of the two verses quoted in an earlier sermon from the <em>Dvayatānupassanāsutta</em> of the <em>Sutta Nipāta</em>.</p>
+<blockquote>
+<p><em>Ye ca rūpūpagā sattā</em> <br />
+<em>ye ca arūpaṭṭhāyino,</em> <br />
+<em>nirodhaṁ appajānantā</em> <br />
+<em>āgantāro punabbhavaṁ.</em></p>
+<p><em>Ye ca rūpe pariññāya,</em> <br />
+<em>arūpesu asaṇṭhitā,</em> <br />
+<em>nirodhe ye vimuccanti,</em> <br />
+<em>te janā maccuhāyino.</em><sup class="footnote-reference" id="fr-fn1047-1"><a href="#fn-fn1047">16</a></sup></p>
+<p>Those beings that go to realms of form, <br />
+And those who are settled in formless realms, <br />
+Not understanding the fact of cessation, <br />
+Come back again and again to existence.</p>
+<p>Those who, having comprehended realms of form, <br />
+Do not settle in formless realms, <br />
+Are released in the experience of cessation, <br />
+It is they that are the dispellers of death.</p>
+</blockquote>
+<p>The cessation here referred to is the cessation of consciousness, or the
+cessation of becoming. Such emancipated ones are called ‘dispellers of death’,
+<em>maccuhāyino</em>.</p>
+<p>We have mentioned earlier that, before the advent of the Buddha and even
+afterwards, sages like Āḷāra Kālāma tried to escape form, <em>rūpa</em>, by grasping
+the formless, <em>arūpa</em>. But only the Buddha could point out that one cannot win
+release from form by resorting to the formless. Release from both should be the
+aim.</p>
+<p>How could that come about? By the cessation of consciousness which discriminates
+between form and formless. It is tantamount to the cessation of existence,
+<em>bhavanirodha</em>.</p>
+<p>As a little hint to understand this deep point, we may allude to that simile of
+the dog on the plank across the stream which we brought up several times. Why
+does that dog keep on looking at the dog it sees in the water, its own
+reflection? Because it is unaware of the reflexive quality of the water.</p>
+<p>Consciousness is like that water which has the quality of reflecting on its
+surface. What is there between the <strong>seen</strong> dog and the <strong>looking</strong> dog as the
+middle is consciousness itself. One can therefore understand why consciousness
+is said to be in the middle between name and form.</p>
+<p>Generally, in the traditional analysis of the relation between name-and-form and
+consciousness, this fact is overlooked. True to the simile of the magical
+illusion, given to consciousness, its middle position between name and form is
+difficult for one to understand. Had the dog understood the reflective quality
+of water, it would not halt on that plank to gaze down and growl.</p>
+<p>The fifth interpretation puts the six internal sense-spheres and the six
+external sense-spheres on either side, to have consciousness in the middle. A
+brief explanation would suffice.</p>
+<blockquote>
+<p><em>Dvayaṁ, bhikkhave, paṭicca viññāṇaṁ sambhoti</em>,<sup class="footnote-reference" id="fr-fn1048-1"><a href="#fn-fn1048">17</a></sup></p>
+<p>monks, dependent on a dyad consciousness arises,</p>
+</blockquote>
+<p>… says the Buddha. That is to say, dependent on internal and external
+sense-spheres consciousness arises. As we have already pointed out,
+consciousness is the very discrimination between the two. Therefore
+consciousness is the middle.</p>
+<p>So at the moment when one understands consciousness, one realizes that the fault
+lies in this discrimination itself. The farther limit of the internal is the
+nearer limit of the external. One understands then that the gap, the interstice
+between them, is something imagined.</p>
+<p>Then as to the sixth interpretation, we have the <em>sakkāya</em>, the ‘existing body’,
+and <em>sakkāyasamudaya</em>, the arising of the existing body, as the two ends.</p>
+<p>Because the term <em>sakkāya</em> is not often met with, it might be difficult to
+understand what it means. To be brief, the Buddha has defined the term as
+referring to the five aggregates of grasping.<sup class="footnote-reference" id="fr-fn1049-1"><a href="#fn-fn1049">18</a></sup> Its derivation, <em>sat +
+kāya</em>, indicates that the term is suggestive of the tendency to take the whole
+group as existing, giving way to the perception of the compact, <em>ghanasaññā</em>.</p>
+<p>The arising of this notion of an existing body is <em>chandarāga</em> or desire and
+lust. It is due to desire or craving that one grasps a heap as a compact whole.
+The cessation of the existing body is the abandonment of desire and lust. This,
+then, is a summary of the salient points in these six interpretations as
+meditation topics for realization.</p>
+<p>Let us now turn our attention to the sewing and weaving spoken of here. We have
+mentioned above that both in sewing and weaving a knotting comes in, as a way of
+reducing the gap. This knotting involves some kind of attracting, binding and
+entangling. In the case of a sewing machine, every time the needle goes down,
+the shuttle hastens to put a knot for the stitch. So long as this attraction
+continues, the stitching goes on.</p>
+<p>There is some relation between sewing and weaving. Sewing is an attempt to put
+together two folds. In weaving a single thread of cotton or wool is looped into
+two folds. In both there is a formation of knots. As already mentioned, knots
+are formed by some sort of attraction, binding and entangling.</p>
+<p>Now craving is the seamstress who puts the stitches to this existence, <em>bhava</em>.
+She has a long line of qualifications for it. <em>Ponobhavikā nandirāgasahagatā
+tatratatrābhinandinī</em> are some of the epithets for craving.</p>
+<p>She is the perpetrator in re-becoming or renewed existence, <em>ponobhavikā</em>,
+bringing about birth after birth. She has a trait of delighting and lusting,
+<em>nandirāgasahagatā</em>. Notoriously licentious she delights now here now there,
+<em>tatratatrābhinandinī</em>. Like that seamstress, craving puts the stitches into
+existence, even as the needle and the shuttle.</p>
+<p>Craving draws in with <em>upādāna</em>, grasping, while conceit binds and views
+complete the entanglement. That is how existence gets stitched up.</p>
+<p>At whatever moment the shuttle runs out of its load of cotton, the apparent
+stitches do not result in a seam. Similarly, in a weaving, if instead of drawing
+in the thread to complete the knot it is drawn out, all what is woven will be
+undone immediately. This is the difference between existence and its cessation.
+Existence is a formation of knots and stress. Cessation is an unravelling of
+knots and rest.</p>
+<p><strong>Existence is a formation of knots and stress. Cessation is an unravelling of
+knots and rest.</strong></p>
+<p>The following verse in the <em>Suddhaṭṭhakasutta</em> of the <em>Sutta Nipāta</em> seems to
+put in a nutshell the philosophy behind the simile of the seamstress.</p>
+<blockquote>
+<p><em>Na kappayanti na purekkharonti</em> <br />
+<em>‘accantasuddhī’ ti na te vadanti,</em> <br />
+<em>ādānaganthaṁ gathitaṁ visajja,</em> <br />
+<em>āsaṁ na kubbanti kuhiñci loke.</em><sup class="footnote-reference" id="fr-fn1050-1"><a href="#fn-fn1050">19</a></sup></p>
+<p>They fabricate not, they proffer not, <br />
+Nor do they speak of a ‘highest purity’, <br />
+Unravelling the tangled knot of grasping, <br />
+They form no desire anywhere in the world.</p>
+</blockquote>
+<p>The comments we have presented here, based on the verse beginning with <em>yo ubh’
+anta-m-abhiññāya</em> could even be offered as a synopsis of the entire series of
+thirty-three sermons.</p>
+<p>All what we brought up in these sermons concerns the question of the two ends
+and the middle. The episode of the two ends and the middle enshrines a profound
+insight into the law of dependent arising and the Buddha’s teachings on the
+middle path. That is why we said that the verse in question is both profound and
+broad, as far as its meaning is concerned.</p>
+<p>So now that we have presented this synoptic verse, we propose to wind up this
+series of sermons.</p>
+<p>As a matter of fact, the reason for many a misconception about Nibbāna is a lack
+of understanding the law of dependent arising and the middle path. For the same
+reason, true to the Buddha’s description of beings as taking delight in
+existence, <em>bhavarāmā</em>, lusting for existence, <em>bhavaratā</em>, and rejoicing in
+existence, <em>bhavasammuditā</em>,<sup class="footnote-reference" id="fr-fn1051-1"><a href="#fn-fn1051">20</a></sup> Nibbāna came to be apprehensively
+misconstrued as tantamount to annihilation.</p>
+<p>Therefore even commentators were scared of the prospect of a cessation of
+existence and tried to explain away Nibbāna through definitions that serve to
+perpetuate craving for existence.</p>
+<p>If by this attempt of ours to clear the path to Nibbāna, overgrown as it is
+through neglect for many centuries, due to various social upheavals, any store
+of merit accrued to us, may it duly go to our most venerable Great Preceptor,
+who so magnanimously made the invitation to deliver this series of sermons. As
+he is staying away for medical treatment at this moment, aged and ailing, let us
+wish him quick recovery and long life. May all his Dhamma aspirations be
+fulfilled!</p>
+<p>May the devoted efforts in meditation of all those fellow dwellers in this holy
+life, who listened to these sermons and taped them for the benefit of those who
+would like to lend ear to them, be rewarded with success! Let a myriad <em>arahant</em>
+lotuses, unsmeared by water and mud, bright petalled and sweet scented, bloom
+all over the forest hermitage pond. May the merits accrued by giving these
+sermons be shared by my departed parents, who brought me up, my teachers, who
+gave me vision, and my friends, relatives and lay supporters, who helped keep
+this frail body alive. May they all attain the bliss of Nibbāna!</p>
+<p>May all gods and Brahmās and all beings rejoice in the merits accrued by these
+sermons! May it conduce to the attainment of that peaceful and excellent
+Nibbāna! May the dispensation of the Fully Enlightened One endure long in this
+world! Let this garland of well preached Dhamma words be a humble offering at
+the foot of the Dhamma shrine, which received honour and worship even from the
+Buddha himself.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn1032"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn1032-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1033"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/mn149/pli/ms">MN 149 / M III 288</a>, <em>Mahāsaḷāyatanikasutta</em> <a href="#fr-fn1033-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1034"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/mn9/pli/ms">MN 9 / M I 55</a>, <em>Satipaṭṭhānasutta</em> <a href="#fr-fn1034-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1035"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/sn22.95/pli/ms">SN 22.95 / S III 142</a>, <em>Pheṇapiṇḍūpamasutta</em> <a href="#fr-fn1035-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1036"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 8</a>, <em>Bāhiyasutta</em> <a href="#fr-fn1036-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1037"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/mn112/pli/ms">MN 112 / M III 30</a>, <em>Chabbisodhanasutta</em>; see <em>Sermon 15</em> <a href="#fr-fn1037-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1038"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 757</a>, <em>Dvayatānupassanāsutta</em>; see <em>Sermon 13</em> <a href="#fr-fn1038-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1039"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/mn1/pli/ms">MN 1 / M I 1</a>, <em>Mūlapariyāyasutta</em>; see <em>Sermon 12</em> <a href="#fr-fn1039-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1040"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/mn18/pli/ms">MN 18 / M I 111</a>, <em>Madhupiṇḍikasutta</em>; see <em>Sermon 11</em> <a href="#fr-fn1040-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1041"><sup class="footnote-definition-label">10</sup>
+<p>See <em>Sermon 10</em> <a href="#fr-fn1041-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1042"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/snp5.3/pli/ms">Snp 5.3 / Sn 1042</a>, <em>Tissametteyyamāṇavapucchā</em> <a href="#fr-fn1042-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1043"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/an6.61/pli/ms">AN 6.61 / A III 399</a>, <em>Majjhesutta</em> <a href="#fr-fn1043-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1044"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 738-739</a>, <em>Dvayatānupassanāsutta</em> <a href="#fr-fn1044-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1045"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/mn131/pli/ms">MN 131 / M III 187</a>, <em>Bhaddekarattasutta</em> <a href="#fr-fn1045-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1046"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/mn44/pli/ms">MN 44 / M I 304</a>, <em>Cūḷavedallasutta</em> <a href="#fr-fn1046-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1047"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 754-755</a>, <em>Dvayatānupassanāsutta</em>, see <em>Sermon 15</em> <a href="#fr-fn1047-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1048"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/sn35.93/pli/ms">SN 35.93 / S IV 67</a>, <em>Dutiyadvayasutta</em> <a href="#fr-fn1048-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1049"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/sn22.105/pli/ms">SN 22.105 / S III 159</a>, <em>Sakkāyasutta</em> <a href="#fr-fn1049-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1050"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/snp4.4/pli/ms">Snp 4.4 / Sn 794</a>, <em>Suddhaṭṭhakasutta</em> <a href="#fr-fn1050-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1051"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/iti49/pli/ms">Iti 49 / It 43</a>, <em>Diṭṭhigatasutta</em> <a href="#fr-fn1051-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-32.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="by-the-same-author.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-32.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="by-the-same-author.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

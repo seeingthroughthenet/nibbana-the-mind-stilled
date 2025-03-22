@@ -1,0 +1,991 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 10 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-10-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-10"><a class="header" href="#sermon-10">Sermon 10</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn348-1"><a href="#fn-fn348">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks.</p>
+<p>This is the tenth sermon in the series of sermons on Nibbāna. With the help of a
+parable based on the problem of the gem in the <em>Ummaggajātaka</em>, we made an
+attempt, towards the end of our last sermon, to clarify to some extent how the
+personality view arises due to the ignorance of the fact that name-and-form is
+something reflected on consciousness.</p>
+<p>We mentioned in brief how a certain would-be wise man took the trouble to empty
+a pond and even dig out the mud under the impression that there is actually a
+gem in it, simply because there appeared to be a gem in the pond.</p>
+<p>Similarly, by taking to be real name-and-form, which is only an image reflected
+on consciousness leading to a personality view, <em>sakkāyadiṭṭhi</em>, both eternalism
+and nihilism, built on the two views of existence and non-existence, tended
+towards two extremes. Under the influence of self love, eternalism took up the
+view that there is a self, and looked forward to its perpetuation. Prompted by
+self hate, annihilationism or nihilism cherished the fond hope that the release
+from this self will occur at death. Both these extreme views confuse the issue
+by not understanding the reflected image as such.</p>
+<p>Now how did the middle path, which the Buddha introduced to the world, avoid
+these two extremes? It is by offering a knowledge and vision of things as they
+are, <em>yathābhūtañāṇadassana</em>, in place of those two views of existence and
+non-existence. In other words, he made known to the world the true knowledge and
+vision that name-and-form is merely an image reflected on consciousness.</p>
+<p>There is a special significance in the word <em>yathābhūta</em>. In contradistinction
+to the two words <em>bhava</em> and <em>vibhava</em>, the word <em>bhūta</em> has some peculiarity of
+its own. In order to clarify the meaning of the term <em>yathābhūta</em>, we can draw
+upon a discourse in the <em>Itivuttaka</em>, a few lines of which we had already quoted
+at the end of the previous sermon. When presented in full, that discourse will
+make it clear why the Buddha introduced the word <em>bhūta</em> in preference to the
+existing usage in terms of <em>bhava</em> and <em>vibhava</em>. This is how that discourse
+proceeds:</p>
+<blockquote>
+<p><em>Dvīhi, bhikkhave, diṭṭhigatehi pariyuṭṭhitā devamanussā olīyanti eke,
+atidhāvanti eke, cakkhumanto va passanti. Kathañca, bhikkhave, olīyanti eke?
+Bhavārāmā, bhikkhave, devamanussā bhavaratā bhavasammuditā, tesaṁ
+bhavanirodhāya dhamme desiyamāne cittaṁ na pakkhandati na pasīdati na
+santiṭṭhati nādhimuccati. Evaṁ kho, bhikkhave, olīyanti eke.</em></p>
+<p><em>Kathañca, bhikkhave, atidhāvanti eke? Bhaveneva kho pana eke aṭṭīyamānā
+harāyamānā jigucchamānā vibhavaṁ abhinandanti – yato kira, bho, ayaṁ attā
+kāyassa bhedā paraṁ maraṇā ucchijjati vinassati na hoti paraṁ maraṇā, etaṁ
+santaṁ etaṁ paṇītaṁ etaṁ yāthāvanti. Evaṁ kho, bhikkhave, atidhāvanti eke.</em></p>
+<p><em>Kathañca, bhikkhave, cakkhumanto passanti? Idha bhikkhu bhūtaṁ bhūtato
+passati, bhūtaṁ bhūtato disvā bhūtassa nibbidāya virāgāya nirodhāya paṭipanno
+hoti. Evaṁ kho, bhikkhave, cakkhumanto va passantī’ti.</em><sup class="footnote-reference" id="fr-fn349-1"><a href="#fn-fn349">2</a></sup></p>
+<p>Obsessed by two views, monks, are gods and men, some of whom lag behind, while
+others overreach. Only they do see that have eyes to see. How, monks, do some
+lag behind? Gods and men, monks, delight in existence, they are attached to
+existence, they rejoice in existence. When Dhamma is being preached to them
+for the cessation of existence, their minds do not reach out towards it, do
+not get pleased in it, do not get steadied in it, do not rest confident with
+it. It is thus that some lag behind.</p>
+<p>How, monks, do some overreach? Being troubled, ashamed, and disgusted of
+existence as such, some delight in non-existence – since this self, at the
+breaking up of this body after death, will be annihilated and destroyed, this
+is peace, this is excellent, this is how it should be. Thus, monks do some
+overreach.</p>
+<p>And how, monks, do those with eyes see? Herein a monk sees the become as
+become. Having seen the become as become, he is treading the path towards
+dejection, dispassion and cessation regarding becoming. Thus it is, monks,
+that those with eyes see.</p>
+</blockquote>
+<p>This passage clearly brings out the extreme nature of those two views of
+existence and non-existence. The two verses occurring at the end of this sutta
+present the gist of the discourse even more clearly:</p>
+<blockquote>
+<p><em>Ye bhūtaṁ bhūtato disvā,</em> <br />
+<em>bhūtassa ca atikkamaṁ,</em> <br />
+<em>yathābhūte vimuccanti,</em> <br />
+<em>bhavataṇhā parikkhayā.</em></p>
+<p><em>Sa ve bhūtapariñño so,</em> <br />
+<em>vītataṇho bhavābhave,</em> <br />
+<em>bhūtassa vibhavā bhikkhu,</em> <br />
+<em>nāgacchati punabbhavaṁ.</em></p>
+<p>Those who have seen the become as become, <br />
+As well as the going beyond of whatever has become, <br />
+Are released in regard to things as they are, <br />
+By the exhaustion of craving for becoming.</p>
+<p>That monk, who has fully comprehended the become, <br />
+Who is devoid of craving for continued becoming, <br />
+By the discontinuation of what has become, <br />
+Will not come back again to a state of becoming.</p>
+</blockquote>
+<p>Now it is extremely clear, even from the quotation as it stands, that the Buddha
+has interposed this word <em>bhūta</em> between the dichotomous terms <em>bhava</em> and
+<em>vibhava</em>. In the contemporary society, these two terms were used to denote the
+existence and the destruction of a soul. This usage is clearly revealed by some
+discourses, in which those who held on to similar views expressed them in such
+terms as <em>bhavissāmi</em> and <em>na bhavissāmi</em>.<sup class="footnote-reference" id="fr-fn350-1"><a href="#fn-fn350">3</a></sup> These expressions, meaning ‘I
+will be’ and ‘I will not be’, carry with them an implication of a person or a
+self.</p>
+<p>The term <em>bhūta</em>, on the other hand, is not amenable to such a usage. It has the
+passive sense of something that has become. Like that reflection mentioned
+earlier, it conveys the idea of being produced by causes and conditions. Going
+by the analogy of the reflected image mentioned above, the eternalist, because
+of his narcissistic selflove, gets attached to his own self image and lags
+behind. When the Buddha preaches the Dhamma for the cessation of existence, he
+shrinks from fear that it would lead to the destruction of his self. It is like
+the narcissistic attempt to embrace one’s own image in water out of self love.</p>
+<p>The annihilationist view leads to an attitude of escapism, like that of one who
+is obsessed by his own shadow. One cannot outstrip one’s own shadow. It is only
+a vain attempt. So also is the fond hope of the nihilist that by simply negating
+self one can be free from repeated birth. It turns out to be mere wishful
+thinking, because simply by virtue of the view ‘I shall not be after death’ one
+cannot win deliverance, so long as such defilements like ignorance and craving
+are there. These were the two extremes towards which those two dogmatic views of
+eternalism and annihilationism tended.</p>
+<p>By introducing the term <em>bhūta</em> the Buddha made it known that the five groups
+are the product of causes and conditions, that they are conditionally arisen. In
+the <em>Itivuttaka</em>, for instance, one comes across the following significant
+lines:</p>
+<blockquote>
+<p><em>Jātaṁ bhūtaṁ samuppannaṁ, kataṁ saṅkhatamaddhuvaṁ.</em><sup class="footnote-reference" id="fr-fn351-1"><a href="#fn-fn351">4</a></sup></p>
+</blockquote>
+<p>The reference here is to the five groups of grasping. They are ‘born’, ‘become’,
+‘arisen’ (that is conditionally arisen), ‘made up’, ‘prepared’, and ‘unstable’.
+These words are suggestive of some artificiality. The word <em>addhuvaṁ</em> brings out
+their impermanence and insubstantiality. There is no eternal essence, like
+<em>sat</em>, or being. It is merely a self image, a reflection. So it seems that the
+word <em>bhūta</em> has connotations of being a product of causes and conditions.</p>
+<p>Therefore, in spite of the scare it has aroused in the soul-theorists, Nibbāna
+is not something that destroys a truly existing entity. Though Nibbāna is called
+<em>bhavanirodha</em>,<sup class="footnote-reference" id="fr-fn352-1"><a href="#fn-fn352">5</a></sup> cessation of existence, according to the outlook of the
+Buddha the worldlings have merely a craving for existence, <em>bhavataṅhā</em>, and not
+a real existence. It is only a conceit of existence, the conceit ‘am’,
+<em>asmimāna</em>.</p>
+<p>In reality it amounts to a craving, and this is the significance of the term
+<em>taṅhā ponobhāvikā</em>, craving which makes for re-becoming. Because of that
+craving, which is always bent forward, worldlings keep running round in
+<em>saṁsāra</em>. But on analysis a concrete situation always reveals a state of a
+become, a <em>bhūta</em>, as something produced by causes and conditions.</p>
+<p>A donkey drags a wagon when a carrot is projected towards it from the wagon. The
+journey of beings in <em>saṁsāra</em> is something like that. So what we have here is
+not the destruction of some existing essence of being or a soul. From the point
+of view of the Dhamma the cessation of existence, or <em>bhavanirodha</em>, amounts to
+a stopping of the process of becoming, by the removal of the causes leading to
+it, namely ignorance and craving. It is, in effect, the cessation of suffering
+itself.</p>
+<p>Those who held on to the annihilationist view, entertained the hope that their
+view itself entitled them to their cherished goal. But it was in vain, because
+the ignorance, craving, and grasping within them created for them the five
+groups of grasping, or this mass of suffering, again and again despite their
+view, <em>uppajjati dukkham idaṁ punappunaṁ</em>.</p>
+<p>So what we have here is a deep philosophy of things as they are, which follows a
+certain law of causality. The Buddha’s middle path is based on this knowledge
+and vision of things as they are, avoiding both extremes of self indulgence and
+self mortification.</p>
+<p>Let us now consider the question of existence involved in this context. The
+terms <em>bhava</em> and <em>vibhava</em> are generally associated with the idea of worlds’
+existence. Some seem to take <em>atthi</em>, or ‘is’, as the basic element in the
+grammatical structure. Very often those upholders of dogmatic views brought up
+such propositions as ‘everything exists’, <em>sabbaṁ atthi</em>, and ‘nothing exists’,
+<em>sabbaṁ natthi</em>, before the Buddha, expecting him to give a categorical
+answer.<sup class="footnote-reference" id="fr-fn353-1"><a href="#fn-fn353">6</a></sup></p>
+<p>But the Buddha pointed out that <em>asmi</em>, or ‘am’, is more basic than the usage of
+‘is’ and ‘is not’. The most elementary concept is <em>asmi</em>, or ‘am’. Hence the
+term <em>asmimāna</em>, the conceit ‘am’. In the grammatical structure, the pride of
+place should be given to <em>asmi</em>, or ‘am’. We sometimes tend to regard <em>atthi</em>,
+or ‘is’, as the primary term. But <em>asmi</em> deserves pride of place in so far as it
+is the basic element in the grammatical structure. It is like the central peg
+from which all measurings and surveyings of the world start, since the word
+<em>māna</em> in <em>asmimāna</em> also means ‘measuring’. Given <em>asmi</em>, or ‘am’, everything
+else comes to be.</p>
+<p>Let us take an illustration. If, for instance, we say “there is something”,
+someone will pose the question: “Where is it?” It should be either here or there
+or yonder, that is, over there. It can be in one of those three places. Now, if
+it is here, how does that place become a ‘here’? That is where I am. ‘There’ is
+where he is, and ‘yonder’ is where you are.</p>
+<p>So we have here the framework of the grammar. Here is the basic lining up for
+the formation of the grammatical structure, its most elementary pattern. So,
+then, ‘I am’, ‘you are’, and ‘he is’. In this way we see that one can speak of
+the existence of something relative to a viewpoint represented by ‘am’ or ‘I
+am’. That is why the Buddha rejected as extremes the two views of absolute
+existence and absolute non-existence, based on ‘is’, <em>atthi</em>, and ‘is not’,
+<em>natthi</em>.</p>
+<p>Only when there is an ‘I’, can something exist relative to that I. And that
+something, if it is ‘there’, it is where ‘I’ am not present, or at a distance
+from me. If it is ‘yonder’, or over there, it is before you who are in front of
+me. And if it is ‘here’, it is beside me. From this we can see that this conceit
+‘am’ is, as it were, the origin of the whole world, the origin of the world of
+grammar.</p>
+<p>On a previous occasion, too, while discussing the significance of the two terms
+<em>itthabhāva</em> and <em>aññathābhāva</em>, we had to make a similar statement.<sup class="footnote-reference" id="fr-fn354-1"><a href="#fn-fn354">7</a></sup> The
+Buddha draws our attention to a very important fact in this concern, namely, the
+fact that the conceit ‘am’ does not arise without causes and conditions. It is
+not something uncaused, and unconditioned. If it is uncaused and unconditioned,
+it can never be made to cease. The notion ‘am’ arises due to certain causes and
+conditions. There is a word suggestive of this causal origin, namely <em>upādāya</em>.</p>
+<p>Now, for instance, we use the term <em>pañc’upādānakkhandha</em>. When we speak of the
+five groups of grasping, the word <em>upādāna</em> (<em>upa + ā + dā</em>) is often rendered
+by grasping. The prefix <em>upa</em> is supposed to imply the tenacity of the
+hold.<sup class="footnote-reference" id="fr-fn355-1"><a href="#fn-fn355">8</a></sup></p>
+<p>One can therefore ask whether it is not sufficient to relax the hold on the five
+groups. Strictly speaking, the prefix <em>upa</em> in <em>upādāna</em> conveys the sense of
+proximity or nearness. Sometimes the two words <em>upeti</em> and <em>upādiyati</em> are found
+in juxtaposition. <em>Upeti</em>, <em>upa + i</em>, to go, means ‘coming near’ or
+‘approaching’, and <em>upādiyati</em> has the sense of ‘holding on to’, having come
+close. In other words, we have here not only a case of holding, but of holding
+‘on to’.</p>
+<p>So the totality of existence, from the point of view of Dhamma, is dependent on
+a holding on, or a grasping on. It is not something uncaused and unconditioned.
+Here we may remind ourselves of the simile of the winding of a rope or a cord
+which we brought up in a previous sermon.<sup class="footnote-reference" id="fr-fn356-1"><a href="#fn-fn356">9</a></sup> We cannot help going back to
+the same simile again and again, if we are to deepen our understanding of the
+Dhamma.</p>
+<p>In that illustration we spoke of two persons winding up several strands to make
+a rope or a cord. But both are winding in the same direction from either end.
+Such an attempt at winding, however long it is continued, does not result in an
+actual winding, for the simple reason that the winding from one end is
+continually being unwinded from the other end. But what happens if a third
+person catches hold of the rope in the middle? Due to that hold on the middle,
+something like a rope appears to get winded up.</p>
+<p>Now existence, too, is something similar. It is because of the hold in the
+middle that the rope gets wound up. From the point of view of an outsider, the
+one in the middle is holding on to a rope. But the truth is, that the semblance
+of a rope is there due to that holding on itself. This, then, is the norm of
+this world. “Whatever is of a nature to arise, all that is of a nature to
+cease,” <em>yaṁ kiñci samudayadhammaṁ, sabbaṁ taṁ nirodhadhammaṁ</em>.<sup class="footnote-reference" id="fr-fn357-1"><a href="#fn-fn357">10</a></sup></p>
+<p>It is in the nature of things that every winding ends up in an unwinding. But
+because of that hold in the middle, the windings get accumulated. Just because
+of his hold in the middle, his hand is under stress and strain. Similarly, the
+stress and strain that is existence is also due to a grasping or a holding on
+to, <em>upādānapaccayā bhavo</em>.</p>
+<p>In fact, we have not given this illustration merely for the sake of a simile. We
+can adduce reasons for its validity even from the discourses. This word
+<em>upādāya</em> is particularly noteworthy. As we have already shown, <em>upādāna</em> does
+not simply mean grasping, or grasping rigidly, but holding on to something,
+having come close to it. This holding on creates a certain relationship, which
+may be technically termed a relativity. The two stand relative to each other.
+For instance, that rope exists relative to the grasping of the person who holds
+on to it. Now <em>upādāya</em> is the absolutive form of <em>upādāna</em>, it has the
+implication of something relative.</p>
+<p>There is a discourse in the <em>Khandhasaṁyutta</em>, which clearly reveals this fact.
+It is a sermon preached by Venerable Puṇṇa Mantāṇiputta to Venerable Ānanda.
+This is the relevant paragraph:</p>
+<blockquote>
+<p><em>Upādāya, āvuso Ānanda, asmīti hoti, no anupādāya. Kiñca upādāya asmīti hoti,
+no anupādāya? Rūpaṁ upādāya asmīti hoti, no anupādāya; vedanaṁ upādāya asmīti
+hoti, no anupādāya; saññaṁ upādāya asmīti hoti, no anupādāya; saṅkhāre upādāya
+asmīti hoti, no anupādāya; viññāṇaṁ upādāya asmīti hoti, no anupādāya.
+Upādāya, āvuso Ānanda, asmīti hoti, no anupādāya.</em></p>
+<p><em>Seyyathāpi, āvuso Ānanda, itthī vā puriso vā daharo yuvā maṇḍanakajātiko
+ādāse vā parisuddhe pariyodāte acche vā udakapatte sakaṁ mukhanimittaṁ
+paccavekkhamāno upādāya passeyya, no anupādāya, evam eva kho, āvuso Ānanda,
+upādāya asmīti hoti, no anupādāya.</em><sup class="footnote-reference" id="fr-fn358-1"><a href="#fn-fn358">11</a></sup></p>
+</blockquote>
+<p>Let us now try to get at the meaning of this important passage, which should
+clarify further what we have already attempted to explain through similes.</p>
+<blockquote>
+<p>It is with dependence, friend Ānanda, that the notion ‘am’ occurs, not without
+dependence. With dependence on what, does the notion ‘am’ occur, and not
+without dependence? With dependence on form does the notion ‘am’ occur, not
+without dependence; with dependence on feeling does the notion ‘am’ occur, not
+without dependence; with dependence on perception does the notion ‘am’ occur,
+not without dependence; with dependence on preparations does the notion ‘am’
+occur, not without dependence; with dependence on consciousness does the
+notion ‘am’ occur, not without dependence.</p>
+<p>Just as, friend Ānanda, a woman or a man, youthful and fond of adornment, in
+looking at her or his facial image in a mirror or in a bowl filled with pure,
+clear, clean water, would be seeing it with dependence and not without
+dependence, even so, friend Ānanda, it is with dependence that the notion ‘am’
+occurs, not without dependence.</p>
+</blockquote>
+<p>In fact, it is rather difficult to render the word <em>upādāya</em>. It means ‘in
+dependence on’ something and has a relative sense. Reinforced with the emphatic
+double negative, the assertion seems to imply that the notion ‘am’ is something
+dependent and not independent, that it arises due to causes and conditions. In
+the explanation that follows, this dictum is substantiated by bringing in the
+five groups or aggregates, relative to which one posits an ‘am’.</p>
+<p>The subsequent illustration serves to bring out the required nuance of the term
+<em>upādāya</em>, which is more often connected with the rather gross idea of grasping.
+The young woman or the young man is looking at her or his face in a mirror. They
+can see their own face, or the sign of it, <em>mukhanimitta</em>, only with the help of
+a mirror, that is, as an image reflected on it. They are dependent on a mirror
+or a similar object for seeing their own face, not independent.</p>
+<p>What Venerable Puṇṇa Mantāṇiputta seems to stress, is that the notion ‘am’ is
+the result of grasping or holding on to form, feeling, perception, preparations,
+and consciousness. It is when one looks into a mirror that one suddenly becomes
+self-conscious. Whether one has a liking or a dislike for what one sees, one
+gets the notion ‘this is me’. So it is by coming close to a mirror which
+reflects one’s facial image that the notion ‘am’ occurs depending on it. The
+word <em>upādāya</em> therefore approximates to the idea of coming close and holding on
+to.</p>
+<p>That notion occurs due to a relationship arising from that holding on. Even if
+one already has no such notion, the moment one looks into a mirror one is
+suddenly reminded of it, as if to exclaim: “Ah, here I am!” This is the gist of
+what Venerable Puṇṇa Mantāṇiputta is trying to put across through this
+discourse.</p>
+<p>This shows that the conceit ‘am’ arises due to the five grasping groups. The
+absolutive <em>upādāya</em>, though akin to <em>upādāna</em>, has a deeper significance. It is
+a word suggestive of a relationship. It does not merely mean a holding on, but
+also a certain necessary relationship arising out of that holding on.</p>
+<p>Just as the looking into a mirror or a bowl of water gives rise to a facial
+image as a reflection, here too the relationship calls forth the deluded
+reflection “here I am”. Given the notion “here I am”, there follows the
+corollary “things that are mine”.</p>
+<p>So there is supposed to be an ‘I’ in contradistinction to things that are
+‘mine’. It is the difficulty to demarcate the area of applicability between
+these two concepts that has given rise to insoluble problems. “Who am I and what
+is mine?” The twenty modes of personality view, <em>sakkāya diṭṭhi</em>, portray how
+one is at one’s wit’s end to solve this problem.</p>
+<p>Let us now see how the twenty modes of personality view are made up. For
+instance, as regards form, it is fourfold as follows:</p>
+<blockquote>
+<p><em>Rūpaṁ attato samanupassati, rūpavantaṁ vā attānaṁ, attani vā rūpaṁ, rūpasmiṁ
+vā attānaṁ</em>.<sup class="footnote-reference" id="fr-fn359-1"><a href="#fn-fn359">12</a></sup></p>
+<p>He regards form as self, or self as possessing form, or form as in self, or
+self as in form.</p>
+</blockquote>
+<p>It is the same with the other four groups. In this way, the personality view is
+altogether twenty-fold.</p>
+<p>All this comes about due to the ignorance that name-and-form is only a
+reflection, like that facial image. In grasping this self image of name-and-form
+one grasps the five groups. Attachment to name-and-form amounts to a holding on
+to these five groups. To many, the relationship between name-and-form and the
+grasping groups appears as a big puzzle. Wherever one looks, one sees this self
+image of name-and-form. But when one grasps it, what comes within the grasp is a
+group of form, feeling, perception, preparations, and consciousness.</p>
+<p>The magical illusion created by consciousness is so complete that it is capable
+of playing a dual role, as in double acting. Because it reflects, like a mirror,
+consciousness itself is grasped, just as one grasps the mirror. Not only the
+reflection of the mirror, but the mirror itself is grasped. The grasping group
+of consciousness represents such a predicament.</p>
+<p>One can form an idea about the relation between name-and-form and consciousness
+by going deeper into the implications of this discourse. In the discussion of
+the interrelation between name and form, the Buddha makes use of two highly
+significant terms, namely <em>adhivacanasamphassa</em> and <em>paṭighasamphassa.</em></p>
+<p>How contact arises dependent on name-and-form is explained by the Buddha in the
+<em>Mahānidānasutta</em> of the <em>Dīgha Nikāya</em>.<sup class="footnote-reference" id="fr-fn360-1"><a href="#fn-fn360">13</a></sup> It is addressed to Venerable
+Ānanda in the form of a catechism.</p>
+<p><em>Phassa</em>, or contact, is a sort of hybrid, carrying with it the implications of
+both <em>adhivacanasamphassa</em> and <em>paṭighasamphassa</em>. That is to say, it partakes
+of the character of name, <em>nāma</em>, as suggested by <em>adhivacanasamphassa</em>, as well
+as that of form, <em>rūpa</em>, indicated by <em>paṭighasamphassa</em>. This will be clear
+from the relevant section of the catechism in the <em>Mahānidānasutta</em>:</p>
+<blockquote>
+<p><em>“Nāmarūpapaccayā phasso’ti iti kho panetaṁ vuttaṁ, tad’Ānanda, imināpetaṁ
+pariyāyena veditabbaṁ, yathā nāmarūpapaccayā phasso. Yehi, Ānanda, ākārehi
+yehi liṅgehi yehi nimittehi yehi uddesehi nāmakāyassa paññatti hoti, tesu
+ākāresu tesu liṅgesu tesu nimittesu tesu uddesesu asati api nu kho rūpakāye
+adhivacanasamphasso paññāyethā’ti?”</em></p>
+<p><em>“No hetaṁ, bhante.”</em></p>
+<p><em>“Yehi, Ānanda, ākārehi yehi liṅgehi yehi nimittehi yehi uddesehi rūpakāyassa
+paññatti hoti, tesu ākāresu tesu liṅgesu tesu nimittesu tesu uddesesu asati
+api nu kho nāmakāye paṭighasamphasso paññāyethā’ti?”</em></p>
+<p><em>“No hetaṁ, bhante.”</em></p>
+<p><em>“Yehi, Ānanda, ākārehi yehi liṅgehi yehi nimittehi yehi uddesehi nāmakāyassa
+ca rūpakāyassa ca paññatti hoti, tesu ākāresu tesu liṅgesu tesu nimittesu tesu
+uddesesu asati api nu kho adhivacanasamphasso vā paṭighasamphasso vā
+paññāyethā’ti?”</em></p>
+<p><em>“No hetaṁ, bhante.”</em></p>
+<p><em>“Yehi, Ānanda, ākārehi yehi liṅgehi yehi nimittehi yehi uddesehi nāmarūpassa
+paññatti hoti, tesu ākāresu tesu liṅgesu tesu nimittesu tesu uddesesu asati
+api nu kho phasso paññāyethā’ti?”</em></p>
+<p><em>“No hetaṁ, bhante.”</em></p>
+<p><em>“Tasmātih’Ānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo phassassa,
+yadidaṁ nāmarūpaṁ.”</em></p>
+<p>“From name-and-form as condition, contact comes to be. Thus it has been said
+above. And that Ānanda, should be understood in this manner, too, as to how
+from name-and-form as condition, contact arises. If, Ānanda, all those modes,
+characteristics, signs and exponents, by which the name-group, <em>nāma-kāya</em>, is
+designated were absent, would there be manifest any verbal impression,
+<em>adhivacanasamphassa</em>, in the form-group, <em>rūpa-kāya</em>?”</p>
+<p>“There would not, lord.”</p>
+<p>“If, Ānanda, all those modes, characteristics, signs and exponents, by which
+the form-group is designated were absent, would there be manifest any
+resistance-impression, <em>paṭighasamphasso</em>, in the name-group?”</p>
+<p>“There would not, lord.”</p>
+<p>“And if, Ānanda, all those modes, characteristics, signs and exponents, by
+which there is a designation of both name-group and form-group were absent,
+would there be manifest either any verbal impression or any
+resistance-impression?”</p>
+<p>“There would not, lord.”</p>
+<p>“And if, Ānanda, all those modes, characteristics, signs and exponents, by
+which there comes to be a designation of name-and-form were absent, would
+there be manifest any contact?”</p>
+<p>“There would not, lord.”</p>
+<p>“Wherefore, Ānanda, this itself is the cause, this is the origin, this is the
+condition for contact, that is to say, name-and-form.”</p>
+</blockquote>
+<p>With the help of four words of allied sense, namely <em>ākāra</em>, mode, <em>liṅga</em>,
+characteristic, <em>nimitta</em>, sign, and <em>uddesa</em>, exponent, the Buddha
+catechetically brings out four conclusions by this disquisition. They are:</p>
+<ol>
+<li>
+<p>By whatever modes, characteristics, signs and exponents the name-group,
+<em>nāma-kāya</em>, is designated, in their absence no designation of verbal
+impression, <em>adhivacanasamphassa</em>, in the form-group, <em>rūpa-kāya</em>, is
+possible.</p>
+</li>
+<li>
+<p>By whatever modes, characteristics, signs and exponents the form-group is
+designated, in their absence no designation of resistance-impression,
+<em>paṭighasamphasso</em>, in the name-group, <em>nāmakāya</em>, is possible.</p>
+</li>
+<li>
+<p>By whatever modes, characteristics, signs and exponents both name-group and
+form-group are designated, in their absence no designation of verbal
+impression or resistance-impression is possible.</p>
+</li>
+<li>
+<p>By whatever modes, characteristics, signs and exponents name-and-form is
+designated, in their absence no designation of contact is possible.</p>
+</li>
+</ol>
+<p>All this may well appear like a riddle, but then let us consider what
+name-and-form means, to begin with. The definition we gave to <em>nāma</em> in our very
+first sermon happened to be different from the well known definition nowadays
+given in terms of a bending.<sup class="footnote-reference" id="fr-fn361-1"><a href="#fn-fn361">14</a></sup></p>
+<p>We interpreted <em>nāma</em> in the sense of a ‘naming’. Now this term <em>adhivacana</em>
+also conveys the same idea. <em>Adhivacana</em>, synonym, <em>nirutti</em>, nomenclature, and
+<em>paññatti</em>, designation, are part and parcel of linguistic usage.</p>
+<p>In the <em>Niruttipathasutta</em> of the <em>Khandhasaṁyutta</em> one comes across three
+terms, <em>niruttipatha, adhivacanapatha,</em> and <em>paññattipatha</em>, pathways of
+nomenclature, pathways of synonyms, pathways of designation.<sup class="footnote-reference" id="fr-fn362-1"><a href="#fn-fn362">15</a></sup> There three
+terms are closely allied in meaning, in that they bring out in sharp relief
+three aspects of linguistic usage.</p>
+<p><em>Nirutti</em> emphasises the explanatory or expository function of language,
+<em>adhivacana</em> its symbolic and metaphorical character, while <em>paññatti</em> brings
+out its dependence on convention.</p>
+<p>What we have here is <em>adhivacanasamphassa</em>. Its affinity to name is obvious, and
+this is precisely the meaning we attributed to <em>nāma</em>. Therefore, what we have
+in this concept of <em>nāmakāya</em>, or name-group, literally ‘name-body’, is a set of
+first principles in linguistic usage pertaining to definition.</p>
+<p>The form-group, or <em>rūpakāya</em>, literally ‘form-body’, on the other hand has
+something to do with resistance, as suggested by the term <em>paṭighasamphassa</em>.
+<em>Paṭigha</em> means ‘striking against’. Form, or <em>rūpa,</em> has a striking quality,
+while name, or <em>nāma,</em> has a descriptive quality. <em>Phassa</em>, or contact, is a
+hybrid of these two. This is what gives a deeper dimension to the above
+disquisition.</p>
+<p>The point that the Buddha seeks to drive home is the fact that the concept of
+contact necessarily presupposes both name and form. In other words, name and
+form are mutually interrelated, as already stated above. There would be no
+verbal impression in the form-group, if there were no modes, characteristics,
+etc., proper to name. Likewise there could be no resistant impression in the
+name-group, if there were no modes, characteristics, etc., proper to form.</p>
+<p>At first sight these two may appear as totally opposed to each other. But what
+is implied is a case of mutual interrelation. The expression peculiar to the
+name-group is a necessary condition for the form-group, while the resistance
+peculiar to the form-group is a necessary condition for the name-group. Since
+here we have something deep, let us go for an illustration for the sake of
+clarity.</p>
+<p>As we have already stated, a verbal impression in regard to the form-group is
+there because of the constituents of the name-group. Now the form-group consists
+of the four great primaries earth, water, fire and air. Even to distinguish
+between them by their qualities of hardness and softness, hotness and coolness,
+etc., feeling, perception, intention, contact and attention, which are the
+constituents of the name-group, have to play their part. Thus it is with the
+help of those members on the name side that the four basic elements associated
+with form receive recognition.</p>
+<p>Metaphor is a figure of speech, common in ornate literary language as well as in
+technical terminology. Here the inanimate is animated by personification. What
+is proper to the animate world is superimposed on the inanimate. Now the word
+<em>adhivacana</em> is, even literally, a superimposition, and it is a term with
+obvious metaphorical associations. Whereas in the literary field it has an
+ornate value as a figurative expression, in technical usage it serves the
+purpose of facility of expression by getting the tools to speak for themselves.</p>
+<p>For instance, a carpenter might speak of two planks touching each other as if
+they can actually touch and feel. The concept of touch, even when it is
+attributed to inanimate objects, is the outcome of attention, in this case the
+attention of the carpenter. Here, again, we are reminded of the role of
+attention in the origination of things as stated in the <em>Kiṁmūlakasutta</em> and
+<em>Samiddhisutta</em> discussed above.<sup class="footnote-reference" id="fr-fn363-1"><a href="#fn-fn363">16</a></sup></p>
+<p>In accordance with the dictum “Mind is the forerunner of all things”,<sup class="footnote-reference" id="fr-fn364-1"><a href="#fn-fn364">17</a></sup>
+“All things are rooted in interest, they originate with attention and arise out
+of contact”, <em>chandamūlakā, āvuso, sabbe dhammā, manasikārasambhavā,
+phassasamudayā</em> (etc.).<sup class="footnote-reference" id="fr-fn365-1"><a href="#fn-fn365">18</a></sup> Wherever the carpenter’s interest went, his
+attention discovered and picked up the thing, and here the thing is the fact of
+two planks touching each other.</p>
+<p>Interest, attention and contact together bring out some deeper implications of
+the law of dependent arising. Not only with regard to inanimate objects, but
+even in the case of this conscious body, the question of contact is related to
+the fact of attention.</p>
+<p>If, for instance I ask what I am touching now, one might say that I am touching
+the palm leaf fan in my hand. This is because we usually associate the idea of
+touching with the hand that holds. But suppose I put away the fan and ask again
+what I am touching now, one might find it difficult to answer. It might not be
+possible for another to guess by mere external observation, since it is
+essentially subjective. It is dependent on my attention. It could even be my
+robe that I am touching in the sense of contact, in which case I am becoming
+conscious of my body as apart from the robe I am wearing.</p>
+<p>Consciousness follows in the wake of attention. Whatever my attention picks up,
+of that I am conscious. Though I have in front of me so many apparently visible
+objects, until my attention is focussed, eye-consciousness does not come about.
+The basic function of this type of consciousness, then, is to distinguish
+between the eye and the object seen. It is only after the eye has become
+conscious, that other factors necessary for sense perception fall into place.</p>
+<p>The two things born of that basic discrimination, together with the
+discriminating consciousness itself, that is eye-consciousness, make up the
+concept of contact.</p>
+<blockquote>
+<p><em>Cakkhuñca paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati
+phasso</em>.<sup class="footnote-reference" id="fr-fn366-1"><a href="#fn-fn366">19</a></sup></p>
+<p>Dependent on eye and forms, eye-consciousness arises, the concurrence of the
+three is contact.</p>
+</blockquote>
+<p>The same principle holds good in the case of the two planks touching each other.
+All this goes to show that it is with the help of the factors in the name-group
+that we can even metaphorically speak of a contact between inanimate things.</p>
+<p>Let us now consider how resistance-impression, <em>paṭighasamphassa</em>, comes about.
+It is said that the factors of the form-group have a part to play in producing
+resistance-impression on the name-group. We sometimes speak of an idea ‘striking
+us’, as if it were something material. Or else an idea could be ‘at the back’ of
+our mind and a word ‘on the tip’ of our tongue.</p>
+<p>The clearest manifestation of contact is that between material objects, where
+collision is suggestive of resistance, as implied by the word <em>paṭigha</em>. This
+primary sense of striking against or striking together is implicit even in the
+simile given by the Buddha in the <em>Dhātuvibhaṅgasutta</em> of the <em>Majjhima Nikāya</em>,
+and in the <em>Phassamūlakasutta</em> of the <em>Saṁyutta Nikāya</em>, concerning two sticks
+being rubbed together to kindle a fire.<sup class="footnote-reference" id="fr-fn367-1"><a href="#fn-fn367">20</a></sup></p>
+<p>Though as a gross manifestation contact is primarily associated with the
+form-group, it is essentially connected with the name-group, as we have already
+explained with illustrations. It is when both resistance-impression and verbal
+impression come together that contact arises, dependent on name-and-form,
+<em>nāmarūpapaccayā phasso</em>.</p>
+<p>Another point that needs to be clarified in this connection is the exact
+significance of the word <em>rūpa</em>. This word has been variously interpreted and
+explained among different Buddhist sects. How did the Buddha define <em>rūpa</em>? In
+ordinary usage it can mean either forms visible to the eye, or whatever is
+generally spoken of as ‘material’. Its exact significance has become a subject
+of controversy. What precisely do we mean by ‘<em>rūpa</em>’?</p>
+<p>The Buddha himself has explained the word, giving the following etymology in the
+<em>Khajjanīyasutta</em> of the <em>Khandhasaṁyutta</em> in the <em>Saṁyutta Nikāya</em>. While
+defining the five groups there, he defines the form group as follows:</p>
+<blockquote>
+<p><em>Kiñca, bhikkhave, rūpaṁ vadetha? Ruppatī’ti kho, bhikkhave, tasmā rūpan’ti
+vuccati. Kena ruppati? Sītena pi ruppati, uṇhena pi ruppati, jighacchāya pi
+ruppati, pipāsāya pi ruppati, daṁsamakasavātātapasiriṁsapasamphassena pi
+ruppati. Ruppatī’ti kho, bhikkhave, tasmā rūpan’ti vuccati.</em><sup class="footnote-reference" id="fr-fn368-1"><a href="#fn-fn368">21</a></sup></p>
+<p>And what, monks, do you call <em>rūpa</em>? It is affected, monks, that is why it is
+called <em>rūpa</em>. Affected by what? Affected by cold, affected by heat, affected
+by hunger, affected by thirst, affected by contact with gadflies, mosquitoes,
+wind, sun and serpents. It is affected, monks, that is why it is called
+<em>rūpa</em>.</p>
+</blockquote>
+<p>This definition seems to convey something very deep, so much so that various
+Buddhist sects came out with various interpretations of this passage. The Buddha
+departs from the way of approach taken up by the materialistic systems of
+thought in the world in defining <em>rūpa</em> with <em>ruppati</em>, ‘being affected’.</p>
+<p>It is not the inanimate trees and rocks in the world that are said to be
+affected by cold and heat, but this conscious body. So this body is not
+conceived of as a bundle of atoms to be animated by introducing into it a life
+faculty, <em>jīvitindriya</em>. What is meant by <em>rūpa</em> is this same body, this body
+with form, which, for the meditator, is a fact of experience.</p>
+<p>Attempts at interpretation from a scholastic point of view created a lot of
+complications. But the definition, as it stands, is clear enough. It is directly
+addressed to experience. The purpose of the entire Dhamma preached by the Buddha
+is not to encourage an academic dabbling in philosophical subtleties with a mere
+jumble of words. The purpose is utter disenchantment, dispassion and cessation,
+<em>ekantanibbidāya, virāgāya, nirodhāya</em>.<sup class="footnote-reference" id="fr-fn369-1"><a href="#fn-fn369">22</a></sup></p>
+<p>Therefore the etymology given here in terms of <em>ruppati</em>, ‘to be affected’, is
+in full accord with that purpose. <em>Rūpa</em> is so called, because it is affected by
+cold, heat, and the sting of gadflies, mosquitoes, etc., not because of any
+atomism in it.</p>
+<p>If we are to examine further the meaning of this verb <em>ruppati</em>, we can count on
+the following quotation from the <em>Piṅgiyasutta</em> of the <em>Pārāyanavagga</em> in the
+<em>Sutta Nipāta</em>. It runs:</p>
+<blockquote>
+<p><em>ruppanti rūpesu janā pamattā,</em><sup class="footnote-reference" id="fr-fn370-1"><a href="#fn-fn370">23</a></sup></p>
+<p>heedless men are affected in regard to forms.</p>
+</blockquote>
+<p>The canonical commentary <em>Cūḷaniddesa</em>, commenting on the word, brings out the
+various nuances connected with it.</p>
+<blockquote>
+<p><em>Ruppantīti kuppanti pīḷayanti ghaṭṭayanti byādhitā domanassitā honti</em>.<sup class="footnote-reference" id="fr-fn371-1"><a href="#fn-fn371">24</a></sup></p>
+<p><em>Ruppanti</em> means to be adversely affected, to be afflicted, to come into
+contact with, to be dis-eased and dis-pleased.</p>
+</blockquote>
+<p>Surely it is not the trees and rocks that are affected in this manner. It is
+this animate body that is subject to all this. The pragmatic purpose of utter
+detachment, dispassion and cessation is clear enough even from this commentary.</p>
+<p>What is known as the form-group, <em>rūpakkhandha</em>, is one vast wound with nine
+apertures.<sup class="footnote-reference" id="fr-fn372-1"><a href="#fn-fn372">25</a></sup> This wound is affected when it is touched by cold and heat,
+when gadflies and mosquitoes land on it. This wound gets irritated by them.</p>
+<p>We come across yet another canonical reference in support of these nuances in
+the following two lines in the <em>Uṭṭhānasutta</em> of the <em>Sutta Nipāta</em>.</p>
+<blockquote>
+<p><em>Āturānañhi kā niddā, sallaviddhāna ruppataṁ</em>.<sup class="footnote-reference" id="fr-fn373-1"><a href="#fn-fn373">26</a></sup></p>
+<p>For what sleep could there be for those who are afflicted, being pierced with
+a dart.</p>
+</blockquote>
+<p>These two lines stress the need for heedfulness for beings pierced with the
+arrow of craving. Here, too, the verb <em>ruppati</em> has the sense of being affected
+or afflicted. All this goes to show that the early Buddhist concept of <em>rūpa</em>
+had a striking simplicity about it.</p>
+<p>As we have already stated at the very outset, the teachings in the discourses
+are simple enough. But there is a certain depth in this very simplicity, for it
+is only when the water is lucid and limpid that one can see the bottom of a
+pond. But with the passage of time there was a tendency to lose interest in
+these discourses, because of the general predilection for complexity.</p>
+<p>Materialistic philosophers, in particular, were carried away by this trend,
+whether they were Hindus or Buddhists. Modern day scientists, too, got caught in
+this trend. They pursued the materialistic overtones of the word <em>rūpa</em>, without
+realizing that they are running after a mirage.</p>
+<p>They went on analysing matter, until they ended up with an atomism and grasped a
+heap of concepts. The analysis of matter thus precipitated a grasping of a mass
+of concepts. Whether one grasps a pole or a mole, it is a grasping all the same.</p>
+<p>The Buddha’s admonitions, on the contrary, point in a different direction. He
+pointed out that in order to be free from the burdensome oppression of form, one
+has to be free from the perception of form. What is of relevance here is the
+very perception of form, <em>rūpasaññā</em>. From the point of view of Dhamma, any
+attempt at analysis of the materialistic concept of form, or any microscopic
+analysis of matter, would lead to a pursuit of a mirage.</p>
+<p>This fact, the modern day scientist is now in a position to appreciate. He has
+found that the mind with which he carries on the analysis is influencing his
+findings at every level. In other words, he has been running after a mirage, due
+to his ignorance of the mutual interrelation between name and form. One would
+not be in such a plight, if one understands that the real problem at issue is
+not that of form, but of the perception of form.</p>
+<p>In an earlier sermon we happened to quote a verse which makes it extremely
+clear. Let us now hark back to that verse, which occurs in the <em>Jaṭāsutta</em> of
+the <em>Saṁyutta Nikāya</em>.</p>
+<blockquote>
+<p><em>Yattha nāmañca rūpañca,</em> <br />
+<em>asesaṁ uparujjhati,</em> <br />
+<em>paṭighaṁ rūpasaññā ca,</em> <br />
+<em>etthesā chijjate jaṭā.</em><sup class="footnote-reference" id="fr-fn374-1"><a href="#fn-fn374">27</a></sup></p>
+<p>Where name and form <br />
+As well as resistance and perception of form <br />
+Are completely cut off, <br />
+It is there that the tangle gets snapped.</p>
+</blockquote>
+<p>The entire <em>saṁsāric</em> problem is solved when the tangle gets snapped. Name and
+form, resistance and perception of form are completely cut off in that
+non-manifestative consciousness mentioned in our earlier sermons.<sup class="footnote-reference" id="fr-fn375-1"><a href="#fn-fn375">28</a></sup> That,
+in effect, is the end of the tangle within and the tangle without.</p>
+<p>Our discussion of the law of dependent arising must have made it clear that
+there is an interrelation between name-and-form and consciousness on the one
+hand, and between name and form themselves on the other. This, then, is a case
+of a tangle within and a tangle without.</p>
+<p>Like the central spot of a whirlpool, the deepest point of the entire formula of
+<em>paṭicca samuppāda</em> is traceable to the interrelation that obtains between name
+and form on the one hand, and between name-and-form and consciousness on the
+other.</p>
+<p>As far as the significance of perception of form is concerned, the true purpose
+of the spiritual endeavour, according to the Buddha, is the very freedom from
+this perception of form. How does perception of form come about? It is due to
+that ‘striking against’, or resistance. Perception of form arises, for instance,
+when gadflies and mosquitoes land on this body.</p>
+<p>As we have already mentioned, even the distinctions of hard and soft, etc., with
+which we recognize the four elements, is a matter of touching. We are only
+trying to measure and gauge the four great primaries with this human frame. We
+can never ever comprehend fully the gamut of these four great primaries. But we
+are trying to understand them through this human frame in a way that is
+meaningful to our lives.</p>
+<p>All kinds of beings have their own specific experience of ‘touch’, in relation
+to their experience of the four elements. So what we have here is entirely a
+question of perception of form.</p>
+<p>The true purpose, then, should be the release of one’s mind from this perception
+of form. It is only when the mind is freed from resistance and the perception of
+form, as well as from name-and-form, that one can win to the deliverance from
+this problem of the tangle within and the tangle without that is <em>saṁsāra</em>.</p>
+<p>Yet another fact emerges from the above discussion. The two views of existence
+and non-existence, <em>bhava / vibhava</em>, asserting an absolute existence and an
+absolute non-existence, seem to have posed an insoluble problem to many
+philosophers. Concerning the origin of the world, they wondered whether <em>sat</em>,
+or being, came out of <em>asat</em>, or non-being, or vice versa.</p>
+<p>All these problems arose out of a misunderstanding about form, or material
+objects, as we may well infer from the following two lines of a verse in the
+<em>Kalahavivādasutta</em> of the <em>Sutta Nipāta</em>.</p>
+<blockquote>
+<p><em>Rūpesu disvā vibhavaṁ bhavañca, vinicchayaṁ kurute jantu loke.</em><sup class="footnote-reference" id="fr-fn376-1"><a href="#fn-fn376">29</a></sup></p>
+<p>Having seen the existence and destruction of material forms, a man in this
+world comes to a conclusion.</p>
+</blockquote>
+<p>What is the conclusion? That there is an absolute existence and an absolute
+non-existence. One comes to this conclusion drawing an inference from the
+behaviour of visible objects.</p>
+<p>For instance, we could presume that this machine before us exists in an absolute
+sense, ignoring the causes and conditions underlying its existence. The day this
+machine is destroyed we would say: “It was, but now it is not.”</p>
+<p>The Buddha has pointed out that such absolute views of existence and
+non-existence are a result of an incorrect understanding about form. What
+actually is involved here is the perception of form. Due to a misconception
+about the perception of form, the world inclines towards the two extreme views
+of absolute existence and absolute non-existence.</p>
+<p>So the whole point of our discussion today has been the clarification of the
+mutual interrelation between name and form, to show that name-and-form itself is
+only an image, or a shadow, reflected on consciousness.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn348"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn348-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn349"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/iti49/pli/ms">Iti 49 / It 43</a>, <em>Diṭṭhigatasutta</em> <a href="#fr-fn349-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn350"><sup class="footnote-definition-label">3</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn2/pli/ms">MN 2 / M I 8</a>, <em>Sabbāsavasutta</em>; or at <a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 135</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn350-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn351"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/iti43/pli/ms">Iti 43 / It 37</a>, <em>Ajātasutta</em> <a href="#fr-fn351-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn352"><sup class="footnote-definition-label">5</sup>
+<p>E.g. at <a href="https://suttacentral.net/an10.7/pli/ms">AN 10.7 / A V 9</a>, <em>Sāriputtasutta</em> <a href="#fr-fn352-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn353"><sup class="footnote-definition-label">6</sup>
+<p>E.g. at <a href="https://suttacentral.net/sn12.47/pli/ms">SN 12.47 / S II 76</a>, <em>Jāṇussoṇisutta</em> <a href="#fr-fn353-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn354"><sup class="footnote-definition-label">7</sup>
+<p>See <em>Sermon 2</em> <a href="#fr-fn354-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn355"><sup class="footnote-definition-label">8</sup>
+<p>Vism 569 <a href="#fr-fn355-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn356"><sup class="footnote-definition-label">9</sup>
+<p>See <em>Sermon 8</em> <a href="#fr-fn356-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn357"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/sn56.11/pli/ms">SN 56.11 / S V 423</a>, <em>Dhammacakkappavattanasutta</em> <a href="#fr-fn357-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn358"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/sn22.83/pli/ms">SN 22.83 / S III 105</a>, <em>Ānandasutta</em> <a href="#fr-fn358-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn359"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/mn44/pli/ms">MN 44 / M I 300</a>, <em>Cūḷavedallasutta</em> <a href="#fr-fn359-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn360"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/dn15/pli/ms">DN 15 / D II 62</a>, <em>Mahānidānasutta</em> <a href="#fr-fn360-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn361"><sup class="footnote-definition-label">14</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn361-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn362"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/sn22.62/pli/ms">SN 22.62 / S III 71</a>, <em>Niruttipathasutta</em> <a href="#fr-fn362-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn363"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/an9.14/pli/ms">AN 9.14 / A IV 385</a>, <em>Samiddhisutta</em>; <a href="https://suttacentral.net/an10.58/pli/ms">AN 10.58 / A IV 338</a>, <em>Kiṁmūlakasutta</em>; see <em>Sermon 9</em> <a href="#fr-fn363-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn364"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/dhp1-20/pli/ms">Dhp 1</a>, <em>Yamakavagga</em> <a href="#fr-fn364-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn365"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/an10.58/pli/ms">AN 10.58 / A IV 338</a>, <em>Kiṁmūlakasutta</em> <a href="#fr-fn365-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn366"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/mn18/pli/ms">MN 18 / M I 111</a>, <em>Madhupiṇḍikasutta</em> <a href="#fr-fn366-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn367"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/mn140/pli/ms">MN 140 / M III 242</a>, <em>Dhātuvibhaṅgasutta</em>; <a href="https://suttacentral.net/sn36.10/pli/ms">SN 36.10 / S IV 215</a>, <em>Phassamūlakasutta</em> <a href="#fr-fn367-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn368"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/sn22.79/pli/ms">SN 22.79 / S III 86</a>, <em>Khajjanīyasutta</em> <a href="#fr-fn368-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn369"><sup class="footnote-definition-label">22</sup>
+<p>This expression occurs e.g. at <a href="https://suttacentral.net/dn19/pli/ms">DN 19 / D II 251</a>, <em>Mahāgovindasutta</em> <a href="#fr-fn369-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn370"><sup class="footnote-definition-label">23</sup>
+<p><a href="https://suttacentral.net/snp5.17/pli/ms">Snp 5.17 / Sn 1121</a>, <em>Piṅgiyamāṇavapucchā</em> <a href="#fr-fn370-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn371"><sup class="footnote-definition-label">24</sup>
+<p>Nidd II 238 <a href="#fr-fn371-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn372"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/an9.15/pli/ms">AN 9.15 / A IV 386</a>, <em>Gaṇḍasutta</em> <a href="#fr-fn372-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn373"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/snp2.10/pli/ms">Snp 2.10 / Sn 331</a>, <em>Uṭṭhānasutta</em> <a href="#fr-fn373-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn374"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/sn1.23/pli/ms">SN 1.23 / S I 13</a>, <em>Jaṭāsutta</em>; see <em>Sermon 1</em> <a href="#fr-fn374-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn375"><sup class="footnote-definition-label">28</sup>
+<p>See <em>Sermon 7</em> <a href="#fr-fn375-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn376"><sup class="footnote-definition-label">29</sup>
+<p><a href="https://suttacentral.net/snp4.11/pli/ms">Snp 4.11 / Sn 867</a>, <em>Kalahavivādasutta</em> <a href="#fr-fn376-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-09.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-11.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-09.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-11.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

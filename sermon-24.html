@@ -1,0 +1,960 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 24 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-24-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-24"><a class="header" href="#sermon-24">Sermon 24</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn781-1"><a href="#fn-fn781">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the twentyfourth sermon in the series of
+sermons on Nibbāna.</p>
+<p>In our last sermon, we brought up a quotation from the <em>Rohitassasutta</em>, which
+enshrines a momentous declaration by the Buddha to the effect that the world,
+the arising of the world, the cessation of the world, and the path leading to
+the cessation of the world, could be pointed out with reference to this same
+body with its perceptions and mind.<sup class="footnote-reference" id="fr-fn782-1"><a href="#fn-fn782">2</a></sup></p>
+<p>The six sense-spheres, or the six bases of sense-contact, with which we acquaint
+ourselves with the world as it is conventionally understood and measured out,
+are themselves called ‘the world’ according to the Noble One’s
+terminology.<sup class="footnote-reference" id="fr-fn783-1"><a href="#fn-fn783">3</a></sup></p>
+<p>Therefore, one can declare in accordance with the Dhamma, that the very
+cessation of those six sense-spheres is the cessation of the world. It is this
+state of the cessation of the world that is known as <em>asaṅkhata dhātu</em>, or the
+‘unprepared element’. That unprepared state, described in discourses on Nibbāna
+in such terms as <em>atthi, bhikkhave, ajātaṁ abhūtaṁ akataṁ asaṁkataṁ</em>,<sup class="footnote-reference" id="fr-fn784-1"><a href="#fn-fn784">4</a></sup>
+“monks, there is an unborn, an unbecome, an unmade, an unprepared”, is this
+cessation of the six spheres of sense, which is the end of that prepared world.</p>
+<p>So, then, this particular world’s end, the end of the world as defined here, is
+not a destination to be reached by travelling. The sage Rohitassa walked for
+hundred years in search of this world’s end at a speed of a flying arrow, but he
+failed to discover the world’s end. Why? It is because he took ‘the world’ along
+with him in his journey to see its end. Since this six-based body with its
+perceptions and mind is itself the world, he was taking the world with him in
+his exploration. That is why he had to die on the way without seeing the end of
+the world.</p>
+<p>That end of the world, which one cannot see or reach by travelling, the Buddha
+pointed out in the very cessation of the six sense-spheres. This fact comes to
+light in the discourses dealing with Nibbāna in the <em>Pāṭaligāmiyavagga</em> of the
+<em>Udāna</em>, which we had already discussed.<sup class="footnote-reference" id="fr-fn785-1"><a href="#fn-fn785">5</a></sup> For instance, in the first
+discourse on Nibbāna, beginning with the words <em>atthi, bhikkhave, tad āyatanaṁ</em>,
+“there is, monks, that sphere”, we find towards the end the following statement:</p>
+<blockquote>
+<p><em>Tatra p’ahaṁ, bhikkhave, n’eva āgatiṁ vadāmi na gatiṁ na ṭhitiṁ na cutiṁ na
+upapattiṁ, appatiṭṭhaṁ appavattaṁ anārammaṇaṁ eva taṁ, es’ ev’ anto
+dukkhassa.</em><sup class="footnote-reference" id="fr-fn786-1"><a href="#fn-fn786">6</a></sup></p>
+</blockquote>
+<p>In that particular state, described as a ‘sphere’, in which there is neither
+earth, nor water, nor fire, nor air, etc.:</p>
+<blockquote>
+<p>I say, there is neither a coming, nor a going, nor a standing, nor a passing
+away, nor a being reborn; that state which is unestablished, non continuing
+and objectless, is itself the end of suffering.</p>
+</blockquote>
+<p>So, then, this journey’s end, the journey’s end that cannot be reached by
+journeying, the Buddha pointed out in the cessation of the six sense-spheres.</p>
+<p>We come across the following passage in the fourth discourse on Nibbāna in the
+<em>Pāṭaligāmiyavagga</em> of the <em>Udāna</em>:</p>
+<blockquote>
+<p><em>Nissitassa calitaṁ, anissitassa calitaṁ natthi, calite asati passaddhi,
+passaddhiyā sati nati no hoti, natiyā asati āgatigati na hoti, āgatigatiyā
+asati cutūpapāto na hoti, cutūpapāte asati n’ ev’ idha na huraṁ na
+ubhayamantare, es’ ev’ anto dukkhassa.</em><sup class="footnote-reference" id="fr-fn787-1"><a href="#fn-fn787">7</a></sup></p>
+<p>To the attached there is wavering, to the unattached there is no wavering;
+wavering not being, there is calm; calm being, there is no inclination;
+inclination not being, there is no coming and going; coming and going not
+being, there is no passing away or reappearing; when there is no passing away
+or reappearing, there is neither a ‘here’, nor a ‘there’, nor anything between
+the two – this is the end of suffering.</p>
+</blockquote>
+<p>It is in such profound terms, that the Buddha described the end of the world.
+One cannot see it by journeying. It can be seen only by wisdom. In fact, even
+the very concept of ‘going’ has to be transcended in order to see it.</p>
+<p>So, it seems, Rohitassa carried the world with him in his journey to see the end
+of the world. He made another blunder. He was going in search of a place where
+there is no death, in order to escape death. Even that, the Buddha had declared,
+is not possible to see or reach by travelling.</p>
+<p>Rohitassa took Māra along with him in his journey to find a place where there is
+no death. Why do we say so? In the <em>Rādhasaṁyutta</em> of the <em>Saṁyutta Nikāya</em> we
+find Venerable Rādha putting the following question to the Buddha:</p>
+<blockquote>
+<p><em>’Māro, māro’ti, bhante, vuccati, kittāvatā nu kho, bhante, ’māro’ti
+vuccati?</em><sup class="footnote-reference" id="fr-fn788-1"><a href="#fn-fn788">8</a></sup></p>
+<p>Māra, Māra, they say, venerable sir, to what extent is Māra called as such?</p>
+</blockquote>
+<p>Now this is how the Buddha answers the question:</p>
+<blockquote>
+<p><em>Rūpe kho, Rādha, sati Māro vā assa māretā vā yo vā pana mīyati. Tasmātiha
+tvaṁ, Rādha, rūpaṁ ’Māro’ti passa, ’māretā’ti passa, ’mīyatī’ti passa,
+’rogo’ti passa, ’gaṇḍo’ti passa, ’sallan’ti passa, ’aghan’ti passa,
+’aghabhūtan’ti passa. Ye nam evaṁ passanti te sammā passanti.</em></p>
+<p>Where there is form, Rādha, there would be a Māra, or one who kills, or one
+who dies. Therefore, Rādha, in this context you look upon form as ‘Māra’, as
+‘one who kills’, as ‘one who dies’, as a disease, as a boil, as a dart, as a
+misery, as a wretchedness. They that look upon thus are those that see
+rightly.</p>
+</blockquote>
+<p>As in the case of form, so also in regard to feeling, perception, preparations
+and consciousness, the same mode of seeing rightly is recommended. So, in this
+context, each of the five aggregates is looked upon as a Māra, from the point of
+view of the Dhamma. That is why we say that Rohitassa went in search of a
+deathless place taking death along with him.</p>
+<p>From this definition it is clear that so long as one grasps with craving the
+aggregates of form, feeling, perception, preparations and consciousness, there
+is a Māra, a killer, and one who dies. Therefore it is, that by giving up the
+five aggregates one is freed from Māra, is liberated from death and attains the
+deathless state. That is why we said that the <em>arahant</em> has attained the
+deathless state, here and now, in this world itself.<sup class="footnote-reference" id="fr-fn789-1"><a href="#fn-fn789">9</a></sup> The principle
+involved here we have already stated while discussing the law of dependent
+arising.<sup class="footnote-reference" id="fr-fn790-1"><a href="#fn-fn790">10</a></sup></p>
+<p>Let us remind ourselves of the relevant section of a verse in the
+<em>Bhadrāvudhamāṇavappucchā</em> of the <em>Pārāyanavagga</em> of the <em>Sutta Nipāta</em>:</p>
+<blockquote>
+<p><em>Yaṁ yaṁ hi lokasmiṁ upādiyanti,</em> <br />
+<em>ten’ eva Māro anveti jantuṁ.</em><sup class="footnote-reference" id="fr-fn791-1"><a href="#fn-fn791">11</a></sup></p>
+<p>Whatever thing they grasp in this world, <br />
+By that itself Māra pursues a man.</p>
+</blockquote>
+<p>Because of grasping, there is becoming or existence and with it birth, decay and
+death, etc., follow suit, all due to craving. That is the deep idea behind the
+Buddha’s definition of the five grasping groups in terms of Māra.</p>
+<p>In fact, these six sense-spheres, the six bases, are within the jurisdiction of
+Māra. This is evident from Māra’s own words in the <em>Kassakasutta</em> of the
+<em>Sagāthakavagga</em> of the <em>Saṁyutta Nikāya</em>.</p>
+<p>Once, when the Buddha was admonishing the monks with a sermon on Nibbāna, it
+occurred to Māra, the Evil One:</p>
+<blockquote>
+<p>“Now this recluse Gotama is admonishing the monks and the monks are listening
+attentively. I must go and blind their eye of wisdom.”</p>
+</blockquote>
+<p>With this evil intention, he came there in the guise of a farmer, carrying a
+plough on his shoulder, a goad in his hand, with dishevelled hair and muddy
+feet, and asked the Buddha:</p>
+<blockquote>
+<p>“Recluse, did you see my oxen?”</p>
+</blockquote>
+<p>Then the Buddha retorted:</p>
+<blockquote>
+<p>“What is the use of oxen for you, Evil One?”</p>
+</blockquote>
+<p>Māra understood that the Buddha had recognized him and came out with the
+following boast of his superiority:</p>
+<blockquote>
+<p><em>Mam eva, samaṇa, cakkhu, mama rūpā, mama cakkhusamphassaviññānāyatanaṁ, kuhiṁ
+me, samaṇa, gantvā mokkhasi?</em></p>
+<p><em>Mam eva, samaṇa, sotaṁ … Mam eva, samaṇa, ghānaṁ …Mam eva, samaṇa, jivhā
+… Mam eva, samaṇa, kāyo …</em></p>
+<p><em>Mam eva, samaṇa, mano, mama dhammā, mama manosamphassaviññānāyatanaṁ, kuhiṁ
+me, samaṇa, gantvā mokkhasi?</em><sup class="footnote-reference" id="fr-fn792-1"><a href="#fn-fn792">12</a></sup></p>
+<p>“Mine, O recluse, is the eye, mine are the forms and mine the sphere of
+eye-contact, where will you, recluse, go to escape me?</p>
+<p>Mine, O recluse, is the ear … Mine, O recluse is the nose … Mine, O
+recluse is the tongue … Mine, O recluse is the body …</p>
+<p>Mine, O recluse is the mind, mine are the mind-objects and mine the sphere of
+mind-contact, where will you, recluse, go to escape me?“</p>
+</blockquote>
+<p>Now this is how the Buddha responded to that challenge:</p>
+<blockquote>
+<p><em>Taveva, pāpima, cakkhu, tava rūpā, tava cakkhusamphassaviññāṇāyatanaṁ, yattha
+ca kho, pāpima, natthi cakkhu, natthi rūpā, natthi
+cakkhusamphassaviññāṇāyatanaṁ, agati tava tattha pāpima.</em></p>
+<p><em>Taveva, pāpima, sotaṁ … Taveva, pāpima, ghāṇaṁ … Taveva, pāpima, jivhaṁ
+… Taveva, pāpima, kāyaṁ …</em></p>
+<p><em>Taveva, pāpima, mano, tava dhammā, tava manosamphassaviññāṇāyatanaṁ, yattha
+ca kho, pāpima, natthi mano, natthi dhammā, natthi
+manosamphassaviññāṇāyatanaṁ, agati tava tattha pāpima.</em></p>
+<p>“Yours, O Evil One, is the eye, yours are the forms and yours the sphere of
+eye-contact, but where there is no eye, no forms and no sphere of eye-contact,
+there you cannot go, Evil One.</p>
+<p>Yours, Evil One, is the ear … Yours, Evil One, is the nose … Yours, Evil
+One, is the tongue … Yours, Evil One, is the body …</p>
+<p>Yours, Evil One, is the mind, yours are the mind-objects and yours the sphere
+of mind-contact, but where there is no mind, no mind-objects and no sphere of
+mind-contact, there you cannot go, Evil One.“</p>
+</blockquote>
+<p>From the Buddha’s reprisal to Māra’s challenge, we can well infer that there
+indeed is a place to which Māra has no access. That is none other than the
+cessation of the six sense-spheres. Since it is something realizable, it is
+referred to as a ‘sphere’ in such contexts as, for instance, in the discourse on
+Nibbāna beginning with the words <em>atthi, bhikkhave, tad āyatanaṁ</em>,<sup class="footnote-reference" id="fr-fn793-1"><a href="#fn-fn793">13</a></sup>
+“there is, monks, that sphere”, etc.</p>
+<p>It is this same cessation of the six sense-spheres that is referred to as
+<em>papañcanirodha</em> and <em>papañcavūpasama</em>, cessation or appeasement of conceptual
+proliferation. In the <em>Mahākoṭṭhitasutta</em> we discussed in our previous sermon,
+we found Venerable Sāriputta making the following conclusive statement to the
+same effect:</p>
+<blockquote>
+<p><em>Channaṁ, āvuso, phassāyatanānaṁ asesavirāganirodhā papañcanirodho
+papañcavūpasamo</em>,<sup class="footnote-reference" id="fr-fn794-1"><a href="#fn-fn794">14</a></sup></p>
+<p>Friend, by the remainderless fading away and cessation of the six spheres of
+sense-contact, there comes to be the cessation and appeasement of conceptual
+proliferation.</p>
+</blockquote>
+<p>That itself is the non-prolific state. All concepts of ‘going’, ‘coming’, ‘being
+born’, ‘growing old’ and ‘dying’, are to be found in the prolific. They simply
+do not exist in the non-prolific. That is why it is inaccessible to Māra. In it,
+neither the sense-bases, such as the eye, ear and nose, nor their respective
+objects are to be found. So it is clear that the cessation of the six
+sense-spheres is that state of release from Māra, attainable here and now.</p>
+<p>All the six sense-spheres are built up on the perception of permanence.
+Therefore, the realization of their cessation is possible only through the
+perception of impermanence. The contemplation of impermanence is the path to its
+realization.</p>
+<p>An extremely subtle contemplation on impermanence, that can bring about the
+cessation of the six sense-spheres, is to be found in the <em>Dvayamsutta</em> (No. 2)
+of the <em>Saḷāyatanavagga</em> of the <em>Saṁyutta Nikāya</em>. <em>Dvayaṁ</em> means a dyad. There
+are two discourses by that name, and this is the second. A strikingly deep
+vision of consciousness unfolds itself in this discourse as follows:</p>
+<blockquote>
+<p><em>Dvayaṁ, bhikkhave, paṭicca viññāṇaṁ sambhoti. Kathañca, bhikkhave, dvayaṁ
+paṭicca viññāṇaṁ sambhoti? Cakkhuñca paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ.
+Cakkhu aniccaṁ vipariṇāmi aññathābhāvi. Rūpā aniccā vipariṇāmino
+aññathābhāvino. Itthetaṁ dvayaṁ calañceva vyayañca aniccaṁ vipariṇāmi
+aññathābhāvi.</em></p>
+<p><em>Cakkhuviññāṇaṁ aniccaṁ vipariṇāmi aññathābhāvi. Yo pi hetu yo pi paccayo
+cakkhuviññāṇassa uppādāya, so pi hetu so pi paccayo anicco vipariṇāmī
+aññathābhāvī. Aniccaṁ kho pana, bhikkhave, paccayaṁ paṭicca uppannaṁ
+cakkhuviññāṇaṁ, kuto niccaṁ bhavissati?</em></p>
+<p><em>Yā kho, bhikkhave, imesaṁ tiṇṇaṁ dhammānaṁ saṅgati sannipāto samavāyo, ayaṁ
+vuccati, bhikkhave, cakkhusamphasso. Cakkhusamphasso pi anicco vipariṇāmī
+aññathābhāvī. Yo pi hetu yo pi paccayo cakkhusamphassassa uppādāya, so pi hetu
+so pi paccayo anicco vipariṇāmī aññathābhāvī. Aniccaṁ kho pana, bhikkhave,
+paccayaṁ paṭicca uppanno cakkhusamphasso, kuto nicco bhavissati?</em></p>
+<p><em>Phuṭṭho, bhikkhave, vedeti, phuṭṭho ceteti, phuṭṭho sañjānāti. Itthete pi
+dhammā calā ceva vayā ca aniccā vipariṇāmino aññathābhāvino.</em><sup class="footnote-reference" id="fr-fn795-1"><a href="#fn-fn795">15</a></sup></p>
+</blockquote>
+<p>Even by listening to it, one can easily guess that there is a string of terms
+giving the idea of impermanence. Let us now try to translate it.</p>
+<blockquote>
+<p>Dependent on a dyad, monks, consciousness comes to be. How is it, monks, that
+consciousness comes to be dependent on a dyad? Depending on eye and forms
+arises eye-consciousness. Eye is impermanent, changing, becoming otherwise.
+Forms are impermanent, changing, becoming otherwise. Thus this dyad is
+unstable, evanescent, impermanent, changing, becoming otherwise.</p>
+<p>Eye-consciousness is impermanent, changing, becoming otherwise. Whatever cause
+and condition there is for the arising of eye-consciousness, that cause, that
+condition, too, is impermanent, changing and becoming otherwise. How can
+eye-consciousness, arisen in dependence on an impermanent condition, be
+permanent, monks?</p>
+<p>That concurrence, that meeting, that togetherness of these three things,
+monks, is called eye-contact. Even the eye-contact, monks is impermanent,
+changing, becoming otherwise. Whatever cause and condition there is for the
+arising of eye-contact, that cause and condition, too, is impermanent,
+changing and becoming otherwise. How can eye-contact, arisen in dependence on
+an impermanent condition, be permanent, monks?</p>
+<p>Contacted, monks, one feels, contacted one intends, contacted one perceives.
+Thus these things, too, are unstable, evanescent, impermanent, changing and
+becoming otherwise.</p>
+</blockquote>
+<p>The sutta proceeds in this way, stressing the impermanence of the other
+sense-spheres as well, the ear, the nose, the tongue, the body and the mind. The
+entire discourse vibrates with the tone of impermanence.</p>
+<p>It is the law of dependent arising that the Buddha presents here with reference
+to the six sense-spheres. In other words, how the world gets built up. It is not
+founded on stable existing things, but on what is impermanent, unstable and
+changing, whose nature is to become otherwise. This is how the entire perception
+of the world is built up. Its foundation is always crumbling, changing and
+transforming.</p>
+<p>Generally, in the discourse dealing with the question of sense-restraint, one
+comes across the phrase</p>
+<blockquote>
+<p><em>na nimittaggāhi nānuvyañjanaggāhī</em>,<sup class="footnote-reference" id="fr-fn796-1"><a href="#fn-fn796">16</a></sup></p>
+<p>he doesn’t grasp a sign nor does he dwell on its details.</p>
+</blockquote>
+<p>The tendency to grasp a sign in regard to the objects of the six senses is the
+result of the perception of permanence. Due to the perception of permanence,
+there is a grasping of signs, and due to that grasping of signs, influxes flow
+in. Proliferations through craving, conceits and views get heaped up. This is
+how our world is constructed. This is the way the aggregates of attachment get
+accumulated. On the other hand, the contemplation of impermanence that leads to
+the signless concentration is helpful in freeing the mind from these signs.</p>
+<p>The reflection on an object can be of two types. Where there is a perception of
+permanence, the tendency is to grasp the object tenaciously and hang on to it.
+This pervert tendency is known as <em>parāmasana</em>. It is impelled by the triple
+proliferations of craving, conceits and views. Under its influence one is
+carried away by prolific perceptions, <em>papañcasaññā</em>, and is kept under the sway
+of worldly concepts and designations born of prolific perceptions,
+<em>papañcasaññāsaṅkhā</em>.</p>
+<p>On the contrary, the perception of impermanence fosters a detached and observant
+attitude in reflection, which is known as <em>sammasana</em>. It is that healthy
+attitude which progressively leads to the liberation of the mind from the
+influence of signs, and attenuates the prolific tendencies to craving, conceits
+and views.</p>
+<p>This kind of reflection is the harbinger of insight. Contemplation of
+impermanence on these lines effectively puts an end to this entire mass of
+<em>saṁsāric</em> suffering, as is evident from the following powerful declaration by
+the Buddha in the <em>Khandhasaṁyutta</em>.</p>
+<blockquote>
+<p><em>Aniccasañña, bhikkhave, bhāvitā bahulīkatā sabbaṁ kāmarāgaṁ pariyādiyati,
+sabbaṁ rūparāgaṁ pariyādiyati, sabbaṁ bhavarāgaṁ pariyādiyati, sabbaṁ avijjaṁ
+pariyādiyati, sabbaṁ asmimānaṁ pariyādiyati samūhanati.</em><sup class="footnote-reference" id="fr-fn797-1"><a href="#fn-fn797">17</a></sup></p>
+<p>The perception of impermanence, monks, when developed and intensively
+practised, extirpates all sensual lust, extirpates all lust for forms,
+extirpates all lust for existence, extirpates all ignorance and extirpates and
+eradicates the conceit ‘am’.</p>
+</blockquote>
+<p>The contemplation of impermanence, therefore, strikes at the very root of this
+entire mass of <em>saṁsāric</em> suffering. The discourse on the dyad, quoted above,
+amply illustrates this fact. The recurrent terms like <em>cala</em>, ‘unstable’, and
+<em>vaya</em>, ‘evanescent’, in the passage, indicate that the entire superstructure of
+sensory knowledge is founded on certain pervert attitudes. An imperceptible
+impermanence underlies it.</p>
+<p>In a number of sermons we had to bring up the simile of the motion picture. The
+simile is not our own, but only a modernization of a canonical simile used by
+the Buddha himself. The point of divergence was the question the Buddha had
+addressed to the monks in the <em>Gaddulasutta</em>.</p>
+<blockquote>
+<p><em>Diṭṭhaṁ vo, bhikkhave, caraṇaṁ nāma cittaṁ?</em><sup class="footnote-reference" id="fr-fn798-1"><a href="#fn-fn798">18</a></sup></p>
+<p>Monks, have you seen a picture called a movie?</p>
+</blockquote>
+<p>The monks answer in the affirmative, and so the Buddha proceeds:</p>
+<blockquote>
+<p><em>Tampi kho, bhikkhave, caraṇaṁ nāma cittaṁ citteneva cintitaṁ. Tena pi kho,
+bhikkhave, caraṇena cittena cittaññeva cittataraṁ.</em></p>
+<p>Monks, that picture called a movie is something thought out by the mind. But
+the thought itself, monks, is even more picturesque than that picture.</p>
+</blockquote>
+<p>To say that it is more picturesque is to suggest its variegated character.
+Thought is intrinsically variegated. We have no idea what sort of a motion
+picture was there at that time, but the modern day movie has a way of concealing
+impermanence by the rapidity of projections of the series of pictures on the
+screen. The rapidity itself gives an impression of permanence, which is a
+perversion, <em>vipallāsa</em>.</p>
+<p>The movie is enjoyable because of this perversion. Due to the perception of
+permanence, there is a grasping of signs, and in the wake of it influxes flow
+in, giving rise to proliferation, due to which one is overwhelmed by reckonings
+born of prolific conceptualization, <em>papañcasaññāsaṅkhā</em>. That is how one enjoys
+a film show. All this comes about as a result of ignorance, or lack of awareness
+of the cinematographic tricks concealing the fleeting, vibrating and evanescent
+nature of the scenes on the screen.</p>
+<p>Though we resort to such artificial illustrations, by way of a simile, the
+Buddha declares that actually it is impossible to give a fitting simile to
+illustrate the rapidity of a thought process. Once he proclaimed:</p>
+<blockquote>
+<p><em>Upamā pi na sukarā yāva lahuparivattaṁ cittaṁ</em>,<sup class="footnote-reference" id="fr-fn799-1"><a href="#fn-fn799">19</a></sup></p>
+<p>it is not easy even to give a simile to show how rapidly thought changes.</p>
+</blockquote>
+<p>Sometimes the Buddha resorts to double entendre to bring out piquantly some deep
+idea. He puns on the word <em>citta</em>, ‘thought’ or ‘picture’, in order to suggest
+the ‘picturesque’ or variegated nature of thought, when he asserts that thought
+is more picturesque, <em>cittatara</em>, than the picture. We can see that it is quite
+reasonable in the light of the <em>Dvayamsutta</em>. It is this series of picturesque
+formations that gives us a perception of permanence, which in turn is
+instrumental in creating a world before our eyes.</p>
+<p>Our eye changes every split second. It is quivering, vibrating and transient. So
+also are the forms. But there is a malignantly pervert idea, ingrained in
+<em>saṁsāric</em> beings, known as the perception of permanence in the impermanent,
+<em>anicce niccasaññā</em>, which prevents them from seeing the inherent transience of
+eye and forms. That is how the six spheres of sense create a world before us.</p>
+<p>It is the substructure of this sense created world that the Buddha has revealed
+to us in this particular discourse on impermanence. The substructure, on
+analysis, reveals a duality, <em>dvayaṁ, bhikkhave, paṭicca viññāṇaṁ sambhoti</em>,
+“dependent on a dyad, monks, arises consciousness”.</p>
+<p>Consciousness is not something substantial and absolute, like the so-called
+soul. That is precisely the point of divergence for Buddhism, when compared with
+those religious systems which rely on soul theories.</p>
+<p>In the Dhamma there is mention of six consciousnesses, as <em>cakkhuviññāṇa,
+sotaviññāṇa, ghānaviññāṇa, jivhāviññāṇa, kāyaviññāṇa</em> and <em>manoviññāṇa</em>, eye-,
+ear-, nose-, tongue-, body- and mind-consciousness. Everyone of these
+consciousnesses is based on a dyad.</p>
+<p>Just as in the case of eye-consciousness we are given the formula beginning with
+<em>cakkhuñca paṭicca rūpe ca</em>, “dependent on eye and forms”, so with regard to
+ear-consciousness we get <em>sotañca paṭicca sadde ca</em>, “dependent on ear and
+sounds”, and so on. Even when we come to mind-consciousness, the theme is the
+same, <em>manañca paṭicca dhamme ca</em>, “dependent on mind and mind-objects”. Mind
+also is vibrating, changing and transforming with extreme rapidity every moment.
+So are the objects of the mind.</p>
+<p>The entire world is structured on these vibrant, transient and evanescent basic
+elements. That is the burden of this powerful discourse of the Buddha.
+Therefore, if someone developed the contemplation of impermanence to the highest
+degree and brought his mind to the signless state, having started from the sign
+itself, it goes without saying that he has realized the cessation of the world.
+That is, the experience of Nibbāna.</p>
+<p>It is, at the same time, the cessation of proliferation, <em>papañcanirodha.</em>
+Prolific conceptualization is founded on the perception of permanence, whereby
+one comes under the sway of reckonings born of prolific perceptions,
+<em>papañcasaññāsaṅkhā</em>. Proliferation creates things, giving rise to the
+antinomian conflict. Duality masquerades behind it.</p>
+<p>It is by mistaking the impermanent eye and the impermanent forms as permanent
+that the whole confusion has come about. One imagines the eye and forms as
+permanent and thereby becomes blind to their momentary change and transience.
+The glue of craving and intoxicating influxes create a facade of a real world
+before him. That is the world we touch with our hands and see with our eyes. All
+this exposes the insubstantial nature of this world.</p>
+<p>The products of the six sense-bases can be summed up by the four terms <em>diṭṭha,
+suta, muta</em> and <em>viññāta</em>, things seen, heard, sensed and cognized. The
+<em>Dvayamsutta</em> brings to light the fact that all these four are insubstantial and
+coreless.</p>
+<p>Due to this very fact, the Tathāgata who realized the cessation of the six
+sense-bases, was confronted with the stupendous problem of mediating with the
+world that could not even imagine the frightful prospect of a cessation of the
+six sense-bases. That is to say, when he reached the state of non-proliferation,
+<em>nippapañca</em>, by experiencing the cessation of the world through the cessation
+of the six sense-bases, the Tathāgata had to grapple with the serious problem of
+truth and falsehood in mediating with the world.</p>
+<p>There is an extremely important discourse connected with the idea of the void,
+<em>suññatāpaṭisaṁyutta</em>, which echoes this epistemological crisis, in the section
+of the Fours in the <em>Aṅguttara Nikāya</em>, entitled <em>Kāḷakārāmasutta</em>. This
+<em>Kāḷakārāmasutta</em> was preached by the Buddha to the congregation of monks at the
+Kāḷaka monastery in the city of Sāketa. The discourse, though brief, is one
+that is extremely deep in its presentation of the idea of the void.</p>
+<p>Before getting down to an exposition of this discourse, by way of sketching its
+historical background, we may mention a few things. Apart from the mention of
+the venue, nothing much could be gleaned from the discourse itself as to how it
+was inspired. The commentaries, however, relate the episode of Cūḷasubhaddhā,
+daughter of Anāthapiṇḍika, to explain the context in which the discourse was
+preached.</p>
+<p>Cūḷasubhaddhā, who was a stream-winner, <em>sotāpanna</em>, was given in marriage to
+the son of the millionaire Kāḷaka of Sāketa, a devout follower of Nigaṇṭha
+Nātaputta. Cūḷasubhaddhā managed to convert him by inviting the Buddha to Sāketa
+and getting Kāḷaka to listen to the Dhamma. After his conversion, he built a
+monastery in his park and offered it to the Buddha.</p>
+<p>The commentary says that a group of five-hundred newly ordained monks of Sāketa
+gathered in this Kāḷaka monastery and were speaking in praise of the Buddha,
+marvelling at his extraordinary feat of converting the millionaire and the
+inhabitants of Sāketa.</p>
+<p>It was at this juncture that the Buddha came and addressed this deep discourse
+to those monks. According to the commentary, the discourse was so profound that
+at five points of the sermon the earth shook miraculously and at the end of the
+sermon all the five-hundred monks who listened to it attained <em>arahanthood</em>.</p>
+<p>It is chronicled in the history of Buddhism that, during the great missionary
+movement initiated by the emperor Asoka, Venerable Mahā Rakkhita was sent to
+convert the country of the Yonakas. The very first sermon he preached there was
+based on this <em>Kāḷakārāmasutta</em>, on hearing which thirty-seven-thousand attained
+fruits of the noble path. If the identification of the Yonakas with the Greeks
+is correct, the choice of this deeply philosophical discourse is understandable.</p>
+<p>According to the chronicles and the commentaries, another significant occasion
+in which the <em>Kāḷakārāmasutta</em> served as a theme was when Kālabuddharakkhita
+Thera gave an all-night sermon on the dark night of the new-moon Poya day,
+seated under the black Timbaru tree at Cetiya Pabbata in Sri Lanka. King
+Saddhātissa was also present in the audience.</p>
+<p>The fact that this discourse was held in high esteem is evident from its
+historical background. As in the case of many other deep discourses, here too we
+are faced with the problem of variant readings. Even the commentator is at a
+loss to conclude and editors go their own way. We have to wade through the
+variant readings to make some sense out of the discourse as it is handed down.
+Let us now take up the relevant portions of this abstruse discourse.</p>
+<blockquote>
+<p><em>Yaṁ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa
+sassamaṇabrāhmaṇiyā pajāya sadevamanussāya diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ
+pariyesitaṁ anuvicaritaṁ manasā, tam ahaṁ jānāmi.</em></p>
+<p><em>Yaṁ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa
+sassamaṇabrāhmaṇiyā pajāya sadevamanussāya diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ
+pariyesitaṁ anuvicaritaṁ manasā, tam ahaṁ abhaññāsiṁ. Taṁ tathāgatasssa
+viditaṁ, taṁ tathāgato na upaṭṭhāsi.</em></p>
+<p><em>Yaṁ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa
+sassamaṇabrāhmaṇiyā pajāya sadevamanussāya diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ
+pariyesitaṁ anuvicaritaṁ manasā, tam ahaṁ ’na jānāmī’ti vadeyyaṁ, taṁ mama
+assa musā, tam ahaṁ ’jānāmi ca na ca jānāmī’ti vadeyyaṁ, taṁ p’assa tādisam
+eva, tam ahaṁ ’neva jānāmi na na jānāmī’ti vadeyyaṁ, taṁ mama assa kali.</em></p>
+<p><em>Iti kho, bhikkhave, tathāgato diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na maññati, adiṭṭhaṁ
+na maññati, daṭṭhabbaṁ na maññati, daṭṭhāraṁ na maññati. Sutā sotabbaṁ sutaṁ
+na maññati, asutaṁ na maññati, sotabbaṁ na maññati, sotāraṁ na maññati. Mutā
+motabbaṁ mutaṁ na maññati, amutaṁ na maññati, motabbaṁ na maññati, motāraṁ na
+maññati. Viññātā viññātabbaṁ viññātaṁ na maññati, aviññātaṁ na maññati,
+viññātabbaṁ na maññati, viññātāraṁ na maññati.</em></p>
+<p><em>Iti kho, bhikkhave, tathāgato diṭṭha-suta-muta-viññātabbesu dhammesu tādī,
+yeva tādī tamhā ca pana tādimhā añño tādī uttaritaro vā paṇītataro vā
+natthī’ti vadāmi.</em></p>
+<p><em>Yaṁ kiñci diṭṭhaṁ va sutaṁ mutaṁ vā,</em> <br />
+<em>ajjhositaṁ saccamutaṁ paresaṁ,</em> <br />
+<em>na tesu tādī saya saṁvutesu,</em> <br />
+<em>saccaṁ musā vā pi paraṁ daheyyaṁ.</em></p>
+<p><em>Etañca sallaṁ paṭigacca disvā,</em> <br />
+<em>ajjhositā yattha pajā visattā,</em> <br />
+<em>jānāmi passāmi tath’ eva etaṁ,</em> <br />
+<em>ajjhositaṁ natthi tathāgatānaṁ.</em><sup class="footnote-reference" id="fr-fn800-1"><a href="#fn-fn800">20</a></sup></p>
+<p>Monks, whatsoever in the world, with its gods, Māras and Brahmas, among the
+progeny consisting of recluses and Brahmins, gods and men, whatsoever is seen,
+heard, sensed, cognized, thought after and pondered over by the mind, all that
+do I know.</p>
+<p>Monks, whatsoever in the world, with its gods, Māras and Brahmas, among the
+progeny consisting of recluses and Brahmins, gods and men, whatsoever is seen,
+heard, sensed, cognized, thought after and pondered over by the mind, that
+have I fully understood. All that is known to the Tathāgata, but the Tathāgata
+has not taken his stand upon it.</p>
+<p>If I were to say, monks, whatsoever in the world, with its gods, Māras and
+Brahmas, among the progeny consisting of recluses and Brahmins, gods and men,
+whatsoever is seen, heard, sensed, cognized, thought after and pondered over
+by the mind, all that I do not know, it would be a falsehood in me. If I were
+to say I both know it and know it not, that too would be a falsehood in me. If
+I were to say I neither know it nor am ignorant of it, it would be a fault in
+me.</p>
+<p>Thus, monks, a Tathāgata does not imagine a visible thing as apart from
+seeing, he does not imagine an unseen, he does not imagine a thing worth
+seeing, he does not imagine a seer. He does not imagine an audible thing as
+apart from hearing, he does not imagine an unheard, he does not imagine a
+thing worth hearing, he does not imagine a hearer. He does not imagine a thing
+to be sensed as apart from sensation, he does not imagine an unsensed, he does
+not imagine a thing worth sensing, he does not imagine one who senses. He does
+not imagine a cognizable thing as apart from cognition, he does not imagine an
+uncognized, he does not imagine a thing worth cognizing, he does not imagine
+one who cognizes.</p>
+<p>Thus, monks, the Tathāgata, being such in regard to all phenomena, seen,
+heard, sensed and cognized, is such. Moreover than he who is such there is
+none other higher or more excellent, I declare.</p>
+<p>Whatever is seen, heard, sensed, <br />
+Or clung to and esteemed as truth by other folk, <br />
+Midst those who are entrenched in their own views, <br />
+Being such, I hold none as true or false.</p>
+<p>This barb I beheld well in advance, <br />
+Whereon mankind is hooked impaled, <br />
+I know, I see, ’tis verily so, <br />
+No such clinging for the <em>tathāgatas</em>.</p>
+</blockquote>
+<p>In the first statement the Buddha declares that he knows, <em>tam ahaṁ jānāmi</em>,
+whatever is seen, heard, sensed, cognized, thought after and pondered over by
+all beings in the world, and that is the sum total of the knowledge acquired
+through the six sense-bases.</p>
+<p>In the second statement he affirms that the knowledge he has is of a higher
+order, <em>tam ahaṁ abhaññāsiṁ</em>, that amounts to an understanding, <em>taṁ
+tathāgatasssa viditaṁ</em>, by virtue of which he does not take his stand upon it,
+he has no stance, <em>taṁ tathāgato na upaṭṭhāsi</em>.</p>
+<p>The third statement flows from this detached perspective. It is to the effect
+that the Tathāgata cannot disclaim knowledge, despite his detached attitude, as
+it would be tantamount to prevarication in the eyes of the world, <em>taṁ mama assa
+musā</em>.</p>
+<p>The fourth statement highlights the same incongruity, because the Tathāgata
+placed in this awkward situation cannot compromise by both claiming and
+disclaiming knowledge at the same time, <em>tam ahaṁ ’jānāmi ca na ca jānāmī’ti
+vadeyyaṁ, taṁ p’assa tādisam eva.</em></p>
+<p>As the fifth statement makes it clear, the Tathāgata does not deem it fit to
+wriggle out by neither claiming nor disclaiming knowledge of sense-data.</p>
+<p>Then comes the declaration as to how the Tathāgata treats this body of sensory
+knowledge of the worldling.</p>
+<blockquote>
+<p>Thus, monks, a Tathāgata does not imagine a visible thing as apart from the
+seen,</p>
+<p><em>iti kho, bhikkhave, tathāgato diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na maññati.</em></p>
+</blockquote>
+<p>We have come across the terms <em>diṭṭha, suta, muta, viññāta</em> quite often, for
+instance in our discussion of the <em>Bāhiyasutta</em> in the context:</p>
+<blockquote>
+<p><em>diṭṭhe diṭṭhamattaṁ bhavissati, sute sutamattaṁ bhavissati, mute mutamattaṁ
+bhavissati, viññāte viññātamattaṁ bhavissati,</em><sup class="footnote-reference" id="fr-fn801-1"><a href="#fn-fn801">21</a></sup></p>
+<p>in the seen there will be just the seen, in the heard there will be just the
+heard, in the sensed there will be just the sensed, in the cognized there will
+be just the cognized.</p>
+</blockquote>
+<p>In common parlance, the word ‘seen’ connotes something seen. But here we have
+something more radical, avoiding substantialist insinuations. It is just the
+seen in the seen, implied by <em>diṭṭha</em>, in this context too. The Tathāgata takes
+it just as a seen, without imagining that there is something substantial
+worthwhile seeing, as apart from it, <em>diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na maññati.</em></p>
+<p>We are already familiar with the term <em>maññanā</em>, having discussed it in such
+discourses as the <em>Mūlapariyāyasutta</em> and the <em>Bāhiyasutta</em>.<sup class="footnote-reference" id="fr-fn802-1"><a href="#fn-fn802">22</a></sup> It stands
+for imaginings, prompted by cravings, conceits and views. The Tathāgata is free
+from such imaginings. He does not imagine a thing worthwhile seeing apart from
+the seen, nor does he imagine an unseen, <em>adiṭṭhaṁ na maññati</em>. The phenomenon
+of seeing is not denied.</p>
+<p>The phrase <em>daṭṭhabbaṁ na maññati</em> conveys the idea that the Tathāgata does not
+imagine that there is something worth seeing, that there is something essential
+in it. <em>Daṭṭhāraṁ na maññati</em>, he does not imagine a seer or one who sees. He
+does not project an agent into the phenomenon by taking seriously the
+subject-object relationship.</p>
+<p>With regard to the heard, <em>suta</em>, the sensed, <em>muta</em>, and the cognized,
+<em>viññāta</em>, too, the Tathāgata has no such imaginings. Then, in summing up it is
+said:</p>
+<blockquote>
+<p><em>Iti kho, bhikkhave, tathāgato diṭṭha-suta-muta-viññātabbesu dhammesu tādi,
+yeva tādi</em>,</p>
+<p>thus, monks, the Tathāgata, being such in regard to all phenomena, seen,
+heard, sensed and cognized, is ‘such’.</p>
+</blockquote>
+<p>The term <em>tādī</em>, too, came up in a number of our earlier sermons.<sup class="footnote-reference" id="fr-fn803-1"><a href="#fn-fn803">23</a></sup> We
+rendered it by ‘such’. It stands for the quality of steadfastness of the
+<em>arahant</em> in remaining unshaken by the eight worldly vicissitudes.</p>
+<p>His mainstay, in this respect, is <em>atammayatā</em>, or non-identification. He is
+such because he does not grasp any of those things as ‘mine’. So he is ‘such’ in
+regard to whatever is seen, heard, sensed and cognized. There is no one who is
+higher or more excellent than this such-like-one in point of suchness. Then
+comes a couplet of verses, presenting the gist of the sermon.</p>
+<p>Our rendering of the sermon is in need of further explication. Though it gives a
+general idea, some words and phrases in the original have far reaching
+implications. The basic idea behind the series of declarations made is the
+extraordinary change of attitude towards the question of speculative views,
+which marks off the Tathāgata from all his contemporaries.</p>
+<p>He took a completely different turn, transcending the extremes of eternalism and
+annihilationism. This difference of attitude is revealed by the riddle like
+statements in the first part of the discourse. One gets the impression that the
+Tathāgata was confronted with a problematic situation of the highest order.</p>
+<p>The first statement is to the effect that the Tathāgata knows whatever in the
+world with its gods, Māras and Brahmas, among the progeny consisting of recluses
+and Brahmins, gods and men, is seen, heard, sensed, cognized, thought after and
+pondered over by the mind.</p>
+<p>The second statement asserts that the Tathāgata has a higher understanding of
+all that. All the same, he takes no stance in regard to whatever is seen, heard,
+sensed and cognized.</p>
+<p>This might appear as a riddle. Usually when one has a higher understanding of
+something, one is inclined to take one’s stand upon it. But here we have a
+denial. The discourse bears some resemblance to the tetralemma we had discussed
+earlier.<sup class="footnote-reference" id="fr-fn804-1"><a href="#fn-fn804">24</a></sup> But there seems to be a difference here, in the formulation of
+the first proposition of the tetralemma.</p>
+<p>Normally the first proposition amounts to an unqualified assertion of the
+affirmative standpoint. In this case, however, we find the statement that the
+Tathāgata not only knows all what the world knows, but that he has a higher
+understanding of it, <em>abhaññāsiṁ</em>. It is precisely because he has a higher
+understanding that he takes no stance in regard to it.</p>
+<p>This might appear problematic, but let us remind ourselves of the two levels of
+understanding mentioned in the <em>Mūlapariyāyasutta</em>, discussed earlier, namely
+<em>sañjānāti</em> and <em>abhijānāti</em>. As an instance of the first level of
+understanding, we get the following passage in that discourse in regard to the
+untaught ordinary person, <em>assutavā puthujjano</em>:</p>
+<blockquote>
+<p><em>Paṭhaviṁ paṭhavito sañjānāti. Paṭhaviṁ paṭhavito saññatvā paṭhaviṁ maññati,
+paṭhaviyā maññati, paṭhavito maññati, ’paṭhaviṁ me’ti maññati, paṭhaviṁ
+abhinandati.</em><sup class="footnote-reference" id="fr-fn805-1"><a href="#fn-fn805">25</a></sup></p>
+<p>He perceives earth as ‘earth’. Having perceived earth as ‘earth’, he imagines
+‘earth’ as such, he imagines ‘on the earth’, he imagines ‘from the earth’, he
+imagines ‘earth is mine’, he delights in earth.</p>
+</blockquote>
+<p>The untaught ordinary person has a perceptual knowledge of earth, <em>sañjānāti</em>.
+That, too, is a level of knowledge. It is in fact the lowest grade of knowing.
+The untaught ordinary person can do no better than perceive earth as earth.</p>
+<p>Having perceived earth as earth, he takes it seriously by its face value and
+goes on imagining by way of craving, conceit and views, granting it
+object-status. He imposes the grammatical superstructure on it. He imagines ‘on
+the earth’, he imagines ‘from the earth’, he imagines ‘earth is mine’, he
+delights in earth. This, then, is the lowest grade of knowledge.</p>
+<p>On the other hand, about the Tathāgata’s level of understanding, the
+<em>Mūlapariyāyasutta</em> has the following description:</p>
+<blockquote>
+<p><em>Paṭhaviṁ paṭhavito abhijānāti, paṭhaviṁ paṭhavito abhiññāya paṭhaviṁ na
+maññati, paṭhaviyā na maññati, paṭhavito na maññati, ’paṭhaviṁ me’ti na
+maññati, paṭhaviṁ nābhinandati.</em></p>
+<p>He understands through higher knowledge earth as ‘earth’, having understood
+through higher knowledge earth as ‘earth’, he does not imagine earth to be
+‘earth’, he does not imagine ‘on the earth’, he does not imagine ‘from the
+earth’, he does not imagine ‘earth is mine’, he does not delight in earth.</p>
+</blockquote>
+<p>The Tathāgata, who has a higher knowledge of earth, as suggested by the word
+<em>abhijānāti</em>, does not entertain imaginings by taking earth at its face value.
+He is not carried away by the grammatical structure to imagine in such terms as
+‘on the earth’ and ‘from the earth’.</p>
+<p>In the present context, too, the same distinction in grades of knowledge is
+evident. Firstly, the Tathāgata says:</p>
+<blockquote>
+<p>All that do I know, that have I fully understood. All that is known to the
+Tathāgata.</p>
+</blockquote>
+<p>It is precisely because of this full understanding that he has not taken his
+stand upon it. He has no stance in regard to all that. This is the gist of the
+first paragraph of the discourse, which sounds more or less a paradox. It is
+because of this apparently queer state of affairs that the Tathāgata had to
+confess that it would be a falsehood on his part to say: “All that I do not
+know”.</p>
+<p>If someone asks whether it is because he does not know that he takes no stance,
+he cannot say: “Yes”. As a matter of fact, it is precisely because he has
+understood that he takes no stance. But the worldlings are of the opinion that
+knowledge of a thing entitles one to assert it dogmatically.</p>
+<p>To say “I both know it and know it not” or “I neither know it nor am ignorant of
+it” would also be mistaken by the world as a prevarication or equivocation. The
+first paragraph of the discourse has to be understood in this light.</p>
+<p>The commentary has it that the earth shook at five points in the discourse.
+According to it the three significant terms <em>jānāmi, abbhaññāsiṁ</em> and <em>viditaṁ</em>,
+‘I know’, ‘I have fully understood’, all that is ‘known’ to the Tathāgata
+represent a plane of omniscience, <em>sabbaññutabhūmi</em>, peculiar to a
+Buddha.<sup class="footnote-reference" id="fr-fn806-1"><a href="#fn-fn806">26</a></sup> Even at the end of this proclamation of omniscience, it is said
+the earth shook as a mark of approbation.</p>
+<p>Then the phrase <em>na upaṭṭhāsi</em>, “does not take his stand upon it”, is
+interpreted by the commentary as indicating the plane of the influx-free one,
+<em>khīṇāsavabhūmi</em>. Why the Tathāgata has no stance in regard to sensory data is
+said to be due to his freedom from influxes. He does not grasp them by way of
+craving, conceit and views. He does not take his stand upon things seen, heard,
+sensed and cognized. He has no inclination or clinging towards them.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn781"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn781-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn782"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/sn2.26/pli/ms">SN 2.26 / S I 62</a> and <a href="https://suttacentral.net/an4.45/pli/ms">AN 4.45 / A II 50</a> <em>Rohitassasutta</em>; see <em>Sermon 23</em> <a href="#fr-fn782-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn783"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/sn35.116/pli/ms">SN 35.116 / S IV 95</a>, <em>Lokakāmaguṇasutta</em> <a href="#fr-fn783-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn784"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/ud8.2/pli/ms">Ud 8.2 / Ud 80</a>, <em>Pāṭaligāmiyavagga</em> <a href="#fr-fn784-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn785"><sup class="footnote-definition-label">5</sup>
+<p>See <em>Sermon 7</em> <a href="#fr-fn785-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn786"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/ud8.2/pli/ms">Ud 8.2 / Ud 80</a>, <em>Pāṭaligāmiyavagga</em> <a href="#fr-fn786-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn787"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/ud8.4/pli/ms">Ud 8.4 / Ud 81</a>, <em>Pāṭaligāmiyavagga</em> <a href="#fr-fn787-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn788"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/sn23.1/pli/ms">SN 23.1 / S III 189</a>, <em>Mārosutta</em> <a href="#fr-fn788-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn789"><sup class="footnote-definition-label">9</sup>
+<p>See <em>Sermon 14</em> <a href="#fr-fn789-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn790"><sup class="footnote-definition-label">10</sup>
+<p>See <em>Sermon 3</em> <a href="#fr-fn790-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn791"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/snp5.13/pli/ms">Snp 5.13 / Sn 1103</a>, <em>Bhadrāvudhamāṇavappucchā</em> <a href="#fr-fn791-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn792"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/sn4.19/pli/ms">SN 4.19 / S I 115</a>, <em>Kassakasutta</em> <a href="#fr-fn792-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn793"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/ud8.2/pli/ms">Ud 8.2 / Ud 80</a>, <em>Pāṭaligāmiyavagga</em> <a href="#fr-fn793-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn794"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/an4.173/pli/ms">AN 4.173 / A II 162</a>, <em>Mahākoṭṭhitasutta</em>; see <em>Sermon 23</em> <a href="#fr-fn794-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn795"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/sn35.93/pli/ms">SN 35.93 / S IV 67</a>, <em>Dutiyadvayamsutta</em> <a href="#fr-fn795-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn796"><sup class="footnote-definition-label">16</sup>
+<p>E.g. in <a href="https://suttacentral.net/dn2/pli/ms">DN 2 / D I 70</a>, <em>Sāmaññaphalasutta</em> <a href="#fr-fn796-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn797"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/sn22.102/pli/ms">SN 22.102 / S III 155</a>, <em>Aniccasaññāsutta</em> <a href="#fr-fn797-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn798"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/sn22.100/pli/ms">SN 22.100 / S III 150</a>, <em>Gaddulasutta</em>; see also <em>Sermons 5 and 6</em> <a href="#fr-fn798-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn799"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/an1.51-60/pli/ms">AN 1.51-52 / A I 10</a>, <em>Paṇihita-acchavagga</em> <a href="#fr-fn799-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn800"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/an4.24/pli/ms">AN 4.24 / A II 25</a>, <em>Kāḷakārāmasutta</em> <a href="#fr-fn800-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn801"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 8</a>, <em>Bāhiyasutta</em>, see <em>Sermon 14</em> <a href="#fr-fn801-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn802"><sup class="footnote-definition-label">22</sup>
+<p>See <em>Sermons 12 to 15</em> <a href="#fr-fn802-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn803"><sup class="footnote-definition-label">23</sup>
+<p>See <em>Sermons 17 and 22</em> <a href="#fr-fn803-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn804"><sup class="footnote-definition-label">24</sup>
+<p>See <em>Sermon 20</em> <a href="#fr-fn804-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn805"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/mn1/pli/ms">MN 1 / M I 1</a>, <em>Mūlapariyāyasutta</em> <a href="#fr-fn805-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn806"><sup class="footnote-definition-label">26</sup>
+<p>Mp III 38 <a href="#fr-fn806-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-23.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-25.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-23.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-25.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

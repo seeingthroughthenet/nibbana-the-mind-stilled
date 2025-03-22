@@ -1,0 +1,1007 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 32 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-32-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-32"><a class="header" href="#sermon-32">Sermon 32</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn1012-1"><a href="#fn-fn1012">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the assembly of the venerable meditative monks. This is
+the thirty-second sermon in the series of sermons on Nibbāna.</p>
+<p>In the course of our last sermon, we took up the position that the seven groups
+of doctrinal categories collectively known as the thirty-seven participative
+factors of enlightenment follow an extremely practical and systematic order of
+arrangement. By way of proof, we discussed at some length the inner consistency
+evident within each group and the way the different groups are related to each
+other.</p>
+<p>So far, we have pointed out how the setting up of mindfulness through the four
+foundations of mindfulness serves as a solid basis for the four ways of putting
+forth energy, by the four right endeavours; and how the progressive stages in
+putting forth energy, outlined by the four right endeavours, give rise to the
+four bases for success. It was while discussing the way in which the four bases
+for success are helpful in arousing the five faculties, like faith, that we had
+to stop our last sermon.</p>
+<p>It should be sufficiently clear, after our discussion the other day, that the
+four factors desire, energy, determination and investigation could be made the
+base for success in any venture.</p>
+<p>The five faculties, however, are directly relevant to Nibbāna. That is why faith
+is given pride of place among the faculties. <em>Saddhindriya</em>, or the faculty of
+faith, takes the lead, which is obviously related to <em>chanda</em>, desire or
+interest. But the element of faith in <em>saddhindriya</em> is defined at a higher
+level. In this context, it is reckoned as the firm faith characteristic of the
+stream-winner.</p>
+<p>Then comes the faculty of energy, <em>viriyindriya</em>. Though apparently it is yet
+another occurrence of the term, <em>viriya</em> in this context is that element of
+energy weathered and reinforced by its fourfold application as a base for
+success, <em>iddhipāda</em>.</p>
+<p>As for <em>samādhi</em> or concentration, we already came across the terms
+<em>chandasamādhi, viriyasamādhi, cittasamādhi</em> and <em>vīmaṁsāsamādhi</em> in the
+description of the development of the bases for success. The concentration meant
+by <em>samādhi</em> in that context is actually a one-pointedness of the mind,
+<em>cittekaggatā</em>, which could be made the basis for arousing energy.</p>
+<p>But the level of concentration envisaged by the concentration faculty,
+<em>samādhindriya</em>, is of a higher grade as far as its potential is concerned. It
+is defined as the first four <em>jhānas</em>, based on which one can develop insight
+and attain Nibbāna. In fact, there is a statement to that effect:</p>
+<blockquote>
+<p><em>Idha, bhikkhave, ariyasāvako vossaggārammaṇam karitvā labhati samādhiṁ,
+labhati cittassa ekaggataṁ</em>,<sup class="footnote-reference" id="fr-fn1013-1"><a href="#fn-fn1013">2</a></sup></p>
+<p>herein, monks, a noble disciple gains concentration, gains one-pointedness of
+mind, having made the release [of Nibbāna] its object.</p>
+</blockquote>
+<p>The term <em>vossagga</em> connotes Nibbāna as a giving up or relinquishment. So the
+concentration faculty is that concentration which is directed towards Nibbāna.</p>
+<p>Similarly the wisdom faculty, as defined here, is of the highest degree,
+pertaining to the understanding of the four noble truths. Sometimes it is called
+the “noble penetrative wisdom of rise and fall”, <em>udayatthagāminī paññā ariyā
+nibbedhikā</em>. By implication, it is equivalent to the factor called <em>vīmaṁsā</em>,
+investigation, we came across in our discussion of the bases for success. As a
+faculty, it comes out full-fledged in the guise of wisdom.</p>
+<p>The mindfulness faculty, which stands in the middle, fulfils a very important
+function. Now in the context of the four foundations of mindfulness, the role of
+mindfulness is the simple task of being aware of the appropriate object
+presented to it. But here in this domain of faculties, mindfulness has attained
+lordship and fulfils an important function. It maintains the balance between the
+two sets of pair-wise faculties, by equalizing faith with wisdom and energy with
+concentration.</p>
+<p>This function of balancing of faculties, which mindfulness fulfils, has a
+special practical value. To one who is striving for Nibbāna, balancing of
+faculties could sometimes be an intricate problem, since it is more easily said
+than done.</p>
+<p>In order to unravel this problem, let us take up the simile of the rock, we
+employed the other day. We discussed the question of toppling a rock as an
+illustration to understand the various stages in the four-fold right endeavour.
+We distinguished the five stages in putting forth effort in the phrase <em>chandaṁ
+janeti, vāyamati, viriyaṁ ārabhati, cittaṁ paggaṇhāti, padahati</em> with the help
+of that illustration. Out of these stages, the last one represented by the word
+<em>padahati</em> shows the climax. <em>Padhāna</em> or endeavour is the highest grade of
+effort.</p>
+<p>Even verbally it implies something like toppling a rock, which requires a high
+degree of momentum. This momentum has to be built up mindfully and gradually.
+That rock, in our illustration, was levered up with great difficulty. After it
+was levered up, there came that dangerous situation, when it threatened to roll
+back. It called for that supreme purposeful effort, which required the zeal of
+self sacrifice. That zealous endeavour is made at the risk of one’s body and
+life.</p>
+<p>But even there, one has to be cautious and mindful. If excessive energy is
+applied in that last heave, one would be thrown off head over heels after the
+rock. If insufficient energy is applied the rock would roll back and one would
+get crushed. That is why a balancing is needed before the last spurt. Right
+endeavour has to be preceded by a balancing.</p>
+<p>It is this preliminary balancing that finds mention in a certain highly
+significant statement in the <em>Caṅkīsutta</em> of the <em>Majjhima Nikāya</em>, where we are
+told how a person arouses faith in the Dhamma and gradually develops it and puts
+forth effort and endeavour and attains Nibbāna. To quote the relevant section of
+that long sentence:</p>
+<blockquote>
+<p><em>chandajāto ussahati, ussahitvā tuleti, tulayitvā padahati, pahitatto samāno
+kāyena ceva paramasaccaṁ sacchikaroti, paññāya ca naṁ ativijjha
+passati</em>,<sup class="footnote-reference" id="fr-fn1014-1"><a href="#fn-fn1014">3</a></sup></p>
+<p>having aroused a desire or keen interest, he strives; having strived, he
+balances; having balanced or equalized, he endeavours; and with that endeavour
+he realizes the highest truth by his body and penetrates into it with wisdom.</p>
+</blockquote>
+<p>Unfortunately, the key word here, <em>tulayati</em> or <em>tuleti</em>, is explained in a
+different way in the commentary. It is interpreted as a reference to
+contemplation on insight, <em>aniccādivasena tīreti</em>, “adjudges as impermanent,
+etc.”<sup class="footnote-reference" id="fr-fn1015-1"><a href="#fn-fn1015">4</a></sup></p>
+<p>But if we examine the word within the context here, as it occurs between
+<em>ussahati</em>, ‘strives’ (literally ‘bearing up’ or ‘enduring’), and <em>padahati</em>,
+‘endeavours’, the obvious meaning is ‘equalizing’ or ‘balancing’.</p>
+<p><em>Tuleti</em> has connotations of weighing and judging, and one who strives to lift
+up a rock needs to know how heavy it is and how much effort is required to
+topple it. By merely looking at the rock, without trying to lift it up, one
+cannot say how much effort is needed to topple it. One has to put one’s shoulder
+to it. In fact the word <em>ussahati</em> is suggestive of enduring effort with which
+one bears up.</p>
+<p>Sometimes the Buddha uses the term <em>ussoḷhī</em> to designate that steadily enduring
+effort – literally, the bearing up. A clear instance of the occurrence of this
+term in this sense can be found among the Eights of the <em>Aṅguttara Nikāya</em> in a
+discourse on the recollection of death, <em>maraṇasati</em>. The sutta is an
+exhortation to the monks to make use of the recollection of death to reflect on
+one’s unskilful mental states daily in the morning and in the evening with a
+view to strengthen one’s determination to abandon them. For instance, we find
+the following exhortation:</p>
+<blockquote>
+<p><em>Sace, bhikkhave, bhikkhu paccavekkhamāno evaṁ pajānāti: ’atthi me pāpakā
+akusalā dhammā appahīnā ye me assu rattiṁ kālaṁ karontassa antarāyāyā’ti,
+tena, bhikkhave, bhikkhunā tesaṁ yeva pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya
+adhimatto chando ca vāyāmo ca ussāho ca ussoḷhi ca appaṭivānī ca sati ca
+sampajaññañca karaṇīyaṁ.</em><sup class="footnote-reference" id="fr-fn1016-1"><a href="#fn-fn1016">5</a></sup></p>
+<p>If, monks, upon reflection a monk understands: ‘There are in me unabandoned
+evil unskilful states which could spell danger to me if I die today’, then,
+monks, for the abandonment of those very evil unskilful states that monk
+should arouse a high degree of desire, effort, striving, enduring effort,
+unremitting effort, mindfulness and full awareness.</p>
+</blockquote>
+<p>The sequence of terms <em>chando, vāyāmo, ussāho, ussoḷhi, appaṭivānī, sati</em> and
+<em>sampajañña</em> is particularly significant in this long sentence.</p>
+<p><em>Chanda</em> is that desire to abandon evil unskilful states, <em>vāyāma</em> is the
+initial effort, <em>ussāha</em> is literally putting the shoulder to the task,
+<em>ussoḷhi</em> is bearing it up with endurance, <em>appaṭivānī</em> is unshrinking effort or
+unremitting effort. <em>Sati</em> is that mindfulness and <em>sampajañña</em> that full
+awareness which are indispensable in this sustained unremitting endeavour.</p>
+<p>If a better illustration is needed to clarify the idea of balancing, prior to
+the final endeavour, we may take the case of lifting a log of wood. Here we have
+an actual lifting up or putting one’s shoulder to it. Without lifting up a log
+of wood and putting one’s shoulder to it, one cannot get to know the art of
+balancing.</p>
+<p>If, for instance, the log of wood is thick at one end and thin at the other end,
+one cannot locate the centre of gravity at a glance. So one puts one’s shoulder
+to one end and goes on lifting it up. It is when one reaches the centre of
+gravity that one is able to balance it on one’s shoulder and take it away. It is
+because we are looking at this question of balancing of faculties from a
+practical point of view that we made this detour in explanation.</p>
+<p>So, then, the mindfulness faculty is also performing a very important function
+among these faculties. From the <em>Saddhāsutta</em> we quoted the other day we could
+see that there is also a gradual arrangement in this group of five faculties.
+That is to say, in a person with faith, energy arises. One who is energetic is
+keen on developing mindfulness. In one who is mindful, concentration grows; and
+one who has concentration attains wisdom.</p>
+<p>This gradual arrangement becomes all the more meaningful since the faculty of
+wisdom is declared the chief among the faculties. In the <em>Indriya Saṁyutta</em> of
+the <em>Saṁyutta Nikāya</em> the Buddha gives a number of similes to show that the
+wisdom faculty is supreme in this group.</p>
+<p>Just as the lion is supreme among animals, and the footprint of the elephant is
+the biggest of all footprints, the wisdom faculty is supreme among
+faculties.<sup class="footnote-reference" id="fr-fn1017-1"><a href="#fn-fn1017">6</a></sup> The Buddha even goes on to point out that until the wisdom
+faculty steps in, the other four faculties do not get established. This he makes
+clear by the simile of the gabled hall in the <em>Mallikasutta</em> of the <em>Indriya
+Saṁyutta</em>.</p>
+<blockquote>
+<p>Just as, monks, in a gabled hall, so long as the roof peak has not been
+raised, the rafters are not conjoined, the rafters are not held in place, even
+so, as long as the noble knowledge has not arisen in a noble disciple, the
+four faculties are not conjoined, the four faculties are not held in
+place.<sup class="footnote-reference" id="fr-fn1018-1"><a href="#fn-fn1018">7</a></sup></p>
+</blockquote>
+<p>Until one becomes a stream-winner, the five faculties do not get established in
+him, since the wisdom faculty is so integral. At least one has to be on the path
+to attaining the fruit of a stream-winner.</p>
+<p>It is said that the five faculties are to be found only in the eight noble
+persons, the four treading on the paths to the four fruits and the four who have
+attained the fruits of the path, <em>cattāro ca paṭipannā, cattāro ca phale ṭhitā.</em></p>
+<p>In others, they are weak and not properly harnessed. It is in the <em>arahant</em> that
+the wisdom faculty is found in its strongest form. In the other grades of
+supramundane attainment, they are weaker by degrees. The lowest grade is the one
+treading the path to stream-winning. In the worldling they are not at all to be
+found, in any way, <em>sabbena sabbaṁ sabbathā sabbaṁ natthi.</em><sup class="footnote-reference" id="fr-fn1019-1"><a href="#fn-fn1019">8</a></sup></p>
+<p>Next comes the group of five powers. As to their function, some explanation
+might be necessary, though it seems simple enough. As we have already mentioned,
+the term <em>indriya</em> connotes kingship or lordship. Faith, energy, mindfulness,
+concentration and wisdom were elevated to the position of a king or lord. They
+have attained sovereignty. So now they are exercising their power.</p>
+<p>For what purpose? To put down the evil unskilful mental states that rise in
+revolt against Nibbāna. The noble disciple uses the same faculties as powers to
+fight out the hindrances and break the fetters. That is why among the
+participative factors of enlightenment they are represented as powers, by virtue
+of their special function.</p>
+<p>Then we come to the category called seven factors of enlightenment. A high
+degree of importance is attached to this particular group. It has an orderly
+arrangement. The constituents are: <em>sati</em>, mindfulness; <em>dhammavicaya</em>,
+investigation of states; <em>viriya</em>, energy; <em>pīti</em>, joy; <em>passaddhi</em>, calmness;
+<em>samādhi</em>, concentration; <em>upekkhā</em>, equanimity.</p>
+<p>In this group of seven, mindfulness takes precedence. In fact, the arrangement
+resembles the mobilization for winning that freedom of Nibbāna. The <em>bojjhaṅgā</em>,
+factors of enlightenment, are so-called because they are conducive to
+enlightenment, <em>bodhāya saṁvattanti</em>.<sup class="footnote-reference" id="fr-fn1020-1"><a href="#fn-fn1020">9</a></sup></p>
+<p><em>Sati</em> leads the way and at the same time marshals the squad. Three members of
+the group, namely <em>dhammavicaya, viriya</em> and <em>pīti</em> are by nature restless,
+while the other three, <em>passaddhi, samādhi</em> and <em>upekkhā</em> are rather slack. They
+have to be marshalled and properly aligned, and <em>sati</em> comes to the forefront
+for that purpose.</p>
+<p>At the same time, one can discern an orderly arrangement within this group.
+Right from the stage of the four foundations of mindfulness, the same term
+<em>sati</em> seems to occur down the line, but its function differs in different
+contexts. Now in this context, it is specifically called a <em>bojjhaṅga</em>, a factor
+of enlightenment. The phrase <em>satisambojjhaṅgaṁ bhāveti</em>, “he develops the
+enlightenment factor of mindfulness”, is directly used with reference to it
+here.</p>
+<p>When one develops a particular meditation subject, whether it be mindfulness of
+breathing, <em>ānāpānasati</em>, or even one of the four divine abidings of loving
+kindness, <em>mettā</em>, compassion, <em>karuṇā</em>, altruistic joy, <em>muditā</em>, or
+equanimity, <em>upekkhā</em>, one can arouse these enlightenment factors. That is why
+we come across, in the <em>Indriya Saṁyutta</em>, for instance, such statements as the
+following:</p>
+<blockquote>
+<p><em>Idha, bhikkhave, bhikkhu mettāsahagataṁ satisambojjhaṅgaṁ bhāveti
+vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ.</em><sup class="footnote-reference" id="fr-fn1021-1"><a href="#fn-fn1021">10</a></sup></p>
+<p>Herein monks, a monk develops the enlightenment factor of mindfulness imbued
+with loving kindness, based upon seclusion, dispassion and cessation, maturing
+in release.</p>
+</blockquote>
+<p>All the four terms <em>viveka</em>, seclusion, <em>virāga</em>, dispassion, <em>nirodha</em>,
+cessation, and <em>vossagga</em>, release, are suggestive of Nibbāna. So,
+<em>satisambojjhaṅga</em> implies the development of mindfulness as an enlightenment
+factor, directed towards the attainment of Nibbāna.</p>
+<p>What follows in the wake of the enlightenment factor of mindfulness, once it is
+aroused, is the enlightenment factor of investigation of states,
+<em>dhammavicayasambojjhaṅga</em>, which in fact is the function it fulfils. For
+instance, in the <em>Ānandasutta</em> we read:</p>
+<blockquote>
+<p><em>so tathā sato viharanto taṁ dhammaṁ paññāya pavicinati pavicarati
+parivīmaṁsamāpajjati</em>,<sup class="footnote-reference" id="fr-fn1022-1"><a href="#fn-fn1022">11</a></sup></p>
+<p>dwelling thus mindfully, he investigates that mental state with wisdom, goes
+over it mentally and makes an examination of it.</p>
+</blockquote>
+<p>The mental state refers to the particular subject of meditation, and by
+investigating it with wisdom and mentally going over it and examining it, the
+meditator arouses energy. So, from this enlightenment factor one draws
+inspiration and arouses energy. It is also conducive to the development of
+wisdom.</p>
+<p>This enlightenment factor of investigation of states gives rise to the
+enlightenment factor of energy since the mental activity implied by it keeps him
+wakeful and alert, as the following phrase implies:</p>
+<blockquote>
+<p><em>āraddhaṁ hoti viriyaṁ asallīnaṁ</em>,</p>
+<p>energy is stirred up and not inert.</p>
+</blockquote>
+<p>To one who has stirred up energy, there arises a joy of the spiritual type,</p>
+<blockquote>
+<p><em>āraddhaviriyassa uppajjati pīti nirāmisā.</em></p>
+</blockquote>
+<p>Of one who is joyful in mind, the body also calms down,</p>
+<blockquote>
+<p><em>pītimanassa kāyopi passambhati,</em></p>
+</blockquote>
+<p>and so too the mind,</p>
+<blockquote>
+<p><em>cittampi passambhati.</em></p>
+</blockquote>
+<p>The mind of one who is calm in body and blissful gets concentrated,</p>
+<blockquote>
+<p><em>passaddhakāyassa sukhino cittaṁ samādhiyati.</em></p>
+</blockquote>
+<p>So now the enlightenment factor of concentration has also come up. What comes
+after the enlightenment factor of concentration is the enlightenment factor of
+equanimity. About it, it is said:</p>
+<blockquote>
+<p><em>so tathāsamāhitaṁ cittaṁ sādhukaṁ ajjhupekkhitā hoti,</em></p>
+<p>he rightly looks on with equanimity at the mind thus concentrated.</p>
+</blockquote>
+<p>Once the mind is concentrated, there is no need to struggle or strive. With
+equanimity one has to keep watch and ward over it.</p>
+<p>As an enlightenment factor, equanimity can be evalued from another angle. It is
+the proper basis for the knowledge of things as they are, <em>yathābhūtañāṇa</em>. The
+neutrality that goes with equanimity not only stabilizes concentration, but also
+makes one receptive to the knowledge of things as they are. So here we have the
+seven factors conducive to enlightenment.</p>
+<p>What comes next, as the last of the seven groups, is the noble eightfold path,
+<em>ariyo aṭṭhaṅgiko maggo</em>, which is reckoned as the highest among them.</p>
+<p>There is some speciality even in the naming of this group. All the other groups
+show a plural ending, <em>cattāro satipaṭṭhānā, cattāro sammappadhānā, cattāro
+iddhipādā, pañc’indriyāni, pañca balāni, satta bojjhaṅgā</em>, but this group has a
+singular ending, <em>ariyo aṭṭhaṅgiko maggo</em>. The collective sense is suggestive of
+the fact that this is the <em>magga-samādhi</em>, the path concentration. The noble
+eightfold path is actually the presentation of that concentration of the
+supramundane path with its constituents. The singular ending is therefore
+understandable.</p>
+<p>This fact comes to light particularly in the <em>Mahācattārīsakasutta</em> of the
+<em>Majjhima Nikāya</em>. It is a discourse that brings out a special analysis of the
+noble eightfold path. There, the Buddha explains to the monks the noble right
+concentration with its supportive conditions and requisite factors.</p>
+<blockquote>
+<p><em>Katamo ca, bhikkhave, ariyo sammāsamādhi sa-upaniso saparikkhāro? Seyyathidaṁ
+sammā diṭṭhi, sammā saṅkappo, sammā vācā, sammā kammanto, sammā ājīvo, sammā
+vāyāmo sammā sati, yā kho, bhikkhave, imehi sattahaṅgehi cittassa ekaggatā
+parikkhatā, ayaṁ vuccati, bhikkhave, ariyo sammāsamādhi sa-upaniso iti pi
+saparikkhāro iti pi.</em><sup class="footnote-reference" id="fr-fn1023-1"><a href="#fn-fn1023">12</a></sup></p>
+<p>What, monks, is noble right concentration with its supports and requisites?
+That is, right view, right intention, right speech, right action, right
+livelihood, right effort and right mindfulness – that unification of mind
+equipped with these seven factors is called noble right concentration with its
+supports and requisites.</p>
+</blockquote>
+<p>So right concentration itself is the path. The singular number is used to denote
+the fact that it is accompanied by the requisite factors. Otherwise the plural
+<em>maggaṅgā</em>, factors of the path, could have been used to name this category. The
+unitary notion has a significance of its own. It is suggestive of the fact that
+here we have a unification of all the forces built up by the participative
+factors of enlightenment.</p>
+<p>In this discourse, the Buddha comes out with an explanation of certain other
+important aspects of this noble eightfold path. The fact that right view takes
+precedence is emphatically stated several times,</p>
+<blockquote>
+<p><em>tatra, bhikkhave, sammā diṭṭhi pubbaṅgamā</em>,</p>
+<p>therein, monks, right view leads the way.</p>
+</blockquote>
+<p>It is also noteworthy that right view is declared as twofold,</p>
+<blockquote>
+<p><em>Sammā diṭṭhiṁ pahaṁ dvayaṁ vadāmi.</em></p>
+<p>Even right view, I say, is twofold.</p>
+<p><em>Atthi, bhikkhave, sammā diṭṭhi sāsavā puññabhāgiyā upadhivepakkā, atthi,
+bhikkhave, sammā diṭṭhi ariyā anāsavā lokuttarā maggaṅgā.</em></p>
+<p>There is right view, monks, that is affected by influxes, on the side of merit
+and maturing into assets, and there is right view, monks, that is noble,
+influx-free, supramundane, a factor of the path.</p>
+</blockquote>
+<p>The first type of right view, which is affected by influxes, on the side of
+merit and ripening in assets, is the one often met with in general in the
+analysis of the noble eightfold path, namely the ten-factored right view. It is
+known as the right view which takes <em>kamma</em> as one’s own, <em>kammassakatā sammā
+diṭṭhi</em>. The standard definition of it runs as follows:</p>
+<blockquote>
+<p><em>Atthi dinnaṁ, atthi yiṭṭhaṁ, atthi hutaṁ, atthi sukaṭadukkaṭānaṁ kammānaṁ
+phalaṁ vipāko, atthi ayaṁ loko, atthi paro loko, atthi mātā, atthi pitā, atthi
+sattā opapātikā, atthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca
+lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedenti.</em></p>
+<p>There is [an effectiveness] in what is given, what is offered and what is
+sacrificed, there is fruit and result of good and bad deeds, there is this
+world and the other world, there is mother and father, there are beings who
+are reborn spontaneously, there are in the world rightly treading and rightly
+practising recluses and Brahmins who have realized by themselves by direct
+knowledge and declare this world and the other world.</p>
+</blockquote>
+<p>This right view is still with influxes, it is on the side of merits and is
+productive of <em>saṁsāric</em> assets. About this right view, this discourse has very
+little to say. In this sutta, the greater attention is focussed on that right
+view which is noble, influx-free, supramundane, and constitutes a factor of the
+path. It is explained as the right view that comes up at the supramundane path
+moment. It is noble, <em>ariyā</em>, influx-free, <em>anāsavā</em>, and conducive to
+transcendence of the world, <em>lokuttarā</em>. It is defined as follows:</p>
+<blockquote>
+<p><em>Yā kho, bhikkhave, ariyacittassa anāsavacittassa ariyamaggasamaṅgino
+ariyamaggaṁ bhāvayato paññā paññindriyaṁ paññābalaṁ dhammavicayasambojjhaṅgo
+sammādiṭṭhi maggaṅgā, ayaṁ, bhikkhave, sammādiṭṭhi ariyā anāsavā lokuttarā
+maggaṅgā.</em></p>
+<p>Monks that wisdom, that faculty of wisdom, that power of wisdom, that
+investigation of states enlightenment factor, that path factor of right view
+in one whose mind is noble, whose mind is influx-free, who has the noble path
+and is developing the noble path, that is the right view which is noble,
+influx-free and supramundane, a factor of the path.</p>
+</blockquote>
+<p>All these synonymous terms are indicative of that wisdom directed towards
+Nibbāna in that noble disciple. They are representative of the element of wisdom
+maintained from the faculty stage upwards in his systematic development of the
+enlightenment factors.</p>
+<p>It is also noteworthy that, in connection with the supramundane aspect of the
+path factors, four significant qualifying terms are always cited, as, for
+instance, in the following reference to right view:</p>
+<blockquote>
+<p><em>Idha, bhikkhave, bhikkhu sammādiṭṭhiṁ bhāveti vivekanissitaṁ virāganissitaṁ
+nirodhanissitaṁ vossaggapariṇāmiṁ.</em><sup class="footnote-reference" id="fr-fn1024-1"><a href="#fn-fn1024">13</a></sup></p>
+<p>Herein, monks, a monk develops right view which is based upon seclusion,
+dispassion and cessation, maturing in release.</p>
+</blockquote>
+<p>This is the higher grade of right view, which aims at Nibbāna. It implies the
+wisdom of the four noble truths, that noble wisdom which sees the rise and fall,
+<em>udayatthagāminī paññā</em>.</p>
+<p>The line of synonymous terms quoted above clearly indicates that the noble
+eightfold path contains, within it, all the faculties, powers and enlightenment
+factors so far developed. This is not a mere citation of apparent synonyms for
+an academic purpose. It brings out the fact that at the path moment the essence
+of all the wisdom that systematically got developed through the five faculties,
+the five powers and the seven enlightenment factors surfaces in the noble
+disciple to effect the final breakthrough.</p>
+<p>The two-fold definition given by the Buddha is common to the first five factors
+of the path: right view, right thought, right speech, right action and right
+livelihood. That is to say, all these factors have an aspect that can be called
+‘tinged with influxes’, <em>sa-āsava</em>, ‘on the side of merit’, <em>puññabhāgiya</em>, and
+‘productive of <em>saṁsāric</em> assets’, <em>upadhivepakka</em>, as well as an aspect that
+deserves to be called ‘noble’, <em>ariya</em>, ‘influx-free’, <em>anāsava</em>,
+‘supramundane’, <em>lokuttara</em>, ‘a constituent factor of the path’, <em>maggaṅga</em>.</p>
+<p>The usual definition of the noble eightfold path is well known. A question might
+arise as to the part played by right speech, right action and right livelihood
+at the arising of the supramundane path. Their role at the path moment is
+described as an abstinence from the four kinds of verbal misconduct, an
+abstinence from the three kinds of bodily misconduct, and an abstinence from
+wrong livelihood.</p>
+<p>The element of abstinence therein implied is conveyed by such terms as <em>ārati
+virati paṭivirati veramaṇī</em>, “desisting from, abstaining, refraining,
+abstinence”. It is the very thought of abstaining that represents the three
+factors at the path moment and not their physical counterparts. That is to say,
+the act of refraining has already been accomplished.</p>
+<p>So then we are concerned only with the other five factors of the path. Out of
+them, three factors are highlighted as running around and circling around each
+of these five for the purpose of their fulfilment, namely right view, right
+effort and right mindfulness. This running around and circling around, conveyed
+by the two terms <em>anuparidhāvanti</em> and <em>anuparivattanti</em>, is extremely peculiar
+in this context.</p>
+<p>The role of these three states might be difficult for one to understand.
+Perhaps, as an illustration, we may take the case of a VIP, a very important
+person, being conducted through a crowd with much pomp. One ushers him in with
+his vanguard, another brings up the rear with his bandwagon while yet another is
+at hand as the bodyguard-cum-attendant. So also at the path moment right view
+shows the way, right effort gives the boost, while right mindfulness attends at
+hand.</p>
+<p>These security forces keep the wrong side, <em>micchā</em>, of the path factors in
+check. The precedence of right view is a salient feature of the noble eightfold
+path. The Buddha makes special mention of it, pointing out at the same time the
+inner consistency of its internal arrangement.</p>
+<blockquote>
+<p><em>Tatra, bhikkhave, sammā diṭṭhi pubbaṅgamā hoti. Kathañca, bhikkhave, sammā
+diṭṭhi pubbaṅgamā hoti? Sammā diṭṭhissa, bhikkhave, sammā saṅkappo pahoti,
+sammā saṅkappassa sammā vācā pahoti, sammā vācassa sammā kammanto pahoti,
+sammā kammantassa sammā ājīvo pahoti, sammā ājīvassa sammā vāyāmo pahoti,
+sammā vāyāmassa sammā sati pahoti, sammā satissa sammā samādhi pahoti, sammā
+samādhissa sammā ñāṇam pahoti, sammā ñāṇassa sammā vimutti pahoti. Iti kho,
+bhikkhave, aṭṭhaṅgasamannāgato sekho pāṭipado, dasaṅgasamannāgato arahā
+hoti.</em><sup class="footnote-reference" id="fr-fn1025-1"><a href="#fn-fn1025">14</a></sup></p>
+<p>Therein, monks, right view comes first. And how, monks, does right view come
+first? In one of right view, right intention arises. In one of right
+intention, right speech arises. In one of right speech, right action arises.
+In one of right action, right livelihood arises. In one of right livelihood,
+right effort arises. In one of right effort, right mindfulness arises. In one
+of right mindfulness, right concentration arises. In one of right
+concentration, right knowledge arises. In one of right knowledge, right
+deliverance arises. Thus, monks, the disciple in higher training possessed of
+eight factors becomes an <em>arahant</em> when possessed of the ten factors.</p>
+</blockquote>
+<p>The fundamental importance of right view as the forerunner is highlighted by the
+Buddha in some discourses. In a particular discourse in the <em>Aṅguttara Nikāya</em>,
+it is contrasted with the negative role of wrong view.</p>
+<blockquote>
+<p><em>Micchādiṭṭhikassa, bhikkhave, purisapuggalassa yañceva kāyakammaṁ yathādiṭṭhi
+samattaṁ samādinnaṁ yañca vacīkammaṁ yathādiṭṭhi samattaṁ samādinnaṁ yañca
+manokammaṁ yathādiṭṭhi samattaṁ samādinnaṁ yā ca cetanā yā ca patthanā yo ca
+paṇidhi ye ca saṅkhārā sabbe te dhammā aniṭṭhaya akantāya amanāpāya ahitāya
+dukkhāya saṁvattanti. Taṁ kissa hetu? Diṭṭhi hi, bhikkhave, pāpikā.</em><sup class="footnote-reference" id="fr-fn1026-1"><a href="#fn-fn1026">15</a></sup></p>
+<p>Monks, in the case of a person with wrong view, whatever bodily deed he does
+accords with the view he has grasped and taken up, whatever verbal deed he
+does accords with the view he has grasped and taken up, whatever mental deed
+he does accords with the view he has grasped and taken up, whatever intention,
+whatever aspiration, whatever determination, whatever preparations he makes,
+all those mental states conduce to unwelcome, unpleasant, unwholesome,
+disagreeable and painful consequences. Why is that? The view, monks, is evil.</p>
+</blockquote>
+<p>Due to the evil nature of the view, all what follows from it partakes of an evil
+character. Then he gives an illustration for it.</p>
+<blockquote>
+<p><em>Seyyathāpi, bhikkhave, nimbabījaṁ vā kosātakībījaṁ vā tittakalābubījaṁ vā
+allāya paṭhaviyā nikkhittaṁ yañceva paṭhavirasaṁ upādiyati yañca āporasaṁ
+upādiyati sabbaṁ taṁ tittakattāya kaṭukattāya asātattāya saṁvattati. Taṁ kissa
+hetu? Bījaṁ hi, bhikkhave, pāpakaṁ.</em></p>
+<p>Just as, monks, in the case of a margosa seed or a bitter gourd seed, or a
+long gourd seed thrown on wet ground, whatever taste of the earth it draws in,
+whatever taste of the water it draws in, all that conduces to bitterness, to
+sourness, to unpleasantness. Why is that? The seed, monks, is bad.</p>
+</blockquote>
+<p>Then he makes a similar statement with regard to right view.</p>
+<blockquote>
+<p><em>Sammādiṭṭhikassa, bhikkhave, purisapuggalassa yañceva kāyakammaṁ yathādiṭṭhi
+samattaṁ samādinnaṁ yañca vacīkammaṁ yathādiṭṭhi samattaṁ samādinnaṁ yañca
+manokammaṁ yathādiṭṭhi samattaṁ samādinnaṁ yā ca cetanā yā ca patthanā yo ca
+paṇidhi ye ca saṅkhārā sabbe te dhammā iṭṭhaya kantāya manāpāya hitāya sukhāya
+saṁvattanti. Taṁ kissa hetu? Diṭṭhi hi, bhikkhave, bhaddikā.</em></p>
+<p>Monks, in the case of a person with right view, whatever bodily deed he does
+accords with the view he has grasped and taken up, whatever verbal deed he
+does accords with the view he has grasped and taken up, whatever mental deed
+he does accords with the view he has grasped and taken up, whatever intention,
+whatever aspiration, whatever determination, whatever preparations he makes,
+all those mental states conduce to welcome, pleasant, wholesome, agreeable and
+happy consequences. Why is that? The view, monks, is good.</p>
+</blockquote>
+<p>Then comes the illustration for it.</p>
+<blockquote>
+<p><em>Seyyathāpi, bhikkhave, ucchubījaṁ vā sālibījaṁ vā muddikābījaṁ vā allāya
+paṭhaviyā nikkhittaṁ yañceva paṭhavirasaṁ upādiyati yañca āporasaṁ upādiyati
+sabbaṁ taṁ madhurattāya sātattāya asecanakattāya saṁvattati. Taṁ kissa hetu?
+Bījaṁ hi, bhikkhave, bhaddakaṁ.</em></p>
+<p>Just as, monks, in the case of a sugar cane seedling or a sweet paddy seed, or
+a grape seed thrown on wet ground, whatever taste of the earth it draws in,
+whatever taste of the water it draws in, all that conduces to sweetness,
+agreeableness and deliciousness. Why is that? The seed, monks, is excellent.</p>
+</blockquote>
+<p>This explains why the noble eightfold path begins with right view. This
+precedence of view is not to be found in the other groups of participative
+factors of enlightenment. The reason for this peculiarity is the fact that view
+has to come first in any total transformation of personality in an individual
+from a psychological point of view.</p>
+<p>A view gives rise to thoughts, thoughts issue in words, words lead to actions,
+and actions mould a livelihood. Livelihood forms the basis for the development
+of other virtues on the side of meditation, namely right effort, right
+mindfulness and right concentration. So we find the precedence of right view as
+a unique feature in the noble eightfold path.</p>
+<p>The fundamental importance of the noble eightfold path could be assessed from
+another point of view. It gains a high degree of recognition due to the fact
+that the Buddha has styled it as the middle path. For instance, in the
+<em>Dhammacakkappavattanasutta</em>, the discourse on the turning of the wheel, the
+middle path is explicitly defined as the noble eightfold path. It is
+sufficiently well known that the noble eightfold path has been called the middle
+path by the Buddha. But the basic idea behind this definition has not always
+been correctly understood.</p>
+<p>In the <em>Dhammacakkappavattanasutta</em> the Buddha has presented the noble eightfold
+path as a middle path between the two extremes called <em>kāmasukhallikānuyogo</em>,
+the pursuit of sensual pleasure, and <em>attakilamathānuyogo</em>, the pursuit of
+self-mortification.<sup class="footnote-reference" id="fr-fn1027-1"><a href="#fn-fn1027">16</a></sup></p>
+<p>The concept of a ‘middle’ might make one think that the noble eightfold path is
+made up by borrowing fifty per cent from each of the two extremes, the pursuit
+of sense pleasures and the pursuit of self-mortification. But it is not such a
+piecemeal solution. There are deeper implications involved.</p>
+<p>The <em>Mahācattārīsakasutta</em> in particular brings out the true depth of this
+middle path. Instead of grafting half of one extreme to half of the other, the
+Buddha rejected the wrong views behind both those pursuits and, avoiding the
+pitfalls of both, presented anew a middle path in the form of the noble
+eightfold path.</p>
+<p>By way of clarification, we may draw attention to the fact that one inclines to
+the pursuit of sense pleasures by taking one’s stance on the annihilationist
+view. It amounts to the idea that there is no rebirth and that one can indulge
+in sense pleasures unhindered by ethical considerations of good and evil. It
+inculcates a nihilistic outlook characterized by a long line of negatives.</p>
+<p>In contradistinction to it, we have the affirmative standpoint forming the lower
+grade of the right view referred to above, namely the right view which takes
+<em>kamma</em> as one’s own, <em>kammasakatā sammā diṭṭhi</em>. The positive outlook in this
+right view inculcates moral responsibility and forms the basis for skilful or
+meritorious deeds. That is why it is called <em>puññabhāgiya,</em> on the side of
+merits. By implication, the nihilistic outlook, on the other hand, is on the
+side of demerit, lacking a basis for skilful action.</p>
+<p>In our analysis of the law of dependent arising, also, we happened to mention
+the idea of a middle path. But that is from the philosophical standpoint. Here
+we are concerned with the ethical aspect of the middle path. As far as the
+ethical requirements are concerned, a nihilistic view by itself does not entitle
+one to deliverance. Why? Because the question of influxes is there to cope with.</p>
+<p>So long as the influxes of sensuality, <em>kāmāsavā</em>, of becoming, <em>bhavāsavā</em>, and
+of ignorance, <em>avijjāsavā</em>, are there, one cannot escape the consequences of
+action merely by virtue of a nihilistic view. That is why the Buddha took a
+positive stand on those ten postulates. Where the nihilist found an excuse for
+indulgence in sensuality by negating, the Buddha applied a corrective by
+asserting. This affirmative stance took care of one extremist trend.</p>
+<p>But the Buddha did not stop there. In the description of the higher grade of
+right view we came across the terms <em>ariyā anāsavā lokuttarā maggaṅgā</em>. In the
+case of the lower grade it is <em>sa-āsavā</em>, with influxes, here it is <em>anāsavā</em>,
+influx-free. At whatever moment the mind develops that strength to withstand the
+influxes, one is not carried away by worldly conventions. That is why the right
+view at the supramundane path moment is called influx-free.</p>
+<p>There is an extremely subtle point involved in this distinction. This noble
+influx-free right view, that is a constituent of the supramundane path, <em>ariyā
+anāsavā lokuttarā maggaṅgā</em>, is oriented towards cessation, <em>nirodha</em>. The right
+view that takes <em>kamma</em> as one’s own, <em>kammasakatā sammā diṭṭhi</em>, on the other
+hand is oriented towards arising, <em>samudaya</em>.</p>
+<p>Due to the fact that the right view at the path moment is oriented towards
+cessation we find it qualified with the terms:</p>
+<blockquote>
+<p><em>vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ</em>,</p>
+<p>based upon seclusion, dispassion and cessation, maturing in release.</p>
+</blockquote>
+<p>It is this orientation towards Nibbāna that paves the way for the signless,
+<em>animitta</em>, the undirected, <em>appaṇihita</em>, and the void, <em>suññata</em>. We have
+already discussed at length about them in our previous sermons.</p>
+<p>Perhaps, while listening to them, some might have got scared at the thought: “So
+then there is not even a mother or a father”. That is why the word <em>suññatā</em>,
+voidness, drives terror into those who do not understand it properly. Here we
+see the depth of the Buddha’s middle path. That right view with influxes,
+<em>sa-āsavā</em>, is on the side of merits, <em>puññabhāgiya</em>, not demerit, <em>apuñña</em>.</p>
+<p>If the Buddha sanctions demerit, he could have endorsed the nihilistic view that
+there is no this world or the other world, no mother or father. But due to the
+norm of <em>kamma</em> which he explained in such terms as</p>
+<blockquote>
+<p><em>kammassakā sattā kammadāyādā kammayonī kammabandhū</em>,<sup class="footnote-reference" id="fr-fn1028-1"><a href="#fn-fn1028">17</a></sup></p>
+<p>beings have <em>kamma</em> as their own, they are inheritors of <em>kamma</em>, <em>kamma</em> is
+their matrix, <em>kamma</em> is their relative.</p>
+</blockquote>
+<p>So long as ignorance and craving are there, beings take their stand on
+convention and go on accumulating <em>kamma</em>. They have to pay for it. They have to
+suffer the consequences.</p>
+<p>Though with influxes, <em>sa-āsava</em>, that right view is on the side of merit,
+<em>puññabhāgiya</em>, which mature into <em>saṁsāric</em> assets, <em>upadhivepakka</em>, in the
+form of the conditions in life conducive even to the attainment of Nibbāna. That
+kind of right view is preferable to the nihilistic view, although it is of a
+second grade.</p>
+<p>But then there is the other side of the <em>saṁsāric</em> problem. One cannot afford to
+stagnate there. There should be a release from it as a permanent solution. That
+is where the higher grade of right view comes in, the noble influx-free right
+view which occurs as a factor of the path. It is then that the terms <em>animitta</em>,
+signless, <em>appaṇihita</em>, the undirected and <em>suññata</em>, the void, become
+meaningful.</p>
+<p>When the mind is weaned away from the habit of grasping signs, from determining
+and from the notion of self-hood, the three doorways to deliverance, the
+signless, the undirected and the void, would open up for an exit from this
+<em>saṁsāric</em> cycle. The cessation of existence is Nibbāna, <em>bhavanirodho
+nibbānaṁ</em>. Here, then, we have the reason why the noble eightfold path is called
+the middle path.</p>
+<p>In the life of a meditator, also, the concept of a middle path could sometimes
+give rise to doubts and indecision. One might wonder whether one should strive
+hard or lead a comfortable life. A midway solution between the two might be
+taken as the middle path. But the true depth of the middle path emerges from the
+above analysis of the twofold definition of the noble eightfold path.</p>
+<p>It is because of this depth of the middle path that the Buddha made the
+following declaration in the <em>Aggappasādasutta</em> of the <em>Aṅguttara Nikāya</em>:</p>
+<blockquote>
+<p><em>Yāvatā, bhikkhave, dhammā saṅkhatā, ariyo aṭṭhaṅgiko maggo tesaṁ aggam
+akkhāyati.</em><sup class="footnote-reference" id="fr-fn1029-1"><a href="#fn-fn1029">18</a></sup></p>
+<p>Monks, whatever prepared things there are, the noble eightfold path is called
+the highest among them.</p>
+</blockquote>
+<p>It is true that the noble eightfold path is something prepared and that is why
+we showed its relation to causes and conditions. Whatever is prepared is not
+worthwhile, and yet, it is by means of this prepared noble eightfold path that
+the Buddha clears the path to the unprepared.</p>
+<p>This is an extremely subtle truth, which only a Buddha can discover and proclaim
+to the world. It is not easy to discover it, because one tends to confuse issues
+by going to one extreme or another. One either resorts to the annihilationist
+view and ends up by giving way to indulgence in sensuality, or inclines towards
+the eternalist view and struggles to extricate self by self-mortification.</p>
+<p>In the Dhamma proclaimed by the Buddha one can see a marvellous middle way. We
+have already pointed it out in earlier sermons by means of such illustrations as
+sharpening a razor. There is a remarkable attitude of non-grasping about the
+middle path, which is well expressed by the term <em>atammayatā</em>,
+non-identification. Relying on one thing is just for the purpose of eliminating
+another, as exemplified by the simile of the relay of chariots.</p>
+<p>The key terms signifying the aim and purpose of this middle path are</p>
+<blockquote>
+<p><em>vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ</em>,</p>
+<p>based upon seclusion, dispassion and cessation, maturing in release.</p>
+</blockquote>
+<p>Placed in this <em>saṁsāric</em> predicament, one cannot help resorting to certain
+things to achieve this aim. But care is taken to see that they are not grasped
+or clung to. It is a process of pushing away one thing with another, and that
+with yet another, a via media based on relativity and pragmatism. The noble
+eightfold path marks the consummation of this process, its systematic
+fulfilment. That is why we tried to trace a process of a gradual development
+among the thirty-seven participative factors of enlightenment.</p>
+<p>Even the internal arrangement within each group is extraordinary. There is an
+orderly arrangement from beginning to end in an ascending order of importance.
+Sometimes, an analysis could start from the middle and extend to either side.
+Some groups portray a gradual development towards a climax. The noble eightfold
+path is exceptionally striking in that it indicates how a complete
+transformation of personality could be effected by putting right view at the
+head as the forerunner.</p>
+<p>Perhaps the most impressive among discourses in which the Buddha highlighted the
+pervasive significance of the noble eightfold path is the <em>Ākāsasutta</em>, ‘Sky
+Sutta’, in the <em>Magga Saṁyutta</em> of the <em>Saṁyutta Nikāya</em>.<sup class="footnote-reference" id="fr-fn1030-1"><a href="#fn-fn1030">19</a></sup></p>
+<blockquote>
+<p>Just as, monks, various winds blow in the sky, easterly winds, westerly winds,
+northerly winds, southerly winds, dusty winds, dustless winds, cold winds and
+hot winds, gentle winds and strong winds; so too, when a monk develops and
+cultivates the noble eightfold path, for him the four foundations of
+mindfulness go to fulfilment by development, the four right efforts go to
+fulfilment by development, the four bases for success go to fulfilment by
+development, the five spiritual faculties go to fulfilment by development, the
+five powers go to fulfilment by development, the seven factors of
+enlightenment go to fulfilment by development.</p>
+</blockquote>
+<p>All these go to fulfilment by development only when the noble eightfold path is
+developed in the way described above, namely based upon seclusion, dispassion
+and cessation, maturing in release, <em>vivekanissitaṁ virāganissitaṁ
+nirodhanissitaṁ vossaggapariṇāmiṁ</em>.</p>
+<p>That is to say, with Nibbāna as the goal of endeavour. Then none of the
+preceding categories go astray. They all contribute to the perfection and
+fulfilment of the noble eightfold path. They are all enshrined in it. So well
+knitted and pervasive is the noble eightfold path.</p>
+<p>Another discourse of paramount importance, which illustrates the pervasive
+influence of the noble eightfold path, is the <em>Mahāsaḷāyatanikasutta</em> of the
+<em>Majjhima Nikāya</em>. There the Buddha shows us how all the other enlightenment
+factors are included in the noble eightfold path.</p>
+<p>In our discussion on Nibbāna, we happened to mention that the cessation of the
+six sense-spheres is Nibbāna. If Nibbāna is the cessation of the six
+sense-spheres, it should be possible to lay down a way of practice leading to
+Nibbāna through the six sense-spheres themselves. As a matter of fact, there is
+such a way of practice and this is what the <em>Mahāsaḷāyatanikasutta</em> presents in
+summary form.</p>
+<p>In this discourse, the Buddha first portrays how on the one hand the <em>saṁsāric</em>
+suffering arises depending on the six-fold sense-sphere. Then he explains how on
+the other hand the suffering could be ended by means of a practice pertaining to
+the six-fold sense-sphere itself.</p>
+<blockquote>
+<p><em>Cakkhuṁ, bhikkhave, ajānaṁ apassaṁ yathābhūtaṁ, rūpe ajānaṁ apassaṁ
+yathābhūtaṁ, cakkhuviññāṇaṁ ajānaṁ apassaṁ yathābhūtaṁ, cakkhusamphassaṁ
+ajānaṁ apassaṁ yathābhūtaṁ, yampidaṁ cakkhusamphassapaccayā uppajjati
+vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi ajānaṁ apassaṁ
+yathābhūtaṁ, cakkhusmiṁ sārajjati, rūpesu sārajjati, cakkhuviññāṇe sārajjati,
+cakkhusamphasse sārajjati, yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ
+sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tasmimpi sārajjati.</em></p>
+<p><em>Tassa sārattassa saṁyuttasa sammūḷhassa assādānupassino viharato āyatiṁ
+pañcupādānakkhandhā upacayaṁ gacchanti. Taṇhā cassa ponobhavikā
+nandirāgasahagatā tatratatrābhinandinī sā cassa pavaḍḍhati. Tassa kāyikāpi
+darathā pavaḍḍhanti, cetasikāpi darathā pavaḍḍhanti, kāyikāpi santāpā
+pavaḍḍhanti, cetasikāpi santāpā pavaḍḍhanti, kāyikāpi pariḷāhā pavaḍḍhanti,
+cetasikāpi pariḷāhā pavaḍḍhanti. So kāyadukkhampi cetodukkhampi
+paṭisaṁvedeti.</em><sup class="footnote-reference" id="fr-fn1031-1"><a href="#fn-fn1031">20</a></sup></p>
+<p>Monks, not knowing and not seeing the eye as it actually is, not knowing and
+not seeing forms as they actually are, not knowing and not seeing
+eye-consciousness as it actually is, not knowing and not seeing eye-contact as
+it actually is, whatever is felt as pleasant or unpleasant or
+neither-unpleasant-nor-pleasant, arising dependent on eye-contact, not knowing
+and not seeing that too as it actually is, one gets lustfully attached to the
+eye, to forms, to eye-consciousness, to eye-contact, and to whatever is felt
+as pleasant or unpleasant or neither-unpleasant-nor-pleasant, arising in
+dependence on eye-contact.</p>
+<p>And for him, who is lustfully attached, fettered, infatuated, contemplating
+gratification, the five aggregates of grasping get accumulated for the future
+and his craving, which makes for re-becoming, which is accompanied by delight
+and lust, delighting now here now there, also increases, his bodily stresses
+increase, his mental stresses increase, his bodily torments increase, his
+mental torments increase, his bodily fevers increase, his mental fevers
+increase, and he experiences bodily and mental suffering.</p>
+</blockquote>
+<p>In this way, the Buddha first of all delineates how the entire <em>saṁsāric</em>
+suffering arises in connection with the six-fold sense-sphere. We will discuss
+the rest of the discourse in our next sermon.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn1012"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn1012-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1013"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/sn48.10/pli/ms">SN 48.10 / S V 197</a>, <em>Paṭhamavibhaṅgasutta</em> <a href="#fr-fn1013-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1014"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/mn95/pli/ms">MN 95 / M II 173</a>, <em>Caṅkīsutta</em> <a href="#fr-fn1014-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1015"><sup class="footnote-definition-label">4</sup>
+<p>Ps III 426 <a href="#fr-fn1015-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1016"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/an8.74/pli/ms">AN 8.74 / A IV 320</a>, <em>Dutiyamaraṇasatisutta</em> <a href="#fr-fn1016-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1017"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/sn48.51/pli/ms">SN 48.51 / S V 227</a>, <em>Sālasutta</em>; and <a href="https://suttacentral.net/sn48.54/pli/ms">SN 48.54 / S V 231</a>, <em>Padasutta</em> <a href="#fr-fn1017-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1018"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/sn48.52/pli/ms">SN 48.52 / S V 228</a>, <em>Mallikasutta</em> <a href="#fr-fn1018-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1019"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/sn48.18/pli/ms">SN 48.18 / S V 202</a>, <em>Paṭipannasutta</em> <a href="#fr-fn1019-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1020"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/sn46.5/pli/ms">SN 46.5 / S V 72</a>, <em>Bhikkhusutta</em> <a href="#fr-fn1020-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1021"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/sn46.54/pli/ms">SN 46.54 / S V 119</a>, <em>Mettāsahagatasutta</em> <a href="#fr-fn1021-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1022"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/sn54.13/pli/ms">SN 54.13 / S V 331</a>, <em>Paṭhamaānandasutta</em> <a href="#fr-fn1022-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1023"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/mn117/pli/ms">MN 117 / M III 72</a>, <em>Mahācattārīsakasutta</em> <a href="#fr-fn1023-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1024"><sup class="footnote-definition-label">13</sup>
+<p>E.g. <a href="https://suttacentral.net/sn45.2/pli/ms">SN 45.2 / S V 2</a>, <em>Upaḍḍhasutta</em> <a href="#fr-fn1024-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1025"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/mn117/pli/ms">MN 117 / M III 76</a>, <em>Mahācattārīsakasutta</em> <a href="#fr-fn1025-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1026"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/an1.306-315/pli/ms">AN 1.314 / A I 32</a>, <em>Ekadhammapāḷi</em> <a href="#fr-fn1026-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1027"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/sn56.11/pli/ms">SN 56.11 / S V 421</a>, <em>Dhammacakkappavattanasutta</em> <a href="#fr-fn1027-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1028"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/mn135/pli/ms">MN 135 / M III 203</a>, <em>Cūḷakammavibhaṅgasutta</em> <a href="#fr-fn1028-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1029"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/an4.34/pli/ms">AN 4.34 / A II 34</a>, <em>Aggappasādasutta</em> <a href="#fr-fn1029-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1030"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/sn45.155/pli/ms">SN 45.155 / S V 49</a>, <em>Ākāsasutta</em> <a href="#fr-fn1030-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn1031"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/mn149/pli/ms">MN 149 / M III 287</a>, <em>Mahāsaḷāyatanikasutta</em> <a href="#fr-fn1031-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-31.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-33.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-31.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-33.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

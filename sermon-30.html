@@ -1,0 +1,1002 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 30 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-30-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-30"><a class="header" href="#sermon-30">Sermon 30</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn964-1"><a href="#fn-fn964">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the assembly of the venerable meditative monks. This is
+the thirtieth sermon in the series of sermons on Nibbāna.</p>
+<p>In our previous sermon we discussed the way of liberating the mind from the grip
+of thoughts, which are comparable to the army of Māra by means of the gradual
+and systematic mode of practice based on the twin principles of pragmatism and
+relativity.</p>
+<p>We also made an attempt to understand why the <em>arahattaphalasamādhi</em> of the
+<em>arahant</em>, who arrives at the non-prolific state by gradually attenuating
+cravings, conceits and views, comes to be called <em>avitakkasamādhi</em>, ‘thoughtless
+concentration’.</p>
+<p>This <em>avitakkasamādhi</em> is the ‘noble silence’ in its highest sense. It is not
+the temporary subsidence of thinking and pondering as in tranquillity
+meditation. It goes deeper in that it routs the hosts of Māra at their very
+citadel, as it were, by penetrative wisdom.</p>
+<p>The other day, with special reference to the <em>Sakkapañhasutta</em> in the <em>Dīgha
+Nikāya</em>, we outlined in brief a path of practice gradually tending towards the
+cessation of reckonings born of prolific perception. That discourse expounds a
+happiness, an unhappiness and an equanimity to be pursued, and a happiness, an
+unhappiness and an equanimity not to be pursued.</p>
+<p>We get a clear enunciation of these two kinds of happiness, unhappiness and
+equanimity in the <em>Saḷāyatanavibhaṅgasutta</em> of the <em>Majjhima Nikāya</em>. In that
+discourse, the Buddha gives an exposition of thirty-six pathways of thought of
+beings under the heading <em>chattiṁsa sattapadā</em>, literally “thirty-six steps of
+beings”.<sup class="footnote-reference" id="fr-fn965-1"><a href="#fn-fn965">2</a></sup> They are listed as follows:</p>
+<ol>
+<li><em>Cha gehasitāni somanassāni,</em> <br />
+“six kinds of happiness based on the household life”</li>
+<li><em>Cha nekkhammasitāni somanassāni,</em> <br />
+“six kinds of happiness based on renunciation”</li>
+<li><em>Cha gehasitāni domanassāni,</em> <br />
+“six kinds of unhappiness based on the household life”</li>
+<li><em>Cha nekkhammasitāni domanassāni,</em> <br />
+“six kinds of unhappiness based on renunciation”</li>
+<li><em>Cha gehasitā upekkhā,</em> <br />
+“six kinds of equanimity based on the household life”</li>
+<li><em>Cha nekkhammasitā upekkhā,</em> <br />
+“six kinds of equanimity based on renunciation”</li>
+</ol>
+<p>The ‘six’ in each case refers to the six objects of sense, namely form, sound,
+smell, taste, tangible and idea, <em>rūpa, sadda, gandha, rasa, phoṭṭhabba,
+dhamma.</em> Now in order to acquaint ourselves with the six kinds of happiness
+based on the household life, let us try to understand the definition of the
+first kind, that is to say ‘form’, as the object of the eye.</p>
+<blockquote>
+<p><em>Cakkhuviññeyyānaṁ rūpānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ manoramānaṁ
+lokāmisapaṭisaṁyuttānaṁ paṭilābhaṁ vā paṭilabhato samanupassato pubbe vā
+paṭiladdhapubbaṁ atītaṁ niruddhaṁ vipariṇataṁ samanussarato uppajjati
+somanassaṁ, yaṁ evarūpaṁ somanassaṁ, idaṁ vuccati gehasitaṁ somanassaṁ.</em></p>
+<p>When one regards as an acquisition an acquisition of forms, cognizable by the
+eye, that are desirable, charming, agreeable, delightful, connected with
+worldly gains, or when one recalls what was formerly acquired that has passed,
+ceased and changed, happiness arises. Such happiness as this is called
+happiness based on the household life.</p>
+</blockquote>
+<p>The happiness based on renunciation is defined as follows:</p>
+<blockquote>
+<p><em>Rūpānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ: ’Pubbe c’eva rūpā
+etarahi ca sabbe te rūpā aniccā dukkhā vipariṇāmadhammā’ti, evaṁ etaṁ
+yathābhūtaṁ samappaññāya passato uppajjati somanassaṁ, yaṁ evarūpaṁ
+somanassaṁ, idaṁ vuccati nekkhammasitaṁ somanassaṁ.</em></p>
+<p>When by knowing the impermanence, change, fading away and cessation of forms
+one sees as it actually is with right wisdom that forms both formerly and now
+are all impermanent, suffering and subject to change, happiness arises. Such
+happiness as this is called happiness based on renunciation.</p>
+</blockquote>
+<p>Then the unhappiness based on the household life is explained in the following
+words:</p>
+<blockquote>
+<p><em>Cakkhuviññeyyānaṁ rūpānaṁ iṭṭhānaṁ kantānaṁ manāpānaṁ manoramānaṁ
+lokāmisapaṭisaṁyuttānaṁ appaṭilābhaṁ vā appaṭilabhato samanupassato pubbe vā
+appaṭiladdhapubbaṁ atītaṁ niruddhaṁ vipariṇataṁ samanussarato uppajjati
+domanassaṁ, yaṁ evarūpaṁ domanassaṁ, idaṁ vuccati gehasitaṁ domanassaṁ.</em></p>
+<p>When one regards as a non-acquisition the non-acquisition of forms cognizable
+by the eye that are desirable, charming, agreeable, delightful, connected with
+worldly gains, or when one recalls what was formerly not acquired that has
+passed, ceased and changed, unhappiness arises. Such unhappiness as this is
+called unhappiness based on the household life.</p>
+</blockquote>
+<p>The description of unhappiness based on renunciation has a special significance
+to insight meditation. It runs:</p>
+<blockquote>
+<p><em>Rūpānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ: ’Pubbe c’eva rūpā
+etarahi ca sabbe te rūpā aniccā dukkhā vipariṇāmadhammā’ti, evaṁ etaṁ
+yathābhūtaṁ samappaññāya disvā anuttaresu vimokhesu pihaṁ upaṭṭhāpeti:
+’kadā’ssu nām’ahaṁ tad āyatanaṁ upasampajja viharissāmi yad ariyā etarahi
+āyatanaṁ upasampajja viharantī’ti, iti anuttaresu vimokhesu pihaṁ
+uppaṭṭhāpayato uppajjati pihapaccayā domanassaṁ, yaṁ evarūpaṁ domanassaṁ, idaṁ
+vuccati nekkhammasitaṁ domanassaṁ.</em></p>
+<p>When by knowing the impermanence, change, fading away and cessation of forms
+one sees as it actually is with right wisdom that forms both formerly and now
+are all impermanent, suffering and subject to change, one arouses a longing
+for the supreme deliverances thus: “When shall I enter upon and abide in that
+sphere that the Noble Ones now enter upon and abide in?” In one who arouses
+such a longing for the supreme deliverances unhappiness arises conditioned by
+that longing. Such unhappiness as this is called unhappiness based on
+renunciation.</p>
+</blockquote>
+<p>The description of unhappiness based on renunciation brings up some important
+terms worth discussing. <em>Anuttaresu vimokhesu</em> is a reference to the three
+supreme deliverances known as <em>animitta</em>, the ‘signless’, <em>appaṇihita</em>, the
+‘undirected’, and <em>suññata</em>, the ‘void’.</p>
+<p>The reference to an <em>āyatana</em>, ‘sphere’, in this passage is particularly
+noteworthy. The sphere that the Noble Ones enter on and abide in is none other
+than the sphere alluded to in the famous sutta on Nibbāna in the <em>Udāna</em>,
+beginning with</p>
+<blockquote>
+<p><em>atthi, bhikkhave, tad āyatanaṁ, yattha n’eva paṭhavī na āpo</em><sup class="footnote-reference" id="fr-fn966-1"><a href="#fn-fn966">3</a></sup> etc.,</p>
+<p>“Monks, there is that sphere in which there is neither earth nor water” etc.</p>
+</blockquote>
+<p>We have pointed out that it is a reference to the cessation of the six
+sense-spheres as a realization.<sup class="footnote-reference" id="fr-fn967-1"><a href="#fn-fn967">4</a></sup> So the sphere that the Noble Ones enter
+on and abide in is the very cessation of the six sense-spheres.</p>
+<p>In the same sutta passage in the <em>Udāna</em>, we came across the three terms
+<em>appatiṭṭhaṁ, appavattaṁ</em> and <em>anārammaṇaṁ</em>, the ‘unestablished’, the ‘non
+continuing’ and the ‘objectless’, which we identified as allusions to the three
+deliverances.</p>
+<p>The word <em>pihā</em> (Sanskrit <em>spṛhā</em>, ‘longing’, ‘desire’), occurring in this
+context, shows that there need not be any hesitation in using words implying
+desire in connection with Nibbāna. It is true that such a desire or longing for
+Nibbāna makes one unhappy. But that unhappiness is preferable to the unhappiness
+based on the household life. That is why it is upgraded here as unhappiness
+based on renunciation.</p>
+<p>So far we have quoted instances of the six kinds of happiness based on the
+household life, <em>cha gehasitāni somanassāni</em>; the six kinds of happiness based
+on renunciation, <em>cha nekkhammasitāni somanassāni</em>; the six kinds of unhappiness
+based on the household life, <em>cha gehasitāni domanassāni</em>; and the six kinds of
+unhappiness based on renunciation, <em>cha nekkhammasitāni domanassāni</em>.</p>
+<p>The ‘six’ in each case refers to the objects of the six senses. Now lets us take
+up a paradigm to understand the six kinds of equanimity based on the household
+life, <em>cha gehasitā upekkhā</em>.</p>
+<blockquote>
+<p><em>Cakkhunā rūpaṁ disvā uppajjati upekkhā bālassa mūḷhassa puthujjanassa
+anodhijinassa avipākajinassa anādīnavadassāvino assutavato puthujjanassa, yā
+evarūpā upekkhā rūpaṁ sā nātivattati, tasmā sā ’upekkhā gehasitā’ti vuccati.</em></p>
+<p>On seeing a form with the eye, equanimity arises in a foolish infatuated
+worldling, in an untaught worldling who has not conquered his limitations, who
+has not conquered the results [of <em>kamma</em>], and who is not aware of danger,
+such equanimity as this does not transcend form, that is why it is called
+equanimity based on the household life.</p>
+</blockquote>
+<p>The equanimity of a worldling, untaught in the Dhamma, who has not conquered
+limitations and defilements, and who has not conquered the results of <em>kamma</em>,
+is incapable of transcending form. His equanimity is accompanied by ignorance.</p>
+<p>Then comes the description of equanimity based on renunciation, <em>nekkhammasitā
+upekkhā</em>.</p>
+<blockquote>
+<p><em>Rūpānaṁ tveva aniccataṁ viditvā vipariṇāmavirāganirodhaṁ: ’Pubbe c’eva rūpā
+etarahi ca sabbe te rūpā aniccā dukkhā vipariṇāmadhammā’ti, evaṁ etaṁ
+yathābhūtaṁ samappaññāya passato uppajjati upekkhā, yā evarūpā upekkhā rūpaṁ
+sā ativattati, tasmā sā ’upekkhā nekkhammasitā’ti vuccati.</em></p>
+<p>When by knowing the impermanence, change, fading away and cessation of forms
+one sees as it actually is with right wisdom that forms both formerly and now
+are all impermanent, suffering and subject to change, equanimity arises. Such
+equanimity as this transcends form, that is why it is called ‘equanimity based
+on renunciation’.</p>
+</blockquote>
+<p>The same kind of reflection on impermanence upon occasion gives rise to
+happiness, unhappiness and equanimity, according to the attitude taken up.
+Unlike the equanimity born of ignorance, this equanimity, born of right wisdom,
+transcends form. That is why it is called equanimity based on renunciation.</p>
+<p>The Buddha speaks about all the thirty-six objects of sense, out of which we
+brought up, as a paradigm, the illustration given about the visual object, form.</p>
+<p>These thirty-six are called the thirty-six pathways of beings, <em>chattiṁsa
+sattapadā</em>, in the sense that they depict the thought patterns of beings. In
+this discourse, the Buddha proclaims the basic maxim he employs in gradually
+channelling the thought processes of beings towards Nibbāna along these
+thirty-six pathways. The maxim is summed up in the following words:</p>
+<blockquote>
+<p><em>tatra idaṁ nissāya idam pajahatha</em>,</p>
+<p>therein, depending on this, abandon this.</p>
+</blockquote>
+<p>This maxim has some affinity to the <em>paṭicca samuppāda</em> formula “this being,
+this arises”. In fact, this is a practical application of the same formula. In
+the context of the path of practice, the dependence on one thing is for the
+purpose of abandoning another. There is an attitude of detachment in this course
+of practice. Based on this maxim, the Buddha outlines the way in which he guides
+one towards Nibbāna in four stages. The first stage in that gradual path towards
+Nibbāna is described as follows:</p>
+<blockquote>
+<p><em>Tatra, bhikkhave, yāni cha nekkhammasitāni somanassāni tāni nissāya tāni
+āgamma, yāni cha gehasitāni somanassāni tāni pajahatha tāni samatikkamatha,
+evam etesaṁ pahānaṁ hoti, evam etesaṁ samatikkamo hoti.</em></p>
+<p>Therein, monks, by depending on and relying on the six kinds of happiness
+based on renunciation, abandon and transcend the six kinds of happiness based
+on the household life, that is how they are abandoned, that is how they are
+transcended.</p>
+</blockquote>
+<p>In the same way, by depending on the six kinds of unhappiness based on
+renunciation, the six kinds of unhappiness based on the household life are
+abandoned. Also, by depending on the six kinds of equanimity based on
+renunciation, the six kinds of equanimity based on the household life are
+abandoned.</p>
+<p>So at the end of the first stage, what are we left with? All what is based on
+the household life is left behind, and only the six kinds of happiness based on
+renunciation, the six kinds of unhappiness based on renunciation and the six
+kinds of equanimity based on renunciation remain. That is the position at the
+end of the first stage.</p>
+<p>Then, in the second stage, a subtler and more refined level of experience is
+aimed at. Out of the three types of mental states based on renunciation,
+firstly, the six kinds of unhappiness based on renunciation are abandoned by the
+six kinds of happiness based on renunciation. Then the six kinds of happiness
+based on renunciation are abandoned by the six kinds of equanimity based on
+renunciation.</p>
+<p>To the extent that all the above three mental states are based on renunciation,
+they are of a piece with each other. Also, it is the same mode of insightful
+reflection that gives rise to them.</p>
+<p>However, as attitudes, happiness is subtler and more excellent than unhappiness,
+and equanimity is subtler and more excellent than happiness, since it is nearer
+to wisdom. So in the second stage we see a gradual procedure arriving at a
+subtler and more excellent state even in the case of those three mental states
+based on renunciation. By the end of the second stage, only equanimity based on
+renunciation remains.</p>
+<p>Now comes the third stage. Here the Buddha points out that in the case of
+equanimity there can be two varieties.</p>
+<blockquote>
+<p><em>Atthi, bhikkhave, upekkhā nānattā nānattasitā, atthi, bhikkhave, upekkhā
+ekattā ekattasitā.</em></p>
+<p>There is, monks, an equanimity that is diversified, based on diversity, and
+there is an equanimity that is unified, based on unity.</p>
+</blockquote>
+<p>What is that equanimity that is diversified? It is defined as the equanimity
+regarding the objects of the five external senses, that is to say, equanimity
+regarding forms, sounds, smells, flavours and tangibles.</p>
+<p>Equanimity that is unified is defined with reference to the immaterial realms,
+namely the sphere of infinity of space, the sphere of infinity of consciousness,
+the sphere of nothingness and the sphere of
+neither-perception-nor-non-perception.</p>
+<p>Now in the case of these two types of equanimity, the Buddha points out a way of
+abandoning the equanimity based on diversity with the help of the equanimity
+based on unity. As equanimity both types are commendable, but that which is
+diversified and based on diversity is grosser. Equanimity that is unified and
+based on unity is subtler and more excellent. So the equanimity based on
+diversity is abandoned and transcended by the equanimity that is unified, based
+on unity. This is the end of the third stage.</p>
+<p>In the fourth stage, we are left with only that equanimity that is based on
+unity. It is experienced in the higher rungs of meditation. But here, too, the
+Buddha advocates a prudent course of action. In fact, it is here that the
+deepest practical hint is given.</p>
+<blockquote>
+<p><em>Atammayataṁ, bhikkhave, nissāya atammayataṁ āgamma, yāyam upekkhā ekattā
+ekattasitā, taṁ pajahatha taṁ samatikkamatha, evam etissā pahānaṁ hoti, evam
+etissā samatikkamo hoti.</em></p>
+<p>Monks, by depending and relying on non-identification abandon and transcend
+equanimity that is unified, based on unity; that is how it is abandoned, that
+is how it is transcended.</p>
+</blockquote>
+<p><em>Atammayatā</em> is a term we have already discussed at length in our earlier
+sermons.<sup class="footnote-reference" id="fr-fn968-1"><a href="#fn-fn968">5</a></sup> Its importance has not been sufficiently recognized in our
+tradition. As we pointed out, the word <em>tammayo</em>, literally ‘of thatness’, could
+be explained with reference to such usages as <em>suvaṇṇamaya</em> and <em>rajatamaya</em>,
+‘golden’ and ‘silver’. How does this ‘of thatness’ come by?</p>
+<p>If, for instance, one who has attained the infinity of space as a meditative
+experience identifies himself with it, with the conceit <em>eso ’ham asmi</em>, ‘this
+am I’, there is that <em>tammayatā</em> coming in. It is a subtle grasping, or in other
+words a me-thinking, <em>maññanā</em> – imagining oneself to be one with that
+experience. So the Buddha’s advice is to abandon and transcend even that
+equanimity based on unity by resorting to the maxim of <em>atammayatā</em>,
+non-identification.</p>
+<p>The subtle conceit ‘am’, <em>asmi</em>, is that trace of grasping with which one tries
+to sit pretty on that which is impermanent and changing. It is the most
+fundamental assertion of existence.</p>
+<p>In the <em>Sappurisasutta</em> of the <em>Majjhima Nikāya</em> we get a good illustration of
+the application of this principle of detachment, made known by the Buddha.</p>
+<blockquote>
+<p><em>Sappuriso ca kho, bhikkhave, iti paṭisañcikkhati:</em></p>
+<p><em>Nevasaññānāsaññāyatanasamāpattiyā pi kho atammayatā vuttā Bhagavatā, ’yena yena
+hi maññanti tato taṁ hoti aññathā’ti.</em></p>
+</blockquote>
+<blockquote>
+<p><em>So atammayataṁ yeva antaraṁ karitvā tāya nevasaññānāsaññāyatanasamāpattiyā
+n’eva attān’ukkaṁseti na paraṁ vambheti. Ayam pi, bhikkhave,
+sappurisadhammo.</em><sup class="footnote-reference" id="fr-fn969-1"><a href="#fn-fn969">6</a></sup></p>
+<p>But a good man, monks, considers thus:</p>
+<p>“Non-identification even with the attainment of the sphere of
+neither-perception-nor-non-perception has been declared by the Fortunate One
+[in such terms as]: ‘In whatever way they imagine, thereby it turns
+otherwise’.”</p>
+<p>So he takes into account that very non-identification and neither exalts
+himself nor disparages others because of his attainment of the sphere of
+neither-perception-nor-non-perception. This, too, monks, is the nature of a
+good man.</p>
+</blockquote>
+<p>In the <em>Sappurisasutta</em>, the Buddha expounds the characteristics of a ‘good
+man’. In this context, the term <em>sappurisa</em>, ‘good man’, is used exclusively to
+represent a noble disciple, <em>ariyasāvaka</em>. A noble disciple does not look upon
+his <em>jhānic</em> attainments in the same way as an ordinary meditator attaining
+<em>jhānas</em>. His point of view is different.</p>
+<p>This discourse explains his view point. A good man reflects wisely according to
+the advice given by the Buddha to the effect that even to the higher <em>jhānic</em>
+attainment of neither-perception-nor-non-perception the principle of
+non-identification must be applied, recalling the maxim made known by the
+Buddha:</p>
+<blockquote>
+<p><em>Yena yena hi maññanti tato taṁ hoti aññatha</em>,</p>
+<p>in whatever way they imagine, thereby it turns otherwise.</p>
+</blockquote>
+<p>This is a maxim we had discussed earlier too.<sup class="footnote-reference" id="fr-fn970-1"><a href="#fn-fn970">7</a></sup></p>
+<p><em>Maññanā</em> is egoistic imagining. When one thinks in egoistic terms about
+something, by that very me-thinking it turns otherwise. Due to egoistic
+imagining, it becomes a thing, and once it becomes a thing, it is bound to
+change and become another.</p>
+<p>The good man calls to mind that maxim, that norm, and refrains from exalting
+himself and disparaging others on account of his attainment. He does not
+identify himself with it. From this it becomes clear that <em>atammayatā</em> or
+<strong>non-identification is the path to Nibbāna</strong>.</p>
+<p>So the Buddha gradually channelizes the pathways of thoughts of beings from the
+grosser to subtler levels and finally tops up by directing them to Nibbāna
+through non-identification, <em>atammayatā</em>. Non-identification is the watchword
+for clinging-free <em>parinibbāna</em>.</p>
+<p>The dictum <em>tatra idaṁ nissāya idam pajahatha</em>, “therein, depending on this,
+abandon this”, which the Buddha expounds in the <em>Saḷāyatanavibhaṅgasutta</em>,
+portrays a duality between attention, <em>manasikāra</em>, and inattention,
+<em>amanasikāra</em>.</p>
+<p>That is to say, the basic principle in this dictum is the method of encouraging
+inattention to grosser things by recommending a way of attending to subtler
+things. So it seems both attention and inattention are given an importance in
+this procedure.</p>
+<p>In order to eliminate one thing by inattention, attention to some other thing is
+recommended. For the purpose of inattention to something gross, attention to
+something subtle is taken up. But that is not the end of it. Even that is
+expelled with the help of something subtler. Here we have a wonderful technique,
+based on the twin principles of pragmatism and relativity.</p>
+<p>These two terms comprehend the entire gamut of the path of practice in Buddhism.
+‘Pragmatic’ means ‘for some practical purpose’, ‘relative’ means ‘in relation to
+something else’, that is, as a means to an end, and not absolutely as an end in
+itself. So in this system of practice everything has a pragmatic and a relative
+value.</p>
+<p>The question of attention and inattention has also to be understood in that
+background. A clear illustration of the method of elimination of grosser mental
+states with the help of subtler mental states by attention and inattention comes
+in the <em>Vitakkasaṇṭhānasutta</em> of the <em>Majjhima Nikāya</em>. There the Buddha
+explains this method making use of a simile of a carpenter.</p>
+<blockquote>
+<p><em>Seyyathā pi, bhikkhave, dakkho palagaṇḍo vā palagaṇḍantevāsī vā sukhumāya
+āṇiyā oḷārikaṁ āṇiṁ abhinīhaneyya abhinīhareyya abhinivajjeyya, evam eva kho,
+bhikkhave, bhikkhuno yaṁ nimittam āgamma yaṁ nimittaṁ manasikaroto uppajjanti
+pāpakā akusalā vitakkā chandūpasaṁhitā pi dosūpasaṁhitā pi mohūpasaṁhitā pi,
+tena, bhikkhave, bhikkhunā tamhā nimittā aññaṁ nimittaṁ manasikātabbaṁ
+kusalūpasaṁhitaṁ.</em><sup class="footnote-reference" id="fr-fn971-1"><a href="#fn-fn971">8</a></sup></p>
+<p>Just as, monks, a skilled carpenter or his apprentice might knock out, draw
+out and remove a coarse peg by means of a fine one, even so, monks, when a
+monk [finds that], due to some sign, by attending to some sign, there arise in
+him evil unskilful thoughts connected with desire, with hate and with
+delusion, that monk, monks, should attend to some other sign in its stead, one
+that has to do with the skilful.</p>
+</blockquote>
+<p>Now let us try to understand the point of this simile. When, for instance, a
+carpenter, in fitting out a door, finds that he is driving a blunt nail, he
+extracts it with the help of a sharper one. He takes up the sharper nail just
+for the purpose of extracting the blunt nail. So also one resorts to a skilful
+thought to expel the unskilful thought as a means to an end. This kind of
+pragmatic and relative approach avoids tenacious grasping and dogmatic
+involvement.</p>
+<p>The spirit of the law of dependent arising runs through the entire course of
+Buddhist practice, culminating in <em>atammayatā</em>, non-identification.</p>
+<p>The two terms <em>kusala</em> and <em>akusala</em> also deserve our special attention in this
+context. The basic meaning of <em>kusala</em> is ‘skilful’, and <em>akusala</em> means
+‘unskilful’.</p>
+<p>Here, again, we have something relative. ‘Skilful’ presupposes ‘unskilful’ and
+gets a value in relation to the latter. It has no absolute value. We make use of
+the skilful in order to push away the unskilful. That done, there is no further
+involvement with it, as one’s last resort is <em>atammayatā</em>, non-identification.
+That is why there is no problem of a clogging coming in.</p>
+<p>Our discussion of the <em>Saḷāyatanavibhaṅgasutta</em> brings to light another unique
+feature of this Dhamma. In other religious systems the question of reality is
+resolved by having recourse to unity. Oneness is supposed to be the ultimate
+goal.</p>
+<p>In our analysis of the <em>saṁsāric</em> problem, we often referred to a duality or a
+dichotomy. Everywhere we were confronted with a duality. But to grasp the two as
+one, in some form of oneness, is not the way out. Instead we have here, as the
+final solution, <em>atammayatā</em> or non-identification, a clinging-free approach in
+the last analysis.</p>
+<p>It is in the nature of <em>saṁsāric</em> existence that beings find themselves bound
+and fettered. These fetters are called <em>saṁyojanāni</em>. A binding or a fetter
+implies ‘two’, as when two bulls are tied together.<sup class="footnote-reference" id="fr-fn972-1"><a href="#fn-fn972">9</a></sup></p>
+<p>The term <em>upādāna</em> is also used quite often. It implies a holding on to
+something. There, too, the notion of a duality comes in – one who holds and the
+thing held. It is not at all easy to transcend this duality, characteristic of
+<em>saṁsāric</em> existence. This is the crux of the whole problem. Unity or oneness is
+not the solution, it has to be solved with extreme judiciousness.</p>
+<p>In the very first discourse of the <em>Saṁyutta Nikāya</em> we get a solution to the
+problem, briefly stated. The discourse is called <em>Oghataraṇasutta</em>, “Crossing
+the Flood”, and it was given pride of place probably because of its importance.</p>
+<p>A deity comes and asks the Buddha:</p>
+<blockquote>
+<p><em>Kathaṁ nu tvaṁ mārisa ogham atari?</em><sup class="footnote-reference" id="fr-fn973-1"><a href="#fn-fn973">10</a></sup></p>
+<p>How did you, Sir, cross the flood?</p>
+</blockquote>
+<p>And the Buddha answers:</p>
+<blockquote>
+<p><em>Appatiṭṭhaṁ khvāham, āvuso, anāyūhaṁ ogham atariṁ.</em></p>
+<p>Without tarrying, friend, and without hurrying, did I cross the flood.</p>
+</blockquote>
+<p>But the deity, finding the answer too enigmatic, asks:</p>
+<blockquote>
+<p><em>Yathā kathaṁ pana tvaṁ mārisa appatiṭṭham anāyūham ogham atari?</em></p>
+<p>But how [exactly is it], sir, that you crossed the flood without tarrying and
+without hurrying?</p>
+</blockquote>
+<p>Then the Buddha makes an explanatory statement:</p>
+<blockquote>
+<p><em>Yadā svāham, āvuso, santiṭṭhāmi tadāssu saṁsīdāmi, yadā svāham āvuso āyūhāmi
+tadāssu nibbuyhāmi. Evam khvāham, āvuso, appatiṭṭhaṁ anāyūhaṁ ogham atariṁ.</em></p>
+<p>When I, friend, tarried, I found myself sinking; when I, friend, hurried, I
+got swept away. And so, friend, without tarrying and without hurrying did I
+cross the flood.</p>
+</blockquote>
+<p>Then the deity, being pleased, uttered the following verse in approbation:</p>
+<blockquote>
+<p><em>Cirassaṁ vata passāmi,</em> <br />
+<em>brāhmaṇaṁ parinibbutaṁ,</em> <br />
+<em>appatiṭṭhaṁ anāyūhaṁ,</em> <br />
+<em>tiṇṇaṁ loke visattikaṁ.</em></p>
+<p>O, what length of time since I beheld, <br />
+A saint with all his passions quelled, <br />
+Who neither tarrying nor yet hurrying, <br />
+Has crossed the world’s viscosity – ‘craving’.</p>
+</blockquote>
+<p>This discourse on crossing the flood reveals some salient features of the middle
+path. If a person caught up in a water current tries to stay still, he will
+sink. If he simply struggles to escape, he will get swept away. So like a good
+swimmer, he has to avoid both extremes, and, by means of a mindful and
+systematic gradual effort, work out his freedom. In other words, he has to
+strive – not struggle.</p>
+<p>So we can understand why the Buddha in his very first sermon,
+<em>Dhammacakkapavattanasutta</em>, “Discourse on the Turning of the Wheel of Dhamma”,
+proclaimed as the middle path the noble eightfold path, avoiding both extremes
+of attachment to sensuality, <em>kāmasukhallikānuyoga</em>, and self-mortification,
+<em>attakilamathānuyoga</em>.<sup class="footnote-reference" id="fr-fn974-1"><a href="#fn-fn974">11</a></sup> Here, too, the implication is that the entire
+round of existence is a water current to be crossed over by means of a
+systematic and gradual effort.</p>
+<p>In some of our earlier sermons, while analyzing the law of dependent arising, we
+made use of the simile of the vortex for easy comprehension.<sup class="footnote-reference" id="fr-fn975-1"><a href="#fn-fn975">12</a></sup> Now if we
+are to take it up again, we may say that it is in the nature of beings in
+<em>saṁsāra</em> to get drifted by the current of preparations, <em>saṇkhārā</em>, owing to
+ignorance, <em>avijjā</em>, and go on revolving between consciousness, <em>viññāṇa</em>, and
+name-and-form, <em>nāma-rūpa</em>.</p>
+<p>This ignorance in the form of the four pervert perceptions – namely the
+perception of permanence in the impermanent, the perception of pleasure in the
+painful, the perception of beauty in the repulsive, and the perception of self
+in the not-self – gives rise to the run-away current of water which keeps
+running round and round between consciousness and name-and-form. This is the
+<em>saṁsāric</em> vortex, <em>saṁsāravaṭṭa</em>.</p>
+<p>Now, for instance, if we throw even a small leaf to a spot where there is a
+vortex, it also keeps revolving. Similarly, all over this <em>saṁsāric</em> existence
+duality holds sway. Therefore, freedom from it can be won only by a subtle form
+of striving. That is why the Buddha used the two terms <em>appatiṭṭhaṁ</em> and
+<em>anāyūhaṁ</em>. Avoiding the two extremes of stagnation and struggling, one has to
+cross the flood going the middle way.</p>
+<p>When the Buddha proclaimed that freedom can be won only by the middle way,
+avoiding both extremes, the extremist philosophers of his day criticized and
+disparaged him, saying: “Then you are preaching a doctrine of bewilderment”.</p>
+<p>We find such an instance of accusation in the <em>Māgandiyasutta</em> of the <em>Aṭṭhaka
+Vagga</em> of the <em>Sutta Nipāta</em>. The Brāhmin Māgandiya poses the following question
+to the Buddha:</p>
+<blockquote>
+<p><em>’Ajjhattasantī’ti yam etam atthaṁ,</em> <br />
+<em>kathan nu dhīrehi paveditaṁ taṁ.</em><sup class="footnote-reference" id="fr-fn976-1"><a href="#fn-fn976">13</a></sup></p>
+<p>That which they call ‘inward peace’, <br />
+In what terms have the wise proclaimed that [peace]?</p>
+</blockquote>
+<p>The Buddha’s answer took the following form:</p>
+<blockquote>
+<p><em>Na diṭṭhiyā na sutiyā na ñāṇena,</em> <br />
+<em>sīlabbatenāpi visuddhim āhu,</em> <br />
+<em>adiṭṭhiyā assutiyā aññāṇā</em> <br />
+<em>asīlatā abbatā no pi tena,</em> <br />
+<em>ete ca nissajja anuggahāya</em> <br />
+<em>santo anissāya bhavaṁ na jappe.</em></p>
+<p>Not by views, nor by learning, <br />
+<span class="vin"></span> nor by knowledge, <br />
+Nor yet by virtue and holy vows, <br />
+<span class="vin"></span> they say, can purity come, <br />
+Neither can it come by without views, <br />
+<span class="vin"></span> learning and knowledge, <br />
+Without virtue and holy vows, <br />
+Letting go of them all and grasping not one, <br />
+That peaceful one, leaning on none, <br />
+Would hanker no more for existence.</p>
+</blockquote>
+<p>At this reply the Brāhmin Māgandiya was puzzled and accuses the Buddha of
+prevarication.</p>
+<blockquote>
+<p><em>No ce kira diṭṭhiyā na sutiyā na ñāṇena,</em> <br />
+<em>sīlabbatenāpi visuddhim āha,</em> <br />
+<em>adiṭṭhiyā assutiyā aññāṇā</em> <br />
+<em>asīlatā abbatā no pi tena,</em> <br />
+<em>maññe-m-ahaṁ momuham eva dhammaṁ,</em> <br />
+<em>diṭṭhiyā eke paccenti suddhiṁ.</em></p>
+<p>If not by views, nor by learning, <br />
+<span class="vin"></span> nor by knowledge, <br />
+Nor yet by virtue and holy vows <br />
+<span class="vin"></span> can purity be won, <br />
+If it comes not without views, <br />
+<span class="vin"></span> learning and knowledge, <br />
+Without virtue and holy vows – well then <br />
+Bewilderment itself, I think, is this Dhamma, <br />
+For there are some who claim purity by views.</p>
+</blockquote>
+<p>Now these two verses call for some comments. Firstly there is a minor problem
+about variant readings. In both these verses, we followed the reading
+<em>visuddhi</em>, whereas some editions accept the reading <em>na suddhim āha</em>, where the
+negative seems superfluous. <em>Visuddhi</em> seems more meaningful here.</p>
+<p>The commentarial explanation of these two verses seems to go off at a
+tangent.<sup class="footnote-reference" id="fr-fn977-1"><a href="#fn-fn977">14</a></sup> It says that the negatives in the first two lines of the
+Buddha’s reply refer to wrong views, wrong learning, wrong knowledge, wrong
+virtue and wrong vows, and that the third and fourth lines refer to right view,
+right learning, right knowledge, right virtue and right vows. In other words, it
+is only a question of wrong view, <em>micchā diṭṭhi</em>, and right view, <em>sammā
+diṭṭhi</em>.</p>
+<p>This interpretation misses the subtle point at issue in this dialogue. If it is
+as simple as that, there is no ground for Māgandiya’s accusation. Other
+religious teachers, who disputed with each other, used to assert that purity is
+attained only by their views, learning, knowledge, virtue and vows.</p>
+<p>Here then it is not a question of difference between <em>micchā diṭṭhi</em> and <em>sammā
+diṭṭhi</em>. Here is something more radical concerning <em>sammā diṭṭhi</em> itself.</p>
+<p>According to this enlightened approach, views etc. cannot totally be dispensed
+with, nor are they to be grasped. We come back now to the two key words
+‘pragmatic’ and ‘relative’. That is why the Buddha declared that purity cannot
+be attained by views, learning, knowledge, virtue and vows, nor in the absence
+of these qualities.</p>
+<p>This is an apparently contradictory statement which, however, puts in a nutshell
+the essence of the middle path. The inward peace, mentioned in the above
+context, is nothing other than the clinging-free perfect extinction, <em>anupādā
+parinibbāna</em>. That becomes clear by the last three lines of the Buddha’s reply,</p>
+<blockquote>
+<p><em>ete ca nissajja anuggahāya</em> <br />
+<em>santo anissāya bhavaṁ na jappe.</em></p>
+<p>Letting go of them all and grasping not one, <br />
+That peaceful one, leaning on none, <br />
+Would hanker no more for existence.</p>
+</blockquote>
+<p>We came across the word <em>anissita</em> in our discussions about Nibbāna, for
+instance in the cryptic formula</p>
+<blockquote>
+<p><em>nissitassa calitaṁ, anissitassa calitaṁ natthi</em>,<sup class="footnote-reference" id="fr-fn978-1"><a href="#fn-fn978">15</a></sup></p>
+<p>to the one attached there is wavering, to the unattached one, there is no
+wavering.</p>
+</blockquote>
+<p>Being unattached, there is no hankering for existence. Where there is grasping,
+there is existence.</p>
+<p>We may revert to our simile of sharpening a razor.<sup class="footnote-reference" id="fr-fn979-1"><a href="#fn-fn979">16</a></sup> The constituents of
+the path have to be taken up as one takes up a razor for sharpening, ready to
+let go. Once the purpose is served, they have to be given up. That is the dictum
+underlying this dialogue in the <em>Māgandiyasutta</em>.</p>
+<p>Now we come to a discourse which clearly and unmistakeably presents this
+extraordinary first principle. The discourse is the <em>Rathavinītasutta</em> of the
+<em>Majjhima Nikāya</em>.</p>
+<p>Here it is not a case of arguing with a Brāhmin. The interlocutors in this
+discourse are two stalwarts of this dispensation, namely Venerable Sāriputta and
+Venerable Puṇṇa Mantāṇiputta. Their long discussion on the path of practice,
+unfolding itself in dialogue form, was not meant for any clarification of doubts
+for themselves. It was probably inspired by a benevolent wish to help those
+‘Māgandiyas’ in the world, who are ignorant of the pragmatic nature and relative
+value of the Buddha’s middle path. For easy comprehension, we shall present this
+discourse in three parts.</p>
+<p>First of all Venerable Sāriputta poses the following question to Venerable Puṇṇa
+Mantāṇiputta:</p>
+<blockquote>
+<p><em>Kin nu kho, āvuso, sīlavisuddhatthaṁ Bhagavati brahmacariyaṁ vussatī’ti?</em><sup class="footnote-reference" id="fr-fn980-1"><a href="#fn-fn980">17</a></sup></p>
+<p>“What, friend, is it for the sake of purification of virtue that the holy life
+is lived under the Fortunate One?”</p>
+</blockquote>
+<p>And Venerable Puṇṇa Mantāṇiputta replies:</p>
+<blockquote>
+<p>“No friend.”</p>
+<p>“Then is it for the sake of purification of mind that the holy life is lived
+under the Fortunate One?” <br />
+“No friend.”</p>
+<p>“Then is it for the sake of purification of view that the holy life is lived
+under the Fortunate One?” <br />
+“No friend.”</p>
+<p>“Then is it for the sake of purification by overcoming doubt that the holy
+life is lived under the Fortunate One?” <br />
+“No friend.”</p>
+<p>“Then is it for the sake of purification by knowledge and vision of what is
+the path and what is not the path that the holy life is lived under the
+Fortunate One?” <br />
+“No friend.”</p>
+<p>“Then is it for the sake of purification by knowledge and vision of the way
+that the holy life is lived under the Fortunate One?” <br />
+“No friend.”</p>
+<p>“Then is it for the sake of purification by knowledge and vision that the holy
+life is lived under the Fortunate One?” <br />
+“No friend.”</p>
+</blockquote>
+<p>Then Venerable Sāriputta asks:</p>
+<blockquote>
+<p>“Then for the sake of what, friend, is the holy life lived under the
+Fortunate One?”</p>
+<p>“Friend it is for the sake of perfect Nibbāna without clinging that the holy
+life is lived under the Fortunate One.”</p>
+</blockquote>
+<p>So the ensemble of part one of the dialogue is that the holy life is not lived
+under the Fortunate One for the sake of any of those purifications, but for
+something called <em>anupādā parinibbāna</em>, “perfect Nibbāna without clinging”.</p>
+<p>Now, in what we would call part two of the dialogue, Venerable Sāriputta
+highlights the contradictions in the answers given so far, somewhat like
+Māgandiya. Apparently there is some need for clarification. He asks:</p>
+<blockquote>
+<p>“But, friend, is purification of virtue perfect Nibbāna without clinging?” <br />
+“No friend”.</p>
+</blockquote>
+<p>In this way he asks whether any of the other stages of purification, up to and
+including purification by knowledge and vision, is perfect Nibbāna without
+clinging. Venerable Puṇṇa answers in the negative. Then Venerable Sāriputta
+asks:</p>
+<blockquote>
+<p><em>Kim pan’ āvuso aññatra imehi dhammehi anupādā parinibbānaṁ?</em></p>
+<p>“But, friend, is perfect Nibbāna without clinging [to be attained] without
+these states?” <br />
+“No friend”.</p>
+</blockquote>
+<p>So, then, it looks as if the trend of contradictions has come to a head.</p>
+<p>Now in part three of the dialogue we find Venerable Sāriputta rhetorically
+summing up the previous section of the dialogue:</p>
+<blockquote>
+<p>“When asked: ‘But, friend, is purification of virtue perfect Nibbāna without
+clinging?’, you replied: ‘No friend’”</p>
+</blockquote>
+<p>(and so on), citing even the last negative response:</p>
+<blockquote>
+<p>“And when asked: ‘But, friend, is perfect Nibbāna without clinging [to be
+attained] without these states?’, you replied: ‘No friend’”;</p>
+</blockquote>
+<p>and rounds up by asking with apparent exasperation:</p>
+<blockquote>
+<p><em>yathākathaṁ pan’ āvuso imassa bhāsitassa attho daṭṭhabbo?</em></p>
+<p>“How, then, friend, can one understand the meaning of this statement?”</p>
+</blockquote>
+<p>So rather dramatically the stage is now set for Venerable Puṇṇa Mantāṇiputta to
+come out with the deepest point in the discussion:</p>
+<blockquote>
+<p><em>Sīlavisuddhiñce āvuso Bhagavā anupādā parinibbānaṁ paññāpessa, sa-upādānaṁ
+yeva samānaṁ anupādā parinibbānaṁ paññāpessa.</em></p>
+<p>“Friend, if the Fortunate One had designated purification of virtue as perfect
+Nibbāna without clinging, he would have designated what is still accompanied
+by clinging as perfect Nibbāna without clinging.”</p>
+</blockquote>
+<p>In the same strain, he goes on to apply this criterion to the other stages of
+purification and finally brings out the absurdity of the other extreme in the
+following words:</p>
+<blockquote>
+<p><em>Aññatra ce, āvuso, imehi dhammehi anupādā parinibbānaṁ abhavissa, puthujjano
+parinibbāyeyya, puthujjano hi, āvuso, aññatra imehi dhammehi.</em></p>
+<p>“And if, friend, perfect Nibbāna without clinging were to be attained without
+these states, then even an ordinary worldling would have attained perfect
+Nibbāna without clinging, for an ordinary worldling, friend, is without these
+states.”</p>
+</blockquote>
+<p>Now we can see how subtle this question is. Simply because it was said that none
+of the above states is perfect Nibbāna without clinging, they cannot be
+dispensed with.</p>
+<p>We have already discussed the significance of the <em>Alagaddūpamasutta</em> in this
+concern. There we came across two similes, the simile of the raft and the simile
+of the water snake. To carry the raft on one’s shoulder after crossing is one
+extreme.<sup class="footnote-reference" id="fr-fn981-1"><a href="#fn-fn981">18</a></sup> To take the water snake by its tail is the other extreme. The
+middle path lies between these two extremes. That is the implication of the
+above statement that if perfect Nibbāna without clinging is attained without
+these states, then even an ordinary worldling would have attained it, for he has
+none of them.</p>
+<p>For further clarification of this point, Venerable Puṇṇa Mantāṇiputta comes out
+with the simile of the relay of chariots. King Pasendi of Kosala, while living
+in Sāvatthī, has some urgent business to settle at Sāketa. Between Sāvatthī and
+Sāketa seven relay chariots are kept ready for him. The king mounts the first
+relay chariot and by means of it arrives at the second relay chariot. Then he
+dismounts from the first relay chariot and mounts the second chariot. By means
+of the second chariot he arrives at the third chariot. In this way, finally he
+arrives at Sāketa by means of the seventh chariot.</p>
+<p>Then, when his friends and relatives in Sāketa ask him: “Sire, did you come from
+Sāvatthī to Sāketa by means of this chariot?”, he cannot reply in the
+affirmative. He has to relate the whole story of passing from chariot to
+chariot.</p>
+<p>Having given this simile as an illustration, Venerable Puṇṇa Mantāṇiputta sums
+up the correct solution to the point at issue in the following memorable words:</p>
+<blockquote>
+<p><em>Evameva kho, āvuso, sīlavisuddhi yāvadeva cittavisuddhatthā,</em></p>
+<p><em>cittavisuddhi yāvadeva diṭṭhivisuddhatthā,</em></p>
+<p><em>diṭṭhivisuddhi yāvadeva kaṅkhāvitaraṇavisuddhatthā,</em></p>
+<p><em>kaṅkhāvitaraṇavisuddhi yāvadeva maggāmaggañāṇadassanavisuddhatthā,</em></p>
+<p><em>maggāmaggañāṇadassanavisuddhi yāvadeva paṭipadañāṇadassanavisuddhatthā,</em></p>
+<p><em>paṭipadañāṇadassanavisuddhi yāvadeva ñāṇadassanavisuddhatthā,</em></p>
+<p><em>ñāṇadassanavisuddhi yāvadeva anupādā parinibbānatthā.</em></p>
+<p><em>Anupādā parinibbānatthaṁ kho, āvuso, Bhagavati brahmacariyaṁ vussati.</em></p>
+<p>Even so, friend, purification of virtue is purposeful as far as purification
+of the mind;</p>
+<p>purification of the mind is purposeful as far as purification of view;</p>
+<p>purification of view is purposeful as far as purification by overcoming doubt;</p>
+<p>purification by overcoming doubt is purposeful as far as purification by
+knowledge and vision of what is the path and what is not the path;</p>
+<p>purification by knowledge and vision of what is the path and what is not the
+path is purposeful as far as purification by knowledge and vision of the way;</p>
+<p>purification by knowledge and vision of the way is purposeful as far as
+purification by knowledge and vision;</p>
+<p>purification by knowledge and vision is purposeful as far as perfect Nibbāna
+without clinging.</p>
+<p>It is for perfect Nibbāna without clinging that the holy life is lived under
+the Fortunate One.</p>
+</blockquote>
+<p>The key word in this grand finale of this dramatic exposition is <em>yāvadeva</em>.
+Simply rendered it means ‘just for’, that is, the sufficing condition for
+something else.</p>
+<p>Properly understood, it is a watchword upholding the twin principles of
+pragmatism and relativity. In the light of the illustration by relay chariots,
+this watchword stands for that impersonal momentum or impetus required for any
+gradual course of purposive action, according to the law of dependent arising.</p>
+<p>So we see how the Buddha discovered and laid bare the first principles of a
+universal law conducive to one’s emancipation. Here is a series of states, in
+which one state is to be made use of for reaching another, and that for reaching
+yet another, but none of which is to be grasped per se. This is the distinction
+between what is called <em>upadhi</em>, or <em>saṁsāric</em> asset, and <em>nirupadhi</em>, or the
+asset-less Nibbāna.</p>
+<p>In the case of those meritorious deeds, productive of <em>saṁsāric</em> assets, one
+goes on accumulating and amassing them. But, for the <em>nibbānic</em> state of
+<em>nirupadhi</em>, the asset-less, there is a different approach.</p>
+<p>One state leads up to another, and that to yet another, in accordance with the
+simile of the relay chariots, but none of them is to be grasped per se. One
+grasps neither purification of virtue, nor purification of the mind, nor
+purification of view, nay, not even purification by knowledge and vision.
+Leaving them all behind and reaching the subtlest of them all, there comes the
+final ‘let go’ to attain that perfect extinction without clinging, <em>anupādā
+parinibbāna</em>. This is the subtlest truth in this Dhamma.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn964"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn964-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn965"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/mn137/pli/ms">MN 137 / M III 217</a>, <em>Saḷāyatanavibhaṅgasutta</em> <a href="#fr-fn965-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn966"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/ud8.2/pli/ms">Ud 8.2 / Ud 80</a>, <em>Paṭhamanibbānapaṭisaṁyuttasutta</em> <a href="#fr-fn966-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn967"><sup class="footnote-definition-label">4</sup>
+<p>See <em>Sermon 17</em> <a href="#fr-fn967-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn968"><sup class="footnote-definition-label">5</sup>
+<p>See esp. <em>Sermons 14, 15, 24 and 25</em> <a href="#fr-fn968-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn969"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/mn113/pli/ms">MN 113 / M III 44</a>, <em>Sappurisasutta</em> <a href="#fr-fn969-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn970"><sup class="footnote-definition-label">7</sup>
+<p>See <em>Sermons 13, 14 and 15</em> <a href="#fr-fn970-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn971"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/mn20/pli/ms">MN 20 / M I 119</a>, <em>Vitakkasanthānasutta</em> <a href="#fr-fn971-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn972"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/sn41.1/pli/ms">SN 41.1 / S IV 282</a>, <em>Saṁyojanasutta</em> <a href="#fr-fn972-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn973"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/sn1.1/pli/ms">SN 1.1 / S I 1</a>, <em>Oghataraṇasutta</em> <a href="#fr-fn973-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn974"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/sn56.11/pli/ms">SN 56.11 / S V 421</a>, <em>Dhammacakkapavattanasutta</em> <a href="#fr-fn974-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn975"><sup class="footnote-definition-label">12</sup>
+<p>See <em>Sermon 3</em> etc. <a href="#fr-fn975-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn976"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/snp4.9/pli/ms">Snp 4.9 / Sn 838</a>, <em>Māgandiyasutta</em> <a href="#fr-fn976-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn977"><sup class="footnote-definition-label">14</sup>
+<p>Pj II 545 <a href="#fr-fn977-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn978"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/mn144/pli/ms">MN 144 / M III 266</a>, <em>Channovādasutta</em>; see <em>Sermon 4</em> <a href="#fr-fn978-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn979"><sup class="footnote-definition-label">16</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn979-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn980"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/mn24/pli/ms">MN 24 / M I 147</a>, <em>Rathavinītasutta</em> <a href="#fr-fn980-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn981"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 134</a>, <em>Alagaddūpamasutta</em>; see <em>Sermon 18</em> <a href="#fr-fn981-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-29.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-31.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-29.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-31.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

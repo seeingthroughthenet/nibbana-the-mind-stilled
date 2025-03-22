@@ -1,0 +1,1051 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 4 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-4-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-4"><a class="header" href="#sermon-4">Sermon 4</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn121-1"><a href="#fn-fn121">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks.</p>
+<p>Towards the end of the last sermon, we were trying to explain how the process of
+the <em>saṁsāric</em> journey of beings could be understood even with the couple of
+terms <em>itthabhāva</em> and <em>aññatthābhāva</em>, or this-ness and otherwise-ness.<sup class="footnote-reference" id="fr-fn122-1"><a href="#fn-fn122">2</a></sup>
+On an earlier occasion, we happened to quote the following verse in the <em>Sutta
+Nipāta</em>:</p>
+<blockquote>
+<p><em>Taṇhā dutiyo puriso,</em> <br />
+<em>dīghamaddhāna saṁsāraṁ,</em> <br />
+<em>itthabhāvaññathābhāvaṁ,</em> <br />
+<em>saṁsāraṁ nātivattati</em>.<sup class="footnote-reference" id="fr-fn123-1"><a href="#fn-fn123">3</a></sup></p>
+</blockquote>
+<p>It means: “The man with craving as his second”, or “as his companion”, “faring
+on for a long time in <em>saṁsāra</em>, does not transcend the round, which is of the
+nature of a this-ness and an otherwise-ness.”</p>
+<p>This is further proof that the two terms imply a circuit. It is a circuit
+between a ‘here’ and a ‘there’, or a ‘this-ness’ and an ‘otherwise-ness’. It is
+a turning round, an alternation or a circuitous journey. It is like a rotation
+on the spot. It is an ambivalence between a here and a there.</p>
+<p>It is the relationship between this this-ness and otherwise-ness that we tried
+to illustrate with quotations from the suttas. We mentioned in particular that
+consciousness, when it leaves this body and gets well established on a
+preconceived object, which in fact is its name-and-form object, that
+name-and-form attains growth and maturity there itself.<sup class="footnote-reference" id="fr-fn124-1"><a href="#fn-fn124">4</a></sup> Obviously,
+therefore, name-and-form is a necessary condition for the sustenance and growth
+of consciousness in a mother’s womb.</p>
+<p>It should be clearly understood that the passage of consciousness from here to a
+mother’s womb is not a movement from one place to another, as in the case of the
+body. In reality, it is only a difference of point of view, and not a
+transmigration of a soul. In other words, when consciousness leaves this body
+and comes to stay in a mother’s womb, when it is fully established there, ‘that’
+place becomes a ‘this’ place. From the point of view of that consciousness, the
+‘there’ becomes a ‘here’. Consequently, from the new point of view, what was
+earlier a ‘here’, becomes a ‘there’. What was formerly ‘that place’ has now
+become ‘this place’ and vice versa. That way, what actually is involved here, is
+a change of point of view. So it does not mean completely leaving one place and
+going to another, as is usually meant by the journey of an individual.</p>
+<p>The process, then, is a sort of going round and round. This is all the more
+clear by the Buddha’s statement that even consciousness is dependently arisen.
+There are instances in which the view that this selfsame consciousness fares on
+in <em>saṁsāra</em> by itself, <em>tadevidaṁ viññāṇaṁ sandhāvati saṁsarati, anaññaṁ</em>, is
+refuted as a wrong view.<sup class="footnote-reference" id="fr-fn125-1"><a href="#fn-fn125">5</a></sup></p>
+<p>On the one hand, for the sustenance and growth of name-and-form in a mother’s
+womb, consciousness is necessary. On the other hand, consciousness necessarily
+requires an object for its stability. It could be some times an intention, or
+else a thought construct. In the least, it needs a trace of latency, or
+<em>anusaya</em>. This fact is clear enough from the sutta quotations we brought up
+towards the end of the previous sermon. From the <em>Cetanāsutta</em>, we happened to
+quote on an earlier occasion, it is obvious that at least a trace of latency is
+necessary for the sustenance of consciousness.<sup class="footnote-reference" id="fr-fn126-1"><a href="#fn-fn126">6</a></sup></p>
+<p>When consciousness gets established in a mother’s womb, with this condition in
+the least, name-and-form begins to grow. It grows, at it were, with a flush of
+branches, in the form of the six sense bases, to produce a fresh tree of
+suffering. It is this idea that is voiced by the following well known verse in
+the <em>Dhammapada</em>:</p>
+<blockquote>
+<p><em>Yathāpi mūle anupaddave daḷhe</em> <br />
+<em>chinno pi rukkho punareva rūhati</em> <br />
+<em>evam pi taṇhānusaye anūhate</em> <br />
+<em>nibbattati dukkham idaṁ punappunaṁ</em>.<sup class="footnote-reference" id="fr-fn127-1"><a href="#fn-fn127">7</a></sup></p>
+<p>Just as a tree, so long as its root is unharmed and firm, <br />
+Though once cut down, will none the less grow up again, <br />
+Even so, when craving’s latency is not yet rooted out, <br />
+This suffering gets reborn again and again.</p>
+</blockquote>
+<p>It is clear from this verse too that the latency to craving holds a very
+significant place in the context of the <em>saṁsāric</em> journey of a being. In the
+<em>Aṅguttara Nikāya</em> one comes across the following statement by the Buddha:</p>
+<blockquote>
+<p><em>Kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sineho</em>.<sup class="footnote-reference" id="fr-fn128-1"><a href="#fn-fn128">8</a></sup></p>
+<p><em>Kamma</em> is the field, consciousness is the seed, craving is the moisture.</p>
+</blockquote>
+<p>This, in effect, means that consciousness grows in the field of <em>kamma</em> with
+craving as the moisture.</p>
+<p>It is in accordance with this idea and in the context of this particular simile
+that we have to interpret the reply of Selā Therī to a question raised by
+Māra. In the <em>Sagātha Vagga</em> of the <em>Saṁyutta Nikāya</em> one comes across the
+following riddle put by Māra to the <em>arahant</em> nun Selā:</p>
+<blockquote>
+<p><em>Ken’idaṁ pakataṁ bimbaṁ,</em> <br />
+<em>ko nu bimbassa kārako,</em> <br />
+<em>kvannu bimbaṁ samuppannaṁ,</em> <br />
+<em>kvannu bimbaṁ nirujjhati?</em><sup class="footnote-reference" id="fr-fn129-1"><a href="#fn-fn129">9</a></sup></p>
+<p>By whom was this image wrought, <br />
+Who is the maker of this image, <br />
+Where has this image arisen, <br />
+And where does the image cease?</p>
+</blockquote>
+<p>The image meant here is one’s body, or one’s outward appearance which, for the
+conventional world, is name-and-form. Selā Therī gives her answer in three
+verses:</p>
+<blockquote>
+<p><em>Nayidaṁ attakataṁ bimbaṁ,</em> <br />
+<em>nayidaṁ parakataṁ aghaṁ,</em> <br />
+<em>hetuṁ paṭicca sambhūtaṁ,</em> <br />
+<em>hetubhaṅgā nirujjhati.</em></p>
+<p><em>Yathā aññataraṁ bījaṁ,</em> <br />
+<em>khette vuttaṁ virūhati,</em> <br />
+<em>pathavīrasañcāgamma,</em> <br />
+<em>sinehañca tadūbhayaṁ.</em></p>
+<p><em>Evaṁ khandhā ca dhātuyo,</em> <br />
+<em>cha ca āyatanā ime,</em> <br />
+<em>hetuṁ paṭicca sambhūtā,</em> <br />
+<em>hetubhaṅgā nirujjhare.</em></p>
+<p>Neither self-wrought is this image, <br />
+Nor yet other-wrought is this misery, <br />
+By reason of a cause, it came to be, <br />
+By breaking up the cause, it ceases to be.</p>
+<p>Just as in the case of a certain seed, <br />
+Which when sown on the field would feed <br />
+On the taste of the earth and moisture, <br />
+And by these two would grow.</p>
+<p>Even so, all these aggregates <br />
+Elements and bases six, <br />
+By reason of a cause have come to be, <br />
+By breaking up the cause will cease to be.</p>
+</blockquote>
+<p>The first verse negates the idea of creation and expresses the conditionally
+arisen nature of this body. The simile given in the second verse illustrates
+this law of dependent arising. It may be pointed out that this simile is not one
+chosen at random. It echoes the idea behind the Buddha’s statement already
+quoted, <em>kammaṁ khettaṁ, viññāṇaṁ bījaṁ, taṇhā sineho</em>. <em>Kamma</em> is the field,
+consciousness the seed, and craving the moisture.</p>
+<p>Here the venerable Therī is replying from the point of view of Dhamma, which
+takes into account the mental aspect as well. It is not simply the outward
+visible image, as commonly understood by <em>nāma-rūpa</em>, but that image which falls
+on consciousness as its object. The reason for the arising and growth of
+<em>nāma-rūpa</em> is therefore the seed of consciousness. That consciousness seed
+grows in the field of <em>kamma</em>, with craving as the moisture. The outgrowth is in
+terms of aggregates, elements and bases. The cessation of consciousness is none
+other than Nibbāna.</p>
+<p>Some seem to think that the cessation of consciousness occurs in an <em>arahant</em>
+only at the moment of his <em>parinibbāna</em>, at the end of his life span. But this
+is not the case. Very often, the deeper meanings of important suttas have been
+obliterated by the tendency to interpret the references to consciousness in such
+contexts as the final occurrence of consciousness in an <em>arahant’s</em> life –
+<em>carimaka viññāṇa</em>.<sup class="footnote-reference" id="fr-fn130-1"><a href="#fn-fn130">10</a></sup></p>
+<p>What is called the cessation of consciousness has a deeper sense here. It means
+the cessation of the specifically prepared consciousness, <em>abhisaṅkhata
+viññāṇa</em>. An <em>arahant’s</em> experience of the cessation of consciousness is at the
+same time the experience of the cessation of name-and-form. Therefore, we can
+attribute a deeper significance to the above verses.</p>
+<p>In support of this interpretation, we can quote the following verse in the
+<em>Munisutta</em> of the <em>Sutta Nipāta</em>:</p>
+<blockquote>
+<p><em>Saṅkhāya vatthūni pamāya bījaṁ,</em> <br />
+<em>sineham assa nānuppavecche,</em> <br />
+<em>sa ve munī jātikhayantadassī,</em> <br />
+<em>takkaṁ pahāya na upeti saṅkhaṁ</em>.<sup class="footnote-reference" id="fr-fn131-1"><a href="#fn-fn131">11</a></sup></p>
+<p>Having surveyed the field and measured the seed, <br />
+He waters it not for moisture, <br />
+That sage in full view of birth’s end, <br />
+Lets go of logic and comes not within reckoning.</p>
+</blockquote>
+<p>By virtue of his masterly knowledge of the fields and his estimate of the seed
+of consciousness, he does not moisten it with craving. Thereby he sees the end
+of birth and transcends logic and worldly convention. This too shows that the
+deeper implications of the <em>Mahānidānasutta</em>, concerning the descent of
+consciousness into the mother’s womb, have not been sufficiently appreciated so
+far.</p>
+<p><em>Anusaya</em>, or latency, is a word of special significance. What is responsible
+for rebirth, or <em>punabbhava</em>, is craving, which very often has the epithet
+<em>ponobhavikā</em> attached to it. The latency to craving is particularly
+instrumental in giving one yet another birth to fare on in <em>saṁsāra</em>. There is
+also a tendency to ignorance, which forms the basis of the latency to craving.
+It is the tendency to get attached to worldly concepts, without understanding
+them for what they are. That tendency is a result of ignorance in the worldlings
+and it is in itself a latency. In the sutta terminology the word <em>nissaya</em> is
+often used to denote it. The cognate word <em>nissita</em> is also used alongside. It
+means ‘one who associates something’, while <em>nissaya</em> means ‘association’.</p>
+<p>As a matter of fact, here it does not have the same sense as the word has in its
+common usage. It goes deeper, to convey the idea of ‘leaning on’ something.
+Leaning on is also a form of association. Worldlings have a tendency to
+tenaciously grasp the concepts in worldly usage, to cling to them dogmatically
+and lean on them. They believe that the words they use have a reality of their
+own, that they are categorically true in their own right. Their attitude towards
+concepts is tinctured by craving, conceit and views.</p>
+<p>We come across this word <em>nissita</em> in quite a number of important suttas. It
+almost sounds like a topic of meditation. In the <em>Channovādasutta</em> of the
+<em>Majjhima Nikāya</em> there is a cryptic passage, which at a glance looks more or
+less like a riddle:</p>
+<blockquote>
+<p><em>Nissitassa calitaṁ, anissitassa calitaṁ natthi. Calite asati passaddhi,
+passaddhiyā sati nati na hoti, natiyā asati āgatigati na hoti, āgatigatiyā
+asati cutūpapāto na hoti, cutūpapāte asati nev’idha na huraṁ na ubhayamantare.
+Es’ ev’ anto dukhassa</em>.<sup class="footnote-reference" id="fr-fn132-1"><a href="#fn-fn132">12</a></sup></p>
+<p>To the one attached, there is wavering. To the unattached one, there is no
+wavering. When there is no wavering, there is calm. When there is calm, there
+is no inclination. When there is no inclination, there is no coming and going.
+When there is no coming and going, there is no death and birth. When there is
+no death and birth, there is neither a ‘here’ nor a ‘there’ nor a ‘between the
+two’. This itself is the end of suffering.</p>
+</blockquote>
+<p>It looks as if the ending of suffering is easy enough. On the face of it, the
+passage seems to convey this much. To the one who leans on something, there is
+wavering or movement. He is perturbable. Though the first sentence speaks about
+the one attached, the rest of the passage is about the unattached one. That is
+to say, the one released.</p>
+<p>So here we see the distinction between the two. The one attached is movable,
+whereas the unattached one is not. When there is no wavering or perturbation,
+there is calm. When there is calm, there is no inclination. The word <em>nati</em>
+usually means ‘bending’. So when there is calm, there is no bending or
+inclination. When there is no bending or inclination, there is no coming and
+going. When there is no coming and going, there is no passing away or
+reappearing. When there is neither a passing away nor a reappearing, there is
+neither a ‘here’, nor a ‘there’, nor any position in between. This itself is the
+end of suffering.</p>
+<p>The sutta passage, at a glance, appears like a jumble of words. It starts by
+saying something about the one attached, <em>nissita</em>. It is limited to just one
+sentence: ‘To one attached, there is wavering.’ But we can infer that, due to
+his wavering and unsteadiness or restlessness, there is inclination, <em>nati</em>. The
+key word of the passage is <em>nati</em>. Because of that inclination or bent, there is
+a coming and going. Given the twin concept of coming and going, there is the
+dichotomy between passing away and reappearing, <em>cuti/uppatti</em>. When these two
+are there, the two concepts ‘here’ and ‘there’ also come in. And there is a
+‘between the two’ as well. Wherever there are two ends, there is also a middle.
+So it seems that in this particular context the word <em>nati</em> has a special
+significance.</p>
+<p>The person who is attached is quite unlike the released person. Because he is
+not released, he always has a forward bent or inclination. In fact, this is the
+nature of craving. It bends one forward. In some suttas dealing with the
+question of rebirth, such as the <em>Kutūhalasālāsutta</em>, craving itself is
+sometimes called the grasping, <em>upādāna</em>.<sup class="footnote-reference" id="fr-fn133-1"><a href="#fn-fn133">13</a></sup> So it is due to this very
+inclination or bent that the two concepts of coming and going, come in. Then, in
+accordance with them, the two concepts of passing away and reappearing, fall
+into place.</p>
+<p>The idea of a journey, when viewed in the context of <em>saṁsāra</em>, gives rise to
+the idea of passing away and reappearing. Going and coming are similar to
+passing away and reappearing. So then, there is the implication of two places,
+all this indicates an attachment. There is a certain dichotomy about the terms
+here and there, and passing away and reappearing. Due to that dichotomous nature
+of the concepts, which beings tenaciously hold on to, the journeying in
+<em>saṁsāra</em> takes place in accordance with craving. As we have mentioned above, an
+alternation or transition occurs.</p>
+<p>As for the released person, about whom the passage is specially concerned, his
+mind is free from all those conditions. To the unattached, there is no wavering.
+Since he has no wavering or unsteadiness, he has no inclination. As he has no
+inclination, there is no coming and going for him. As there is no coming and
+going, he has no passing away or reappearing. There being no passing away or
+reappearing, there is neither a here, nor a there, nor any in between. That
+itself is the end of suffering.</p>
+<p>The <em>Udāna</em> version of the above passage has something significant about it.
+There the entire sutta consists of these few sentences. But the introductory
+part of it says that the Buddha was instructing, inciting and gladdening the
+monks with a Dhamma talk connected with Nibbāna:</p>
+<blockquote>
+<p><em>Tena kho pana samayena Bhagavā bhikkhū nibbānapaṭisaṁyuttāya dhammiyā kathāya
+sandasseti samādapeti samuttejeti sampahaṁseti</em>.<sup class="footnote-reference" id="fr-fn134-1"><a href="#fn-fn134">14</a></sup></p>
+</blockquote>
+<p>This is a pointer to the fact that this sermon is on Nibbāna. So the
+implication is that in Nibbāna the <em>arahant’s</em> mind is free from any
+attachments.</p>
+<p>There is a discourse in the <em>Nidāna</em> section of the <em>Saṁyutta Nikāya</em>, which
+affords us a deeper insight into the meaning of the word <em>nissaya</em>. It is the
+<em>Kaccāyanagottasutta</em>, which is also significant for its deeper analysis of
+right view. This is how the Buddha introduces the sermon:</p>
+<blockquote>
+<p><em>Dvayanissito khvāyaṁ, Kaccāyana, loko yebhuyyena: atthitañceva natthitañca.
+Lokasamudayaṁ kho, Kaccāyana, yathābhūtaṁ sammappaññāya passato yā loke
+natthitā sā na hoti. Lokanirodhaṁ kho, Kaccāyana, yathābhūtaṁ sammappaññāya
+passato yā loke atthitā sā na hoti</em>.<sup class="footnote-reference" id="fr-fn135-1"><a href="#fn-fn135">15</a></sup></p>
+<p>This world, Kaccāyana, for the most part, bases its views on two things: on
+existence and non-existence. Now, Kaccāyana, to one who with right wisdom
+sees the arising of the world as it is, the view of non-existence regarding
+the world does not occur. And to one who with right wisdom sees the cessation
+of the world as it really is, the view of existence regarding the world does
+not occur.</p>
+</blockquote>
+<p>The Buddha comes out with this discourse in answer to the following question
+raised by the <em>brahmin</em> Kaccāyana:</p>
+<blockquote>
+<p><em>Sammā diṭṭhi, sammā diṭṭhī’ti, bhante, vuccati. Kittāvatā nu kho, bhante,
+sammā diṭṭhi hoti?</em></p>
+<p>Lord, ‘right view’, ‘right view’, they say. But how far, Lord, is there ‘right
+view’?</p>
+</blockquote>
+<p>In his answer, the Buddha first points out that the worldlings mostly base
+themselves on a duality, the two conflicting views of existence and
+non-existence, or ‘is’ and ‘is not’. They would either hold on to the dogmatic
+view of eternalism, or would cling to nihilism. Now as to the right view of the
+noble disciple, it takes into account the process of arising as well as the
+process of cessation, and thereby avoids both extremes. This is the insight that
+illuminates the middle path.</p>
+<p>Then the Buddha goes on to give a more detailed explanation of right view:</p>
+<blockquote>
+<p><em>Upayupādānābhinivesavinibandho khvāyaṁ, Kaccāyana, loko yebhuyyena. Tañcāyaṁ
+upayupādānaṁ cetaso adhiṭṭhānaṁ abhinivesānusayaṁ na upeti na upādiyati
+nādhiṭṭhāti: ’attā me’ti. ‘Dukkham eva uppajjamānaṁ uppajjati, dukkhaṁ
+nirujjhamānaṁ nirujjhatī’ti na kaṅkhati na vicikicchati aparapaccayā ñāṇam ev’
+assa ettha hoti. Ettāvatā kho, Kaccāyana, sammā diṭṭhi hoti.</em></p>
+<p>The world, Kaccāyana, for the most part, is given to approaching, grasping,
+entering into and getting entangled as regards views. Whoever does not
+approach, grasp, and take his stand upon that proclivity towards approaching
+and grasping, that mental standpoint, namely the idea: ‘This is my soul’, he
+knows that what arises is just suffering and what ceases is just suffering.
+Thus, he is not in doubt, is not perplexed, and herein he has the knowledge
+that is not dependent on another. Thus far, Kaccāyana, he has right view.</p>
+</blockquote>
+<p>The passage starts with a string of terms which has a deep philosophical
+significance. <em>Upaya</em> means ‘approaching’, <em>upādāna</em> is ‘grasping’, <em>abhinivesa</em>
+is ‘entering into’, and <em>vinibandha</em> is the consequent entanglement. The
+implication is that the worldling is prone to dogmatic involvement in concepts
+through the stages mentioned above in an ascending order.</p>
+<p>The attitude of the noble disciple is then outlined in contrast to the above
+dogmatic approach, and what follows after it. As for him, he does not approach,
+grasp, or take up the standpoint of a self.</p>
+<p>The word <em>anusaya</em>, latency or ‘lying dormant’, is also brought in here to show
+that even the proclivity towards such a dogmatic involvement with a soul or
+self, is not there in the noble disciple. But what, then, is his point of view?
+What arises and ceases is nothing but suffering. There is no soul or self to
+lose, it is only a question of arising and ceasing of suffering. This, then, is
+the right view.</p>
+<p>Thereafter the Buddha summarizes the discourse and brings it to a climax with an
+impressive declaration of his via media, the middle path based on the formula of
+dependent arising:</p>
+<blockquote>
+<p><em>’Sabbam atthī’ti kho, Kaccāyana, ayam eko anto. ’Sabbaṁ natthī’ti ayaṁ dutiyo
+anto. Ete te, Kaccāyana, ubho ante anupagamma majjhena Tathāgato Dhammaṁ
+deseti:</em></p>
+<p><em>Avijjāpaccayā saṅkhārā, saṅkhārapaccayā viññāṇaṁ, viññāṇapaccayā nāmarūpaṁ,
+nāmarūpapaccayā saḷāyatanaṁ, saḷāyatanapaccayā phasso, phassapaccayā vedanā,
+vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ, upādānapaccayā bhavo, bhavapaccayā
+jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassūpāyāsā sambhavanti.
+Evametassa kevalassa dukkhakkhandhassa samudayo hoti.</em></p>
+<p><em>Avijjāya tveva asesavirāganirodhā saṅkhāranirodho, saṅkharanirodhā
+viññāṇanirodho, viññāṇanirodhā nāmarūpanirodho, nāmarūpanirodhā
+saḷāyatananirodho, saḷāyatananirodhā phassanirodho, phassanirodhā
+vedanānirodho, vedanānirodhā taṇhānirodho, taṇhānirodhā upādānanirodho,
+upādānanirodhā bhavanirodho, bhavanirodhā jātinirodho, jātinirodhā jarāmaraṇaṁ
+sokaparidevadukkhadomanassūpāyāsā nirujjhanti. Evametassa kevalassa
+dukkhakkhandhassa nirodho hoti</em>.</p>
+<p>‘Everything exists’, Kaccāyana, is one extreme. ‘Nothing exists’ is the
+other extreme. Not approaching either of those extremes, Kaccāyana, the
+Tathāgata teaches the Dhamma by the middle way:</p>
+<p>From ignorance as condition, preparations come to be; from preparations as
+condition, consciousness comes to be; from consciousness as condition,
+name-and-form comes to be; from name-and-form as condition, the six
+sense-bases come to be; from the six sense-bases as condition, contact comes
+to be; from contact as condition, feeling comes to be; from feeling as
+condition, craving comes to be; from craving as condition, grasping comes to
+be; from grasping as condition, becoming comes to be; from becoming as
+condition, birth comes to be; and from birth as condition, decay-and-death,
+sorrow, lamentation, pain, grief and despair come to be. Such is the arising
+of this entire mass of suffering.</p>
+<p>From the complete fading away and cessation of that very ignorance, there
+comes to be the cessation of preparations; from the cessation of preparations,
+there comes to be the cessation of consciousness; from the cessation of
+consciousness, there comes to be the cessation of name-and-form; from the
+cessation of name-and-form, there comes to be the cessation of the six
+sense-bases; from the cessation of the six sense-bases, there comes to be the
+cessation of contact; from the cessation of contact, there comes to be the
+cessation of feeling; from the cessation of feeling, there comes to be the
+cessation of craving; from the cessation of craving, there comes to be the
+cessation of grasping; from the cessation of grasping, there comes to be the
+cessation of becoming; from the cessation of becoming, there comes to be the
+cessation of birth; and from the cessation of birth, there comes to be the
+cessation of decay-and-death, sorrow, lamentation, pain, grief and despair.
+Such is the cessation of this entire mass of suffering.</p>
+</blockquote>
+<p>It is clear from this declaration that in this context the law of dependent
+arising itself is called the middle path. Some prefer to call this the Buddha’s
+metaphysical middle path, as it avoids both extremes of ‘is’ and ‘is not’. The
+philosophical implications of the above passage lead to the conclusion that the
+law of dependent arising enshrines a certain pragmatic principle, which
+dissolves the antinomian conflict in the world.</p>
+<p>It is the insight into this principle that basically distinguishes the noble
+disciple, who sums it up in the two words <em>samudayo</em>, arising, and <em>nirodho</em>,
+ceasing. The arising and ceasing of the world is for him a fact of experience, a
+knowledge. It is in this light that we have to understand the phrase:</p>
+<blockquote>
+<p><em>aparappaccayā ñāṇam ev’assa ettha hoti</em></p>
+<p>herein he has a knowledge that is not dependent on another.</p>
+</blockquote>
+<p>In other words, he is not believing in it out of faith in someone, but has
+understood it experientially. The noble disciple sees the arising and the
+cessation of the world through his own six sense bases.</p>
+<p>In the <em>Saṁyutta Nikāya</em> there is a verse which presents this idea in a striking
+manner:</p>
+<blockquote>
+<p><em>Chasu loko samuppanno,</em> <br />
+<em>chasu kubbati santhavaṁ,</em> <br />
+<em>channam eva upādāya,</em> <br />
+<em>chasu loko vihaññati</em>.<sup class="footnote-reference" id="fr-fn136-1"><a href="#fn-fn136">16</a></sup></p>
+<p>In the six the world arose, <br />
+In the six it holds concourse, <br />
+On the six themselves depending, <br />
+In the six it has its woes.</p>
+</blockquote>
+<p>The verse seems to say that the world has arisen in the six, that it has
+associations in the six, and that depending on those very six, the world comes
+to grief.</p>
+<p>Though the commentators advance an interpretation of this six, it does not seem
+to get the sanction of the sutta as it is. According to them, the first line
+speaks of the six internal sense bases, such as the eye, ear and nose.<sup class="footnote-reference" id="fr-fn137-1"><a href="#fn-fn137">17</a></sup>
+The world is said to arise in these six internal sense bases. The second line is
+supposed to refer to the six external sense bases. Again the third line is
+interpreted with reference to the six internal sense bases, and the fourth line
+is said to refer to the six external sense bases.</p>
+<p>In other words, the implication is that the world arises in the six internal
+sense bases and associates with the six external sense bases, and that it holds
+on to the six internal sense bases and comes to grief in the six external sense
+bases.</p>
+<p>This interpretation seems to miss the point. Even the grammar does not allow it,
+for if it is a case of associating ‘with’ the external sense bases, the
+instrumental case would have been used instead of the locative case, that is,
+<em>chahi</em> instead of <em>chasu</em>. On the other hand, the locative <em>chasu</em> occurs in
+all the three lines in question. This makes it implausible that the first two
+lines are referring to two different groups of sixes.</p>
+<p>It is more plausible to conclude that the reference is to the six sense bases of
+contact, <em>phassāyatana</em>, which include both the internal and the external. In
+fact, at least two are necessary for something to be dependently arisen. The
+world does not arise in the six internal bases in isolation. It is precisely in
+this fact that the depth of this Dhamma is to be seen.</p>
+<p>In the <em>Samudayasutta</em> of the <em>Saḷāyatana</em> section in the <em>Saṁyutta Nikāya</em> this
+aspect of dependent arising is clearly brought out:</p>
+<blockquote>
+<p><em>Cakkhuñca paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ, tiṇṇaṁ saṅgati phasso,
+phassapaccayā vedanā, vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ,
+upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ
+sokaparidevadukkhadomanassūpāyāsā sambhavanti. Evametassa kevalassa
+dukkhakkhandhassa samudayo hoti</em>.<sup class="footnote-reference" id="fr-fn138-1"><a href="#fn-fn138">18</a></sup></p>
+<p>Dependent on the eye and forms arises eye consciousness; the coming together
+of the three is contact; with contact as condition, arises feeling;
+conditioned by feeling , craving; conditioned by craving, grasping;
+conditioned by grasping, becoming; conditioned by becoming, birth; and
+conditioned by birth, decay-and-death, sorrow, lamentation, pain, grief and
+despair. Thus is the arising of this entire mass of suffering.</p>
+</blockquote>
+<p>Here the sutta starts with the arising of contact and branches off towards the
+standard formula of <em>paṭicca samuppāda</em>. Eye consciousness arises dependent on,
+<em>paṭicca</em>, two things, namely eye and forms. And the concurrence of the three is
+contact. This shows that two are necessary for a thing to be dependently arisen.</p>
+<p>So in fairness to the sutta version, we have to conclude that the reference in
+all the four lines is to the bases of contact, comprising both the internal and
+the external. That is to say, we cannot discriminate between them and assert
+that the first line refers to one set of six, and the second line refers to
+another. We are forced to such a conclusion in fairness to the sutta.</p>
+<p>So from this verse also we can see that according to the usage of the noble ones
+the world arises in the six sense bases. This fact is quite often expressed by
+the phrase <em>ariyassa vinaye loko</em>, the world in the noble one’s
+discipline.<sup class="footnote-reference" id="fr-fn139-1"><a href="#fn-fn139">19</a></sup> According to this noble usage, the world is always defined
+in terms of the six sense bases, as if the world arises because of these six
+sense bases. This is a very deep idea. All other teachings in this Dhamma will
+get obscured, if one fails to understand this basic fact, namely how the concept
+of the world is defined in this mode of noble usage.</p>
+<p>This noble usage reveals to us the implications of the expression
+<em>udayatthagāminī paññā</em>, the wisdom that sees the rise and fall. About the noble
+disciple it is said that he is endowed with the noble penetrative wisdom of
+seeing the rise and fall, <em>udayatthagāminiyā paññāya sammanāgato ariyāya
+nibbhedikāya</em>.<sup class="footnote-reference" id="fr-fn140-1"><a href="#fn-fn140">20</a></sup> The implication is that this noble wisdom has a
+penetrative quality about it. This penetration is through the rigidly grasped
+almost impenetrable encrustation of the two dogmatic views in the world,
+existence and non-existence.</p>
+<p>Now, how does that penetration come about? As already stated in the above quoted
+<em>Kaccāyanasutta</em>, when one sees the arising aspect of the world, one finds it
+impossible to hold the view that nothing exists in the world. His mind does not
+incline towards a dogmatic involvement with that view. Similarly, when he sees
+the cessation of the world through his own six sense bases, he sees no
+possibility to go to the other extreme view in the world: ‘Everything exists’.</p>
+<p>The most basic feature of this principle of dependent arising, with its
+penetrative quality, is the breaking down of the power of the above concepts. It
+is the very inability to grasp these views dogmatically that is spoken of as the
+abandonment of the personality view, <em>sakkāyadiṭṭhi</em>. The ordinary worldling is
+under the impression that things exist in truth and fact, but the noble
+disciple, because of his insight into the norm of arising and cessation,
+understands the arising and ceasing nature of concepts and their essencelessness
+or insubstantiality.</p>
+<p>Another aspect of the same thing, in addition to what has already been said
+about <em>nissaya</em>, is the understanding of the relatedness of this to that,
+<em>idappaccayatā</em>, implicit in the law of dependent arising. In fact, we began our
+discussion by highlighting the significance of the term <em>idappaccayatā</em>.<sup class="footnote-reference" id="fr-fn141-1"><a href="#fn-fn141">21</a></sup>
+The basic principle involved, is itself often called <em>paṭicca samuppāda</em>.</p>
+<blockquote>
+<p>This being, this comes to be, with the arising of this, this arises. This not
+being, this does not come to be. With the cessation of this, this ceases.</p>
+</blockquote>
+<p>This insight penetrates through those extreme views. It resolves the conflict
+between them. But how? By removing the very premise on which it rested, and that
+is that there are two things. Though logicians might come out with the law of
+identity and the like, according to right view, the very bifurcation itself is
+the outcome of a wrong view. That is to say, this is only a conjoined pair. In
+other words, it resolves that conflict by accepting the worldly norm.</p>
+<p>Now this is a point well worth considering. In the case of the twelve links of
+the formula of dependent arising, discovered by the Buddha, there is a
+relatedness of this to that, <em>idappaccayatā</em>.</p>
+<p>As for instance already illustrated above by the two links birth and
+decay-and-death.<sup class="footnote-reference" id="fr-fn142-1"><a href="#fn-fn142">22</a></sup> When birth is there, decay-and-death come to be, with
+the arising of birth, decay-and-death arise (and so on). The fact that this
+relatedness itself is the eternal law, is clearly revealed by the following
+statement of the Buddha in the <em>Nidānasaṁyutta</em> of the <em>Saṁyutta Nikāya</em>:</p>
+<blockquote>
+<p><em>Avijjāpaccayā, bhikkhave, saṅkhārā. Ya tatra tathatā avitathatā anaññathatā
+idappaccayatā, ayaṁ vuccati, bhikkhave, paṭiccasamuppādo</em>.<sup class="footnote-reference" id="fr-fn143-1"><a href="#fn-fn143">23</a></sup></p>
+<p>From ignorance as condition, preparations come to be. That suchness therein,
+the invariability, the not-otherwiseness, the relatedness of this to that,
+this, monks, is called dependent arising.</p>
+</blockquote>
+<p>Here the first two links have been taken up to illustrate the principle
+governing their direct relation. Now let us examine the meaning of the terms
+used to express that relation. <em>Tathā</em> means ‘such’ or ‘thus’, and is suggestive
+of the term <em>yathābhūtañāṇadassana</em>, the knowledge and vision of things as they
+are. The correlatives <em>yathā</em> and <em>tathā</em> express between them the idea of
+faithfulness to the nature of the world.</p>
+<p>So <em>tathatā</em> asserts the validity of the law of dependent arising, as a norm in
+accordance with nature. <em>Avitathatā</em>, with its double negative, reaffirms that
+validity to the degree of invariability. <em>Anaññathatā</em>, or not-otherwiseness,
+makes it unchallengeable, as it were. It is a norm beyond contradiction.</p>
+<p>When a conjoined pair is accepted as such, there is no conflict between the two.
+But since this idea can well appear as some sort of a puzzle, we shall try to
+illustrate it with a simile. Suppose two bulls, a black one and a white one, are
+bound together at the neck and allowed to graze in the field as a pair. This is
+sometimes done to prevent them from straying far afield. Now out of the pair, if
+the white bull pulls towards the stream, while the black one is pulling towards
+the field, there is a conflict. The conflict is not due to the bondage, at least
+not necessarily due to the bondage. It is because the two are pulling in two
+directions.</p>
+<p>Supposing the two bulls, somehow, accept the fact that they are in bondage and
+behave amicably. When then the white bull pulls towards the stream, the black
+one keeps him company with equanimity, though he is not in need of a drink. And
+when the black bull is grazing, the white bull follows him along with
+equanimity, though he is not inclined to eat.</p>
+<p>Similarly, in this case too, the conflict is resolved by accepting the pair-wise
+combination as a conjoined pair. That is how the Buddha solved this problem. But
+still the point of this simile might not be clear enough.</p>
+<p>So let us come back to the two links, birth and decay-and-death, which we so
+often dragged in for purposes of clarification. So long as one does not accept
+the fact that these two links, birth and decay-and-death, are a conjoined pair,
+one would see between them a conflict. Why? Because one grasps birth as one end,
+and tries to remove the other end, which one does not like, namely
+decay-and-death. One is trying to separate birth from decay-and-death. But this
+happens to be a conjoined pair. “Conditioned by birth, monks, is
+decay-and-death.” This is the word of the Buddha. Birth and decay-and-death are
+related to each other.</p>
+<p>The word <em>jarā</em>, or decay, on analysis would make this clear. Usually by <em>jarā</em>
+we mean old age. The word has connotations of senility and decrepitude, but the
+word implies both growth and decay, as it sets in from the moment of one’s birth
+itself. Only, there is a possible distinction according to the standpoint taken.
+This question of a standpoint or a point of view is very important at this
+juncture. This is something one should assimilate with a meditative attention.
+Let us bring up a simile to make this clear.</p>
+<p>Now, for instance, there could be a person who makes his living by selling the
+leaves of a particular kind of tree. Suppose another man sells the flowers of
+the same tree, to make his living. And yet another sells the fruits, while a
+fourth sells the timber. If we line them up and put to them the question,
+pointing to that tree: ‘Is this tree mature enough?’, we might sometimes get
+different answers. Why? Each would voice his own commercial point of view
+regarding the degree of maturity of the tree. For instance, one who sells
+flowers would say that the tree is too old, if the flowering stage of the tree
+is past.</p>
+<p>Similarly, the concept of decay or old age can change according to the
+standpoint taken up. From beginning to end, it is a process of decay. But we
+create an artificial boundary between youth and old age. This again shows that
+the two are a pair mutually conjoined. Generally, the worldlings are engaged in
+an attempt to separate the two in this conjoined pair. Before the Buddha came
+into the scene, all religious teachers were trying to hold on to birth, while
+rejecting decay-and-death. But it was a vain struggle. It is like the attempt of
+the miserly millionaire Kosiya to eat rice-cakes alone, to cite another
+simile.</p>
+<p>According to that instructive story, the millionaire Kosiya, an extreme miser,
+once developed a strong desire to eat rice-cakes.<sup class="footnote-reference" id="fr-fn144-1"><a href="#fn-fn144">24</a></sup> As he did not wish to
+share them with anyone else, he climbed up to the topmost storey of his mansion
+with his wife and got her to cook rice-cakes for him.</p>
+<p>To teach him a lesson, Venerable Mahā Moggallāna, who excelled in psychic
+powers, went through the air and appeared at the window as if he is on his alms
+round. Kosiya, wishing to dismiss this intruder with a tiny rice-cake, asked
+his wife to put a little bit of cake dough into the pan. She did so, but it
+became a big rice-cake through the venerable <em>thera’s</em> psychic power. Further
+attempts to make tinier rice-cakes ended up in producing ever bigger and bigger
+ones. In the end, Kosiya thought of dismissing the monk with just one cake,
+but to his utter dismay, all the cakes got joined to each other to form a string
+of cakes. The couple then started pulling this string of cakes in either
+direction with all their might, to separate just one from it. But without
+success. At last they decided to let go and give up, and offered the entire
+string of cakes to the venerable <em>Thera.</em></p>
+<p>The Buddha’s solution to the above problem is a similar let go-ism and giving
+up. It is a case of giving up all assets, <em>sabbūpadhipaṭinissagga</em>. You cannot
+separate these links from one another. Birth and decay-and-death are
+intertwined. This is a conjoined pair. So the solution here, is to let go. All
+those problems are due to taking up a standpoint. Therefore the kind of view
+sanctioned in this case, is one that leads to detachment and dispassion, one
+that goes against the tendency to grasp and hold on. It is by grasping and
+holding on that one comes into conflict with Māra.</p>
+<p>Now going by the story of the millionaire Kosiya, one might think that the
+Buddha was defeated by Māra. But the truth of the matter is that it is Māra
+who suffered defeat by this sort of giving up. It is a very subtle point.</p>
+<p>Māra’s forte lies in seizing and grabbing. He is always out to challenge.
+Sometimes he takes delight in hiding himself to take one by surprise, to drive
+terror and cause horripilation. So when Māra comes round to grab, if we can
+find some means of foiling his attempt, or make it impossible for him to grab,
+then Māra will have to accept defeat.</p>
+<p>Now let us examine the Buddha’s solution to this question. There are in the
+world various means of preventing others from grabbing something we possess. We
+can either hide our property in an inaccessible place, or adopt security
+measures, or else we can come to terms and sign a treaty with the enemy. But all
+these measures can sometimes fail. However, there is one unfailing method, which
+in principle is bound to succeed. A method that prevents all possibilities of
+grabbing. And that is – letting go, giving up.</p>
+<p>When one lets go, there is nothing to grab. In a tug-of-war, when someone is
+pulling at one end with all his might, if the other suddenly lets go of its
+hold, one can well imagine the extent of the former’s discomfiture, let alone
+victory. It was such a discomfiture that fell to Māra’s lot, when the Buddha
+applied this extraordinary solution. All this goes to show the importance of
+such terms as <em>nissaya</em> and <em>idappaccayatā</em> in understanding this Dhamma.</p>
+<p>We have already taken up the word <em>nissaya</em> for comment. Another aspect of its
+significance is revealed by the <em>Satipaṭṭhānasutta</em>. Some parts of this sutta,
+though well known, are wonderfully deep. There is a certain thematic paragraph,
+which occurs at the end of each subsection in the <em>Satipaṭṭhānasutta</em>. For
+instance, in the section on the contemplation relating to body,
+<em>kāyānupasssanā</em>, we find the following paragraph:</p>
+<blockquote>
+<p><em>Iti ajjhattaṁ vā kāye kāyānupassī viharati, bahiddhā vā kāye kāyānupassī
+viharati, ajjhattabahiddhā vā kāye kāyānupassī viharati; samudayadhammānupassī
+vā kāyasmiṁ viharati, vayadhammānupassī vā kāyasmiṁ viharati,
+samudayavayadhammānupassī vā kāyasmiṁ viharati; ’atthi kāyo’ti vā pan’assa
+sati paccupaṭṭhitā hoti, yāvadeva ñāṇamattāya paṭissatimattāya; anissito ca
+viharati, na ca kiñci loke upādiyati</em>.<sup class="footnote-reference" id="fr-fn145-1"><a href="#fn-fn145">25</a></sup></p>
+<p>In this way he abides contemplating the body as a body internally, or he
+abides contemplating the body as a body externally, or he abides contemplating
+the body as a body internally and externally. Or else he abides contemplating
+the arising nature in the body, or he abides contemplating the dissolving
+nature in the body, or he abides contemplating the arising and dissolving
+nature in the body. Or else the mindfulness that ‘there is a body’ is
+established in him only to the extent necessary for just knowledge and further
+mindfulness. And he abides independent and does not cling to anything in the
+world.</p>
+</blockquote>
+<p>A similar paragraph occurs throughout the sutta under all the four
+contemplations, body, feeling, mind and mind objects. As a matter of fact, it is
+this paragraph that is called <em>satipaṭṭhāna bhāvanā</em>, or meditation on the
+foundation of mindfulness.<sup class="footnote-reference" id="fr-fn146-1"><a href="#fn-fn146">26</a></sup></p>
+<p>The preamble to this paragraph introduces the foundation itself, or the setting
+up of mindfulness as such. The above paragraph, on the other hand, deals with
+what pertains to insight. It is the field of insight proper. If we examine this
+paragraph, here too we will find a set of conjoined or twin terms:</p>
+<blockquote>
+<p>In this way he abides contemplating the body as a body internally, or he
+abides contemplating the body externally,</p>
+</blockquote>
+<p>And then:</p>
+<blockquote>
+<p>he abides contemplating the body both internally and externally.</p>
+</blockquote>
+<p>Similarly:</p>
+<blockquote>
+<p>He abides contemplating the arising nature in the body, or he abides
+contemplating the dissolving nature in the body,</p>
+</blockquote>
+<p>And then:</p>
+<blockquote>
+<p>he abides contemplating both the arising and dissolving nature in the body.</p>
+<p>Or else the mindfulness that ‘there is a body’ is established in him only to
+the extent necessary for knowledge and remembrance.</p>
+</blockquote>
+<p>This means that for the meditator even the idea ‘there is a body’, that
+remembrance, is there just for the purpose of further development of knowledge
+and mindfulness.</p>
+<blockquote>
+<p>And he abides independent and does not cling to anything in the world.</p>
+</blockquote>
+<p>Here too, the word used is <em>anissita</em>, independent, or not leaning towards
+anything. He does not cling to anything in the world. The word <em>nissaya</em> says
+something more than grasping. It means ‘leaning on’ or ‘associating’.</p>
+<p>This particular thematic paragraph in the <em>Satipaṭṭhānasutta</em> is of paramount
+importance for insight meditation. Here, too, there is the mention of internal,
+<em>ajjhatta</em>, and external, <em>bahiddhā</em>.</p>
+<p>When one directs one’s attention to one’s own body and another’s body
+separately, one might sometimes take these two concepts, internal and external,
+too seriously with a dogmatic attitude. One might think that there is actually
+something that could be called one’s own or another’s. But then the mode of
+attention next mentioned unifies the two, as internal-external,
+<em>ajjhattabahiddhā</em>, and presents them like the conjoined pair of bulls. And what
+does it signify? These two are not to be viewed as two extremes, they are
+related to each other.</p>
+<p>Now let us go a little deeper into this interrelation. The farthest limit of the
+internal is the nearest limit of the external. The farthest limit of the
+external is the nearest limit of the internal. More strictly rendered,
+<em>ajjhatta</em> means inward and <em>bahiddhā</em> means outward. So here we have the
+duality of an inside and an outside.</p>
+<p>One might think that the word <em>ajjhattika</em> refers to whatever is organic.
+Nowadays many people take in artificial parts into their bodies. But once
+acquired, they too become internal. That is why, in this context <em>ajjhattika</em>
+has a deeper significance than its usual rendering as ‘one’s own’.</p>
+<p>Whatever it may be, the farthest limit of the <em>ajjhatta</em> remains the nearest
+limit of the <em>bahiddhā</em>. Whatever portion one demarcates as one’s own, just
+adjoining it and at its very gate is <em>bahiddhā</em>. And from the point of view of
+<em>bahiddhā</em>, its farthest limit and at its periphery is <em>ajjhatta</em>. This is a
+conjoined pair. These two are interrelated. So the implication is that these two
+are not opposed to each other. That is why, by attending to them both together,
+as <em>ajjhattabahiddhā</em>, that dogmatic involvement with a view is abandoned. Here
+we have an element of reconciliation, which prevents adherence to a view. This
+is what fosters the attitude of <em>anissita</em>, unattached.</p>
+<p>So the two, <em>ajjhatta</em> and <em>bahiddhā</em>, are neighbours. Inside and outside as
+concepts are neighbours to each other. It is the same as in the case of arising
+and ceasing, mentioned above. This fact has already been revealed to some extent
+by the <em>Kaccāyanagottasutta</em>.</p>
+<p>Now if we go for an illustration, we have the word <em>udaya</em> at hand in
+<em>samudaya</em>. Quite often this word is contrasted with <em>atthagama</em>, going down, in
+the expression <em>udayatthagaminī paññā</em>, the wisdom that sees the rise and fall.
+We can regard these two as words borrowed from everyday life. <em>Udaya</em> means
+sunrise, and <em>atthagama</em> is sunset. If we take this itself as an illustration,
+the farthest limit of the forenoon is the nearest limit of the afternoon. The
+farthest limit of the afternoon is the nearest limit of the forenoon. And here
+again we see a case of neighbourhood.</p>
+<p>When one understands the neighbourly nature of the terms <em>udaya</em> and
+<em>atthagama</em>, or <em>samudaya</em> and <em>vaya</em>, and regards them as interrelated by the
+principle of <em>idappaccayatā</em>, one penetrates them both by that mode of
+contemplating the rise and fall of the body together, <em>samudayavayadhammānupassī
+vā kāyasmiṁ viharati</em>, and develops a penetrative insight.</p>
+<p>What comes next in the <em>satipaṭṭhāna</em> passage, is the outcome or net result of
+that insight.</p>
+<blockquote>
+<p>The mindfulness that ‘there is a body’ is established in him only to the
+extent necessary for pure knowledge and further mindfulness,</p>
+<p><em>’atthi kāyo’ti vā pan’assa sati pacupaṭṭhitā hoti, yāvadeva ñāṇamattāya
+paṭissatimattāya</em>.</p>
+</blockquote>
+<p>At that moment one does not take even the concept of body seriously. Even the
+mindfulness that ‘there is a body’ is established in that meditator only for the
+sake of, <em>yavadeva</em>, clarity of knowledge and accomplishment of mindfulness. The
+last sentence brings out the net result of that way of developing insight:</p>
+<blockquote>
+<p>He abides independent and does not cling to anything in the world.</p>
+</blockquote>
+<p>Not only in the section on the contemplation of the body, but also in the
+sections on feelings, mind, and mind objects in the <em>Satipaṭṭhānasutta</em>, we find
+this mode of insight development. None of the objects, taken up for the
+foundation of mindfulness, is to be grasped tenaciously. Only their rise and
+fall is discerned. So it seems that, what is found in the <em>Satipaṭṭhānasutta</em>,
+is a group of concepts. These concepts serve only as a scaffolding for the
+systematic development of mindfulness and knowledge. The Buddha often compared
+his Dhamma to a raft:</p>
+<blockquote>
+<p><em>nittharaṇatthāya no gahaṇatthāya</em></p>
+<p>for crossing over and not for holding on to.<sup class="footnote-reference" id="fr-fn147-1"><a href="#fn-fn147">27</a></sup></p>
+</blockquote>
+<p>Accordingly, what we have here are so many scaffoldings for the up-building of
+mindfulness and knowledge.</p>
+<p>Probably due to the lack of understanding of this deep philosophy enshrined in
+the <em>Satipaṭṭhānasutta</em>, many sects of Buddhism took up these concepts in a
+spirit of dogmatic adherence. That dogmatic attitude of clinging on is like the
+attempt to cling on to the scaffoldings and to live on in them. So with
+reference to the <em>Satipaṭṭhānasutta</em> also, we can understand the importance of
+the term <em>nissaya</em>.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn121"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn121-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn122"><sup class="footnote-definition-label">2</sup>
+<p>See <em>Sermon 3</em> <a href="#fr-fn122-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn123"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/snp3.12/pli/ms">Snp 3.12 / Sn 740</a>, <em>Dvayatānupassanāsutta</em>; see also <em>Sermon 2</em>, <em>Taṇhā dutiyo puriso…</em> <a href="#fr-fn123-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn124"><sup class="footnote-definition-label">4</sup>
+<p>See <em>Sermon 3</em> <a href="#fr-fn124-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn125"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/mn38/pli/ms">MN 38 / M I 256</a>, <em>Mahātaṇhāsaṅkhayasutta</em> <a href="#fr-fn125-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn126"><sup class="footnote-definition-label">6</sup>
+<p>See <em>Sermon 3</em> <a href="#fr-fn126-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn127"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/dhp334-359/pli/ms">Dhp 338</a>, <em>Taṇhāvagga</em> <a href="#fr-fn127-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn128"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/an3.76/pli/ms">AN 3.76 / A I 223</a>, <em>Paṭhamabhavasutta</em> <a href="#fr-fn128-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn129"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/sn5.9/pli/ms">SN 5.9 / S I 134</a>, <em>Selāsutta</em> <a href="#fr-fn129-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn130"><sup class="footnote-definition-label">10</sup>
+<p>E.g. at Sv-pṭ I 513 <a href="#fr-fn130-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn131"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/snp1.12/pli/ms">Snp 1.12 / Sn 209</a>, <em>Munisutta</em> <a href="#fr-fn131-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn132"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/mn144/pli/ms">MN 144 / M III 266</a>, <em>Channovādasutta</em> <a href="#fr-fn132-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn133"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/sn44.9/pli/ms">SN 44.9 / S IV 400</a>, <em>Kutūhalasālāsutta</em>: ‘<em>taṇhupādāna</em>’ <a href="#fr-fn133-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn134"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/ud8.4/pli/ms">Ud 8.4 / Ud 81</a>, <em>Catutthanibbānapaṭisaṁyuttasutta</em> <a href="#fr-fn134-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn135"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/sn12.15/pli/ms">SN 12.15 / S II 17</a>, <em>Kaccāyanagottasutta</em> <a href="#fr-fn135-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn136"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/sn1.70/pli/ms">SN 1.70 / S I 41</a>, <em>Lokasutta</em> <a href="#fr-fn136-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn137"><sup class="footnote-definition-label">17</sup>
+<p>Spk I 96 <a href="#fr-fn137-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn138"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/sn35.106/pli/ms">SN 35.106 / S IV 86</a>, <em>Dukkhasutta</em> <a href="#fr-fn138-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn139"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/sn35.116/pli/ms">SN 35.116 / S IV 95</a>, <em>Lokakāmaguṇasutta</em> <a href="#fr-fn139-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn140"><sup class="footnote-definition-label">20</sup>
+<p>E.g. at <a href="https://suttacentral.net/dn33/pli/ms">DN 33 / D III 237</a>, <em>Sangītisutta</em> <a href="#fr-fn140-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn141"><sup class="footnote-definition-label">21</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn141-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn142"><sup class="footnote-definition-label">22</sup>
+<p>See <em>Sermon 3</em> <a href="#fr-fn142-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn143"><sup class="footnote-definition-label">23</sup>
+<p><a href="https://suttacentral.net/sn12.20/pli/ms">SN 12.20 / S II 26</a>, <em>Paccayasutta</em> <a href="#fr-fn143-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn144"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://www.digitalpalireader.online/_dprhtml/index.html?loc=k.1.0.0.4.4.0.a">Dhp 49 Commentary: Dhp-a I 367</a>, <em>Macchariyakosiyaseṭṭhivatthu</em> <a href="#fr-fn144-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn145"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/mn10/pli/ms">MN 10 / M I 56</a>, <em>Satipaṭṭhānasutta</em> <a href="#fr-fn145-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn146"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/sn47.40/pli/ms">SN 47.40 / S V 183</a>, <em>Vibhaṅgasutta</em> <a href="#fr-fn146-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn147"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/mn22/pli/ms">MN 22 / M I 134</a>, <em>Alagaddūpamasutta</em> <a href="#fr-fn147-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-03.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-05.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-03.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-05.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

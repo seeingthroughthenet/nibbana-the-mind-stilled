@@ -1,0 +1,1086 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 25 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-25-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-25"><a class="header" href="#sermon-25">Sermon 25</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn807-1"><a href="#fn-fn807">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the twentyfifth sermon in the series of
+sermons on Nibbāna. The other day we made an attempt to understand, in the light
+of the <em>Kāḷakārāmasutta</em>, the enlightened attitude of the Tathāgata, who has
+realized the cessation of the six bases of sense-contact, towards the
+view-points of the worldlings, who find themselves confined within those six
+bases.</p>
+<p>In that discourse, the Buddha declared with the words <em>tam ahaṁ jānāmi</em>, “[all]
+that do I know”,<sup class="footnote-reference" id="fr-fn808-1"><a href="#fn-fn808">2</a></sup> the fact that he has understood all what the world with
+its gods, Māras and Brahmas, and the progeny consisting of recluses and
+Brahmins, gods and men, have seen, heard, sensed, cognized, thought after and
+pondered over by the mind.</p>
+<p>By his next assertion <em>tam ahaṁ abbhaññāsiṁ</em>, the Buddha proclaimed that he not
+only knows all that, but knows it thoroughly in some special way. With the words
+<em>taṁ tathāgatassa viditaṁ</em>, he declares that by virtue of this special knowledge
+he has understood all what the world claims to know. Despite this special
+knowledge and understanding, the Tathāgata takes no stance and has no
+inclination or partiality towards those sensory data, as is evident from the
+expression <em>taṁ tathāgato na upaṭṭhāsi.</em></p>
+<p>Worldings in general are in the habit of asserting dogmatically “I know, I see,
+it is verily so”, <em>jānāmi passāmi tath’ eva etaṁ</em>,<sup class="footnote-reference" id="fr-fn809-1"><a href="#fn-fn809">3</a></sup> when they have a
+special knowledge or understanding of something or other.</p>
+<p>But according to this discourse, it seems that the Buddha takes no stance and
+has no inclination or partiality towards those sensory data, precisely because
+he has a special knowledge and understanding with regard to them. This fact is
+highlighted by the concluding summary verses, particularly by the lines:</p>
+<blockquote>
+<p><em>Jānāmi passāmi tath’ eva etaṁ,</em> <br />
+<em>ajjhositaṁ n’ atthi tathāgatānaṁ.</em></p>
+<p>I know, I see, ’tis verily so. <br />
+No such clinging for the <em>tathāgatas</em>.</p>
+</blockquote>
+<p>In order to explain this strange difference of attitude, we quoted the other day
+two significant terms from the <em>Mūlapariyāyasutta</em> of the <em>Majjhima-nikāya</em>,
+namely <em>sañjānāti</em> and <em>abhijānāti</em>. They represent two levels of knowledge in
+the context of that particular discourse.</p>
+<p><em>Sañjānāti</em> stands for perceptual knowledge, whereas <em>abhijānāti</em> conveys the
+idea of some special understanding of a higher order. The level of knowledge
+implied by the term <em>sañjānāti</em> is that which characterizes the ordinary
+worldling’s world view. He is deluded by the mirage-like perception in his view
+of the world and goes on imagining, <em>maññanā</em>, a real world enslaved to the
+patterns of the grammatical structure.</p>
+<p>But the Tathāgata has penetrated into the true nature of those seens, heards,
+sensed and the like, with his extraordinary level of higher knowledge,
+<em>abhiññā</em>, yielding full comprehension. Therefore, he does not take his stand
+upon any of them. He has no stance to justify the usage of the term <em>upaṭṭhāsi</em>,
+since he does not entertain imaginings, <em>maññanā</em>.</p>
+<p>What is called <em>maññanā</em> is the imagining in egoistic terms, imparting reality
+to illusory things. It is this principle of refraining from vain imaginings that
+is indicated by the term <em>na upaṭṭhāsi</em>, “does not take his stand upon”.</p>
+<p><em>Tathāgatas</em> have no clinging or entanglement, <em>ajjhositaṁ</em>, precisely because
+they entertain no imaginings. In regard to things seen, heard, etc. the
+<em>tathāgatas</em> have no clinging, binding or entanglement by way of craving, conceit
+and views, respectively.</p>
+<p>We happened to mention the other day that those peculiar declarations, with
+which the <em>Kāḷakārāmasutta</em> opens, bear some resemblance to the tetralemma
+discussed in our treatment of the undetermined points.<sup class="footnote-reference" id="fr-fn810-1"><a href="#fn-fn810">4</a></sup></p>
+<p>The set of four alternative propositions concerning the Tathāgata’s after death
+state may be cited as a paradigm for the tetralemma.</p>
+<ol>
+<li><em>Hoti tathāgato paraṁ maraṇā</em>, <br />
+“the Tathāgata exists after death”;</li>
+<li><em>na hoti tathāgato paraṁ maraṇā,</em> <br />
+“the Tathāgata does not exist after death”;</li>
+<li><em>hoti ca na ca hoti tathāgato paraṁ maraṇā,</em> <br />
+“the Tathāgata both exists and does not exist after death”;</li>
+<li><em>n’eva hoti na na hoti tathāgato paraṁ maraṇā,</em> <br />
+“the Tathāgata neither exists nor does not exist after death”.<sup class="footnote-reference" id="fr-fn811-1"><a href="#fn-fn811">5</a></sup></li>
+</ol>
+<p>The declarations found in this discourse bear some affinity to the
+above-mentioned tetralemma. However, we find here the Buddha making the first
+declaration in several stages. Firstly, he makes the statement that whatever is
+seen, heard, sensed, and cognized, thought after and pondered over by all beings
+in the world, that he knows.</p>
+<p>In the second statement he affirms that he has a higher knowledge of all that.
+Then comes a sentence which reaffirms that the Tathāgata has understood, but
+ends with the statement “the Tathāgata does not take his stand upon it”.</p>
+<p>Generally, when confronted with the tetralemma, the Buddha summarily dismisses
+all the four alternative propositions. But here the peculiarity is in not
+dismissing the first proposition at once. He declares that he knows, that he has
+a higher knowledge, and that he has understood all that.</p>
+<p>Apparently he is affirming the first proposition, granting the validity of
+sensory data. But then comes the concluding statement to the effect that he does
+not take his stand upon them, <em>na upaṭṭhāsi</em>, which amounts to a negation.</p>
+<p>The secret behind this peculiar presentation will emerge when we bring up the
+proper similes and parables. Till then, what can be gleaned from the context is
+that the Tathāgata has no stance, not because he is ignorant, but due to the
+very fact that he knows full well and has understood the nature of the sum total
+of sensory data.</p>
+<p>The worldlings are prone to think that it is when convincing knowledge is
+lacking that one has no such stance. But the Buddha declares here that he takes
+no stance in regard to what is seen, heard, sensed etc., precisely because he
+has a special understanding, a penetrative knowledge of the essence-lessness of
+the data obtained through the six sense-bases.</p>
+<p>So it seems, in this context too, we have the negation of the first alternative,
+as is usual in the case of a tetralemma, only that the negation is expressed
+here in a very peculiar way. Let us now take up the second declaration.</p>
+<blockquote>
+<p><em>Yaṁ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa
+sassamaṇabrāhmaṇiyā pajāya sadevamanussāya diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ
+pariyesitaṁ anuvicaritaṁ manasā, tam ahaṁ ’na jānāmī’ti vadeyyaṁ, taṁ mama
+assa musā.</em></p>
+<p>If I were to say, monks, whatsoever in the world, with its gods, Māras and
+Brahmas, among the progeny consisting of recluses and Brahmins, gods and men,
+whatsoever is seen, heard, sensed, and cognized, thought after and pondered
+over by the mind, all that I do not know, it would be a falsehood in me.</p>
+</blockquote>
+<p>There is a difference of opinion as to the correct reading of this second
+declaration. Deep suttas often present difficulties in determining the exact
+reading, and this is especially the case with the <em>Kāḷakārāmasutta</em>.</p>
+<p>In this instance, the commentary has followed the reading <em>tam ahaṁ ’jānāmī’ti
+vadeyyaṁ, taṁ mama assa musā</em>, “if I were to say ‘that I know’, it would be a
+falsehood in me”. But as we have pointed out earlier, this reading is not
+meaningful.<sup class="footnote-reference" id="fr-fn812-1"><a href="#fn-fn812">6</a></sup> That is probably why the <em>Chaṭṭhasaṅgīti-piṭaka</em> edition has
+followed the variant reading <em>tam ahaṁ ’na jānāmī’ti vadeyyaṁ</em>, “if I were to
+say ‘that I do not know’”. This departure from the commentarial tradition seems
+justifiable, since the Buddha has already declared that he knows all that.</p>
+<p>It stands to reason, therefore, that in the second declaration he makes it clear
+that to say “I do not know” would be a contradiction, a falsehood. But why this
+clarification?</p>
+<p>Generally the worldlings expect one to unequivocally assert and take one’s stand
+upon one’s viewpoint in categorical terms, as expressed by the dictum <em>idam eva
+saccaṁ, mogham aññaṁ</em>, “this alone is true, all else is false”.<sup class="footnote-reference" id="fr-fn813-1"><a href="#fn-fn813">7</a></sup> Failure
+to do so is recognized as a lack of knowledge or precision.</p>
+<p>The second declaration is meant to forestall such an objection, since the first
+declaration ends with the clause <em>taṁ tathāgato na upaṭṭhāsi</em>, but “the
+Tathāgata has not taken his stand upon it”. So it amounts to a statement like
+“it is not because I do not know that I take no stance”. In the same strain, we
+can explain the declarations that follow.</p>
+<p>It seems, then, that the second declaration,</p>
+<blockquote>
+<p><em>tam ahaṁ ’na jānāmī’ti vadeyyaṁ, taṁ mama assa musā</em>,</p>
+<p>if I were to say, “all that I do not know”, it would be a falsehood in me,</p>
+</blockquote>
+<p>amounts to the second alternative of the tetralemma.</p>
+<p>The next declaration follows the same trend. To quote the relevant portion,</p>
+<blockquote>
+<p><em>tam ahaṁ ‘jānāmi ca na ca jānāmī’ti vadeyyaṁ, taṁ p’ assa tādisam eva,</em></p>
+<p>if I were to say “I both know it and do not know it”, that too would be a
+falsehood in me.</p>
+</blockquote>
+<p>In regard to the aforesaid seens, heards, sensed etc., if I were to say that I
+know, I do not know, or even a combination of both those statements as “I both
+know and do not know”, it would be a falsehood on my part.</p>
+<p>Why? Because the world is accustomed to put down such a vacillation to a lack of
+certitude. To say “I both know it and know it not” looks like a confession of
+partial knowledge, since it can mean knowledge and ignorance going fifty-fifty.
+So the Buddha says, in this instance, too, that it would likewise be a
+falsehood, <em>taṁ p’ assa tādisam eva</em>.</p>
+<p>Now we come to the fourth statement. The Buddha declares,</p>
+<blockquote>
+<p>if I were to say “I neither know it, nor am ignorant of it”, it would be a
+fault in me,</p>
+<p><em>tam ahaṁ ’neva jānāmi na na jānāmī’ti vadeyyaṁ, taṁ mama assa kali</em>.</p>
+</blockquote>
+<p>We can understand that position, too. Generally the worldlings think that a
+refusal to make a categorical statement is either due to partial knowledge, or
+to an attitude of wriggling out. In fact, this attitude of wriggling out had
+already assumed the status of a philosophy in itself in Sañjaya Belaṭṭhiputta, a
+contemporary of the Buddha.</p>
+<p>When he was interrogated, he would respond with such a series of negations like
+“I do not say it is, I do not say it is thus, I do not say it is otherwise, nor
+do I say it is neither”, etc.<sup class="footnote-reference" id="fr-fn814-1"><a href="#fn-fn814">8</a></sup> The attempt here is to evade the issue by
+a sort of ‘eel-wriggling’. That school of philosophy, which resorted to such an
+evasive legerdemain, came to be known as <em>amarā-vikkhepa-vāda</em>. The Buddha
+refuses to subscribe to such tactical sophistry by rejecting the fourth
+alternative ‘I neither know it, nor am ignorant of it’.</p>
+<p>Here, then, we have the same tetralemma, presented in a different guise. It
+smacks of a riddle that the Buddha was confronted with – the riddle of coming to
+terms with worldly parlance. As we have already mentioned, the commentary
+analyses the main theme of the discourse into five planes. It also records that
+the earth shook at five points of the discourse, that is, at the end of the
+proclamation for each plane.<sup class="footnote-reference" id="fr-fn815-1"><a href="#fn-fn815">9</a></sup></p>
+<p>According to the commentary, the first plane is the plane of omniscience,
+<em>sabbaññutabhūmi</em>. The phrases representative of that plane are said to be:</p>
+<ul>
+<li><em>tam ahaṁ jānāmi,</em> “that I know”,</li>
+<li><em>tam aham abbhaññāsiṁ</em>, “that have I fully understood”, and</li>
+<li><em>taṁ tathāgatassa viditaṁ</em>, “that is known to the Tathāgata”.</li>
+</ul>
+<p>Then comes the plane of the influx-free one, <em>khīṇāsavabhūmi</em>, represented by
+the section ending with the phrase:</p>
+<ul>
+<li><em>na upaṭṭhāsi</em>, “does not take his stand upon it”.</li>
+</ul>
+<p>It is so called because that phrase brings out the characteristic of not taking
+a stance by way of cravings, conceits and views in the case of an influx-free
+one.</p>
+<p>The three phrases:</p>
+<ul>
+<li><em>taṁ mama assa musā</em>, “it would be a falsehood on my part”,</li>
+<li><em>taṁ p’ assa tādisam eva</em>, “likewise, that too would be a falsehood in me”, and</li>
+<li><em>taṁ mama assa kali</em>, “it would be a fault in me”,</li>
+</ul>
+<p>are interpreted by the commentary as representing the third plane of truth,
+<em>saccabhūmi</em>. We have now dealt with that, too.</p>
+<p>What comes next as the fourth plane is the deepest of all. The commentary calls
+it the plane of the void, <em>suññatābhūmi</em>. It is with good reason that it is so
+called. The paragraph that follows is said to represent that plane; it runs:</p>
+<blockquote>
+<p><em>Iti kho, bhikkhave, tathāgato diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na maññati, adiṭṭhaṁ
+na maññati, daṭṭhabbaṁ na maññati, daṭṭhāraṁ na maññati. Sutā sotabbaṁ sutaṁ
+na maññati, asutaṁ na maññati, sotabbaṁ na maññati, sotāraṁ na maññati. Mutā
+motabbaṁ mutaṁ na maññati, amutaṁ na maññati, motabbaṁ na maññati, motāraṁ na
+maññati. Viññātā viññātabbaṁ viññātaṁ na maññati, aviññātaṁ na maññati,
+viññātabbaṁ na maññati, viññātāraṁ na maññati.</em></p>
+</blockquote>
+<p>Here, too, we are confronted with the question of variant readings. To begin
+with, here we have given the phrase <em>diṭṭhā daṭṭhabbaṁ diṭṭhaṁ</em>, whereas the
+commentary takes it as <em>daṭṭhā daṭṭhabbaṁ diṭṭhaṁ</em>. According to the commentary,
+<em>daṭṭhā</em> is a hypothetical variant of the absolutive form <em>disvā</em>, for it
+paraphrases <em>’daṭṭhā daṭṭhabban’ti disvā daṭṭhabbaṁ</em>,<sup class="footnote-reference" id="fr-fn816-1"><a href="#fn-fn816">10</a></sup> that is, “<em>daṭṭhā
+daṭṭhabbaṁ</em> stands for <em>disvā daṭṭhabbaṁ</em>”. So the whole sentence in question is
+said to convey the sense “having seen, he does not imagine a seen worth seeing”.
+But the variant reading <em>diṭṭha</em> is granted, though the commentator prefers the
+reading <em>daṭṭha</em> as it is suggestive of an absolutive <em>dṛṣṭvā</em>.</p>
+<p>Taking the cue from this commentarial preference, the Burmese <em>Chaṭṭhasaṅgīti</em>
+edition goes a step further in substituting <em>sutvā, mutvā</em> and <em>viññatvā</em> rather
+arbitrarily to give an absolutive twist to the three phrases that follow as
+<em>sutvā sotabbaṁ sutaṁ</em>, <em>mutvā motabbaṁ mutaṁ</em>, and <em>viññatvā viññātabbaṁ
+viññātaṁ</em>. Probably the editors thought that in this context the terms <em>diṭṭha
+suta muta</em> and <em>viññāta</em> could not be interpreted as they are.</p>
+<p>But we may point out that, in keeping with the line of interpretation we have
+followed so far, these three terms may be said to stand for an extremely deep
+dimension of this discourse, dealing with the void. The other day we simply gave
+a sketch of a possible rendering.</p>
+<p>The statement:</p>
+<blockquote>
+<p><em>diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na maññati</em></p>
+</blockquote>
+<p>has to be interpreted as an assertion that the Tathāgata</p>
+<blockquote>
+<p>does not imagine a sight worthwhile seeing as apart from the seen,</p>
+</blockquote>
+<p>that there is nothing substantial in the seen. So also the other statements,</p>
+<blockquote>
+<p><em>sutā sotabbaṁ sutaṁ na maññati</em>,</p>
+<p>does not imagine a worthwhile hearing apart from the heard;</p>
+<p><em>mutā motabbaṁ mutaṁ na maññati</em>,</p>
+<p>does not imagine a worthwhile sensing apart from the sensed;</p>
+<p><em>viññātā viññātabbaṁ viññātaṁ na maññati</em>,</p>
+<p>does not imagine a worthwhile cognition apart from the cognized.</p>
+</blockquote>
+<p>In case our interpretation still appears problematic, we may hark back to the
+<em>Bāhiyasutta</em> we have already explained at length.<sup class="footnote-reference" id="fr-fn817-1"><a href="#fn-fn817">11</a></sup> The philosophy behind
+the Buddha’s exhortation to the ascetic Bāhiya could be summed up in the words</p>
+<blockquote>
+<p><em>diṭṭhe diṭṭhamattaṁ bhavissati, sute sutamattaṁ bhavissati, mute mutamattaṁ
+bhavissati, viññāte viññātamattaṁ bhavissati</em>,<sup class="footnote-reference" id="fr-fn818-1"><a href="#fn-fn818">12</a></sup></p>
+<p>in the seen there will be just the seen, in the heard there will be just the
+heard, in the sensed there will be just the sensed, in the cognized there will
+be just the cognized.</p>
+</blockquote>
+<p>What is meant is that one has to stop at just the seen, without discursively
+imagining that there is some-‘thing’ seen, some-‘thing’ substantial behind the
+seen. Similarly in regard to the heard, one has to take it as just a heard, not
+some-‘thing’ heard.</p>
+<p>In the case of the phrase <em>diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na maññati</em> the word
+<em>diṭṭhā</em>, being in the ablative case, we may render it as “does not imagine a
+sight worthwhile seeing ‘as apart from’ the seen”.</p>
+<p>By way of further clarification of this point, we may revert to the simile of
+the dog on the plank, which we gave in our explanation of <em>nāma-rūpa</em>.<sup class="footnote-reference" id="fr-fn819-1"><a href="#fn-fn819">13</a></sup>
+The simile, of course, is not canonical, but of fable origin.</p>
+<p>When a dog, while crossing a stream, stops halfway on the plank and starts
+wagging its tail and peeping curiously down, the reason is the sight of its own
+image in the water. It imagines a dog there, a ‘water-dog’. The dog thinks that
+there is something worthwhile seeing, apart from the seen.</p>
+<p>It is unaware of the fact that it is seeing what it sees because it is looking.
+It thinks that it is looking because there is something out there to be seen.
+The moment it realizes that it is seeing because it is looking, it will stop
+looking at its own image in the water.</p>
+<p>We have here a very subtle point in the law of dependent arising, one that is
+integral to the analysis of name-and-form. So, then, due to the very ignorance
+of the fact that it is seeing because it is looking, the dog imagines another
+dog, there, in the water. What is called <em>maññanā</em> is an imagining of that sort.</p>
+<p>No such imagining is there in the Tathāgata, <em>diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na
+maññati</em>, “he does not imagine a sight worth seeing as apart from the seen”. In
+short, for him the seen is the be all and the end all of it.</p>
+<p>The seen is dependently arisen, it comes about due to a collocation of
+conditions, apart from which it has no existence per se. Every instance of
+looking down at the water is a fresh experience and every time an image of the
+dog in the water and of another looking at it is created. The dog is seeing its
+own image. Everything is dependently arisen, <em>phassapaccayā</em>, says the
+<em>Brahmajāla-sutta</em>, ‘dependent on contact’.<sup class="footnote-reference" id="fr-fn820-1"><a href="#fn-fn820">14</a></sup></p>
+<p>Here there is something really deep. It is because of the personality-view,
+<em>sakkāyadiṭṭhi</em>, that the world is carried away by this illusion. One goes on
+looking saying that one is doing so as there is something to be seen. But the
+seen is there because of the looking.</p>
+<p>This, then, is the moral behind the statement <em>diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na
+maññati</em>, “does not imagine a seen worthwhile seeing as apart from the seen
+itself”. This is the dictum implicit in the <em>Bāhiya-sutta</em>, too, which could be
+illustrated by the simile of the dog on the plank. The Tathāgata does not
+imagine a sight as existing from the bare act of seeing.</p>
+<p>If further illustrations are needed, let us take the case of hearing music from
+a distance. One imagines a thing called ‘music’ and with the idea of listening
+to the same music goes to the place where the music is going on. One is not
+aware of the fact that at each step in that direction one is hearing a different
+music. Why? Because one is ignorant of the law of dependent arising. Just as in
+the former case the dog seen is dependent on the dog looking, here too, the
+auditory consciousness of a music is the outcome of a dependence between ear and
+sound.</p>
+<p>So, deluded as he is, he goes to the music hall to listen better to the same
+music. He will realize the extent of his delusion if he happens to put his ear
+to the musical instrument. When he does so, he will hear not a music, but a set
+of crude vibrations.</p>
+<p>But this is what is going on in the world. The world is steeped in the delusion
+of imagining that it is the same music one is hearing, though at each step in
+that direction the music changes. This is due to the fact that it is dependently
+arisen. Actually, there is no person hearing, but only a state of affairs
+dependent on the ear and sound, a conditioned arising dependent on contact. In
+the present textual context, the terms <em>diṭṭha suta muta</em> and <em>viññāta</em>, seen,
+heard, sensed and cognized, have to be understood in this light.</p>
+<p>So this is how the phrase <em>diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na maññati</em> has to be
+interpreted. But the commentary does not seem to have appreciated the relevance
+of this paragraph to the Buddha’s teachings on voidness. While commenting on
+<em>diṭṭhaṁ na maññati</em> it expatiates <em>’ahaṁ mahājanena diṭṭhameva passāmī’ti
+taṇhāmānadiṭṭhīhi na maññati</em>. According to it, what is meant is that the
+Tathāgata does not imagine by way of cravings, conceits and views that he is
+seeing just what the common people have seen. This is an oversimplification, a
+rather shallow interpretation.</p>
+<p>The next phrase, <em>adiṭṭhaṁ na maññati</em>, is similarly explained, <em>’adiṭṭhaṁ na
+maññatī’ti ’ahaṁ mahājanena adiṭṭhameva etaṁ passāmī’ti evampi taṇhādihi
+maññanāhi na maññati</em>, “he does not imagine an unseen” means that the Tathāgata
+does not imagine by way of imaginings through craving etc. that he is seeing
+something unseen by the common people. The commentary, it seems, has gone at a
+tangent, bypassing the deeper sense.</p>
+<p>We have already explained the deeper significance of the phrase, <em>diṭṭhaṁ na
+maññati</em>, “does not imagine a seen”. Now what does <em>adiṭṭhaṁ na maññati</em> mean?</p>
+<p>In terms of our simile of the dog on the plank, <em>diṭṭhaṁ na maññati</em> means that
+the Tathāgata does not imagine a dog in the water.</p>
+<p><em>Adiṭṭhaṁ na maññati</em> could therefore mean that the Tathāgata does not imagine
+that the dog has not seen. Why he does not treat it as an unseen should be clear
+from that declaration we had already cited, ending with <em>tam ahaṁ ’na jānāmī’ti
+vadeyyaṁ, taṁ mama assa musā,</em> “if I were to say ‘that I do not know’, it would
+be a falsehood in me”.</p>
+<p>The fact of seeing is not denied, though what is seen is not taken as a dog, but
+only as an image of one, that is dependently arisen. Since the understanding of
+it as a dependently arisen phenomenon is there, the Tathāgata does not imagine
+an unseen either, <em>adiṭṭhaṁ na maññati</em>.</p>
+<p>The phrase <em>daṭṭhabbaṁ na maññati</em>, is also explicable in the light of the
+foregoing discussion. Now, the dog on the plank keeps on looking down at the
+water again and again because it thinks that there is something worthwhile
+seeing in the water. Such a delusion is not there in the Tathāgata. He knows
+that at each turn it is a phenomenon of a seen dependently arisen, dependent on
+contact, <em>phassapaccayā</em>.</p>
+<p>Every time it happens, it is a fresh sight, a new preparation, <em>saṅkhāra</em>. So
+there is nothing to look for in it. Only a looking is there, nothing worth
+looking at. Only a seeing is there, nothing to be seen. Apart from the bare act
+of hearing, there is nothing to be heard. It is the wrong view of a self that
+gives a notion of substantiality. The above phrase, therefore, is suggestive of
+insubstantiality, essencelessness, and voidness.</p>
+<p>Music is just a word. By taking seriously the concept behind that word, one
+imagines a thing called ‘music’. The pandemonium created by a number of musical
+instruments is subsumed under the word ‘music’. Then one goes all the way to
+listen to it. The same state of affairs prevails in the case of the seen. It is
+because the Tathāgata has understood this fact that he does not imagine a thing
+worth seeing or hearing. The same applies to the other sensory data.</p>
+<p>Then comes the phrase <em>daṭṭhāraṁ na maññati</em>, “does not imagine a seer”. Here we
+have the direct expression of voidness – the voidness of a self or anything
+belonging to a self. Now that dog on the plank has not understood the fact that
+there is a mutual relationship between the looking dog and the seen dog. It is
+because of the looking dog that the seen dog is seen. There is a conditioned
+relationship between the two.</p>
+<p>In other words, dependent on eye and forms arises eye-consciousness, <em>cakkhuñca
+paṭicca rūpe ca uppajjati cakkhuviññāṇaṁ</em>.<sup class="footnote-reference" id="fr-fn821-1"><a href="#fn-fn821">15</a></sup> The mere presence of the eye
+is not enough for eye consciousness to arise, but dependent on eye and forms,
+arises eye-consciousness.</p>
+<p>Though stated simply, it has a depth that is not easy to fathom. To say that it
+is dependent on eye and form is to admit that it is dependently arisen. The law
+of dependent arising is already implicated. There is therefore no seer, apart
+from the phenomenon of seeing, according to the Tathāgata. He does not imagine a
+seer, <em>daṭṭhāraṁ na maññati</em>. For the worldling, the bare act of seeing carries
+with it a perception of ‘one who sees’. He has a notion of a self and something
+belonging to a self.</p>
+<p>The same teaching is found in the <em>Bāhiya-sutta</em>. After instructing Bāhiya to
+stop at just the seen, the heard, the sensed and the cognized, the Buddha goes
+on to outline the end result of that training.</p>
+<blockquote>
+<p><em>Yato kho te, Bāhiya, diṭṭhe diṭṭhamattaṁ bhavissati, sute sutamattaṁ
+bhavissati, mute mutamattaṁ bhavissati, viññāte viññātamattaṁ bhavissati, tato
+tvaṁ Bāhiya na tena. Yato tvaṁ Bāhiya na tena, tato tvaṁ Bāhiya na tattha.
+Yato tvaṁ Bāhiya na tattha, tato tvaṁ Bāhiya nev’ idha na huraṁ na
+ubhayamantarena. Es’ ev’ anto dukkhassa</em>.<sup class="footnote-reference" id="fr-fn822-1"><a href="#fn-fn822">16</a></sup></p>
+<p>And when to you, Bāhiya, there will be in the seen just the seen, in the heard
+just the heard, in the sensed just the sensed, in the cognized just the
+cognized, then, Bāhiya, you are not by it. And when, Bāhiya, you are not by
+it, then, Bāhiya, you are not in it. And when, Bāhiya, you are not in it,
+then, Bāhiya, you are neither here nor there nor in between. This, itself, is
+the end of suffering.</p>
+</blockquote>
+<p>That is to say, when, Bāhiya, you have gone through that training of stopping at
+just the seen, the heard, the sensed and the cognized, then you would not be
+imagining in terms of them. The algebraic – like expressions <em>na tena</em> and <em>na
+tattha</em> have to be understood as forms of egoistic imagining, <em>maññanā</em>.</p>
+<p>When you do not imagine in terms of them, you would not be in them. There would
+be no involvement in regard to them. In the case of that music, for instance,
+you would not be in the orchestra. The egoistic imagining, implicating
+involvement with the music, presupposes a hearer, <em>sotaraṁ</em>, dwelling in the
+orchestra.</p>
+<p>When, Bāhiya, you do not dwell in it, <em>yato tvaṁ Bāhiya na tattha</em>, then,
+Bāhiya, you are neither here, nor there, nor in between the two, <em>tato tvaṁ
+Bāhiya nev’ idha na huraṁ na ubhayamantarena</em>. This itself is the end of
+suffering. In other words, you would have realized voidness, <em>suññatā</em>.</p>
+<p>The expression <em>daṭṭhāraṁ na maññati</em>, “does not imagine a seer”; <em>sotāraṁ na
+maññati</em>, “does not imagine a hearer”; <em>motāraṁ na maññati</em>, “does not imagine a
+sensor”; and <em>viññātāraṁ na maññati</em>, “does not imagine a knower”, have to be
+understood in this light. The Tathāgata does not even imagine a thinker apart
+from thought. This is the plane of the void, <em>suññatābhūmi</em>, the perfect
+realization of the corelessness or essencelessness of the seen, the heard, the
+sensed and the cognized.</p>
+<p>The very absence of <em>maññanā</em>, or ‘egoistic imagining’, is to be understood by
+<em>suññatābhūmi</em>, or ‘the plane of the void’. The worldling takes seriously the
+subject-object relationship in the grammatical structure, as it seems the
+simplest explanation of phenomena. Because there is something to be seen, there
+is someone who sees. Because there is someone who sees, there is something to be
+seen.</p>
+<p>There is a duality between these two. To understand the law of dependent arising
+is to be free from this duality. It is the ability to see a concatenation of
+conditions, a conglomeration of causal factors – an assemblage instead of a
+bifurcation.</p>
+<p>The way of the worldlings, however, is to follow the subject-object
+relationship, a naive acceptance of the grammatical structure, which is the
+easiest mode of communication of ideas. They are misled by it to take seriously
+such notions as ‘one who sees’ and a ‘thing seen’, ‘one who hears’ and a ‘thing
+heard’, but the Tathāgata is free from that delusion.</p>
+<p>Now we come to the fifth section of the discourse, known as <em>tādibhūmi</em>, the
+‘plane of the such’. It runs:</p>
+<blockquote>
+<p><em>Iti kho, bhikkhave, tathāgato diṭṭha-suta-muta-viññātabbesu dhammesu tādī
+yeva tādī, tamhā ca pana tādimhā añño tādī uttaritaro vā paṇītataro vā
+natthī’ti vadāmi</em>.</p>
+<p>Thus, monks, the Tathāgata, being such in regard to all phenomena, seen,
+heard, sensed and cognized, is such. Moreover than he who is such there is
+none other higher or more excellent, I declare.</p>
+</blockquote>
+<p>The most difficult word, here, is <em>tādī</em>. We have already explained it to some
+extent. It can be rendered by ‘such’ or ‘thus’. The commentary explains it by
+the phrase <em>tāditā nāma ekasadisatā</em>,<sup class="footnote-reference" id="fr-fn823-1"><a href="#fn-fn823">17</a></sup> “suchness means to be always
+alike”.</p>
+<p>By way of illustration, the commentary states <em>Tathāgato ca yādiso lābhādīsu,
+tādisova alābhādīsu</em>, “as he is in regard to gain etc., so is the Tathāgata in
+regard to loss etc.”. The allusion here is to the eight worldly vicissitudes,
+gain/loss, fame/ill-fame, praise/blame, and pleasure/pain.<sup class="footnote-reference" id="fr-fn824-1"><a href="#fn-fn824">18</a></sup></p>
+<p>But this explanation is rather misleading, as it ignores a certain deep
+dimension of the meaning of the term <em>tādī</em>. When it is said “as he is in regard
+to gain, so is he in regard to loss”, one can ask: “how is he in regard to
+gain?” This is imprecise as a meaning.</p>
+<p>However, the commentator happens to quote from the <em>Mahāniddesa</em> another
+explanation, which is more to the point. It is briefly stated as <em>iṭṭhāniṭṭhe
+tādī</em>, “such in regard to the desirable and the undesirable”; and explained as:</p>
+<blockquote>
+<p><em>lābhepi tādī, alābhepi tādī, yasepi tādī, ayasepi tādī, nindāyapi tādī,
+pasaṁsāyapi tādī, sukhepi tādī, dukkhepi tādī</em>,<sup class="footnote-reference" id="fr-fn825-1"><a href="#fn-fn825">19</a></sup></p>
+<p>he is such in gain as well as in loss, he is such in fame as well as in
+ill-fame … etc.</p>
+</blockquote>
+<p>That is the correct explanation. Instead of saying “as he is in gain, so is he
+in loss”, we have here a continuous suchness in regard to all vicissitudes. He
+is such in gain as well as in loss, he is such in fame as well as in ill-fame,
+he is such in praise as well as in blame, he is such in pleasure as well as in
+pain.</p>
+<p>The reason for this suchness we have explained on an earlier occasion.<sup class="footnote-reference" id="fr-fn826-1"><a href="#fn-fn826">20</a></sup>
+In one sense, the term <em>tādī</em> stands for the understanding of the norm called
+<em>tathatā</em>. The other implication is the abstinence from the tendency towards
+identification or acquisition, meant by <em>tammayatā</em>. This exemplary trait is
+called <em>atammayatā</em>. This is an extremely important term, occurring in the
+discourses, which, however, has fallen into neglect at present.</p>
+<p>In the case of music, for instance, <em>tammayatā</em> would imply an attachment to it
+that amounts to an identification with it. <em>Tammayo</em> means ‘made of that’, as in
+<em>suvaṇṇamaya</em>, ‘made of gold’, and <em>rajatamaya</em>, ‘made of silver’. To be free
+from this <em>tammayatā</em>, is to be <em>tādī</em>, ‘such’, that is to say, not to be of
+that stuff, <em>atammayatā</em>. The attitude of not leaning on or grasping is meant by
+it.</p>
+<p>The quality of being <em>tādī</em>, or ‘such’, is often rendered by ‘firmness’,
+‘steadfastness’, and ‘immovability’. Generally, one associates firmness,
+immovability or stability with holding on or leaning on. But here we have just
+the contrary. Not to hold on to anything, is to be ‘such’. This suchness has a
+flexibility of a higher order, or an adaptability. The adaptability
+characteristic of the sage who lives on <em>piṇḍapāta</em>, or alms-food, is
+highlighted in the following verse:</p>
+<blockquote>
+<p><em>Alatthaṁ yadidaṁ sādhu,</em> <br />
+<em>nālatthaṁ kusalām iti,</em> <br />
+<em>ubhayeneva so tādī,</em> <br />
+<em>rukkhaṁ va upanivattati.</em><sup class="footnote-reference" id="fr-fn827-1"><a href="#fn-fn827">21</a></sup></p>
+<p>Suppose I got it, well and good, <br />
+Suppose I didn’t get, that’s fine too, <br />
+In both circumstances he is such, <br />
+And comes back [like one who walks up to a] tree.</p>
+</blockquote>
+<p>This kind of adaptability and resilience is also implied by the term <em>tādī</em>.
+Though the term is sometimes rendered by the word ‘steadfast’, it does not stand
+for any rigidity. Instead, it carries implications of a non-rigid resilience.</p>
+<p>This is a wonderful quality in <em>tathāgatas</em> and <em>arahants</em>. We may compare it to a
+revolving swing in a children’s playground. One who is seated in a revolving
+swing has nothing to get upset about falling headlong when the swing goes up.
+The seats are hung in such a way that they also turn with the revolving motion
+of the swing. Had they been rigidly fixed, one seated there would fall off the
+seat when it goes up. It is that kind of resilience that is characteristic of
+the quality of <em>tāditā</em>, or ‘suchness’. This is how we have to understand the
+famous lines in the <em>Mahāmaṅgalasutta</em>.</p>
+<blockquote>
+<p><em>Phuṭṭhassa lokadhammehi,</em> <br />
+<em>cittam yassa na kampati,</em><sup class="footnote-reference" id="fr-fn828-1"><a href="#fn-fn828">22</a></sup></p>
+<p>Whose mind remains unshaken, <br />
+When touched by worldly vicissitudes.</p>
+</blockquote>
+<p>This quality of being unshaken, this immovability, is the result of not
+grasping. It comes when there is no tenacious clinging. It is to one who rests
+on or leans on something that there is dislodgement or instability.</p>
+<p>Now I am leaning on the wall, if someone does damage to the wall, I would get
+shaken, that is what is suggested by the axiom:</p>
+<blockquote>
+<p><em>nissitassa calitaṁ, anissitassa calitaṁ natthi</em>,<sup class="footnote-reference" id="fr-fn829-1"><a href="#fn-fn829">23</a></sup></p>
+<p>to one who is attached, there is dislodgement, to the one detached, there is
+no dislodgement.</p>
+</blockquote>
+<p>The worldling, on the other hand, thinks that to lean on or to rely on something
+is the mark of stability.</p>
+<p>So it seems that the term <em>tādī</em> has an extraordinary dimension of meaning. In
+this particular context, however, the suchness spoken of does not concern the
+eight worldly vicissitudes like gain and loss. Here it carries a special nuance
+as is evident from the statement:</p>
+<blockquote>
+<p><em>Iti kho, bhikkhave, tathāgato diṭṭha-suta-muta-viññātabbesu dhammesu tādī
+yeva tādī.</em></p>
+<p>Thus, monks, the Tathāgata, being such in regard to all phenomena, seen,
+heard, sensed and cognized, is such.</p>
+</blockquote>
+<p>The suchness here meant is about the views adhered to by the worldlings. In
+regard to things seen, heard, sensed and cognized, the worldlings go on
+asserting dogmatically <em>idam eva saccaṁ, mogham aññaṁ</em>, “this alone is true, all
+else is false”. But the Tathāgata has no such dogmatic involvement. He only
+analytically exposes them for what they are.</p>
+<p>As we tried to illustrate by the simile of the dog on the plank, the Tathāgata
+simply penetrates into their dependently arisen nature and declares that all
+those views are dependent on contact, <em>phassapaccayā</em>. That is the <em>tādī</em>
+quality meant here.</p>
+<p>If we are to understand the plane of suchness, <em>tādībhūmi</em>, in a deeper sense,
+this is how we have to appreciate its significance. Now we come to the couplet
+forming the grand finale to the <em>Kāḷakārāmasutta</em>.</p>
+<blockquote>
+<p><em>Yaṁ kiñci diṭṭhaṁ va sutaṁ mutaṁ vā,</em> <br />
+<em>ajjhositaṁ saccamutaṁ paresaṁ,</em> <br />
+<em>na tesu tādī sayasaṁvutesu,</em> <br />
+<em>saccaṁ musā vā pi paraṁ daheyyaṁ.</em></p>
+<p><em>Etañca sallaṁ paṭigacca disvā,</em> <br />
+<em>ajjhositā yattha pajā visattā,</em> <br />
+<em>jānāmi passāmi tath’ eva etaṁ,</em> <br />
+<em>ajjhositaṁ natthi tathāgatānaṁ.</em></p>
+</blockquote>
+<p>In the first verse, we have the difficult term <em>sayasaṁvutesu</em>, which we
+rendered by “amidst those who are entrenched in their own views”. The term
+carries insinuations of philosophical in-breeding, which often accounts for
+dogmatic adherence to views.</p>
+<p>The Tathāgata declares that he does not hold as true or false any of the
+concepts of individual truths based on what is seen, heard, sensed and cognized
+by others, because of his suchness. Being such, he does not categorically label
+any of those views as true or false. He penetrates into and analyses the
+psychological background of all those dogmatic views and understands them as
+such.</p>
+<p>In the final verse, he declares that he has seen well in advance “the barb on
+which mankind is hooked impaled”. The barb is none other than the dogmatic
+assertion, “I know, I see, it is verily so”. Having seen this barb, well in
+advance, the Tathāgata entertains no dogmatic involvement of that sort.</p>
+<p>The precise meaning of some words and phrases here is a matter of controversy. A
+discussion of them might throw more light on their deeper nuances. The most
+difficult term seems to be <em>sayasaṁvuta</em>. The commentary gives the following
+explanation:</p>
+<blockquote>
+<p><em>’Sayasaṁvutesu’ti ’sayameva saṁvaritvā piyāyitvā gahitagahaṇesu
+diṭṭhigatikesū’ti attho. Diṭṭhigatikā hi ’sayaṁ saṁvutā’ti vuccanti.</em><sup class="footnote-reference" id="fr-fn830-1"><a href="#fn-fn830">24</a></sup></p>
+<p><em>Sayasaṁvutesu</em> means among those dogmatic view-holders, who have grasped
+those views, having recollected them and cherished them. Dogmatic view-holders
+are called <em>sayasaṁvuta</em>.</p>
+</blockquote>
+<p>According to the commentary, the term <em>sayasaṁvuta</em> refers to persons who hold
+dogmatic views. But we interpreted it as a reference to such views themselves.</p>
+<p>By way of clarification, we may allude to some discourses in the <em>Aṭṭhakavagga</em>
+of the <em>Suttanipāta</em>, which bring up a wealth of material to substantiate the
+salient points in the <em>Kāḷakārāmasutta</em>, while throwing more light on the
+particular term in question.</p>
+<p>The chapter called <em>Aṭṭhakavagga</em> in the <em>Suttanipāta</em> in particular embodies a
+deep analysis of the controversies among contemporary dogmatists.</p>
+<p>Let us, first of all, take up for comment some verses that throw more light on
+the meaning of the term <em>sayasaṁvuta</em> from the <em>Cūḷaviyūhasutta</em>. That discourse
+unfolds itself in the form of question and answer. The commentary explains, that
+this medium of dialogue was adopted by the Buddha to resolve the clash of
+philosophical moot points current in the society, and that the interlocutor is a
+replica of the Buddha himself, created by his psychic power.<sup class="footnote-reference" id="fr-fn831-1"><a href="#fn-fn831">25</a></sup> Be that as
+it may, the relevant question for the present context is presented as follows.</p>
+<blockquote>
+<p><em>Kasmā nu saccāni vadanti nānā,</em> <br />
+<em>pavādiyāse kusalā vadānā,</em> <br />
+<em>saccāni su tāni bahūni nānā,</em> <br />
+<em>udāhu te takkam anussaranti.</em><sup class="footnote-reference" id="fr-fn832-1"><a href="#fn-fn832">26</a></sup></p>
+<p>Why do they proclaim various truths, <br />
+Claiming to be experts each in his field, <br />
+Are there several and various truths, <br />
+Or do they merely follow logical consistency?</p>
+</blockquote>
+<p>The Buddha’s reply to it is as follows.</p>
+<blockquote>
+<p><em>Na h’eva saccāni bahūni nānā,</em> <br />
+<em>aññatra saññāya niccāni loke,</em> <br />
+<em>takkañ ca diṭṭhīsu pakappayitvā,</em> <br />
+<em>’saccaṁ musā’ti dvayadhammam āhu.</em></p>
+<p>There are no several and various truths, <br />
+That are permanent in the world, apart from perception, <br />
+It is by manipulating logic in speculative views, <br />
+That they speak of two things called ‘truth and falsehood’.</p>
+</blockquote>
+<p>There is no plurality in the concept of truth, apart from the perception based
+on which they declare various speculative views. It seems that the Buddha grants
+the possibility of various levels of perception as a truth for all times, though
+he does not accept a plurality of truths, arising out of a variety of
+speculative views based on them.</p>
+<p>He understands the psychology of logic, having seen penetratively the perceptual
+background of each and every view. He accepts as a psychological fact that such
+and such a perception could precipitate such and such a view. Therefore, in a
+limited or relative sense, they are ‘true’.</p>
+<p>The dichotomy between truth and falsehood has arisen in the world due to a
+manipulation of logic on individual viewpoints. This fact comes up for further
+comment in the <em>Mahāviyūhasutta</em> that follows.</p>
+<blockquote>
+<p><em>Sakaṁ hi dhammaṁ paripuṇṇam āhu,</em> <br />
+<em>aññasssa dhammaṁ pana hīnaṁ āhu,</em> <br />
+<em>evam pi viggayha vivādiyanti,</em> <br />
+<em>sakaṁ sakaṁ sammutim āhu sacaṁ.</em><sup class="footnote-reference" id="fr-fn833-1"><a href="#fn-fn833">27</a></sup></p>
+</blockquote>
+<p>This verse describes how debating parties go on clashing with each other. They
+call their own system of thought perfect, and the other system of thought
+inferior. Thus they quarrel and dispute. Their own individual viewpoint they
+assert as true. The phrase <em>sakaṁ sakaṁ sammutim</em>, “each his own viewpoint”, is
+somewhat suggestive of <em>sayasaṁvutesu</em>, the problematic term in the
+<em>Kāḷakārāmasutta</em>.</p>
+<p>Yet another verse from the <em>Pasūrasutta</em> in the <em>Aṭṭhakavagga</em> exposes the
+biases and prejudices underlying these individual truths.</p>
+<blockquote>
+<p><em>‘Idh’eva suddhi’ iti vādiyanti,</em> <br />
+<em>nāññesu dhammesu visuddhim āhu,</em> <br />
+<em>yaṁ nissitā tattha subhaṁ vadānā,</em> <br />
+<em>paccekasaccesu puthū niviṭṭhā.</em><sup class="footnote-reference" id="fr-fn834-1"><a href="#fn-fn834">28</a></sup></p>
+<p>‘Here in this system is purity’, they assert polemically, <br />
+They are not prepared to grant purity <br />
+<span class="vin"></span> in other systems of thought, <br />
+Whatever view they lean on, that they speak in praise of, <br />
+They are severally entrenched in their own individual truths.</p>
+</blockquote>
+<p>The last line is particularly relevant, as it brings up the concept of
+<em>paccekasacca</em>. To be a <em>Paccekabuddha</em> means to be enlightened for oneself. So
+the term <em>paccekasacca</em> can mean ‘truth for oneself’. Those who hold conflicting
+views go on debating entrenched each in his own concept of truth.</p>
+<p>The three expressions <em>pacekasacca, sakaṁ sakaṁ sammutim</em> and <em>sayasaṁvutesu</em>
+convey more or less the same idea. The words <em>tesu sayasaṁvutesu</em> refer to those
+narrow viewpoints to which they are individually confined, or remain closeted
+in. The Tathāgata does not hold as true or false any of those views limited by
+the self-bias.</p>
+<p>Another lapse in the commentary to the <em>Kāḷakārāmasutta</em> is its comment on the
+phrase <em>paraṁ daheyyaṁ</em>. It takes the word <em>paraṁ</em> in the sense of ‘supreme’,
+<em>uttamaṁ katvā</em>, whereas in this context it means ‘the other’. Here, too, we may
+count on the following two lines of the <em>Cūḷaviyūhasutta</em> of the <em>Suttanipāta</em>
+in support of our interpretation.</p>
+<blockquote>
+<p><em>Yen’ eva ’bālo’ti paraṁ dahāti,</em> <br />
+<em>tenātumānaṁ ’kusalo’ti cāha.</em><sup class="footnote-reference" id="fr-fn835-1"><a href="#fn-fn835">29</a></sup></p>
+<p>That by which one dubs the other a fool, <br />
+By that itself one calls oneself an expert.</p>
+</blockquote>
+<p>From this it is clear that the phrase <em>paraṁ dahāti</em> means ‘dubs another’. The
+last two lines of the <em>Kāḷakārāmasutta</em> are of utmost importance.</p>
+<blockquote>
+<p><em>Jānāmi passāmi tath’ eva etaṁ,</em> <br />
+<em>ajjhositaṁ natthi tathāgatānaṁ</em>.</p>
+<p>I know I see, it is verily so, <br />
+No such clinging for the <em>tathāgatas</em>.</p>
+</blockquote>
+<p>Worldlings dogmatically grasp the data heaped up by their six sense-bases, but
+the <em>tathāgatas</em> have no such entanglements in regard to sensory knowledge. Why
+so? It is because they have seen the cessation of the six sense-bases.</p>
+<p>By way of illustration, we may compare this seeing of the cessation of the six
+sense-bases to an exposure of the inner mechanism of a high-speed engine by
+removing the bonnet. In the <em>Dvayamsutta</em>, from which we quoted in our last
+sermon, the Buddha showed us the functioning of the gigantic machine called the
+six-fold sense-base, its vibrations, revolutions, beats and running gears. The
+discourse analyses the mechanism in such words as:</p>
+<blockquote>
+<p><em>Cakkhu aniccaṁ vipariṇāmi aññathābhāvi. Rūpā aniccā vipariṇāmino
+aññathābhāvino. Itthetaṁ dvayaṁ calañceva vyayañca aniccaṁ vipariṇāmi
+aññathābhāvi.</em><sup class="footnote-reference" id="fr-fn836-1"><a href="#fn-fn836">30</a></sup></p>
+<p>Eye is impermanent, changing, becoming otherwise. Forms are impermanent,
+changing, becoming otherwise. Thus this dyad is unstable, evanescent,
+impermanent, changing, becoming otherwise.</p>
+</blockquote>
+<p>The discourse proceeds in this vein and concludes with the words:</p>
+<blockquote>
+<p><em>Phuṭṭho, bhikkhave, vedeti, phuṭṭho ceteti, phuṭṭho sañjānāti. Itthete pi
+dhammā calā ceva vayā ca aniccā vipariṇāmino aññathābhāvino.</em></p>
+<p>Contacted, monks, one feels, contacted one intends, contacted one perceives.
+Thus these things, too, are unstable, evanescent, impermanent, changing and
+becoming otherwise.</p>
+</blockquote>
+<p>The concluding reference is to the products of the six sense-bases. Feelings,
+intentions and perceptions, arising due to contact, are also unstable,
+evanescent, impermanent, changing and becoming otherwise.</p>
+<p>The sum total of percepts is indicated by the words <em>diṭṭha suta muta</em> and
+<em>viññāta</em>. The totality of percepts are made up or ‘prepared’, <em>saṅkhata</em>. The
+term <em>saṅkhata</em> has nuances suggestive of ‘production’. If we take the six-fold
+sense-base as a high-speed machine, productive of perceptions, the Buddha has
+revealed to us the workings of its intricate machinery. Each and every part of
+this machine is unstable, evanescent, impermanent, changing and becoming
+otherwise.</p>
+<p>The Buddha understood the made up or prepared nature, <em>saṅkhata</em>, of all these,
+as well as the preparations, <em>saṅkhārā</em>, that go into it. That is why the Buddha
+has no dogmatic involvement in regard to the products of this machine, the
+totality of all what is seen, heard, sensed and cognized, <em>diṭṭha suta muta
+viññāta.</em> None of them is substantial. They are essenceless and insubstantial.
+There is nothing worthwhile grasping here as apart from the activities or
+preparations that are dynamic in themselves.</p>
+<p>So far we have tried to understand the state of affairs with reference to this
+discourse. But now let us take up a canonical simile that facilitates our
+understanding. The Buddha has compared consciousness to a magic show in the
+<em>Pheṇapiṇḍūpamasutta</em> of the <em>Khandhasaṁyutta</em> we had already cited.</p>
+<blockquote>
+<p><em>Pheṇapiṇḍūpamaṁ rūpaṁ,</em> <br />
+<em>vedanā bubbuḷūpamā,</em> <br />
+<em>marīcikūpamā saññā,</em> <br />
+<em>saṅkhārā kadalūpamā,</em> <br />
+<em>māyūpamañca viññāṇaṁ,</em> <br />
+<em>dīpitādiccabandhunā.</em><sup class="footnote-reference" id="fr-fn837-1"><a href="#fn-fn837">31</a></sup></p>
+<p>Form is like a mass of foam, <br />
+And feeling but an airy bubble, <br />
+Perception is like a mirage, <br />
+And formations a banana trunk, <br />
+Consciousness is a magic show [a juggler’s trick entire], <br />
+[All these similes] were made known by the kinsman of the sun.</p>
+</blockquote>
+<p>As a matter of fact, the verse itself is a mnemonic summary of a certain sermon
+delivered by the Buddha. According to it, the Buddha, the kinsman of the sun,
+has compared form to a mass of foam, feeling to a water bubble, perception to a
+mirage, preparations to a banana trunk, and consciousness to a magic show.</p>
+<p>What is of relevance to us here is the comparison of consciousness to a magic
+show. The simile of the magic show is presented in that sutta in the following
+words:</p>
+<blockquote>
+<p><em>Seyyathāpi, bhikkhave, māyākāro vā māyākārantevāsī vā cātummahāpathe māyaṁ
+vidaṁseyya. Tam enaṁ cakkhumā puriso passeyya nijjhāyeyya yoniso
+upaparikkheyya. Tassa taṁ passato nijjhāyato yoniso upaparikkhato rittakaññeva
+khāyeyya tucchakaññeva khāyeyya asārakaññeva khāyeyya. Kiñhi siyā, bhikkhave,
+māyāya sāro?</em></p>
+<p><em>Evam eva kho, bhikkhave, yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ,
+ajjhattaṁ vā bahiddhā vā, oḷārikaṁ vā sukhumaṁ vā, hīnaṁ vā paṇītaṁ vā, yaṁ
+dūre santike vā, taṁ bhikkhu passati nijjhāyati yoniso upaparikkhati. Tassa
+taṁ passato nijjhāyato yoniso upaparikkhato rittakaññeva khāyati tucchakaññeva
+khāyati asārakaññeva khāyati. Kiñhi siyā, bhikkhave, viññāṇe sāro?</em></p>
+<p>Suppose, monks, a magician or a magician’s apprentice should hold a magic show
+at the four cross-roads and a keen-sighted man should see it, ponder over it
+and reflect on it radically. Even as he sees it, ponders over it and reflects
+on it radically, he would find it empty, he would find it hollow, he would
+find it void of essence. What essence, monks, could there be in a magic show?</p>
+<p>Even so, monks, whatever consciousness, be it past, future or present, in
+oneself or external, gross or subtle, inferior or superior, far or near, a
+monks sees it, ponders over it and reflects on it radically. And even as he
+sees it, ponders over it and reflects on it radically, he finds it empty, he
+finds it hollow, he finds it void of essence. What essence, monks, could there
+be in a consciousness?</p>
+</blockquote>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn807"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn807-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn808"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/an4.24/pli/ms">AN 4.24 / A II 25</a>, <em>Kāḷakārāmasutta</em> <a href="#fr-fn808-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn809"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/snp4.13/pli/ms">Snp 4.13 / Sn 908</a>, <em>Mahāviyūhasutta</em> <a href="#fr-fn809-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn810"><sup class="footnote-definition-label">4</sup>
+<p>See esp. <em>Sermon 20</em> <a href="#fr-fn810-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn811"><sup class="footnote-definition-label">5</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn72/pli/ms">MN 72 / M I 484</a>, <em>Aggivacchagottasutta</em> <a href="#fr-fn811-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn812"><sup class="footnote-definition-label">6</sup>
+<p>See <em>Sermon 24</em> <a href="#fr-fn812-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn813"><sup class="footnote-definition-label">7</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn72/pli/ms">MN 72 / M I 484</a>, <em>Aggivacchagottasutta</em> <a href="#fr-fn813-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn814"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/dn2/pli/ms">DN 2 / D I 58</a>, <em>Sāmaññaphalasutta</em> <a href="#fr-fn814-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn815"><sup class="footnote-definition-label">9</sup>
+<p>Mp III 38 <a href="#fr-fn815-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn816"><sup class="footnote-definition-label">10</sup>
+<p>Mp III 39 <a href="#fr-fn816-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn817"><sup class="footnote-definition-label">11</sup>
+<p>See <em>Sermon 15</em> <a href="#fr-fn817-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn818"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 8</a>, <em>Bāhiyasutta</em> <a href="#fr-fn818-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn819"><sup class="footnote-definition-label">13</sup>
+<p>See <em>Sermon 6</em> <a href="#fr-fn819-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn820"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/dn1/pli/ms">DN 1 / D I 42</a>, <em>Brahmajālasutta</em> <a href="#fr-fn820-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn821"><sup class="footnote-definition-label">15</sup>
+<p>E.g. <a href="https://suttacentral.net/mn18/pli/ms">MN 18 / M I 111</a>, <em>Madhupiṇḍikasutta</em> <a href="#fr-fn821-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn822"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 8</a>, <em>Bāhiyasutta</em> <a href="#fr-fn822-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn823"><sup class="footnote-definition-label">17</sup>
+<p>Mp III 40 <a href="#fr-fn823-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn824"><sup class="footnote-definition-label">18</sup>
+<p><a href="https://suttacentral.net/an8.5/pli/ms">AN 8.5 / A IV 157</a>, <em>Paṭhamalokadhammasutta</em> <a href="#fr-fn824-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn825"><sup class="footnote-definition-label">19</sup>
+<p>Nid II 459 <a href="#fr-fn825-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn826"><sup class="footnote-definition-label">20</sup>
+<p>See <em>Sermon 21</em> <a href="#fr-fn826-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn827"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/snp3.11/pli/ms">Snp 3.11 / Sn 712</a>, <em>Nālakasutta</em> <a href="#fr-fn827-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn828"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/snp2.4/pli/ms">Snp 2.4 / Sn 268</a>, <em>Mahāmaṅgalasutta</em> <a href="#fr-fn828-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn829"><sup class="footnote-definition-label">23</sup>
+<p><a href="https://suttacentral.net/ud8.4/pli/ms">Ud 8.4 / Ud 81</a>, <em>Catutthanibbānapaṭisaṁyuttasutta</em> <a href="#fr-fn829-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn830"><sup class="footnote-definition-label">24</sup>
+<p>Mp III 41 <a href="#fr-fn830-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn831"><sup class="footnote-definition-label">25</sup>
+<p>Pj II 554 <a href="#fr-fn831-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn832"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/snp4.12/pli/ms">Snp 4.12 / Sn 885</a>, <em>Cūḷaviyūhasutta</em> <a href="#fr-fn832-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn833"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/snp4.13/pli/ms">Snp 4.13 / Sn 905</a>, <em>Mahāvyūhasutta</em> <a href="#fr-fn833-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn834"><sup class="footnote-definition-label">28</sup>
+<p><a href="https://suttacentral.net/snp4.8/pli/ms">Snp 4.8 / Sn 824</a>, <em>Pasūrasutta</em> <a href="#fr-fn834-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn835"><sup class="footnote-definition-label">29</sup>
+<p><a href="https://suttacentral.net/snp4.12/pli/ms">Snp 4.12 / Sn 888</a>, <em>Cūḷaviyūhasutta</em> <a href="#fr-fn835-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn836"><sup class="footnote-definition-label">30</sup>
+<p><a href="https://suttacentral.net/sn35.93/pli/ms">SN 35.93 / S IV 67</a>, <em>Dutiyadvayamsutta</em> <a href="#fr-fn836-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn837"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/sn22.95/pli/ms">SN 22.95 / S III 142</a>, <em>Pheṇapiṇḍūpamasutta</em>, see <em>Sermon 11</em> <a href="#fr-fn837-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-24.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-26.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-24.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-26.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

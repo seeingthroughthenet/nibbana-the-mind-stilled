@@ -1,0 +1,1068 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 7 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-7-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-7"><a class="header" href="#sermon-7">Sermon 7</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn222-1"><a href="#fn-fn222">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. Towards the end of the last sermon we happened
+to quote a certain verse from the <em>Kevaḍḍhasutta</em> of the <em>Dīgha Nikāya</em>. The
+verse runs as follows:</p>
+<blockquote>
+<p><em>Viññāṇaṁ anidassanaṁ,</em> <br />
+<em>anantaṁ sabbato pabhaṁ,</em> <br />
+<em>ettha āpo ca paṭhavī,</em> <br />
+<em>tejo vāyo na gādhati,</em> <br />
+<em>ettha dīghañca rassañca,</em> <br />
+<em>aṇuṁ thūlaṁ subhāsubhaṁ,</em> <br />
+<em>ettha nāmañca rūpañca,</em> <br />
+<em>asesaṁ uparujjhati,</em> <br />
+<em>viññāṇassa nirodhena,</em> <br />
+<em>etth’etaṁ uparujjhati.</em><sup class="footnote-reference" id="fr-fn223-1"><a href="#fn-fn223">2</a></sup></p>
+</blockquote>
+<p>The other day, we could give only a general idea of the meaning of this verse in
+brief, because of the question of time. Today, we propose to attempt a detailed
+explanation of it. To start with, we purposely avoid rendering the first two
+lines, which appear as the crux of the whole verse. Taking those two lines as
+they are, we could paraphrase the verse as follows:</p>
+<p>It is in a consciousness, that is <em>anidassana, ananta,</em> and <em>sabbato pabha</em>,
+that earth, water, fire, and air do not find a footing. It is in this
+consciousness that long and short, fine and coarse, and pleasant and unpleasant,
+as well as name-and-form, are kept in check. It is by the cessation of
+consciousness that all these are held in check.</p>
+<p>Let us now try to sort out the meaning of the difficult words in the first two
+lines. First of all, in the expression <em>viññāṇaṁ anidassanaṁ</em>, there is the term
+<em>anidassana</em>. The meaning of the word <em>nidassana</em> is fairly well known. It means
+‘illustration’. Something that ‘throws light on’ or ‘makes clear’ is called
+<em>nidassana</em>. This is the basic sense.</p>
+<p>We find an instance of the use of this word, even in this basic sense, in the
+first <em>Kosalasutta</em> among the Tens of the <em>Aṅguttara Nikāya</em>. It is in
+connection with the description of <em>abhibhāyatanā</em>, bases of mastery, where
+there is a reference to contemplation devices known as <em>kasiṇa</em>. It is said that
+even the flax flower can be used initially as a sign for <em>kasiṇa</em> meditation. A
+flax flower is described in the following words:</p>
+<blockquote>
+<p><em>Umāpupphaṁ nīlaṁ nīlavaṇṇaṁ nīlanidassanaṁ nīlanibhāsaṁ</em>,<sup class="footnote-reference" id="fr-fn224-1"><a href="#fn-fn224">3</a></sup></p>
+</blockquote>
+<p>Which may be rendered as:</p>
+<blockquote>
+<p>The flax flower, blue, blue-coloured, manifesting blue, shining blue.</p>
+</blockquote>
+<p><em>Nīlanidassanaṁ</em> suggests that the flax flower is an illustration of blue
+colour, or that it is a manifestation of blue. <em>Anidassana</em> could therefore be
+said to refer to whatever does not manifest anything.</p>
+<p>In fact, we have a very good example in support of this suggested sense in the
+<em>Kakacūpamasutta</em> of the <em>Majjhima Nikāya</em>. There we find the Buddha putting a
+certain question to the monks in order to bring out a simile:</p>
+<blockquote>
+<p>Monks, suppose a man comes with crimson, turmeric, indigo or carmine and says:</p>
+<p>‘I shall draw pictures and make pictures appear on the sky!’</p>
+<p>What do you think, monks, could that man draw pictures and make pictures
+appear there?</p>
+</blockquote>
+<p>Then the monks reply:</p>
+<blockquote>
+<p><em>Ayañhi, bhante, ākāso arūpī anidassano. Tattha na sukaraṁ rūpaṁ likhituṁ,
+rūpapātubhāvaṁ kātuṁ</em>.<sup class="footnote-reference" id="fr-fn225-1"><a href="#fn-fn225">4</a></sup></p>
+<p>This sky, Lord, is immaterial and non-illustrative. It is not easy to draw a
+picture there or make manifest pictures there.</p>
+</blockquote>
+<p>Here we have the words in support of the above suggested meaning. The sky is
+said to be <em>arūpī anidassano</em>, immaterial and non-illustrative. That is why one
+cannot draw pictures there or make pictures appear there. There is nothing
+material in the sky to make manifest pictures. That is, the sense in which it is
+called <em>anidassano</em> in this context.</p>
+<p>Let us now see how meaningful that word is, when used with reference to
+consciousness as <em>viññāṇaṁ anidassanaṁ</em>. Why the sky is said to be
+non-manifestative we could easily understand by the simile. But how can
+consciousness become non-manifestative?</p>
+<p>First and foremost we can remind ourselves of the fact that our consciousness
+has in it the ability to reflect. That ability is called <em>paccavekkhana</em>,
+‘looking back’. Sometimes the Buddha has given the simile of the mirror with
+reference to this ability, as for instance in the <em>Ambalatthikā Rāhulovādasutta</em>
+of the <em>Majjhima Nikāya</em>.<sup class="footnote-reference" id="fr-fn226-1"><a href="#fn-fn226">5</a></sup></p>
+<p>In the <em>Ānandasutta</em> of the <em>Khandhasaṁyutta</em>, also, he has used the simile of
+the mirror.<sup class="footnote-reference" id="fr-fn227-1"><a href="#fn-fn227">6</a></sup></p>
+<p>In the former sutta preached to Venerable Rāhula the Buddha uses the simile of
+the mirror to stress the importance of reflection in regard to bodily, verbal,
+and mental action.</p>
+<p>In our last sermon, we gave a simile of a dog crossing a plank over a stream and
+looking at its own reflection in the water.<sup class="footnote-reference" id="fr-fn228-1"><a href="#fn-fn228">7</a></sup> That, too, is a kind of
+reflection. But from that we can deduce a certain principle with regard to the
+question of reflection, namely, that the word stands for a mode of becoming
+deluded as well as a mode of getting rid of the delusion. What creates a
+delusion is the way that dog is repeatedly looking down from his own point of
+view on the plank to see a dog in the water.</p>
+<p>That is unwise reflection born of non-radical attention, <em>ayoniso manasikāra</em>.
+Under the influence of the personality view, <em>sakkāyadiṭṭhi</em>, it goes on looking
+at its own image, wagging its tail and growling. But wise reflection born of
+radical attention, <em>yoniso manasikāra</em>, is what is recommended in the
+<em>Ambalatthikā Rāhulovādasutta</em> with its thematic repetitive phrase
+<em>paccavekkhitvā, paccavekkhitvā</em>,<sup class="footnote-reference" id="fr-fn229-1"><a href="#fn-fn229">8</a></sup> ‘reflecting again and again’.</p>
+<p>Wise reflection inculcates the Dhamma point of view. Reflection based on Right
+View, <em>sammā diṭṭhi</em>, leads to deliverance. So this is the twin aspect of
+reflection. But this we mention by the way. The point we wish to stress is that
+consciousness has in it the nature of reflecting something, like a mirror.</p>
+<p>Now <em>viññāṇaṁ anidassanaṁ</em> is a reference to the nature of the released
+consciousness of an <em>arahant</em>. It does not reflect anything. To be more precise,
+it does not reflect a <em>nāma-rūpa</em>, or name-and-form.</p>
+<p>An ordinary individual sees a <em>nāma-rūpa</em>, when he reflects, which he calls ‘I’
+and ‘mine’. It is like the reflection of that dog, which sees its own delusive
+reflection in the water. A <em>non-arahant</em>, upon reflection, sees name-and-form,
+which however he mistakes to be his self. With the notion of ‘I’ and ‘mine’ he
+falls into delusion with regard to it. But the <em>arahant’s</em> consciousness is an
+unestablished consciousness.</p>
+<p>We have already mentioned in previous sermons about the established
+consciousness and the unestablished consciousness.<sup class="footnote-reference" id="fr-fn230-1"><a href="#fn-fn230">9</a></sup> A <em>non-arahant’s</em>
+consciousness is established on name-and-form.</p>
+<p>The unestablished consciousness is that which is free from name-and-form and is
+unestablished on name-and-form. The established consciousness, upon reflection,
+reflects name-and-form, on which it is established, whereas the unestablished
+consciousness does not find a name-and-form as a reality.</p>
+<p>The <em>arahant</em> has no attachments or entanglements in regard to name-and-form. In
+short, it is a sort of penetration of name-and-form, without getting entangled
+in it. This is how we have to unravel the meaning of the expression <em>anidassana
+viññāṇa</em>.</p>
+<p>By way of further clarification of this sense of <em>anidassana</em>, we may remind
+ourselves of the fact that manifestation requires something material. That is
+obvious even from that simile picked up at random from the <em>Kakacūpamasutta</em>. As
+for the consciousness of the <em>arahant</em>, the verse in question makes it clear
+that earth, water, fire, and air do not find a footing there.</p>
+<p>It is because of these four great primaries that one gets a perception of form.
+They are said to be the cause and condition for the designation of the aggregate
+of form:</p>
+<blockquote>
+<p><em>Cattāro kho, bhikkhu, mahābhūtā hetu, cattāro mahābhūtā paccayo
+rūpakkhandhassa paññāpanāya</em>.<sup class="footnote-reference" id="fr-fn231-1"><a href="#fn-fn231">10</a></sup></p>
+<p>The four great primaries, monk, are the cause and condition for the
+designation of the form group.</p>
+</blockquote>
+<p>Now the <em>arahant</em> has freed his mind from these four elements. As it is said in
+the <em>Dhātuvibhaṅgasutta</em>:</p>
+<blockquote>
+<p><em>Paṭhavīdhātuyā cittaṁ virājeti</em>,<sup class="footnote-reference" id="fr-fn232-1"><a href="#fn-fn232">11</a></sup></p>
+<p>he makes his mind dispassionate with regard to the earth-element.</p>
+<p><em>Āpodhātuyā cittaṁ virājeti</em>,</p>
+<p>he makes his mind dispassionate with regard to the water-element.</p>
+</blockquote>
+<p>As he has freed his mind from the four elements through disenchantment, which
+makes them fade away, the <em>arahant’s</em> reflection does not engender a perception
+of form. As the verse in question puts it rather rhetorically:</p>
+<blockquote>
+<p><em>ettha āpo ca paṭhavī, tejo vāyo na gādhati,</em></p>
+<p>herein water and earth, fire and air find no footing.</p>
+</blockquote>
+<p>Here the word <em>gādhati</em> is particularly significant. When, for instance, we want
+to plumb the depth of a deep well, we lower something material as a plumb into
+the well. Where it comes to stay, we take as the bottom. In the consciousness of
+the <em>arahant</em>, the material elements cannot find such a footing. They cannot
+manifest themselves in that unplumbed depth of the <em>arahant’s</em> consciousness.</p>
+<blockquote>
+<p><em>Viññāṇaṁ anidassanaṁ,</em> <br />
+<em>anantaṁ sabbato pabhaṁ,</em> <br />
+<em>ettha āpo ca paṭhavī,</em> <br />
+<em>tejo vāyo na gādhati.</em></p>
+<p>Consciousness, which is non-manifestative, <br />
+Endless and lustrous on all sides, <br />
+It is here that water, earth, <br />
+Fire, and air no footing find.</p>
+</blockquote>
+<p>It is precisely because the material elements cannot make themselves manifest in
+it, that this consciousness is called ‘non-manifestative’. In the same
+connection we may add that such distinctions as long and short, fine and coarse,
+and pleasant and unpleasant are not registered in that consciousness, because
+they pertain to things material. When the consciousness is freed from the four
+elements, it is also free from the relative distinctions, which are but the
+standards of measurements proper to those elements.</p>
+<p>Let us now consider the implications of the term <em>anantaṁ</em> – ‘endless’,
+‘infinite’. We have already said something about the plumbing of the depth of
+waters. Since the material elements have faded away in that consciousness, they
+are unable to plumb its depth. They no longer serve as an ‘<strong>index</strong>’ to that
+consciousness. Therefore, that consciousness is endless or infinite.</p>
+<p>It is endless also in another sense. With regard to such distinctions as ‘long’
+and ‘short’ we used the word ‘<strong>relative</strong>’. These are relative concepts. We
+even refer to them as conjoined pairs of terms. In worldly usage they are found
+conjoined as ‘long and short’, ‘fine and coarse’, ‘pleasant and unpleasant’.
+There is a dichotomy about these concepts, there is a bifurcation. It is as if
+they are put within a rigid framework.</p>
+<p>When, for instance, we go searching for a piece of wood for some purpose or
+other, we may say: “This piece of wood is too long”. Why do we say so? Because
+we are in need of a shorter one. Instead of saying that it is not
+‘<strong>sufficiently</strong>’ short, we say it is too long. When we say it is too short,
+what we mean is that it is not sufficiently long. So then, long and short are
+relevant within one framework. As a matter of fact, all measurements are
+relative to some scale or other. They are meaningful within some framework of a
+scale.</p>
+<p>In this sense, too, the worldling’s way of thinking has a tendency to go to
+extremes. It goes to one extreme or the other. When it was said that the world,
+for the most part, rests on a dichotomy, such as that between the two views ‘Is’
+and ‘Is not’,<sup class="footnote-reference" id="fr-fn233-1"><a href="#fn-fn233">12</a></sup> this idea of a framework is already implicit. The
+worldling’s ways of thought ‘<strong>end-up</strong>’ in one extreme or the other within this
+framework. The <em>arahant</em> transcends it, his consciousness is, therefore,
+endless, <em>ananta</em>.</p>
+<p>There is a verse in the <em>Pāṭaligāmiyavagga</em> of the <em>Udāna</em>, which clearly brings
+out this fact. Most of the discourses in that section of the <em>Udāna</em> deal with
+Nibbāna – <em>Nibbānapaṭisaṁyutta</em> – and the following verse, too, is found in such
+a discourse.</p>
+<blockquote>
+<p><em>Duddasaṁ anantaṁ nāma,</em> <br />
+<em>na hi saccaṁ sudassanaṁ,</em> <br />
+<em>paṭividdhā taṇhā jānato,</em> <br />
+<em>passato natthi kiñcanaṁ</em>.<sup class="footnote-reference" id="fr-fn234-1"><a href="#fn-fn234">13</a></sup></p>
+</blockquote>
+<p>This verse, like many other deep ones, seems to have puzzled the commentators.
+Let alone the meaning, even the variant readings had posed them a problem, so
+much so that they end up giving the reader a choice between alternate
+interpretations. But let us try to get at the general trend of its meaning.</p>
+<p><em>Duddasaṁ anantaṁ nāma,</em> “hard to see is the endless” – whatever that ‘endless’ be.</p>
+<p><em>Na hi saccaṁ sudassanaṁ,</em> “the truth is not easily seen”, which in effect is an
+emphatic assertion of the same idea. One could easily guess that this ‘endless’
+is the truth and that it refers to Nibbāna.</p>
+<p><em>Paṭividdhā taṇhā</em> means that “craving has been penetrated through”. This
+penetration is through knowledge and wisdom, the outcome of which is stated in
+the last line.</p>
+<p><em>Janato passato natthi kiñcanaṁ</em>, “to one who know and sees there is NOTHING”.
+The idea is that when craving is penetrated through with knowledge and wisdom,
+one realizes the voidness of the world. Obviously, the reference here is to
+Nibbāna.</p>
+<p>The entire verse may now be rendered as follows:</p>
+<blockquote>
+<p>Hard to see is the Endless, <br />
+Not easy ’tis to see the truth, <br />
+Pierced through is craving, <br />
+And naught for him who knows and sees.</p>
+</blockquote>
+<p>The commentator, however, is at a loss to determine whether the correct reading
+is <em>anataṁ</em> or <em>anantaṁ</em> and leaves the question open. He gives one
+interpretation in favour of the reading <em>anataṁ</em>.<sup class="footnote-reference" id="fr-fn235-1"><a href="#fn-fn235">14</a></sup></p>
+<p>To show its justifiability he says that <em>natā</em> is a synonym for <em>taṇhā</em>, or
+craving, and that <em>anataṁ</em> is a term for Nibbāna, in the sense that there is no
+craving in it. It must be pointed out that it is <em>nati</em> and not <em>natā</em> that is
+used as a synonym for <em>taṇhā</em>.</p>
+<p>Anyway, after adducing reasons for the acceptability of the reading <em>anataṁ</em>, he
+goes on to say that there is a variant reading, <em>anantaṁ</em>, and gives an
+interpretation in support of it too. In fact, he interprets the word <em>anantaṁ</em>
+in more than one sense. Firstly, because Nibbāna is permanent, it has no end.
+And secondly it is endless because it is immeasurable, or <em>appamāṇa</em>.</p>
+<p>In our interpretation of the word <em>anantaṁ</em> we have not taken it in the sense of
+permanence or everlastingness. The word <em>appamāṇa</em>, or immeasurable, can have
+various nuances. But the one we have stressed is the transcendence of relative
+concepts, limited by their dichotomous nature. We have also alluded to the
+unplumbed depth of the <em>arahant’s</em> consciousness, in which the four elements do
+not find a footing.</p>
+<p>In the <em>Buddhavagga</em> of the <em>Dhammapada</em> we come across another verse which
+highlights the extraordinary significance of the word <em>anantaṁ</em>.</p>
+<blockquote>
+<p><em>Yassa jālinī visattikā,</em> <br />
+<em>taṇhā natthi kuhiñci netave,</em> <br />
+<em>taṁ Buddham anantagocaraṁ,</em> <br />
+<em>apadaṁ kena padena nessatha?</em><sup class="footnote-reference" id="fr-fn236-1"><a href="#fn-fn236">15</a></sup></p>
+</blockquote>
+<p>Before attempting a translation of this verse, some of the words in it have to
+be commented upon.</p>
+<p><em>Yassa jālinī visattikā:</em> <em>Jālinī</em> is a synonym for craving. It means one who
+has a net or one who goes netting. <em>Visattikā</em> refers to the agglutinative
+character of craving. It keeps worldlings glued to objects of sense. The verse
+may be rendered as follows:</p>
+<blockquote>
+<p>He who has no craving, with nets in and agglutinates to lead him somewhere –
+by what track could that Awakened One of infinite range be led – trackless as
+he is?</p>
+</blockquote>
+<p>Because the Buddha is of infinite range, he is trackless. His path cannot be
+traced. Craving wields the net of name-and-form with its glue when it goes
+ranging. But since the Awakened One has the ‘<strong>endless</strong>’ as his range, there is
+no track to trace him by.</p>
+<p>The term <em>anantagocaraṁ</em> means one whose range has no end or limit. If, for
+instance, one chases a deer, to catch it, one might succeed at least at the end
+of the pasture. But the Buddha’s range is endless and his ‘ranging’ leaves no
+track.</p>
+<p>The commentators seem to interpret this term as a reference to the Buddha’s
+omniscience – to his ability to attend to an infinite number of objects.<sup class="footnote-reference" id="fr-fn237-1"><a href="#fn-fn237">16</a></sup>
+But this is not the sense in which we interpret the term here. The very fact
+that there is ‘<strong>no object</strong>’ makes the Buddha’s range endless and untraceable.
+Had there been an object, craving could have netted him in.</p>
+<p>In support of this interpretation, we may allude to the following couple of
+verses in the <em>Arahantavagga</em> of the <em>Dhammapada</em>.</p>
+<blockquote>
+<p><em>Yesaṁ sannicayo natthi,</em> <br />
+<em>ye pariññāta bhojanā,</em> <br />
+<em>suññato animitto ca,</em> <br />
+<em>vimokkho yesa gocaro,</em> <br />
+<em>ākāse va sakuntānaṁ,</em> <br />
+<em>gati tesaṁ durannayā.</em></p>
+<p><em>Yassāsavā parikkhīṇā,</em> <br />
+<em>āhāre ca anissito,</em> <br />
+<em>suññāto animitto ca,</em> <br />
+<em>vimokkho yassa gocaro,</em> <br />
+<em>ākāse va sakuntānaṁ,</em> <br />
+<em>padaṁ tassa durannayaṁ.</em><sup class="footnote-reference" id="fr-fn238-1"><a href="#fn-fn238">17</a></sup></p>
+</blockquote>
+<p>Both verses express more or less the same idea. Let us examine the meaning of
+the first verse. The first two lines are:</p>
+<blockquote>
+<p><em>Yesaṁ sannicayo natthi, ye pariññāta bhojanā</em>.</p>
+<p>Those who have no accumulation and who have comprehended their food.</p>
+</blockquote>
+<p>The words used here are charged with deep meanings. Verses in the <em>Dhammapada</em>
+are very often rich in imagery. The Buddha has on many occasions presented the
+Dhamma through deep similes and metaphors. If the metaphorical sense of a term
+is ignored, one can easily miss the point.</p>
+<p>For instance, the word <em>sannicaya</em>, in this context, which we have rendered as
+‘accumulation’, is suggestive of the heaping up of the five aggregates. The word
+<em>upacaya</em> is sometimes used with reference to this process of heaping up that
+goes on in the minds of the worldlings.<sup class="footnote-reference" id="fr-fn239-1"><a href="#fn-fn239">18</a></sup></p>
+<p>Now this heaping up, as well as the accumulation of <em>kamma</em>, is not there in the
+case of an <em>arahant</em>. Also, they have comprehended their food. The comprehension
+of food does not mean simply the usual reflection on food in terms of elements.
+Nor does it imply just one kind of food, but all the four nutriments mentioned
+in the Dhamma, namely <em>kabaḷiṅkārāhāra</em>, material food, <em>phassa</em>, contact,
+<em>manosañcetanā</em>, volition, and <em>viññāṇa</em>, consciousness.<sup class="footnote-reference" id="fr-fn240-1"><a href="#fn-fn240">19</a></sup></p>
+<p>The next two lines tell us what the true range or pasture of the <em>arahants</em> is.
+It is an echo of the idea of comprehension of food as well as the absence of
+accumulation.</p>
+<blockquote>
+<p><em>Suññato animitto ca, vimokkho yesa gocaro</em>,</p>
+<p>whose range is the deliverance of the void and the signless.</p>
+</blockquote>
+<p>When the <em>arahants</em> are in their attainment to the fruit of <em>arahanthood</em>, their
+minds turn towards the void and the signless. When they are on this
+feeding-ground, neither Māra nor craving can catch them with their nets. They
+are trackless – hence the last two lines:</p>
+<blockquote>
+<p><em>ākāse va sakuntānaṁ, gati tesa durannayā,</em></p>
+<p>their track is hard to trace, like that of birds in the sky.</p>
+</blockquote>
+<p>The word <em>gati</em> in this last line is interpreted by the commentators as a
+reference to the ‘whereabouts’ of the <em>arahants</em> after their
+<em>parinibbāna</em>.<sup class="footnote-reference" id="fr-fn241-1"><a href="#fn-fn241">20</a></sup></p>
+<p>It has dubious associations of some place as a destination. But in this context,
+<em>gati</em> does not lend itself to such an interpretation. It only refers to their
+mental compass, which is untraceable, because of their deliverance trough the
+void and the signless.</p>
+<p>The next verse also bring out this idea:</p>
+<blockquote>
+<p><em>Yassāsavā parikkhīṇā, āhāre ca anissito,</em></p>
+<p>whose influxes are extinct and who is unattached in regard to nutriment.</p>
+<p><em>Suññāto animitto ca, vimokkho yassa gocaro,</em></p>
+<p>whose range is the void and the signless.</p>
+<p><em>Ākāse va sakuntānaṁ, padaṁ tassa durannayaṁ</em>,</p>
+<p>his path is hard to trace, like that of birds in the sky.</p>
+</blockquote>
+<p>This reminds us of the last line of the verse quoted earlier:</p>
+<blockquote>
+<p><em>apadaṁ kena padena nessatha</em>,<sup class="footnote-reference" id="fr-fn242-1"><a href="#fn-fn242">21</a></sup></p>
+<p>by what track could one lead him, who is trackless?</p>
+</blockquote>
+<p>These two verses, then, throw more light on the meaning of the expression
+<em>anantagocara</em> – of infinite range – used as an epithet for the Awakened One.</p>
+<p>Let us now get at the meaning of the term <em>sabbato pabham</em>, in the context
+<em>viññāṇaṁ anidassanaṁ, anantaṁ sabbato pabhaṁ.</em><sup class="footnote-reference" id="fr-fn243-1"><a href="#fn-fn243">22</a></sup></p>
+<p>In our discussion of the significance of the drama and the cinema we mentioned
+that it is the darkness in the background which keeps the audience entranced in
+a way that they identify themselves with the characters and react
+accordingly.<sup class="footnote-reference" id="fr-fn244-1"><a href="#fn-fn244">23</a></sup> The darkness in the background throws a spell of delusion.
+That is what makes for ‘enjoyment’.</p>
+<p>Of course, there is some sort of light in the cinema hall. But that is very
+limited. Some times it is only a beam of light, directed on the screen. In a
+previous sermon we happened to mention that even in the case of a matinee show,
+dark curtains and closed doors and windows ensure the necessary dark
+background.<sup class="footnote-reference" id="fr-fn245-1"><a href="#fn-fn245">24</a></sup></p>
+<p>Here, in this simile, we have a clue to the meaning <em>sabbato pabhaṁ</em>, luminous
+or lustrous on all sides. Suppose a matinee show is going on and one is enjoying
+it, entranced and deluded by it. Suddenly doors and windows are flung open and
+the dark curtains are removed. Then immediately one slips out of the cinema
+world. The film may go on, but because of the light coming from all sides, the
+limited illumination on the screen fades away, before the total illumination.
+The film thereby loses its enjoyable quality.</p>
+<p>As far as consciousness, or <em>viññāṇa</em>, is concerned, it is not something
+completely different from wisdom, <em>paññā</em>, as it is defined in the
+<em>Mahāvedallasutta</em>. However, there is also a difference between them:</p>
+<blockquote>
+<p><em>paññā bhāvetabbā, viññāṇaṁ pariññeyyaṁ,</em></p>
+<p>wisdom is to be developed, consciousness is to be comprehended.<sup class="footnote-reference" id="fr-fn246-1"><a href="#fn-fn246">25</a></sup></p>
+</blockquote>
+<p>Here it is said that one has to comprehend the nature of consciousness.</p>
+<p>Then one may ask: “We are understanding everything with consciousness, so how
+can one understand consciousness?” But the Buddha has shown us the way of doing
+it.</p>
+<p>Wisdom, when it is developed, enables one to comprehend consciousness. In short,
+consciousness is as narrow as that beam of light falling on the cinema screen.
+That is to say, the specifically prepared consciousness, or the consciousness
+crammed up in name-and-form, as in the case of the <em>non-arahant</em>. It is as
+narrow as the perspective of the audience glued to the screen. The consciousness
+of the ordinary worldling is likewise limited and committed.</p>
+<p>Now what happens when it is fully illuminated on all sides with wisdom? It
+becomes <em>sabbato pabhaṁ</em>, lustrous an all sides. In that lustre, which comes
+from all sides, the framework of ignorance fades away. It is that released
+consciousness, free from the dark framework of ignorance, that is called the
+consciousness which is lustrous on all sides, in that cryptic verse in question.
+This lustre, associated with wisdom, has a special significance according to the
+discourses. In the <em>Catukkanipāta</em> of the <em>Aṅguttara Nikāya</em> we come across the
+following sutta:</p>
+<blockquote>
+<p><em>Catasso imā, bhikkhave, pabhā. Katamā catasso? Candappabhā, suriyappabhā,
+aggippabhā, paññāpabhā</em>. <em>Imā kho, bhikkhave, catasso pabhā. Etad aggaṁ,
+bhikkhave, imāsaṁ catunnaṁ pabhānaṁ yadidaṁ paññāpabhā</em>.<sup class="footnote-reference" id="fr-fn247-1"><a href="#fn-fn247">26</a></sup></p>
+<p>Monks, there are these four lustres. Which four? The lustre of the moon, the
+lustre of the sun, the lustre of fire, and the lustre of wisdom. These, monks,
+are the four lustres. This, monks, is the highest among these four lustres,
+namely the lustre of wisdom.</p>
+</blockquote>
+<p>Another important discourse, quoted quite often, though not always correctly
+interpreted, is the following:</p>
+<blockquote>
+<p><em>Pabhassaram idaṁ, bhikkhave, cittaṁ. Tañca kho āgantukehi upakkilesehi
+upakkiliṭṭhaṁ. Taṁ assutavā puthujjano yathābhūtaṁ nappajānāti. Tasmā
+assutavato puthujjanassa citta bhāvanā natthī’ti vadāmi.</em></p>
+<p><em>Pabhassaram idaṁ, bhikkhave, cittaṁ. Tañca kho āgantukehi upakkilesehi
+vippamuttaṁ. Taṁ sutavā ariyasāvako yathābhūtaṁ pajānāti. Tasmā sutavato
+ariyasāvakassa citta bhāvanā atthī’ti vadāmi.</em><sup class="footnote-reference" id="fr-fn248-1"><a href="#fn-fn248">27</a></sup></p>
+<p>This mind, monks, is luminous, but it is defiled by extraneous defilements.
+That, the uninstructed ordinary man does not understand as it is. Therefore,
+there is no mind development for the ordinary man, I declare.</p>
+<p>This mind, monks, is luminous, but it is released from extraneous defilements.
+That, the instructed noble disciple understands as it is. Therefore, there is
+mind development for the instructed noble disciple, I declare.</p>
+</blockquote>
+<p>It is sufficiently clear, then, that the allusion is to the luminous mind, the
+consciousness of the <em>arahant</em>, which is non-manifestative, infinite, and all
+lustrous. To revert to the analogy of the cinema which, at least in a limited
+sense, helps us to form an idea about it, we have spoken about the stilling of
+all preparations.<sup class="footnote-reference" id="fr-fn249-1"><a href="#fn-fn249">28</a></sup></p>
+<p>Now in the case of the film, too, there is a stilling of preparations. That is
+to say, the preparations which go to make it a ‘<strong>movie</strong>’ film are
+‘<strong>stilled</strong>’. The multicoloured dresses of actors and actresses become
+colourless before that illumination, even in the case of a technicolour film.
+The scenes on the screen get blurred before the light that suddenly envelops
+them.</p>
+<p>And what is the outcome of it? The preparations going on in the minds of the
+audience, whether induced by the film producers or aroused from within, are
+calmed down at least temporarily. This symbolizes, in a limited sense, the
+significance of the phrase <em>sabbasaṅkhārasamatha</em>, the stilling of all
+preparations.</p>
+<p>Then what about the relinquishment of all assets, <em>sabbūpadhipaṭinissagga</em>? In
+the context of the film show, it is the bundle of experiences coming out of
+one’s ‘vested-interests’ in the marvellous cinema world. These assets are
+relinquished at least for the moment. Destruction of craving, <em>taṇhakkhayo</em>, is
+momentarily experienced with regard to the blurred scenes on the screen.</p>
+<p>As to the term <em>virāga</em>, we have already shown that it can be understood in two
+senses, that is, dispassion as well as the fading away which brings about the
+dispassion.<sup class="footnote-reference" id="fr-fn250-1"><a href="#fn-fn250">29</a></sup> Now in this case, too, the fading away occurred, not by any
+other means, but by the very fact that the limited narrow beam of consciousness
+got superseded by the unlimited light of wisdom.</p>
+<p><em>Nirodha</em> means cessation, and the film has now ceased to be a film, though the
+machines are still active. We have already mentioned that in the last analysis a
+film is produced by the audience.<sup class="footnote-reference" id="fr-fn251-1"><a href="#fn-fn251">30</a></sup> So its cessation, too, is a matter for
+the audience. This, then, is the cessation of the film.</p>
+<p>Now comes Nibbāna, extinction or extinguishment. Whatever heated emotions and
+delirious excitements that arose out of the film show cooled down, at least
+momentarily, when the illumination takes over. This way we can form some idea,
+somewhat inferentially, about the meaning and significance of the term <em>sabbato
+pabhaṁ</em>, with the help of this illustration based on the film show.</p>
+<p>So now we have tackled most of the difficulties to the interpretation of this
+verse. In fact, it is the few words occurring in the first two lines that has
+posed an insoluble problem to scholars both eastern and western. We have not yet
+given the commentarial interpretation, and that, not out of disrespect for the
+venerable commentators. It is because their interpretation is rather hazy and
+inconclusive. However, we shall be presenting that interpretation at the end of
+this discussion, so as to give the reader an opportunity to compare it with
+ours.</p>
+<p>But for the present, let us proceed to say something about the last two lines as
+well:</p>
+<blockquote>
+<p><em>Viññāṇassa nirodhena, etth’etaṁ uparujjhati</em>.</p>
+</blockquote>
+<p>As we saw above, for all practical purposes, name-and-form seem to cease, even
+like the fading away of the scenes on the cinema screen. Then what is meant by
+this phrase <em>viññāṇassa nirodhena</em>, with the cessation of consciousness?</p>
+<p>The reference here is to that <em>abhisaṅkhata viññāṇa</em>, or the specifically
+prepared consciousness. It is the cessation of that concocted type of
+consciousness which was formerly there, like the one directed on the cinema
+screen by the audience. With the cessation of that specifically prepared
+consciousness, all constituents of name-and-form are said to be held in check,
+<em>uparujjhati</em>.</p>
+<p>Here, too, we have a little problem. Generally, <em>nirujjhati</em> and <em>uparujjhati</em>
+are regarded as synonymous. The way these two verbs are used in some suttas
+would even suggest that they mean the same thing. As a matter of fact, even the
+<em>Cūḷa Niddesa</em>, which is a very old commentary, paraphrases <em>uparujjhati</em> by
+<em>nirujjhati</em>: “<em>uparujjhatī’ti nirujjhati</em>”.<sup class="footnote-reference" id="fr-fn252-1"><a href="#fn-fn252">31</a></sup></p>
+<p>Nevertheless, in the context of this particular verse, there seems to be
+something deep involved in the distinction between these two verbs. Even at a
+glance, the two lines in question are suggestive of some distinction between
+them.</p>
+<p><em>Viññāṇassa nirodhena, etth’etaṁ uparujjhati</em>, the <em>nirodha</em> of consciousness is
+said to result in the <em>uparodha</em> of whatever constitutes name-and-form. This is
+intriguing enough.</p>
+<p>But that is not all. By way of preparing the background for the discussion, we
+have already made a brief allusion to the circumstances in which the Buddha
+uttered this verse.<sup class="footnote-reference" id="fr-fn253-1"><a href="#fn-fn253">32</a></sup> What provided the context for its utterance was a
+riddle that occurred to a certain monk in a moment of fancy. The riddle was:
+“Where do these four great primaries cease altogether?” There the verb used is
+<em>nirujjhanti</em>.<sup class="footnote-reference" id="fr-fn254-1"><a href="#fn-fn254">33</a></sup></p>
+<p>So in order to find where they cease, he whimsically went from heaven to heaven
+and from Brahma-world to Brahma-world. As we mentioned earlier, too, it was when
+the Mahā Brahma directed that monk to the Buddha, saying: “Why ‘on earth’ did
+you come all this way when the Buddha is there to ask?”, that the Buddha
+reworded the question. He pointed out that the question was incorrectly worded
+and revised it as follows, before venturing to answer it:</p>
+<blockquote>
+<p><em>Kattha āpo ca paṭhavī,</em> <br />
+<em>tejo vāyo na gādhati,</em> <br />
+<em>kattha dīghañca rassañca,</em> <br />
+<em>aṇuṁ thūlaṁ subhāsubhaṁ,</em> <br />
+<em>kattha nāmañca rūpañca,</em> <br />
+<em>asesaṁ uparujjhati?</em><sup class="footnote-reference" id="fr-fn255-1"><a href="#fn-fn255">34</a></sup></p>
+</blockquote>
+<p>The word used by the Buddha in this revised version is <em>uparujjhati</em> and not
+<em>nirujjhati</em>.</p>
+<p>Yet another innovation is the use of the term <em>na gādhati</em>. Where do water,
+earth, fire, and air find no footing? Or where do they not get established? In
+short, here is a word suggestive of plumbing the depth of a reservoir. We may
+hark back to the simile given earlier, concerning the plumbing of the
+consciousness with the perception of form. Where do the four elements not find a
+footing? Also, where are such relative distinctions as long and short, subtle
+and gross, pleasant and unpleasant, as well as name-and-form, completely held in
+check?</p>
+<p>In this restatement of the riddle, the Buddha has purposely avoided the use of
+the verb <em>nirujjhati</em>. Instead, he had recourse to such terms as <em>na gādhati</em>,
+‘does not find a footing’, ‘does not plumb’, and <em>uparujjhati</em>, ‘is held in
+check’, or ‘is cut off’. This is evidence enough to infer that there is a subtle
+distinction between the nuances associated with the two verbs <em>nirujjhati</em> and
+<em>uparujjhati</em>.</p>
+<p>What is the secret behind this peculiar usage? The problem that occurred to this
+monk is actually of the type that the materialists of today conceive of. It is,
+in itself, a fallacy. To say that the four elements <strong>cease</strong> somewhere in the
+world, or in the universe, is a contradiction in terms.</p>
+<p>Why? Because the very question: “Where do they cease?”, presupposes an answer in
+terms of those elements, by way of defining that place. This is the kind of
+uncouth question an ordinary materially inclined person would ask.</p>
+<p>That is why the Buddha reformulated the question, saying:</p>
+<blockquote>
+<p>Monk, that is not the way to put the question. You should not ask ‘where’ the
+four great primaries cease, but rather where they, as well as the concepts of
+long and short, subtle and gross, pleasant and unpleasant, and name-and-form,
+are held in check.</p>
+</blockquote>
+<p>The question proper is not where the four great primaries cease, but where they
+do not get established and where all their accompaniments are held in check.</p>
+<p>Here, then, we see the Buddha relating the concept of matter, which the world
+takes for granted, to the perception of form arising in the mind. The four great
+primaries haunt the minds of the worldlings like ghosts, so they have to be
+exorcised from their minds. It is not a question of expelling them from this
+world, or from any heavenly realm, or the entire world-system. That exorcism
+should take place in this very consciousness, so as to put an end to this
+haunting.</p>
+<p>Before the light of wisdom those ghosts, namely the four great primaries, become
+ineffective. It is in the darkness of ignorance that these ghosts haunt the
+worldlings with the perception of form. They keep the minds of the worldlings
+bound, glued, committed and limited. What happens now is that the specifically
+prepared consciousness, which was bound, glued, committed and limited, becomes
+fully released, due to the light of wisdom, to become non-manifestative,
+endless, and lustrous on all sides.</p>
+<p>So, to sum up, we may render the verse in question as follows:</p>
+<blockquote>
+<p>Consciousness, which is non-manifestative, <br />
+Endless, lustrous on all sides, <br />
+Here it is that earth and water, <br />
+Fire and air no footing find, <br />
+Here it is that long and short, <br />
+Fine and coarse, pleasant, unpleasant, <br />
+And name-and-form, <br />
+Are cut off without exception, <br />
+When consciousness has surceased, <br />
+These are held in check herein.</p>
+</blockquote>
+<p>Though we ventured to translate the verse, we have not yet given the
+commentarial interpretation of it. Since this might seem a shortcoming, we shall
+now present what the commentator has to say on this verse.</p>
+<p>Venerable Buddhaghosa, before coming to this verse in his commentary to the
+<em>Kevaḍḍhasutta</em>, gives an explanation as to why the Buddha reformulated the
+original question of that monk. According to him, the question: “Where do the
+four great primaries cease?”, implied both the organic and the inorganic aspects
+of matter, and in revising it, the Buddha limited its scope to the organic.</p>
+<p>In other words, Venerable Buddhaghosa presumes that the revised version has to
+be interpreted with reference to this human body. Hence he explains such words
+as ‘long’ and ‘short’, occurring in the verse, in a limited sense as referring
+to the body’s stature. How facile this interpretation turns out to be, one can
+easily discern as we go on.</p>
+<p>Venerable Buddhaghosa keeps on reminding the reader that the questions are
+relevant only to the organic realm, <em>upādinnaṁ yeva sandhāya pucchati</em>. <sup class="footnote-reference" id="fr-fn256-1"><a href="#fn-fn256">35</a></sup>
+So he interprets the terms <em>dīghañca rassañca</em>, long and short, as relative
+distinctions of a person’s height, that is tallness and shortness. Similarly,
+the words <em>aṇuṁ thūlaṁ,</em> subtle and gross, are said to mean the small and big in
+the size of the body. Likewise <em>subha</em> and <em>asubhaṁ</em> are taken to refer to the
+comely and the ugly in terms of body’s appearance.</p>
+<p>The explanation given to the phrase <em>nāmañca rūpañca</em> is the most astounding of
+all. <em>Nāma</em> is said to be the name of the person and <em>rūpa</em> is his form or
+shape. All this goes to show that the commentator has gone off at a tangent,
+even in the interpretation of this verse, which is more or less the prologue to
+such an intricate verse as the one in question. He has blundered at the very
+outset in limiting the scope of those relative terms to the organic, thereby
+obscuring the meaning of that deep verse.</p>
+<p>The significance of these relative terms, from the linguistic point of view, has
+been overlooked. Words like <em>dīghaṁ / rassaṁ</em> and <em>aṇuṁ / thūlaṁ</em> do not refer
+to the stature and size of some person. What they convey is the dichotomous
+nature of concepts in the world.</p>
+<p>All those deeper implications are obscured by the reference to a person’s
+outward appearance. The confusion becomes worse confounded, when <em>nāmañca
+rūpañca</em> is interpreted as the name and the shape of a person. So the stage is
+already set for a shallow interpretation, even before presenting the verse
+beginning with <em>viññāṇaṁ anidassanaṁ</em>.</p>
+<p>It is on such an unsound premise that the commentator bases his interpretation
+of the verse in question. We shall try to do justice to that exposition, too. It
+might necessitate a fair amount of quotations, though it is difficult to be
+comprehensive in this respect.</p>
+<p>The commentator begins his exposition with the word <em>viññāṇaṁ</em> itself. He comes
+out with a peculiar etymology: <em>Viññāṇan’ti tattha viññātabbanti viññāṇaṁ
+nibbānassa nāmaṁ</em>, which means that the word <em>viññāṇa</em>, or consciousness, is in
+this context a synonym for Nibbāna, in the sense that it is ‘to be known’,
+<em>viññātabbaṁ</em>.</p>
+<p>This forced etymology is far from convincing, since such a usage is not attested
+elsewhere. Moreover, we come across a long list of epithets for Nibbāna, as many
+as thirty-three, in the <em>Asaṅkhatasaṁyutta</em> of the <em>Saṁyutta Nikāya</em>, but
+<em>viññāṇa</em> is not counted as one.<sup class="footnote-reference" id="fr-fn257-1"><a href="#fn-fn257">36</a></sup> In fact, nowhere in the discourses is
+<em>viññāṇa</em> used as a synonym for Nibbāna.</p>
+<p>Next, he takes up the word <em>anidassana</em>, and makes the following comment: <em>Tad
+etaṁ nidassanābhāvato anidassanaṁ</em>, that Nibbāna is called <em>anidassana</em> because
+no illustration for it could be given. The idea is that it has nothing to
+compare with. Then comes the explanation of the word <em>anantaṁ</em>. According to the
+commentator Nibbāna is called <em>ananta</em>, endless, because it has neither the
+arising-end, <em>uppādanto</em>, nor the falling-end, <em>vayanto</em>, nor the otherwiseness
+of the persisting-end, <em>ṭhitassa aññathatta</em>. Strangely enough, even the last
+mentioned middle-state is counted as an ‘end’ in the commentators concept of
+three ends. So this is the substance of his commentary to the first three words
+<em>viññāṇaṁ, anidassanaṁ, anantaṁ</em>.</p>
+<p>The commentarial interpretation of the term <em>sabbato pabhaṁ</em> is even more
+confusing. The word <em>pabhā</em> is explained as a synonym for <em>papa</em>, meaning
+‘ford’. The <em>bha</em> element in the word, he explains, is a result of consonantal
+interchange with the original <em>pa</em> in <em>papa</em>. <em>Pakārassa pana bhakāro kato</em>. The
+idea is that the original form of this particular term for Nibbāna is <em>sabbato
+papaṁ</em>. The meaning attributed to it is ‘with fords on all sides’. Nibbāna is
+supposed to be metaphorically conceived as the ocean, to get down into which
+there are fords on all sides, namely the thirty-eight topics of meditation.</p>
+<p>This interpretation seems rather far fetched. It is as if the commentator has
+resorted to this simile of a ford, because he is already ‘in deep waters’! The
+word <em>pabhā</em>, as it is, clearly means light, or radiance, and its association
+with wisdom is also well attested in the canon.</p>
+<p>Though in his commentary to the <em>Dīgha Nikāya</em> Venerable Buddhaghosa advances
+the above interpretation, in his commentary to the <em>Majjhima Nikāya</em> he seems to
+have had second thoughts on the problem. In the <em>Brahmanimantanikasutta</em> of the
+<em>Majjhima Nikāya</em>, also, the first two lines of the verse, <em>viññāṇaṁ
+anidassanaṁ, anantaṁ sabbato pabhaṁ,</em> occur.<sup class="footnote-reference" id="fr-fn258-1"><a href="#fn-fn258">37</a></sup></p>
+<p>But here the commentator follows a different line of interpretation. Whereas in
+his commentary to the <em>Kevaḍḍhasutta</em> he explains <em>anidassanaṁ</em> as an epithet of
+Nibbāna, in the sense of having nothing to compare with, here he takes it in the
+sense of not being visible to the eye. <em>Cakkhuviññāṇassa āpāthaṁ anupagamanato
+anidassanaṁ nāma,</em><sup class="footnote-reference" id="fr-fn259-1"><a href="#fn-fn259">38</a></sup> “it is called <em>anidassana</em> because it does not come
+within the range of eye-consciousness”.</p>
+<p>In explaining the term <em>sabbato pabhaṁ</em>, he suggests several alternative
+interpretations. In the first interpretation, he takes <em>pabhā</em> to mean light, or
+lustre. <em>Sabbato pabhan’ti sabbato pabhāsampannaṁ. Nibbānato hi añño dhammo
+sappabhataro vā jotivantataro vā parisuddhataro vā paṇḍarataro vā natthi.</em>
+“<em>Sabbato pabhaṁ</em> means more lustrous than anything else. For there is nothing
+more lustrous or luminous or purer or whiter than Nibbāna”. In this
+interpretation Nibbāna is even regarded as something white in colour!</p>
+<p>The etymology of the term <em>sabbato pabhaṁ</em> has been given a twist, for the word
+<em>sabbato</em> is taken in a comparative sense, ‘more lustrous than anything’. As we
+have pointed out, the term actually means ‘lustrous on all sides’. Then a second
+interpretation is given, bringing in the word <em>pabhū</em>, ‘lord’ or ‘chief’.
+<em>Sabbato vā pabhū</em>, that is to say more prominent than anything else. In support
+of it he says: <em>Asukadisāya nāma nibbānaṁ natthī’ti na vattabbaṁ</em>, “it should
+not be said that in such and such a direction Nibbāna is not to be found”. He
+says that it is called <em>pabhū</em>, or lord, because it is to be found in all
+directions. Only as the third interpretation he cites his simile of the ford
+already given in his commentary to the <em>Kevaḍḍhasutta</em>.</p>
+<p>What is the reason for giving so many figurative interpretations as alternatives
+to such a significant verse? Surely the Buddha would not have intended the verse
+to convey so many conflicting meanings, when he preached it.</p>
+<p>No doubt the commentators have made a great effort to preserve the Dhamma, but
+due to some unfortunate historical circumstances, most of the deep discourses
+dealing with the subject of Nibbāna have been handed down without even a clue to
+the correct version among variant readings.</p>
+<p>This has left the commentators nonplussed, so much so that they had to give us
+several vague and alternative interpretations to choose from. It is up to us to
+decide, whether we should accept this position as it is, or try to improve on it
+by exploring any other possible means of explanation.</p>
+<p>We had occasion to mention in our very first sermon that the Buddha himself has
+prophesied that those discourse which deal with voidness would, in time to come,
+go into disuse, with their deeper meanings obscured.<sup class="footnote-reference" id="fr-fn260-1"><a href="#fn-fn260">39</a></sup> The interpretations
+just quoted go to show that already the prediction has come true to a great
+extent.</p>
+<p>The phrase we quoted from the <em>Brahmanimantanikasutta</em> with its reference to
+<em>anidassana viññāṇa</em> occurs in a context which has a significance of its own.
+The relevant paragraph, therefore, deserves some attention. It runs as follows:</p>
+<blockquote>
+<p><em>Viññānaṁ anidassanaṁ anantaṁ sabbato pabhaṁ, taṁ paṭhaviyā paṭhavittena
+ananubhūtaṁ, āpassa āpattena ananubhūtaṁ, tejassa tejattena ananubhūtaṁ,
+vāyassa vāyattena ananubhūtaṁ, bhūtānaṁ bhūtattena ananubhūtaṁ, devānaṁ
+devattena ananubhūtaṁ, pajāpatissa pajāpatittena ananubhūtaṁ, brahmānaṁ
+brahmattena ananubhūtaṁ, ābhassarānaṁ ābhassarattena ananubhūtaṁ,
+subhakiṇhānaṁ subhakiṇhattena ananubhūtaṁ, vehapphalānaṁ vehapphalatte
+ananubhūtaṁ, abhibhussa abhibhuttena ananubhūtaṁ, sabbassa sabbattena
+ananubhūtaṁ.</em><sup class="footnote-reference" id="fr-fn261-1"><a href="#fn-fn261">40</a></sup></p>
+<p>Consciousness which makes nothing manifest, infinite and all lustrous, it does
+not partake of the earthiness of earth, the wateriness of water, the fieriness
+of fire, the airiness of air, the creature-hood of creatures, the <em>deva</em>-hood
+of <em>devas</em>, the Pajāpati-hood of Pajāpati, the Brahma-hood of Brahma, the
+radiance of the Radiant Ones, the Subhakiṇha-hood of the Subhakiṇha Brahmas,
+the Vehapphala-hood of the Vehapphala Brahmas, the overlord-ship of the
+overlord, and the all-ness of the all.</p>
+</blockquote>
+<p>This peculiar paragraph, listing thirteen concepts, seems to convey something
+deep about the nature of the non-manifestative consciousness. That consciousness
+does not partake of the earthiness of earth, the wateriness of water, the
+fieriness of fire, and the airiness of air. That is to say, the nature of the
+four elements does not inhere in this consciousness, they do not manifest
+themselves in it. Similarly, the other concepts, like <em>deva</em>-hood, Brahma-hood,
+etc., which the worldlings take seriously as real, have no applicability or
+validity here.</p>
+<p>The special significance of this assertion lies in the context in which the
+Buddha declared it. It is to dispel a wrong view that Baka the Brahma conceived,
+in regarding his Brahma status as permanent, ever lasting and eternal, that the
+Buddha made this declaration before that Brahma himself in the Brahma world.</p>
+<p>The whole point of the discourse, then, is to challenge the wrong view of the
+Brahma, by asserting that the non-manifestative consciousness of the <em>arahant</em>
+is above the worldly concepts of elements and divinity and the questionable
+reality attributed to them. In other words, they do not manifest themselves in
+it. They are transcended.</p>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn222"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn222-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn223"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/dn11/pli/ms">DN 11 / D I 223</a>, <em>Kevaḍḍhasutta</em> <a href="#fr-fn223-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn224"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/an5.49/pli/ms">AN 5.49 / A V 61</a>, <em>Kosalasutta</em> <a href="#fr-fn224-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn225"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/mn21/pli/ms">MN 21 / M I 127</a>, <em>Kakacūpamasutta</em> <a href="#fr-fn225-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn226"><sup class="footnote-definition-label">5</sup>
+<p><a href="https://suttacentral.net/mn61/pli/ms">MN 61 / M I 415</a>, <em>Ambalatthikārāhulovādasutta</em> <a href="#fr-fn226-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn227"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/sn22.83/pli/ms">SN 22.83 / S III 105</a>, <em>Ānandasutta</em> <a href="#fr-fn227-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn228"><sup class="footnote-definition-label">7</sup>
+<p>See <em>Sermon 6</em> <a href="#fr-fn228-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn229"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/mn61/pli/ms">MN 61 / M I 415</a>, <em>Ambalatthikārāhulovādasutta</em> <a href="#fr-fn229-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn230"><sup class="footnote-definition-label">9</sup>
+<p>See <em>Sermon 3</em> and 4 <a href="#fr-fn230-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn231"><sup class="footnote-definition-label">10</sup>
+<p><a href="https://suttacentral.net/mn109/pli/ms">MN 109 / M III 17</a>, <em>Mahāpuṇṇamasutta</em> <a href="#fr-fn231-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn232"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/mn140/pli/ms">MN 140 / M III 240</a>, <em>Dhātuvibhaṅgasutta</em> <a href="#fr-fn232-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn233"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/sn12.15/pli/ms">SN 12.15 / S II 17</a>, <em>Kaccāyanagottasutta</em>, see <em>Sermon 4</em> <a href="#fr-fn233-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn234"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/ud8.2/pli/ms">Ud 8.2 / Ud 80</a>, <em>Dutiyanibbānapaṭisaṁyuttasutta</em> <a href="#fr-fn234-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn235"><sup class="footnote-definition-label">14</sup>
+<p>Ud-a 393 <a href="#fr-fn235-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn236"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/dhp179-196/pli/ms">Dhp 180</a>, <em>Buddhavagga</em> <a href="#fr-fn236-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn237"><sup class="footnote-definition-label">16</sup>
+<p>Dhp-a III 197 <a href="#fr-fn237-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn238"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/dhp90-99/pli/ms">Dhp 92-93</a>, <em>Arahantavagga</em> <a href="#fr-fn238-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn239"><sup class="footnote-definition-label">18</sup>
+<p>E.g. at <a href="https://suttacentral.net/mn149/pli/ms">MN 149 / M III 287</a>, <em>Mahāsaḷāyatanikasutta</em> <a href="#fr-fn239-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn240"><sup class="footnote-definition-label">19</sup>
+<p>E.g. at <a href="https://suttacentral.net/sn12.64/pli/ms">SN 12.64 / S II 101</a>, <em>Atthirāgasutta</em> <a href="#fr-fn240-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn241"><sup class="footnote-definition-label">20</sup>
+<p>Dhp-a II 173 <a href="#fr-fn241-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn242"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/dhp179-196/pli/ms">Dhp 180</a>, <em>Buddhavagga</em> <a href="#fr-fn242-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn243"><sup class="footnote-definition-label">22</sup>
+<p><a href="https://suttacentral.net/dn11/pli/ms">DN 11 / D I 223</a>, <em>Kevaḍḍhasutta</em> <a href="#fr-fn243-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn244"><sup class="footnote-definition-label">23</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn244-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn245"><sup class="footnote-definition-label">24</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn245-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn246"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/mn43/pli/ms">MN 43 / M I 293</a>, <em>Mahāvedallasutta</em> <a href="#fr-fn246-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn247"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/an4.142/pli/ms">AN 4.142 / A II 139</a>, <em>Pabhāsutta</em> <a href="#fr-fn247-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn248"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/an1.51-60/pli/ms">AN 1.51-52 / A I 10</a>, <em>Accharāsaṅghātavagga</em> <a href="#fr-fn248-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn249"><sup class="footnote-definition-label">28</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn249-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn250"><sup class="footnote-definition-label">29</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn250-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn251"><sup class="footnote-definition-label">30</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn251-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn252"><sup class="footnote-definition-label">31</sup>
+<p>Nid II 110 <a href="#fr-fn252-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn253"><sup class="footnote-definition-label">32</sup>
+<p>See <em>Sermon 6</em> <a href="#fr-fn253-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn254"><sup class="footnote-definition-label">33</sup>
+<p><a href="https://suttacentral.net/dn11/pli/ms">DN 11 / D I 215</a>, <em>Kevaḍḍhasutta</em> <a href="#fr-fn254-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn255"><sup class="footnote-definition-label">34</sup>
+<p><a href="https://suttacentral.net/dn11/pli/ms">DN 11 / D I 223</a>, <em>Kevaḍḍhasutta</em> <a href="#fr-fn255-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn256"><sup class="footnote-definition-label">35</sup>
+<p>Sv II 393 <a href="#fr-fn256-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn257"><sup class="footnote-definition-label">36</sup>
+<p>S IV 359, <em>Asaṅkhatasaṁyutta</em> <a href="#fr-fn257-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn258"><sup class="footnote-definition-label">37</sup>
+<p><a href="https://suttacentral.net/mn49/pli/ms">MN 49 / M I 329</a>, <em>Brahmanimantanikasutta</em> <a href="#fr-fn258-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn259"><sup class="footnote-definition-label">38</sup>
+<p>Ps II 413 <a href="#fr-fn259-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn260"><sup class="footnote-definition-label">39</sup>
+<p><a href="https://suttacentral.net/sn20.7/pli/ms">SN 20.7 / S II 267</a>, <em>Āṇisutta</em>; see <em>Sermon 1</em> <a href="#fr-fn260-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn261"><sup class="footnote-definition-label">40</sup>
+<p><a href="https://suttacentral.net/mn49/pli/ms">MN 49 / M I 329</a>, <em>Brahmanimantanikasutta</em> <a href="#fr-fn261-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-06.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-08.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-06.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-08.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

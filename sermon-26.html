@@ -1,0 +1,1089 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Sermon 26 - Nibbāna - The Mind Stilled</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="assets/stylesheets/output-html.css">
+
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Nibbāna - The Mind Stilled</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="opening-image">
+<p><img src="./assets/images/moonstone-26-crop.jpg" alt="moonstone" /></p>
+</div>
+<h1 id="sermon-26"><a class="header" href="#sermon-26">Sermon 26</a></h1>
+<div class="opening-quote">
+<blockquote>
+<p>Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa <br />
+Namo tassa bhagavato arahato sammāsambuddhassa</p>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, <br />
+yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo <br />
+taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn838-1"><a href="#fn-fn838">1</a></sup></p>
+<p>“This is peaceful, this is excellent, <br />
+namely the stilling of all preparations, the relinquishment of all assets, <br />
+the destruction of craving, detachment, cessation, extinction.”</p>
+</blockquote>
+</div>
+<p>With the permission of the Most Venerable Great Preceptor and the assembly of
+the venerable meditative monks. This is the twenty-sixth sermon in the series of
+sermons on Nibbāna.</p>
+<p>Even from what we have so far explained, it should be clear that the
+<em>Kāḷakārāmasutta</em> enshrines an extremely deep analysis of the concepts of truth
+and falsehood, generally accepted by the world. We had to clear up a lot of
+jungle to approach this discourse, which has suffered from neglect to such an
+extent, that it has become difficult to determine the correct one out of a maze
+of variant readings.</p>
+<p>But now we have exposed the basic ideas underlying this discourse through
+semantic and etymological explanations, which may even appear rather academic.
+The task before us now is to assimilate the deep philosophy the Buddha presents
+to the world by this discourse in a way that it becomes a vision.</p>
+<p>The Tathāgata who had an insight into the interior mechanism of the six-fold
+sense-base, which is the factory for producing dogmatic views that are beaten up
+on the anvil of logic, <em>takkapariyāhata</em>, was confronted with the problem of
+mediation with the worldlings, who see only the exterior of the six-fold
+sense-base.</p>
+<p>In order to facilitate the understanding of the gravity of this problem, we
+quoted the other day an extract from the <em>Pheṇapiṇḍūpamasutta</em> of the
+<em>Khandhasaṁyutta</em> where consciousness is compared to a magical illusion.</p>
+<blockquote>
+<p><em>Seyyathāpi, bhikkhave, māyākāro vā māyākārantevāsī vā cātummahāpathe māyaṁ
+vidaṁseyya, tam enaṁ cakkhumā puriso passeyya nijjhāyeyya yoniso
+upaparikkheyya. Tassa taṁ passato nijjhāyato yoniso upaparikkhato
+rittakaññ’eva khāyeyya tucchakaññ’eva khāyeyya asārakaññ’eva khāyeyya. Kiñhi
+siyā, bhikkhave, māyāya sāro.</em></p>
+<p><em>Evameva kho, bhikkhave, yaṁ kiñci viññāṇaṁ atītānāgatapaccuppannaṁ, ajjhattaṁ
+vā bahiddhā vā, oḷārikaṁ vā sukhumaṁ vā, hīnaṁ vā paṇītaṁ vā, yaṁ dūre santike
+vā, taṁ bhikkhu passati nijjhāyati yoniso upaparikkhati. Tassa taṁ passato
+nijjhāyato yoniso upaparikkhato rittakaññ’eva khāyati tucchakaññ’eva khāyati
+asārakaññ’eva khāyati. Kiñhi siyā, bhikkhave, viññāṇe sāro.</em><sup class="footnote-reference" id="fr-fn839-1"><a href="#fn-fn839">2</a></sup></p>
+<p>Suppose, monks, a magician or a magician’s apprentice should hold a magic show
+at the four crossroads and a keen sighted man should see it, ponder over it
+and reflect on it radically. Even as he sees it, ponders over it and reflects
+on it radically, he would find it empty, he would find it hollow, he would
+find it void of essence. What essence, monks, could there be in a magic show?</p>
+<p>Even so, monks, whatever consciousness, be it past, future or present, in
+oneself or external, gross or subtle, inferior or superior, far or near, a
+monk sees it, ponders over it and reflects on it radically. Even as he sees
+it, ponders over it and reflects on it radically, he would find it empty, he
+would find it hollow, he would find it void of essence. What essence, monks,
+could there be in consciousness?</p>
+</blockquote>
+<p>So for the Buddha, consciousness is comparable to a magic show. This is a most
+extraordinary exposition, not to be found in any other philosophical system,
+because the soul theory tries to sit pretty on consciousness when all other
+foundations are shattered. But then, even this citadel itself the Buddha has
+described in this discourse as essenceless and hollow, as a magical illusion.
+Let us now try to clarify for ourselves the full import of this simile of the
+magic show.</p>
+<p>A certain magician is going to hold a magic show in some hall or theatre. Among
+those who have come to see the magic show, there is a witty person with the
+wisdom eye, who tells himself: “Today I must see the magic show inside out!”</p>
+<p>With this determination he hides himself in a corner of the stage, unseen by
+others. When the magic show starts, this person begins to discover, before long,
+the secrets of the magician, his deceitful stock-in-trade – counterfeits, hidden
+strings and buttons, secret pockets and false bottoms in his magic boxes. He
+observes clearly all the secret gadgets that the audience is unaware of. With
+this vision, he comes to the conclusion that there is no magic in any of those
+gadgets.</p>
+<p>Some sort of disenchantment sets in. Now he has no curiosity, amazement, fright
+or amusement that he used to get whenever he watched those magic shows. Instead
+he now settles into a mood of equanimity. Since there is nothing more for him to
+see in the magic show, he mildly turns his attention towards the audience. Then
+he sees the contrast. The entire hall is a sea of craned necks, gaping mouths
+and goggle-eyes with ‘Ahs’ and ‘Ohs’ and whistles of speechless amazement. At
+this sorry sight, he even feels remorseful that he himself was in this same
+plight before. So in this way he sees through the magic show – an ‘insight’
+instead of a ‘sight’.</p>
+<p>When the show ends, he steps out of the hall and tries to slink away unseen. But
+he runs into a friend of his, who also was one of the spectators. Now he has to
+listen to a vivid commentary on the magic show. His friend wants him to join in
+his appreciation, but he listens through with equanimity. Puzzled by this
+strange reserved attitude, the friend asks:</p>
+<p>“Why, you were in the same hall all this time, weren’t you?”</p>
+<p>“Yes, I was.”</p>
+<p>“Then were you sleeping?”</p>
+<p>“Oh, no.”</p>
+<p>“You weren’t watching closely, I suppose.”</p>
+<p>“No, no, I was watching it all right, maybe I was watching too closely.”</p>
+<p>“You say you were watching, but you don’t seem to have seen the show.”</p>
+<p>“No, I saw it. In fact I saw it so well that I missed the show.”</p>
+<p>The above dialogue between the man who watched the show with discernment and the
+one who watched with naive credulity should give a clue to the riddle-like
+proclamations of the Buddha in the <em>Kāḷakārāmasutta</em>. The Buddha also was
+confronted with the same problematic situation after his enlightenment, which
+was an insight into the magic show of consciousness.</p>
+<p>That man with discernment hid himself in a corner of the stage to get that
+insight. The Buddha also had to hide in some corner of the world stage for his
+enlightenment. The term <em>paṭisallāna</em>, ‘solitude’, has a nuance suggestive of a
+hide-away. It is in such a hide-away that the Buddha witnessed the interior of
+the six-fold sense-base. The reason for his equanimity towards conflicting views
+about truth and falsehood in the world, as evidenced by this discourse, is the
+very insight into the six sense-bases.</p>
+<p>First of all, let us try to compare our parable with the discourse proper. Now
+the Buddha declares:</p>
+<blockquote>
+<p><em>Yaṁ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa
+sassamaṇabrāhmaṇiyā pajāya sadevamanussāya diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ
+pariyesitaṁ anuvicaritaṁ manasā, tam ahaṁ jānāmi.</em></p>
+<p><em>Yaṁ, bhikkhave, sadevakassa lokassa samārakassa sabrahmakassa
+sassamaṇabrāhmaṇiyā pajāya sadevamanussāya diṭṭhaṁ sutaṁ mutaṁ viññātaṁ pattaṁ
+pariyesitaṁ anuvicaritaṁ manasā, tam ahaṁ abhaññāsiṁ. Taṁ tathāgatasssa
+viditaṁ, taṁ tathāgato na upaṭṭhāsi.</em><sup class="footnote-reference" id="fr-fn840-1"><a href="#fn-fn840">3</a></sup></p>
+<p>Monks, whatsoever in the world, with its gods, Māras and Brahmas, among the
+progeny consisting of recluses and Brahmins, gods and men, whatsoever is seen,
+heard, sensed, cognized, sought after and pondered over by the mind, all that
+do I know.</p>
+<p>Monks, whatsoever in the world, with its gods, Māras and Brahmas, among the
+progeny consisting of recluses and Brahmins, gods and men, whatsoever is seen,
+heard, sensed, cognized, sought after and pondered over by the mind, that have
+I fully understood. All that is known to the Tathāgata, but the Tathāgata has
+not taken his stand upon it.</p>
+</blockquote>
+<p>Here the Buddha does not stop after saying that he knows all that, but goes on
+to declare that he has fully understood all that and that it is known to the
+Tathāgata. The implication is that he has seen through all that and discovered
+their vanity, hollowness and essencelessness. That is to say, he not only knows,
+but he has grown wiser. In short, he has seen the magic show so well as to miss
+the show.</p>
+<p>Unlike in the case of those worldly spectators, the released mind of the
+Tathāgata did not find anything substantial in the magic show of consciousness.
+That is why he refused to take his stand upon the sense-data, <em>taṁ tathāgato na
+upaṭṭhāsi</em>, “the Tathāgata has not taken his stand upon it”. In contrast to the
+worldly philosophers, the <em>tathāgatas</em> have no entanglement with all that,
+<em>ajjhositaṁ natthi tathāgatānaṁ.</em></p>
+<p>The dialogue we have given might highlight these distinctions regarding levels
+of knowledge. It may also throw more light on the concluding statement that
+forms the gist of the discourse.</p>
+<blockquote>
+<p><em>Iti kho, bhikkhave, tathāgato diṭṭhā daṭṭhabbaṁ diṭṭhaṁ na maññati, adiṭṭhaṁ
+na maññati, daṭṭhabbaṁ na maññati, daṭṭhāraṁ na maññati. Sutā sotabbaṁ sutaṁ
+na maññati, asutaṁ na maññati, sotabbaṁ na maññati, sotāraṁ na maññati. Mutā
+motabbaṁ mutaṁ na maññati, amutaṁ na maññati, motabbaṁ na maññati, motāraṁ na
+maññati. Viññātā viññātabbaṁ viññātaṁ na maññati, aviññātaṁ na maññati,
+viññātabbaṁ na maññati, viññātāraṁ na maññati.</em></p>
+<p>Thus, monks, a Tathāgata does not imagine a visible thing as apart from
+seeing, he does not imagine an unseen, he does not imagine a thing worth
+seeing, he does not imagine a seer. He does not imagine an audible thing as
+apart from hearing, he does not imagine an unheard, he does not imagine a
+thing worth hearing, he does not imagine a hearer. He does not imagine a thing
+to be sensed as apart from sensation, he does not imagine an unsensed, he does
+not imagine a thing worth sensing, he does not imagine one who senses. He does
+not imagine a cognizable thing as apart from cognition, he does not imagine an
+uncognized, he does not imagine a thing worth cognizing, he does not imagine
+one who cognizes.</p>
+</blockquote>
+<p>It is like the hesitation of that man with discernment who, on coming out of the
+hall, found it difficult to admit categorically that he had seen the magic show.
+Since the Tathāgata had an insight into the mechanism of the six-fold
+sense-base, that is to say, its conditioned nature, he understood that there is
+no one to see and nothing to see – only a seeing is there.</p>
+<p>The dictum of the <em>Bāhiyasutta</em> “in the seen just the seen”, <em>diṭṭhe
+diṭṭhamattaṁ</em>,<sup class="footnote-reference" id="fr-fn841-1"><a href="#fn-fn841">4</a></sup> which we cited the other day, becomes more meaningful
+now. Only a seeing is there. Apart from the fact of having seen, there is
+nothing substantial to see. There is no magic to see. <em>Diṭṭhā daṭṭhabbaṁ diṭṭhaṁ
+na maññati,</em> he does not imagine a sight worthwhile apart from the seen. There
+is no room for a conceit of having seen a magic show.</p>
+<p>On the other hand, it is not possible to deny the fact of seeing, <em>adiṭṭhaṁ na
+maññati</em>. He does not imagine an unseen. Now that friend was curious whether
+this one was asleep during the magic show, but that was not the case either.</p>
+<p><em>Daṭṭhabbaṁ na maññati</em>, the Tathāgata does not imagine a thing worthwhile
+seeing. The equanimity of that witty man was so much that he turned away from
+the bogus magic show to have a look at the audience below. This way we can
+understand how the Tathāgata discovered that there is only a seen but nothing
+worthwhile seeing.</p>
+<p>Likewise the phrase <em>daṭṭhāraṁ na maññati</em>, he does not imagine a seer, could
+also be understood in the light of this parable. All those who came out of that
+hall, except this discerning one, were spectators. He was not one of the
+audience, because he had an insight into the magic show from his hiding place on
+the stage.</p>
+<p>The statement <em>tam ahaṁ ’na jānāmī’ti vadeyyaṁ, taṁ mama assa musā</em>, “if I were
+to say, that I do not know, it would be a falsehood in me”, could similarly be
+appreciated in the light of the dialogue after the magic show.</p>
+<p>The discerning one could not say that he was not aware of what was going on,
+because he was fully awake during the magic show. Nor can he say that he was
+aware of it in the ordinary sense. An affirmation or negation of both
+standpoints would be out of place. This gives us a clue to understand the two
+statements of the Tathāgata to the effect that he is unable to say that he both
+knows and does not know, <em>jānāmi ca na ca jānāmi</em>, and neither knows nor does
+not know, <em>n’eva jānāmi na na jānāmi</em>.</p>
+<p>All this is the result of his higher understanding, indicated by the word
+<em>abhaññāsiṁ</em>. The Tathāgata saw the magic show of consciousness so well as to
+miss the show, from the point of view of the worldlings.</p>
+<p>Now we come to the conclusive declaration:</p>
+<blockquote>
+<p><em>Iti kho, bhikkhave, tathāgato diṭṭha-suta-muta-viññātabbesu dhammesu tādī
+yeva tādī, tamhā ca pana tādimhā añño tādī uttaritaro vā paṇītataro vā
+natthī’ti vadāmi.</em></p>
+<p>Thus, monks, the Tathāgata, being such in regard to all phenomena, seen,
+heard, sensed and cognized, is such. Moreover than he who is such there is
+none other higher or more excellent, I declare.</p>
+</blockquote>
+<p>The other day we discussed the implications of the term <em>tādī</em>.<sup class="footnote-reference" id="fr-fn842-1"><a href="#fn-fn842">5</a></sup> The term
+is usually explained as signifying the quality of remaining unshaken before the
+eight worldly vicissitudes. But in this context, it has a special significance.
+It implies an equanimous attitude towards dogmatic views and view-holders. This
+attitude avoids categorical affirmation or negation regarding the question of
+truth and falsehood. It grants a relative reality to those viewpoints.</p>
+<p>This is the moral behind the hesitation to give clear-cut answers to that
+inquisitive friend in our pithy dialogue. It is not the outcome of a dilly-dally
+attitude. There is something really deep. It is the result of an insight into
+the magic show. The reason for this suchness is the understanding of the norm of
+dependent arising, known as <em>tathatā</em>.</p>
+<p>It is obvious from the expositions of the norm of dependent arising that there
+are two aspects involved, namely, <em>anuloma</em>, direct order, and <em>paṭiloma</em>,
+indirect order.</p>
+<p>The direct order is to be found in the first half of the twelve linked formula,
+beginning with the word <em>avijjāpaccayā saṅkhārā</em>, “dependent on ignorance,
+preparations”, while the indirect order is given in the second half with the
+words, <em>avijjāya tveva asesavirāganirodhā</em> etc., “with the remainderless fading
+away and cessation of ignorance” etc.</p>
+<p>The implication is that where there is ignorance, aggregates of grasping get
+accumulated, which, in other words, is a heaping up of suffering. That is a
+fact. But then, when ignorance fades away and ceases, they do not get
+accumulated.</p>
+<p>Now, with this magic show as an illustration, we can get down to a deeper
+analysis of the law of dependent arising. In a number of earlier sermons, we
+have already made an attempt to explain a certain deep dimension of this law,
+with the help of illustrations from the dramatic and cinematographic fields. The
+magic show we have brought up now is even more striking as an illustration.</p>
+<p>In the case of the cinema, the background of darkness we compared to the
+darkness of ignorance. Because of the surrounding darkness, those who go to the
+cinema take as real whatever they see on the screen and create for themselves
+various moods and emotions.</p>
+<p>In the case of the magic show, the very ignorance of the tricks of the magician
+is what accounts for the apparent reality of the magic performance. Once the
+shroud of ignorance is thrown off, the magic show loses its magic for the
+audience. The magician’s secret stock-in-trade gave rise to the <em>saṅkhāras</em> or
+preparations with the help of which the audience created for themselves a magic
+show.</p>
+<p>To that discerning man, who viewed the show from his hiding place on the stage,
+there were no such preparations. That is why he proverbially missed the show.</p>
+<p>The same principle holds good in the case of the magical illusion, <em>māyā</em>, that
+is consciousness. A clear instance of this is the reference in the
+<em>Mahāvedallasutta</em> of the <em>Majjhima Nikāya</em> to <em>viññāṇa</em>, consciousness, and
+<em>paññā</em>, wisdom, as two conjoined psychological states.</p>
+<p>They cannot be separated one from the other, <em>saṁsaṭṭhā no visaṁsaṭṭhā</em>.<sup class="footnote-reference" id="fr-fn843-1"><a href="#fn-fn843">6</a></sup>
+But they can be distinguished functionally. Out of them, wisdom is to be
+developed, while consciousness is to be comprehended, <em>paññā bhāvetabbā,
+viññāṇaṁ pariññeyyaṁ</em>.</p>
+<p>The development of wisdom is for the purpose of comprehending consciousness and
+comprehended consciousness proves to be empty, essenceless and hollow. It is
+such a transformation that took place within the person who watched the magic
+show with discernment. He watched it too closely, so much so, that the
+preparations, <em>saṅkhārā</em>, in the form of the secret stock-in-trade of the
+magician, became ineffective and nugatory.</p>
+<p>This makes clear the connection between ignorance, <em>avijjā</em>, and preparations,
+<em>saṅkhārā</em>. That is why ignorance takes precedence in the formula of dependent
+arising. Preparations owe their effectiveness to ignorance. They are dependent
+on ignorance. To understand preparations for what they are is knowledge.
+Simultaneous with the arising of that knowledge, preparations become mere
+preparations, or pure preparations, <em>suddha saṅkhārā</em>.</p>
+<p>This gives us the clue to unravel the meaning of the verse in the <em>Adhimutta
+Theragāthā</em>, quoted earlier.</p>
+<blockquote>
+<p><em>Suddhaṁ dhammasamuppādaṁ,</em> <br />
+<em>suddhaṁ saṅkhārasantatiṁ,</em> <br />
+<em>passantassa yathābhūtaṁ,</em> <br />
+<em>na bhayaṁ hoti gāmani.</em><sup class="footnote-reference" id="fr-fn844-1"><a href="#fn-fn844">7</a></sup></p>
+<p>To one who sees <br />
+The arising of pure <em>dhammas</em> <br />
+And the sequence of pure preparations, as they are, <br />
+There is no fear, oh headman.</p>
+</blockquote>
+<p>In a limited sense, we can say that graspings relating to a magic show did not
+get accumulated in the mind of that discerning person, while his friend was
+gathering them eagerly. The latter came out of the hall as if coming out of the
+magic world. He had been amassing graspings proper to a magic world due to his
+ignorance of those preparations.</p>
+<p>From this one may well infer that if at any point of time consciousness is
+comprehended by wisdom, preparations, <em>saṅkhārā</em>, become mere preparations, or
+pure preparations. Being influx-free, they do not go to build up a prepared,
+<em>saṅkhata</em>. They do not precipitate an amassing of grasping, <em>upādāna</em>, to bring
+about an existence, <em>bhava.</em> This amounts to a release from existence.</p>
+<p>One seems to be in the world, but one is not of the world. That man with
+discernment was in the hall all that time, but it was as if he was not there.</p>
+<p>Let us now go deeper into the implications of the term <em>tādī</em>, ‘such’, with
+reference to the law of dependent arising, known as <em>tathatā</em>, ‘suchness’. From
+the dialogue that followed the magic show, it is clear that there are two points
+of view. We have here a question of two different points of view. If we are to
+explain these two viewpoints with reference to the law of dependent arising, we
+may allude to the distinction made for instance in the <em>Nidāna Saṁyutta</em> between
+the basic principle of dependent arising and the phenomena dependently arisen.
+We have already cited the relevant declaration.</p>
+<blockquote>
+<p><em>Paṭiccasamuppādañca vo, bhikkhave, desessāmi paṭiccasamuppanne ca
+dhamme.</em><sup class="footnote-reference" id="fr-fn845-1"><a href="#fn-fn845">8</a></sup></p>
+<p>Monks, I shall preach to you dependent arising and things that are dependently
+arisen.</p>
+</blockquote>
+<p>Sometimes two significant terms are used to denote these two aspects, namely
+<em>hetu</em> and <em>hetusamuppannā dhammā</em>.</p>
+<p>About the <em>ariyan</em> disciple, be he even a stream-winner, it is said that his
+understanding of dependent arising covers both these aspects, <em>hetu ca sudiṭṭho
+hetusamuppannā ca dhammā</em>.<sup class="footnote-reference" id="fr-fn846-1"><a href="#fn-fn846">9</a></sup> The cause, as well as the things arisen from
+a cause, are well seen or understood by him.</p>
+<p>As we pointed out in our discussion of the hill-top festival in connection with
+the Upatissa and Kolita episode,<sup class="footnote-reference" id="fr-fn847-1"><a href="#fn-fn847">10</a></sup> the disenchantment with the hill-top
+festival served as a setting for their encounter with the venerable Assaji. As
+soon as venerable Assaji uttered the significant pithy verse:</p>
+<blockquote>
+<p><em>Ye dhammā hetuppabhavā,</em> <br />
+<em>tesaṁ hetuṁ tathāgato āha,</em> <br />
+<em>tesañca yo nirodho,</em> <br />
+<em>evaṁ vādī mahāsamaṇo.</em><sup class="footnote-reference" id="fr-fn848-1"><a href="#fn-fn848">11</a></sup></p>
+<p>Of things that proceed from a cause, <br />
+Their cause the Tathāgata has told, <br />
+And also their cessation, <br />
+Thus teaches the great ascetic.</p>
+</blockquote>
+<p>The wandering ascetic Upatissa, who was to become venerable Sāriputta later,
+grasped the clue to the entire <em>saṁsāric</em> riddle then and there, and discovered
+the secret of the magic show of consciousness, even by the first two lines. That
+was because he excelled in wisdom.</p>
+<p>As soon as he heard the lines “of things that proceed from a cause, their cause
+the Tathāgata has told”, he understood the basic principle of dependent arising,
+<em>yaṁ kiñci samudayadhammaṁ, sabbaṁ taṁ nirodhadhammaṁ</em>, “whatever is of a nature
+to arise, all that is of a nature to cease”. The wandering ascetic Kolita,
+however, became a stream-winner only on hearing all four lines.</p>
+<p>This pithy verse has been variously interpreted. But the word <em>hetu</em> in this
+verse has to be understood as a reference to the law of dependent arising. When
+asked what <em>paṭicca samuppāda</em> is, the usual answer is a smattering of the
+twelve-linked formula in direct and reverse order. The most important normative
+prefatory declaration is ignored:</p>
+<blockquote>
+<p><em>Imasmiṁ sati idaṁ hoti,</em> <br />
+<em>imassa uppādā idaṁ upajjati,</em> <br />
+<em>imasmiṁ asati idaṁ na hoti,</em> <br />
+<em>imassa nirodhā idaṁ nirujjhati.</em></p>
+<p>This being, this comes to be; <br />
+With the arising of this, this arises; <br />
+This not being, this does not come to be; <br />
+With the cessation of this, this ceases.</p>
+</blockquote>
+<p>This statement of the basic principle of dependent arising is very often
+overlooked. It is this basic principle that finds expression in that pithy
+verse.</p>
+<p>The line <em>ye dhammā hetuppabhavā</em>, “of things that proceed from a cause”, is
+generally regarded as a reference to the first link <em>avijjā</em>. But this is not
+the case. All the twelve links are dependently arisen, and <em>avijjā</em> is no
+exception. Even ignorance arises with the arising of influxes, <em>āsavasamudayā
+avijjāsamudayo</em>.<sup class="footnote-reference" id="fr-fn849-1"><a href="#fn-fn849">12</a></sup> Here we have something extremely deep.</p>
+<p>The allusion here is to the basic principle couched in the phrases <em>imasmiṁ sati
+idaṁ hoti</em> etc. In such discourses as the <em>Bahudhātukasutta</em> the twelve-linked
+formula is introduced with a set of these thematic phrases, which is then
+related to the formula proper with the conjunctive “that is to say”,
+<em>yadidaṁ</em>.<sup class="footnote-reference" id="fr-fn850-1"><a href="#fn-fn850">13</a></sup></p>
+<p>This conjunctive clearly indicates that the twelve-linked formula is an
+illustration. The twelve links are therefore things dependently arisen, <em>paṭicca
+samuppannā dhammā</em>. They are all arisen from a cause, <em>hetuppabhavā dhammā</em>.</p>
+<p>So even ignorance is not the cause. The cause is the underlying principle
+itself. This being, this comes to be. With the arising of this, this arises.
+This not being, this does not come to be. With the cessation of this, this
+ceases. This is the norm, the suchness, <em>tathatā</em>, that the Buddha discovered.</p>
+<p>That man with discernment at the magic show, looking down at the audience with
+commiseration, had a similar sympathetic understanding born of realization: “I
+too have been in this same sorry plight before”.</p>
+<p>Due to ignorance, a sequence of phenomena occurs, precipitating a heaping of
+graspings. With the cessation of ignorance, all that comes to cease. It is by
+seeing this cessation that the momentous inner transformation took place. The
+insight into this cessation brings about the realization that all what the
+worldlings take as absolutely true, permanent or eternal, are mere phenomena
+arisen from the mind. <em>Manopubbangamā dhammā</em>, mind is the forerunner of all
+mind-objects.<sup class="footnote-reference" id="fr-fn851-1"><a href="#fn-fn851">14</a></sup> One comes to understand that all what is arisen is bound
+to cease, and that the cessation can occur here and now.</p>
+<p>In discussing the formula of <em>paṭicca samuppāda</em>, the arising of the six
+sense-bases is very often explained with reference to a mother’s womb. It is the
+usual practice to interpret such categories as <em>nāma-rūpa</em>, name-and-form, and
+<em>saḷāyatana</em>, six sense-bases, purely in physiological terms. But for the Buddha
+the arising of the six sense-bases was not a stage in the growth of a foetus in
+the mother’s womb.</p>
+<p>It was through wisdom that he saw the six bases of sense-contact arising then
+and there, according to the formula beginning with <em>cakkhuñca paṭicca rūpe ca
+uppajjati cakkhuviññāṇaṁ</em>, “dependent on eye and forms arises eye-consciousness”
+etc. They are of a nature of arising and ceasing, like that magic show.
+Everything in the world is of a nature to arise and cease.</p>
+<p>The words <em>ye dhammā hetuppabhavā</em>, “of things that proceed from a cause” etc.,
+is an enunciation of that law. Any explanation of the law of dependent arising
+should rightly begin with the basic principle <em>imasmiṁ sati idaṁ hoti,</em> “this
+being, this comes to be” etc.</p>
+<p>This confusion regarding the way of explaining <em>paṭicca samuppāda</em> is a case of
+missing the wood for the trees. It is as if the Buddha stretches his arm and
+says: “That is a forest”, and one goes and catches hold of a tree, exclaiming:
+“Ah, this is the forest”. To rattle off the twelve links in the hope of grasping
+the law of <em>paṭicca samuppāda</em> is like counting the number of trees in order to
+see the forest.</p>
+<p>The subtlest point here is the basic principle involved. “This being, this comes
+to be. With the arising of this, this arises. This not being, this does not come
+to be. With the cessation of this, this ceases”.</p>
+<p>Let us now examine the connection between the law of dependent arising, <em>paṭicca
+samuppāda</em>, and things dependently arisen, <em>paṭiccasamuppannā dhammā</em>.</p>
+<p>Worldings do not even understand things dependently arisen as ‘dependently
+arisen’. They are fully involved in them. That itself is <em>saṁsāra</em>. One who has
+seen the basic principle of <em>paṭicca samuppāda</em> understands the dictum,
+<em>avijjāya sati saṅkhārā honti</em>, preparations are there only when ignorance is
+there.<sup class="footnote-reference" id="fr-fn852-1"><a href="#fn-fn852">15</a></sup> So he neither grasps ignorance, nor does he grasp preparations.</p>
+<p>In fact, to dwell on the law of dependent arising is the way to liberate the
+mind from the whole lot of dependently arisen things. Now why do we say so?
+Everyone of those twelve links, according to the Buddha, is impermanent,
+prepared, dependently arisen, of a nature to wither away, wear away, fade away
+and cease, <em>aniccaṁ, saṅkhataṁ, paṭicca samuppannaṁ, khayadhammaṁ, vayadhammaṁ,
+virāgadhammaṁ, nirodhadhammaṁ</em>.<sup class="footnote-reference" id="fr-fn853-1"><a href="#fn-fn853">16</a></sup></p>
+<p>The very first link <em>avijjā</em> is no exception. They are impermanent because they
+are made up or prepared, <em>saṅkhata</em>. The term <em>saṅkhataṁ</em> has nuances of
+artificiality and spuriousness. All the links are therefore unreal in the
+highest sense. They are dependent on contact, <em>phassa</em>, and therefore
+dependently arisen. It is in their nature to wither away, wear away, fade away
+and cease.</p>
+<p>When one has understood this as a fact of experience, one brings one’s mind to
+rest, not on the things dependently arisen, but on the law of dependent arising
+itself.</p>
+<p>There is something extraordinary about this. One must not miss the wood for the
+trees. When the Buddha stretches his arm and says: “That is a forest”, he does
+not expect us to go and grasp any of the trees, or to go on counting them, so as
+to understand what a forest is. One has to get a synoptic view of it from here
+itself. Such a view takes into account not only the trees, but also the
+intervening spaces between them, all at one synoptic glance.</p>
+<p>In order to get a correct understanding of <em>paṭicca samuppāda</em> from a pragmatic
+point of view, one has to bring one’s mind to rest on the norm that obtains
+between every two links. But this is something extremely difficult, because the
+world is steeped in the notion of duality. It grasps either this end, or the
+other end. Hard it is for the world to understand the stance of the <em>arahant</em>
+couched in the cryptic phrase:</p>
+<blockquote>
+<p><em>nev’idha na huraṁ na ubhayam antare</em>,<sup class="footnote-reference" id="fr-fn854-1"><a href="#fn-fn854">17</a></sup></p>
+<p>neither here nor there nor in between the two.</p>
+</blockquote>
+<p>The worldling is accustomed to grasp either this end or the other end. For
+instance, one may grasp either ignorance, <em>avijjā</em>, or preparations, <em>saṅkhārā</em>.
+But here we have neither. When one dwells on the interrelation between them, one
+is at least momentarily free from ignorance as well as from the delusive nature
+of preparations.</p>
+<p>Taking the magic show itself as an illustration, let us suppose that the
+magician is performing a trick, which earlier appeared as a miracle. But now
+that one sees the counterfeits, hidden strings and secret bottoms, one is aware
+of the fact that the magical effect is due to the evocative nature of those
+preparations. So he does not take seriously those preparations. His ignorance is
+thereby reduced to the same extent.</p>
+<p>This is how each of those links gets worn out, as the phrase <em>khayadhammaṁ,
+vayadhammaṁ, virāgadhammaṁ, nirodhadhammaṁ</em> suggests. All the links are of a
+nature to wither away, wear away, fade away and cease. So, then, preparations
+are there only when ignorance is there. The preparations are effective only so
+long as ignorance is there. With the arising of ignorance, preparations arise.
+When ignorance is not there, preparations lose their provenance. With the
+complete fading away and cessation of ignorance, preparations, too, fade away
+and cease without residue. This, then, is the relationship between those two
+links.</p>
+<p>Let us go for another instance to illustrate this point further.
+<em>Saṅkhārapaccayā viññāṇaṁ</em>, “dependent on preparations is consciousness”.
+Generally, the worldlings are prone to take consciousness as a compact unit.
+They regard it as their self or soul. When everything else slips out from their
+grasp, they grasp consciousness as their soul, because it is invisible.</p>
+<p>Now if someone is always aware that consciousness arises dependent on
+preparations, that with the arising of preparations consciousness arises –
+always specific and never abstract – consciousness ceases to appear as a
+monolithic whole.</p>
+<p>This particular eye-consciousness has arisen because of eye and forms. This
+particular ear-consciousness has arisen because of ear and sound, and so on.
+This kind of reflection and constant awareness of the part played by
+preparations in the arising of consciousness will conduce to the withering away,
+wearing away and fading away of consciousness. Disgust, disillusionment and
+dejection in regard to consciousness is what accounts for its complete
+cessation, sooner or later.</p>
+<p>Consciousness is dependent on preparations, and name-and-form, <em>nāma-rūpa</em>, is
+dependent on consciousness. The worldling does not even recognize <em>nāma-rūpa</em> as
+such. We have already analyzed the mutual relationship between name-and-form as
+a reciprocity between nominal form and formal name.<sup class="footnote-reference" id="fr-fn855-1"><a href="#fn-fn855">18</a></sup> They always go
+together and appear as a reflection on consciousness. Here is a case of
+entanglement within and an entanglement without, <em>anto jaṭā bahi jaṭā</em>.<sup class="footnote-reference" id="fr-fn856-1"><a href="#fn-fn856">19</a></sup></p>
+<p>We brought in a simile of a dog on a plank to illustrate the involvement with
+name-and-form. When one understands that this name-and-form, which the world
+takes as real and calls one’s own, is a mere reflection on consciousness, one
+does not grasp it either.</p>
+<p>To go further, when one attends to the fact that the six sense-bases are
+dependent on name-and-form, and that they are there only as long as
+name-and-form is there, and that with the cessation of name-and-form the six
+sense-bases also cease, one is attuning one’s mind to the law of dependent
+arising, thereby weaning one’s mind away from its hold on dependently arisen
+things.</p>
+<p>Similarly, contact arises in dependence on the six sense-bases. Generally, the
+world is enslaved by contact. In the <em>Nandakovādasutta</em> of the <em>Majjhima Nikāya</em>
+there is a highly significant dictum, stressing the specific character of
+contact as such.</p>
+<blockquote>
+<p><em>Tajjaṁ tajjaṁ, bhante, paccayaṁ paṭicca tajjā tajjā vedanā uppajjanti;
+tajjassa tajjassa paccayassa nirodhā tajjā tajjā vedanā nirujjhanti.</em><sup class="footnote-reference" id="fr-fn857-1"><a href="#fn-fn857">20</a></sup></p>
+<p>Dependent on each specific condition, venerable sir, specific feelings arise,
+and with the cessation of each specific condition, specific feelings cease.</p>
+</blockquote>
+<p>The understanding that contact is dependent on the six sense-bases enables one
+to overcome the delusion arising out of contact. Since it is conditioned and
+limited by the six sense-bases, with their cessation it has to cease. Likewise,
+to attend to the specific contact as the cause of feeling is the way of
+disenchantment with both feeling and contact.</p>
+<p>Finally, when one understands that this existence is dependent on grasping,
+arising out of craving, one will not take existence seriously. Dependent on
+existence is birth, <em>bhavapaccayā jāti</em>. While the magic show was going on, the
+spectators found themselves in a magic world, because they grasped the magic in
+it. Even so, existence, <em>bhava</em>, is dependent on grasping, <em>upādāna</em>.</p>
+<p>Just as one seated on this side of a parapet wall might not see what is on the
+other side, what we take as our existence in this world is bounded by our
+parents from the point of view of birth. What we take as death is the end of
+this physical body. We are ignorant of the fact that it is a flux of
+preparations, <em>saṅkhārasantati</em>.<sup class="footnote-reference" id="fr-fn858-1"><a href="#fn-fn858">21</a></sup> Existence is therefore something
+prepared or made up. Birth is dependent on existence.</p>
+<p>Sometimes we happen to buy from a shop an extremely rickety machine deceived by
+its paint and polish, and take it home as a brand new thing. The very next day
+it goes out of order. The newly bought item was born only the previous day, and
+now it is out of order, to our disappointment.</p>
+<p>So is our birth with its unpredictable vicissitudes, taking us through decay,
+disease, sorrow, lamentation, pain, grief and despair. This is the price we pay
+for this brand new body we are blessed with in this existence.</p>
+<p>In this way we can examine the relation between any two links of the formula of
+dependent arising. It is the insight into this norm that constitutes the
+understanding of <em>paṭicca samuppāda</em>, and not the parrot-like recitation by
+heart of the formula in direct and reverse order.</p>
+<p>Of course, the formulation in direct and reverse order has its own special
+significance, which highlights the fact that the possibility of a cessation of
+those twelve links lies in their arising nature itself. Whatever is of a nature
+to arise, all that is of a nature to cease, <em>yaṁ kiñci samudayadhammaṁ, sabbaṁ
+taṁ nirodhadhammaṁ</em>. As for the <em>arahant</em>, he has realized this fact in a way
+that the influxes are made extinct.</p>
+<p>To go further into the significance of the formula, we may examine why
+ignorance, <em>avijjā</em>, takes precedence in it. This is not because it is permanent
+or uncaused. The deepest point in the problem of release from <em>saṁsāra</em> is
+traceable to the term <em>āsavā</em>, or influxes. Influxes are sometimes reckoned as
+fourfold, namely those of sensuality, <em>kāmāsavā</em>, of existence, <em>bhavāsavā</em>, of
+views, <em>diṭṭhāsavā</em>, and of ignorance, <em>avijjāsavā</em>.</p>
+<p>But more often, in contexts announcing the attainment of <em>arahanthood</em>, the
+standard reference is to three types of influxes, <em>kāmāsavā pi cittaṁ vimuccati,
+bhavāsavā pi cittaṁ vimuccati, āvijjāsavā pi cittaṁ vimuccati,</em> the mind is
+released from influxes of sensuality, existence and ignorance. This is because
+the influxes of ignorance could easily include those of views as well.</p>
+<p>The term <em>āsavā</em> implies those corrupting influences ingrained in beings due to
+<em>saṁsāric</em> habits. They have a tendency to flow in and tempt beings towards
+sensuality, existence and ignorance.</p>
+<p>It might be difficult to understand why even ignorance is reckoned as a kind of
+influxes, while it is recognized as the first link in the chain of dependent
+arising. Ignorance or ignoring is itself a habit. There is a tendency in
+<em>saṁsāric</em> beings to grope in darkness and dislike light. They have a tendency
+to blink at the light and ignore. It is easy to ignore and forget. This
+forgetting trait enables them to linger long in <em>saṁsāra</em>.</p>
+<p>Ignorance as a kind of influxes is so powerful that even the keenest in wisdom
+cannot attain <em>arahanthood</em> at once. The wheel of Dhamma has to turn four times,
+hence the fourfold distinction as stream-winner, once returner, non-returner and
+<em>arahant</em>. The difficulty of combating this onslaught of influxes is already
+insinuated by the term <em>sattakkhattuparama</em>, ‘seven more lives at the
+most’,<sup class="footnote-reference" id="fr-fn859-1"><a href="#fn-fn859">22</a></sup> designating a stream-winner, and the term <em>sakadāgāmī</em>,
+‘once-returner’.</p>
+<p>The way to cut off these influxes is the very insight into the law of dependent
+arising. Sometimes the path is defined as the law of dependent arising itself.
+That doesn’t mean the ability to rattle off the twelve links by heart, but the
+task of bringing the mind to rest on the norm of <em>paṭicca samuppāda</em> itself.</p>
+<blockquote>
+<p><em>Imasmiṁ sati idaṁ hoti,</em> <br />
+<em>imassa uppādā idaṁ upajjati,</em> <br />
+<em>imasmiṁ asati idaṁ na hoti,</em> <br />
+<em>imassa nirodhā idaṁ nirujjhati.</em></p>
+<p>This being, this comes to be; <br />
+With the arising of this, this arises; <br />
+This not being, this does not come to be; <br />
+With the cessation of this, this ceases.</p>
+</blockquote>
+<p>It is an extremely difficult task, because the mind tends to slip off. The
+habitual tendency is to grasp this one or the other. The worldling, for the most
+part, rests on a duality. Not to cling even to the middle is the ideal of an
+<em>arahant</em>. That is the implication of the conclusive statement in the advice to
+Bāhiya, <em>nev’idha na huraṁ na ubhayam antarena</em>, “neither here, nor there, no in
+between the two”.<sup class="footnote-reference" id="fr-fn860-1"><a href="#fn-fn860">23</a></sup></p>
+<p>For clarity’s sake, let us quote the relevant section in full:</p>
+<blockquote>
+<p><em>Yato tvaṁ Bāhiya na tena, tato tvaṁ Bāhiya na tattha. Yato tvaṁ Bāhiya na
+tattha, tato tvaṁ Bāhiya nev’idha na huraṁ na ubhayamantarena. Es’ ev’ anto
+dukkhassa</em>.</p>
+<p>And when, Bāhiya, you are not by it, then, Bāhiya, you are not in it. And
+when, Bāhiya, you are not in it, then, Bāhiya, you are neither here nor there
+nor in between. This, itself, is the end of suffering.</p>
+</blockquote>
+<p>So one who has fully understood the norm of <em>paṭicca samuppāda</em> is not attached
+to ignorance, nor is he attached to preparations, since he has seen the
+relatedness between them. He is attached neither to preparations nor to
+consciousness, having seen the relatedness between them. The insight into this
+dependent arising and ceasing promotes such a detached attitude.</p>
+<p>It is this insight that inculcated in the Tathāgata that supreme and excellent
+suchness. His neutral attitude was not the result of any lack of knowledge, or
+tactical eel wriggling, as in the case of Sañjaya Belaṭṭhiputta.</p>
+<p>Why does the Tathāgata not declare the sense-data categorically as true or
+false? He knows that, given ignorance, they are true, and that they are
+falsified only when ignorance fades away in one who sees the cessation. It is
+for such a person that the sense-bases appear as false and consciousness appears
+as a conjurer’s trick.</p>
+<p>Fortified with that understanding, he does not categorically assert the
+sense-data as true, nor does he reprimand those who assert them as the truth.
+That is why the Buddha advocates a tolerant attitude in this discourse. This is
+the typical attitude of an understanding elder to the questions put by an
+inquisitive toddler.</p>
+<p>Generally, the dogmatists in the world are severally entrenched in their own
+individual viewpoints, as the line <em>paccekasaccesu puthū niviṭṭhā</em>
+suggests.<sup class="footnote-reference" id="fr-fn861-1"><a href="#fn-fn861">24</a></sup> We explained the term <em>sayasaṁvuta</em> as on a par with the
+phrase <em>paccekasaccesu</em>. The problematic term <em>sayasaṁvuta</em> is suggestive of
+virulent self-opinionatedness. Why are they committed and limited by their own
+views? Our quotation from the <em>Cūḷaviyūhasutta</em> holds the answer.</p>
+<blockquote>
+<p><em>Na h’eva saccāni bahūni nānā,</em> <br />
+<em>aññatra saññāya niccāni loke,</em><sup class="footnote-reference" id="fr-fn862-1"><a href="#fn-fn862">25</a></sup></p>
+<p>There are no several and various truths, <br />
+That are permanent in the world, apart from perception.</p>
+</blockquote>
+<p>According to one’s level of perception, one forms a notion of reality. To those
+in the audience the tricks of the magician remained concealed. It is that
+ignorance which aroused preparations, <em>saṅkhārā</em>, in them.</p>
+<p>A typical illustration of individual truths, <em>paccekasacca</em>, is found in the
+chapter titled <em>Jaccandha</em>, ‘congenitally blind’, in the <em>Udāna</em>. There the
+Buddha brings up a parable of the blind men and the elephant.<sup class="footnote-reference" id="fr-fn863-1"><a href="#fn-fn863">26</a></sup></p>
+<p>A certain king got a crowd of congenitally blind men assembled, and having made
+them touch various limbs of an elephant, asked them what an elephant looks like.
+Those who touched the elephant’s head compared the elephant to a pot, those who
+touched its ears compared it to a winnowing basket, those who touched its tusk
+compared it to a ploughshare and so forth.</p>
+<p>The dogmatic views in the world follow the same trend. All that is due to
+contact, <em>phassapaccayā</em>, says the Buddha in the <em>Brahmajālasutta</em> even with
+reference to those who have supernormal knowledges, <em>abhiññā</em>.<sup class="footnote-reference" id="fr-fn864-1"><a href="#fn-fn864">27</a></sup> Depending
+on name-and-form, which they grasped, they evolved dogmatic theories, based on
+their perceptions, spurred on by sense-contact. Their dogmatic involvement is
+revealed by the thematic assertion <em>idam eva saccaṁ, mogham aññaṁ</em>, “this alone
+is true, all else is false”.</p>
+<p>The Buddha had no dogmatic involvement, because he had seen the cessation of
+consciousness. Even the mind ceases, and mind-objects fade away. That is why the
+Buddha was tolerantly neutral. On many such issues, silence happens to be the
+answer.</p>
+<p>This brings us to an extremely deep dimension of this Dhamma. Just as that man
+with discerning wisdom at the magic show had difficulties in coming to terms
+with the naive magic fan, so the Buddha, too, had to face situations where
+problems of communication cropped up.</p>
+<p>We come across such an instance in the <em>Mahāparinibbānasutta</em>. On his way to
+Kusinārā, to attain <em>parinibbāna</em>, the Buddha happened to rest under a tree for
+a while, to overcome fatigue. Pukkusa of Malla, a disciple of Āḷāra Kālāma, who
+was coming from Kusinārā on his way to Pāvā, saw the Buddha seated there and
+approached him. After worshipping him he made the following joyful utterance:
+<em>Santena vata, bhante, pabbajitā vihārena viharanti</em>, “Venerable Sir, those who
+have gone forth are indeed living a peaceful life”.<sup class="footnote-reference" id="fr-fn865-1"><a href="#fn-fn865">28</a></sup></p>
+<p>Though it was apparently a compliment for the Buddha, he came out with an
+episode, which was rather in praise of his teacher Āḷāra Kālāma, who had
+attained to the plane of nothingness, <em>ākiñcaññāyatana</em>.</p>
+<blockquote>
+<p>While on a long journey, my teacher Āḷāra Kālāma sat under a wayside tree for
+noonday siesta. Just then five-hundred carts were passing by. After the carts
+had passed that spot, the man who was following them walked up to Āḷāra Kālāma
+and asked him:</p>
+<p>“Venerable sir, did you see about five-hundred carts passing by?”</p>
+<p>“No, friend, I didn’t see.”</p>
+<p>“But, Venerable sir, didn’t you even hear the sound?”</p>
+<p>“No, friend, I didn’t hear the sound.”</p>
+<p>“Venerable sir, were you asleep, then?”</p>
+<p>“No, friend, I was not asleep.”</p>
+<p>“Were you conscious, then, Venerable sir?”</p>
+<p>“Yes, friend.”</p>
+<p>“So, then, venerable sir, while being conscious and awake, you neither saw nor
+heard as many as five-hundred carts passing by. All the same your double robe
+is bespattered with mud.”</p>
+<p>“Yes, friend.”</p>
+</blockquote>
+<p>And then, Venerable Sir, that man was highly impressed by it, and paid the
+following compliment to Āḷāra Kālāma:</p>
+<blockquote>
+<p>“It is a wonder, it is a marvel, what a peaceful life those who have gone
+forth are leading, so much so that one being conscious and awake would neither
+see nor hear as many as five-hundred carts passing by.”</p>
+</blockquote>
+<p>When Pukkusa cited this incident in praise of Āḷāra Kālāma, the Buddha asked
+him:</p>
+<blockquote>
+<p>“What do you think, Pukkusa, which of these two feats is more difficult to
+accomplish, that one being conscious and awake would neither see nor hear as
+many as five-hundred carts passing by, or that while being conscious and
+awake, one would not see or hear the streaks of lightening and peals of
+thunder in the midst of a torrential downpour?”</p>
+</blockquote>
+<p>When Pukkusa grants that the latter feat is by far the more difficult to
+accomplish, the Buddha comes out with one of his past experiences.</p>
+<blockquote>
+<p>“At one time, Pukkusa, I was staying in a chaff house at Ātumā, and there was
+a torrential downpour, with streaks of lightening and peals of thunder, during
+the course of which two farmers – brothers – and four bulls were struck down
+dead. A big crowd of people had gathered at the spot. Coming out of the chaff
+house, I was pacing up and down in open air when a man from that crowd walked
+up to me and worshipped me, and respectfully stood on one side. Then I asked
+him:</p>
+<p>“Friend, why has this big crowd gathered here?”</p>
+<p>“Just now, Venerable Sir, while it was raining in torrents with streaks of
+lightening and peals of thunder, two farmers – brothers – and four bulls were
+struck down dead. That is why a big crowd has gathered here. But where were
+you, Venerable Sir?”</p>
+<p>“I was here itself, friend.”</p>
+<p>“But didn’t you see it, Venerable Sir?”</p>
+<p>“No, friend, I didn’t see it.”</p>
+<p>“But didn’t you hear the sound, Venerable Sir?”</p>
+<p>“No, friend, I did not hear the sound.”</p>
+<p>“But, then, Venerable Sir, were you asleep?”</p>
+<p>“No, friend, I was not asleep.”</p>
+<p>“But, Venerable Sir, were you conscious (<em>saññī</em>)?”</p>
+<p>“Yes, friend.”</p>
+</blockquote>
+<p>And then, Pukkusa, that man expressed his surprise in the words:</p>
+<blockquote>
+<p>“It is a wonder, it is a marvel, what a peaceful life those who have gone
+forth are leading, so much so that while being conscious and awake one would
+neither see nor hear the streaks of lightening and peals of thunder in the
+midst of a torrential downpour.”</p>
+</blockquote>
+<blockquote>
+<p>“With that he came out with his fervent faith in me, worshipped me,
+reverentially circumambulated me and left.”</p>
+</blockquote>
+<p>Some interpret this incident as an illustration of the Buddha’s attainment to
+the cessation of perceptions and feelings. But if it had been the case, the
+words <em>saññī samāno jāgaro</em>, “while being conscious and awake”, would be out of
+place.</p>
+<p>That man expressed his wonder at the fact that the Buddha, while being conscious
+and awake, had not seen or heard anything, though it was raining in torrents
+with streaks of lightening and peals of thunder. Nor can this incident be
+interpreted as a reference to the realm of nothingness, <em>ākiñcaññāyatana</em>, in
+the context of the allusion to Āḷārā Kālāma and his less impressive psychic
+powers.</p>
+<p>The true import of this extraordinary psychic feat has to be assessed with
+reference to the <em>arahattaphalasamādhi</em>, we have already discussed.<sup class="footnote-reference" id="fr-fn866-1"><a href="#fn-fn866">29</a></sup></p>
+<p>The incident had occurred while the Buddha was seated in <em>arahattaphalasamādhi</em>,
+experiencing the cessation of the six sense-spheres, equivalent to the cessation
+of the world. He had gone beyond the world – that is why he didn’t see or hear.</p>
+<p>We are now in a position to appreciate meaningfully that much-vexed riddle-like
+verse we had quoted earlier from the <em>Kalahavivādasutta.</em></p>
+<blockquote>
+<p><em>Na saññasaññī, na visaññasaññī,</em> <br />
+<em>no pi asaññī na vibhūtasaññī,</em> <br />
+<em>evaṁ sametassa vibhoti rūpaṁ,</em> <br />
+<em>saññānidānā hi papañcasaṅkhā.</em><sup class="footnote-reference" id="fr-fn867-1"><a href="#fn-fn867">30</a></sup></p>
+<p>He is not conscious of normal perception, <br />
+<span class="vin"></span> nor is he unconscious, <br />
+He is not devoid of perception, <br />
+<span class="vin"></span> nor has he rescinded perception, <br />
+It is to one thus constituted <br />
+<span class="vin"></span> that form ceases to exist, <br />
+For reckonings through prolificity <br />
+<span class="vin"></span> have perception as their source.</p>
+</blockquote>
+<p>Perception is the source of all prolific reckonings, such as those that impelled
+the audience at the magic show to respond with the ‘Ahs’, and ‘Ohs’ and
+whistles. One is completely free from that prolific perception when one is in
+the <em>arahattaphalasamādhi</em>, experiencing the cessation of the six sense-spheres.</p>
+<p>As we had earlier cited:</p>
+<blockquote>
+<p>… one is neither percipient of earth in earth, nor of water in water, nor of
+fire in fire, nor of air in air, nor is one conscious of a ‘this world’ in
+this world, nor of ‘another world’ in another world …</p>
+</blockquote>
+<p>and so on, but all the same ‘one is percipient’, <em>saññī ca pana assa.</em><sup class="footnote-reference" id="fr-fn868-1"><a href="#fn-fn868">31</a></sup>
+Of what is he percipient or conscious? That is none other than what comes up as
+the title of these series of sermons, namely:</p>
+<blockquote>
+<p><em>Etaṁ santaṁ, etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho
+sabbūpadhipaṭinissaggo taṇhakkhayo virāgo nirodho nibbānaṁ.</em><sup class="footnote-reference" id="fr-fn869-1"><a href="#fn-fn869">32</a></sup></p>
+<p>This is peaceful, this is excellent, namely the stilling of all preparations,
+the relinquishment of all assets, the destruction of craving, detachment,
+cessation, extinction.</p>
+</blockquote>
+<div class="footnotes">
+<aside class="footnote-definition" id="fn-fn838"><sup class="footnote-definition-label">1</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn838-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn839"><sup class="footnote-definition-label">2</sup>
+<p><a href="https://suttacentral.net/sn22.95/pli/ms">SN 22.95 / S III 142</a>, <em>Pheṇapiṇḍūpamasutta</em> <a href="#fr-fn839-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn840"><sup class="footnote-definition-label">3</sup>
+<p><a href="https://suttacentral.net/an4.24/pli/ms">AN 4.24 / A II 25</a>, <em>Kāḷakārāmasutta</em> <a href="#fr-fn840-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn841"><sup class="footnote-definition-label">4</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 8</a>, <em>Bāhiyasutta</em> <a href="#fr-fn841-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn842"><sup class="footnote-definition-label">5</sup>
+<p>See <em>Sermon 25</em> <a href="#fr-fn842-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn843"><sup class="footnote-definition-label">6</sup>
+<p><a href="https://suttacentral.net/mn43/pli/ms">MN 43 / M I 292</a>, <em>Mahāvedallasutta</em> <a href="#fr-fn843-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn844"><sup class="footnote-definition-label">7</sup>
+<p><a href="https://suttacentral.net/thag16.1/pli/ms">Thag 16.1 / Th 716</a>, <em>Adhimutta Theragāthā</em>; see also <em>Sermon 8</em> <a href="#fr-fn844-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn845"><sup class="footnote-definition-label">8</sup>
+<p><a href="https://suttacentral.net/sn12.20/pli/ms">SN 12.20 / S II 25</a>, <em>Paccayasutta</em>; see <em>Sermon 2</em> <a href="#fr-fn845-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn846"><sup class="footnote-definition-label">9</sup>
+<p><a href="https://suttacentral.net/an6.95/pli/ms">AN 6.95 / A III 440</a>, <em>Catuttha-abhabbaṭṭhānasutta</em> <a href="#fr-fn846-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn847"><sup class="footnote-definition-label">10</sup>
+<p>See <em>Sermon 5</em> <a href="#fr-fn847-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn848"><sup class="footnote-definition-label">11</sup>
+<p><a href="https://suttacentral.net/pli-tv-kd1/pli/ms">Vin I 40</a>, <em>Mahāvagga</em> <a href="#fr-fn848-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn849"><sup class="footnote-definition-label">12</sup>
+<p><a href="https://suttacentral.net/mn9/pli/ms">MN 9 / M I 54</a>, <em>Sammādiṭṭhisutta</em> <a href="#fr-fn849-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn850"><sup class="footnote-definition-label">13</sup>
+<p><a href="https://suttacentral.net/mn115/pli/ms">MN 115 / M III 63</a>, <em>Bahudhātukasutta</em> <a href="#fr-fn850-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn851"><sup class="footnote-definition-label">14</sup>
+<p><a href="https://suttacentral.net/dhp1-20/pli/ms">Dhp 1</a>, <em>Yamakavagga</em> <a href="#fr-fn851-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn852"><sup class="footnote-definition-label">15</sup>
+<p><a href="https://suttacentral.net/sn12.49/pli/ms">SN 12.49 / S II 78</a>, <em>Ariyasāvakasutta</em> <a href="#fr-fn852-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn853"><sup class="footnote-definition-label">16</sup>
+<p><a href="https://suttacentral.net/sn12.20/pli/ms">SN 12.20 / S II 27</a>, <em>Paccayasutta</em> <a href="#fr-fn853-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn854"><sup class="footnote-definition-label">17</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 8</a>, <em>Bāhiyasutta</em> <a href="#fr-fn854-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn855"><sup class="footnote-definition-label">18</sup>
+<p>See <em>Sermon 1</em> <a href="#fr-fn855-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn856"><sup class="footnote-definition-label">19</sup>
+<p><a href="https://suttacentral.net/sn1.23/pli/ms">SN 1.23 / S I 13</a>, <em>Jaṭāsutta</em> <a href="#fr-fn856-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn857"><sup class="footnote-definition-label">20</sup>
+<p><a href="https://suttacentral.net/mn146/pli/ms">MN 146 / M III 273</a>, <em>Nandakovādasutta</em> <a href="#fr-fn857-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn858"><sup class="footnote-definition-label">21</sup>
+<p><a href="https://suttacentral.net/thag16.1/pli/ms">Thag 16.1 / Th 716</a>, <em>Adhimutta Theragāthā</em> <a href="#fr-fn858-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn859"><sup class="footnote-definition-label">22</sup>
+<p>E.g. <a href="https://suttacentral.net/an10.63/pli/ms">AN 10.63 / A V 120</a>, <em>Niṭṭhaṅgatasutta</em> <a href="#fr-fn859-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn860"><sup class="footnote-definition-label">23</sup>
+<p><a href="https://suttacentral.net/ud1.10/pli/ms">Ud 1.10 / Ud 8</a>, <em>Bāhiyasutta</em> <a href="#fr-fn860-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn861"><sup class="footnote-definition-label">24</sup>
+<p><a href="https://suttacentral.net/snp4.8/pli/ms">Snp 4.8 / Sn 824</a>, <em>Pasūrasutta</em>, see <em>Sermon 25</em> <a href="#fr-fn861-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn862"><sup class="footnote-definition-label">25</sup>
+<p><a href="https://suttacentral.net/snp4.12/pli/ms">Snp 4.12 / Sn 886</a>, <em>Cūḷaviyūhasutta</em> <a href="#fr-fn862-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn863"><sup class="footnote-definition-label">26</sup>
+<p><a href="https://suttacentral.net/ud6.4/pli/ms">Ud 6.4 / Ud 67</a>, <em>Paṭhamanānātitthiyasutta</em> <a href="#fr-fn863-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn864"><sup class="footnote-definition-label">27</sup>
+<p><a href="https://suttacentral.net/dn1/pli/ms">DN 1 / D I 42</a>, <em>Brahmajālasutta</em> <a href="#fr-fn864-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn865"><sup class="footnote-definition-label">28</sup>
+<p><a href="https://suttacentral.net/dn16/pli/ms">DN 16 / D II 130</a>, <em>Mahāparinibbānasutta</em> <a href="#fr-fn865-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn866"><sup class="footnote-definition-label">29</sup>
+<p>See <em>Sermons 16-19</em> <a href="#fr-fn866-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn867"><sup class="footnote-definition-label">30</sup>
+<p><a href="https://suttacentral.net/snp4.11/pli/ms">Snp 4.11 / Sn 874</a>, <em>Kalahavivādasutta</em> <a href="#fr-fn867-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn868"><sup class="footnote-definition-label">31</sup>
+<p><a href="https://suttacentral.net/an11.7/pli/ms">AN 11.7 / A V 318</a>, <em>Saññāsutta</em>, see <em>Sermon 16</em> <a href="#fr-fn868-1">↩</a></p>
+</aside>
+<aside class="footnote-definition" id="fn-fn869"><sup class="footnote-definition-label">32</sup>
+<p><a href="https://suttacentral.net/mn64/pli/ms">MN 64 / M I 436</a>, <em>Mahāmālunkyasutta</em> <a href="#fr-fn869-1">↩</a></p>
+</aside>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sermon-25.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="sermon-27.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sermon-25.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="sermon-27.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
