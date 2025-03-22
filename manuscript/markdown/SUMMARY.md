@@ -2,6 +2,8 @@
 
 [The Mind Stilled](titlepage.md)
 
+[Dedication and Anumodanā](dedication-anumodana.md)
+
 [Abbreviations](abbreviations.md)
 
 [About the Author](about-the-author.md)

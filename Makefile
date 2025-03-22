@@ -14,6 +14,9 @@ serve:
 ebooks:
 	./helpers/ebooks.sh
 
+pdf-to-ebooks-docs: document
+	cp main.pdf manuscript/markdown/assets/docs/Nibbana-The-Mind-Stilled.pdf
+
 document:
 	$(LATEX) $(LATEX_OPTS) $(FILE).tex
 

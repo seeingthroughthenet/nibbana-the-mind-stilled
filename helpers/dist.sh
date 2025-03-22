@@ -15,5 +15,7 @@ fi
 
 $MDBOOK_BIN build
 
+touch gh-pages/.nojekyll
+
 # Relative path is interpreted from symlink target location, i.e. in ./gh-pages
 ln -s "../$DOT_GIT_DIR" ./gh-pages/.git

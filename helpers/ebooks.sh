@@ -13,16 +13,34 @@ MOBI_FILE="$EBOOK_NAME.mobi"
 mv book.toml book-html.toml
 cp book-epub.toml book.toml
 
+# Update the date
+cd manuscript/markdown
+TODAY=$(date --iso-8601)
+sed -i 's/\(Last updated on:\) *[0-9-]\{10\}/\1 '"$TODAY"'/' titlepage.md
+sed -i 's/\(Last updated on:\) *[0-9-]\{10\}/\1 '"$TODAY"'/' titlepage-ebook.md
+cd ../..
+
+# Use titlepage-ebook.md for a simple title page
+cd manuscript/markdown
+mv titlepage.md titlepage-html.md
+cp titlepage-ebook.md titlepage.md
+cd ../..
+
 $MDBOOK_EPUB_BIN --standalone
 
 # Restore
 mv book-html.toml book.toml
+cd manuscript/markdown
+mv titlepage-html.md titlepage.md
+cd ../..
 
-cd book/
-# Use a non-accented file name.
+mv ./book/*.epub ./
+
+# The epub is generated with the title as file name, but use a non-accented file name for storage.
 mv "Nibbāna - The Mind Stilled.epub" "$EPUB_FILE"
+
 ~/bin/epubcheck "./$EPUB_FILE"
 
-# ~/lib/kindlegen/kindlegen "./$EPUB_FILE" -dont_append_source -c1 -verbose
+mv "./$EPUB_FILE" "./manuscript/markdown/assets/docs"
 
 echo "OK"

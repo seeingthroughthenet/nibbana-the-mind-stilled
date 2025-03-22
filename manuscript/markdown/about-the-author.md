@@ -54,8 +54,6 @@ this Trust, while making available this Dhamma gift free through the internet.
 
 [www.seeingthroughthenet.net](https://seeingthroughthenet.net/)
 
-<https://seeingthroughthenet.github.io/>
-
 [www.facebook.com/seeingthrough](https://www.facebook.com/seeingthrough)
 
 
