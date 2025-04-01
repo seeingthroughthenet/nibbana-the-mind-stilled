@@ -362,9 +362,9 @@ mine' receives no sanction. This course of training is helpful for the
 emancipation of the mind from imaginings and proliferations.
 
 The Buddha has compared the six sense-bases, that is eye, ear, nose, tongue,
-body and mind, to a deserted village.
+body and mind, to a deserted village.[^fn528]
 
-> *Suññaṁ idaṁ attena vā attaniyena vā.*[^fn528]
+> *Suññaṁ idaṁ attena vā attaniyena vā.*[^fn-void]
 >
 > This is void of a self or anything belonging to a self.
 
@@ -867,7 +867,7 @@ It indeed deserves a paean of joy.
 
 [^fn518]: See *Sermon 13*
 
-[^fn519]: According to A I 24 Bāhiya was outstanding for his *khippābhiññā*
+[^fn519]: According to [AN 1.209-218 / A I 24](https://suttacentral.net/an1.209-218/pli/ms) Bāhiya was outstanding for his *khippābhiññā*
 
 [^fn520]: See *Sermon 13*
 
@@ -885,7 +885,9 @@ It indeed deserves a paean of joy.
 
 [^fn527]: Ud-a 90
 
-[^fn528]: S IV 174, *Āsīvisasutta*
+[^fn528]: [SN 35.238 / S IV 174](https://suttacentral.net/sn35.238/pli/ms), *Āsīvisasutta*
+
+[^fn-void]: [SN 41.7 / S IV 296](https://suttacentral.net/sn41.7/pli/ms) *Godattasutta*
 
 [^fn529]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 

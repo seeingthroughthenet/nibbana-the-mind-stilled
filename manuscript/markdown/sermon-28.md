@@ -803,7 +803,7 @@ conclusion the Buddha brings out the true aim and purpose of this discourse.
 
 [^fn925]: [Snp 1.11 / Sn 203](https://suttacentral.net/snp1.11/pli/ms), *Vijayasutta*
 
-[^fn926]: Dhp-a III 117
+[^fn926]: [Dhp-a III 117](https://www.digitalpalireader.online/_dprhtml/index.html?loc=k.1.0.1.2.4.0.a&query=dh%C4%81tuto%20su%C3%B1%C3%B1ato%20passa&para=9)
 
 [^fn927]: [SN 14.32 / S II 171](https://suttacentral.net/sn14.32/pli/ms), *Acariṁsutta*
 

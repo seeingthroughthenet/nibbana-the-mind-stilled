@@ -779,7 +779,7 @@ successfully cross this flood, so hard to cross, and are freed from re-becoming.
 
 [^fn885]: [MN 106 / M II 261](https://suttacentral.net/mn106/pli/ms), *Āneñjasappāyasutta*
 
-[^fn886]: Vin III 92, *Pārājikakaṇḍa*
+[^fn886]: [Pj 4 / Vin III 92](https://suttacentral.net/pli-tv-bu-vb-pj4/pli/ms), *Pārājikakaṇḍa*
 
 [^fn887]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*; see *Sermon 17*
 

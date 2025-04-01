@@ -794,7 +794,7 @@ say it is because it should be well comprehended by him."
 
 [^fn420]: [Dhp 254](https://suttacentral.net/dhp235-255/pli/ms), *Malavagga*
 
-[^fn421]: S IV 370, *Asaṅkhatasaṁyutta*
+[^fn421]: [SN 43.14-43 / S IV 370](https://suttacentral.net/sn43.14-43/pli/ms), *Asaṅkhatasaṁyutta*
 
 [^fn422]: [Snp 4.11 / Sn 874](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 

@@ -976,7 +976,7 @@ Such a predicament is not unlikely.
 
 [^fn265]: E.g. at [MN 38 / M I 266](https://suttacentral.net/mn38/pli/ms), *Mahātaṇhāsaṅkhayasutta*
 
-[^fn266]: [MN 81 / M II 45](https://suttacentral.net/mn81/pli/ms), [MN 83 / M II 74](https://suttacentral.net/mn83/pli/ms), [SN 1.35 / S I 24](https://suttacentral.net/sn1.35/pli/ms), S II 254-258, A III 214
+[^fn266]: [MN 81 / M II 45](https://suttacentral.net/mn81/pli/ms), [MN 83 / M II 74](https://suttacentral.net/mn83/pli/ms), [SN 1.35 / S I 24](https://suttacentral.net/sn1.35/pli/ms), [SN 19.1 / S II 254-258](https://suttacentral.net/sn19.1/pli/ms), [AN 5.180 / A III 214](https://suttacentral.net/an5.180/pli/ms)
 
 [^fn267]: [SN 15.14-20 / S II 189-190](https://suttacentral.net/sn15.14/pli/ms), *Anamataggasaṁyutta*
 
@@ -984,7 +984,7 @@ Such a predicament is not unlikely.
 
 [^fn269]: [Iti 43 / It 37](https://suttacentral.net/iti43/pli/ms), *Ajātasutta*
 
-[^fn270]: Th-a III 12
+[^fn270]: [Th-a III 12](https://www.digitalpalireader.online/_dprhtml/index.html?loc=k.7.0.0.16.0.0.m|dpr://k.7.16.0.0.0.0.a.NaN)
 
 [^fn271]: [Thag 16.1 / Th 707](https://suttacentral.net/thag16.1/pli/ms), *Adhimutta Theragāthā*
 
@@ -1008,7 +1008,7 @@ Such a predicament is not unlikely.
 
 [^fn281]: E.g. at Dhp-a III 320 when explaining *accutaṁ ṭhānaṁ* of [Dhp 225](https://suttacentral.net/dhp221-234/pli/ms)
 
-[^fn282]: S IV 370, *Asaṅkhatasaṁyutta*
+[^fn282]: [SN 43.14-43 / S IV 370](https://suttacentral.net/sn43.14-43/pli/ms), *Asaṅkhatasaṁyutta*
 
 [^fn283]: E.g. at [MN 49 / M I 326](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 

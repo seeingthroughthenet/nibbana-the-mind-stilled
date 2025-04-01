@@ -913,7 +913,7 @@ is all comprehending. Nothing falls outside of it.
 
 [^fn743]: [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
-[^fn744]: Dhp 157-166 make up the 12th chapter of Dhp, the *Attavagga*
+[^fn744]: [Dhp 157-166](https://suttacentral.net/dhp157-166/pli/ms) *Attavagga*, the 12th chapter of the Dhammapada
 
 [^fn745]: [Dhp 160](https://suttacentral.net/dhp157-166/pli/ms), *Attavagga*
 

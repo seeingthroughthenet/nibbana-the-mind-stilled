@@ -1062,7 +1062,7 @@ altogether then and there.
 
 [^fn116]: [MN 94 / M II 156](https://suttacentral.net/mn94/pli/ms), *Ghoṭamukhasutta*
 
-[^fn117]: A II 133, *Saṁyojanasutta*
+[^fn117]: [AN 4.131 / A II 133](https://suttacentral.net/an4.131/pli/ms), *Saṁyojanasutta*
 
 [^fn118]: [SN 1.23 / S I 13](https://suttacentral.net/sn1.23/pli/ms), *Jaṭāsutta*, see *Sermon 1*
 

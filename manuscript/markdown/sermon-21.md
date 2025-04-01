@@ -889,7 +889,7 @@ And then he winds up with that highly significant conclusive remark:
 
 [^fn718]: [AN 8.19 / A IV 197](https://suttacentral.net/an8.19/pli/ms), *Pahārādasutta*
 
-[^fn719]: Vin II 237 and Ud 53, *Uposathasutta*
+[^fn719]: [Kd 19 / Vin II 237](https://suttacentral.net/pli-tv-kd19/pli/ms) and [Ud 5.5 / Ud 53](https://suttacentral.net/ud5.5/pli/ms), *Uposathasutta*
 
 [^fn720]: [AN 8.19 / A IV 202](https://suttacentral.net/an8.19/pli/ms), *Pahārādasutta*
 

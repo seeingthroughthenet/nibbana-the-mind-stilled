@@ -898,7 +898,7 @@ profound implications, but time does not permit us to go into them today.
 
 [^fn670]: E.g. at [MN 4 / M I 23](https://suttacentral.net/mn4/pli/ms), *Bhayabheravasutta*
 
-[^fn671]: Ps III 115, *aṭṭhakathā* on MN 59, *Bahuvedanīyasutta*
+[^fn671]: Ps III 115, *aṭṭhakathā* on [MN 59](https://suttacentral.net/mn59/pli/ms) *Bahuvedanīyasutta*
 
 [^fn672]: [AN 6.45 / A III 354](https://suttacentral.net/an6.45/pli/ms), *Iṇasutta*
 

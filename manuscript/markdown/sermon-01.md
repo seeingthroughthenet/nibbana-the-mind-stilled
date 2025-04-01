@@ -837,7 +837,7 @@ be the final judge of its merits.
 
 [^fn37]: Vism 508; Spk III 88; Vibh-a 51
 
-[^fn38]: S IV 371, *Nibbānasutta*
+[^fn38]: [SN 38.1 / S IV 251](https://suttacentral.net/sn38.1/pli/ms), *Nibbānasutta*
 
 [^fn39]: Vibh-a 53
 

@@ -934,7 +934,7 @@ it. They are transcended.
 
 [^fn256]: Sv II 393
 
-[^fn257]: S IV 359, *Asaṅkhatasaṁyutta*
+[^fn257]: [SN 43 / S IV 359](https://suttacentral.net/pitaka/sutta/linked/sn/sn-salayatanavaggasamyutta/sn43), *Asaṅkhatasaṁyutta*
 
 [^fn258]: [MN 49 / M I 329](https://suttacentral.net/mn49/pli/ms), *Brahmanimantanikasutta*
 

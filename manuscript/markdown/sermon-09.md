@@ -1033,7 +1033,7 @@ overstep and overreach. It is only they that see, who have eyes to see.
 
 [^fn320]: [SN 1.34 / S I 22](https://suttacentral.net/sn1.34/pli/ms), *Nasantisutta*
 
-[^fn321]: E.g. at S V 253, *Iddhipādasaṁyutta*
+[^fn321]: E.g. at [SN 51 / S V 253](https://suttacentral.net/pitaka/sutta/linked/sn/sn-mahavaggasamyutta/sn51), *Iddhipādasaṁyutta*
 
 [^fn322]: [SN 51.15 / S V 272](https://suttacentral.net/sn51.15/pli/ms), *Uṇṇābhabrāhmaṇasutta*
 

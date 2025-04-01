@@ -855,7 +855,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn551]: [Iti 62 / It 53](https://suttacentral.net/iti62/pli/ms), *Indriyasutta*
 
-[^fn552]: Vin IV 82, *Pācittiya* 35
+[^fn552]: [Vin IV 82](https://suttacentral.net/pli-tv-bu-vb-pc35/pli/ms), Pācittiya 35
 
 [^fn553]: E.g. [MN 26 / M I 167](https://suttacentral.net/mn26/pli/ms), *Ariyapariyesanasutta*
 
@@ -881,7 +881,7 @@ won through the incomparable deliverances of the mind.
 
 [^fn564]: [Ud 1.10 / Ud 9](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*; see *Sermon 15*
 
-[^fn565]: Ps III 115, *aṭṭhakathā* on the *Bahuvedanīyasutta*
+[^fn565]: Ps III 115, *aṭṭhakathā* on [MN 59](https://suttacentral.net/mn59/pli/ms) *Bahuvedanīyasutta*
 
 [^fn566]: [Ud 8.2 / Ud 80](https://suttacentral.net/ud8.2/pli/ms), *Paṭhamanibbānapaṭisaṁyuttasutta*
 

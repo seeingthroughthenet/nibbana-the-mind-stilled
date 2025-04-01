@@ -850,7 +850,7 @@ we brought out all these arguments today.
 
 [^fn654]: *Devadattaṁ ārabbha* at Dhp-a I 133 and Ja I 142
 
-[^fn655]: S IV 371, *Asaṅkhatasaṁyutta*
+[^fn655]: [SN 43.14-43 / S IV 372](https://suttacentral.net/sn43.14-43/pli/ms), *Asaṅkhatasaṁyutta*
 
 [^fn656]: [AN 5.34 / A III 39](https://suttacentral.net/an5.34/pli/ms), *Sīhasenāpatisutta*
 

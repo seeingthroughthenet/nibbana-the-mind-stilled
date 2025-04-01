@@ -976,7 +976,7 @@ of the questions of duality, dichotomy and the relatedness of this to that,
 
 [^fn57]: [SN 2.18 / S I 54](https://suttacentral.net/sn2.18/pli/ms), *Kakudhasutta*
 
-[^fn58]: S IV 372
+[^fn58]: [SN 43.14-43 / S IV 372](https://suttacentral.net/sn43.14-43/pli/ms)
 
 [^fn59]: [Snp 5.11 / Sn 1092](https://suttacentral.net/snp5.11/pli/ms), *Kappamāṇavapucchā*
 

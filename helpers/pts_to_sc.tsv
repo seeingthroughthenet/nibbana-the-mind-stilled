@@ -16,12 +16,11 @@ M III 240, M III 242, M III 245	MN 140	Dhātuvibhaṅgasutta
 M III 239, M III 244, M III 246	MN 140	Dhātuvibhaṅgasutta		
 M I 484, M I 487	MN 72	Aggivacchagottasutta		
 S IV 368-373	SN 43.13-44	Asaṅkhatasaṁyutta		
-_X_ S IV 372		Asaṅkhatasaṁyutta		
-_X_ S IV 371	SN 38.1	Nibbānasutta		Can't find the quote in Asaṅkhatasaṁyutta (SN 43)
-_X_ S IV 372				Can't find 'dīpa' as nibbāna
-_X_ S IV 359		Asaṅkhatasaṁyutta		Can't find sutta
-_X_ S IV 370		Asaṅkhatasaṁyutta		
-_X_ S IV 359-373		Asaṅkhatasaṁyutta		
+S IV 372	SN 43.14-43	Asaṅkhatasaṁyutta	sn43.14-43	
+S IV 251	SN 38.1	Nibbānasutta		Corrected from: S IV 371
+_X_ S IV 359		Asaṅkhatasaṁyutta		Link the whole SN 43 manually
+S IV 370	SN 43.14-43	Asaṅkhatasaṁyutta	sn43.14-43	
+_X_ S IV 359-373		Asaṅkhatasaṁyutta		Link the whole SN 43 manually
 M I 134, M I 135, M I 140, M I 141	MN 22	Alagaddūpamasutta		
 M I 130, M I 137, M I 138, M I 139	MN 22	Alagaddūpamasutta		
 D II 57, D II 58, D II 62, D II 63	DN 15	Mahānidānasutta		
@@ -87,7 +86,7 @@ D II 305	DN 22
 M III 249	MN 141			
 S II 3	SN 12.2			
 M II 156	MN 94	Ghoṭamukhasutta		
-_X_ A II 133		Saṁyojanasutta		Can't find 'uppatti' in AN 4.131
+A II 133	AN 4.131	Saṁyojanasutta	an4.131	SC has 'upapatti' instead of 'uppatti'
 M III 17, M III 18	MN 109	Mahāpuṇṇamasutta		
 S II 65, S II 66	SN 12.38	Cetanāsutta		
 		Sermon 4		
@@ -173,6 +172,8 @@ S II 185	SN 15.10	Puggalasutta
 S III 25	SN 22.22	Bhārasutta		
 M I 144	MN 23	Vammikasutta		
 A I 45	AN 1.616-627	Amatavagga	an1.616-627	
+S II 254-258	SN 19.1			
+A III 214	AN 5.180			
 		Sermon 9		
 S IV 171	SN 35.236	Hatthapādopamasutta		
 S III 155	SN 22.102	Aniccasaññāsutta		
@@ -181,7 +182,7 @@ M I 251	MN 37	Cūḷataṇhāsaṅkhayasutta
 A IV 338	AN 10.58	Kiṁmūlakasutta		
 Dhp 1-2		Yamakavagga	dhp1-20	
 S I 22	SN 1.34	Nasantisutta		
-_X_ S V 253		Iddhipādasaṁyutta		
+_X_ S V 253		Iddhipādasaṁyutta		Link SN 51 manually
 S V 272	SN 51.15	Uṇṇābhabrāhmaṇasutta		
 A II 145	AN 4.159	Bhikkhuṇīsutta		
 M III 220, M III 217	MN 137	Saḷāyatanavibhaṅgasutta		
@@ -209,7 +210,7 @@ Sn 867, Sn 871-872, Sn 873, Sn 874	Snp 4.11	Kalahavivādasutta
 Sn 862, Sn 875, Sn 872	Snp 4.11	Kalahavivādasutta		
 		Sermon 11		
 A V 64	AN 10.29			
-_X_ Sn 478				
+Sn 472, Sn 482	Snp 3.4	Sundarikabhāradvājasutta		Corrected: Sn 478 to Sn 482
 D II 276, D II 277	DN 21	Sakkapañhasutta		
 D III 273, D III 287	DN 34	Dasuttarasutta		
 M I 65	MN 11	Cūḷasīhanādasutta		
@@ -246,7 +247,7 @@ S III 9	SN 22.3	Hāliddikānisutta
 Th 1101	Thag 19.1	Tālapuṭa Theragāthā		
 M III 44	MN 113	Sappurisasutta		
 A I 150	AN 3.40	Ādhipateyyasutta		
-_X_ A I 24		Etadaggavagga		
+A I 24	AN 1.209-218	Etadaggavagga	an1.209-218	
 Ud 8, Ud 9	Ud 1.10	Bāhiyasutta		
 		Sermon 15		
 A II 246	AN 4.253	Catutthavohārasutta		
@@ -254,7 +255,7 @@ M I 480	MN 71	Tevijjavacchagottasutta
 M II 173	MN 95	Cankīsutta		
 A II 115	AN 4.113	Patodasutta		
 M III 29, M III 30	MN 112	Chabbisodhanasutta		
-_X_ S IV 174		Āsīvisasutta		'idaṁ attena vā attaniyena vā' in other suttas
+S IV 174	SN 35.238	Āsīvisasutta		The quote is not in the sutta, but the deserted village is, hence moved fn528 to the paragraph above the quote. 'Idaṁ attena vā attaniyena vā' occurs in other suttas.
 S I 6	SN 1.13	Natthiputtasamasutta		
 S II 45	SN 12.28	Bhikkhusutta		
 A II 178	AN 4.186	Ummaggasutta		
@@ -266,10 +267,11 @@ A V 318	AN 11.7	Saññāsutta
 A V 321	AN 11.8	Manasikārasutta		
 Th 25	Thag 1.25	Nandiyatheragāthā		
 Dhp 274		Maggavagga	dhp273-289	
+Vin IV 82			pli-tv-bu-vb-pc35	
 		Sermon 17		
 It 62	Iti 73	Santatarasutta		
 M I 35	MN 6	Ākaṅkheyyasutta		
-S IV 297	SN 41.7	Godattasutta		
+S IV 296, S IV 297	SN 41.7	Godattasutta		
 A III 378, A III 379	AN 6.55	Soṇasutta		
 S IV 19	SN 35.28	Ādittasutta		
 S IV 98	SN 35.117	Kāmaguṇasutta		
@@ -320,8 +322,8 @@ S III 63	SN 22.57	Sattaṭṭhānasutta
 Sn 82	Snp 1.4	Kasibhāradvājasutta		
 Sn 490	SN 2.3	Māghasutta		
 A IV 197, A IV 202	AN 8.19	Pahārādasutta		
-_X_ Ud 53		Uposathasutta		
-_X_ Vin II 237				
+Ud 53	Ud 5.5	Uposathasutta		
+Vin II 237	Kd 19		pli-tv-kd19	
 S I 135	SN 5.10	Vajirāsutta		
 Sn 858	Snp 4.10	Purābhedasutta		
 		Sermon 22		
@@ -354,7 +356,7 @@ Ud 67	Ud 6.4	Paṭhamanānātitthiyasutta
 Sn 734	Snp 3.12	Dvāyatanānupassanasutta		
 Sn 779	Snp 4.2	Guhaṭṭhakasutta		
 Ud 27	Ud 3.3	Yasojasutta		
-_X_ Vin III 92		Pārājikakaṇḍa		
+Vin III 92	Pj 4	Pārājikakaṇḍa	pli-tv-bu-vb-pj4	
 Dhp 201		Sukhavagga	dhp197-208	
 S I 70	SN 3.2	Purisasutta		
 Sn 270, Sn 273	Snp 2.5	Sūcilomasutta		
@@ -382,7 +384,6 @@ Sn 436	Snp 3.2	Padhānasutta
 Sn 970	Snp 4.16	Sāriputtasutta		
 Thī 75	Thig 5.2	Vimalātherīgāthā		
 S I 126	SN 4.25	Dhītarosutta		
-Sn 472	Snp 3.4	Sundarikabhāradvājasutta		
 		Sermon 30		
 M I 119	MN 20	Vitakkasanthānasutta		
 S IV 282	SN 41.1	Saṁyojanasutta		

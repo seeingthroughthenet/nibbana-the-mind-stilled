@@ -829,7 +829,7 @@ breaks loose and runs riot, it creates a certain deluded state of mind, which is
 
 [^fn388]: [Snp 4.11 / Sn 875](https://suttacentral.net/snp4.11/pli/ms), *Kalahavivādasutta*
 
-[^fn389]: Similar connotations recur in the variant reading *paramayakkhavisuddhi* at [AN 10.29 / A V 64](https://suttacentral.net/an10.29/pli/ms), and in the expression *yakkhassa suddhi* at Sn 478
+[^fn389]: Similar connotations recur in the variant reading *paramayakkhavisuddhi* at [AN 10.29 / A V 64](https://suttacentral.net/an10.29/pli/ms), and in the expression *yakkhassa suddhi* at [Snp 3.4 / Sn 482](https://suttacentral.net/snp3.4/pli/ms)
 
 [^fn390]: [Snp 5.7 / Sn 1074](https://suttacentral.net/snp5.7/pli/ms), *Upasīvamāṇavapucchā*
 

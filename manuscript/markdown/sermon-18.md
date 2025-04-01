@@ -802,7 +802,7 @@ death, a solution that completely outwits Māra.
 
 [^fn619]: See *Sermon 5*
 
-[^fn620]: [Snp 1.1 / Sn 1-17](https://suttacentral.net/snp1.1/pli/ms) , *Uragasutta*
+[^fn620]: [Snp 1.1 / Sn 1-17](https://suttacentral.net/snp1.1/pli/ms), *Uragasutta*
 
 [^fn621]: [Snp 1.1 / Sn 8](https://suttacentral.net/snp1.1/pli/ms), *Uragasutta*
 

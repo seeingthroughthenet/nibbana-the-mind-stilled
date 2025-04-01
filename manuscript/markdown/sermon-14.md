@@ -848,7 +848,7 @@ So these lines could be rendered as follows:
 
 [^fn489]: [SN 22.3 / S III 9](https://suttacentral.net/sn22.3/pli/ms), *Hāliddikānisutta*
 
-[^fn490]: S IV 372, *Asaṅkhatasaṁyutta*
+[^fn490]: [SN 43.14-43 / S IV 372](https://suttacentral.net/sn43.14-43/pli/ms), *Asaṅkhatasaṁyutta*
 
 [^fn491]: [Snp 5.11 / Sn 1092](https://suttacentral.net/snp5.11/pli/ms), *Kappamāṇavapucchā*
 
@@ -872,7 +872,7 @@ So these lines could be rendered as follows:
 
 [^fn501]: Vism 327
 
-[^fn502]: See *Asaṅkhatasaṁyutta*, S IV 359-373
+[^fn502]: See *Asaṅkhatasaṁyutta*, [SN 43 / S IV 359-373](https://suttacentral.net/pitaka/sutta/linked/sn/sn-salayatanavaggasamyutta/sn43)
 
 [^fn503]: Mil 268
 
@@ -884,7 +884,7 @@ So these lines could be rendered as follows:
 
 [^fn507]: [AN 3.40 / A I 150](https://suttacentral.net/an3.40/pli/ms), *Ādhipateyyasutta*
 
-[^fn508]: A I 24, *Etadaggavagga*
+[^fn508]: [AN 1.209-218 / A I 24](https://suttacentral.net/an1.209-218/pli/ms), *Etadaggavagga*
 
 [^fn509]: [Ud 1.10 / Ud 8](https://suttacentral.net/ud1.10/pli/ms), *Bāhiyasutta*
 
