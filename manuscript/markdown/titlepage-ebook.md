@@ -15,7 +15,7 @@ Read this book online:
 <https://seeingthroughthenet.github.io/nibbana-the-mind-stilled>
 
 <div>
-<p><em>Last updated on: 2025-03-22</em></p>
+<p><em>Last updated on: 2025-04-06</em></p>
 </div>
 
 Library Edition
