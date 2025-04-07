@@ -26,6 +26,20 @@
   </div>
 </div>
 
+## Hard Copies via Print-On-Demand
+
+<div class="grid download-item">
+  <div class="col-1-3 item-cover">
+    <img src="./assets/images/books.png" alt="Books" />
+  </div>
+  <div class="col-2-3 item-description">
+    <h3>Nibbāna - The Mind Stilled, Part 1-2.</h3>
+    <p><em>by Bhikkhu Kaṭukurunde Ñāṇananda</em></p>
+  </div>
+</div>
+
+Hard-copies are available via print-on-demand. We ask you to enquire in email at [knssb@seeingthroughthenet.net](mailto:knssb@seeingthroughthenet.net) so that the KNSSB Team may provide you with the information about how to access the print-on-demand service.
+
 Distribution and commercial rights are reserved by the KNSSB.
 
 <div style="margin-top: 4em; font-size: 0.8em;">
