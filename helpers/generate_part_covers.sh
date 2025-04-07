@@ -3,10 +3,11 @@
 # associative array with keys, not index numbers
 declare -A widths
 
+widths[0]=1009
 widths[1]=944
 widths[2]=946
 
-for n in 1 2; do
+for n in 0 1 2; do
     w=${widths[$n]}
     name=cover-$n
 

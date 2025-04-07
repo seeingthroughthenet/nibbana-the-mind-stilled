@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="100pt"
+   width="200pt"
    height="666pt"
-   viewBox="0 0 35.277778 234.95"
+   viewBox="0 0 70.555556 234.95"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="false"
-     inkscape:zoom="0.75277076"
-     inkscape:cx="-371.95919"
-     inkscape:cy="421.77515"
+     inkscape:zoom="1.0645786"
+     inkscape:cx="-45.088262"
+     inkscape:cy="234.36503"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
      inkscape:window-x="0"
@@ -88,11 +88,11 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="bg"
-     style="fill:#bb513e;fill-opacity:1">
+     style="display:inline;fill:#bb513e;fill-opacity:1">
     <rect
        style="opacity:1;fill:#7e1d26;fill-opacity:1;stroke-width:0"
        id="rect1"
-       width="35.277779"
+       width="70.555557"
        height="234.95"
        x="0"
        y="0"
@@ -102,14 +102,14 @@
        id="rect12"
        width="18"
        height="234.95"
-       x="8.6388893"
+       x="26.277779"
        y="0" />
     <rect
        style="opacity:1;fill:#57121a;fill-opacity:1;stroke-width:0"
        id="rect13"
        width="16"
        height="234.95"
-       x="9.6388893"
+       x="27.277779"
        y="0" />
   </g>
   <g
@@ -121,14 +121,14 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.8;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:1;fill:#ffffff;stroke-width:0"
        x="189.10181"
-       y="-15.622763"
+       y="-33.26165"
        id="text1"
        transform="rotate(90)"
        inkscape:label="text1"><tspan
          sodipodi:role="line"
          id="tspan5"
          x="189.10181"
-         y="-15.622763">Bhikkhu K. Ñāṇananda</tspan></text>
+         y="-33.26165">Bhikkhu K. Ñāṇananda</tspan></text>
   </g>
   <g
      inkscape:label="title"
@@ -139,47 +139,47 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.8;font-family:'Source Sans 3';-inkscape-font-specification:'Source Sans 3, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0"
        x="50.753555"
-       y="-15.622763"
+       y="-33.26165"
        id="text2"
        transform="rotate(90)"
        inkscape:label="title"><tspan
          sodipodi:role="line"
          id="tspan6"
          x="50.753555"
-         y="-15.622763">Nibbāna – The Mind Stilled</tspan></text>
+         y="-33.26165">Nibbāna – The Mind Stilled</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="part 1"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.64444px;line-height:1.8;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Light Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0"
        x="115.97297"
-       y="-15.622763"
+       y="-33.26165"
        id="text7"
        transform="rotate(90)"><tspan
          sodipodi:role="line"
          id="tspan7"
          x="115.97297"
-         y="-15.622763">Part I: Sermons 1-16</tspan></text>
+         y="-33.26165">Part I: Sermons 1-16</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="g8"
      inkscape:label="part 2"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.64444px;line-height:1.8;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Light Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0"
        x="118.1235"
-       y="-15.622763"
+       y="-33.26165"
        id="text8"
        transform="rotate(90)"><tspan
          sodipodi:role="line"
          id="tspan8"
          x="118.1235"
-         y="-15.622763">Part II: Sermons 17-33</tspan></text>
+         y="-33.26165">Part II: Sermons 17-33</tspan></text>
   </g>
 </svg>
